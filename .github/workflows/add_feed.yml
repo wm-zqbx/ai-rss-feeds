@@ -2,7 +2,10 @@ name: Add Feed
 
 on:
   issues:
-    types: [opened]
+    # Use `labeled` (not `opened`) because issue-form templates can apply labels
+    # after the opened event fires, causing the label guard to skip silently.
+    # Listening to `labeled` avoids that race.
+    types: [labeled]
 
 permissions:
   contents: write
@@ -10,7 +13,7 @@ permissions:
 
 jobs:
   add-feed:
-    if: contains(github.event.issue.labels.*.name, 'new-feed')
+    if: github.event.label.name == 'new-feed'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,8 +37,10 @@ jobs:
           # Snapshot the newest config BEFORE running (to exclude it from diff detection)
           PREV=$(ls -t configs/*.json 2>/dev/null | head -1 || echo "")
           echo "prev_config=${PREV#configs/}" >> $GITHUB_OUTPUT
-          OUTPUT=$(bun run src/add-smart.ts "${{ steps.url.outputs.url }}" 2>&1)
-          echo "$OUTPUT"
+          # tee into a log file so the failure-comment step can read the real
+          # error output (pipefail still propagates a non-zero exit).
+          bun run src/add-smart.ts "${{ steps.url.outputs.url }}" 2>&1 | tee /tmp/add-smart.log
+          OUTPUT=$(cat /tmp/add-smart.log)
           NATIVE_URL=$(echo "$OUTPUT" | grep '^native_feed_url=' | sed 's/^native_feed_url=//')
           if [ -n "$NATIVE_URL" ]; then
             echo "native_url=$NATIVE_URL" >> $GITHUB_OUTPUT
@@ -100,16 +105,13 @@ jobs:
             const fs = require('fs');
             let errorHint = '';
             try {
-              const logs = fs.readdirSync('/home/runner/work/_temp/').filter(f => f.endsWith('.log'));
-              if (logs.length > 0) {
-                const logContent = fs.readFileSync(`/home/runner/work/_temp/${logs[0]}`, 'utf8');
-                if (logContent.includes('Cloudflare') || logContent.includes('cf-mitigated')) {
-                  errorHint = '\n\n⚠️ This site is protected by Cloudflare bot detection. Static HTTP requests cannot access it.';
-                } else if (logContent.includes('No articles found')) {
-                  errorHint = '\n\n⚠️ The site structure could not be parsed. It may be a JavaScript-rendered SPA.';
-                } else if (logContent.includes('No releases found')) {
-                  errorHint = '\n\n⚠️ No GitHub releases found for this repository.';
-                }
+              const logContent = fs.readFileSync('/tmp/add-smart.log', 'utf8');
+              if (logContent.includes('Cloudflare') || logContent.includes('cf-mitigated')) {
+                errorHint = '\n\n⚠️ This site is protected by Cloudflare bot detection. Static HTTP requests cannot access it.';
+              } else if (logContent.includes('No articles found')) {
+                errorHint = '\n\n⚠️ The site structure could not be parsed. It may be a JavaScript-rendered SPA.';
+              } else if (logContent.includes('No releases found')) {
+                errorHint = '\n\n⚠️ No GitHub releases found for this repository.';
               }
             } catch (e) {}
 
