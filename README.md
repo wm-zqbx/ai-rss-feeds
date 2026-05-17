@@ -60,6 +60,7 @@ https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/{name}.x
 | `css` (default) | Blog index pages | Cheerio CSS selectors on HTML |
 | `json` | Next.js / SPA sites | JSON extraction from `<script>` tags |
 | `changelog` | Keep a Changelog files | Markdown `## version` headings |
+| `rss` | Mirror an upstream RSS feed | `rssExtraction.feedUrl` parsed via rss-parser |
 | `github-releases` | GitHub projects | GitHub Releases API (structured data) |
 
 ### Architecture
