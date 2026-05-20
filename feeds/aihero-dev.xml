@@ -4,11 +4,19 @@
         <title>www.aihero.dev</title>
         <link>https://www.aihero.dev/</link>
         <description>AI Hero - AI Engineering for Curious Professional Developers</description>
-        <lastBuildDate>Sat, 16 May 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 21:34:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/aihero-dev.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[17 Techniques For Improving Your LLM-Powered App]]></title>
+            <link>https://www.aihero.dev/how-to-improve-your-llm-powered-app</link>
+            <guid>https://www.aihero.dev/how-to-improve-your-llm-powered-app</guid>
+            <pubDate>Wed, 20 May 2026 21:34:07 GMT</pubDate>
+            <description><![CDATA[A directory of techniques for improving your LLM-powered app.]]></description>
+            <content:encoded><![CDATA[A directory of techniques for improving your LLM-powered app.]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[AI Hero Newsletter by Matt Pocock]]></title>
             <link>https://www.aihero.dev/newsletter</link>
@@ -400,14 +408,6 @@
             <pubDate>Thu, 07 May 2026 06:42:44 GMT</pubDate>
             <description><![CDATA[Early in a session the agent is sharp and focused. As the session grows it drifts into a dumb zone: sloppier, forgetful, more mistakes.]]></description>
             <content:encoded><![CDATA[Early in a session the agent is sharp and focused. As the session grows it drifts into a dumb zone: sloppier, forgetful, more mistakes.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Clearing | AI Coding Dictionary]]></title>
-            <link>https://www.aihero.dev/ai-coding-dictionary/clearing</link>
-            <guid>https://www.aihero.dev/ai-coding-dictionary/clearing</guid>
-            <pubDate>Thu, 07 May 2026 06:42:44 GMT</pubDate>
-            <description><![CDATA[Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window.]]></description>
-            <content:encoded><![CDATA[Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window.]]></content:encoded>
         </item>
     </channel>
 </rss>
