@@ -4,11 +4,18 @@
         <title>Stability AI News</title>
         <link>https://stability.ai/news</link>
         <description>Latest news and updates from Stability AI</description>
-        <lastBuildDate>Wed, 08 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/stability-ai.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Meet Stable Audio 3.0, the model family built for artistic experimentation with open-weight models]]></title>
+            <link>https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models</link>
+            <guid>https://stability.ai/news-updates/meet-stable-audio-3-the-model-family-built-for-artistic-experimentation-with-open-weight-models</guid>
+            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're releasing Stable Audio 3.0, a model family trained on fully licensed data, designed to be the foundation for what the audio community builds next.]]></description>
+        </item>
         <item>
             <title><![CDATA[Introducing Brand Studio: The creative production platform powered by your brand]]></title>
             <link>https://stability.ai/news-updates/brand-studio-by-stability-ai-creative-production-platform-for-brands</link>
@@ -141,13 +148,6 @@
             <guid>https://stability.ai/news-updates/stability-ai-announces-investment-from-wpp-and-new-partnership-to-shape-the-future-of-media-and-entertainment-production</guid>
             <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Today we announced a strategic partnership and investment by WPP, the creative transformation company. Together, we aim to usher in a new era of innovation at the convergence of creativity and technology.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Stability AI and Arm Bring On-Device Generative Audio to Smartphones]]></title>
-            <link>https://stability.ai/news-updates/stability-ai-and-arm-bring-on-device-generative-audio-to-smartphones</link>
-            <guid>https://stability.ai/news-updates/stability-ai-and-arm-bring-on-device-generative-audio-to-smartphones</guid>
-            <pubDate>Mon, 03 Mar 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[We’ve partnered with Arm to bring generative audio to mobile devices, enabling high-quality sound effects and audio sample generation directly on-device with no internet connection required.]]></description>
         </item>
     </channel>
 </rss>
