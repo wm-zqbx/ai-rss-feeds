@@ -4,11 +4,95 @@
         <title>claude-code Releases</title>
         <link>https://github.com/anthropics/claude-code/releases</link>
         <description>GitHub releases for anthropics/claude-code</description>
-        <lastBuildDate>Thu, 21 May 2026 01:51:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2026 20:39:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude-code-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v2.1.147]]></title>
+            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.147</link>
+            <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.147</guid>
+            <pubDate>Thu, 21 May 2026 20:39:22 GMT</pubDate>
+            <description><![CDATA[<h2>What&#39;s changed</h2>
+<ul>
+<li>Added the <code>Workflow</code> tool for deterministic multi-agent orchestration. It is off by default — set <code>CLAUDE_CODE_WORKFLOWS=1</code> to enable</li>
+<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are shed under memory pressure only after non-pinned sessions</li>
+<li>Renamed <code>/simplify</code> to <code>/code-review</code>. It now reports correctness bugs at a chosen effort level (e.g., <code>/code-review high</code>); pass <code>--comment</code> to post findings as inline GitHub PR comments. The old cleanup-and-fix behavior has been removed</li>
+<li>Hardened REPL and Workflow tool sandboxes against prototype-pollution and thenable-based escapes</li>
+<li>Improved auto-updater: retries transient network failures, reports specific error categories and OS error codes on failure, and shows the current version when an update fails</li>
+<li>Improved diff rendering performance for large file edits</li>
+<li>Prompt history no longer records consecutive duplicate entries — recalling a prompt with arrow-up and submitting it again won&#39;t add another copy</li>
+<li>Fixed enterprise login restrictions (<code>forceLoginOrgUUID</code> and <code>forceLoginMethod</code> managed-settings) not being enforced against third-party-provider and API-key sessions</li>
+<li>Fixed <code>&amp;</code> in <code>!</code> command output displaying as <code>&amp;amp;</code>, which broke copy-pasting URLs from commands like <code>gcloud auth login</code> on headless machines</li>
+<li>Fixed unknown slash commands silently doing nothing in headless/SDK mode — they now show an error message</li>
+<li>Fixed <code>/help</code> rendering a broken tab header and showing only one command per page on small terminals when not in fullscreen mode</li>
+<li>Fixed shell snapshot dropping user functions whose names start with a single underscore, which broke aliases referencing them</li>
+<li>Fixed plugin agents that declare multiple <code>Agent(...)</code> types in <code>tools:</code> frontmatter dropping all but the last entry</li>
+<li>Fixed hook <code>if</code> conditions like <code>PowerShell(git push*)</code> never matching — only <code>PowerShell(*)</code> worked</li>
+<li>Fixed PowerShell tool dropping output for commands that rely on the default formatter</li>
+<li>Fixed: on Windows, &quot;Yes, and don&#39;t ask again&quot; for a PowerShell script invocation now writes a rule that actually matches on subsequent runs</li>
+<li>Fixed PowerShell tool failing on Windows with exit code 1 when <code>pwsh</code> is installed via winget or the Microsoft Store</li>
+<li>Fixed <code>/effort</code> opening with the slider on the wrong level — it now starts at your current effort</li>
+<li>Fixed paginating MCP servers dropping resources, templates, and prompts past page 1</li>
+<li>Fixed full-screen strobing in attached background sessions on Windows Terminal while Claude is streaming</li>
+<li>Fixed: on Windows, removing a background-job worktree no longer follows NTFS junctions into the main repo</li>
+<li>Fixed <code>/background</code> refusing sessions whose only typed input was a skill or custom slash command</li>
+<li>Fixed auto mode suppressing <code>AskUserQuestion</code> when the user or a skill explicitly relies on it; the auto-mode classifier now sees the user&#39;s answers as intent signal</li>
+<li>Fixed <code>/theme</code> &quot;New custom theme&quot; and color editor dialogs not responding to Esc</li>
+<li>Fixed an uncaught exception at the end of streaming sessions when running via the Agent SDK</li>
+<li>Fixed a rare hang when waiting for scroll to settle on Windows</li>
+<li>Fixed stale and doubled rows in the agent view list on Windows when background session results contain wide (CJK) characters</li>
+<li>Fixed pasted text being delivered to agents as an unreadable <code>[Pasted text #N]</code> placeholder instead of the actual content</li>
+<li>Fixed plugin component counts in <code>claude plugin details</code> and <code>/plugin</code> being doubled when a plugin&#39;s manifest listed paths overlapping its default directories</li>
+<li>Fixed backgrounded sessions re-prompting for tool permissions you already granted with &quot;don&#39;t ask again&quot;</li>
+<li>Fixed GNOME Terminal right-click and middle-click paste not inserting text</li>
+<li>Fixed <code>CLAUDE_CODE_SUBAGENT_MODEL</code> not applying to teammate processes spawned by agent teams</li>
+<li>Fixed slash commands followed by a tab or newline being treated as an unknown command</li>
+<li>Fixed several spacing and layout glitches in the <code>/plugin</code>, <code>/status</code>, <code>/mobile</code>, <code>/sandbox</code>, and <code>/permissions</code> menus</li>
+<li>Fixed stripped images prompting the model to repeatedly re-read media that was no longer present</li>
+</ul>
+]]></description>
+            <content:encoded><![CDATA[<h2>What&#39;s changed</h2>
+<ul>
+<li>Added the <code>Workflow</code> tool for deterministic multi-agent orchestration. It is off by default — set <code>CLAUDE_CODE_WORKFLOWS=1</code> to enable</li>
+<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are shed under memory pressure only after non-pinned sessions</li>
+<li>Renamed <code>/simplify</code> to <code>/code-review</code>. It now reports correctness bugs at a chosen effort level (e.g., <code>/code-review high</code>); pass <code>--comment</code> to post findings as inline GitHub PR comments. The old cleanup-and-fix behavior has been removed</li>
+<li>Hardened REPL and Workflow tool sandboxes against prototype-pollution and thenable-based escapes</li>
+<li>Improved auto-updater: retries transient network failures, reports specific error categories and OS error codes on failure, and shows the current version when an update fails</li>
+<li>Improved diff rendering performance for large file edits</li>
+<li>Prompt history no longer records consecutive duplicate entries — recalling a prompt with arrow-up and submitting it again won&#39;t add another copy</li>
+<li>Fixed enterprise login restrictions (<code>forceLoginOrgUUID</code> and <code>forceLoginMethod</code> managed-settings) not being enforced against third-party-provider and API-key sessions</li>
+<li>Fixed <code>&amp;</code> in <code>!</code> command output displaying as <code>&amp;amp;</code>, which broke copy-pasting URLs from commands like <code>gcloud auth login</code> on headless machines</li>
+<li>Fixed unknown slash commands silently doing nothing in headless/SDK mode — they now show an error message</li>
+<li>Fixed <code>/help</code> rendering a broken tab header and showing only one command per page on small terminals when not in fullscreen mode</li>
+<li>Fixed shell snapshot dropping user functions whose names start with a single underscore, which broke aliases referencing them</li>
+<li>Fixed plugin agents that declare multiple <code>Agent(...)</code> types in <code>tools:</code> frontmatter dropping all but the last entry</li>
+<li>Fixed hook <code>if</code> conditions like <code>PowerShell(git push*)</code> never matching — only <code>PowerShell(*)</code> worked</li>
+<li>Fixed PowerShell tool dropping output for commands that rely on the default formatter</li>
+<li>Fixed: on Windows, &quot;Yes, and don&#39;t ask again&quot; for a PowerShell script invocation now writes a rule that actually matches on subsequent runs</li>
+<li>Fixed PowerShell tool failing on Windows with exit code 1 when <code>pwsh</code> is installed via winget or the Microsoft Store</li>
+<li>Fixed <code>/effort</code> opening with the slider on the wrong level — it now starts at your current effort</li>
+<li>Fixed paginating MCP servers dropping resources, templates, and prompts past page 1</li>
+<li>Fixed full-screen strobing in attached background sessions on Windows Terminal while Claude is streaming</li>
+<li>Fixed: on Windows, removing a background-job worktree no longer follows NTFS junctions into the main repo</li>
+<li>Fixed <code>/background</code> refusing sessions whose only typed input was a skill or custom slash command</li>
+<li>Fixed auto mode suppressing <code>AskUserQuestion</code> when the user or a skill explicitly relies on it; the auto-mode classifier now sees the user&#39;s answers as intent signal</li>
+<li>Fixed <code>/theme</code> &quot;New custom theme&quot; and color editor dialogs not responding to Esc</li>
+<li>Fixed an uncaught exception at the end of streaming sessions when running via the Agent SDK</li>
+<li>Fixed a rare hang when waiting for scroll to settle on Windows</li>
+<li>Fixed stale and doubled rows in the agent view list on Windows when background session results contain wide (CJK) characters</li>
+<li>Fixed pasted text being delivered to agents as an unreadable <code>[Pasted text #N]</code> placeholder instead of the actual content</li>
+<li>Fixed plugin component counts in <code>claude plugin details</code> and <code>/plugin</code> being doubled when a plugin&#39;s manifest listed paths overlapping its default directories</li>
+<li>Fixed backgrounded sessions re-prompting for tool permissions you already granted with &quot;don&#39;t ask again&quot;</li>
+<li>Fixed GNOME Terminal right-click and middle-click paste not inserting text</li>
+<li>Fixed <code>CLAUDE_CODE_SUBAGENT_MODEL</code> not applying to teammate processes spawned by agent teams</li>
+<li>Fixed slash commands followed by a tab or newline being treated as an unknown command</li>
+<li>Fixed several spacing and layout glitches in the <code>/plugin</code>, <code>/status</code>, <code>/mobile</code>, <code>/sandbox</code>, and <code>/permissions</code> menus</li>
+<li>Fixed stripped images prompting the model to repeatedly re-read media that was no longer present</li>
+</ul>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v2.1.146]]></title>
             <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.146</link>
@@ -3218,74 +3302,6 @@
 <li>Deprecated <code>TaskOutput</code> tool in favor of using <code>Read</code> on the background task&#39;s output file path</li>
 <li>[VSCode] Spinner now turns red with &quot;Not responding&quot; when the backend hasn&#39;t responded for 60 seconds</li>
 <li>[VSCode] Fixed session history not loading correctly when reopening a session via URL or after restart</li>
-</ul>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v2.1.81]]></title>
-            <link>https://github.com/anthropics/claude-code/releases/tag/v2.1.81</link>
-            <guid>https://github.com/anthropics/claude-code/releases/tag/v2.1.81</guid>
-            <pubDate>Fri, 20 Mar 2026 22:24:50 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s changed</h2>
-<ul>
-<li>Added <code>--bare</code> flag for scripted <code>-p</code> calls — skips hooks, LSP, plugin sync, and skill directory walks; requires <code>ANTHROPIC_API_KEY</code> or an <code>apiKeyHelper</code> via <code>--settings</code> (OAuth and keychain auth disabled); auto-memory fully disabled</li>
-<li>Added <code>--channels</code> permission relay — channel servers that declare the permission capability can forward tool approval prompts to your phone</li>
-<li>Fixed multiple concurrent Claude Code sessions requiring repeated re-authentication when one session refreshes its OAuth token</li>
-<li>Fixed voice mode silently swallowing retry failures and showing a misleading &quot;check your network&quot; message instead of the actual error</li>
-<li>Fixed voice mode audio not recovering when the server silently drops the WebSocket connection</li>
-<li>Fixed <code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS</code> not suppressing the structured-outputs beta header, causing 400 errors on proxy gateways forwarding to Vertex/Bedrock</li>
-<li>Fixed <code>--channels</code> bypass for Team/Enterprise orgs with no other managed settings configured</li>
-<li>Fixed a crash on Node.js 18</li>
-<li>Fixed unnecessary permission prompts for Bash commands containing dashes in strings</li>
-<li>Fixed plugin hooks blocking prompt submission when the plugin directory is deleted mid-session</li>
-<li>Fixed a race condition where background agent task output could hang indefinitely when the task completed between polling intervals</li>
-<li>Resuming a session that was in a worktree now switches back to that worktree</li>
-<li>Fixed <code>/btw</code> not including pasted text when used during an active response</li>
-<li>Fixed a race where fast Cmd+Tab followed by paste could beat the clipboard copy under tmux</li>
-<li>Fixed terminal tab title not updating with an auto-generated session description</li>
-<li>Fixed invisible hook attachments inflating the message count in transcript mode</li>
-<li>Fixed Remote Control sessions showing a generic title instead of deriving from the first prompt</li>
-<li>Fixed <code>/rename</code> not syncing the title for Remote Control sessions</li>
-<li>Fixed Remote Control <code>/exit</code> not reliably archiving the session</li>
-<li>Improved MCP read/search tool calls to collapse into a single &quot;Queried {server}&quot; line (expand with Ctrl+O)</li>
-<li>Improved <code>!</code> bash mode discoverability — Claude now suggests it when you need to run an interactive command</li>
-<li>Improved plugin freshness — ref-tracked plugins now re-clone on every load to pick up upstream changes</li>
-<li>Improved Remote Control session titles to refresh after your third message</li>
-<li>Updated MCP OAuth to support Client ID Metadata Document (CIMD / SEP-991) for servers without Dynamic Client Registration</li>
-<li>Changed plan mode to hide the &quot;clear context&quot; option by default (restore with <code>&quot;showClearContextOnPlanAccept&quot;: true</code>)</li>
-<li>Disabled line-by-line response streaming on Windows (including WSL in Windows Terminal) due to rendering issues</li>
-<li>[VSCode] Fixed Windows PATH inheritance for Bash tool when using Git Bash (regression in v2.1.78)</li>
-</ul>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s changed</h2>
-<ul>
-<li>Added <code>--bare</code> flag for scripted <code>-p</code> calls — skips hooks, LSP, plugin sync, and skill directory walks; requires <code>ANTHROPIC_API_KEY</code> or an <code>apiKeyHelper</code> via <code>--settings</code> (OAuth and keychain auth disabled); auto-memory fully disabled</li>
-<li>Added <code>--channels</code> permission relay — channel servers that declare the permission capability can forward tool approval prompts to your phone</li>
-<li>Fixed multiple concurrent Claude Code sessions requiring repeated re-authentication when one session refreshes its OAuth token</li>
-<li>Fixed voice mode silently swallowing retry failures and showing a misleading &quot;check your network&quot; message instead of the actual error</li>
-<li>Fixed voice mode audio not recovering when the server silently drops the WebSocket connection</li>
-<li>Fixed <code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS</code> not suppressing the structured-outputs beta header, causing 400 errors on proxy gateways forwarding to Vertex/Bedrock</li>
-<li>Fixed <code>--channels</code> bypass for Team/Enterprise orgs with no other managed settings configured</li>
-<li>Fixed a crash on Node.js 18</li>
-<li>Fixed unnecessary permission prompts for Bash commands containing dashes in strings</li>
-<li>Fixed plugin hooks blocking prompt submission when the plugin directory is deleted mid-session</li>
-<li>Fixed a race condition where background agent task output could hang indefinitely when the task completed between polling intervals</li>
-<li>Resuming a session that was in a worktree now switches back to that worktree</li>
-<li>Fixed <code>/btw</code> not including pasted text when used during an active response</li>
-<li>Fixed a race where fast Cmd+Tab followed by paste could beat the clipboard copy under tmux</li>
-<li>Fixed terminal tab title not updating with an auto-generated session description</li>
-<li>Fixed invisible hook attachments inflating the message count in transcript mode</li>
-<li>Fixed Remote Control sessions showing a generic title instead of deriving from the first prompt</li>
-<li>Fixed <code>/rename</code> not syncing the title for Remote Control sessions</li>
-<li>Fixed Remote Control <code>/exit</code> not reliably archiving the session</li>
-<li>Improved MCP read/search tool calls to collapse into a single &quot;Queried {server}&quot; line (expand with Ctrl+O)</li>
-<li>Improved <code>!</code> bash mode discoverability — Claude now suggests it when you need to run an interactive command</li>
-<li>Improved plugin freshness — ref-tracked plugins now re-clone on every load to pick up upstream changes</li>
-<li>Improved Remote Control session titles to refresh after your third message</li>
-<li>Updated MCP OAuth to support Client ID Metadata Document (CIMD / SEP-991) for servers without Dynamic Client Registration</li>
-<li>Changed plan mode to hide the &quot;clear context&quot; option by default (restore with <code>&quot;showClearContextOnPlanAccept&quot;: true</code>)</li>
-<li>Disabled line-by-line response streaming on Windows (including WSL in Windows Terminal) due to rendering issues</li>
-<li>[VSCode] Fixed Windows PATH inheritance for Bash tool when using Git Bash (regression in v2.1.78)</li>
 </ul>
 ]]></content:encoded>
         </item>
