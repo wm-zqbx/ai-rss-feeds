@@ -10,13 +10,19 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Google I/O 2026 Releases and Cerebras’ $95B IPO w/ Andrew Feldman | EP #256]]></title>
+            <link>https://www.youtube.com/watch?v=kklrodAua_U</link>
+            <guid>https://www.youtube.com/watch?v=kklrodAua_U</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[米国、国内レアアース供給網の構築に急ぐ]]></title>
             <link>https://www.youtube.com/watch?v=yyf14HlOhAk</link>
             <guid>https://www.youtube.com/watch?v=yyf14HlOhAk</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Agents Are Breaking Cloud Infra: 15% Utilization, 90% Peaks, & New Compute Layer — Ivan Burazin]]></title>
+            <title><![CDATA[エージェントがクラウドインフラを壊す：利用率15％、ピーク時90％、そして新しいコンピュートレイヤー — Ivan Burazin]]></title>
             <link>https://www.youtube.com/watch?v=kaX43RRRUKY</link>
             <guid>https://www.youtube.com/watch?v=kaX43RRRUKY</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -46,7 +52,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[AI Was Supposed to Save Time. Why Am I Busier?]]></title>
+            <title><![CDATA[AIは時間を節約するはずだった。なのにどうして忙しいの？]]></title>
             <link>https://www.youtube.com/watch?v=jBZQ5Ay20HU</link>
             <guid>https://www.youtube.com/watch?v=jBZQ5Ay20HU</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[捨てられた薬を革新的治療薬へと変える]]></title>
             <link>https://www.youtube.com/watch?v=qZIeH6Jk9RY</link>
             <guid>https://www.youtube.com/watch?v=qZIeH6Jk9RY</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ファイザーCEO: 医学におけるAI、中国からの教訓、そして楽観主義で導く | ポッドキャスト | In Good Company]]></title>
-            <link>https://www.youtube.com/watch?v=3ymR4wPmF7o</link>
-            <guid>https://www.youtube.com/watch?v=3ymR4wPmF7o</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
