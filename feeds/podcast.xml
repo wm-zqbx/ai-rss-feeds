@@ -10,6 +10,30 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[CerebrasのIPO、プレミアムトークン、Neo Cloud、そしてオングストローム時代]]></title>
+            <link>https://www.youtube.com/watch?v=WfnVAK0QQUc</link>
+            <guid>https://www.youtube.com/watch?v=WfnVAK0QQUc</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[年間170万ドルを稼ぐ、想像できる中で最も退屈なニッチ]]></title>
+            <link>https://www.youtube.com/watch?v=BHhg-l9AZpM</link>
+            <guid>https://www.youtube.com/watch?v=BHhg-l9AZpM</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[VS Codeでエージェントを活用する — Liam Hampton, Microsoft]]></title>
+            <link>https://www.youtube.com/watch?v=dyHpnnlkTc8</link>
+            <guid>https://www.youtube.com/watch?v=dyHpnnlkTc8</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[AI Was Supposed to Save Time. Why Am I Busier?]]></title>
+            <link>https://www.youtube.com/watch?v=jBZQ5Ay20HU</link>
+            <guid>https://www.youtube.com/watch?v=jBZQ5Ay20HU</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ジョー・ローガン・エクスペリエンス #2502 - デイビッド・ポーリデス]]></title>
             <link>https://www.youtube.com/watch?v=_UduwgMDR-0</link>
             <guid>https://www.youtube.com/watch?v=_UduwgMDR-0</guid>
@@ -103,30 +127,6 @@
             <title><![CDATA[HSBCの新レポート、女性の財務目標達成におけるギャップを指摘]]></title>
             <link>https://www.youtube.com/watch?v=rXp95kqA-Nw</link>
             <guid>https://www.youtube.com/watch?v=rXp95kqA-Nw</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[鴻海：アップル依存からの脱却、新たな恋人が一、二]]></title>
-            <link>https://podcasters.spotify.com/pod/show/jon83/episodes/Foxconn-No-longer-addicted-to-Apple-there-is-a-new-love-or-two-e3jflhc</link>
-            <guid>https://podcasters.spotify.com/pod/show/jon83/episodes/Foxconn-No-longer-addicted-to-Apple-there-is-a-new-love-or-two-e3jflhc</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Joe Rogan Experience #2501 - マーク・アンドリーセン]]></title>
-            <link>https://www.youtube.com/watch?v=PHQvb10vKyk</link>
-            <guid>https://www.youtube.com/watch?v=PHQvb10vKyk</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[主権制約下でAIを構築すると何が壊れるか - Bilge Yücel, deepset GmbH]]></title>
-            <link>https://www.youtube.com/watch?v=x2bH0RKPgdc</link>
-            <guid>https://www.youtube.com/watch?v=x2bH0RKPgdc</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[スロップを作るな（AIエージェント成熟度の4段階）- アラ・カーン、Cline]]></title>
-            <link>https://www.youtube.com/watch?v=yUmS-F9IX90</link>
-            <guid>https://www.youtube.com/watch?v=yUmS-F9IX90</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
