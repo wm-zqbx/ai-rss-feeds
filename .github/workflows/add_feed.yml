@@ -47,7 +47,9 @@ jobs:
           fi
           # Identify the config created by this run (if any)
           NEW=$(ls -t configs/*.json 2>/dev/null | head -1 || echo "")
-          echo "config_name=${NEW#configs/}" >> $GITHUB_OUTPUT
+          if [ -n "$NEW" ]; then
+            echo "config_name=$(basename "$NEW" .json)" >> $GITHUB_OUTPUT
+          fi
           echo "Config created: $NEW"
         env:
           GITHUB_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
