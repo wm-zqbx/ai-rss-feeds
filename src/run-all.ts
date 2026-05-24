@@ -158,7 +158,7 @@ async function main() {
 
   console.log(`\n📊 Results: ${success} success, ${failed} failed`);
 
-  if (failed > 0) {
+  if (success === 0 && failed > 0) {
     process.exit(1);
   }
 }

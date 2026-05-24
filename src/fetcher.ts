@@ -2,7 +2,7 @@
  * HTML fetcher with timeout and retry.
  */
 
-const DEFAULT_TIMEOUT = 15_000;
+const DEFAULT_TIMEOUT = 30_000;
 const DEFAULT_RETRIES = 2;
 
 // Browser-like headers to avoid Cloudflare/bot detection
