@@ -10,6 +10,13 @@
         <language>zh</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[文匯專訪︱蘇慧：從零起步兩年研製「天韻相機」　與黎家盈同展「香港速度」]]></title>
+            <link>https://www.wenweipo.com/a/202605/25/AP6a138b97e4b0b49ad1bc9856.html</link>
+            <guid>https://www.wenweipo.com/a/202605/25/AP6a138b97e4b0b49ad1bc9856.html</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[神舟二十三號載人飛船升空，香港以至全國人民翹首以待。早前隨天舟十號貨運飛船成功抵達國家「天宮」空間站的科研載荷「天韻相機」，有望由首位香港載荷專家黎家盈在軌操作，為全球氣候監測提供關鍵數據支援。]]></description>
+        </item>
+        <item>
             <title><![CDATA[(有片) 【香港青年科學院院長岑浩璋：港人實現航天夢極具啟發性 融入國家大局帶來無限機遇】]]></title>
             <link>https://www.wenweipo.com/a/202605/25/AP6a1333dce4b0b49ad1bc9202.html</link>
             <guid>https://www.wenweipo.com/a/202605/25/AP6a1333dce4b0b49ad1bc9202.html</guid>
@@ -106,13 +113,6 @@
             <guid>https://www.wenweipo.com/a/202605/24/AP6a131f9ae4b0b49ad1bc8faa.html</guid>
             <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[搭載神舟二十三號載人飛船的長征二號F遙二十三運載火箭今日（24日）11時08分在酒泉衛星發射中心點火發射，其後飛船與火箭成功分離，進入預定軌道。行政長官李家超熱烈祝賀是次發射圓滿成功，並向各乘組成員，包括香港特別行政區（特區）首名載荷專家黎家盈博士，致以崇高敬意和真摯祝福。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[(有片)神舟二十三啟航 科大師生雀躍同呼：服務國家再攀高峰]]></title>
-            <link>https://www.wenweipo.com/a/202605/24/AP6a131d7ae4b0b49ad1bc8f0c.html</link>
-            <guid>https://www.wenweipo.com/a/202605/24/AP6a131d7ae4b0b49ad1bc8f0c.html</guid>
-            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[港產載荷專家黎家盈在軌駐留期間，將操作本港首項登上國家太空站的科研載荷「天韻相機」，開展溫室氣體排放源探測任務。研發「天韻相機」的香港科技大學今晚直播神舟二十三號升空情況，在火箭發射的一刻，現場師生興奮歡呼，不論是香港本地或以非本地學生，心情均異常激動！]]></description>
         </item>
     </channel>
 </rss>
