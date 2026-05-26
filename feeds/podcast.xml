@@ -10,6 +10,54 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[クリップがいかにしてインターネットを支配したか | The Vergecast]]></title>
+            <link>https://www.youtube.com/watch?v=jPUSlyhMOb8</link>
+            <guid>https://www.youtube.com/watch?v=jPUSlyhMOb8</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CursorがFireworks上でComposerを訓練した方法：高性能RLのための分散インフラ]]></title>
+            <link>https://www.youtube.com/watch?v=UDTr9yUnLUI</link>
+            <guid>https://www.youtube.com/watch?v=UDTr9yUnLUI</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[「複雑さは味方」：ジェームズ・ブロックルバンクが語るアドベント・インターナショナルのプライベートエクイティ戦略]]></title>
+            <link>https://www.youtube.com/watch?v=bGz3AgFPCs8</link>
+            <guid>https://www.youtube.com/watch?v=bGz3AgFPCs8</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[元国防総省顧問が語る、シリコンバレーはいかにして米軍を再構築しているか]]></title>
+            <link>https://www.youtube.com/watch?v=7-HmjiXKlvg</link>
+            <guid>https://www.youtube.com/watch?v=7-HmjiXKlvg</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[最大のレバレッジ：AIキャリアで最大のインパクトを生む設計法——80,000 Hours創業者ベン・トッドとの対話]]></title>
+            <link>https://www.youtube.com/watch?v=eE02qPe2LBI</link>
+            <guid>https://www.youtube.com/watch?v=eE02qPe2LBI</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Claude Code vs Codex vs Cursor（正直な比較）]]></title>
+            <link>https://www.youtube.com/watch?v=JMYspR42HFM</link>
+            <guid>https://www.youtube.com/watch?v=JMYspR42HFM</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[なぜ中国は米国債を売り続けるのか | チャイナ・デコード]]></title>
+            <link>https://www.youtube.com/watch?v=fN6AGGhDp5s</link>
+            <guid>https://www.youtube.com/watch?v=fN6AGGhDp5s</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dev Daysとロックインの懸念：フロンティアモデル競争の現状確認 | S3E5]]></title>
+            <link>https://www.youtube.com/watch?v=2I2pJzQf15Q</link>
+            <guid>https://www.youtube.com/watch?v=2I2pJzQf15Q</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[ジョー・ローガン・エクスペリエンス #2505 - トム・セグラ]]></title>
             <link>https://www.youtube.com/watch?v=0eCTMVherxE</link>
             <guid>https://www.youtube.com/watch?v=0eCTMVherxE</guid>
@@ -79,54 +127,6 @@
             <title><![CDATA[Zevra Therapeuticsのニール・マクファーレン氏に聞く、希少疾病治療薬の商業化戦略]]></title>
             <link>https://www.youtube.com/watch?v=pldfGPg8vfM</link>
             <guid>https://www.youtube.com/watch?v=pldfGPg8vfM</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[E238｜聊聊Harness时代AI-First的组织架构：从信任人到信任AI]]></title>
-            <link>https://www.youtube.com/watch?v=wC0XcqX_k7Q</link>
-            <guid>https://www.youtube.com/watch?v=wC0XcqX_k7Q</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[CursorがClaude Codeを圧倒]]></title>
-            <link>https://www.youtube.com/watch?v=UvUzpSlXKtg</link>
-            <guid>https://www.youtube.com/watch?v=UvUzpSlXKtg</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Google DeepMindにおけるエージェントシステムの構築 — KP Sawhney & Ian Ballantyne（Google DeepMind）]]></title>
-            <link>https://www.youtube.com/watch?v=7gujZrJ9L5I</link>
-            <guid>https://www.youtube.com/watch?v=7gujZrJ9L5I</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[⚡️ GoogleのオープンAI戦略 — Omar Sanseviero（Google DeepMind）]]></title>
-            <link>https://www.youtube.com/watch?v=Hxlayqs-IAs</link>
-            <guid>https://www.youtube.com/watch?v=Hxlayqs-IAs</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[⚡️ SFを構築すべき理由 — Sunil Pai（Cloudflare）]]></title>
-            <link>https://www.youtube.com/watch?v=287Q-bs_pEU</link>
-            <guid>https://www.youtube.com/watch?v=287Q-bs_pEU</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ゼロから月収3万ドルのアプリを35日で]]></title>
-            <link>https://www.youtube.com/watch?v=vbEKEWtnndU</link>
-            <guid>https://www.youtube.com/watch?v=vbEKEWtnndU</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[すべての計算資源は食物である：PalisadeのJeffrey Ladishが語るAIのシャットダウン耐性、自己複製、エコロジー]]></title>
-            <link>https://www.youtube.com/watch?v=19TnC92SAT4</link>
-            <guid>https://www.youtube.com/watch?v=19TnC92SAT4</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[FOMAT（エージェント時間欠乏恐怖症）について語ろう — Michael Richman, Cmd+Ctrl]]></title>
-            <link>https://www.youtube.com/watch?v=W-SX_srBa3Y</link>
-            <guid>https://www.youtube.com/watch?v=W-SX_srBa3Y</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
