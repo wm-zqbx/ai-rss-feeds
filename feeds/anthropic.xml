@@ -4,11 +4,17 @@
         <title>Anthropic News</title>
         <link>https://www.anthropic.com/news</link>
         <description>News and announcements from Anthropic.</description>
-        <lastBuildDate>Tue, 26 May 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Anthropic opens Milan office to support Italian enterprise, research, and developers]]></title>
+            <link>https://www.anthropic.com/news/milan-office-opening</link>
+            <guid>https://www.anthropic.com/news/milan-office-opening</guid>
+            <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening]]></title>
             <link>https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea</link>
@@ -62,12 +68,6 @@
             <link>https://www.anthropic.com/news/claude-for-small-business</link>
             <guid>https://www.anthropic.com/news/claude-for-small-business</guid>
             <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Higher usage limits for Claude and a compute deal with SpaceX]]></title>
-            <link>https://www.anthropic.com/news/higher-limits-spacex</link>
-            <guid>https://www.anthropic.com/news/higher-limits-spacex</guid>
-            <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
