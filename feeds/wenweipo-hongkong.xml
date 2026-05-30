@@ -10,6 +10,13 @@
         <language>zh</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/wenweipo-hongkong.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[（有片）專訪天文台科學主任郭于庭：AI無法取代人手]]></title>
+            <link>https://www.wenweipo.com/a/202605/31/AP6a1aaf7ae4b0b49ad1bd5b97.html</link>
+            <guid>https://www.wenweipo.com/a/202605/31/AP6a1aaf7ae4b0b49ad1bd5b97.html</guid>
+            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[天文台科學主任郭于庭表示，雖然近年引入人工智能（AI）能參考近20種預報模式，但AI永遠無法取代人手、人腦，他們仍保持人手繪畫天氣圖的傳統，因為過程中能真正理解氣壓、風場、天氣系統的移動及發展，她說：「電腦能給結果，但人能讀懂背後的邏輯。」每一個晴天與雨天背後，每則預報、每聲預警裏，天文台從來不只是一間發布數據的機關。]]></description>
+        </item>
+        <item>
             <title><![CDATA[東龍洲男子墮海 及時獲救一度昏迷]]></title>
             <link>https://www.wenweipo.com/a/202605/30/AP6a1aea63e4b0b49ad1bd61a7.html</link>
             <guid>https://www.wenweipo.com/a/202605/30/AP6a1aea63e4b0b49ad1bd61a7.html</guid>
@@ -106,13 +113,6 @@
             <guid>https://www.wenweipo.com/a/202605/30/AP6a1aaad2e4b0b49ad1bd5b0b.html</guid>
             <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[港島半山羅便臣道一住宅單位今早（30日）發生火警，事件釀成3名男女昏迷。消防處表示，今早10時53分接報，指在港島半山羅便臣道5-9號薈萃苑一單位發生火警，消防人員在接報後5分鐘趕至。行動中，消防處共調派9架消防車、7架救護車、59名消防人員及救護人員，動用一條消防喉及一隊煙帽隊灌救，火勢在上午約11時17分大致被救熄。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[「學生語文大使計劃自主學習語文展覽」 蔡若蓮：致力培養學生兩文三語]]></title>
-            <link>https://www.wenweipo.com/a/202605/30/AP6a1aaac0e4b0b49ad1bd5b07.html</link>
-            <guid>https://www.wenweipo.com/a/202605/30/AP6a1aaac0e4b0b49ad1bd5b07.html</guid>
-            <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[教育局和語文教育及研究常務委員會（語常會）今日（30日）舉行「學生語文大使計劃自主學習語文展覽」，向公眾展示一眾學生語文大使發展兩文三語能力的豐碩成果，並分享他們在自主學習歷程中的成長與蛻變。教育局局長蔡若蓮在活動開幕典禮上致辭時強調，教育局一向致力培養學生掌握兩文三語的能力，並向學校發放「推廣自主語文學習一筆過津貼」，幫助學校運用有效策略，為學生營造良好的學習和運用語言的環境。]]></description>
         </item>
     </channel>
 </rss>
