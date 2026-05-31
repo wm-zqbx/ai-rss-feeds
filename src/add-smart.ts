@@ -16,7 +16,7 @@
 import RSSParser from "rss-parser";
 import { writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
-import { fetchGitHubAPI } from "./fetcher.js";
+import { fetchGitHubAPI, tolerantFetch } from "./fetcher.js";
 import { parseArticles } from "./parser.js";
 import { validateQuick } from "./validator.js";
 import { generateRSS } from "./generator.js";
@@ -150,7 +150,7 @@ async function discoverExistingRSS(url: string): Promise<string | null> {
   if (pathSegments.length > 0) {
     const pathBasedFeed = url.replace(/\/$/, "") + "/rss";
     try {
-      const res = await fetch(pathBasedFeed, {
+      const res = await tolerantFetch(pathBasedFeed, {
         method: "HEAD",
         headers: { "User-Agent": "ai-rss-feeds/1.0" },
         signal: AbortSignal.timeout(5000),
@@ -163,7 +163,7 @@ async function discoverExistingRSS(url: string): Promise<string | null> {
 
   // Strategy 2: Check /rss at origin root
   try {
-    const res = await fetch(origin + "/rss", {
+    const res = await tolerantFetch(origin + "/rss", {
       method: "HEAD",
       headers: { "User-Agent": "ai-rss-feeds/1.0" },
       signal: AbortSignal.timeout(5000),
@@ -185,7 +185,7 @@ async function discoverExistingRSS(url: string): Promise<string | null> {
       const feedUrl = origin + path;
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), 5000);
-      const res = await fetch(feedUrl, {
+      const res = await tolerantFetch(feedUrl, {
         method: "HEAD",
         headers: { "User-Agent": "ai-rss-feeds/1.0" },
         signal: controller.signal,
@@ -203,7 +203,7 @@ async function discoverExistingRSS(url: string): Promise<string | null> {
           return feedUrl;
         }
         // Some servers return text/html for feed URLs, do a GET to check
-        const getRes = await fetch(feedUrl, {
+        const getRes = await tolerantFetch(feedUrl, {
           headers: { "User-Agent": "ai-rss-feeds/1.0" },
           signal: AbortSignal.timeout(5000),
         });

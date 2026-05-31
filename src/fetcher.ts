@@ -26,6 +26,44 @@ const API_HEADERS: Record<string, string> = {
   "X-GitHub-Api-Version": "2022-11-28",
 };
 
+const TLS_CERT_ERROR_PATTERNS = [
+  "UNABLE_TO_VERIFY_LEAF_SIGNATURE",
+  "unable to verify the first certificate",
+  "unable to get local issuer certificate",
+  "self-signed certificate",
+  "self signed certificate",
+  "CERT_HAS_EXPIRED",
+];
+
+function isTlsCertError(err: unknown): boolean {
+  const msg = String((err as { message?: string })?.message || err);
+  return TLS_CERT_ERROR_PATTERNS.some((p) => msg.includes(p));
+}
+
+/**
+ * fetch() that retries once with TLS verification disabled when the first
+ * attempt fails with a certificate-chain error. Some sites (e.g. Medium-hosted
+ * blogs like booking.ai) serve incomplete chains that browsers recover from via
+ * AIA but Node/Bun reject. Read-only scraping makes this trade-off acceptable.
+ */
+export async function tolerantFetch(
+  url: string,
+  init?: RequestInit
+): Promise<Response> {
+  try {
+    return await fetch(url, init);
+  } catch (err) {
+    if (!isTlsCertError(err)) throw err;
+    console.warn(
+      `⚠️  TLS chain verification failed for ${url} — retrying with verification disabled (read-only scrape).`
+    );
+    return await fetch(url, {
+      ...(init ?? {}),
+      tls: { rejectUnauthorized: false },
+    } as RequestInit & { tls: { rejectUnauthorized: boolean } });
+  }
+}
+
 /**
  * Fetch JSON from GitHub API (for github-releases mode).
  */
@@ -72,7 +110,7 @@ export async function fetchHTML(
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), timeoutMs);
 
-      const res = await fetch(url, {
+      const res = await tolerantFetch(url, {
         headers: HEADERS,
         signal: controller.signal,
         redirect: "follow",
@@ -112,7 +150,7 @@ export async function isReachable(
   try {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), timeoutMs);
-    const res = await fetch(url, {
+    const res = await tolerantFetch(url, {
       method: "HEAD",
       headers: HEADERS,
       signal: controller.signal,
