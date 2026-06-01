@@ -4,22 +4,22 @@
         <title>Mekong ASEAN</title>
         <link>https://mekongasean.vn/</link>
         <description>Tạp chí điện tử MEKONG - ASEAN</description>
-        <lastBuildDate>Sun, 31 May 2026 04:18:50 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 31 May 2026 08:44:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>vi</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/mekongasean.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Mở ra không gian mới cho giao thương, đầu tư Việt Nam – Philippines]]></title>
+            <link>https://mekongasean.vn/mo-ra-khong-gian-moi-cho-giao-thuong-dau-tu-viet-nam-philippines-55770.html</link>
+            <guid>https://mekongasean.vn/mo-ra-khong-gian-moi-cho-giao-thuong-dau-tu-viet-nam-philippines-55770.html</guid>
+            <pubDate>Sun, 31 May 2026 08:44:47 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Kịch bản nào cho thị trường chứng khoán tháng 6]]></title>
             <link>https://mekongasean.vn/kich-ban-nao-cho-thi-truong-chung-khoan-thang-6-55767.html</link>
             <guid>https://mekongasean.vn/kich-ban-nao-cho-thi-truong-chung-khoan-thang-6-55767.html</guid>
             <pubDate>Sun, 31 May 2026 04:18:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Tổng Bí thư, Chủ tịch nước: Việt Nam duy trì quan hệ tốt với các nước lớn]]></title>
-            <link>https://mekongasean.vn/tong-bi-thu-chu-tich-nuoc-viet-nam-duy-tri-quan-he-tot-voi-cac-nuoc-lon-55765.html</link>
-            <guid>https://mekongasean.vn/tong-bi-thu-chu-tich-nuoc-viet-nam-duy-tri-quan-he-tot-voi-cac-nuoc-lon-55765.html</guid>
-            <pubDate>Sun, 31 May 2026 02:37:41 GMT</pubDate>
         </item>
     </channel>
 </rss>
