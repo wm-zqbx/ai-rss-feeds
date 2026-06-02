@@ -10,6 +10,12 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Ep. 369 - ASCOの進展、中国のイノベーション、そして脅威にさらされる米国の科学]]></title>
+            <link>https://www.youtube.com/watch?v=44JphsQy2uo</link>
+            <guid>https://www.youtube.com/watch?v=44JphsQy2uo</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Ep. 013 - AWSの利益率が10%上昇、AzureとGCPは横ばい（トークノミクス）]]></title>
             <link>https://www.youtube.com/watch?v=3zGmZfZnChs</link>
             <guid>https://www.youtube.com/watch?v=3zGmZfZnChs</guid>
@@ -28,7 +34,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[トップモデルは戦いの40%に敗れる。それが何を意味するのか — Bertrand Charpentier, Pruna AI]]></title>
+            <title><![CDATA[20日間の計算 vs 7時間：最先端の意味を再考する — Bertrand Charpentier, Pruna]]></title>
             <link>https://www.youtube.com/watch?v=hqHC6Z_lXyo</link>
             <guid>https://www.youtube.com/watch?v=hqHC6Z_lXyo</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[ロボットの「ボディ」、量産、サプライチェーンを分解：バック宙の後、一枚の落ち葉を受け止めることを学ぶ｜ロボット特集]]></title>
             <link>https://www.youtube.com/watch?v=DZIhQeFEdXI</link>
             <guid>https://www.youtube.com/watch?v=DZIhQeFEdXI</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[PsiQuantum内部: これまで公開されたことのないフォトニクスチップ]]></title>
-            <link>https://www.youtube.com/watch?v=jR2kbOXe-6M</link>
-            <guid>https://www.youtube.com/watch?v=jR2kbOXe-6M</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
