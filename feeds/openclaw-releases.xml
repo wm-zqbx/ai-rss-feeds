@@ -56,6 +56,19 @@
 </ul>
 <h3>Fixes</h3>
 <ul>
+<li>Release/CI/E2E: fail early when Crabbox sparse-sync full checkouts do not have enough local disk, with guidance for moving the sync root.</li>
+<li>Build: render independent CLI startup metadata help snapshots concurrently to cut cold build-all metadata time.</li>
+<li>Plugins: stop timed-out package-boundary prep steps by process group so descendant TypeScript/helper processes do not survive local check cleanup.</li>
+<li>Control UI: serve static assets asynchronously after safe-open checks so large UI files do not block Gateway request handling.</li>
+<li>Scripts/UI: forward direct wrapper SIGHUP shutdown to child processes so terminal hangups do not leave wrapped dev commands running.</li>
+<li>Gateway: return the post-expiration pending-work revision from node drains so reconnecting nodes do not observe stale queue revisions after expired items are pruned.</li>
+<li>Release/CI/E2E: keep temporary full-sync checkouts alive while slow Crabbox leases boot, so sparse worktree runs do not lose their sync source before file-list generation.</li>
+<li>Release/CI/E2E: normalize inherited Linux <code>C.UTF-8</code> locale settings before raw AWS macOS Crabbox bootstrap commands, avoiding macOS locale warnings during package-manager hydration.</li>
+<li>Release/CI/E2E: keep gateway watch regression checks from copying large static plugin assets inside the measured idle window.</li>
+<li>Update: keep core updates nonblocking when a missing external plugin repair download stalls, while still blocking installed active plugin payload smoke failures.</li>
+<li>Agents/providers: keep streaming tool-call argument parsing record-shaped when providers emit valid non-object JSON such as <code>null</code> or arrays.</li>
+<li>Release/CI/E2E: reset incremental log readers when watched log files rotate without shrinking, so same-size replacements do not hide new readiness or RPC lines.</li>
+<li>Talk: preserve explicit <code>null</code> payloads on controller-created turn and output-audio lifecycle events.</li>
 <li>Agents/TUI: keep local custom provider runs from loading plugin runtime and auth alias metadata when plugins are disabled.</li>
 <li>Agents/TUI: restore in-flight TUI run switch-back behavior, keep no-policy native hook fallback available, guard vanished workspaces, and keep lightweight isolated subagents lightweight.</li>
 <li>Agents/media: keep async image, music, and video generation starts from ending the Codex turn, so mixed requests can continue with summaries or other work while media renders in the background.</li>
@@ -75,6 +88,7 @@
 <li>Cron: keep SQLite cron migrations compatible with legacy run-log tables, archived job stores, diagnostic cron names, and legacy one-shot delete-after-run behavior. (#88285)</li>
 <li>Cron: keep update delivery validation scoped, harden restart state, and retire MCP runtimes on isolated cron cleanup.</li>
 <li>Memory: serialize QMD update/embed writes per store, reduce Linux watcher fan-out, retry transient FileProvider-backed reads, preserve phase signals on read errors, harden envelope metadata sanitization, reattach Linux native watchers when directories are recreated, and rewrite generated transcript paths on rollover so memory/search state survives concurrent gateway and CLI activity. (#66339, #85931, #89185, #89188, #85351) Thanks @openperf, @amittell, @RomneyDa, and @NianJiuZst.</li>
+<li>Memory: keep vector-disabled FTS indexes from resolving embedding providers during sync and search.</li>
 <li>Providers: bound generated media downloads from OpenAI, Runway, xAI, MiniMax, BytePlus, DashScope-compatible, FAL, OpenRouter, Google, Vydra, and Comfy providers.</li>
 <li>Providers: resolve Google defaults to <code>google-generative-ai</code>, register Vertex static catalog rows, align Foundry reasoning metadata, skip DeepSeek V4 thinking params on Foundry fallback, use MiniMax account OAuth endpoints, preserve Copilot Claude 1M capabilities, suppress disabled Ollama reasoning output, keep OpenAI stop-finished tool calls, and avoid replay ids when the Responses store is disabled. (#88480, #88512)</li>
 <li>Providers: cap GitHub Copilot OAuth request timeouts before creating abort signals.</li>
@@ -157,6 +171,19 @@
 </ul>
 <h3>Fixes</h3>
 <ul>
+<li>Release/CI/E2E: fail early when Crabbox sparse-sync full checkouts do not have enough local disk, with guidance for moving the sync root.</li>
+<li>Build: render independent CLI startup metadata help snapshots concurrently to cut cold build-all metadata time.</li>
+<li>Plugins: stop timed-out package-boundary prep steps by process group so descendant TypeScript/helper processes do not survive local check cleanup.</li>
+<li>Control UI: serve static assets asynchronously after safe-open checks so large UI files do not block Gateway request handling.</li>
+<li>Scripts/UI: forward direct wrapper SIGHUP shutdown to child processes so terminal hangups do not leave wrapped dev commands running.</li>
+<li>Gateway: return the post-expiration pending-work revision from node drains so reconnecting nodes do not observe stale queue revisions after expired items are pruned.</li>
+<li>Release/CI/E2E: keep temporary full-sync checkouts alive while slow Crabbox leases boot, so sparse worktree runs do not lose their sync source before file-list generation.</li>
+<li>Release/CI/E2E: normalize inherited Linux <code>C.UTF-8</code> locale settings before raw AWS macOS Crabbox bootstrap commands, avoiding macOS locale warnings during package-manager hydration.</li>
+<li>Release/CI/E2E: keep gateway watch regression checks from copying large static plugin assets inside the measured idle window.</li>
+<li>Update: keep core updates nonblocking when a missing external plugin repair download stalls, while still blocking installed active plugin payload smoke failures.</li>
+<li>Agents/providers: keep streaming tool-call argument parsing record-shaped when providers emit valid non-object JSON such as <code>null</code> or arrays.</li>
+<li>Release/CI/E2E: reset incremental log readers when watched log files rotate without shrinking, so same-size replacements do not hide new readiness or RPC lines.</li>
+<li>Talk: preserve explicit <code>null</code> payloads on controller-created turn and output-audio lifecycle events.</li>
 <li>Agents/TUI: keep local custom provider runs from loading plugin runtime and auth alias metadata when plugins are disabled.</li>
 <li>Agents/TUI: restore in-flight TUI run switch-back behavior, keep no-policy native hook fallback available, guard vanished workspaces, and keep lightweight isolated subagents lightweight.</li>
 <li>Agents/media: keep async image, music, and video generation starts from ending the Codex turn, so mixed requests can continue with summaries or other work while media renders in the background.</li>
@@ -176,6 +203,7 @@
 <li>Cron: keep SQLite cron migrations compatible with legacy run-log tables, archived job stores, diagnostic cron names, and legacy one-shot delete-after-run behavior. (#88285)</li>
 <li>Cron: keep update delivery validation scoped, harden restart state, and retire MCP runtimes on isolated cron cleanup.</li>
 <li>Memory: serialize QMD update/embed writes per store, reduce Linux watcher fan-out, retry transient FileProvider-backed reads, preserve phase signals on read errors, harden envelope metadata sanitization, reattach Linux native watchers when directories are recreated, and rewrite generated transcript paths on rollover so memory/search state survives concurrent gateway and CLI activity. (#66339, #85931, #89185, #89188, #85351) Thanks @openperf, @amittell, @RomneyDa, and @NianJiuZst.</li>
+<li>Memory: keep vector-disabled FTS indexes from resolving embedding providers during sync and search.</li>
 <li>Providers: bound generated media downloads from OpenAI, Runway, xAI, MiniMax, BytePlus, DashScope-compatible, FAL, OpenRouter, Google, Vydra, and Comfy providers.</li>
 <li>Providers: resolve Google defaults to <code>google-generative-ai</code>, register Vertex static catalog rows, align Foundry reasoning metadata, skip DeepSeek V4 thinking params on Foundry fallback, use MiniMax account OAuth endpoints, preserve Copilot Claude 1M capabilities, suppress disabled Ollama reasoning output, keep OpenAI stop-finished tool calls, and avoid replay ids when the Responses store is disabled. (#88480, #88512)</li>
 <li>Providers: cap GitHub Copilot OAuth request timeouts before creating abort signals.</li>

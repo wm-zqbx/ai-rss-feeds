@@ -4,11 +4,17 @@
         <title>Anthropic News</title>
         <link>https://www.anthropic.com/news</link>
         <description>News and announcements from Anthropic.</description>
-        <lastBuildDate>Mon, 01 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/anthropic.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Expanding Project Glasswing]]></title>
+            <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
+            <guid>https://www.anthropic.com/news/expanding-project-glasswing</guid>
+            <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Anthropic confidentially submits draft S-1 to the SEC]]></title>
             <link>https://www.anthropic.com/news/confidential-draft-s1-sec</link>
@@ -62,12 +68,6 @@
             <link>https://www.anthropic.com/news/anthropic-kpmg</link>
             <guid>https://www.anthropic.com/news/anthropic-kpmg</guid>
             <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropic acquires Stainless]]></title>
-            <link>https://www.anthropic.com/news/anthropic-acquires-stainless</link>
-            <guid>https://www.anthropic.com/news/anthropic-acquires-stainless</guid>
-            <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
