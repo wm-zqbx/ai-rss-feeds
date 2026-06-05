@@ -4,11 +4,17 @@
         <title>Claude Blog</title>
         <link>https://claude.com/blog</link>
         <description>Product news and best practices for teams building with Claude.</description>
-        <lastBuildDate>Wed, 03 Jun 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Jun 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/claude.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[How one Anthropic seller rebuilt his team's workflows with Claude Code]]></title>
+            <link>https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering</link>
+            <guid>https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering</guid>
+            <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[How Anthropic enables self-service data analytics with Claude]]></title>
             <link>https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude</link>
@@ -91,12 +97,6 @@
             <title><![CDATA[Using Claude Code: The unreasonable effectiveness of HTML]]></title>
             <link>https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html</link>
             <guid>https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html</guid>
-            <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[How an Anthropic sales leader uses Claude Cowork to run a 4,000-account book]]></title>
-            <link>https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book</link>
-            <guid>https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book</guid>
             <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
