@@ -4,130 +4,16 @@
         <title>Podcast AI要約｜投資・金融番組のポイント整理 — BigGo ファイナンス</title>
         <link>https://finance.biggo.jp/podcast</link>
         <description>人気の金融 Podcast を AI 要約で効率的にチェック。各エピソードの重要ポイント、市場分析、投資インサイトを素早く把握。</description>
-        <lastBuildDate>Wed, 20 May 2026 17:27:51 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 07 Jun 2026 01:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/leontloveless/ai-rss-feeds)</generator>
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[ViteがCloudflareの一部に]]></title>
-            <link>https://www.youtube.com/watch?v=n2YtM-MecZk</link>
-            <guid>https://www.youtube.com/watch?v=n2YtM-MecZk</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[VS CodeでMCPアプリを使ったインタラクティブUIの構築 — Marlene Mhangami & Liam Hampton（GitHub）]]></title>
-            <link>https://www.youtube.com/watch?v=_xIwFcnHqp4</link>
-            <guid>https://www.youtube.com/watch?v=_xIwFcnHqp4</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[IPO復活：なぜテクノロジー大手がついに上場するのか | All-In Liquidity IPOパネル]]></title>
-            <link>https://www.youtube.com/watch?v=jLICvWE7w2Q</link>
-            <guid>https://www.youtube.com/watch?v=jLICvWE7w2Q</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[評価指標は壊れている、それでも使え — Ara Khan, Cline]]></title>
-            <link>https://www.youtube.com/watch?v=QuuIywMG4s8</link>
-            <guid>https://www.youtube.com/watch?v=QuuIywMG4s8</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[マクロ投資がなぜシステマティックになりつつあるのか | Allocator | Ep.35]]></title>
-            <link>https://www.youtube.com/watch?v=ftCHjKaLk44</link>
-            <guid>https://www.youtube.com/watch?v=ftCHjKaLk44</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Anthropicが9650億ドルのIPO申請、OpenAIのMAU10億達成、TrumpのAI大統領令が厳格な規制を拒否 | EP #262]]></title>
-            <link>https://www.youtube.com/watch?v=hyeoYsVl1No</link>
-            <guid>https://www.youtube.com/watch?v=hyeoYsVl1No</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[WeRide、グローバルでWaymoに追いつく]]></title>
-            <link>https://www.youtube.com/watch?v=PpVXS1NVF7c</link>
-            <guid>https://www.youtube.com/watch?v=PpVXS1NVF7c</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[自律経済のための安全な決済インフラの構築 — Steve Kaliski（Stripe）]]></title>
-            <link>https://www.youtube.com/watch?v=KLSuFPj2ld0</link>
-            <guid>https://www.youtube.com/watch?v=KLSuFPj2ld0</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Legoraのテックスタック内部：なぜトークンマキシングがエンタープライズスタートアップで失敗しているのか | Legora CTO]]></title>
-            <link>https://www.youtube.com/watch?v=UkERw3cBEAo</link>
-            <guid>https://www.youtube.com/watch?v=UkERw3cBEAo</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Emergent：6か月の試行錯誤が1億ドルARR企業を生むまで]]></title>
-            <link>https://www.youtube.com/watch?v=yyXCQHX55N4</link>
-            <guid>https://www.youtube.com/watch?v=yyXCQHX55N4</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[⚡️DeepSeek v4 が Taste で Opus 4.7 を凌ぐ方法 — @Ahmad Awais , CommandCode.ai]]></title>
-            <link>https://www.youtube.com/watch?v=-rIAVuaRjOg</link>
-            <guid>https://www.youtube.com/watch?v=-rIAVuaRjOg</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[TWiV 1328: ダニエル・グリフィン医師による臨床アップデート]]></title>
-            <link>https://www.youtube.com/watch?v=6rOKtMUHlpw</link>
-            <guid>https://www.youtube.com/watch?v=6rOKtMUHlpw</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ダン・ローブ：失われた空売りの技術、そして銘柄選択が再び重要に]]></title>
-            <link>https://www.youtube.com/watch?v=i8OI8CNdZgU</link>
-            <guid>https://www.youtube.com/watch?v=i8OI8CNdZgU</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ジョー・ローガン・エクスペリエンス #2510 - デボン・ララット]]></title>
-            <link>https://www.youtube.com/watch?v=ZmejzHXudq0</link>
-            <guid>https://www.youtube.com/watch?v=ZmejzHXudq0</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[エージェントインターフェースの構築：Chrome DevTools (MCP)からエージェントへの教訓 — Michael Hablich, Google]]></title>
-            <link>https://www.youtube.com/watch?v=_B4Pv9ttFgY</link>
-            <guid>https://www.youtube.com/watch?v=_B4Pv9ttFgY</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[これがあなたのノートパソコン…AI搭載版 | The Vergecast]]></title>
-            <link>https://www.youtube.com/watch?v=hRpi46C3dQ4</link>
-            <guid>https://www.youtube.com/watch?v=hRpi46C3dQ4</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ダークファクトリー：OpenClawはDiffを読むより速く出荷する — Vincent Koc, OpenClaw]]></title>
-            <link>https://www.youtube.com/watch?v=pmoDeA3RBZY</link>
-            <guid>https://www.youtube.com/watch?v=pmoDeA3RBZY</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[今週：AI、GLP-1、そしてスコットのイラン戦争方針転換]]></title>
-            <link>https://www.youtube.com/watch?v=uWB-o07A36s</link>
-            <guid>https://www.youtube.com/watch?v=uWB-o07A36s</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[LegoraがYCから18ヶ月でARR 1億ドルに到達した方法]]></title>
-            <link>https://www.youtube.com/watch?v=mjmswQurIU4</link>
-            <guid>https://www.youtube.com/watch?v=mjmswQurIU4</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[スピーカー・ダイアリゼーション：あなたの音声スタックで機能していない部分 — Hervé Bredin, pyannoteAI]]></title>
-            <link>https://www.youtube.com/watch?v=mFLlVpnGpds</link>
-            <guid>https://www.youtube.com/watch?v=mFLlVpnGpds</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+            <title><![CDATA[藤田勉さん後編〜社外取締役とガバナンス、そして藤田さんが「アクティビスト」に物申したいこととは・・・]]></title>
+            <link>https://jfn-pods.com/program/300006206/voice/5r254xIeo5</link>
+            <guid>https://jfn-pods.com/program/300006206/voice/5r254xIeo5</guid>
+            <pubDate>Sun, 07 Jun 2026 01:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
