@@ -10,19 +10,25 @@
         <language>ja</language>
         <atom:link href="https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/podcast.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[市場がパニックに陥ったときに機能する戦略 | Systematic Investor | Ep.403]]></title>
+            <link>https://www.youtube.com/watch?v=zEI5pMX8ooM</link>
+            <guid>https://www.youtube.com/watch?v=zEI5pMX8ooM</guid>
+            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[特異点への離陸：Anthropicのグローバル一時停止、アルゼンチンのAI賭け、そして次に来るもの | #263]]></title>
             <link>https://www.youtube.com/watch?v=P2HJEz3oqLs</link>
             <guid>https://www.youtube.com/watch?v=P2HJEz3oqLs</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[500万トークンへの道：長文脈学習における障壁を打ち破る — Max Ryabinin, Together AI]]></title>
+            <title><![CDATA[The Memory Stack Behind 5 Million Token Transformers — Max Ryabinin, Together AI]]></title>
             <link>https://www.youtube.com/watch?v=TUnPNY4E2fw</link>
             <guid>https://www.youtube.com/watch?v=TUnPNY4E2fw</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Why AI Data Centres Are Quietly Shutting Down]]></title>
+            <title><![CDATA[なぜAIデータセンターが静かに閉鎖されているのか]]></title>
             <link>https://www.youtube.com/watch?v=eXXwN_TDdLU</link>
             <guid>https://www.youtube.com/watch?v=eXXwN_TDdLU</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -40,13 +46,13 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Nebius共同創業者が語るAIインフラバブル ｜ Nebiusはもしコンピュートがあれば10倍多く販売できるか]]></title>
+            <title><![CDATA[Nebius Co-Founder on AI Infrastructure Bubbles, The Real Impact of Open Source on OpenAI & Anthropic]]></title>
             <link>https://www.youtube.com/watch?v=aXAH3bdJ2cg</link>
             <guid>https://www.youtube.com/watch?v=aXAH3bdJ2cg</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Economics of AI Usage and What's Next For SaaS | Benedict Evans on a16z]]></title>
+            <title><![CDATA[Why Coding is The First Undeniable AI Use case | a16z]]></title>
             <link>https://www.youtube.com/watch?v=ktl8mNiWqMM</link>
             <guid>https://www.youtube.com/watch?v=ktl8mNiWqMM</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -58,7 +64,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Stateful Serverless and the Eval Renaissance — Sunil Pai & Matt Carrie, Cloudflare]]></title>
+            <title><![CDATA[ステートフルサーバーレスとEvalルネサンス — Sunil Pai & Matt Carrie, Cloudflare]]></title>
             <link>https://www.youtube.com/watch?v=SKDJo2CopRs</link>
             <guid>https://www.youtube.com/watch?v=SKDJo2CopRs</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -76,7 +82,7 @@
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[EMERGENCY DEBATE: The American Dream Is Now Dead! Working Hard No Longer Matters!]]></title>
+            <title><![CDATA[緊急討論：アメリカン・ドリームは今や死んだ！努力はもう意味がない！]]></title>
             <link>https://www.youtube.com/watch?v=uLBsHXNEwAU</link>
             <guid>https://www.youtube.com/watch?v=uLBsHXNEwAU</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
@@ -121,12 +127,6 @@
             <title><![CDATA[MCPからスケールへ：自己構築するパイプライン — Rafael Levi, Bright Data]]></title>
             <link>https://www.youtube.com/watch?v=zTZ0qunQXnM</link>
             <guid>https://www.youtube.com/watch?v=zTZ0qunQXnM</guid>
-            <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[花火ショーは終わった：これはバブル崩壊ではなく、AIへの資金シフトである]]></title>
-            <link>https://www.youtube.com/watch?v=6GJGunJwN64</link>
-            <guid>https://www.youtube.com/watch?v=6GJGunJwN64</guid>
             <pubDate>Wed, 20 May 2026 17:27:51 GMT</pubDate>
         </item>
     </channel>
