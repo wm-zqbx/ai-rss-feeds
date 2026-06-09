@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 09 Jun 2026 17:17:48 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jun 2026 19:53:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.86]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.86</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.86</guid>
+            <pubDate>Tue, 09 Jun 2026 19:53:11 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.86</h1>
+<p>Released on 2026-06-09.</p>
+<p>Fixes a race condition where <code>audio-locked</code> (and other bridge controls) were silently dropped on warm-cache reloads of claude.ai and inside the Claude desktop Electron client. The runtime now emits a <code>ready</code> handshake once its message listener is installed; the player replays current bridge state on receipt.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Runtime,player:</strong> Replay bridge state on iframe ready to repair race (<a href="https://github.com/heygen-com/hyperframes/commit/5a0966dfeb5c43f7551c8d8d20eb5c939c6655be">5a0966df</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.86">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.86</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.86</h1>
+<p>Released on 2026-06-09.</p>
+<p>Fixes a race condition where <code>audio-locked</code> (and other bridge controls) were silently dropped on warm-cache reloads of claude.ai and inside the Claude desktop Electron client. The runtime now emits a <code>ready</code> handshake once its message listener is installed; the player replays current bridge state on receipt.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Runtime,player:</strong> Replay bridge state on iframe ready to repair race (<a href="https://github.com/heygen-com/hyperframes/commit/5a0966dfeb5c43f7551c8d8d20eb5c939c6655be">5a0966df</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.86">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.86</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.85]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.85</link>
@@ -1605,24 +1631,6 @@
 <li>feat(telemetry): fingerprint sandbox runtime and agent vendor by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1035">https://github.com/heygen-com/hyperframes/pull/1035</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.36...v0.6.37">https://github.com/heygen-com/hyperframes/compare/v0.6.36...v0.6.37</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.36]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.36</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.36</guid>
-            <pubDate>Fri, 22 May 2026 17:39:29 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(producer): accept plain integer fps in createRenderJob by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1034">https://github.com/heygen-com/hyperframes/pull/1034</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.35...v0.6.36">https://github.com/heygen-com/hyperframes/compare/v0.6.35...v0.6.36</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(producer): accept plain integer fps in createRenderJob by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1034">https://github.com/heygen-com/hyperframes/pull/1034</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.35...v0.6.36">https://github.com/heygen-com/hyperframes/compare/v0.6.35...v0.6.36</a></p>
 ]]></content:encoded>
         </item>
     </channel>
