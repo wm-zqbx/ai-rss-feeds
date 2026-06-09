@@ -111,6 +111,18 @@ function getPath(obj: any, path: string): any {
   return path.split(".").reduce((o, key) => o?.[key], obj);
 }
 
+function extractHtmlFromJson(html: string, config: FeedConfig): string {
+  const ext = config.jsonHtmlExtraction;
+  if (!ext) return html;
+
+  const data = JSON.parse(html);
+  const embedded = getPath(data, ext.dataPath);
+  if (typeof embedded !== "string") {
+    throw new Error(`json-html dataPath "${ext.dataPath}" did not resolve to a string`);
+  }
+  return embedded;
+}
+
 /**
  * Parse HTML using JSON extraction from <script> tags.
  */
@@ -491,6 +503,9 @@ export async function parseArticles(html: string, config: FeedConfig): Promise<A
   }
   if (config.parserMode === "json" && config.jsonExtraction) {
     return parseJsonArticles(html, config);
+  }
+  if (config.parserMode === "json-html") {
+    html = extractHtmlFromJson(html, config);
   }
   const $ = cheerio.load(html);
   const articles: Article[] = [];

@@ -1,6 +1,7 @@
 export interface FeedConfig {
   name: string;
   url: string;
+  fetchUrl?: string;
   feed: {
     title: string;
     description: string;
@@ -17,7 +18,10 @@ export interface FeedConfig {
       prefix?: string;
     };
   };
-  parserMode?: "css" | "json" | "changelog" | "github-releases" | "rss"; // default: "css"
+  parserMode?: "css" | "json" | "json-html" | "changelog" | "github-releases" | "rss" | "external"; // default: "css"
+  jsonHtmlExtraction?: {
+    dataPath: string; // e.g., "data.html"
+  };
   jsonExtraction?: {
     scriptSelector: string; // e.g., 'script#__NEXT_DATA__'
     dataPath: string; // e.g., 'props.pageProps.posts'

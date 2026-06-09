@@ -57,8 +57,9 @@ async function processFeed(
       html = await fetchHTML(feedUrl);
       console.log(`  ✅ Fetched ${(html.length / 1024).toFixed(1)}KB`);
     } else {
-      console.log("  ⬇️  Fetching HTML...");
-      html = await fetchHTML(config.url);
+      const fetchUrl = config.fetchUrl ?? config.url;
+      console.log(config.fetchUrl ? "  ⬇️  Fetching configured source..." : "  ⬇️  Fetching HTML...");
+      html = await fetchHTML(fetchUrl);
       console.log(`  ✅ Fetched ${(html.length / 1024).toFixed(1)}KB`);
     }
 
