@@ -4,11 +4,29 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 09 Jun 2026 19:53:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jun 2026 22:38:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.87]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.87</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.87</guid>
+            <pubDate>Tue, 09 Jun 2026 22:38:16 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.87</h1>
+<p>Released on 2026-06-09.</p>
+<p>Studio keyframe system, render queue improvements, and GSAP parser arc path mutations. Feature-gated behind <code>VITE_STUDIO_ENABLE_KEYFRAMES</code>.</p>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.87">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.87</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.87</h1>
+<p>Released on 2026-06-09.</p>
+<p>Studio keyframe system, render queue improvements, and GSAP parser arc path mutations. Feature-gated behind <code>VITE_STUDIO_ENABLE_KEYFRAMES</code>.</p>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.87">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.87</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.86]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.86</link>
@@ -1603,34 +1621,6 @@
 <li>fix: clean up orphaned Chrome/ffmpeg on preview exit by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1039">https://github.com/heygen-com/hyperframes/pull/1039</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.37...v0.6.38">https://github.com/heygen-com/hyperframes/compare/v0.6.37...v0.6.38</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.37]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.37</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.37</guid>
-            <pubDate>Fri, 22 May 2026 23:19:06 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>feat(cli): add --output-resolution to lambda render by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1020">https://github.com/heygen-com/hyperframes/pull/1020</a></li>
-<li>fix(aws-lambda): account for TaskScheduled/TaskSucceeded in cost by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1021">https://github.com/heygen-com/hyperframes/pull/1021</a></li>
-<li>feat(cli): warn when lambda --width/--height conflicts with composition by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1022">https://github.com/heygen-com/hyperframes/pull/1022</a></li>
-<li>fix(aws-lambda): surface sparticuz wedge as typed non-retryable error by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1023">https://github.com/heygen-com/hyperframes/pull/1023</a></li>
-<li>fix(skill): w2h audit + enforcement — close 19 shirking patterns from two agent debriefs by @ukimsanov in <a href="https://github.com/heygen-com/hyperframes/pull/1026">https://github.com/heygen-com/hyperframes/pull/1026</a></li>
-<li>feat(telemetry): fingerprint sandbox runtime and agent vendor by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1035">https://github.com/heygen-com/hyperframes/pull/1035</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.36...v0.6.37">https://github.com/heygen-com/hyperframes/compare/v0.6.36...v0.6.37</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>feat(cli): add --output-resolution to lambda render by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1020">https://github.com/heygen-com/hyperframes/pull/1020</a></li>
-<li>fix(aws-lambda): account for TaskScheduled/TaskSucceeded in cost by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1021">https://github.com/heygen-com/hyperframes/pull/1021</a></li>
-<li>feat(cli): warn when lambda --width/--height conflicts with composition by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1022">https://github.com/heygen-com/hyperframes/pull/1022</a></li>
-<li>fix(aws-lambda): surface sparticuz wedge as typed non-retryable error by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1023">https://github.com/heygen-com/hyperframes/pull/1023</a></li>
-<li>fix(skill): w2h audit + enforcement — close 19 shirking patterns from two agent debriefs by @ukimsanov in <a href="https://github.com/heygen-com/hyperframes/pull/1026">https://github.com/heygen-com/hyperframes/pull/1026</a></li>
-<li>feat(telemetry): fingerprint sandbox runtime and agent vendor by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1035">https://github.com/heygen-com/hyperframes/pull/1035</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.36...v0.6.37">https://github.com/heygen-com/hyperframes/compare/v0.6.36...v0.6.37</a></p>
 ]]></content:encoded>
         </item>
     </channel>
