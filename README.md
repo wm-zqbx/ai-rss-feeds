@@ -8,6 +8,12 @@ Many popular tech blogs don't offer RSS feeds. This project uses AI to analyze b
 
 <!-- FEEDS_TABLE_START -->
 
+### Blogs (1)
+
+| Blog | Feed | Status |
+|------|------|--------|
+| [Essays](https://www.paulgraham.com/articles.html) | [Subscribe](https://raw.githubusercontent.com/leontloveless/ai-rss-feeds/main/feeds/paulgraham.xml) | ✅ 50 articles |
+
 ### GitHub Releases (1)
 
 | Project | Feed | Status |
