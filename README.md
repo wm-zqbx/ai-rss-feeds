@@ -12,8 +12,8 @@ Many popular tech blogs don't offer RSS feeds. This project uses AI to analyze b
 
 | Blog | Feed | Status |
 |------|------|--------|
-| [住房城乡建设部建设要闻](https://www.mohurd.gov.cn/xinwen/gzdt/index.html) | [Subscribe](https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/mohurd-gzdt.xml) | ✅ 20 articles |
 | [Essays](https://www.paulgraham.com/articles.html) | [Subscribe](https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/paulgraham.xml) | ✅ 20 articles |
+| [住房城乡建设部建设要闻](https://www.mohurd.gov.cn/xinwen/gzdt/index.html) | [Subscribe](https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/mohurd-gzdt.xml) | ✅ 20 articles |
 | [豆瓣读书 Top 250](https://book.douban.com/top250) | [Subscribe](https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/douban-top250.xml) | ✅ 20 articles |
 
 ### GitHub Releases (1)

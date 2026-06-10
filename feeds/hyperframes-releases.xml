@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 09 Jun 2026 22:38:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Jun 2026 23:36:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.88]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.88</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.88</guid>
+            <pubDate>Tue, 09 Jun 2026 23:36:51 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.88</h1>
+<p>Released on 2026-06-09.</p>
+<p>Fixes a regression where Studio&#39;s element stamping code ran during production renders, causing sub-composition elements to become incorrectly visible.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Guard element stamping to iframe-only (Studio preview) (<a href="https://github.com/heygen-com/hyperframes/commit/192417b7cd7384c2001b2be926246260bd728367">192417b7</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.88">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.88</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.88</h1>
+<p>Released on 2026-06-09.</p>
+<p>Fixes a regression where Studio&#39;s element stamping code ran during production renders, causing sub-composition elements to become incorrectly visible.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Guard element stamping to iframe-only (Studio preview) (<a href="https://github.com/heygen-com/hyperframes/commit/192417b7cd7384c2001b2be926246260bd728367">192417b7</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.88">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.88</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.87]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.87</link>
@@ -1599,28 +1625,6 @@
 <li>fix(distributed): enforce exact framerate at concat + mux boundaries by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1040">https://github.com/heygen-com/hyperframes/pull/1040</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.38...v0.6.39">https://github.com/heygen-com/hyperframes/compare/v0.6.38...v0.6.39</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.38]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.38</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.38</guid>
-            <pubDate>Sat, 23 May 2026 04:15:53 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>feat(registry): add parallax-zoom and parallax-unzoom components by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1036">https://github.com/heygen-com/hyperframes/pull/1036</a></li>
-<li>refactor(studio): split oversized files and raise line limit to 600 by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1012">https://github.com/heygen-com/hyperframes/pull/1012</a></li>
-<li>fix: clean up orphaned Chrome/ffmpeg on preview exit by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1039">https://github.com/heygen-com/hyperframes/pull/1039</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.37...v0.6.38">https://github.com/heygen-com/hyperframes/compare/v0.6.37...v0.6.38</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>feat(registry): add parallax-zoom and parallax-unzoom components by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1036">https://github.com/heygen-com/hyperframes/pull/1036</a></li>
-<li>refactor(studio): split oversized files and raise line limit to 600 by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1012">https://github.com/heygen-com/hyperframes/pull/1012</a></li>
-<li>fix: clean up orphaned Chrome/ffmpeg on preview exit by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1039">https://github.com/heygen-com/hyperframes/pull/1039</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.37...v0.6.38">https://github.com/heygen-com/hyperframes/compare/v0.6.37...v0.6.38</a></p>
 ]]></content:encoded>
         </item>
     </channel>
