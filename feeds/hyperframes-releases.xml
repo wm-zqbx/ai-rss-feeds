@@ -4,11 +4,51 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 11 Jun 2026 06:16:58 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 17:25:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Model assets (PP-MattingV2)]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/model-assets-v1</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/model-assets-v1</guid>
+            <pubDate>Thu, 11 Jun 2026 17:25:25 GMT</pubDate>
+            <description><![CDATA[<p>Asset bucket for on-demand model downloads — not a software release.</p>
+<table>
+<thead>
+<tr>
+<th>asset</th>
+<th>sha256</th>
+<th>license</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ppmattingv2_stdc1_human_544x960.onnx</td>
+<td>75df19af62aaf0453e24444e7ee3cdf8d8de0f628aa9f59c30248cf6220ee9f6</td>
+<td>Apache-2.0 (PaddleSeg PP-MattingV2 export)</td>
+</tr>
+</tbody></table>
+<p>Consumed by <code>skills/embedded-captions/scripts/matte.cjs</code> (sha256-pinned, cached in ~/.cache/hyperframes/matting/). Same pattern as the CLI&#39;s background-removal manager pulling u2net from rembg&#39;s release bucket. Do not delete: existing installs download from this URL.</p>
+]]></description>
+            <content:encoded><![CDATA[<p>Asset bucket for on-demand model downloads — not a software release.</p>
+<table>
+<thead>
+<tr>
+<th>asset</th>
+<th>sha256</th>
+<th>license</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ppmattingv2_stdc1_human_544x960.onnx</td>
+<td>75df19af62aaf0453e24444e7ee3cdf8d8de0f628aa9f59c30248cf6220ee9f6</td>
+<td>Apache-2.0 (PaddleSeg PP-MattingV2 export)</td>
+</tr>
+</tbody></table>
+<p>Consumed by <code>skills/embedded-captions/scripts/matte.cjs</code> (sha256-pinned, cached in ~/.cache/hyperframes/matting/). Same pattern as the CLI&#39;s background-removal manager pulling u2net from rembg&#39;s release bucket. Do not delete: existing installs download from this URL.</p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.91]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.91</link>
@@ -1663,26 +1703,6 @@
 <li>fix(core): correct WAAPI rediscovery seek baselines and preview reuse… by @func25 in <a href="https://github.com/heygen-com/hyperframes/pull/1069">https://github.com/heygen-com/hyperframes/pull/1069</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.42...v0.6.43">https://github.com/heygen-com/hyperframes/compare/v0.6.42...v0.6.43</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.42]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.42</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.42</guid>
-            <pubDate>Sun, 24 May 2026 21:38:53 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(engine): resolve encoded non-Latin media paths by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1065">https://github.com/heygen-com/hyperframes/pull/1065</a></li>
-<li>fix: support animated media volume by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1066">https://github.com/heygen-com/hyperframes/pull/1066</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.41...v0.6.42">https://github.com/heygen-com/hyperframes/compare/v0.6.41...v0.6.42</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(engine): resolve encoded non-Latin media paths by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1065">https://github.com/heygen-com/hyperframes/pull/1065</a></li>
-<li>fix: support animated media volume by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1066">https://github.com/heygen-com/hyperframes/pull/1066</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.41...v0.6.42">https://github.com/heygen-com/hyperframes/compare/v0.6.41...v0.6.42</a></p>
 ]]></content:encoded>
         </item>
     </channel>
