@@ -4,11 +4,55 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 10 Jun 2026 23:28:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 02:42:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.90]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.90</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.90</guid>
+            <pubDate>Thu, 11 Jun 2026 02:42:54 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.90</h1>
+<p>Released on 2026-06-11.</p>
+<p>GIF support: render to GIF with two-pass palette encoding, and animated GIF inputs now play frame-synced via VP9 transcode. Plus new agent detection for Windsurf, Cline, Gemini CLI, and Crush.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer,core:</strong> Play animated GIF inputs frame-synced via prep-time VP9 transcode (<a href="https://github.com/heygen-com/hyperframes/commit/edd85473e7b9273a85f0f842f2dd54ce9b8eca78">edd85473</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1335">#1335</a>)</li>
+<li><strong>Cli,producer:</strong> Add gif output format with two-pass palette encode (<a href="https://github.com/heygen-com/hyperframes/commit/e6b8d66c2da1df4f42628dbeef09de5255f20dea">e6b8d66c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1333">#1333</a>)</li>
+<li><strong>CLI:</strong> Detect Windsurf, Cline, Gemini CLI, and Crush agents (<a href="https://github.com/heygen-com/hyperframes/commit/e0ecd4d2d11076e6701327c23cab4f4179331e7a">e0ecd4d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1328">#1328</a>)</li>
+<li><strong>Producer:</strong> Optional targetChunkFrames to bound per-chunk frames (<a href="https://github.com/heygen-com/hyperframes/commit/9b18fadccd01929073da2856678acddfaa1a85ba">9b18fadc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1332">#1332</a>)</li>
+<li><strong>Producer:</strong> Stage wall-clock split in chunk perf telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/69eac249d583fb4314738b0c6f4b815544802b05">69eac249</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1327">#1327</a>)</li>
+<li><strong>CLI:</strong> Detect Gemini managed-agent sandbox in detectAgentRuntime (<a href="https://github.com/heygen-com/hyperframes/commit/0766eb8144772cd072eb9746b2f2b35a8e0712c7">0766eb81</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1294">#1294</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Restore exact-match Cursor rule (revert unsourced loosening) (<a href="https://github.com/heygen-com/hyperframes/commit/30fcede44e64aea5f9e6c3a6dedeae6c7bfe5a72">30fcede4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1334">#1334</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.89...v0.6.90">https://github.com/heygen-com/hyperframes/compare/v0.6.89...v0.6.90</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.90</h1>
+<p>Released on 2026-06-11.</p>
+<p>GIF support: render to GIF with two-pass palette encoding, and animated GIF inputs now play frame-synced via VP9 transcode. Plus new agent detection for Windsurf, Cline, Gemini CLI, and Crush.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer,core:</strong> Play animated GIF inputs frame-synced via prep-time VP9 transcode (<a href="https://github.com/heygen-com/hyperframes/commit/edd85473e7b9273a85f0f842f2dd54ce9b8eca78">edd85473</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1335">#1335</a>)</li>
+<li><strong>Cli,producer:</strong> Add gif output format with two-pass palette encode (<a href="https://github.com/heygen-com/hyperframes/commit/e6b8d66c2da1df4f42628dbeef09de5255f20dea">e6b8d66c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1333">#1333</a>)</li>
+<li><strong>CLI:</strong> Detect Windsurf, Cline, Gemini CLI, and Crush agents (<a href="https://github.com/heygen-com/hyperframes/commit/e0ecd4d2d11076e6701327c23cab4f4179331e7a">e0ecd4d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1328">#1328</a>)</li>
+<li><strong>Producer:</strong> Optional targetChunkFrames to bound per-chunk frames (<a href="https://github.com/heygen-com/hyperframes/commit/9b18fadccd01929073da2856678acddfaa1a85ba">9b18fadc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1332">#1332</a>)</li>
+<li><strong>Producer:</strong> Stage wall-clock split in chunk perf telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/69eac249d583fb4314738b0c6f4b815544802b05">69eac249</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1327">#1327</a>)</li>
+<li><strong>CLI:</strong> Detect Gemini managed-agent sandbox in detectAgentRuntime (<a href="https://github.com/heygen-com/hyperframes/commit/0766eb8144772cd072eb9746b2f2b35a8e0712c7">0766eb81</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1294">#1294</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Restore exact-match Cursor rule (revert unsourced loosening) (<a href="https://github.com/heygen-com/hyperframes/commit/30fcede44e64aea5f9e6c3a6dedeae6c7bfe5a72">30fcede4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1334">#1334</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.89...v0.6.90">https://github.com/heygen-com/hyperframes/compare/v0.6.89...v0.6.90</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.89]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.89</link>
@@ -1637,26 +1681,6 @@
 <li>@Konadu-Akwasi-Akuoko made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1051">https://github.com/heygen-com/hyperframes/pull/1051</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.40...v0.6.41">https://github.com/heygen-com/hyperframes/compare/v0.6.40...v0.6.41</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.40]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.40</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.40</guid>
-            <pubDate>Sat, 23 May 2026 19:03:30 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): guard import.meta.env for non-Vite bundlers by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1049">https://github.com/heygen-com/hyperframes/pull/1049</a></li>
-<li>fix(core): set explicit dimensions on data-hf-inner-root wrapper by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1050">https://github.com/heygen-com/hyperframes/pull/1050</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.39...v0.6.40">https://github.com/heygen-com/hyperframes/compare/v0.6.39...v0.6.40</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): guard import.meta.env for non-Vite bundlers by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1049">https://github.com/heygen-com/hyperframes/pull/1049</a></li>
-<li>fix(core): set explicit dimensions on data-hf-inner-root wrapper by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1050">https://github.com/heygen-com/hyperframes/pull/1050</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.39...v0.6.40">https://github.com/heygen-com/hyperframes/compare/v0.6.39...v0.6.40</a></p>
 ]]></content:encoded>
         </item>
     </channel>
