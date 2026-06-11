@@ -4,11 +4,61 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 09 Jun 2026 23:36:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2026 23:28:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.89]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.89</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.89</guid>
+            <pubDate>Wed, 10 Jun 2026 23:28:24 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.89</h1>
+<p>Released on 2026-06-10.</p>
+<p>Fixes audio dropout during playback (WebAudio source cleanup), muted video audio leak in renders, IEEE 754 frame-index precision, and keyframe editing stability.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Runtime:</strong> Preserve authored muted attr; clean up WebAudio on end (<a href="https://github.com/heygen-com/hyperframes/commit/036b991cbbe21312b7a03abf03f01c28fa046978">036b991c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1319">#1319</a>)</li>
+<li><strong>Studio:</strong> Keyframe bug fixes — gate delete hooks, fix value corruption, gesture recording (<a href="https://github.com/heygen-com/hyperframes/commit/f0b499b582a552df08abf4d222acb599fe0f8285">f0b499b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1314">#1314</a>)</li>
+<li><strong>Engine:</strong> Add epsilon to frame index floor to prevent IEEE 754 boundary duplicates (<a href="https://github.com/heygen-com/hyperframes/commit/3a72aa528dfa742209c6565654b23c96bb81536a">3a72aa52</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1318">#1318</a>)</li>
+<li><strong>Producer:</strong> Don&#39;t mix audio from muted videos into the render (<a href="https://github.com/heygen-com/hyperframes/commit/8133d9346e312beedd0fdc28faf491d46d46cc87">8133d934</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1322">#1322</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>README:</strong> Swap hero media to hyperframes-logo-motion (<a href="https://github.com/heygen-com/hyperframes/commit/8fcbb63a371752932027f3495dbc6ae6b5daf0f7">8fcbb63a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1315">#1315</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Shrink repo — untrack failure frames, recompress backgrounds, harden LFS (<a href="https://github.com/heygen-com/hyperframes/commit/e845793ce1d480e19780d74aa2d0259c6bb9e455">e845793c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1326">#1326</a>)</li>
+<li><strong>Studio:</strong> Split oversized files to pass 600-line check (<a href="https://github.com/heygen-com/hyperframes/commit/81416ab3c9b04ca87d399e9b558ec7227b7d641c">81416ab3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1313">#1313</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.88...v0.6.89">https://github.com/heygen-com/hyperframes/compare/v0.6.88...v0.6.89</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.89</h1>
+<p>Released on 2026-06-10.</p>
+<p>Fixes audio dropout during playback (WebAudio source cleanup), muted video audio leak in renders, IEEE 754 frame-index precision, and keyframe editing stability.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Runtime:</strong> Preserve authored muted attr; clean up WebAudio on end (<a href="https://github.com/heygen-com/hyperframes/commit/036b991cbbe21312b7a03abf03f01c28fa046978">036b991c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1319">#1319</a>)</li>
+<li><strong>Studio:</strong> Keyframe bug fixes — gate delete hooks, fix value corruption, gesture recording (<a href="https://github.com/heygen-com/hyperframes/commit/f0b499b582a552df08abf4d222acb599fe0f8285">f0b499b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1314">#1314</a>)</li>
+<li><strong>Engine:</strong> Add epsilon to frame index floor to prevent IEEE 754 boundary duplicates (<a href="https://github.com/heygen-com/hyperframes/commit/3a72aa528dfa742209c6565654b23c96bb81536a">3a72aa52</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1318">#1318</a>)</li>
+<li><strong>Producer:</strong> Don&#39;t mix audio from muted videos into the render (<a href="https://github.com/heygen-com/hyperframes/commit/8133d9346e312beedd0fdc28faf491d46d46cc87">8133d934</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1322">#1322</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>README:</strong> Swap hero media to hyperframes-logo-motion (<a href="https://github.com/heygen-com/hyperframes/commit/8fcbb63a371752932027f3495dbc6ae6b5daf0f7">8fcbb63a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1315">#1315</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Shrink repo — untrack failure frames, recompress backgrounds, harden LFS (<a href="https://github.com/heygen-com/hyperframes/commit/e845793ce1d480e19780d74aa2d0259c6bb9e455">e845793c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1326">#1326</a>)</li>
+<li><strong>Studio:</strong> Split oversized files to pass 600-line check (<a href="https://github.com/heygen-com/hyperframes/commit/81416ab3c9b04ca87d399e9b558ec7227b7d641c">81416ab3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1313">#1313</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.88...v0.6.89">https://github.com/heygen-com/hyperframes/compare/v0.6.88...v0.6.89</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.88]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.88</link>
@@ -1607,24 +1657,6 @@
 <li>fix(core): set explicit dimensions on data-hf-inner-root wrapper by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1050">https://github.com/heygen-com/hyperframes/pull/1050</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.39...v0.6.40">https://github.com/heygen-com/hyperframes/compare/v0.6.39...v0.6.40</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.39]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.39</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.39</guid>
-            <pubDate>Sat, 23 May 2026 17:32:21 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(distributed): enforce exact framerate at concat + mux boundaries by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1040">https://github.com/heygen-com/hyperframes/pull/1040</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.38...v0.6.39">https://github.com/heygen-com/hyperframes/compare/v0.6.38...v0.6.39</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(distributed): enforce exact framerate at concat + mux boundaries by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1040">https://github.com/heygen-com/hyperframes/pull/1040</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.38...v0.6.39">https://github.com/heygen-com/hyperframes/compare/v0.6.38...v0.6.39</a></p>
 ]]></content:encoded>
         </item>
     </channel>
