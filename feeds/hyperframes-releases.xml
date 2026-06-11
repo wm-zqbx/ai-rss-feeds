@@ -4,11 +4,55 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 11 Jun 2026 02:42:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Jun 2026 06:16:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.91]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.91</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.91</guid>
+            <pubDate>Thu, 11 Jun 2026 06:16:58 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.91</h1>
+<p>Released on 2026-06-11.</p>
+<p>Razor/blade tool for splitting timeline clips with GSAP-aware keyframe preservation, plus GSAP drag intercept is now behind a feature flag (off by default) to fix buggy drag behavior on animated elements.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Razor/blade tool UI for timeline clip splitting (<a href="https://github.com/heygen-com/hyperframes/commit/ef186139758e237633af77bbf9956272b064a1a5">ef186139</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1331">#1331</a>)</li>
+<li><strong>Core:</strong> GSAP-aware split engine for timeline clip splitting (<a href="https://github.com/heygen-com/hyperframes/commit/45d4a71ed0761364fdb983b7a04d559e5f331327">45d4a71e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1330">#1330</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Add GSAP drag intercept feature flag, disabled by default (<a href="https://github.com/heygen-com/hyperframes/commit/a5bc52bad19158cedeed21fbb1f8ee465bd2f57d">a5bc52ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1341">#1341</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Extract shared timeline components and deduplicate code (<a href="https://github.com/heygen-com/hyperframes/commit/ab08260201620277eca8baafeae330ac24342acb">ab082602</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1329">#1329</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.90...v0.6.91">https://github.com/heygen-com/hyperframes/compare/v0.6.90...v0.6.91</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.91</h1>
+<p>Released on 2026-06-11.</p>
+<p>Razor/blade tool for splitting timeline clips with GSAP-aware keyframe preservation, plus GSAP drag intercept is now behind a feature flag (off by default) to fix buggy drag behavior on animated elements.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Razor/blade tool UI for timeline clip splitting (<a href="https://github.com/heygen-com/hyperframes/commit/ef186139758e237633af77bbf9956272b064a1a5">ef186139</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1331">#1331</a>)</li>
+<li><strong>Core:</strong> GSAP-aware split engine for timeline clip splitting (<a href="https://github.com/heygen-com/hyperframes/commit/45d4a71ed0761364fdb983b7a04d559e5f331327">45d4a71e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1330">#1330</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Add GSAP drag intercept feature flag, disabled by default (<a href="https://github.com/heygen-com/hyperframes/commit/a5bc52bad19158cedeed21fbb1f8ee465bd2f57d">a5bc52ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1341">#1341</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Extract shared timeline components and deduplicate code (<a href="https://github.com/heygen-com/hyperframes/commit/ab08260201620277eca8baafeae330ac24342acb">ab082602</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1329">#1329</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.90...v0.6.91">https://github.com/heygen-com/hyperframes/compare/v0.6.90...v0.6.91</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.90]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.90</link>
@@ -1639,48 +1683,6 @@
 <li>fix: support animated media volume by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1066">https://github.com/heygen-com/hyperframes/pull/1066</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.41...v0.6.42">https://github.com/heygen-com/hyperframes/compare/v0.6.41...v0.6.42</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.41]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.41</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.41</guid>
-            <pubDate>Sun, 24 May 2026 18:29:04 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(release): bump plugin manifests in set-version by @Konadu-Akwasi-Akuoko in <a href="https://github.com/heygen-com/hyperframes/pull/1051">https://github.com/heygen-com/hyperframes/pull/1051</a></li>
-<li>fix(producer): force single worker for html-in-canvas compositions by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1052">https://github.com/heygen-com/hyperframes/pull/1052</a></li>
-<li>fix(distributed): apply -r <fps> to single-chunk pass-through path by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1053">https://github.com/heygen-com/hyperframes/pull/1053</a></li>
-<li>feat(distributed): add optional cfr flag for exact constant frame rate output by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1054">https://github.com/heygen-com/hyperframes/pull/1054</a></li>
-<li>fix(core): stop binding class values in composition scoped window by @func25 in <a href="https://github.com/heygen-com/hyperframes/pull/1060">https://github.com/heygen-com/hyperframes/pull/1060</a></li>
-<li>fix(aws-lambda): resolve Chromium for handlePlan before invoking probe by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1056">https://github.com/heygen-com/hyperframes/pull/1056</a></li>
-<li>fix(aws-lambda): fail build-zip when ffmpeg-static binary isn&#39;t Linux x86-64 by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1058">https://github.com/heygen-com/hyperframes/pull/1058</a></li>
-<li>feat(registry): Apple Liquid Glass components — iOS 26 + macOS Tahoe by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1045">https://github.com/heygen-com/hyperframes/pull/1045</a></li>
-<li>fix(core,cli): defer __renderReady until root timeline is bound by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1061">https://github.com/heygen-com/hyperframes/pull/1061</a></li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li>@Konadu-Akwasi-Akuoko made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1051">https://github.com/heygen-com/hyperframes/pull/1051</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.40...v0.6.41">https://github.com/heygen-com/hyperframes/compare/v0.6.40...v0.6.41</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(release): bump plugin manifests in set-version by @Konadu-Akwasi-Akuoko in <a href="https://github.com/heygen-com/hyperframes/pull/1051">https://github.com/heygen-com/hyperframes/pull/1051</a></li>
-<li>fix(producer): force single worker for html-in-canvas compositions by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1052">https://github.com/heygen-com/hyperframes/pull/1052</a></li>
-<li>fix(distributed): apply -r <fps> to single-chunk pass-through path by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1053">https://github.com/heygen-com/hyperframes/pull/1053</a></li>
-<li>feat(distributed): add optional cfr flag for exact constant frame rate output by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1054">https://github.com/heygen-com/hyperframes/pull/1054</a></li>
-<li>fix(core): stop binding class values in composition scoped window by @func25 in <a href="https://github.com/heygen-com/hyperframes/pull/1060">https://github.com/heygen-com/hyperframes/pull/1060</a></li>
-<li>fix(aws-lambda): resolve Chromium for handlePlan before invoking probe by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1056">https://github.com/heygen-com/hyperframes/pull/1056</a></li>
-<li>fix(aws-lambda): fail build-zip when ffmpeg-static binary isn&#39;t Linux x86-64 by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1058">https://github.com/heygen-com/hyperframes/pull/1058</a></li>
-<li>feat(registry): Apple Liquid Glass components — iOS 26 + macOS Tahoe by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1045">https://github.com/heygen-com/hyperframes/pull/1045</a></li>
-<li>fix(core,cli): defer __renderReady until root timeline is bound by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1061">https://github.com/heygen-com/hyperframes/pull/1061</a></li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li>@Konadu-Akwasi-Akuoko made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1051">https://github.com/heygen-com/hyperframes/pull/1051</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.40...v0.6.41">https://github.com/heygen-com/hyperframes/compare/v0.6.40...v0.6.41</a></p>
 ]]></content:encoded>
         </item>
     </channel>
