@@ -4,11 +4,39 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 12 Jun 2026 05:04:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2026 16:46:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.95]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.95</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.95</guid>
+            <pubDate>Fri, 12 Jun 2026 16:46:43 GMT</pubDate>
+            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.95 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix(producer): pass resolved engine config through every encode path by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1371">https://github.com/heygen-com/hyperframes/pull/1371</a></li>
+<li>fix(engine): real back-pressure in StreamingEncoder.writeFrame by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1372">https://github.com/heygen-com/hyperframes/pull/1372</a></li>
+<li>fix(engine): respect cgroup memory limits in low-memory detection by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1373">https://github.com/heygen-com/hyperframes/pull/1373</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.94...v0.6.95">https://github.com/heygen-com/hyperframes/compare/v0.6.94...v0.6.95</a></p>
+]]></description>
+            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.95 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix(producer): pass resolved engine config through every encode path by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1371">https://github.com/heygen-com/hyperframes/pull/1371</a></li>
+<li>fix(engine): real back-pressure in StreamingEncoder.writeFrame by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1372">https://github.com/heygen-com/hyperframes/pull/1372</a></li>
+<li>fix(engine): respect cgroup memory limits in low-memory detection by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1373">https://github.com/heygen-com/hyperframes/pull/1373</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.94...v0.6.95">https://github.com/heygen-com/hyperframes/compare/v0.6.94...v0.6.95</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.93]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.93</link>
@@ -1711,28 +1739,6 @@
 <li>fix(studio): align editor overlays with GSAP-transformed elements during playback by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1077">https://github.com/heygen-com/hyperframes/pull/1077</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.45...v0.6.46">https://github.com/heygen-com/hyperframes/compare/v0.6.45...v0.6.46</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.45]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.45</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.45</guid>
-            <pubDate>Mon, 25 May 2026 19:47:45 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(engine): scale Chrome memory budget and frame cache to system RAM by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1073">https://github.com/heygen-com/hyperframes/pull/1073</a></li>
-<li>feat(cli): add --remote-debugging-port to preview and play by @na-navi in <a href="https://github.com/heygen-com/hyperframes/pull/983">https://github.com/heygen-com/hyperframes/pull/983</a></li>
-<li>fix(core): revert Function constructor regression in sub-composition scripts by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1075">https://github.com/heygen-com/hyperframes/pull/1075</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.44...v0.6.45">https://github.com/heygen-com/hyperframes/compare/v0.6.44...v0.6.45</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(engine): scale Chrome memory budget and frame cache to system RAM by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1073">https://github.com/heygen-com/hyperframes/pull/1073</a></li>
-<li>feat(cli): add --remote-debugging-port to preview and play by @na-navi in <a href="https://github.com/heygen-com/hyperframes/pull/983">https://github.com/heygen-com/hyperframes/pull/983</a></li>
-<li>fix(core): revert Function constructor regression in sub-composition scripts by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1075">https://github.com/heygen-com/hyperframes/pull/1075</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.44...v0.6.45">https://github.com/heygen-com/hyperframes/compare/v0.6.44...v0.6.45</a></p>
 ]]></content:encoded>
         </item>
     </channel>
