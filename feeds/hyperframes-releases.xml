@@ -4,11 +4,29 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 12 Jun 2026 04:41:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2026 05:04:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.93]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.93</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.93</guid>
+            <pubDate>Fri, 12 Jun 2026 05:04:42 GMT</pubDate>
+            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.93 -->
+
+
+
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.92...v0.6.93">https://github.com/heygen-com/hyperframes/compare/v0.6.92...v0.6.93</a></p>
+]]></description>
+            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.93 -->
+
+
+
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.92...v0.6.93">https://github.com/heygen-com/hyperframes/compare/v0.6.92...v0.6.93</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.92]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.92</link>
@@ -1715,26 +1733,6 @@
 <li>fix(core): revert Function constructor regression in sub-composition scripts by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1075">https://github.com/heygen-com/hyperframes/pull/1075</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.44...v0.6.45">https://github.com/heygen-com/hyperframes/compare/v0.6.44...v0.6.45</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.44]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.44</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.44</guid>
-            <pubDate>Mon, 25 May 2026 16:58:41 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): guard cross-origin iframe access to prevent SecurityError crashes by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1071">https://github.com/heygen-com/hyperframes/pull/1071</a></li>
-<li>fix(studio): filter media decode errors from crash telemetry by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1070">https://github.com/heygen-com/hyperframes/pull/1070</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.43...v0.6.44">https://github.com/heygen-com/hyperframes/compare/v0.6.43...v0.6.44</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): guard cross-origin iframe access to prevent SecurityError crashes by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1071">https://github.com/heygen-com/hyperframes/pull/1071</a></li>
-<li>fix(studio): filter media decode errors from crash telemetry by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1070">https://github.com/heygen-com/hyperframes/pull/1070</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.43...v0.6.44">https://github.com/heygen-com/hyperframes/compare/v0.6.43...v0.6.44</a></p>
 ]]></content:encoded>
         </item>
     </channel>
