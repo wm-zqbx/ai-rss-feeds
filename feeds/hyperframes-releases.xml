@@ -4,11 +4,65 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 11 Jun 2026 17:25:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jun 2026 04:41:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.92]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.92</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.92</guid>
+            <pubDate>Fri, 12 Jun 2026 04:41:20 GMT</pubDate>
+            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.92 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix(studio): accept razor splits at the canvas clamp boundary by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1340">https://github.com/heygen-com/hyperframes/pull/1340</a></li>
+<li>feat(core): expose hf-ids as subpath export for @hyperframes/sdk by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1323">https://github.com/heygen-com/hyperframes/pull/1323</a></li>
+<li>feat(sdk): scaffold @hyperframes/sdk — engine layer (model, RFC 6902 patches, mutate, apply-patches) by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1324">https://github.com/heygen-com/hyperframes/pull/1324</a></li>
+<li>feat(sdk): session API, optional history + persist-queue, adapters — Phase 3a complete by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1325">https://github.com/heygen-com/hyperframes/pull/1325</a></li>
+<li>feat(lint): add gsap_studio_edit_blocked rule for manual timeline + GSAP element targeting by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1345">https://github.com/heygen-com/hyperframes/pull/1345</a></li>
+<li>fix(studio,core): persist manual position edits for GSAP-owned elements by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1346">https://github.com/heygen-com/hyperframes/pull/1346</a></li>
+<li>fix(studio): watch external project dirs so preview ETag invalidates by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1347">https://github.com/heygen-com/hyperframes/pull/1347</a></li>
+<li>fix(sdk,core): css tokenizer, override-set replay, setattribute safety, persist errors by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1350">https://github.com/heygen-com/hyperframes/pull/1350</a></li>
+<li>fix(core): actionable error for empty sub-composition HTML in compile by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1364">https://github.com/heygen-com/hyperframes/pull/1364</a></li>
+<li>fix(core): per-property-group keyframe foundations by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1354">https://github.com/heygen-com/hyperframes/pull/1354</a></li>
+<li>fix(core): split-into-property-groups and replace-with-keyframes mutations by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1355">https://github.com/heygen-com/hyperframes/pull/1355</a></li>
+<li>fix(studio): per-property-group intercept routing + drag/resize fixes by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1356">https://github.com/heygen-com/hyperframes/pull/1356</a></li>
+<li>fix(studio): keyframe cache propertyGroup tagging + timeline UI by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1357">https://github.com/heygen-com/hyperframes/pull/1357</a></li>
+<li>fix(studio): property panel group-aware keyframe routing by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1358">https://github.com/heygen-com/hyperframes/pull/1358</a></li>
+<li>fix(studio): gesture recording replaces existing position keyframes by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1359">https://github.com/heygen-com/hyperframes/pull/1359</a></li>
+<li>feat(studio): off-screen element indicators + unclipped overlay by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1360">https://github.com/heygen-com/hyperframes/pull/1360</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.92">https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.92</a></p>
+]]></description>
+            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.92 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix(studio): accept razor splits at the canvas clamp boundary by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1340">https://github.com/heygen-com/hyperframes/pull/1340</a></li>
+<li>feat(core): expose hf-ids as subpath export for @hyperframes/sdk by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1323">https://github.com/heygen-com/hyperframes/pull/1323</a></li>
+<li>feat(sdk): scaffold @hyperframes/sdk — engine layer (model, RFC 6902 patches, mutate, apply-patches) by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1324">https://github.com/heygen-com/hyperframes/pull/1324</a></li>
+<li>feat(sdk): session API, optional history + persist-queue, adapters — Phase 3a complete by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1325">https://github.com/heygen-com/hyperframes/pull/1325</a></li>
+<li>feat(lint): add gsap_studio_edit_blocked rule for manual timeline + GSAP element targeting by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1345">https://github.com/heygen-com/hyperframes/pull/1345</a></li>
+<li>fix(studio,core): persist manual position edits for GSAP-owned elements by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1346">https://github.com/heygen-com/hyperframes/pull/1346</a></li>
+<li>fix(studio): watch external project dirs so preview ETag invalidates by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1347">https://github.com/heygen-com/hyperframes/pull/1347</a></li>
+<li>fix(sdk,core): css tokenizer, override-set replay, setattribute safety, persist errors by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1350">https://github.com/heygen-com/hyperframes/pull/1350</a></li>
+<li>fix(core): actionable error for empty sub-composition HTML in compile by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1364">https://github.com/heygen-com/hyperframes/pull/1364</a></li>
+<li>fix(core): per-property-group keyframe foundations by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1354">https://github.com/heygen-com/hyperframes/pull/1354</a></li>
+<li>fix(core): split-into-property-groups and replace-with-keyframes mutations by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1355">https://github.com/heygen-com/hyperframes/pull/1355</a></li>
+<li>fix(studio): per-property-group intercept routing + drag/resize fixes by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1356">https://github.com/heygen-com/hyperframes/pull/1356</a></li>
+<li>fix(studio): keyframe cache propertyGroup tagging + timeline UI by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1357">https://github.com/heygen-com/hyperframes/pull/1357</a></li>
+<li>fix(studio): property panel group-aware keyframe routing by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1358">https://github.com/heygen-com/hyperframes/pull/1358</a></li>
+<li>fix(studio): gesture recording replaces existing position keyframes by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1359">https://github.com/heygen-com/hyperframes/pull/1359</a></li>
+<li>feat(studio): off-screen element indicators + unclipped overlay by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1360">https://github.com/heygen-com/hyperframes/pull/1360</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.92">https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.92</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Model assets (PP-MattingV2)]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/model-assets-v1</link>
@@ -1681,28 +1735,6 @@
 <li>fix(studio): filter media decode errors from crash telemetry by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1070">https://github.com/heygen-com/hyperframes/pull/1070</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.43...v0.6.44">https://github.com/heygen-com/hyperframes/compare/v0.6.43...v0.6.44</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.43]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.43</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.43</guid>
-            <pubDate>Mon, 25 May 2026 13:37:58 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>docs: update rendering comparison and license wording by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1041">https://github.com/heygen-com/hyperframes/pull/1041</a></li>
-<li>fix(core): inline and preserve sub-composition scripts in preview bundles by @func25 in <a href="https://github.com/heygen-com/hyperframes/pull/1068">https://github.com/heygen-com/hyperframes/pull/1068</a></li>
-<li>fix(core): correct WAAPI rediscovery seek baselines and preview reuse… by @func25 in <a href="https://github.com/heygen-com/hyperframes/pull/1069">https://github.com/heygen-com/hyperframes/pull/1069</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.42...v0.6.43">https://github.com/heygen-com/hyperframes/compare/v0.6.42...v0.6.43</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>docs: update rendering comparison and license wording by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1041">https://github.com/heygen-com/hyperframes/pull/1041</a></li>
-<li>fix(core): inline and preserve sub-composition scripts in preview bundles by @func25 in <a href="https://github.com/heygen-com/hyperframes/pull/1068">https://github.com/heygen-com/hyperframes/pull/1068</a></li>
-<li>fix(core): correct WAAPI rediscovery seek baselines and preview reuse… by @func25 in <a href="https://github.com/heygen-com/hyperframes/pull/1069">https://github.com/heygen-com/hyperframes/pull/1069</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.42...v0.6.43">https://github.com/heygen-com/hyperframes/compare/v0.6.42...v0.6.43</a></p>
 ]]></content:encoded>
         </item>
     </channel>
