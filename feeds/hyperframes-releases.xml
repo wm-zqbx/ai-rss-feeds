@@ -4,11 +4,79 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 12 Jun 2026 16:46:43 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Jun 2026 03:32:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.96]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.96</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.96</guid>
+            <pubDate>Sat, 13 Jun 2026 03:32:25 GMT</pubDate>
+            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.96 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix(core): honor root data-duration when GSAP timeline ends short by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1378">https://github.com/heygen-com/hyperframes/pull/1378</a></li>
+<li>fix(release): include sdk in fixed-version bump by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1363">https://github.com/heygen-com/hyperframes/pull/1363</a></li>
+<li>fix(studio): remove motion tab from right panel by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1391">https://github.com/heygen-com/hyperframes/pull/1391</a></li>
+<li>fix(studio): stabilize manual drag targets by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1393">https://github.com/heygen-com/hyperframes/pull/1393</a></li>
+<li>fix: address review feedback from #1333 and #1335 by @mvanhorn in <a href="https://github.com/heygen-com/hyperframes/pull/1343">https://github.com/heygen-com/hyperframes/pull/1343</a></li>
+<li>fix(cli): respect registry compatibility metadata by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1251">https://github.com/heygen-com/hyperframes/pull/1251</a></li>
+<li>fix(cli): resolve and install transitive registry dependencies by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1396">https://github.com/heygen-com/hyperframes/pull/1396</a></li>
+<li>fix(runtime): respect hidden ancestor clips in Studio preview (#1387) by @manupareekk in <a href="https://github.com/heygen-com/hyperframes/pull/1395">https://github.com/heygen-com/hyperframes/pull/1395</a></li>
+<li>fix(cli): validate project directory before starting preview by @manupareekk in <a href="https://github.com/heygen-com/hyperframes/pull/1394">https://github.com/heygen-com/hyperframes/pull/1394</a></li>
+<li>fix(studio): journal source writebacks by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1388">https://github.com/heygen-com/hyperframes/pull/1388</a></li>
+<li>fix(core): exclude dot-directories and node_modules from studio composition discovery and lint by @leorivastech in <a href="https://github.com/heygen-com/hyperframes/pull/1385">https://github.com/heygen-com/hyperframes/pull/1385</a></li>
+<li>fix(sdk): bridge preview selection into session state by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1362">https://github.com/heygen-com/hyperframes/pull/1362</a></li>
+<li>fix(studio): save retries, mutation queue circuit breaker, save_failure diagnostics by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1366">https://github.com/heygen-com/hyperframes/pull/1366</a></li>
+<li>test(core): fix contradictory composition-discovery file-tree test (#1385) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1399">https://github.com/heygen-com/hyperframes/pull/1399</a></li>
+<li>test(core): align file-tree test with backup-only hiding (#1366) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1400">https://github.com/heygen-com/hyperframes/pull/1400</a></li>
+<li>fix(studio): reject unsafe keyframe values by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1389">https://github.com/heygen-com/hyperframes/pull/1389</a></li>
+<li>fix(core): block symlink-based path escape in studio-api isSafePath by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1397">https://github.com/heygen-com/hyperframes/pull/1397</a></li>
+<li>fix(studio): surface gesture recording controls by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1390">https://github.com/heygen-com/hyperframes/pull/1390</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li>@manupareekk made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1395">https://github.com/heygen-com/hyperframes/pull/1395</a></li>
+<li>@leorivastech made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1385">https://github.com/heygen-com/hyperframes/pull/1385</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96">https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96</a></p>
+]]></description>
+            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.96 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix(core): honor root data-duration when GSAP timeline ends short by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1378">https://github.com/heygen-com/hyperframes/pull/1378</a></li>
+<li>fix(release): include sdk in fixed-version bump by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1363">https://github.com/heygen-com/hyperframes/pull/1363</a></li>
+<li>fix(studio): remove motion tab from right panel by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1391">https://github.com/heygen-com/hyperframes/pull/1391</a></li>
+<li>fix(studio): stabilize manual drag targets by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1393">https://github.com/heygen-com/hyperframes/pull/1393</a></li>
+<li>fix: address review feedback from #1333 and #1335 by @mvanhorn in <a href="https://github.com/heygen-com/hyperframes/pull/1343">https://github.com/heygen-com/hyperframes/pull/1343</a></li>
+<li>fix(cli): respect registry compatibility metadata by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1251">https://github.com/heygen-com/hyperframes/pull/1251</a></li>
+<li>fix(cli): resolve and install transitive registry dependencies by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1396">https://github.com/heygen-com/hyperframes/pull/1396</a></li>
+<li>fix(runtime): respect hidden ancestor clips in Studio preview (#1387) by @manupareekk in <a href="https://github.com/heygen-com/hyperframes/pull/1395">https://github.com/heygen-com/hyperframes/pull/1395</a></li>
+<li>fix(cli): validate project directory before starting preview by @manupareekk in <a href="https://github.com/heygen-com/hyperframes/pull/1394">https://github.com/heygen-com/hyperframes/pull/1394</a></li>
+<li>fix(studio): journal source writebacks by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1388">https://github.com/heygen-com/hyperframes/pull/1388</a></li>
+<li>fix(core): exclude dot-directories and node_modules from studio composition discovery and lint by @leorivastech in <a href="https://github.com/heygen-com/hyperframes/pull/1385">https://github.com/heygen-com/hyperframes/pull/1385</a></li>
+<li>fix(sdk): bridge preview selection into session state by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1362">https://github.com/heygen-com/hyperframes/pull/1362</a></li>
+<li>fix(studio): save retries, mutation queue circuit breaker, save_failure diagnostics by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1366">https://github.com/heygen-com/hyperframes/pull/1366</a></li>
+<li>test(core): fix contradictory composition-discovery file-tree test (#1385) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1399">https://github.com/heygen-com/hyperframes/pull/1399</a></li>
+<li>test(core): align file-tree test with backup-only hiding (#1366) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1400">https://github.com/heygen-com/hyperframes/pull/1400</a></li>
+<li>fix(studio): reject unsafe keyframe values by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1389">https://github.com/heygen-com/hyperframes/pull/1389</a></li>
+<li>fix(core): block symlink-based path escape in studio-api isSafePath by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1397">https://github.com/heygen-com/hyperframes/pull/1397</a></li>
+<li>fix(studio): surface gesture recording controls by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1390">https://github.com/heygen-com/hyperframes/pull/1390</a></li>
+</ul>
+<h2>New Contributors</h2>
+<ul>
+<li>@manupareekk made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1395">https://github.com/heygen-com/hyperframes/pull/1395</a></li>
+<li>@leorivastech made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1385">https://github.com/heygen-com/hyperframes/pull/1385</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96">https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.95]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.95</link>
@@ -1719,26 +1787,6 @@
 <li>fix(engine): disable browser pool for parallel capture workers by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1087">https://github.com/heygen-com/hyperframes/pull/1087</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.46...v0.6.47">https://github.com/heygen-com/hyperframes/compare/v0.6.46...v0.6.47</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.46]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.46</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.46</guid>
-            <pubDate>Mon, 25 May 2026 23:51:34 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): clamp playhead to composition duration in RAF loop by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1076">https://github.com/heygen-com/hyperframes/pull/1076</a></li>
-<li>fix(studio): align editor overlays with GSAP-transformed elements during playback by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1077">https://github.com/heygen-com/hyperframes/pull/1077</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.45...v0.6.46">https://github.com/heygen-com/hyperframes/compare/v0.6.45...v0.6.46</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): clamp playhead to composition duration in RAF loop by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1076">https://github.com/heygen-com/hyperframes/pull/1076</a></li>
-<li>fix(studio): align editor overlays with GSAP-transformed elements during playback by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1077">https://github.com/heygen-com/hyperframes/pull/1077</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.45...v0.6.46">https://github.com/heygen-com/hyperframes/compare/v0.6.45...v0.6.46</a></p>
 ]]></content:encoded>
         </item>
     </channel>
