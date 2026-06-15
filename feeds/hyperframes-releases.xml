@@ -4,11 +4,67 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 15 Jun 2026 13:08:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jun 2026 23:19:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.100]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.100</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.100</guid>
+            <pubDate>Mon, 15 Jun 2026 23:19:59 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.100</h1>
+<p>Released on 2026-06-15.</p>
+<p>Wires the SDK session into Studio (stage 7 steps 1-3b), adding shadow dispatch parity mode, persist-path reload, selection API, and HTTP persist adapter. Also adds motion verification and text occlusion detection to <code>inspect</code>.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Stage 7 step 3b — SDK shadow dispatch parity mode (<a href="https://github.com/heygen-com/hyperframes/commit/69aa595f383d7124c71a0eb2f77edef76fcdef2a">69aa595f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1450">#1450</a>)</li>
+<li><strong>Sdk,studio:</strong> Stage 7 step 3a — persistPath + SDK session reload-on-change (<a href="https://github.com/heygen-com/hyperframes/commit/5fe87cc39bcf154aa2d937908700d8c1a6b44013">5fe87cc3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1449">#1449</a>)</li>
+<li><strong>Studio:</strong> Stage 7 step 1 — wire SDK session into Studio (<a href="https://github.com/heygen-com/hyperframes/commit/92e2c8ce6a0b6702f779dc3c50eb37fd3b84492e">92e2c8ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1443">#1443</a>)</li>
+<li><strong>Sdk:</strong> Stage 7 step 2 — setSelection API (<a href="https://github.com/heygen-com/hyperframes/commit/30ce1f35a2e27351ad365467d8da8b8e2e90df24">30ce1f35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1442">#1442</a>)</li>
+<li><strong>Sdk:</strong> Stage 7 step 1 — http persist adapter (<a href="https://github.com/heygen-com/hyperframes/commit/c19898e799d5d64b1a6af8e62e59e1bcee3df4bd">c19898e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1441">#1441</a>)</li>
+<li><strong>CLI:</strong> Declarative motion verification in inspect (#1437) (<a href="https://github.com/heygen-com/hyperframes/commit/9175eced45f22683b6fcf09807e8aae2270ff248">9175eced</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1459">#1459</a>)</li>
+<li><strong>CLI:</strong> Flag text occluded by opaque elements in inspect (<a href="https://github.com/heygen-com/hyperframes/commit/1e54827957c719ddceba9cbfe46a2a37d692cec9">1e548279</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1435">#1435</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Restore <code>hyperframes capture &lt;url&gt;</code>; move video download to <code>--video</code> flag (<a href="https://github.com/heygen-com/hyperframes/commit/f8d9f51245908d64b74a8df96bc80e901fd1f5cf">f8d9f512</a>)</li>
+<li><strong>Core:</strong> Stop transport re-seek from clobbering Studio drag drafts (<a href="https://github.com/heygen-com/hyperframes/commit/1ab7dcfe477d526cb153c0e73f113d4de0cbd190">1ab7dcfe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1464">#1464</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Reconcile skills surface; rename read-first entry skill to /hyperframes (<a href="https://github.com/heygen-com/hyperframes/commit/3b3ece81d1a0b36038e67e58d9ca620e4a3122e9">3b3ece81</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1461">#1461</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.99...v0.6.100">https://github.com/heygen-com/hyperframes/compare/v0.6.99...v0.6.100</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.100</h1>
+<p>Released on 2026-06-15.</p>
+<p>Wires the SDK session into Studio (stage 7 steps 1-3b), adding shadow dispatch parity mode, persist-path reload, selection API, and HTTP persist adapter. Also adds motion verification and text occlusion detection to <code>inspect</code>.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Stage 7 step 3b — SDK shadow dispatch parity mode (<a href="https://github.com/heygen-com/hyperframes/commit/69aa595f383d7124c71a0eb2f77edef76fcdef2a">69aa595f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1450">#1450</a>)</li>
+<li><strong>Sdk,studio:</strong> Stage 7 step 3a — persistPath + SDK session reload-on-change (<a href="https://github.com/heygen-com/hyperframes/commit/5fe87cc39bcf154aa2d937908700d8c1a6b44013">5fe87cc3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1449">#1449</a>)</li>
+<li><strong>Studio:</strong> Stage 7 step 1 — wire SDK session into Studio (<a href="https://github.com/heygen-com/hyperframes/commit/92e2c8ce6a0b6702f779dc3c50eb37fd3b84492e">92e2c8ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1443">#1443</a>)</li>
+<li><strong>Sdk:</strong> Stage 7 step 2 — setSelection API (<a href="https://github.com/heygen-com/hyperframes/commit/30ce1f35a2e27351ad365467d8da8b8e2e90df24">30ce1f35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1442">#1442</a>)</li>
+<li><strong>Sdk:</strong> Stage 7 step 1 — http persist adapter (<a href="https://github.com/heygen-com/hyperframes/commit/c19898e799d5d64b1a6af8e62e59e1bcee3df4bd">c19898e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1441">#1441</a>)</li>
+<li><strong>CLI:</strong> Declarative motion verification in inspect (#1437) (<a href="https://github.com/heygen-com/hyperframes/commit/9175eced45f22683b6fcf09807e8aae2270ff248">9175eced</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1459">#1459</a>)</li>
+<li><strong>CLI:</strong> Flag text occluded by opaque elements in inspect (<a href="https://github.com/heygen-com/hyperframes/commit/1e54827957c719ddceba9cbfe46a2a37d692cec9">1e548279</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1435">#1435</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Restore <code>hyperframes capture &lt;url&gt;</code>; move video download to <code>--video</code> flag (<a href="https://github.com/heygen-com/hyperframes/commit/f8d9f51245908d64b74a8df96bc80e901fd1f5cf">f8d9f512</a>)</li>
+<li><strong>Core:</strong> Stop transport re-seek from clobbering Studio drag drafts (<a href="https://github.com/heygen-com/hyperframes/commit/1ab7dcfe477d526cb153c0e73f113d4de0cbd190">1ab7dcfe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1464">#1464</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Reconcile skills surface; rename read-first entry skill to /hyperframes (<a href="https://github.com/heygen-com/hyperframes/commit/3b3ece81d1a0b36038e67e58d9ca620e4a3122e9">3b3ece81</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1461">#1461</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.99...v0.6.100">https://github.com/heygen-com/hyperframes/compare/v0.6.99...v0.6.100</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.99]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.99</link>
@@ -1925,24 +1981,6 @@
 <li>fix(studio): compensate GSAP translate when starting manual drag by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1095">https://github.com/heygen-com/hyperframes/pull/1095</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.50...v0.6.51">https://github.com/heygen-com/hyperframes/compare/v0.6.50...v0.6.51</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.50]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.50</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.50</guid>
-            <pubDate>Wed, 27 May 2026 15:31:05 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(engine): use captureBeyondViewport on all CDP screenshot paths by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1094">https://github.com/heygen-com/hyperframes/pull/1094</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.49...v0.6.50">https://github.com/heygen-com/hyperframes/compare/v0.6.49...v0.6.50</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(engine): use captureBeyondViewport on all CDP screenshot paths by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1094">https://github.com/heygen-com/hyperframes/pull/1094</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.49...v0.6.50">https://github.com/heygen-com/hyperframes/compare/v0.6.49...v0.6.50</a></p>
 ]]></content:encoded>
         </item>
     </channel>
