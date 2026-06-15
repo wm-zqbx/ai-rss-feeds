@@ -4,11 +4,21 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 13 Jun 2026 06:06:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jun 2026 06:35:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.98]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.98</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.98</guid>
+            <pubDate>Mon, 15 Jun 2026 06:35:56 GMT</pubDate>
+            <description><![CDATA[<p>Keyframe-aware timeline editing: clip resize proportionally scales GSAP animation positions and durations, clip drag shifts positions, and diamond rendering stays stable at clip boundaries. Music beat detection with timeline guides and headless CLI command.</p>
+]]></description>
+            <content:encoded><![CDATA[<p>Keyframe-aware timeline editing: clip resize proportionally scales GSAP animation positions and durations, clip drag shifts positions, and diamond rendering stays stable at clip boundaries. Music beat detection with timeline guides and headless CLI command.</p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.97]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.97</link>
@@ -1753,26 +1763,6 @@
 <li>feat: CLI observability + fix studio save failures on JS-created elements by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1091">https://github.com/heygen-com/hyperframes/pull/1091</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.48...v0.6.49">https://github.com/heygen-com/hyperframes/compare/v0.6.48...v0.6.49</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.48]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.48</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.48</guid>
-            <pubDate>Wed, 27 May 2026 03:49:27 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>test(producer): add parallel capture regression test by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1088">https://github.com/heygen-com/hyperframes/pull/1088</a></li>
-<li>fix(studio): fit preview reset to composition dimensions by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1085">https://github.com/heygen-com/hyperframes/pull/1085</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.47...v0.6.48">https://github.com/heygen-com/hyperframes/compare/v0.6.47...v0.6.48</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>test(producer): add parallel capture regression test by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1088">https://github.com/heygen-com/hyperframes/pull/1088</a></li>
-<li>fix(studio): fit preview reset to composition dimensions by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1085">https://github.com/heygen-com/hyperframes/pull/1085</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.47...v0.6.48">https://github.com/heygen-com/hyperframes/compare/v0.6.47...v0.6.48</a></p>
 ]]></content:encoded>
         </item>
     </channel>
