@@ -4,11 +4,39 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 16 Jun 2026 10:01:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 16:33:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.105]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.105</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.105</guid>
+            <pubDate>Tue, 16 Jun 2026 16:33:07 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.105</h1>
+<p>Released on 2026-06-16.</p>
+<p>Restores <code>remove-background</code> by moving <code>sharp</code> and <code>onnxruntime-node</code> back to regular dependencies (they were skipped as optional deps, so the command&#39;s required native modules weren&#39;t installed). Also fixes the Linux GPU render path (deprecated EGL + NVENC probe failure on data-center GPUs).</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Restore sharp + onnxruntime-node as dependencies (unbreak remove-background) (<a href="https://github.com/heygen-com/hyperframes/commit/322147aef9ef7d13c58bb95f0b628dba821aed28">322147aef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1505">#1505</a>)</li>
+<li><strong>Engine:</strong> Linux GPU path uses deprecated EGL + NVENC probe fails on data-center GPUs (<a href="https://github.com/heygen-com/hyperframes/commit/e5346afdd84b99806dcdc828fc3318c3ef63d290">e5346afdd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1504">#1504</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.104...v0.6.105">https://github.com/heygen-com/hyperframes/compare/v0.6.104...v0.6.105</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.105</h1>
+<p>Released on 2026-06-16.</p>
+<p>Restores <code>remove-background</code> by moving <code>sharp</code> and <code>onnxruntime-node</code> back to regular dependencies (they were skipped as optional deps, so the command&#39;s required native modules weren&#39;t installed). Also fixes the Linux GPU render path (deprecated EGL + NVENC probe failure on data-center GPUs).</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Restore sharp + onnxruntime-node as dependencies (unbreak remove-background) (<a href="https://github.com/heygen-com/hyperframes/commit/322147aef9ef7d13c58bb95f0b628dba821aed28">322147aef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1505">#1505</a>)</li>
+<li><strong>Engine:</strong> Linux GPU path uses deprecated EGL + NVENC probe fails on data-center GPUs (<a href="https://github.com/heygen-com/hyperframes/commit/e5346afdd84b99806dcdc828fc3318c3ef63d290">e5346afdd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1504">#1504</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.104...v0.6.105">https://github.com/heygen-com/hyperframes/compare/v0.6.104...v0.6.105</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.104]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.104</link>
@@ -2031,26 +2059,6 @@
 <li>fix(engine): sample-accurate volume automation so dense fades keep their audio by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1117">https://github.com/heygen-com/hyperframes/pull/1117</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.55...v0.6.56">https://github.com/heygen-com/hyperframes/compare/v0.6.55...v0.6.56</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.55]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.55</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.55</guid>
-            <pubDate>Fri, 29 May 2026 01:01:08 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): make GSAP tween editing work on real compositions by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1115">https://github.com/heygen-com/hyperframes/pull/1115</a></li>
-<li>fix(studio): cover GSAP editor target-resolution limitations by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1116">https://github.com/heygen-com/hyperframes/pull/1116</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.54...v0.6.55">https://github.com/heygen-com/hyperframes/compare/v0.6.54...v0.6.55</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): make GSAP tween editing work on real compositions by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1115">https://github.com/heygen-com/hyperframes/pull/1115</a></li>
-<li>fix(studio): cover GSAP editor target-resolution limitations by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1116">https://github.com/heygen-com/hyperframes/pull/1116</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.54...v0.6.55">https://github.com/heygen-com/hyperframes/compare/v0.6.54...v0.6.55</a></p>
 ]]></content:encoded>
         </item>
     </channel>
