@@ -4,11 +4,79 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 15 Jun 2026 23:19:59 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 04:00:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.101]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.101</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.101</guid>
+            <pubDate>Tue, 16 Jun 2026 04:00:25 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.101</h1>
+<p>Released on 2026-06-16.</p>
+<p>Hardens the CLI across diverse installs — <code>sharp</code> and <code>onnxruntime-node</code> are now optional, <code>transcribe</code> failures report their cause, and capture captioning gains an OpenRouter vision provider. Also lands Studio timeline inline expansion, an SDK shadow expansion, a render path-safety chokepoint, and a Code Animations catalog section.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Support OpenRouter as an alternative vision provider for capture captioning (<a href="https://github.com/heygen-com/hyperframes/commit/646ffff92798fa542dcc8c596c2e22a0143544df">646ffff92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1478">#1478</a>)</li>
+<li><strong>Studio:</strong> Timeline inline expansion + __clipTree runtime primitive (<a href="https://github.com/heygen-com/hyperframes/commit/8cbf4384e1e03b098276f72c63f0dd8e3bd39b83">8cbf4384e</a>)</li>
+<li><strong>Studio:</strong> Extend SDK shadow to delete/timing/gsap-add + default on (<a href="https://github.com/heygen-com/hyperframes/commit/8f15e9f09b02a3e44241ce045164fdc8f82ba0b5">8f15e9f09</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1473">#1473</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Route renders/file serving through resolveWithinProject chokepoint (<a href="https://github.com/heygen-com/hyperframes/commit/fada399539cb944ee4542c935f7395301e72ed98">fada39953</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1477">#1477</a>)</li>
+<li><strong>CLI:</strong> Report transcribe failure reasons via cli_error (command_error) (<a href="https://github.com/heygen-com/hyperframes/commit/40b49d4024be664c8980808eb72bf2a93670e8a6">40b49d402</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1479">#1479</a>)</li>
+<li><strong>Producer:</strong> Guard fileServer.close in all render cleanup paths (<a href="https://github.com/heygen-com/hyperframes/commit/1f9c70cf157fd9bcc13dcff0d6695e9b3c057f0a">1f9c70cf1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1406">#1406</a>)</li>
+<li><strong>CLI:</strong> Make native modules (sharp, onnxruntime) optional + soften inspect overlap (<a href="https://github.com/heygen-com/hyperframes/commit/8f71378185c6f8608038f8db0fb651456a0b4fcc">8f7137818</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1476">#1476</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Add Typeframe to adopters (<a href="https://github.com/heygen-com/hyperframes/commit/2d48369c767ee806266ecb59b89eaa5d7e2d0901">2d48369c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1059">#1059</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Add Code Animations catalog section (9 blocks, incl. GPU) (<a href="https://github.com/heygen-com/hyperframes/commit/07030294e0a011c42130c43b0400598871ec209e">07030294e</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Sync bun.lock with workspace package.json (<a href="https://github.com/heygen-com/hyperframes/commit/cf4b9011555f2be19db7f8705cea36aa3d9e4c3f">cf4b90115</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1480">#1480</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/f03dfaa59...v0.6.101">https://github.com/heygen-com/hyperframes/compare/f03dfaa59...v0.6.101</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.101</h1>
+<p>Released on 2026-06-16.</p>
+<p>Hardens the CLI across diverse installs — <code>sharp</code> and <code>onnxruntime-node</code> are now optional, <code>transcribe</code> failures report their cause, and capture captioning gains an OpenRouter vision provider. Also lands Studio timeline inline expansion, an SDK shadow expansion, a render path-safety chokepoint, and a Code Animations catalog section.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Support OpenRouter as an alternative vision provider for capture captioning (<a href="https://github.com/heygen-com/hyperframes/commit/646ffff92798fa542dcc8c596c2e22a0143544df">646ffff92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1478">#1478</a>)</li>
+<li><strong>Studio:</strong> Timeline inline expansion + __clipTree runtime primitive (<a href="https://github.com/heygen-com/hyperframes/commit/8cbf4384e1e03b098276f72c63f0dd8e3bd39b83">8cbf4384e</a>)</li>
+<li><strong>Studio:</strong> Extend SDK shadow to delete/timing/gsap-add + default on (<a href="https://github.com/heygen-com/hyperframes/commit/8f15e9f09b02a3e44241ce045164fdc8f82ba0b5">8f15e9f09</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1473">#1473</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Route renders/file serving through resolveWithinProject chokepoint (<a href="https://github.com/heygen-com/hyperframes/commit/fada399539cb944ee4542c935f7395301e72ed98">fada39953</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1477">#1477</a>)</li>
+<li><strong>CLI:</strong> Report transcribe failure reasons via cli_error (command_error) (<a href="https://github.com/heygen-com/hyperframes/commit/40b49d4024be664c8980808eb72bf2a93670e8a6">40b49d402</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1479">#1479</a>)</li>
+<li><strong>Producer:</strong> Guard fileServer.close in all render cleanup paths (<a href="https://github.com/heygen-com/hyperframes/commit/1f9c70cf157fd9bcc13dcff0d6695e9b3c057f0a">1f9c70cf1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1406">#1406</a>)</li>
+<li><strong>CLI:</strong> Make native modules (sharp, onnxruntime) optional + soften inspect overlap (<a href="https://github.com/heygen-com/hyperframes/commit/8f71378185c6f8608038f8db0fb651456a0b4fcc">8f7137818</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1476">#1476</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Add Typeframe to adopters (<a href="https://github.com/heygen-com/hyperframes/commit/2d48369c767ee806266ecb59b89eaa5d7e2d0901">2d48369c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1059">#1059</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Add Code Animations catalog section (9 blocks, incl. GPU) (<a href="https://github.com/heygen-com/hyperframes/commit/07030294e0a011c42130c43b0400598871ec209e">07030294e</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Sync bun.lock with workspace package.json (<a href="https://github.com/heygen-com/hyperframes/commit/cf4b9011555f2be19db7f8705cea36aa3d9e4c3f">cf4b90115</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1480">#1480</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/f03dfaa59...v0.6.101">https://github.com/heygen-com/hyperframes/compare/f03dfaa59...v0.6.101</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.100]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.100</link>
@@ -1963,24 +2031,6 @@
 <li>fix(studio): add FFmpeg pre-flight check before render by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1100">https://github.com/heygen-com/hyperframes/pull/1100</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.51...v0.6.52">https://github.com/heygen-com/hyperframes/compare/v0.6.51...v0.6.52</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.51]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.51</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.51</guid>
-            <pubDate>Wed, 27 May 2026 16:18:04 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): compensate GSAP translate when starting manual drag by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1095">https://github.com/heygen-com/hyperframes/pull/1095</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.50...v0.6.51">https://github.com/heygen-com/hyperframes/compare/v0.6.50...v0.6.51</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): compensate GSAP translate when starting manual drag by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1095">https://github.com/heygen-com/hyperframes/pull/1095</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.50...v0.6.51">https://github.com/heygen-com/hyperframes/compare/v0.6.50...v0.6.51</a></p>
 ]]></content:encoded>
         </item>
     </channel>
