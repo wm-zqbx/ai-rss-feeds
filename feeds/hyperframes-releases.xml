@@ -4,11 +4,115 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 16 Jun 2026 04:00:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 16 Jun 2026 10:01:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.104]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.104</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.104</guid>
+            <pubDate>Tue, 16 Jun 2026 10:01:46 GMT</pubDate>
+            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.104 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix(studio): make SDK shadow telemetry fire + be correct (5 fixes, E2E-verified) by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1491">https://github.com/heygen-com/hyperframes/pull/1491</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104">https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104</a></p>
+]]></description>
+            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.104 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix(studio): make SDK shadow telemetry fire + be correct (5 fixes, E2E-verified) by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1491">https://github.com/heygen-com/hyperframes/pull/1491</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104">https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.103]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.103</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.103</guid>
+            <pubDate>Tue, 16 Jun 2026 07:00:18 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.103</h1>
+<p>Released on 2026-06-16.</p>
+<p>Fixes telemetry attribution for studio-triggered renders: render completion and error events are now logged under the browser user who started the render instead of the preview-server process, so render outcomes correlate with the session that triggered them.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Telemetry:</strong> Attribute studio renders to the browser user (joinable funnel) (<a href="https://github.com/heygen-com/hyperframes/commit/121cdd2d9fbc11c25cd8ea000a3946fc3494d8b7">121cdd2d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1492">#1492</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.102...v0.6.103">https://github.com/heygen-com/hyperframes/compare/v0.6.102...v0.6.103</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.103</h1>
+<p>Released on 2026-06-16.</p>
+<p>Fixes telemetry attribution for studio-triggered renders: render completion and error events are now logged under the browser user who started the render instead of the preview-server process, so render outcomes correlate with the session that triggered them.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Telemetry:</strong> Attribute studio renders to the browser user (joinable funnel) (<a href="https://github.com/heygen-com/hyperframes/commit/121cdd2d9fbc11c25cd8ea000a3946fc3494d8b7">121cdd2d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1492">#1492</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.102...v0.6.103">https://github.com/heygen-com/hyperframes/compare/v0.6.102...v0.6.103</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.102]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.102</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.102</guid>
+            <pubDate>Tue, 16 Jun 2026 05:47:37 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.102</h1>
+<p>Released on 2026-06-16.</p>
+<p>Sharpens the Studio↔SDK shadow with GSAP update/delete and value-fidelity parity, adds a video-frame format render option, and lands command-failure telemetry so CLI failures (browser / info) report their cause. Plus a Studio keyframe-cache fix and new catalog/skill docs.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Sdk,studio:</strong> Populate animationIds; shadow GSAP update/delete + value fidelity (<a href="https://github.com/heygen-com/hyperframes/commit/7593aac5efd9975921f6ebbe702d23279f220ea9">7593aac5e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1474">#1474</a>)</li>
+<li><strong>CLI:</strong> Report command failure reasons to telemetry (de-blind browser/info) (<a href="https://github.com/heygen-com/hyperframes/commit/5f6ced116dee6c2da22d182b54ce9ae3941a7282">5f6ced116</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1484">#1484</a>)</li>
+<li>Add video frame format render option (<a href="https://github.com/heygen-com/hyperframes/commit/36b24acf20bed1a88ecb90f9e5288c3c69bd6500">36b24acf2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1481">#1481</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Clear the bare keyframe-cache key when an element loses its keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/e812fc889516265afadc596b3c084d041cb708b1">e812fc889</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1482">#1482</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Surface Code Animations blocks to agents (<a href="https://github.com/heygen-com/hyperframes/commit/d5950103884a37501dbab870a399a37c5e07039e">d59501038</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1485">#1485</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li>Add Video Components catalog page (<a href="https://github.com/heygen-com/hyperframes/commit/897692be6504e2ed4debd6619fa28f43c7785f6e">897692be6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1486">#1486</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.101...v0.6.102">https://github.com/heygen-com/hyperframes/compare/v0.6.101...v0.6.102</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.102</h1>
+<p>Released on 2026-06-16.</p>
+<p>Sharpens the Studio↔SDK shadow with GSAP update/delete and value-fidelity parity, adds a video-frame format render option, and lands command-failure telemetry so CLI failures (browser / info) report their cause. Plus a Studio keyframe-cache fix and new catalog/skill docs.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Sdk,studio:</strong> Populate animationIds; shadow GSAP update/delete + value fidelity (<a href="https://github.com/heygen-com/hyperframes/commit/7593aac5efd9975921f6ebbe702d23279f220ea9">7593aac5e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1474">#1474</a>)</li>
+<li><strong>CLI:</strong> Report command failure reasons to telemetry (de-blind browser/info) (<a href="https://github.com/heygen-com/hyperframes/commit/5f6ced116dee6c2da22d182b54ce9ae3941a7282">5f6ced116</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1484">#1484</a>)</li>
+<li>Add video frame format render option (<a href="https://github.com/heygen-com/hyperframes/commit/36b24acf20bed1a88ecb90f9e5288c3c69bd6500">36b24acf2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1481">#1481</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Clear the bare keyframe-cache key when an element loses its keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/e812fc889516265afadc596b3c084d041cb708b1">e812fc889</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1482">#1482</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Surface Code Animations blocks to agents (<a href="https://github.com/heygen-com/hyperframes/commit/d5950103884a37501dbab870a399a37c5e07039e">d59501038</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1485">#1485</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li>Add Video Components catalog page (<a href="https://github.com/heygen-com/hyperframes/commit/897692be6504e2ed4debd6619fa28f43c7785f6e">897692be6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1486">#1486</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.101...v0.6.102">https://github.com/heygen-com/hyperframes/compare/v0.6.101...v0.6.102</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.101]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.101</link>
@@ -1947,90 +2051,6 @@
 <li>fix(studio): cover GSAP editor target-resolution limitations by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1116">https://github.com/heygen-com/hyperframes/pull/1116</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.54...v0.6.55">https://github.com/heygen-com/hyperframes/compare/v0.6.54...v0.6.55</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.54]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.54</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.54</guid>
-            <pubDate>Thu, 28 May 2026 23:20:40 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>feat(studio): GSAP tween editing in Design panel by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1102">https://github.com/heygen-com/hyperframes/pull/1102</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.53...v0.6.54">https://github.com/heygen-com/hyperframes/compare/v0.6.53...v0.6.54</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>feat(studio): GSAP tween editing in Design panel by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1102">https://github.com/heygen-com/hyperframes/pull/1102</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.53...v0.6.54">https://github.com/heygen-com/hyperframes/compare/v0.6.53...v0.6.54</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.53]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.53</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.53</guid>
-            <pubDate>Thu, 28 May 2026 21:08:57 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): preserve playback across forward RAF loop wrap-around by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1103">https://github.com/heygen-com/hyperframes/pull/1103</a></li>
-<li>fix(cli): print the update-available notice once, not on every event-loop drain by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1104">https://github.com/heygen-com/hyperframes/pull/1104</a></li>
-<li>docs(readme): clarify HyperFrames positioning by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1096">https://github.com/heygen-com/hyperframes/pull/1096</a></li>
-<li>feat(cli): add hyperframes auth login --api-key, status, logout by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1081">https://github.com/heygen-com/hyperframes/pull/1081</a></li>
-<li>feat(cli): add hyperframes auth OAuth (PKCE + loopback + refresh) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1084">https://github.com/heygen-com/hyperframes/pull/1084</a></li>
-<li>feat: post-render and Studio feedback collection via PostHog surveys by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1101">https://github.com/heygen-com/hyperframes/pull/1101</a></li>
-<li>feat(cli): vendor initial hyperframes cloud client codegen by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1109">https://github.com/heygen-com/hyperframes/pull/1109</a></li>
-<li>feat(cli): add hyperframes cloud render/list/get/delete commands by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1110">https://github.com/heygen-com/hyperframes/pull/1110</a></li>
-<li>docs: add HyperFrames showcase by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1108">https://github.com/heygen-com/hyperframes/pull/1108</a></li>
-<li>fix(cli): cloud delete --no-confirm and cloud render --no-wait by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1112">https://github.com/heygen-com/hyperframes/pull/1112</a></li>
-<li>docs: document feedback collection — cadence, data, opt-out by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1111">https://github.com/heygen-com/hyperframes/pull/1111</a></li>
-<li>feat(registry): add code snippet blocks with VS Code workbench by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1113">https://github.com/heygen-com/hyperframes/pull/1113</a></li>
-<li>fix(core): remove 1800s hard cap on timeline duration by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1114">https://github.com/heygen-com/hyperframes/pull/1114</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.52...v0.6.53">https://github.com/heygen-com/hyperframes/compare/v0.6.52...v0.6.53</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): preserve playback across forward RAF loop wrap-around by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1103">https://github.com/heygen-com/hyperframes/pull/1103</a></li>
-<li>fix(cli): print the update-available notice once, not on every event-loop drain by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1104">https://github.com/heygen-com/hyperframes/pull/1104</a></li>
-<li>docs(readme): clarify HyperFrames positioning by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1096">https://github.com/heygen-com/hyperframes/pull/1096</a></li>
-<li>feat(cli): add hyperframes auth login --api-key, status, logout by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1081">https://github.com/heygen-com/hyperframes/pull/1081</a></li>
-<li>feat(cli): add hyperframes auth OAuth (PKCE + loopback + refresh) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1084">https://github.com/heygen-com/hyperframes/pull/1084</a></li>
-<li>feat: post-render and Studio feedback collection via PostHog surveys by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1101">https://github.com/heygen-com/hyperframes/pull/1101</a></li>
-<li>feat(cli): vendor initial hyperframes cloud client codegen by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1109">https://github.com/heygen-com/hyperframes/pull/1109</a></li>
-<li>feat(cli): add hyperframes cloud render/list/get/delete commands by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1110">https://github.com/heygen-com/hyperframes/pull/1110</a></li>
-<li>docs: add HyperFrames showcase by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1108">https://github.com/heygen-com/hyperframes/pull/1108</a></li>
-<li>fix(cli): cloud delete --no-confirm and cloud render --no-wait by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1112">https://github.com/heygen-com/hyperframes/pull/1112</a></li>
-<li>docs: document feedback collection — cadence, data, opt-out by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1111">https://github.com/heygen-com/hyperframes/pull/1111</a></li>
-<li>feat(registry): add code snippet blocks with VS Code workbench by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1113">https://github.com/heygen-com/hyperframes/pull/1113</a></li>
-<li>fix(core): remove 1800s hard cap on timeline duration by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1114">https://github.com/heygen-com/hyperframes/pull/1114</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.52...v0.6.53">https://github.com/heygen-com/hyperframes/compare/v0.6.52...v0.6.53</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.52]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.52</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.52</guid>
-            <pubDate>Thu, 28 May 2026 00:25:33 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(release): drop stale version field from marketplace.json by @CypherPoet in <a href="https://github.com/heygen-com/hyperframes/pull/1093">https://github.com/heygen-com/hyperframes/pull/1093</a></li>
-<li>fix(core): guard timeline method calls for non-conformant objects by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1098">https://github.com/heygen-com/hyperframes/pull/1098</a></li>
-<li>fix(producer): normalize error messages to prevent [object Object] in telemetry by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1099">https://github.com/heygen-com/hyperframes/pull/1099</a></li>
-<li>fix(studio): add FFmpeg pre-flight check before render by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1100">https://github.com/heygen-com/hyperframes/pull/1100</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.51...v0.6.52">https://github.com/heygen-com/hyperframes/compare/v0.6.51...v0.6.52</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(release): drop stale version field from marketplace.json by @CypherPoet in <a href="https://github.com/heygen-com/hyperframes/pull/1093">https://github.com/heygen-com/hyperframes/pull/1093</a></li>
-<li>fix(core): guard timeline method calls for non-conformant objects by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1098">https://github.com/heygen-com/hyperframes/pull/1098</a></li>
-<li>fix(producer): normalize error messages to prevent [object Object] in telemetry by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1099">https://github.com/heygen-com/hyperframes/pull/1099</a></li>
-<li>fix(studio): add FFmpeg pre-flight check before render by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1100">https://github.com/heygen-com/hyperframes/pull/1100</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.51...v0.6.52">https://github.com/heygen-com/hyperframes/compare/v0.6.51...v0.6.52</a></p>
 ]]></content:encoded>
         </item>
     </channel>
