@@ -4,11 +4,51 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 17 Jun 2026 04:19:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jun 2026 14:26:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.110]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.110</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.110</guid>
+            <pubDate>Wed, 17 Jun 2026 14:26:22 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.110</h1>
+<p>Released on 2026-06-17.</p>
+<p>A fixes-only release. Studio rendering no longer 503s when ffmpeg lives outside the server&#39;s PATH (the common GUI-launch case on macOS), plus correctness fixes across the CLI, player, and SDK.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Resolve ffmpeg outside PATH so render doesn&#39;t 503 (<a href="https://github.com/heygen-com/hyperframes/commit/ff25058c5">ff25058c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1536">#1536</a>)</li>
+<li><strong>Studio:</strong> Apply split-bounds epsilon in razor split-all (<a href="https://github.com/heygen-com/hyperframes/commit/66dde0898">66dde0898</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1404">#1404</a>)</li>
+<li><strong>Studio:</strong> Add GSAP 3D inspector metadata (<a href="https://github.com/heygen-com/hyperframes/commit/937ba2ceb">937ba2ceb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1250">#1250</a>)</li>
+<li><strong>CLI:</strong> Validate init flags before creating the project directory (<a href="https://github.com/heygen-com/hyperframes/commit/a4ae3c92a">a4ae3c92a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1207">#1207</a>)</li>
+<li><strong>CLI:</strong> Default capture output to <code>./capture/</code> (auto-suffix <code>capture-2/</code>, <code>capture-3/</code> on re-run) (<a href="https://github.com/heygen-com/hyperframes/commit/969d6a334">969d6a334</a>)</li>
+<li><strong>Player:</strong> Reject non-finite composition dimensions from attributes and stage-size (<a href="https://github.com/heygen-com/hyperframes/commit/513819ee8">513819ee8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1205">#1205</a>)</li>
+<li><strong>SDK:</strong> Resolve composition-id targets and emit canonical <code>data-hf-id</code> for GSAP tweens (<a href="https://github.com/heygen-com/hyperframes/commit/6e3214233">6e3214233</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1526">#1526</a>)</li>
+<li><strong>Release:</strong> Stop advising <code>git push --tags</code> in release next-steps (<a href="https://github.com/heygen-com/hyperframes/commit/9cc3550f7">9cc3550f7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1521">#1521</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.109...v0.6.110">https://github.com/heygen-com/hyperframes/compare/v0.6.109...v0.6.110</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.110</h1>
+<p>Released on 2026-06-17.</p>
+<p>A fixes-only release. Studio rendering no longer 503s when ffmpeg lives outside the server&#39;s PATH (the common GUI-launch case on macOS), plus correctness fixes across the CLI, player, and SDK.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Resolve ffmpeg outside PATH so render doesn&#39;t 503 (<a href="https://github.com/heygen-com/hyperframes/commit/ff25058c5">ff25058c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1536">#1536</a>)</li>
+<li><strong>Studio:</strong> Apply split-bounds epsilon in razor split-all (<a href="https://github.com/heygen-com/hyperframes/commit/66dde0898">66dde0898</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1404">#1404</a>)</li>
+<li><strong>Studio:</strong> Add GSAP 3D inspector metadata (<a href="https://github.com/heygen-com/hyperframes/commit/937ba2ceb">937ba2ceb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1250">#1250</a>)</li>
+<li><strong>CLI:</strong> Validate init flags before creating the project directory (<a href="https://github.com/heygen-com/hyperframes/commit/a4ae3c92a">a4ae3c92a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1207">#1207</a>)</li>
+<li><strong>CLI:</strong> Default capture output to <code>./capture/</code> (auto-suffix <code>capture-2/</code>, <code>capture-3/</code> on re-run) (<a href="https://github.com/heygen-com/hyperframes/commit/969d6a334">969d6a334</a>)</li>
+<li><strong>Player:</strong> Reject non-finite composition dimensions from attributes and stage-size (<a href="https://github.com/heygen-com/hyperframes/commit/513819ee8">513819ee8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1205">#1205</a>)</li>
+<li><strong>SDK:</strong> Resolve composition-id targets and emit canonical <code>data-hf-id</code> for GSAP tweens (<a href="https://github.com/heygen-com/hyperframes/commit/6e3214233">6e3214233</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1526">#1526</a>)</li>
+<li><strong>Release:</strong> Stop advising <code>git push --tags</code> in release next-steps (<a href="https://github.com/heygen-com/hyperframes/commit/9cc3550f7">9cc3550f7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1521">#1521</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.109...v0.6.110">https://github.com/heygen-com/hyperframes/compare/v0.6.109...v0.6.110</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.109]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.109</link>
@@ -2115,24 +2155,6 @@
 <li>fix(studio): soft-reload GSAP property edits, preserve shader cache by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1129">https://github.com/heygen-com/hyperframes/pull/1129</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.60...v0.6.61">https://github.com/heygen-com/hyperframes/compare/v0.6.60...v0.6.61</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.60]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.60</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.60</guid>
-            <pubDate>Sat, 30 May 2026 02:24:15 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): gsap panel bug bash — clamping, overlay, click cycling, visibility toggle by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1126">https://github.com/heygen-com/hyperframes/pull/1126</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.59...v0.6.60">https://github.com/heygen-com/hyperframes/compare/v0.6.59...v0.6.60</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): gsap panel bug bash — clamping, overlay, click cycling, visibility toggle by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1126">https://github.com/heygen-com/hyperframes/pull/1126</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.59...v0.6.60">https://github.com/heygen-com/hyperframes/compare/v0.6.59...v0.6.60</a></p>
 ]]></content:encoded>
         </item>
     </channel>
