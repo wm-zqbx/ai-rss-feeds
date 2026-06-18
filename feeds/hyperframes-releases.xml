@@ -4,11 +4,147 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 17 Jun 2026 14:26:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jun 2026 08:19:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.112]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.112</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.112</guid>
+            <pubDate>Thu, 18 Jun 2026 08:19:00 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.112</h1>
+<p>Released on 2026-06-18.</p>
+<p>Static-frame dedup is now on by default for screenshot capture (with render telemetry), the SDK gains a <code>reorderElements</code> op for batch z-index updates, and the resolver-parity shadow tripwire stops emitting false <code>element_not_found</code> divergences for elements inside inlined sub-compositions.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> Static-frame dedup default-on + render telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/7310223b664df3fc3d083f08375883e06ae8623a">7310223b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1549">#1549</a>)</li>
+<li><strong>Sdk:</strong> Ws-3 — reorderElements op (batch z-index update) (<a href="https://github.com/heygen-com/hyperframes/commit/28bfe09f2101447423c46c17b15a7288b6ed2556">28bfe09f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1502">#1502</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Shadow resolves bare leaf via dispatch path, not getElement (<a href="https://github.com/heygen-com/hyperframes/commit/5fb5153e4e9f0e02820cee9a204e65c53ae0422c">5fb5153e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1552">#1552</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.111...v0.6.112">https://github.com/heygen-com/hyperframes/compare/v0.6.111...v0.6.112</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.112</h1>
+<p>Released on 2026-06-18.</p>
+<p>Static-frame dedup is now on by default for screenshot capture (with render telemetry), the SDK gains a <code>reorderElements</code> op for batch z-index updates, and the resolver-parity shadow tripwire stops emitting false <code>element_not_found</code> divergences for elements inside inlined sub-compositions.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> Static-frame dedup default-on + render telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/7310223b664df3fc3d083f08375883e06ae8623a">7310223b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1549">#1549</a>)</li>
+<li><strong>Sdk:</strong> Ws-3 — reorderElements op (batch z-index update) (<a href="https://github.com/heygen-com/hyperframes/commit/28bfe09f2101447423c46c17b15a7288b6ed2556">28bfe09f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1502">#1502</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Shadow resolves bare leaf via dispatch path, not getElement (<a href="https://github.com/heygen-com/hyperframes/commit/5fb5153e4e9f0e02820cee9a204e65c53ae0422c">5fb5153e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1552">#1552</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.111...v0.6.112">https://github.com/heygen-com/hyperframes/compare/v0.6.111...v0.6.112</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.111]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.111</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.111</guid>
+            <pubDate>Thu, 18 Jun 2026 05:31:44 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.111</h1>
+<p>Released on 2026-06-18.</p>
+<p>This release lands the bulk of the Studio→SDK editing cutover — style, text, timing, delete, and GSAP ops now route through the SDK behind a default-off dark-launch flag — alongside a resolver-parity shadow tripwire that reports any SDK/server resolution divergence as telemetry. It also ships the storyboard editor (view modes, markdown source, frame focus) and asset-readiness adapters for three.js, map, and visualization libraries.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Resolver-parity shadow tripwire (decoupled telemetry) (<a href="https://github.com/heygen-com/hyperframes/commit/933b88ec334f5ad474c465ea730219f24e50421e">933b88ec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1547">#1547</a>)</li>
+<li><strong>Core:</strong> Add readiness adapters for map and visualization libraries (<a href="https://github.com/heygen-com/hyperframes/commit/75d92b55e0f41d0503a03bd47f5ce0b5d2e08d11">75d92b55e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1548">#1548</a>)</li>
+<li><strong>Sdk,core:</strong> Ws-3 — unrollDynamicAnimations acorn port + SDK op (<a href="https://github.com/heygen-com/hyperframes/commit/09cefc1bb7ca2c38d27cbf1ea291e58c08f89fb9">09cefc1bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1501">#1501</a>)</li>
+<li><strong>Sdk:</strong> Stage 6 — arc path ops (setArcPath, updateArcSegment, removeArcPath) (<a href="https://github.com/heygen-com/hyperframes/commit/1612d18fdfb7aacef7ac61632a4b8f2d8bb69e48">1612d18fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1500">#1500</a>)</li>
+<li><strong>Sdk,core:</strong> Ws-3 prerequisites — acorn keyframe-collapse foundation + removeAllKeyframes (<a href="https://github.com/heygen-com/hyperframes/commit/a746db6017c1d2f098b39ee3b4dde3d90bd4fd32">a746db601</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1499">#1499</a>)</li>
+<li><strong>Sdk,studio:</strong> Ws-1.2 — percentage-based removeGsapKeyframe (<a href="https://github.com/heygen-com/hyperframes/commit/ceb815c3180ebebf06bbf7872086fbe0ad367ce1">ceb815c31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1498">#1498</a>)</li>
+<li><strong>Sdk,studio:</strong> Ws-1.1 — add set method to GsapTweenSpec; route addGsapAnimation(set) through sdk (<a href="https://github.com/heygen-com/hyperframes/commit/a5016ed4168d0af8287bed151d53492dfa89f71f">a5016ed41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1497">#1497</a>)</li>
+<li><strong>Sdk,studio:</strong> Ws-4 — add history:false option; disable unused sdk undo in studio (<a href="https://github.com/heygen-com/hyperframes/commit/e35846176e0bc336c82d37e77d077022c48ca139">e35846176</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1496">#1496</a>)</li>
+<li><strong>Sdk:</strong> Ws-a2 — applyDraft/commitPreview/cancelPreview → moveElement op (<a href="https://github.com/heygen-com/hyperframes/commit/53717a77f4bd49ea506dfe92a4dc5b216183dd79">53717a77f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1490">#1490</a>)</li>
+<li><strong>Sdk:</strong> Ws-a1 — iframe preview adapter (hit-test + selection) (<a href="https://github.com/heygen-com/hyperframes/commit/b96e8a3072f05530a6ff08c16abbc5879daf22e5">b96e8a307</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1489">#1489</a>)</li>
+<li><strong>Studio:</strong> Route GSAP keyframe add through SDK (§3.5 PR2) (<a href="https://github.com/heygen-com/hyperframes/commit/7ca4490328c149b6a87d16cb92a6412cc815c54e">7ca449032</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1470">#1470</a>)</li>
+<li><strong>Studio:</strong> Route GSAP tween add/update/delete through SDK (§3.5 PR1) (<a href="https://github.com/heygen-com/hyperframes/commit/592f7c775d435c324473fc9a861dc22618705a9b">592f7c775</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1469">#1469</a>)</li>
+<li><strong>Studio:</strong> Route timeline trim/move through SDK setTiming (§3.2) (<a href="https://github.com/heygen-com/hyperframes/commit/39f37e8aa807add1b31ce32178c775d3c8fc0b25">39f37e8aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1466">#1466</a>)</li>
+<li><strong>Studio:</strong> Route element delete through SDK removeElement (§3.1) (<a href="https://github.com/heygen-com/hyperframes/commit/bce571c2a14358c30fd2d151542e4bc96cbba57c">bce571c2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1465">#1465</a>)</li>
+<li><strong>Studio:</strong> S7.5 — delete shadow scaffolding; keep cutover flag (dark launch) (<a href="https://github.com/heygen-com/hyperframes/commit/ca1a8a6879dd0cf341ac690ce735bb6cb70bcb33">ca1a8a687</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1462">#1462</a>)</li>
+<li><strong>Studio:</strong> Stage 7 step 3c — sdk cutover for inline-style ops (<a href="https://github.com/heygen-com/hyperframes/commit/ab7145ad9ea1504fb8f1dc6fbf3aef7354f99f1b">ab7145ad9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1522">#1522</a>)</li>
+<li><strong>Studio:</strong> Storyboard frame focus + voiceover iteration (<a href="https://github.com/heygen-com/hyperframes/commit/c8fd16f2d3f83eaffb3212d8d7b23d443b428a58">c8fd16f2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1532">#1532</a>)</li>
+<li><strong>Studio:</strong> Storyboard markdown source editor (raw + live preview) (<a href="https://github.com/heygen-com/hyperframes/commit/29809069c818b79b338fcc2e2db08e8dd7d2311c">29809069c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1531">#1531</a>)</li>
+<li><strong>Lint:</strong> Warn when a sub-composition slot blanks before the host (<a href="https://github.com/heygen-com/hyperframes/commit/13af5540c13df4475ef250519db856a0e1dd3d75">13af5540c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1542">#1542</a>)</li>
+<li><strong>Studio:</strong> Storyboard frame contact-sheet grid (<a href="https://github.com/heygen-com/hyperframes/commit/015529e6630c8c9330960c9810bc9f92cb36acac">015529e66</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1530">#1530</a>)</li>
+<li><strong>Studio:</strong> Storyboard view-mode toggle and shell (<a href="https://github.com/heygen-com/hyperframes/commit/195d7aa7bddbf999b2409beed05ce2fbf410d215">195d7aa7b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1529">#1529</a>)</li>
+<li><strong>Studio:</strong> Add storyboard manifest contract, parser, and read API (<a href="https://github.com/heygen-com/hyperframes/commit/8a13a07074b6ae66b37390d71d5ce9e5e67fc8e8">8a13a0707</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1528">#1528</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Auto-detect three.js asset readiness via adapter contract (<a href="https://github.com/heygen-com/hyperframes/commit/bb5f5f8c5cf9ff96c9b584c9dd105362b1e4efcd">bb5f5f8c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1543">#1543</a>)</li>
+<li><strong>Sdk,studio:</strong> R5 cutover review fixes (on top of #1539) (<a href="https://github.com/heygen-com/hyperframes/commit/e57e75b9b41a18f87c775fcb0fd71a8e0fe1907c">e57e75b9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1545">#1545</a>)</li>
+<li><strong>Studio:</strong> Restore timeline move/resize fallback parity (review #1466) (<a href="https://github.com/heygen-com/hyperframes/commit/8c981a451a79b5e0ee794f8f9ab084fc5b41e92c">8c981a451</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1539">#1539</a>)</li>
+<li><strong>Studio,core:</strong> Resolve SDK-cutover review findings (<a href="https://github.com/heygen-com/hyperframes/commit/377b0368bd3e1cdcae144fd32a8950efe6a034ff">377b0368b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1471">#1471</a>)</li>
+<li><strong>Studio:</strong> Wire onTrySdkPersist to sdkCutoverPersist (cutover was unwired) (<a href="https://github.com/heygen-com/hyperframes/commit/8585fffc92f2111e840484e4e26984fa4f1998ab">8585fffc9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1463">#1463</a>)</li>
+<li><strong>Studio:</strong> Force-reload sdk session after undo/redo bypasses suppress window (<a href="https://github.com/heygen-com/hyperframes/commit/0ca1a8a9d1e36bd2cf202bfda58dc5a2df283f96">0ca1a8a9d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1524">#1524</a>)</li>
+<li><strong>Studio:</strong> Storyboard polish — a11y, preview, and edit-race fixes (<a href="https://github.com/heygen-com/hyperframes/commit/e662fcdea2d7be19d89f7f8a54fb6a0602a175e7">e662fcdea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1544">#1544</a>)</li>
+<li><strong>Lint:</strong> Match @font-face when a comment inside the block holds a brace (<a href="https://github.com/heygen-com/hyperframes/commit/f72ea25b3b702d85f12679f0e70ccea06602fad5">f72ea25b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1538">#1538</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Document CSS-path position cut-over; GSAP-path deferred (§3.3) (<a href="https://github.com/heygen-com/hyperframes/commit/e65c3c7918d1995e8be83270150fedd39daa8458">e65c3c791</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1467">#1467</a>)</li>
+<li><strong>Core:</strong> Recast-vs-acorn differential suite for GSAP writer ops (+ fixes) (<a href="https://github.com/heygen-com/hyperframes/commit/c040e4973a27f8a327e9cae918b94be0d463fd26">c040e4973</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1533">#1533</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.110...v0.6.111">https://github.com/heygen-com/hyperframes/compare/v0.6.110...v0.6.111</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.111</h1>
+<p>Released on 2026-06-18.</p>
+<p>This release lands the bulk of the Studio→SDK editing cutover — style, text, timing, delete, and GSAP ops now route through the SDK behind a default-off dark-launch flag — alongside a resolver-parity shadow tripwire that reports any SDK/server resolution divergence as telemetry. It also ships the storyboard editor (view modes, markdown source, frame focus) and asset-readiness adapters for three.js, map, and visualization libraries.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Resolver-parity shadow tripwire (decoupled telemetry) (<a href="https://github.com/heygen-com/hyperframes/commit/933b88ec334f5ad474c465ea730219f24e50421e">933b88ec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1547">#1547</a>)</li>
+<li><strong>Core:</strong> Add readiness adapters for map and visualization libraries (<a href="https://github.com/heygen-com/hyperframes/commit/75d92b55e0f41d0503a03bd47f5ce0b5d2e08d11">75d92b55e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1548">#1548</a>)</li>
+<li><strong>Sdk,core:</strong> Ws-3 — unrollDynamicAnimations acorn port + SDK op (<a href="https://github.com/heygen-com/hyperframes/commit/09cefc1bb7ca2c38d27cbf1ea291e58c08f89fb9">09cefc1bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1501">#1501</a>)</li>
+<li><strong>Sdk:</strong> Stage 6 — arc path ops (setArcPath, updateArcSegment, removeArcPath) (<a href="https://github.com/heygen-com/hyperframes/commit/1612d18fdfb7aacef7ac61632a4b8f2d8bb69e48">1612d18fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1500">#1500</a>)</li>
+<li><strong>Sdk,core:</strong> Ws-3 prerequisites — acorn keyframe-collapse foundation + removeAllKeyframes (<a href="https://github.com/heygen-com/hyperframes/commit/a746db6017c1d2f098b39ee3b4dde3d90bd4fd32">a746db601</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1499">#1499</a>)</li>
+<li><strong>Sdk,studio:</strong> Ws-1.2 — percentage-based removeGsapKeyframe (<a href="https://github.com/heygen-com/hyperframes/commit/ceb815c3180ebebf06bbf7872086fbe0ad367ce1">ceb815c31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1498">#1498</a>)</li>
+<li><strong>Sdk,studio:</strong> Ws-1.1 — add set method to GsapTweenSpec; route addGsapAnimation(set) through sdk (<a href="https://github.com/heygen-com/hyperframes/commit/a5016ed4168d0af8287bed151d53492dfa89f71f">a5016ed41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1497">#1497</a>)</li>
+<li><strong>Sdk,studio:</strong> Ws-4 — add history:false option; disable unused sdk undo in studio (<a href="https://github.com/heygen-com/hyperframes/commit/e35846176e0bc336c82d37e77d077022c48ca139">e35846176</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1496">#1496</a>)</li>
+<li><strong>Sdk:</strong> Ws-a2 — applyDraft/commitPreview/cancelPreview → moveElement op (<a href="https://github.com/heygen-com/hyperframes/commit/53717a77f4bd49ea506dfe92a4dc5b216183dd79">53717a77f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1490">#1490</a>)</li>
+<li><strong>Sdk:</strong> Ws-a1 — iframe preview adapter (hit-test + selection) (<a href="https://github.com/heygen-com/hyperframes/commit/b96e8a3072f05530a6ff08c16abbc5879daf22e5">b96e8a307</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1489">#1489</a>)</li>
+<li><strong>Studio:</strong> Route GSAP keyframe add through SDK (§3.5 PR2) (<a href="https://github.com/heygen-com/hyperframes/commit/7ca4490328c149b6a87d16cb92a6412cc815c54e">7ca449032</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1470">#1470</a>)</li>
+<li><strong>Studio:</strong> Route GSAP tween add/update/delete through SDK (§3.5 PR1) (<a href="https://github.com/heygen-com/hyperframes/commit/592f7c775d435c324473fc9a861dc22618705a9b">592f7c775</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1469">#1469</a>)</li>
+<li><strong>Studio:</strong> Route timeline trim/move through SDK setTiming (§3.2) (<a href="https://github.com/heygen-com/hyperframes/commit/39f37e8aa807add1b31ce32178c775d3c8fc0b25">39f37e8aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1466">#1466</a>)</li>
+<li><strong>Studio:</strong> Route element delete through SDK removeElement (§3.1) (<a href="https://github.com/heygen-com/hyperframes/commit/bce571c2a14358c30fd2d151542e4bc96cbba57c">bce571c2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1465">#1465</a>)</li>
+<li><strong>Studio:</strong> S7.5 — delete shadow scaffolding; keep cutover flag (dark launch) (<a href="https://github.com/heygen-com/hyperframes/commit/ca1a8a6879dd0cf341ac690ce735bb6cb70bcb33">ca1a8a687</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1462">#1462</a>)</li>
+<li><strong>Studio:</strong> Stage 7 step 3c — sdk cutover for inline-style ops (<a href="https://github.com/heygen-com/hyperframes/commit/ab7145ad9ea1504fb8f1dc6fbf3aef7354f99f1b">ab7145ad9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1522">#1522</a>)</li>
+<li><strong>Studio:</strong> Storyboard frame focus + voiceover iteration (<a href="https://github.com/heygen-com/hyperframes/commit/c8fd16f2d3f83eaffb3212d8d7b23d443b428a58">c8fd16f2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1532">#1532</a>)</li>
+<li><strong>Studio:</strong> Storyboard markdown source editor (raw + live preview) (<a href="https://github.com/heygen-com/hyperframes/commit/29809069c818b79b338fcc2e2db08e8dd7d2311c">29809069c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1531">#1531</a>)</li>
+<li><strong>Lint:</strong> Warn when a sub-composition slot blanks before the host (<a href="https://github.com/heygen-com/hyperframes/commit/13af5540c13df4475ef250519db856a0e1dd3d75">13af5540c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1542">#1542</a>)</li>
+<li><strong>Studio:</strong> Storyboard frame contact-sheet grid (<a href="https://github.com/heygen-com/hyperframes/commit/015529e6630c8c9330960c9810bc9f92cb36acac">015529e66</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1530">#1530</a>)</li>
+<li><strong>Studio:</strong> Storyboard view-mode toggle and shell (<a href="https://github.com/heygen-com/hyperframes/commit/195d7aa7bddbf999b2409beed05ce2fbf410d215">195d7aa7b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1529">#1529</a>)</li>
+<li><strong>Studio:</strong> Add storyboard manifest contract, parser, and read API (<a href="https://github.com/heygen-com/hyperframes/commit/8a13a07074b6ae66b37390d71d5ce9e5e67fc8e8">8a13a0707</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1528">#1528</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Auto-detect three.js asset readiness via adapter contract (<a href="https://github.com/heygen-com/hyperframes/commit/bb5f5f8c5cf9ff96c9b584c9dd105362b1e4efcd">bb5f5f8c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1543">#1543</a>)</li>
+<li><strong>Sdk,studio:</strong> R5 cutover review fixes (on top of #1539) (<a href="https://github.com/heygen-com/hyperframes/commit/e57e75b9b41a18f87c775fcb0fd71a8e0fe1907c">e57e75b9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1545">#1545</a>)</li>
+<li><strong>Studio:</strong> Restore timeline move/resize fallback parity (review #1466) (<a href="https://github.com/heygen-com/hyperframes/commit/8c981a451a79b5e0ee794f8f9ab084fc5b41e92c">8c981a451</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1539">#1539</a>)</li>
+<li><strong>Studio,core:</strong> Resolve SDK-cutover review findings (<a href="https://github.com/heygen-com/hyperframes/commit/377b0368bd3e1cdcae144fd32a8950efe6a034ff">377b0368b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1471">#1471</a>)</li>
+<li><strong>Studio:</strong> Wire onTrySdkPersist to sdkCutoverPersist (cutover was unwired) (<a href="https://github.com/heygen-com/hyperframes/commit/8585fffc92f2111e840484e4e26984fa4f1998ab">8585fffc9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1463">#1463</a>)</li>
+<li><strong>Studio:</strong> Force-reload sdk session after undo/redo bypasses suppress window (<a href="https://github.com/heygen-com/hyperframes/commit/0ca1a8a9d1e36bd2cf202bfda58dc5a2df283f96">0ca1a8a9d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1524">#1524</a>)</li>
+<li><strong>Studio:</strong> Storyboard polish — a11y, preview, and edit-race fixes (<a href="https://github.com/heygen-com/hyperframes/commit/e662fcdea2d7be19d89f7f8a54fb6a0602a175e7">e662fcdea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1544">#1544</a>)</li>
+<li><strong>Lint:</strong> Match @font-face when a comment inside the block holds a brace (<a href="https://github.com/heygen-com/hyperframes/commit/f72ea25b3b702d85f12679f0e70ccea06602fad5">f72ea25b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1538">#1538</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Document CSS-path position cut-over; GSAP-path deferred (§3.3) (<a href="https://github.com/heygen-com/hyperframes/commit/e65c3c7918d1995e8be83270150fedd39daa8458">e65c3c791</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1467">#1467</a>)</li>
+<li><strong>Core:</strong> Recast-vs-acorn differential suite for GSAP writer ops (+ fixes) (<a href="https://github.com/heygen-com/hyperframes/commit/c040e4973a27f8a327e9cae918b94be0d463fd26">c040e4973</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1533">#1533</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.110...v0.6.111">https://github.com/heygen-com/hyperframes/compare/v0.6.110...v0.6.111</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.110]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.110</link>
@@ -2117,44 +2253,6 @@
 <li>fix(studio): timeline seekbar focus blocks NLE keyboard shortcuts by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1137">https://github.com/heygen-com/hyperframes/pull/1137</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.62...v0.6.63">https://github.com/heygen-com/hyperframes/compare/v0.6.62...v0.6.63</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.62]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.62</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.62</guid>
-            <pubDate>Sat, 30 May 2026 13:13:47 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(producer): recover from worker crashes instead of hanging the render by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1132">https://github.com/heygen-com/hyperframes/pull/1132</a></li>
-<li>fix(producer): drop empty trailing chunk slice in distributed render plan by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1133">https://github.com/heygen-com/hyperframes/pull/1133</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.61...v0.6.62">https://github.com/heygen-com/hyperframes/compare/v0.6.61...v0.6.62</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(producer): recover from worker crashes instead of hanging the render by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1132">https://github.com/heygen-com/hyperframes/pull/1132</a></li>
-<li>fix(producer): drop empty trailing chunk slice in distributed render plan by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1133">https://github.com/heygen-com/hyperframes/pull/1133</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.61...v0.6.62">https://github.com/heygen-com/hyperframes/compare/v0.6.61...v0.6.62</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.61]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.61</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.61</guid>
-            <pubDate>Sat, 30 May 2026 03:38:11 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): soft-reload GSAP property edits, preserve shader cache by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1129">https://github.com/heygen-com/hyperframes/pull/1129</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.60...v0.6.61">https://github.com/heygen-com/hyperframes/compare/v0.6.60...v0.6.61</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(studio): soft-reload GSAP property edits, preserve shader cache by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1129">https://github.com/heygen-com/hyperframes/pull/1129</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.60...v0.6.61">https://github.com/heygen-com/hyperframes/compare/v0.6.60...v0.6.61</a></p>
 ]]></content:encoded>
         </item>
     </channel>
