@@ -4,11 +4,131 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 18 Jun 2026 08:19:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 19 Jun 2026 11:40:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.114]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.114</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.114</guid>
+            <pubDate>Fri, 19 Jun 2026 11:40:56 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.114</h1>
+<p>Released on 2026-06-19.</p>
+<p>Adds slideshow support end-to-end: a player-side controller state machine and <code>&lt;hyperframes-slideshow&gt;</code> web component, a Studio branching-editor panel with manifest persistence, plus authoring-skill guidance and example decks.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Slideshow branching editor panel UI (<a href="https://github.com/heygen-com/hyperframes/commit/04a775b58a2e0272d294b4e6f2c7b1f4aed794cb">04a775b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1592">#1592</a>)</li>
+<li><strong>Studio:</strong> Slideshow manifest persistence + panel helpers (<a href="https://github.com/heygen-com/hyperframes/commit/b74020fa56ba4382d18f3ca23de349cf8c63e130">b74020fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1591">#1591</a>)</li>
+<li><strong>Player:</strong> <hyperframes-slideshow> web component + presenter (<a href="https://github.com/heygen-com/hyperframes/commit/075302cd0312e0c14f049d50f011c958140af540">075302cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1590">#1590</a>)</li>
+<li><strong>Player:</strong> Slideshow controller state machine (<a href="https://github.com/heygen-com/hyperframes/commit/6938d6acf2d8ee9a4b01fe541f38a9a8b00dc0c6">6938d6ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1589">#1589</a>)</li>
+<li><strong>Studio:</strong> Slideshow branching editor panel (<a href="https://github.com/heygen-com/hyperframes/commit/3861e8e9fc0f0b6660c31b3668bd71172aced38f">3861e8e9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1582">#1582</a>)</li>
+<li><strong>Player:</strong> Slideshow controller + <hyperframes-slideshow> component (<a href="https://github.com/heygen-com/hyperframes/commit/7af3eb8f80945e880138570d49aee585a5346e19">7af3eb8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1581">#1581</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Slideshow:</strong> Finish remaining split-PR review findings (<a href="https://github.com/heygen-com/hyperframes/commit/f05b3f9c7c07a08cbe917f1293fe31e3b0e9f9d6">f05b3f9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1594">#1594</a>)</li>
+<li><strong>Slideshow:</strong> Address code-review findings #1580-1584 (<a href="https://github.com/heygen-com/hyperframes/commit/cc2220e59ec7e0b48c0991445ca0857d3ac752d3">cc2220e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1585">#1585</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skill:</strong> Slideshow authoring guidance + standalone harness reference (<a href="https://github.com/heygen-com/hyperframes/commit/b7a1163753adc7efff0f15ba79ef0caaf0f06aa4">b7a11637</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1583">#1583</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Examples:</strong> Slideshow demos — airbnb deck, startup pitch, fixture (<a href="https://github.com/heygen-com/hyperframes/commit/ae40498433de266999031d8230a232f89f4a9cad">ae404984</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1584">#1584</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.113...v0.6.114">https://github.com/heygen-com/hyperframes/compare/v0.6.113...v0.6.114</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.114</h1>
+<p>Released on 2026-06-19.</p>
+<p>Adds slideshow support end-to-end: a player-side controller state machine and <code>&lt;hyperframes-slideshow&gt;</code> web component, a Studio branching-editor panel with manifest persistence, plus authoring-skill guidance and example decks.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Slideshow branching editor panel UI (<a href="https://github.com/heygen-com/hyperframes/commit/04a775b58a2e0272d294b4e6f2c7b1f4aed794cb">04a775b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1592">#1592</a>)</li>
+<li><strong>Studio:</strong> Slideshow manifest persistence + panel helpers (<a href="https://github.com/heygen-com/hyperframes/commit/b74020fa56ba4382d18f3ca23de349cf8c63e130">b74020fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1591">#1591</a>)</li>
+<li><strong>Player:</strong> <hyperframes-slideshow> web component + presenter (<a href="https://github.com/heygen-com/hyperframes/commit/075302cd0312e0c14f049d50f011c958140af540">075302cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1590">#1590</a>)</li>
+<li><strong>Player:</strong> Slideshow controller state machine (<a href="https://github.com/heygen-com/hyperframes/commit/6938d6acf2d8ee9a4b01fe541f38a9a8b00dc0c6">6938d6ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1589">#1589</a>)</li>
+<li><strong>Studio:</strong> Slideshow branching editor panel (<a href="https://github.com/heygen-com/hyperframes/commit/3861e8e9fc0f0b6660c31b3668bd71172aced38f">3861e8e9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1582">#1582</a>)</li>
+<li><strong>Player:</strong> Slideshow controller + <hyperframes-slideshow> component (<a href="https://github.com/heygen-com/hyperframes/commit/7af3eb8f80945e880138570d49aee585a5346e19">7af3eb8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1581">#1581</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Slideshow:</strong> Finish remaining split-PR review findings (<a href="https://github.com/heygen-com/hyperframes/commit/f05b3f9c7c07a08cbe917f1293fe31e3b0e9f9d6">f05b3f9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1594">#1594</a>)</li>
+<li><strong>Slideshow:</strong> Address code-review findings #1580-1584 (<a href="https://github.com/heygen-com/hyperframes/commit/cc2220e59ec7e0b48c0991445ca0857d3ac752d3">cc2220e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1585">#1585</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skill:</strong> Slideshow authoring guidance + standalone harness reference (<a href="https://github.com/heygen-com/hyperframes/commit/b7a1163753adc7efff0f15ba79ef0caaf0f06aa4">b7a11637</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1583">#1583</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Examples:</strong> Slideshow demos — airbnb deck, startup pitch, fixture (<a href="https://github.com/heygen-com/hyperframes/commit/ae40498433de266999031d8230a232f89f4a9cad">ae404984</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1584">#1584</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.113...v0.6.114">https://github.com/heygen-com/hyperframes/compare/v0.6.113...v0.6.114</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.113]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.113</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.113</guid>
+            <pubDate>Fri, 19 Jun 2026 10:28:44 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.113</h1>
+<p>Released on 2026-06-19.</p>
+<p>Brings the AI Studio (Pacific) SDK integration surface online — object-valued font/image variables, elastic timing with word-alignment, element insertion, and keyframe animation ops — all on the acorn GSAP writer, now gated behind the cutover flag with recast kept as the default. Also adds a slideshow schema/parser/lint rule and phase-1 image-alpha hit-testing, so clicks on transparent image pixels fall through to the layer behind.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Slideshow schema, parser, and lint rule (<a href="https://github.com/heygen-com/hyperframes/commit/83764579898b9df4a7880761870faa983fc927bf">83764579</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1580">#1580</a>)</li>
+<li><strong>Sdk:</strong> Image-alpha hit-test phase 1 (WS-G) (<a href="https://github.com/heygen-com/hyperframes/commit/37efbcb9553eacba3797a2de32ee7c7100ca4cb6">37efbcb9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1574">#1574</a>)</li>
+<li><strong>Sdk:</strong> Ws-3c — addWithKeyframes + replaceWithKeyframes SDK ops (acorn writer) (<a href="https://github.com/heygen-com/hyperframes/commit/418f198b3391a44728433a788c7c34f9b280ca6c">418f198b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1572">#1572</a>)</li>
+<li><strong>Sdk:</strong> AddElement forward op — mint hf-id, inverse = removeElement (WS-D) (<a href="https://github.com/heygen-com/hyperframes/commit/0ca01c88cfbaedad3a5493a8185e37eb7559fdb7">0ca01c88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1571">#1571</a>)</li>
+<li><strong>Sdk:</strong> Ws-c elastic timing + word-alignment resolver (WS-C) (<a href="https://github.com/heygen-com/hyperframes/commit/f65e229663c40376456ad32f37e1b29e5a877f9c">f65e2296</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1570">#1570</a>)</li>
+<li><strong>Sdk:</strong> Ws-b variables/brand — object-valued font/image + B1 JSON model (<a href="https://github.com/heygen-com/hyperframes/commit/d0e520dbd950aa56c56b752c25db8b751a9bf1ea">d0e520db</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1569">#1569</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Release:</strong> Scope tag-monotonicity guard to tags reachable from HEAD (<a href="https://github.com/heygen-com/hyperframes/commit/3a28d3f6b8395112950d58f940b2670d870e91b7">3a28d3f6</a>)</li>
+<li><strong>Sdk:</strong> Code-review follow-ups (WS-B/C/3.C, #1569/#1570/#1572) (<a href="https://github.com/heygen-com/hyperframes/commit/dd6fad6bb2c77828f841430afd777dbb9e199798">dd6fad6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1588">#1588</a>)</li>
+<li><strong>Engine:</strong> Hold the last video frame at the inclusive clip end (<a href="https://github.com/heygen-com/hyperframes/commit/fdb8f33fc099f0c7ba5ef3dfb033def561234e92">fdb8f33f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1564">#1564</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> Gate acorn GSAP writer behind cutover flag; keep recast default (WS-3F) (<a href="https://github.com/heygen-com/hyperframes/commit/967bf9f9ed0303154c755e3ee8f9b829f6f41174">967bf9f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1573">#1573</a>)</li>
+<li><strong>Publish:</strong> Publish @hyperframes/sdk to npm (<a href="https://github.com/heygen-com/hyperframes/commit/7607a714a6c46407bb42cff1ed754ea8997035df">7607a714</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1587">#1587</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.112...v0.6.113">https://github.com/heygen-com/hyperframes/compare/v0.6.112...v0.6.113</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.113</h1>
+<p>Released on 2026-06-19.</p>
+<p>Brings the AI Studio (Pacific) SDK integration surface online — object-valued font/image variables, elastic timing with word-alignment, element insertion, and keyframe animation ops — all on the acorn GSAP writer, now gated behind the cutover flag with recast kept as the default. Also adds a slideshow schema/parser/lint rule and phase-1 image-alpha hit-testing, so clicks on transparent image pixels fall through to the layer behind.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Slideshow schema, parser, and lint rule (<a href="https://github.com/heygen-com/hyperframes/commit/83764579898b9df4a7880761870faa983fc927bf">83764579</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1580">#1580</a>)</li>
+<li><strong>Sdk:</strong> Image-alpha hit-test phase 1 (WS-G) (<a href="https://github.com/heygen-com/hyperframes/commit/37efbcb9553eacba3797a2de32ee7c7100ca4cb6">37efbcb9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1574">#1574</a>)</li>
+<li><strong>Sdk:</strong> Ws-3c — addWithKeyframes + replaceWithKeyframes SDK ops (acorn writer) (<a href="https://github.com/heygen-com/hyperframes/commit/418f198b3391a44728433a788c7c34f9b280ca6c">418f198b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1572">#1572</a>)</li>
+<li><strong>Sdk:</strong> AddElement forward op — mint hf-id, inverse = removeElement (WS-D) (<a href="https://github.com/heygen-com/hyperframes/commit/0ca01c88cfbaedad3a5493a8185e37eb7559fdb7">0ca01c88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1571">#1571</a>)</li>
+<li><strong>Sdk:</strong> Ws-c elastic timing + word-alignment resolver (WS-C) (<a href="https://github.com/heygen-com/hyperframes/commit/f65e229663c40376456ad32f37e1b29e5a877f9c">f65e2296</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1570">#1570</a>)</li>
+<li><strong>Sdk:</strong> Ws-b variables/brand — object-valued font/image + B1 JSON model (<a href="https://github.com/heygen-com/hyperframes/commit/d0e520dbd950aa56c56b752c25db8b751a9bf1ea">d0e520db</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1569">#1569</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Release:</strong> Scope tag-monotonicity guard to tags reachable from HEAD (<a href="https://github.com/heygen-com/hyperframes/commit/3a28d3f6b8395112950d58f940b2670d870e91b7">3a28d3f6</a>)</li>
+<li><strong>Sdk:</strong> Code-review follow-ups (WS-B/C/3.C, #1569/#1570/#1572) (<a href="https://github.com/heygen-com/hyperframes/commit/dd6fad6bb2c77828f841430afd777dbb9e199798">dd6fad6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1588">#1588</a>)</li>
+<li><strong>Engine:</strong> Hold the last video frame at the inclusive clip end (<a href="https://github.com/heygen-com/hyperframes/commit/fdb8f33fc099f0c7ba5ef3dfb033def561234e92">fdb8f33f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1564">#1564</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> Gate acorn GSAP writer behind cutover flag; keep recast default (WS-3F) (<a href="https://github.com/heygen-com/hyperframes/commit/967bf9f9ed0303154c755e3ee8f9b829f6f41174">967bf9f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1573">#1573</a>)</li>
+<li><strong>Publish:</strong> Publish @hyperframes/sdk to npm (<a href="https://github.com/heygen-com/hyperframes/commit/7607a714a6c46407bb42cff1ed754ea8997035df">7607a714</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1587">#1587</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.112...v0.6.113">https://github.com/heygen-com/hyperframes/compare/v0.6.112...v0.6.113</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.112]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.112</link>
@@ -2203,56 +2323,6 @@
 <li>fix(producer): localize remote media sources + strip audio crossorigin by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1146">https://github.com/heygen-com/hyperframes/pull/1146</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.64...v0.6.65">https://github.com/heygen-com/hyperframes/compare/v0.6.64...v0.6.65</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.64]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.64</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.64</guid>
-            <pubDate>Sun, 31 May 2026 13:58:43 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(core): recognize dot-property timeline registration by @heyimcarlos in <a href="https://github.com/heygen-com/hyperframes/pull/1138">https://github.com/heygen-com/hyperframes/pull/1138</a></li>
-<li>test(cli): cover cloud reportApiError hint cascade by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1131">https://github.com/heygen-com/hyperframes/pull/1131</a></li>
-<li>fix(producer): audio drops + blank images on FFmpeg 4.x/CORS-restricted origins by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1140">https://github.com/heygen-com/hyperframes/pull/1140</a></li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li>@heyimcarlos made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1138">https://github.com/heygen-com/hyperframes/pull/1138</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.63...v0.6.64">https://github.com/heygen-com/hyperframes/compare/v0.6.63...v0.6.64</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(core): recognize dot-property timeline registration by @heyimcarlos in <a href="https://github.com/heygen-com/hyperframes/pull/1138">https://github.com/heygen-com/hyperframes/pull/1138</a></li>
-<li>test(cli): cover cloud reportApiError hint cascade by @calcarazgre646 in <a href="https://github.com/heygen-com/hyperframes/pull/1131">https://github.com/heygen-com/hyperframes/pull/1131</a></li>
-<li>fix(producer): audio drops + blank images on FFmpeg 4.x/CORS-restricted origins by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1140">https://github.com/heygen-com/hyperframes/pull/1140</a></li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li>@heyimcarlos made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1138">https://github.com/heygen-com/hyperframes/pull/1138</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.63...v0.6.64">https://github.com/heygen-com/hyperframes/compare/v0.6.63...v0.6.64</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.63]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.63</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.63</guid>
-            <pubDate>Sat, 30 May 2026 17:30:33 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>test(producer): regenerate 8 stale regression baselines in Docker by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1135">https://github.com/heygen-com/hyperframes/pull/1135</a></li>
-<li>fix(studio): timeline seekbar focus blocks NLE keyboard shortcuts by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1137">https://github.com/heygen-com/hyperframes/pull/1137</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.62...v0.6.63">https://github.com/heygen-com/hyperframes/compare/v0.6.62...v0.6.63</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>test(producer): regenerate 8 stale regression baselines in Docker by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1135">https://github.com/heygen-com/hyperframes/pull/1135</a></li>
-<li>fix(studio): timeline seekbar focus blocks NLE keyboard shortcuts by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1137">https://github.com/heygen-com/hyperframes/pull/1137</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.62...v0.6.63">https://github.com/heygen-com/hyperframes/compare/v0.6.62...v0.6.63</a></p>
 ]]></content:encoded>
         </item>
     </channel>
