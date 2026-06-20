@@ -4,11 +4,71 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 20 Jun 2026 00:21:55 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jun 2026 22:08:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.117]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.117</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.117</guid>
+            <pubDate>Sat, 20 Jun 2026 22:08:30 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.117</h1>
+<p>Released on 2026-06-20.</p>
+<p>This hotfix restores the published <code>@hyperframes/core</code> subpath contract used by Studio,
+SDK, and CLI consumers. Installed packages can now resolve the <code>beats</code>, <code>storyboard</code>,
+HTML attribute safety, package metadata, and clip tree entry points that already existed
+in source.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Publish missing subpath exports (<a href="https://github.com/heygen-com/hyperframes/commit/960690e8e5b64d9cd10c815819e1bf7b010970cd">960690e8e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1616">#1616</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.116...v0.6.117">https://github.com/heygen-com/hyperframes/compare/v0.6.116...v0.6.117</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.117</h1>
+<p>Released on 2026-06-20.</p>
+<p>This hotfix restores the published <code>@hyperframes/core</code> subpath contract used by Studio,
+SDK, and CLI consumers. Installed packages can now resolve the <code>beats</code>, <code>storyboard</code>,
+HTML attribute safety, package metadata, and clip tree entry points that already existed
+in source.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Publish missing subpath exports (<a href="https://github.com/heygen-com/hyperframes/commit/960690e8e5b64d9cd10c815819e1bf7b010970cd">960690e8e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1616">#1616</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.116...v0.6.117">https://github.com/heygen-com/hyperframes/compare/v0.6.116...v0.6.117</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.6.116]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.116</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.116</guid>
+            <pubDate>Sat, 20 Jun 2026 21:28:18 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.116</h1>
+<p>Released on 2026-06-20.</p>
+<p>This hotfix improves render reliability across WebM and MP4 outputs: VP9 encodes now use a shared, tunable speed default across render paths, and MP4 muxing preserves AAC start offsets so audio stays aligned.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Preserve AAC start time during MP4 mux (<a href="https://github.com/heygen-com/hyperframes/commit/0473254bdd8a545991a52d0e547d7d62e2b1f5a6">0473254b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1615">#1615</a>)</li>
+<li><strong>Engine:</strong> Tune VP9 cpu-used across render paths (<a href="https://github.com/heygen-com/hyperframes/commit/8408a4474553307f8b82e65d8847922f482bd9c7">8408a447</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1614">#1614</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.115...v0.6.116">https://github.com/heygen-com/hyperframes/compare/v0.6.115...v0.6.116</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.116</h1>
+<p>Released on 2026-06-20.</p>
+<p>This hotfix improves render reliability across WebM and MP4 outputs: VP9 encodes now use a shared, tunable speed default across render paths, and MP4 muxing preserves AAC start offsets so audio stays aligned.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Preserve AAC start time during MP4 mux (<a href="https://github.com/heygen-com/hyperframes/commit/0473254bdd8a545991a52d0e547d7d62e2b1f5a6">0473254b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1615">#1615</a>)</li>
+<li><strong>Engine:</strong> Tune VP9 cpu-used across render paths (<a href="https://github.com/heygen-com/hyperframes/commit/8408a4474553307f8b82e65d8847922f482bd9c7">8408a447</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1614">#1614</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.115...v0.6.116">https://github.com/heygen-com/hyperframes/compare/v0.6.115...v0.6.116</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.115]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.115</link>
@@ -2337,60 +2397,6 @@
 <li>fix(core): emit mediaVolumeEnvelope in tsc lib output by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1159">https://github.com/heygen-com/hyperframes/pull/1159</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.67...v0.6.68">https://github.com/heygen-com/hyperframes/compare/v0.6.67...v0.6.68</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.67]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.67</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.67</guid>
-            <pubDate>Mon, 01 Jun 2026 22:31:24 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(cli): mock findFFmpeg in render tests for CI without ffmpeg by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1154">https://github.com/heygen-com/hyperframes/pull/1154</a></li>
-<li>fix(producer): honor variables + outputResolution in HTTP render server by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1152">https://github.com/heygen-com/hyperframes/pull/1152</a></li>
-<li>feat(cli): validate cloud render aspect/composition/format before upload by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1156">https://github.com/heygen-com/hyperframes/pull/1156</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.67">https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.67</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(cli): mock findFFmpeg in render tests for CI without ffmpeg by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1154">https://github.com/heygen-com/hyperframes/pull/1154</a></li>
-<li>fix(producer): honor variables + outputResolution in HTTP render server by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1152">https://github.com/heygen-com/hyperframes/pull/1152</a></li>
-<li>feat(cli): validate cloud render aspect/composition/format before upload by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1156">https://github.com/heygen-com/hyperframes/pull/1156</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.67">https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.67</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.66]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.66</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.66</guid>
-            <pubDate>Mon, 01 Jun 2026 20:50:23 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(producer): pass streaming encoder config by @RuochenLyu in <a href="https://github.com/heygen-com/hyperframes/pull/1147">https://github.com/heygen-com/hyperframes/pull/1147</a></li>
-<li>fix(cli): pre-flight FFmpeg check and propagate render failure stage by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1149">https://github.com/heygen-com/hyperframes/pull/1149</a></li>
-<li>fix(studio): gracefully handle visual edits on runtime-generated elements by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1150">https://github.com/heygen-com/hyperframes/pull/1150</a></li>
-<li>fix(studio): inject version from package.json and include in all telemetry events by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1151">https://github.com/heygen-com/hyperframes/pull/1151</a></li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li>@RuochenLyu made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1147">https://github.com/heygen-com/hyperframes/pull/1147</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.65...v0.6.66">https://github.com/heygen-com/hyperframes/compare/v0.6.65...v0.6.66</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(producer): pass streaming encoder config by @RuochenLyu in <a href="https://github.com/heygen-com/hyperframes/pull/1147">https://github.com/heygen-com/hyperframes/pull/1147</a></li>
-<li>fix(cli): pre-flight FFmpeg check and propagate render failure stage by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1149">https://github.com/heygen-com/hyperframes/pull/1149</a></li>
-<li>fix(studio): gracefully handle visual edits on runtime-generated elements by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1150">https://github.com/heygen-com/hyperframes/pull/1150</a></li>
-<li>fix(studio): inject version from package.json and include in all telemetry events by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1151">https://github.com/heygen-com/hyperframes/pull/1151</a></li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li>@RuochenLyu made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1147">https://github.com/heygen-com/hyperframes/pull/1147</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.65...v0.6.66">https://github.com/heygen-com/hyperframes/compare/v0.6.65...v0.6.66</a></p>
 ]]></content:encoded>
         </item>
     </channel>
