@@ -4,11 +4,35 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 20 Jun 2026 22:08:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jun 2026 22:26:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.118]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.118</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.118</guid>
+            <pubDate>Sat, 20 Jun 2026 22:26:23 GMT</pubDate>
+            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.118 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix: allow standalone timeline rendering by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1617">https://github.com/heygen-com/hyperframes/pull/1617</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118">https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118</a></p>
+]]></description>
+            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.118 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>fix: allow standalone timeline rendering by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1617">https://github.com/heygen-com/hyperframes/pull/1617</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118">https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.117]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.117</link>
@@ -2379,24 +2403,6 @@ in source.</p>
 <li>fix(producer): localize remote @font-face src URLs before render by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1155">https://github.com/heygen-com/hyperframes/pull/1155</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.68...v0.6.69">https://github.com/heygen-com/hyperframes/compare/v0.6.68...v0.6.69</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.68]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.68</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.68</guid>
-            <pubDate>Tue, 02 Jun 2026 00:07:09 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(core): emit mediaVolumeEnvelope in tsc lib output by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1159">https://github.com/heygen-com/hyperframes/pull/1159</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.67...v0.6.68">https://github.com/heygen-com/hyperframes/compare/v0.6.67...v0.6.68</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(core): emit mediaVolumeEnvelope in tsc lib output by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1159">https://github.com/heygen-com/hyperframes/pull/1159</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.67...v0.6.68">https://github.com/heygen-com/hyperframes/compare/v0.6.67...v0.6.68</a></p>
 ]]></content:encoded>
         </item>
     </channel>
