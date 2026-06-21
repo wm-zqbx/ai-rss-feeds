@@ -4,11 +4,45 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 21 Jun 2026 08:05:40 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jun 2026 15:20:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.120]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.120</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.120</guid>
+            <pubDate>Sun, 21 Jun 2026 15:20:24 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.120</h1>
+<p>Released on 2026-06-21.</p>
+<p>This hotfix restores Node-compatible package entrypoints for published HyperFrames
+packages, so npm consumers load built JavaScript and declaration files instead of
+source TypeScript. It also improves page-side rendering so shader transitions paint
+correctly and final-scene content remains visible through the end of the render.</p>
+<h2>Fixes</h2>
+<ul>
+<li>Publish Node-compatible package entrypoints (<a href="https://github.com/heygen-com/hyperframes/commit/2612b9bdfe6d2a224e93406efc831658cb2f6caf">2612b9bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1622">#1622</a>)</li>
+<li><strong>Shader Transitions:</strong> Page-side render dropped shader transitions and final-scene content (<a href="https://github.com/heygen-com/hyperframes/commit/a85a507cdcce4deb2a55472208176753abec152b">a85a507c</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.119...v0.6.120">https://github.com/heygen-com/hyperframes/compare/v0.6.119...v0.6.120</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.120</h1>
+<p>Released on 2026-06-21.</p>
+<p>This hotfix restores Node-compatible package entrypoints for published HyperFrames
+packages, so npm consumers load built JavaScript and declaration files instead of
+source TypeScript. It also improves page-side rendering so shader transitions paint
+correctly and final-scene content remains visible through the end of the render.</p>
+<h2>Fixes</h2>
+<ul>
+<li>Publish Node-compatible package entrypoints (<a href="https://github.com/heygen-com/hyperframes/commit/2612b9bdfe6d2a224e93406efc831658cb2f6caf">2612b9bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1622">#1622</a>)</li>
+<li><strong>Shader Transitions:</strong> Page-side render dropped shader transitions and final-scene content (<a href="https://github.com/heygen-com/hyperframes/commit/a85a507cdcce4deb2a55472208176753abec152b">a85a507c</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.119...v0.6.120">https://github.com/heygen-com/hyperframes/compare/v0.6.119...v0.6.120</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.119]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.119</link>
@@ -2343,78 +2377,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.70...v0.6.71">https://github.com/heygen-com/hyperframes/compare/v0.6.70...v0.6.71</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.70]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.70</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.70</guid>
-            <pubDate>Wed, 03 Jun 2026 04:43:52 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.70</h1>
-<p>Released on 2026-06-03.</p>
-<p>Runtime audio and rendering stability improvements: fixes audio in sub-compositions playing at the wrong timeline position, elements showing blank at the exact last frame, and a headless Chrome deadlock when GSAP tweens audio volume. Includes Apple Terminal catalog blocks and registry manifest fixes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Docs:</strong> Add changelog release workflow (<a href="https://github.com/heygen-com/hyperframes/commit/248f64073464a74a01792cba70298508c8ea4a49">248f6407</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1164">#1164</a>)</li>
-<li><strong>CLI:</strong> Validate cloud render aspect/composition/format before upload (<a href="https://github.com/heygen-com/hyperframes/commit/42ad305073c710d8614374f418eb713dc4cb91d6">42ad3050</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1156">#1156</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Add --autoplay-policy=no-user-gesture-required to headless Chrome args (<a href="https://github.com/heygen-com/hyperframes/commit/9e5adafd7af9fe7c1b25ca86eb8cabdf844ed2c5">9e5adafd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1177">#1177</a>)</li>
-<li><strong>Runtime:</strong> Apply parent composition offset to WebAudio scheduling for sub-comp audio (<a href="https://github.com/heygen-com/hyperframes/commit/ac73cbbcd0965d33b64e171272873579ae8adf9c">ac73cbbc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1175">#1175</a>)</li>
-<li><strong>Runtime:</strong> Show elements at exact end of their duration (inclusive boundary) (<a href="https://github.com/heygen-com/hyperframes/commit/b652c0a235ef32663f894b536116da0a90861b89">b652c0a2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1166">#1166</a>)</li>
-<li><strong>CLI:</strong> Localize external assets in publish archive (<a href="https://github.com/heygen-com/hyperframes/commit/a4706da513a1509d097f8179d04d995f038469b3">a4706da5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1160">#1160</a>)</li>
-<li><strong>Producer:</strong> Localize remote @font-face src URLs before render (<a href="https://github.com/heygen-com/hyperframes/commit/b1b03782a1364f160b5504d46ad36cef277cca91">b1b03782</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1155">#1155</a>)</li>
-<li><strong>Core:</strong> Emit mediaVolumeEnvelope in tsc lib output (<a href="https://github.com/heygen-com/hyperframes/commit/e7c874ccb3f733514afbff27dd776dae46073244">e7c874cc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1159">#1159</a>)</li>
-<li><strong>Producer:</strong> Honor variables + outputResolution in HTTP render server (<a href="https://github.com/heygen-com/hyperframes/commit/8b6d35e2267ddc43fc33e7478ac741ebcdfabfb4">8b6d35e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1152">#1152</a>)</li>
-<li><strong>CLI:</strong> Mock findFFmpeg in render tests for CI without ffmpeg (<a href="https://github.com/heygen-com/hyperframes/commit/a01a266efa871b687725573c3eea8857d01e5a4d">a01a266e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1154">#1154</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Add 14 missing blocks to registry manifest (<a href="https://github.com/heygen-com/hyperframes/commit/d8ed343d71cb088b7ad6ebdbeb3f08cf0be70260">d8ed343d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1163">#1163</a>)</li>
-<li><strong>Registry:</strong> Add Apple Terminal blocks to registry manifest (<a href="https://github.com/heygen-com/hyperframes/commit/e9949d76ec8f35ffe6131a2ac2b09056abcdbf1e">e9949d76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1162">#1162</a>)</li>
-<li><strong>Registry:</strong> Add Apple Terminal theme code snippet blocks (<a href="https://github.com/heygen-com/hyperframes/commit/689deaf4b82d40fd8c3010c014517f8627281e38">689deaf4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1161">#1161</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Producer:</strong> Regenerate stale style-7-prod baseline in Docker (<a href="https://github.com/heygen-com/hyperframes/commit/1aa651bd1ecc130f4e35498f41ca9cedbed55527">1aa651bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1178">#1178</a>)</li>
-<li>Add release prepare command (<a href="https://github.com/heygen-com/hyperframes/commit/17b0db1d3e29428c46767c38402ca96eac406cac">17b0db1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1165">#1165</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.70">https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.70</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.70</h1>
-<p>Released on 2026-06-03.</p>
-<p>Runtime audio and rendering stability improvements: fixes audio in sub-compositions playing at the wrong timeline position, elements showing blank at the exact last frame, and a headless Chrome deadlock when GSAP tweens audio volume. Includes Apple Terminal catalog blocks and registry manifest fixes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Docs:</strong> Add changelog release workflow (<a href="https://github.com/heygen-com/hyperframes/commit/248f64073464a74a01792cba70298508c8ea4a49">248f6407</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1164">#1164</a>)</li>
-<li><strong>CLI:</strong> Validate cloud render aspect/composition/format before upload (<a href="https://github.com/heygen-com/hyperframes/commit/42ad305073c710d8614374f418eb713dc4cb91d6">42ad3050</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1156">#1156</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Add --autoplay-policy=no-user-gesture-required to headless Chrome args (<a href="https://github.com/heygen-com/hyperframes/commit/9e5adafd7af9fe7c1b25ca86eb8cabdf844ed2c5">9e5adafd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1177">#1177</a>)</li>
-<li><strong>Runtime:</strong> Apply parent composition offset to WebAudio scheduling for sub-comp audio (<a href="https://github.com/heygen-com/hyperframes/commit/ac73cbbcd0965d33b64e171272873579ae8adf9c">ac73cbbc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1175">#1175</a>)</li>
-<li><strong>Runtime:</strong> Show elements at exact end of their duration (inclusive boundary) (<a href="https://github.com/heygen-com/hyperframes/commit/b652c0a235ef32663f894b536116da0a90861b89">b652c0a2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1166">#1166</a>)</li>
-<li><strong>CLI:</strong> Localize external assets in publish archive (<a href="https://github.com/heygen-com/hyperframes/commit/a4706da513a1509d097f8179d04d995f038469b3">a4706da5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1160">#1160</a>)</li>
-<li><strong>Producer:</strong> Localize remote @font-face src URLs before render (<a href="https://github.com/heygen-com/hyperframes/commit/b1b03782a1364f160b5504d46ad36cef277cca91">b1b03782</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1155">#1155</a>)</li>
-<li><strong>Core:</strong> Emit mediaVolumeEnvelope in tsc lib output (<a href="https://github.com/heygen-com/hyperframes/commit/e7c874ccb3f733514afbff27dd776dae46073244">e7c874cc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1159">#1159</a>)</li>
-<li><strong>Producer:</strong> Honor variables + outputResolution in HTTP render server (<a href="https://github.com/heygen-com/hyperframes/commit/8b6d35e2267ddc43fc33e7478ac741ebcdfabfb4">8b6d35e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1152">#1152</a>)</li>
-<li><strong>CLI:</strong> Mock findFFmpeg in render tests for CI without ffmpeg (<a href="https://github.com/heygen-com/hyperframes/commit/a01a266efa871b687725573c3eea8857d01e5a4d">a01a266e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1154">#1154</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Add 14 missing blocks to registry manifest (<a href="https://github.com/heygen-com/hyperframes/commit/d8ed343d71cb088b7ad6ebdbeb3f08cf0be70260">d8ed343d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1163">#1163</a>)</li>
-<li><strong>Registry:</strong> Add Apple Terminal blocks to registry manifest (<a href="https://github.com/heygen-com/hyperframes/commit/e9949d76ec8f35ffe6131a2ac2b09056abcdbf1e">e9949d76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1162">#1162</a>)</li>
-<li><strong>Registry:</strong> Add Apple Terminal theme code snippet blocks (<a href="https://github.com/heygen-com/hyperframes/commit/689deaf4b82d40fd8c3010c014517f8627281e38">689deaf4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1161">#1161</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Producer:</strong> Regenerate stale style-7-prod baseline in Docker (<a href="https://github.com/heygen-com/hyperframes/commit/1aa651bd1ecc130f4e35498f41ca9cedbed55527">1aa651bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1178">#1178</a>)</li>
-<li>Add release prepare command (<a href="https://github.com/heygen-com/hyperframes/commit/17b0db1d3e29428c46767c38402ca96eac406cac">17b0db1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1165">#1165</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.70">https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.70</a></p>
 ]]></content:encoded>
         </item>
     </channel>
