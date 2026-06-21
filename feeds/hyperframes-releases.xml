@@ -4,11 +4,43 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 21 Jun 2026 15:20:24 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jun 2026 22:01:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.121]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.121</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.121</guid>
+            <pubDate>Sun, 21 Jun 2026 22:01:47 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.121</h1>
+<p>Released on 2026-06-21.</p>
+<p>This hotfix restores <code>hyperframes skills</code> on Windows by invoking npm&#39;s <code>npx.cmd</code>
+shim through <code>cmd.exe</code>, while preserving direct <code>npx</code> execution on Linux and macOS.
+The same resolver also covers the local Studio preview&#39;s <code>npx vite</code> path and is
+verified by CI on all three operating systems.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Resolve npx shims on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/25b717dd9c0e1777adafa23dcfb4ad87c4989d91">25b717dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1626">#1626</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.120...v0.6.121">https://github.com/heygen-com/hyperframes/compare/v0.6.120...v0.6.121</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.121</h1>
+<p>Released on 2026-06-21.</p>
+<p>This hotfix restores <code>hyperframes skills</code> on Windows by invoking npm&#39;s <code>npx.cmd</code>
+shim through <code>cmd.exe</code>, while preserving direct <code>npx</code> execution on Linux and macOS.
+The same resolver also covers the local Studio preview&#39;s <code>npx vite</code> path and is
+verified by CI on all three operating systems.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Resolve npx shims on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/25b717dd9c0e1777adafa23dcfb4ad87c4989d91">25b717dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1626">#1626</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.120...v0.6.121">https://github.com/heygen-com/hyperframes/compare/v0.6.120...v0.6.121</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.120]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.120</link>
@@ -2327,56 +2359,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.71...v0.6.72">https://github.com/heygen-com/hyperframes/compare/v0.6.71...v0.6.72</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.71]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.71</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.71</guid>
-            <pubDate>Thu, 04 Jun 2026 03:13:46 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.71</h1>
-<p>Released on 2026-06-04.</p>
-<p>Fixes three production-observed CLI and engine errors: EPIPE crashes in piped agent environments, <code>@puppeteer/browsers</code> import failures that blocked all commands when the debug package was missing, and zero-duration composition timeouts reduced from 45s to ~11s with an actionable diagnostic.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Docs:</strong> Add weekly update drafts (<a href="https://github.com/heygen-com/hyperframes/commit/1abe69f3e479b41a804ee651e2874f31b150a4e8">1abe69f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1183">#1183</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Fast-fail on zero duration instead of 45s timeout (<a href="https://github.com/heygen-com/hyperframes/commit/efb8d90f727885e141d2707e2567e539efeb334d">efb8d90f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1186">#1186</a>)</li>
-<li><strong>CLI:</strong> Lazy-load @puppeteer/browsers to prevent debug package crash (<a href="https://github.com/heygen-com/hyperframes/commit/8c6faa45b5076d313d66962e818d26f10ba910f7">8c6faa45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1185">#1185</a>)</li>
-<li><strong>CLI:</strong> Suppress EPIPE crashes in piped agent environments (<a href="https://github.com/heygen-com/hyperframes/commit/cabd0616ea8c194988a1010ff4182a8b72cbe68e">cabd0616</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1184">#1184</a>)</li>
-<li>Delay ObjectURL revocation and silence TS5 baseUrl deprecations (<a href="https://github.com/heygen-com/hyperframes/commit/6de6ea53498ddebcfb4c242602dd5b8f75b5e846">6de6ea53</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1181">#1181</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>README:</strong> Add Frame.md design template gallery (<a href="https://github.com/heygen-com/hyperframes/commit/1a617d30ff07d6b4e2dc7236b373ebe50874dfec">1a617d30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1182">#1182</a>)</li>
-<li><strong>Skills:</strong> Prefer frame.md over design.md for video specs (<a href="https://github.com/heygen-com/hyperframes/commit/fcff442ab741b1176f619807c61701367836ad04">fcff442a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1180">#1180</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.70...v0.6.71">https://github.com/heygen-com/hyperframes/compare/v0.6.70...v0.6.71</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.71</h1>
-<p>Released on 2026-06-04.</p>
-<p>Fixes three production-observed CLI and engine errors: EPIPE crashes in piped agent environments, <code>@puppeteer/browsers</code> import failures that blocked all commands when the debug package was missing, and zero-duration composition timeouts reduced from 45s to ~11s with an actionable diagnostic.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Docs:</strong> Add weekly update drafts (<a href="https://github.com/heygen-com/hyperframes/commit/1abe69f3e479b41a804ee651e2874f31b150a4e8">1abe69f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1183">#1183</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Fast-fail on zero duration instead of 45s timeout (<a href="https://github.com/heygen-com/hyperframes/commit/efb8d90f727885e141d2707e2567e539efeb334d">efb8d90f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1186">#1186</a>)</li>
-<li><strong>CLI:</strong> Lazy-load @puppeteer/browsers to prevent debug package crash (<a href="https://github.com/heygen-com/hyperframes/commit/8c6faa45b5076d313d66962e818d26f10ba910f7">8c6faa45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1185">#1185</a>)</li>
-<li><strong>CLI:</strong> Suppress EPIPE crashes in piped agent environments (<a href="https://github.com/heygen-com/hyperframes/commit/cabd0616ea8c194988a1010ff4182a8b72cbe68e">cabd0616</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1184">#1184</a>)</li>
-<li>Delay ObjectURL revocation and silence TS5 baseUrl deprecations (<a href="https://github.com/heygen-com/hyperframes/commit/6de6ea53498ddebcfb4c242602dd5b8f75b5e846">6de6ea53</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1181">#1181</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>README:</strong> Add Frame.md design template gallery (<a href="https://github.com/heygen-com/hyperframes/commit/1a617d30ff07d6b4e2dc7236b373ebe50874dfec">1a617d30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1182">#1182</a>)</li>
-<li><strong>Skills:</strong> Prefer frame.md over design.md for video specs (<a href="https://github.com/heygen-com/hyperframes/commit/fcff442ab741b1176f619807c61701367836ad04">fcff442a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1180">#1180</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.70...v0.6.71">https://github.com/heygen-com/hyperframes/compare/v0.6.70...v0.6.71</a></p>
 ]]></content:encoded>
         </item>
     </channel>
