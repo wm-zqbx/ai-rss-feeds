@@ -4,11 +4,41 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 20 Jun 2026 22:26:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Jun 2026 08:05:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.6.119]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.119</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.119</guid>
+            <pubDate>Sun, 21 Jun 2026 08:05:40 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.6.119</h1>
+<p>Released on 2026-06-21.</p>
+<p>This hotfix makes slideshow presenter decks more reliable when they contain interactive
+media. Presenter and audience views now keep media controls, muted autoplay fallback,
+global mute, editable speaker notes, and first-load navigation chrome in sync.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Slideshow:</strong> Harden media controls in present decks (<a href="https://github.com/heygen-com/hyperframes/commit/341e65aea2773235d2cd3482846bcd6ed7d24638">341e65aea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1619">#1619</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119">https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.6.119</h1>
+<p>Released on 2026-06-21.</p>
+<p>This hotfix makes slideshow presenter decks more reliable when they contain interactive
+media. Presenter and audience views now keep media controls, muted autoplay fallback,
+global mute, editable speaker notes, and first-load navigation chrome in sync.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Slideshow:</strong> Harden media controls in present decks (<a href="https://github.com/heygen-com/hyperframes/commit/341e65aea2773235d2cd3482846bcd6ed7d24638">341e65aea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1619">#1619</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119">https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.6.118]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.118</link>
@@ -2385,24 +2415,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.70">https://github.com/heygen-com/hyperframes/compare/v0.6.66...v0.6.70</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.69]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.69</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.69</guid>
-            <pubDate>Tue, 02 Jun 2026 00:16:02 GMT</pubDate>
-            <description><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(producer): localize remote @font-face src URLs before render by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1155">https://github.com/heygen-com/hyperframes/pull/1155</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.68...v0.6.69">https://github.com/heygen-com/hyperframes/compare/v0.6.68...v0.6.69</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h2>What&#39;s Changed</h2>
-<ul>
-<li>fix(producer): localize remote @font-face src URLs before render by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1155">https://github.com/heygen-com/hyperframes/pull/1155</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.68...v0.6.69">https://github.com/heygen-com/hyperframes/compare/v0.6.68...v0.6.69</a></p>
 ]]></content:encoded>
         </item>
     </channel>
