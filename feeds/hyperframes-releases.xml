@@ -4,11 +4,51 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 22 Jun 2026 18:12:49 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jun 2026 22:47:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.2]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.2</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.2</guid>
+            <pubDate>Mon, 22 Jun 2026 22:47:16 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.2</h1>
+<p>Released on 2026-06-22.</p>
+<p>Fixes several production-rendering edge cases: shader transitions now survive the producer capture path, audio muxing preserves full stream duration, and CSS variable font declarations no longer trip deterministic font resolution.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Compiler:</strong> Skip CSS var() in font resolver (<a href="https://github.com/heygen-com/hyperframes/commit/468f7ec35b823e281590fc6967ea1a6ee86a5789">468f7ec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1655">#1655</a>)</li>
+<li><strong>Producer:</strong> Capture page-side shader composites via screenshot (<a href="https://github.com/heygen-com/hyperframes/commit/8c13a72696c47d1435d1f4ec80d58cc78a59779a">8c13a726</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1656">#1656</a>)</li>
+<li><strong>Producer:</strong> Split capture average timing (<a href="https://github.com/heygen-com/hyperframes/commit/4976b5e0362e7bf6d49eea8b7b5a7b8addf8ed43">4976b5e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1657">#1657</a>)</li>
+<li><strong>Engine:</strong> Remove -shortest from muxVideoWithAudio (#1648) (<a href="https://github.com/heygen-com/hyperframes/commit/e9957ecaf46902eaadc1a8139e4961c85307e5b6">e9957eca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1650">#1650</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> Add stream duration parity check to regression harness (<a href="https://github.com/heygen-com/hyperframes/commit/60d3eeb1f7f59787b77bbce08df987ed59bfd87d">60d3eeb1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1652">#1652</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.1...v0.7.2">https://github.com/heygen-com/hyperframes/compare/v0.7.1...v0.7.2</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.2</h1>
+<p>Released on 2026-06-22.</p>
+<p>Fixes several production-rendering edge cases: shader transitions now survive the producer capture path, audio muxing preserves full stream duration, and CSS variable font declarations no longer trip deterministic font resolution.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Compiler:</strong> Skip CSS var() in font resolver (<a href="https://github.com/heygen-com/hyperframes/commit/468f7ec35b823e281590fc6967ea1a6ee86a5789">468f7ec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1655">#1655</a>)</li>
+<li><strong>Producer:</strong> Capture page-side shader composites via screenshot (<a href="https://github.com/heygen-com/hyperframes/commit/8c13a72696c47d1435d1f4ec80d58cc78a59779a">8c13a726</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1656">#1656</a>)</li>
+<li><strong>Producer:</strong> Split capture average timing (<a href="https://github.com/heygen-com/hyperframes/commit/4976b5e0362e7bf6d49eea8b7b5a7b8addf8ed43">4976b5e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1657">#1657</a>)</li>
+<li><strong>Engine:</strong> Remove -shortest from muxVideoWithAudio (#1648) (<a href="https://github.com/heygen-com/hyperframes/commit/e9957ecaf46902eaadc1a8139e4961c85307e5b6">e9957eca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1650">#1650</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> Add stream duration parity check to regression harness (<a href="https://github.com/heygen-com/hyperframes/commit/60d3eeb1f7f59787b77bbce08df987ed59bfd87d">60d3eeb1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1652">#1652</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.1...v0.7.2">https://github.com/heygen-com/hyperframes/compare/v0.7.1...v0.7.2</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.1]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.1</link>
@@ -2141,38 +2181,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.73...v0.6.76">https://github.com/heygen-com/hyperframes/compare/v0.6.73...v0.6.76</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.75]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.75</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.75</guid>
-            <pubDate>Sat, 06 Jun 2026 02:19:50 GMT</pubDate>
-            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.75 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>feat(producer): auto low-memory safe render profile by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1225">https://github.com/heygen-com/hyperframes/pull/1225</a></li>
-<li>fix(cli): re-validate SSRF denylist on redirects + harden isPrivateUrl by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1212">https://github.com/heygen-com/hyperframes/pull/1212</a></li>
-<li>feat(studio): draggable layer reorder with z-index persistence by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1216">https://github.com/heygen-com/hyperframes/pull/1216</a></li>
-<li>fix(aws-lambda): validate event S3 URIs against render bucket (F-004) by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1213">https://github.com/heygen-com/hyperframes/pull/1213</a></li>
-<li>fix(producer): restore calibration timeout ceiling + add pipeline observability by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1233">https://github.com/heygen-com/hyperframes/pull/1233</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.74...v0.6.75">https://github.com/heygen-com/hyperframes/compare/v0.6.74...v0.6.75</a></p>
-]]></description>
-            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.75 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>feat(producer): auto low-memory safe render profile by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1225">https://github.com/heygen-com/hyperframes/pull/1225</a></li>
-<li>fix(cli): re-validate SSRF denylist on redirects + harden isPrivateUrl by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1212">https://github.com/heygen-com/hyperframes/pull/1212</a></li>
-<li>feat(studio): draggable layer reorder with z-index persistence by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1216">https://github.com/heygen-com/hyperframes/pull/1216</a></li>
-<li>fix(aws-lambda): validate event S3 URIs against render bucket (F-004) by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1213">https://github.com/heygen-com/hyperframes/pull/1213</a></li>
-<li>fix(producer): restore calibration timeout ceiling + add pipeline observability by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1233">https://github.com/heygen-com/hyperframes/pull/1233</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.74...v0.6.75">https://github.com/heygen-com/hyperframes/compare/v0.6.74...v0.6.75</a></p>
 ]]></content:encoded>
         </item>
     </channel>
