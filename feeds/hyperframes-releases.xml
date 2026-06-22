@@ -2333,33 +2333,5 @@ in source.</p>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.72...v0.6.73">https://github.com/heygen-com/hyperframes/compare/v0.6.72...v0.6.73</a></p>
 ]]></content:encoded>
         </item>
-        <item>
-            <title><![CDATA[v0.6.72]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.72</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.72</guid>
-            <pubDate>Thu, 04 Jun 2026 07:41:18 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.72</h1>
-<p>Released on 2026-06-04.</p>
-<p>A render-reliability release: the producer now localizes remote <code>&lt;img&gt;</code> sources and waits for them to load before capturing frames, fixing blank-frame flicker in compositions that reference remote (S3) images. <code>--docker</code> renders also now run on arm64 hosts.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Localize remote <img> sources + await image readiness (<a href="https://github.com/heygen-com/hyperframes/commit/72c461d86a8d24a82d03267262d7cd7a9a373c1e">72c461d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1197">#1197</a>)</li>
-<li><strong>CLI:</strong> Support arm64 hosts for <code>--docker</code> render (<a href="https://github.com/heygen-com/hyperframes/commit/2be41937a94bea6e3ebc9e253f26cfd5609b61df">2be41937</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1196">#1196</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.71...v0.6.72">https://github.com/heygen-com/hyperframes/compare/v0.6.71...v0.6.72</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.72</h1>
-<p>Released on 2026-06-04.</p>
-<p>A render-reliability release: the producer now localizes remote <code>&lt;img&gt;</code> sources and waits for them to load before capturing frames, fixing blank-frame flicker in compositions that reference remote (S3) images. <code>--docker</code> renders also now run on arm64 hosts.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Localize remote <img> sources + await image readiness (<a href="https://github.com/heygen-com/hyperframes/commit/72c461d86a8d24a82d03267262d7cd7a9a373c1e">72c461d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1197">#1197</a>)</li>
-<li><strong>CLI:</strong> Support arm64 hosts for <code>--docker</code> render (<a href="https://github.com/heygen-com/hyperframes/commit/2be41937a94bea6e3ebc9e253f26cfd5609b61df">2be41937</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1196">#1196</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.71...v0.6.72">https://github.com/heygen-com/hyperframes/compare/v0.6.71...v0.6.72</a></p>
-]]></content:encoded>
-        </item>
     </channel>
 </rss>
