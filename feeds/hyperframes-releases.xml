@@ -4,11 +4,53 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 22 Jun 2026 22:47:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 23 Jun 2026 03:11:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.3]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.3</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.3</guid>
+            <pubDate>Tue, 23 Jun 2026 03:11:19 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.3</h1>
+<p>Released on 2026-06-23.</p>
+<p>This stable release fixes a production render visibility leak where timed descendants could remain visible after their parent clip ended. It also includes producer render performance cleanup and documentation coverage for package entrypoints.</p>
+<h2>Fixes</h2>
+<ul>
+<li>Hide descendants of inactive render clips (<a href="https://github.com/heygen-com/hyperframes/commit/11d6227d06fff50145d26a8382585ad95f44e54c">11d6227d0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1662">#1662</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> Skip wasted Chrome media work + injector page.evaluates during render (<a href="https://github.com/heygen-com/hyperframes/commit/b651a9d218b6a1d2649bfb7d8595ea83a04e69a5">b651a9d21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1651">#1651</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Add missing package pages (<a href="https://github.com/heygen-com/hyperframes/commit/e4058e8bbf4630a58cfa5587224f4452b82cb828">e4058e8bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1660">#1660</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.2...v0.7.3">https://github.com/heygen-com/hyperframes/compare/v0.7.2...v0.7.3</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.3</h1>
+<p>Released on 2026-06-23.</p>
+<p>This stable release fixes a production render visibility leak where timed descendants could remain visible after their parent clip ended. It also includes producer render performance cleanup and documentation coverage for package entrypoints.</p>
+<h2>Fixes</h2>
+<ul>
+<li>Hide descendants of inactive render clips (<a href="https://github.com/heygen-com/hyperframes/commit/11d6227d06fff50145d26a8382585ad95f44e54c">11d6227d0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1662">#1662</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> Skip wasted Chrome media work + injector page.evaluates during render (<a href="https://github.com/heygen-com/hyperframes/commit/b651a9d218b6a1d2649bfb7d8595ea83a04e69a5">b651a9d21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1651">#1651</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Add missing package pages (<a href="https://github.com/heygen-com/hyperframes/commit/e4058e8bbf4630a58cfa5587224f4452b82cb828">e4058e8bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1660">#1660</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.2...v0.7.3">https://github.com/heygen-com/hyperframes/compare/v0.7.2...v0.7.3</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.2]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.2</link>
@@ -2095,92 +2137,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.76...v0.6.77">https://github.com/heygen-com/hyperframes/compare/v0.6.76...v0.6.77</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.76]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.76</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.76</guid>
-            <pubDate>Sat, 06 Jun 2026 04:21:54 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.76</h1>
-<p>Released on 2026-06-06.</p>
-<p>Adds the <code>audio-locked</code> player attribute for embedding contexts that need force-muted playback, a full GSAP keyframe system (parsing → runtime bridge → design panel), Figma-quality snap guides in Studio, and reliability improvements for low-memory render environments.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Player:</strong> Add audio-locked attribute (force-mute + hide controls) (<a href="https://github.com/heygen-com/hyperframes/commit/f39b5988cc8e810e03c3ceead662729d9156ccb2">f39b5988</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1234">#1234</a>)</li>
-<li><strong>Studio:</strong> Draggable layer reorder with z-index persistence (<a href="https://github.com/heygen-com/hyperframes/commit/7a0cb085bbc4eb4cfd45ee798800e90a0f998717">7a0cb085</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1216">#1216</a>)</li>
-<li><strong>Producer:</strong> Auto low-memory safe render profile (<a href="https://github.com/heygen-com/hyperframes/commit/bacfb17538ae2c79343e816dd03d6a62f2d0163c">bacfb175</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1225">#1225</a>)</li>
-<li><strong>Studio:</strong> Add fit-to-children button in property panel (<a href="https://github.com/heygen-com/hyperframes/commit/4d968866551fe3a32b71688b7c69f3d1d9c66660">4d968866</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1224">#1224</a>)</li>
-<li><strong>Studio:</strong> Wire snap engine into preview drag and resize gestures (<a href="https://github.com/heygen-com/hyperframes/commit/0a965dc4ad51e03f867df481b99e39443993f8dd">0a965dc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1223">#1223</a>)</li>
-<li><strong>Studio:</strong> Add snap guide overlay, toolbar, grid, and target collection (<a href="https://github.com/heygen-com/hyperframes/commit/f8bf039a09dd0117ff70be4afc2260e331e26723">f8bf039a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1228">#1228</a>)</li>
-<li><strong>Studio:</strong> Add stateless snap engine with alignment computation (<a href="https://github.com/heygen-com/hyperframes/commit/1863831a4dc0f4cc33cd7e73ea336233026c0a13">1863831a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1227">#1227</a>)</li>
-<li><strong>Studio:</strong> Runtime-synced design panel + 3D props + split polish (<a href="https://github.com/heygen-com/hyperframes/commit/1bdb2d4ec0f18f1f196f912fd5d5ca118b47039e">1bdb2d4e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1188">#1188</a>)</li>
-<li><strong>Studio:</strong> Runtime-first dynamic keyframe system [8/10] (<a href="https://github.com/heygen-com/hyperframes/commit/c1699ec98b6e3ff03438cfbd4109e3768427b965">c1699ec9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1190">#1190</a>)</li>
-<li><strong>Studio:</strong> Split clip at playhead for media elements [7/10] (<a href="https://github.com/heygen-com/hyperframes/commit/d1aad77fd789968e682f4c78820b793703c5f6e3">d1aad77f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1189">#1189</a>)</li>
-<li><strong>Studio:</strong> Design panel, timeline polish, feature flag [6/6] (<a href="https://github.com/heygen-com/hyperframes/commit/a5211954ea270cefc2edb260bab12b039e8ccf82">a5211954</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1172">#1172</a>)</li>
-<li><strong>Studio:</strong> Keyframe hooks wiring — session, cache, toolbar [5/6] (<a href="https://github.com/heygen-com/hyperframes/commit/7a0883264d697396d80f51352094a995ddaa378e">7a088326</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1171">#1171</a>)</li>
-<li><strong>Studio:</strong> Keyframe diamonds, navigation, context menu [4/6] (<a href="https://github.com/heygen-com/hyperframes/commit/5984c58846abd9c9068d67db1da8b119455dc6fc">5984c588</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1170">#1170</a>)</li>
-<li><strong>Studio:</strong> GSAP runtime bridge + optimistic updates [3/6] (<a href="https://github.com/heygen-com/hyperframes/commit/12e87e05b464323e0148c7bfa7314f0a5d872e32">12e87e05</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1169">#1169</a>)</li>
-<li><strong>Core:</strong> Spring physics solver + runtime fixes [2/6] (<a href="https://github.com/heygen-com/hyperframes/commit/aab737740030cf19a761689a94456bb86e2235bb">aab73774</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1168">#1168</a>)</li>
-<li><strong>Core:</strong> GSAP keyframe parsing, mutations, and API routes (<a href="https://github.com/heygen-com/hyperframes/commit/e639a1638fb157b71feb9470e87e3d972ce6894f">e639a163</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1167">#1167</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Restore calibration timeout ceiling + add pipeline observability (<a href="https://github.com/heygen-com/hyperframes/commit/1d16216a24a6163640ce5f5462cc6f4ff700f693">1d16216a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1233">#1233</a>)</li>
-<li><strong>AWS Lambda:</strong> Validate event S3 URIs against render bucket (F-004) (<a href="https://github.com/heygen-com/hyperframes/commit/65888840fa748d80f56db717b11ac89ed94a2e9e">65888840</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1213">#1213</a>)</li>
-<li><strong>CLI:</strong> Re-validate SSRF denylist on redirects + harden isPrivateUrl (<a href="https://github.com/heygen-com/hyperframes/commit/1f37920fe15e6ab18d6a58ad7a9cec7937da7d24">1f37920f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1212">#1212</a>)</li>
-<li><strong>Studio:</strong> Fix PropertyPanel format and file size regression (<a href="https://github.com/heygen-com/hyperframes/commit/2c73fa9c8fb61c3b8ea57b3a5b71c7fcd78da6c4">2c73fa9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1229">#1229</a>)</li>
-<li><strong>CLI:</strong> Bind studio preview server to loopback by default (<a href="https://github.com/heygen-com/hyperframes/commit/1324de54a8ba79aa76944d79efa158f4289572ca">1324de54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1210">#1210</a>)</li>
-<li><strong>Runtime:</strong> Make audio/media sync boundary inclusive to match visibility fix (<a href="https://github.com/heygen-com/hyperframes/commit/b6a14ea9f5cc2d338cff76051c740ca8da4b37fa">b6a14ea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1173">#1173</a>)</li>
-<li>Add progress logging during silent render pipeline stages (<a href="https://github.com/heygen-com/hyperframes/commit/6bd1e764e55ab38a1f14d6ea19f47e019147eced">6bd1e764</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1220">#1220</a>)</li>
-<li>Respect user timeouts on low-memory systems (<a href="https://github.com/heygen-com/hyperframes/commit/20894ab9a3e293020b283b4c4f72833b729f8175">20894ab9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1221">#1221</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Add reap as HyperFrames adopter (<a href="https://github.com/heygen-com/hyperframes/commit/4b51cc646861cbdc00fd67856deb2993eb2eb874">4b51cc64</a>, <a href="https://github.com/heygen-com/hyperframes/pull/876">#876</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.73...v0.6.76">https://github.com/heygen-com/hyperframes/compare/v0.6.73...v0.6.76</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.76</h1>
-<p>Released on 2026-06-06.</p>
-<p>Adds the <code>audio-locked</code> player attribute for embedding contexts that need force-muted playback, a full GSAP keyframe system (parsing → runtime bridge → design panel), Figma-quality snap guides in Studio, and reliability improvements for low-memory render environments.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Player:</strong> Add audio-locked attribute (force-mute + hide controls) (<a href="https://github.com/heygen-com/hyperframes/commit/f39b5988cc8e810e03c3ceead662729d9156ccb2">f39b5988</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1234">#1234</a>)</li>
-<li><strong>Studio:</strong> Draggable layer reorder with z-index persistence (<a href="https://github.com/heygen-com/hyperframes/commit/7a0cb085bbc4eb4cfd45ee798800e90a0f998717">7a0cb085</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1216">#1216</a>)</li>
-<li><strong>Producer:</strong> Auto low-memory safe render profile (<a href="https://github.com/heygen-com/hyperframes/commit/bacfb17538ae2c79343e816dd03d6a62f2d0163c">bacfb175</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1225">#1225</a>)</li>
-<li><strong>Studio:</strong> Add fit-to-children button in property panel (<a href="https://github.com/heygen-com/hyperframes/commit/4d968866551fe3a32b71688b7c69f3d1d9c66660">4d968866</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1224">#1224</a>)</li>
-<li><strong>Studio:</strong> Wire snap engine into preview drag and resize gestures (<a href="https://github.com/heygen-com/hyperframes/commit/0a965dc4ad51e03f867df481b99e39443993f8dd">0a965dc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1223">#1223</a>)</li>
-<li><strong>Studio:</strong> Add snap guide overlay, toolbar, grid, and target collection (<a href="https://github.com/heygen-com/hyperframes/commit/f8bf039a09dd0117ff70be4afc2260e331e26723">f8bf039a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1228">#1228</a>)</li>
-<li><strong>Studio:</strong> Add stateless snap engine with alignment computation (<a href="https://github.com/heygen-com/hyperframes/commit/1863831a4dc0f4cc33cd7e73ea336233026c0a13">1863831a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1227">#1227</a>)</li>
-<li><strong>Studio:</strong> Runtime-synced design panel + 3D props + split polish (<a href="https://github.com/heygen-com/hyperframes/commit/1bdb2d4ec0f18f1f196f912fd5d5ca118b47039e">1bdb2d4e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1188">#1188</a>)</li>
-<li><strong>Studio:</strong> Runtime-first dynamic keyframe system [8/10] (<a href="https://github.com/heygen-com/hyperframes/commit/c1699ec98b6e3ff03438cfbd4109e3768427b965">c1699ec9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1190">#1190</a>)</li>
-<li><strong>Studio:</strong> Split clip at playhead for media elements [7/10] (<a href="https://github.com/heygen-com/hyperframes/commit/d1aad77fd789968e682f4c78820b793703c5f6e3">d1aad77f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1189">#1189</a>)</li>
-<li><strong>Studio:</strong> Design panel, timeline polish, feature flag [6/6] (<a href="https://github.com/heygen-com/hyperframes/commit/a5211954ea270cefc2edb260bab12b039e8ccf82">a5211954</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1172">#1172</a>)</li>
-<li><strong>Studio:</strong> Keyframe hooks wiring — session, cache, toolbar [5/6] (<a href="https://github.com/heygen-com/hyperframes/commit/7a0883264d697396d80f51352094a995ddaa378e">7a088326</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1171">#1171</a>)</li>
-<li><strong>Studio:</strong> Keyframe diamonds, navigation, context menu [4/6] (<a href="https://github.com/heygen-com/hyperframes/commit/5984c58846abd9c9068d67db1da8b119455dc6fc">5984c588</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1170">#1170</a>)</li>
-<li><strong>Studio:</strong> GSAP runtime bridge + optimistic updates [3/6] (<a href="https://github.com/heygen-com/hyperframes/commit/12e87e05b464323e0148c7bfa7314f0a5d872e32">12e87e05</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1169">#1169</a>)</li>
-<li><strong>Core:</strong> Spring physics solver + runtime fixes [2/6] (<a href="https://github.com/heygen-com/hyperframes/commit/aab737740030cf19a761689a94456bb86e2235bb">aab73774</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1168">#1168</a>)</li>
-<li><strong>Core:</strong> GSAP keyframe parsing, mutations, and API routes (<a href="https://github.com/heygen-com/hyperframes/commit/e639a1638fb157b71feb9470e87e3d972ce6894f">e639a163</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1167">#1167</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Restore calibration timeout ceiling + add pipeline observability (<a href="https://github.com/heygen-com/hyperframes/commit/1d16216a24a6163640ce5f5462cc6f4ff700f693">1d16216a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1233">#1233</a>)</li>
-<li><strong>AWS Lambda:</strong> Validate event S3 URIs against render bucket (F-004) (<a href="https://github.com/heygen-com/hyperframes/commit/65888840fa748d80f56db717b11ac89ed94a2e9e">65888840</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1213">#1213</a>)</li>
-<li><strong>CLI:</strong> Re-validate SSRF denylist on redirects + harden isPrivateUrl (<a href="https://github.com/heygen-com/hyperframes/commit/1f37920fe15e6ab18d6a58ad7a9cec7937da7d24">1f37920f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1212">#1212</a>)</li>
-<li><strong>Studio:</strong> Fix PropertyPanel format and file size regression (<a href="https://github.com/heygen-com/hyperframes/commit/2c73fa9c8fb61c3b8ea57b3a5b71c7fcd78da6c4">2c73fa9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1229">#1229</a>)</li>
-<li><strong>CLI:</strong> Bind studio preview server to loopback by default (<a href="https://github.com/heygen-com/hyperframes/commit/1324de54a8ba79aa76944d79efa158f4289572ca">1324de54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1210">#1210</a>)</li>
-<li><strong>Runtime:</strong> Make audio/media sync boundary inclusive to match visibility fix (<a href="https://github.com/heygen-com/hyperframes/commit/b6a14ea9f5cc2d338cff76051c740ca8da4b37fa">b6a14ea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1173">#1173</a>)</li>
-<li>Add progress logging during silent render pipeline stages (<a href="https://github.com/heygen-com/hyperframes/commit/6bd1e764e55ab38a1f14d6ea19f47e019147eced">6bd1e764</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1220">#1220</a>)</li>
-<li>Respect user timeouts on low-memory systems (<a href="https://github.com/heygen-com/hyperframes/commit/20894ab9a3e293020b283b4c4f72833b729f8175">20894ab9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1221">#1221</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Add reap as HyperFrames adopter (<a href="https://github.com/heygen-com/hyperframes/commit/4b51cc646861cbdc00fd67856deb2993eb2eb874">4b51cc64</a>, <a href="https://github.com/heygen-com/hyperframes/pull/876">#876</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.73...v0.6.76">https://github.com/heygen-com/hyperframes/compare/v0.6.73...v0.6.76</a></p>
 ]]></content:encoded>
         </item>
     </channel>
