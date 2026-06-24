@@ -4,11 +4,47 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 24 Jun 2026 00:13:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Jun 2026 04:44:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.5]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.5</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.5</guid>
+            <pubDate>Wed, 24 Jun 2026 04:44:44 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.5</h1>
+<p>Released on 2026-06-24.</p>
+<p>This stable release fixes cross-origin player readiness so hosted HyperFrames
+previews can play through the runtime bridge without app-origin blob wrappers.
+It also improves render robustness by retrying transient producer probe crashes
+and preventing visible GSAP transition overlays from leaking into output.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Player:</strong> Treat runtime timeline as cross-origin ready (<a href="https://github.com/heygen-com/hyperframes/commit/ea23e6309f5516897cebe6b95b1157d703de8dee">ea23e630</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1690">#1690</a>)</li>
+<li><strong>Producer:</strong> Retry probe stage on transient browser errors (<a href="https://github.com/heygen-com/hyperframes/commit/546b2d770bdc7e02d5c834f786c098f7d40f2749">546b2d77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1688">#1688</a>)</li>
+<li>Flag visible GSAP transition overlays (<a href="https://github.com/heygen-com/hyperframes/commit/899b8faa1203c4fb95ed39a38896426311312f22">899b8faa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1686">#1686</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5">https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.5</h1>
+<p>Released on 2026-06-24.</p>
+<p>This stable release fixes cross-origin player readiness so hosted HyperFrames
+previews can play through the runtime bridge without app-origin blob wrappers.
+It also improves render robustness by retrying transient producer probe crashes
+and preventing visible GSAP transition overlays from leaking into output.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Player:</strong> Treat runtime timeline as cross-origin ready (<a href="https://github.com/heygen-com/hyperframes/commit/ea23e6309f5516897cebe6b95b1157d703de8dee">ea23e630</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1690">#1690</a>)</li>
+<li><strong>Producer:</strong> Retry probe stage on transient browser errors (<a href="https://github.com/heygen-com/hyperframes/commit/546b2d770bdc7e02d5c834f786c098f7d40f2749">546b2d77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1688">#1688</a>)</li>
+<li>Flag visible GSAP transition overlays (<a href="https://github.com/heygen-com/hyperframes/commit/899b8faa1203c4fb95ed39a38896426311312f22">899b8faa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1686">#1686</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5">https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.4]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.4</link>
@@ -2191,32 +2227,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.78...v0.6.79">https://github.com/heygen-com/hyperframes/compare/v0.6.78...v0.6.79</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.78]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.78</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.78</guid>
-            <pubDate>Sat, 06 Jun 2026 20:02:56 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.78</h1>
-<p>Released on 2026-06-06.</p>
-<p>Adds detailed diagnostics around page navigation timeouts — captures failed requests, HTTP errors, and timing context to help debug environment-specific render failures.</p>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> Add capture navigation timeout diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/dc71f411c770b5ee2a758959e84655ac10a7fcb5">dc71f411</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1238">#1238</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.77...v0.6.78">https://github.com/heygen-com/hyperframes/compare/v0.6.77...v0.6.78</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.78</h1>
-<p>Released on 2026-06-06.</p>
-<p>Adds detailed diagnostics around page navigation timeouts — captures failed requests, HTTP errors, and timing context to help debug environment-specific render failures.</p>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> Add capture navigation timeout diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/dc71f411c770b5ee2a758959e84655ac10a7fcb5">dc71f411</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1238">#1238</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.77...v0.6.78">https://github.com/heygen-com/hyperframes/compare/v0.6.77...v0.6.78</a></p>
 ]]></content:encoded>
         </item>
     </channel>
