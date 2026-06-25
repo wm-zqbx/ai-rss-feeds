@@ -4,11 +4,77 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 24 Jun 2026 04:44:44 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 00:20:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.6]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.6</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.6</guid>
+            <pubDate>Thu, 25 Jun 2026 00:20:04 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.6</h1>
+<p>Released on 2026-06-25.</p>
+<p>This release sharpens Studio&#39;s animation editing — per-keyframe ease presets, velocity fitting, gesture smoothing, and marquee multi-selection — and adds <code>.srt</code>/<code>.vtt</code> caption export to the CLI. It also improves preview and render fidelity: document-flow layouts now preview WYSIWYG, project-root-relative assets resolve in the preview iframe, and the CLI ships its player/slideshow bundles so <code>present</code>/<code>play</code> work from npm.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Export .srt/.vtt caption sidecars from a transcript (<a href="https://github.com/heygen-com/hyperframes/commit/821bf2921a264538b90cb323e4248f29ffaa5d19">821bf292</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1704">#1704</a>)</li>
+<li><strong>Studio:</strong> Per-keyframe ease presets, velocity fitting, gesture smoothing (<a href="https://github.com/heygen-com/hyperframes/commit/97db811a2f7e7261c555b2d9915ecf10e057d726">97db811a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1694">#1694</a>)</li>
+<li><strong>Studio:</strong> Marquee multi-selection + off-canvas indicators (<a href="https://github.com/heygen-com/hyperframes/commit/8ae010bf51ff577fcbf6a723b7078f10bef268d7">8ae010bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1693">#1693</a>)</li>
+<li><strong>CLI:</strong> Shared TTS/BGM auth preflight + caption and skill-workflow fixes (<a href="https://github.com/heygen-com/hyperframes/commit/54cab331d0f4b88e9ffe73036f842d41d473cf32">54cab331</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1697">#1697</a>)</li>
+<li><strong>Telemetry:</strong> Attribute renders to the authoring workflow skill (<a href="https://github.com/heygen-com/hyperframes/commit/5242dde2dc82607051316aea2a91e7420b13433c">5242dde2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1695">#1695</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Runtime:</strong> Keep stamped flow children in document flow in preview (<a href="https://github.com/heygen-com/hyperframes/commit/9bf1e1c298cdd346c923bbda09a098d7459dcd76">9bf1e1c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1702">#1702</a>)</li>
+<li><strong>CLI:</strong> Ship player + slideshow bundles so present/play work from npm (<a href="https://github.com/heygen-com/hyperframes/commit/1c389983de16f73ce9f272f5d6e6ae4314ac9e17">1c389983</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1706">#1706</a>)</li>
+<li><strong>Engine:</strong> Defend macOS regular Chrome screenshots (<a href="https://github.com/heygen-com/hyperframes/commit/89ff299a11bd65213e583068622a9677d1d39008">89ff299a</a>)</li>
+<li><strong>Runtime:</strong> ImmediateRender for set tweens + array timeline normalization (<a href="https://github.com/heygen-com/hyperframes/commit/6987447a75d897be493f4bd4992c4145efffa2c8">6987447a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1692">#1692</a>)</li>
+<li><strong>Studio:</strong> Resolve project-root-relative asset URLs in preview iframe (<a href="https://github.com/heygen-com/hyperframes/commit/c7b9bf338676c48766a1a88e5c887f8eec74ea92">c7b9bf33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1698">#1698</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Route /slideshow as a workflow, not a domain capability (<a href="https://github.com/heygen-com/hyperframes/commit/ae8b94c51841be8c4b53fe861adae9371db5eff3">ae8b94c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1701">#1701</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Remove all console.* calls from studio package (<a href="https://github.com/heygen-com/hyperframes/commit/adb40321d675ed6058960803a99996c53f8248f0">adb40321</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1691">#1691</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.5...v0.7.6">https://github.com/heygen-com/hyperframes/compare/v0.7.5...v0.7.6</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.6</h1>
+<p>Released on 2026-06-25.</p>
+<p>This release sharpens Studio&#39;s animation editing — per-keyframe ease presets, velocity fitting, gesture smoothing, and marquee multi-selection — and adds <code>.srt</code>/<code>.vtt</code> caption export to the CLI. It also improves preview and render fidelity: document-flow layouts now preview WYSIWYG, project-root-relative assets resolve in the preview iframe, and the CLI ships its player/slideshow bundles so <code>present</code>/<code>play</code> work from npm.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Export .srt/.vtt caption sidecars from a transcript (<a href="https://github.com/heygen-com/hyperframes/commit/821bf2921a264538b90cb323e4248f29ffaa5d19">821bf292</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1704">#1704</a>)</li>
+<li><strong>Studio:</strong> Per-keyframe ease presets, velocity fitting, gesture smoothing (<a href="https://github.com/heygen-com/hyperframes/commit/97db811a2f7e7261c555b2d9915ecf10e057d726">97db811a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1694">#1694</a>)</li>
+<li><strong>Studio:</strong> Marquee multi-selection + off-canvas indicators (<a href="https://github.com/heygen-com/hyperframes/commit/8ae010bf51ff577fcbf6a723b7078f10bef268d7">8ae010bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1693">#1693</a>)</li>
+<li><strong>CLI:</strong> Shared TTS/BGM auth preflight + caption and skill-workflow fixes (<a href="https://github.com/heygen-com/hyperframes/commit/54cab331d0f4b88e9ffe73036f842d41d473cf32">54cab331</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1697">#1697</a>)</li>
+<li><strong>Telemetry:</strong> Attribute renders to the authoring workflow skill (<a href="https://github.com/heygen-com/hyperframes/commit/5242dde2dc82607051316aea2a91e7420b13433c">5242dde2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1695">#1695</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Runtime:</strong> Keep stamped flow children in document flow in preview (<a href="https://github.com/heygen-com/hyperframes/commit/9bf1e1c298cdd346c923bbda09a098d7459dcd76">9bf1e1c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1702">#1702</a>)</li>
+<li><strong>CLI:</strong> Ship player + slideshow bundles so present/play work from npm (<a href="https://github.com/heygen-com/hyperframes/commit/1c389983de16f73ce9f272f5d6e6ae4314ac9e17">1c389983</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1706">#1706</a>)</li>
+<li><strong>Engine:</strong> Defend macOS regular Chrome screenshots (<a href="https://github.com/heygen-com/hyperframes/commit/89ff299a11bd65213e583068622a9677d1d39008">89ff299a</a>)</li>
+<li><strong>Runtime:</strong> ImmediateRender for set tweens + array timeline normalization (<a href="https://github.com/heygen-com/hyperframes/commit/6987447a75d897be493f4bd4992c4145efffa2c8">6987447a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1692">#1692</a>)</li>
+<li><strong>Studio:</strong> Resolve project-root-relative asset URLs in preview iframe (<a href="https://github.com/heygen-com/hyperframes/commit/c7b9bf338676c48766a1a88e5c887f8eec74ea92">c7b9bf33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1698">#1698</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Route /slideshow as a workflow, not a domain capability (<a href="https://github.com/heygen-com/hyperframes/commit/ae8b94c51841be8c4b53fe861adae9371db5eff3">ae8b94c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1701">#1701</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Remove all console.* calls from studio package (<a href="https://github.com/heygen-com/hyperframes/commit/adb40321d675ed6058960803a99996c53f8248f0">adb40321</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1691">#1691</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.5...v0.7.6">https://github.com/heygen-com/hyperframes/compare/v0.7.5...v0.7.6</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.5]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.5</link>
@@ -2201,32 +2267,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.79...v0.6.80">https://github.com/heygen-com/hyperframes/compare/v0.6.79...v0.6.80</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.79]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.79</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.79</guid>
-            <pubDate>Sat, 06 Jun 2026 20:06:56 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.79</h1>
-<p>Released on 2026-06-06.</p>
-<p>Switches the parity harness page navigation to <code>domcontentloaded</code> instead of <code>load</code>, preventing timeouts caused by slow video preload on compositions with large or numerous media sources.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Use domcontentloaded to avoid video preload navigation timeout (<a href="https://github.com/heygen-com/hyperframes/commit/62b7137e723c3e3ef590950eed99ec5a671749cd">62b7137e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1239">#1239</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.78...v0.6.79">https://github.com/heygen-com/hyperframes/compare/v0.6.78...v0.6.79</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.79</h1>
-<p>Released on 2026-06-06.</p>
-<p>Switches the parity harness page navigation to <code>domcontentloaded</code> instead of <code>load</code>, preventing timeouts caused by slow video preload on compositions with large or numerous media sources.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Use domcontentloaded to avoid video preload navigation timeout (<a href="https://github.com/heygen-com/hyperframes/commit/62b7137e723c3e3ef590950eed99ec5a671749cd">62b7137e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1239">#1239</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.78...v0.6.79">https://github.com/heygen-com/hyperframes/compare/v0.6.78...v0.6.79</a></p>
 ]]></content:encoded>
         </item>
     </channel>
