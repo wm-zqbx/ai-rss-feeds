@@ -4,11 +4,65 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 25 Jun 2026 00:20:04 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 15:57:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.7]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.7</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.7</guid>
+            <pubDate>Thu, 25 Jun 2026 15:57:10 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.7</h1>
+<p>Released on 2026-06-25.</p>
+<p>This release ships the post-0.7.6 fixes that unblock stable adoption: producer probe navigation timeouts now retry, and the Claude plugin fixture no longer trips compression guards during install. It also improves slideshow player interactivity and includes the latest Studio motion-editing and media-use provider work.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Slideshow:</strong> Auto-set interactive on inner player (<a href="https://github.com/heygen-com/hyperframes/commit/64eaad7d69b3c11b9e95b912f2c0b5070994078b">64eaad7d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1712">#1712</a>)</li>
+<li><strong>Studio:</strong> Motion editing — speed-curve editor, class-tween attribution, per-keyframe size &amp; ease (<a href="https://github.com/heygen-com/hyperframes/commit/364992203e39288b92d60c044c2849866ef02976">36499220</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1705">#1705</a>)</li>
+<li><strong>Studio:</strong> Redesign Asset tab + fix beat analysis auto-trigger (<a href="https://github.com/heygen-com/hyperframes/commit/92befea305e923f081d51592abfdc0278a7e840b">92befea3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1684">#1684</a>)</li>
+<li><strong>Media Use:</strong> Resolve engine + BGM/SFX/image/icon providers (<a href="https://github.com/heygen-com/hyperframes/commit/b2dc353725049a0ccecc45db4db8dc8629dc5f5c">b2dc3537</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1683">#1683</a>)</li>
+<li><strong>Media Use:</strong> Core infrastructure — manifest, cache, adopt, probe (<a href="https://github.com/heygen-com/hyperframes/commit/73f6d3e5bed284f80e7a865e4cf2142817f1160c">73f6d3e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1682">#1682</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Plugin:</strong> Avoid high compression silence fixture (<a href="https://github.com/heygen-com/hyperframes/commit/96ab4b18a4f20ff2b7961e64a3771092f92f78fb">96ab4b18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1717">#1717</a>)</li>
+<li><strong>Producer:</strong> Retry probe navigation timeouts (<a href="https://github.com/heygen-com/hyperframes/commit/0558b8761e48683887816cc1c290f46dc4c32745">0558b876</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1713">#1713</a>)</li>
+<li><strong>Skills:</strong> Make media-use frontmatter valid YAML so <code>skills add</code> works (<a href="https://github.com/heygen-com/hyperframes/commit/814c96cefaa149d397a18184ed244178a6f1e46d">814c96ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1709">#1709</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Media Use:</strong> Resolve tests + eval harness (<a href="https://github.com/heygen-com/hyperframes/commit/34bb496566bc1fcccd06a2c9c3f099a5b41d585c">34bb4965</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1685">#1685</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.6...v0.7.7">https://github.com/heygen-com/hyperframes/compare/v0.7.6...v0.7.7</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.7</h1>
+<p>Released on 2026-06-25.</p>
+<p>This release ships the post-0.7.6 fixes that unblock stable adoption: producer probe navigation timeouts now retry, and the Claude plugin fixture no longer trips compression guards during install. It also improves slideshow player interactivity and includes the latest Studio motion-editing and media-use provider work.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Slideshow:</strong> Auto-set interactive on inner player (<a href="https://github.com/heygen-com/hyperframes/commit/64eaad7d69b3c11b9e95b912f2c0b5070994078b">64eaad7d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1712">#1712</a>)</li>
+<li><strong>Studio:</strong> Motion editing — speed-curve editor, class-tween attribution, per-keyframe size &amp; ease (<a href="https://github.com/heygen-com/hyperframes/commit/364992203e39288b92d60c044c2849866ef02976">36499220</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1705">#1705</a>)</li>
+<li><strong>Studio:</strong> Redesign Asset tab + fix beat analysis auto-trigger (<a href="https://github.com/heygen-com/hyperframes/commit/92befea305e923f081d51592abfdc0278a7e840b">92befea3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1684">#1684</a>)</li>
+<li><strong>Media Use:</strong> Resolve engine + BGM/SFX/image/icon providers (<a href="https://github.com/heygen-com/hyperframes/commit/b2dc353725049a0ccecc45db4db8dc8629dc5f5c">b2dc3537</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1683">#1683</a>)</li>
+<li><strong>Media Use:</strong> Core infrastructure — manifest, cache, adopt, probe (<a href="https://github.com/heygen-com/hyperframes/commit/73f6d3e5bed284f80e7a865e4cf2142817f1160c">73f6d3e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1682">#1682</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Plugin:</strong> Avoid high compression silence fixture (<a href="https://github.com/heygen-com/hyperframes/commit/96ab4b18a4f20ff2b7961e64a3771092f92f78fb">96ab4b18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1717">#1717</a>)</li>
+<li><strong>Producer:</strong> Retry probe navigation timeouts (<a href="https://github.com/heygen-com/hyperframes/commit/0558b8761e48683887816cc1c290f46dc4c32745">0558b876</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1713">#1713</a>)</li>
+<li><strong>Skills:</strong> Make media-use frontmatter valid YAML so <code>skills add</code> works (<a href="https://github.com/heygen-com/hyperframes/commit/814c96cefaa149d397a18184ed244178a6f1e46d">814c96ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1709">#1709</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Media Use:</strong> Resolve tests + eval harness (<a href="https://github.com/heygen-com/hyperframes/commit/34bb496566bc1fcccd06a2c9c3f099a5b41d585c">34bb4965</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1685">#1685</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.6...v0.7.7">https://github.com/heygen-com/hyperframes/compare/v0.7.6...v0.7.7</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.6]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.6</link>
@@ -2219,54 +2273,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.80...v0.6.81">https://github.com/heygen-com/hyperframes/compare/v0.6.80...v0.6.81</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.80]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.80</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.80</guid>
-            <pubDate>Sun, 07 Jun 2026 13:37:37 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.80</h1>
-<p>Released on 2026-06-07.</p>
-<p>Fixes a main-thread hang on compositions with thousands of GSAP tween calls by batching timeline construction through <code>requestAnimationFrame</code>, and adds <code>innerText</code> support to the GSAP inspector for counter animations.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Gsap:</strong> Add innerText support to GSAP inspector for counter animations (<a href="https://github.com/heygen-com/hyperframes/commit/05aac941fc93e569d5eefdb53440f102f046494b">05aac941</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1244">#1244</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li>Batch GSAP timeline construction to prevent main-thread hang (#1231) (<a href="https://github.com/heygen-com/hyperframes/commit/ebd156bcc145e0d144e22f80ff0b98098ee8ad64">ebd156bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1249">#1249</a>)</li>
-<li><strong>Render:</strong> Add end-to-end observability (<a href="https://github.com/heygen-com/hyperframes/commit/29d6f1eac9915f435a6dd72cf9ed96431c6afaf8">29d6f1ea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1248">#1248</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Add T11 history coalescing and cross-prop separation suite (<a href="https://github.com/heygen-com/hyperframes/commit/9aebc8db70cf373875b9b685a68722b78eb33c03">9aebc8db</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1242">#1242</a>)</li>
-<li><strong>Core:</strong> Add T8 override-set merge semantics suite for getVariables (<a href="https://github.com/heygen-com/hyperframes/commit/37d02f26a2388fd770e124f9e9dee16174b03763">37d02f26</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1241">#1241</a>)</li>
-<li><strong>Core:</strong> Add T1 round-trip idempotence suite for parse/serialize (<a href="https://github.com/heygen-com/hyperframes/commit/dd9567446bce28dff9f8a163b03a0071870eb07b">dd956744</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1240">#1240</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.79...v0.6.80">https://github.com/heygen-com/hyperframes/compare/v0.6.79...v0.6.80</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.80</h1>
-<p>Released on 2026-06-07.</p>
-<p>Fixes a main-thread hang on compositions with thousands of GSAP tween calls by batching timeline construction through <code>requestAnimationFrame</code>, and adds <code>innerText</code> support to the GSAP inspector for counter animations.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Gsap:</strong> Add innerText support to GSAP inspector for counter animations (<a href="https://github.com/heygen-com/hyperframes/commit/05aac941fc93e569d5eefdb53440f102f046494b">05aac941</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1244">#1244</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li>Batch GSAP timeline construction to prevent main-thread hang (#1231) (<a href="https://github.com/heygen-com/hyperframes/commit/ebd156bcc145e0d144e22f80ff0b98098ee8ad64">ebd156bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1249">#1249</a>)</li>
-<li><strong>Render:</strong> Add end-to-end observability (<a href="https://github.com/heygen-com/hyperframes/commit/29d6f1eac9915f435a6dd72cf9ed96431c6afaf8">29d6f1ea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1248">#1248</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Add T11 history coalescing and cross-prop separation suite (<a href="https://github.com/heygen-com/hyperframes/commit/9aebc8db70cf373875b9b685a68722b78eb33c03">9aebc8db</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1242">#1242</a>)</li>
-<li><strong>Core:</strong> Add T8 override-set merge semantics suite for getVariables (<a href="https://github.com/heygen-com/hyperframes/commit/37d02f26a2388fd770e124f9e9dee16174b03763">37d02f26</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1241">#1241</a>)</li>
-<li><strong>Core:</strong> Add T1 round-trip idempotence suite for parse/serialize (<a href="https://github.com/heygen-com/hyperframes/commit/dd9567446bce28dff9f8a163b03a0071870eb07b">dd956744</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1240">#1240</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.79...v0.6.80">https://github.com/heygen-com/hyperframes/compare/v0.6.79...v0.6.80</a></p>
 ]]></content:encoded>
         </item>
     </channel>
