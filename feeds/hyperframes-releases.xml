@@ -2223,31 +2223,5 @@ in source.</p>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.80...v0.6.85">https://github.com/heygen-com/hyperframes/compare/v0.6.80...v0.6.85</a></p>
 ]]></content:encoded>
         </item>
-        <item>
-            <title><![CDATA[v0.6.84]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.84</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.84</guid>
-            <pubDate>Tue, 09 Jun 2026 01:32:41 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.84</h1>
-<p>Released on 2026-06-09.</p>
-<p>Completes the playbackRate fix across all media duration resolution sites — visibility, timeline payload, and auto-calculated duration now all respect <code>defaultPlaybackRate</code>.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Apply playbackRate to all media duration resolution sites (<a href="https://github.com/heygen-com/hyperframes/commit/908b455e5eed94f6c6d1e6a27b2a6c99a8032394">908b455e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1288">#1288</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.83...v0.6.84">https://github.com/heygen-com/hyperframes/compare/v0.6.83...v0.6.84</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.84</h1>
-<p>Released on 2026-06-09.</p>
-<p>Completes the playbackRate fix across all media duration resolution sites — visibility, timeline payload, and auto-calculated duration now all respect <code>defaultPlaybackRate</code>.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Apply playbackRate to all media duration resolution sites (<a href="https://github.com/heygen-com/hyperframes/commit/908b455e5eed94f6c6d1e6a27b2a6c99a8032394">908b455e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1288">#1288</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.83...v0.6.84">https://github.com/heygen-com/hyperframes/compare/v0.6.83...v0.6.84</a></p>
-]]></content:encoded>
-        </item>
     </channel>
 </rss>
