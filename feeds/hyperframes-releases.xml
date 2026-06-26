@@ -4,11 +4,69 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 25 Jun 2026 15:57:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jun 2026 23:02:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.8]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.8</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.8</guid>
+            <pubDate>Thu, 25 Jun 2026 23:02:57 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.8</h1>
+<p>Released on 2026-06-25.</p>
+<p>Headlining this release is a draggable 3D-transform cube in the Studio design panel — tilt an element in X/Y/Z, dial in perspective and scale right on the canvas, and keyframe it like any other property. It ships alongside per-slide slideshow autoplay, new lower-thirds catalog blocks, and producer reliability and security fixes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Draggable 3D-transform cube in the design panel (<a href="https://github.com/heygen-com/hyperframes/commit/37ac1380418961f4bee0c582cb585d2b28796d46">37ac1380</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1710">#1710</a>)</li>
+<li><strong>Slideshow:</strong> Per-slide autoplay (manual-advance, opt-in) (<a href="https://github.com/heygen-com/hyperframes/commit/7517f6ac86496fa422e1dd918482f10b3fe4a546">7517f6ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1708">#1708</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Stop retrying capture attempts that made zero progress (<a href="https://github.com/heygen-com/hyperframes/commit/690cf1b7a5ae0acff709e86b68fd2fce7c4bc039">690cf1b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1725">#1725</a>)</li>
+<li><strong>Media Use:</strong> Kill shell command injection in probe/heygen-search/eval (<a href="https://github.com/heygen-com/hyperframes/commit/041f2fa196f830bbb7215e3da6c6f991ab695a2d">041f2fa1</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Add lower thirds catalog blocks (<a href="https://github.com/heygen-com/hyperframes/commit/ab818a2f1d97f1fc4ca06443aab821ce77441f60">ab818a2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1134">#1134</a>)</li>
+<li>Add 19-skills catalog to README, CLAUDE.md, and Mintlify docs (<a href="https://github.com/heygen-com/hyperframes/commit/f7bc0384f062fa6d9142ac06119b14729644f237">f7bc0384</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1722">#1722</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Run skills/*<em>/</em>.test.mjs in CI (<a href="https://github.com/heygen-com/hyperframes/commit/0c05025c04f9a18761ccdd4ca9f1a64ee8655556">0c05025c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1724">#1724</a>)</li>
+<li><strong>Skills:</strong> Rename graphic-overlays skill to talking-head-recut (<a href="https://github.com/heygen-com/hyperframes/commit/56859b618f45f646835c717a8a6dfaabbbda636d">56859b61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1720">#1720</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.7...v0.7.8">https://github.com/heygen-com/hyperframes/compare/v0.7.7...v0.7.8</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.8</h1>
+<p>Released on 2026-06-25.</p>
+<p>Headlining this release is a draggable 3D-transform cube in the Studio design panel — tilt an element in X/Y/Z, dial in perspective and scale right on the canvas, and keyframe it like any other property. It ships alongside per-slide slideshow autoplay, new lower-thirds catalog blocks, and producer reliability and security fixes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Draggable 3D-transform cube in the design panel (<a href="https://github.com/heygen-com/hyperframes/commit/37ac1380418961f4bee0c582cb585d2b28796d46">37ac1380</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1710">#1710</a>)</li>
+<li><strong>Slideshow:</strong> Per-slide autoplay (manual-advance, opt-in) (<a href="https://github.com/heygen-com/hyperframes/commit/7517f6ac86496fa422e1dd918482f10b3fe4a546">7517f6ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1708">#1708</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Stop retrying capture attempts that made zero progress (<a href="https://github.com/heygen-com/hyperframes/commit/690cf1b7a5ae0acff709e86b68fd2fce7c4bc039">690cf1b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1725">#1725</a>)</li>
+<li><strong>Media Use:</strong> Kill shell command injection in probe/heygen-search/eval (<a href="https://github.com/heygen-com/hyperframes/commit/041f2fa196f830bbb7215e3da6c6f991ab695a2d">041f2fa1</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Add lower thirds catalog blocks (<a href="https://github.com/heygen-com/hyperframes/commit/ab818a2f1d97f1fc4ca06443aab821ce77441f60">ab818a2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1134">#1134</a>)</li>
+<li>Add 19-skills catalog to README, CLAUDE.md, and Mintlify docs (<a href="https://github.com/heygen-com/hyperframes/commit/f7bc0384f062fa6d9142ac06119b14729644f237">f7bc0384</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1722">#1722</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Run skills/*<em>/</em>.test.mjs in CI (<a href="https://github.com/heygen-com/hyperframes/commit/0c05025c04f9a18761ccdd4ca9f1a64ee8655556">0c05025c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1724">#1724</a>)</li>
+<li><strong>Skills:</strong> Rename graphic-overlays skill to talking-head-recut (<a href="https://github.com/heygen-com/hyperframes/commit/56859b618f45f646835c717a8a6dfaabbbda636d">56859b61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1720">#1720</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.7...v0.7.8">https://github.com/heygen-com/hyperframes/compare/v0.7.7...v0.7.8</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.7]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.7</link>
@@ -2225,54 +2283,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.81...v0.6.82">https://github.com/heygen-com/hyperframes/compare/v0.6.81...v0.6.82</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.81]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.81</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.81</guid>
-            <pubDate>Sun, 07 Jun 2026 22:06:13 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.81</h1>
-<p>Released on 2026-06-07.</p>
-<p>Adds Google Cloud Run + Cloud Workflows as a distributed-render target (<code>@hyperframes/gcp-cloud-run</code>) — the GCP counterpart to the AWS Lambda adapter, sharing the same <code>plan → renderChunk → assemble</code> primitives. Also lands a font-resolution pipeline so compositions capture and embed their own fonts for deterministic rendering.</p>
-<h2>Features</h2>
-<ul>
-<li>Font resolution pipeline — compositions capture and embed their own fonts (<a href="https://github.com/heygen-com/hyperframes/commit/0bf15119f8e2423f43a619dad314f8c029994903">0bf15119</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1255">#1255</a>)</li>
-<li><strong>Gcp Cloud Run:</strong> Google Cloud Run + Workflows distributed render adapter (<a href="https://github.com/heygen-com/hyperframes/commit/4da567df22ad2857a8773bf61e425548447967e6">4da567df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1253">#1253</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Add morph-text component and text-effects catalog section (<a href="https://github.com/heygen-com/hyperframes/commit/48fcf4ada5ee67f8931a43dc54c3337fa615300c">48fcf4ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1247">#1247</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Core:</strong> Add T9 CompositionVariable font/image parse spec (before R1) (<a href="https://github.com/heygen-com/hyperframes/commit/806b226b349897cb69618a2d706de6c9455c7226">806b226b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1246">#1246</a>)</li>
-<li><strong>Core:</strong> Add T2 stable id spec for parse-to-hf id contract (before R1) (<a href="https://github.com/heygen-com/hyperframes/commit/a890d093e19ce9c51183af741b5e335d9348bc3c">a890d093</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1245">#1245</a>)</li>
-<li><strong>Studio:</strong> Add T4 op-contract stubs for editor dispatch boundary (<a href="https://github.com/heygen-com/hyperframes/commit/bdbd8b1db013dd1064c46261a690288e711bfd78">bdbd8b1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1243">#1243</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.80...v0.6.81">https://github.com/heygen-com/hyperframes/compare/v0.6.80...v0.6.81</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.81</h1>
-<p>Released on 2026-06-07.</p>
-<p>Adds Google Cloud Run + Cloud Workflows as a distributed-render target (<code>@hyperframes/gcp-cloud-run</code>) — the GCP counterpart to the AWS Lambda adapter, sharing the same <code>plan → renderChunk → assemble</code> primitives. Also lands a font-resolution pipeline so compositions capture and embed their own fonts for deterministic rendering.</p>
-<h2>Features</h2>
-<ul>
-<li>Font resolution pipeline — compositions capture and embed their own fonts (<a href="https://github.com/heygen-com/hyperframes/commit/0bf15119f8e2423f43a619dad314f8c029994903">0bf15119</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1255">#1255</a>)</li>
-<li><strong>Gcp Cloud Run:</strong> Google Cloud Run + Workflows distributed render adapter (<a href="https://github.com/heygen-com/hyperframes/commit/4da567df22ad2857a8773bf61e425548447967e6">4da567df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1253">#1253</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Add morph-text component and text-effects catalog section (<a href="https://github.com/heygen-com/hyperframes/commit/48fcf4ada5ee67f8931a43dc54c3337fa615300c">48fcf4ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1247">#1247</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Core:</strong> Add T9 CompositionVariable font/image parse spec (before R1) (<a href="https://github.com/heygen-com/hyperframes/commit/806b226b349897cb69618a2d706de6c9455c7226">806b226b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1246">#1246</a>)</li>
-<li><strong>Core:</strong> Add T2 stable id spec for parse-to-hf id contract (before R1) (<a href="https://github.com/heygen-com/hyperframes/commit/a890d093e19ce9c51183af741b5e335d9348bc3c">a890d093</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1245">#1245</a>)</li>
-<li><strong>Studio:</strong> Add T4 op-contract stubs for editor dispatch boundary (<a href="https://github.com/heygen-com/hyperframes/commit/bdbd8b1db013dd1064c46261a690288e711bfd78">bdbd8b1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1243">#1243</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.80...v0.6.81">https://github.com/heygen-com/hyperframes/compare/v0.6.80...v0.6.81</a></p>
 ]]></content:encoded>
         </item>
     </channel>
