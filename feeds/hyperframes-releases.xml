@@ -4,11 +4,53 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 26 Jun 2026 18:43:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jun 2026 21:52:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.12]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.12</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.12</guid>
+            <pubDate>Fri, 26 Jun 2026 21:52:38 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.12</h1>
+<p>Released on 2026-06-26.</p>
+<p>This release unblocks Zephyr and other producer-backed generation flows that use
+Google Fonts: those imports now warn instead of hard-failing lint when the
+producer can resolve them. It also keeps HyperFrames skills installs targeted to
+the agents a project actually uses and adds a product-launch video skill.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Product-launch-video skill + consolidate motion knowledge into hyperframes-animation (<a href="https://github.com/heygen-com/hyperframes/commit/05af482f22a3df534c38056f7d7894b9e469d655">05af482f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1745">#1745</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> Allow producer-resolved google fonts (<a href="https://github.com/heygen-com/hyperframes/commit/aacce27a33140857a3ee2d6384cb9c5d44a556fe">aacce27a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1750">#1750</a>)</li>
+<li><strong>CLI:</strong> Scope skill installs to relevant agents, not all ~70 via --all (<a href="https://github.com/heygen-com/hyperframes/commit/70a03f788bac97a04342a4db2310204766a0eacd">70a03f78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1748">#1748</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.11...v0.7.12">https://github.com/heygen-com/hyperframes/compare/v0.7.11...v0.7.12</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.12</h1>
+<p>Released on 2026-06-26.</p>
+<p>This release unblocks Zephyr and other producer-backed generation flows that use
+Google Fonts: those imports now warn instead of hard-failing lint when the
+producer can resolve them. It also keeps HyperFrames skills installs targeted to
+the agents a project actually uses and adds a product-launch video skill.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Product-launch-video skill + consolidate motion knowledge into hyperframes-animation (<a href="https://github.com/heygen-com/hyperframes/commit/05af482f22a3df534c38056f7d7894b9e469d655">05af482f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1745">#1745</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> Allow producer-resolved google fonts (<a href="https://github.com/heygen-com/hyperframes/commit/aacce27a33140857a3ee2d6384cb9c5d44a556fe">aacce27a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1750">#1750</a>)</li>
+<li><strong>CLI:</strong> Scope skill installs to relevant agents, not all ~70 via --all (<a href="https://github.com/heygen-com/hyperframes/commit/70a03f788bac97a04342a4db2310204766a0eacd">70a03f78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1748">#1748</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.11...v0.7.12">https://github.com/heygen-com/hyperframes/compare/v0.7.11...v0.7.12</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.11]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.11</link>
@@ -2133,32 +2175,6 @@ in source.</p>
 <p>Studio keyframe system, render queue improvements, and GSAP parser arc path mutations. Feature-gated behind <code>VITE_STUDIO_ENABLE_KEYFRAMES</code>.</p>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.87">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.87</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.86]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.86</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.86</guid>
-            <pubDate>Tue, 09 Jun 2026 19:53:11 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.86</h1>
-<p>Released on 2026-06-09.</p>
-<p>Fixes a race condition where <code>audio-locked</code> (and other bridge controls) were silently dropped on warm-cache reloads of claude.ai and inside the Claude desktop Electron client. The runtime now emits a <code>ready</code> handshake once its message listener is installed; the player replays current bridge state on receipt.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Runtime,player:</strong> Replay bridge state on iframe ready to repair race (<a href="https://github.com/heygen-com/hyperframes/commit/5a0966dfeb5c43f7551c8d8d20eb5c939c6655be">5a0966df</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.86">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.86</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.86</h1>
-<p>Released on 2026-06-09.</p>
-<p>Fixes a race condition where <code>audio-locked</code> (and other bridge controls) were silently dropped on warm-cache reloads of claude.ai and inside the Claude desktop Electron client. The runtime now emits a <code>ready</code> handshake once its message listener is installed; the player replays current bridge state on receipt.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Runtime,player:</strong> Replay bridge state on iframe ready to repair race (<a href="https://github.com/heygen-com/hyperframes/commit/5a0966dfeb5c43f7551c8d8d20eb5c939c6655be">5a0966df</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.86">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.86</a></p>
 ]]></content:encoded>
         </item>
     </channel>
