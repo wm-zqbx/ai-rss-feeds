@@ -4,11 +4,75 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 25 Jun 2026 23:02:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jun 2026 04:54:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.10]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.10</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.10</guid>
+            <pubDate>Fri, 26 Jun 2026 04:54:23 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.10</h1>
+<p>Released on 2026-06-26.</p>
+<p>This producer reliability release blocks impossible distributed plans before they
+fan out to chunk workers, preventing unbounded runtime timelines from turning
+into runaway render work. It also fixes distributed frame-path indexing so
+reconstructed extracted-frame assets resolve from the correct zero-based keys.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Reject impossible distributed durations (<a href="https://github.com/heygen-com/hyperframes/commit/dca5fa90cb230adddbb2c9a02da80fa6a209c88b">dca5fa90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1732">#1732</a>)</li>
+<li><strong>Producer:</strong> RebuildExtractedFramesFromPlanDir off-by-one in framePaths key indexing (<a href="https://github.com/heygen-com/hyperframes/commit/7db84fc0ad9e642c4890dd0d99e32b1126c065d8">7db84fc0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1730">#1730</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.9...v0.7.10">https://github.com/heygen-com/hyperframes/compare/v0.7.9...v0.7.10</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.10</h1>
+<p>Released on 2026-06-26.</p>
+<p>This producer reliability release blocks impossible distributed plans before they
+fan out to chunk workers, preventing unbounded runtime timelines from turning
+into runaway render work. It also fixes distributed frame-path indexing so
+reconstructed extracted-frame assets resolve from the correct zero-based keys.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Reject impossible distributed durations (<a href="https://github.com/heygen-com/hyperframes/commit/dca5fa90cb230adddbb2c9a02da80fa6a209c88b">dca5fa90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1732">#1732</a>)</li>
+<li><strong>Producer:</strong> RebuildExtractedFramesFromPlanDir off-by-one in framePaths key indexing (<a href="https://github.com/heygen-com/hyperframes/commit/7db84fc0ad9e642c4890dd0d99e32b1126c065d8">7db84fc0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1730">#1730</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.9...v0.7.10">https://github.com/heygen-com/hyperframes/compare/v0.7.9...v0.7.10</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.9]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.9</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.9</guid>
+            <pubDate>Fri, 26 Jun 2026 01:35:43 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.9</h1>
+<p>Released on 2026-06-26.</p>
+<p>A reliability release for Studio authoring: Enable-keyframes now works (and auto-tracks endpoints) on statically-positioned elements backed by a global <code>gsap.set</code>, and manually dragging such elements no longer flings them off-canvas — the position is migrated cleanly onto GSAP. Rounded out with composition-lint and clip hold-frame fixes.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Enable keyframes works (and auto-tracks) on elements with a global gsap.set (<a href="https://github.com/heygen-com/hyperframes/commit/226a741c9dd282a4a4aa88d173bc0a5cfd0f8ea9">226a741c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1728">#1728</a>)</li>
+<li><strong>Core:</strong> Lint leaked head text in compositions (<a href="https://github.com/heygen-com/hyperframes/commit/bafed1fc9a913f5f9b58bb6f48b354859e810d8b">bafed1fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1727">#1727</a>)</li>
+<li><strong>Engine:</strong> Hold last frame when a clip&#39;s media is shorter than its slot (<a href="https://github.com/heygen-com/hyperframes/commit/92385711dccbe89a6673357a6f39da7379d68528">92385711</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1726">#1726</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.8...v0.7.9">https://github.com/heygen-com/hyperframes/compare/v0.7.8...v0.7.9</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.9</h1>
+<p>Released on 2026-06-26.</p>
+<p>A reliability release for Studio authoring: Enable-keyframes now works (and auto-tracks endpoints) on statically-positioned elements backed by a global <code>gsap.set</code>, and manually dragging such elements no longer flings them off-canvas — the position is migrated cleanly onto GSAP. Rounded out with composition-lint and clip hold-frame fixes.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Enable keyframes works (and auto-tracks) on elements with a global gsap.set (<a href="https://github.com/heygen-com/hyperframes/commit/226a741c9dd282a4a4aa88d173bc0a5cfd0f8ea9">226a741c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1728">#1728</a>)</li>
+<li><strong>Core:</strong> Lint leaked head text in compositions (<a href="https://github.com/heygen-com/hyperframes/commit/bafed1fc9a913f5f9b58bb6f48b354859e810d8b">bafed1fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1727">#1727</a>)</li>
+<li><strong>Engine:</strong> Hold last frame when a clip&#39;s media is shorter than its slot (<a href="https://github.com/heygen-com/hyperframes/commit/92385711dccbe89a6673357a6f39da7379d68528">92385711</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1726">#1726</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.8...v0.7.9">https://github.com/heygen-com/hyperframes/compare/v0.7.8...v0.7.9</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.8]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.8</link>
@@ -2183,106 +2247,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.83...v0.6.84">https://github.com/heygen-com/hyperframes/compare/v0.6.83...v0.6.84</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.83]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.83</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.83</guid>
-            <pubDate>Tue, 09 Jun 2026 01:20:46 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.83</h1>
-<p>Released on 2026-06-09.</p>
-<p>Fixes media elements with custom playback rates being clipped to the raw source duration instead of the rate-adjusted timeline duration. Also adds a release tag monotonicity guard.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Account for playbackRate in media duration resolution (<a href="https://github.com/heygen-com/hyperframes/commit/7b6c87fa88d8faac2cf37a36cd35e617c88b549d">7b6c87fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1287">#1287</a>)</li>
-<li><strong>Producer:</strong> Revert Proxy-based wrapTimeline to plain-object approach (<a href="https://github.com/heygen-com/hyperframes/commit/c12987e30145205e505b90679321dc2cbcff10a5">c12987e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1284">#1284</a>)</li>
-<li><strong>Release:</strong> Guard against non-monotonic tags (<a href="https://github.com/heygen-com/hyperframes/commit/24279c8c76e6f052dc9d688b4f52ecb28de19f6d">24279c8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1283">#1283</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.82...v0.6.83">https://github.com/heygen-com/hyperframes/compare/v0.6.82...v0.6.83</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.83</h1>
-<p>Released on 2026-06-09.</p>
-<p>Fixes media elements with custom playback rates being clipped to the raw source duration instead of the rate-adjusted timeline duration. Also adds a release tag monotonicity guard.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Account for playbackRate in media duration resolution (<a href="https://github.com/heygen-com/hyperframes/commit/7b6c87fa88d8faac2cf37a36cd35e617c88b549d">7b6c87fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1287">#1287</a>)</li>
-<li><strong>Producer:</strong> Revert Proxy-based wrapTimeline to plain-object approach (<a href="https://github.com/heygen-com/hyperframes/commit/c12987e30145205e505b90679321dc2cbcff10a5">c12987e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1284">#1284</a>)</li>
-<li><strong>Release:</strong> Guard against non-monotonic tags (<a href="https://github.com/heygen-com/hyperframes/commit/24279c8c76e6f052dc9d688b4f52ecb28de19f6d">24279c8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1283">#1283</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.82...v0.6.83">https://github.com/heygen-com/hyperframes/compare/v0.6.82...v0.6.83</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.82]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.82</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.82</guid>
-            <pubDate>Mon, 08 Jun 2026 20:49:58 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.82</h1>
-<p>Released on 2026-06-08.</p>
-<p>Fixes a render-ready listener race and adds Grok MCP support, a motion-blur catalog component, and improved CI reliability.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Re-register hf-timelines-built listener in maybePublishRenderReady (<a href="https://github.com/heygen-com/hyperframes/commit/1bcd6ec3b3544f1e6c114f7c65b408bbba581db5">1bcd6ec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1279">#1279</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Mcp:</strong> Add Grok as a supported host (<a href="https://github.com/heygen-com/hyperframes/commit/b4210f6567bd1c5b42aada9bd6f1fea104a52af4">b4210f65</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1280">#1280</a>)</li>
-<li><strong>Mcp:</strong> Remove voiceover/TTS references and surface MCP guide in sidebar (<a href="https://github.com/heygen-com/hyperframes/commit/b2be289d9049237f67b65034a1790c318d59ee28">b2be289d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1278">#1278</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Add motion-blur component (<a href="https://github.com/heygen-com/hyperframes/commit/1fd1b3164a87221fbb5c9e01557125d13e829554">1fd1b316</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1274">#1274</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Skip ffmpeg-static CDN download on ubuntu; retry Windows FFmpeg install (<a href="https://github.com/heygen-com/hyperframes/commit/25420bf4cfc37b179b4efeace9db25a7178b61bf">25420bf4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1275">#1275</a>)</li>
-<li><strong>Core:</strong> Address review feedback on T6a / T10 / T7 stubs (<a href="https://github.com/heygen-com/hyperframes/commit/63fd322df13538ac09d70f95cdee6585048ad711">63fd322d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1268">#1268</a>)</li>
-<li><strong>Core,studio:</strong> Add T3+T7 hfId targeting stubs (spec for R1) (<a href="https://github.com/heygen-com/hyperframes/commit/1e705b1107408d75d8e83dddd6c8fd5e8aec58fb">1e705b11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1267">#1267</a>)</li>
-<li><strong>Core:</strong> Add T6a GSAP parser golden baselines (Recast/Babel snapshot) (<a href="https://github.com/heygen-com/hyperframes/commit/184ef03317b91d8c9eb69401f0c7a769662d9357">184ef033</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1263">#1263</a>)</li>
-<li><strong>Core:</strong> Add T10 PreviewAdapter contract stubs (spec for R7) (<a href="https://github.com/heygen-com/hyperframes/commit/1fdce71c8b174ced98d0010bb79f31bcc6cf34b7">1fdce71c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1262">#1262</a>)</li>
-<li><strong>Core:</strong> Extract maxEndTime+serialize to parsers/test-utils.ts (TU) (<a href="https://github.com/heygen-com/hyperframes/commit/ffc54c7867b7963e8138cdc24d8b81a323c56c1a">ffc54c78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1261">#1261</a>)</li>
-<li><strong>Studio:</strong> Add T5c review-fix gaps in manualEditsDomPatches characterization (<a href="https://github.com/heygen-com/hyperframes/commit/5b29bea0b12537434728b20eb6556b3f512d881a">5b29bea0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1259">#1259</a>)</li>
-<li><strong>Studio:</strong> Add T5b rotation+motion build-patches characterization (<a href="https://github.com/heygen-com/hyperframes/commit/63ff0c16c3e1f49878576e9d3fd49a6be6f1f07b">63ff0c16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1258">#1258</a>)</li>
-<li><strong>Studio:</strong> Add T5a pathOffset+boxSize build-patches characterization (<a href="https://github.com/heygen-com/hyperframes/commit/19f46cd19a6bdc26de4a6d0f000e7f58f0bfa9e9">19f46cd1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1257">#1257</a>)</li>
-<li>Remove plan docs and gitignore docs/plans/ (<a href="https://github.com/heygen-com/hyperframes/commit/fc01717c8219fd766e2b3fd8b6ea550457f03095">fc01717c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1265">#1265</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.81...v0.6.82">https://github.com/heygen-com/hyperframes/compare/v0.6.81...v0.6.82</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.82</h1>
-<p>Released on 2026-06-08.</p>
-<p>Fixes a render-ready listener race and adds Grok MCP support, a motion-blur catalog component, and improved CI reliability.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Re-register hf-timelines-built listener in maybePublishRenderReady (<a href="https://github.com/heygen-com/hyperframes/commit/1bcd6ec3b3544f1e6c114f7c65b408bbba581db5">1bcd6ec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1279">#1279</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Mcp:</strong> Add Grok as a supported host (<a href="https://github.com/heygen-com/hyperframes/commit/b4210f6567bd1c5b42aada9bd6f1fea104a52af4">b4210f65</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1280">#1280</a>)</li>
-<li><strong>Mcp:</strong> Remove voiceover/TTS references and surface MCP guide in sidebar (<a href="https://github.com/heygen-com/hyperframes/commit/b2be289d9049237f67b65034a1790c318d59ee28">b2be289d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1278">#1278</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Add motion-blur component (<a href="https://github.com/heygen-com/hyperframes/commit/1fd1b3164a87221fbb5c9e01557125d13e829554">1fd1b316</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1274">#1274</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Skip ffmpeg-static CDN download on ubuntu; retry Windows FFmpeg install (<a href="https://github.com/heygen-com/hyperframes/commit/25420bf4cfc37b179b4efeace9db25a7178b61bf">25420bf4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1275">#1275</a>)</li>
-<li><strong>Core:</strong> Address review feedback on T6a / T10 / T7 stubs (<a href="https://github.com/heygen-com/hyperframes/commit/63fd322df13538ac09d70f95cdee6585048ad711">63fd322d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1268">#1268</a>)</li>
-<li><strong>Core,studio:</strong> Add T3+T7 hfId targeting stubs (spec for R1) (<a href="https://github.com/heygen-com/hyperframes/commit/1e705b1107408d75d8e83dddd6c8fd5e8aec58fb">1e705b11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1267">#1267</a>)</li>
-<li><strong>Core:</strong> Add T6a GSAP parser golden baselines (Recast/Babel snapshot) (<a href="https://github.com/heygen-com/hyperframes/commit/184ef03317b91d8c9eb69401f0c7a769662d9357">184ef033</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1263">#1263</a>)</li>
-<li><strong>Core:</strong> Add T10 PreviewAdapter contract stubs (spec for R7) (<a href="https://github.com/heygen-com/hyperframes/commit/1fdce71c8b174ced98d0010bb79f31bcc6cf34b7">1fdce71c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1262">#1262</a>)</li>
-<li><strong>Core:</strong> Extract maxEndTime+serialize to parsers/test-utils.ts (TU) (<a href="https://github.com/heygen-com/hyperframes/commit/ffc54c7867b7963e8138cdc24d8b81a323c56c1a">ffc54c78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1261">#1261</a>)</li>
-<li><strong>Studio:</strong> Add T5c review-fix gaps in manualEditsDomPatches characterization (<a href="https://github.com/heygen-com/hyperframes/commit/5b29bea0b12537434728b20eb6556b3f512d881a">5b29bea0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1259">#1259</a>)</li>
-<li><strong>Studio:</strong> Add T5b rotation+motion build-patches characterization (<a href="https://github.com/heygen-com/hyperframes/commit/63ff0c16c3e1f49878576e9d3fd49a6be6f1f07b">63ff0c16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1258">#1258</a>)</li>
-<li><strong>Studio:</strong> Add T5a pathOffset+boxSize build-patches characterization (<a href="https://github.com/heygen-com/hyperframes/commit/19f46cd19a6bdc26de4a6d0f000e7f58f0bfa9e9">19f46cd1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1257">#1257</a>)</li>
-<li>Remove plan docs and gitignore docs/plans/ (<a href="https://github.com/heygen-com/hyperframes/commit/fc01717c8219fd766e2b3fd8b6ea550457f03095">fc01717c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1265">#1265</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.81...v0.6.82">https://github.com/heygen-com/hyperframes/compare/v0.6.81...v0.6.82</a></p>
 ]]></content:encoded>
         </item>
     </channel>
