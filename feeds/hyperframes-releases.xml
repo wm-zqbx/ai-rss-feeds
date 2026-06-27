@@ -4,11 +4,65 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 27 Jun 2026 15:09:15 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jun 2026 16:19:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.16]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.16</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.16</guid>
+            <pubDate>Sat, 27 Jun 2026 16:19:56 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.16</h1>
+<p>Released on 2026-06-27.</p>
+<p>Studio gains <strong>element groups</strong>: select multiple elements and group them into a single editable unit — on the canvas and in the timeline — then ungroup back to their original positions. This release also reads inline-authored GSAP timelines and fixes keyframe commit routing, 3D-transform edits, and ungroup positioning.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Expand sub-composition groups + children in the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/6a729b7e035e79ef08d41ec55e5df5623c98cbfa">6a729b7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1761">#1761</a>)</li>
+<li><strong>Gsap:</strong> Read timelines authored inline (acorn read path) (<a href="https://github.com/heygen-com/hyperframes/commit/2e02bcf77af55db4b60e4504bcd2dd0033dc337a">2e02bcf7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1760">#1760</a>)</li>
+<li><strong>Studio:</strong> Element groups — studio UI (<a href="https://github.com/heygen-com/hyperframes/commit/1eed7a9b1f8bf7b93ad8cc22bcc7125c644c43d9">1eed7a9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1759">#1759</a>)</li>
+<li><strong>Studio:</strong> Element groups — source mutations (<a href="https://github.com/heygen-com/hyperframes/commit/4c461b4a55dbd3a200386f3efa724cf251cf6f37">4c461b4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1758">#1758</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep useGsapTweenCache under the size cap + correct non-sticky drill test (<a href="https://github.com/heygen-com/hyperframes/commit/a44ef47e1aabea7369ad98ea95ec7358111f7028">a44ef47e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1770">#1770</a>)</li>
+<li><strong>Studio:</strong> Bake the group transform into members on ungroup (<a href="https://github.com/heygen-com/hyperframes/commit/bc5a51a6ee3277ad1f86bc542388a87b0252348a">bc5a51a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1764">#1764</a>)</li>
+<li><strong>Studio:</strong> Remove keyframe dragging from the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/cf8f8aa568e751ccb18d5929bc2a9568724715a3">cf8f8aa5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1763">#1763</a>)</li>
+<li><strong>Studio:</strong> Keyframe commit routing for 3D and cross-group edits (<a href="https://github.com/heygen-com/hyperframes/commit/2d3b19d2559d93ef5623bbd155573d10f695de05">2d3b19d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1762">#1762</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Remove debug logging (<a href="https://github.com/heygen-com/hyperframes/commit/de42af438aab6b145dfe2727d1611df567cc8bf7">de42af43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1765">#1765</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16">https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.16</h1>
+<p>Released on 2026-06-27.</p>
+<p>Studio gains <strong>element groups</strong>: select multiple elements and group them into a single editable unit — on the canvas and in the timeline — then ungroup back to their original positions. This release also reads inline-authored GSAP timelines and fixes keyframe commit routing, 3D-transform edits, and ungroup positioning.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Expand sub-composition groups + children in the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/6a729b7e035e79ef08d41ec55e5df5623c98cbfa">6a729b7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1761">#1761</a>)</li>
+<li><strong>Gsap:</strong> Read timelines authored inline (acorn read path) (<a href="https://github.com/heygen-com/hyperframes/commit/2e02bcf77af55db4b60e4504bcd2dd0033dc337a">2e02bcf7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1760">#1760</a>)</li>
+<li><strong>Studio:</strong> Element groups — studio UI (<a href="https://github.com/heygen-com/hyperframes/commit/1eed7a9b1f8bf7b93ad8cc22bcc7125c644c43d9">1eed7a9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1759">#1759</a>)</li>
+<li><strong>Studio:</strong> Element groups — source mutations (<a href="https://github.com/heygen-com/hyperframes/commit/4c461b4a55dbd3a200386f3efa724cf251cf6f37">4c461b4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1758">#1758</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep useGsapTweenCache under the size cap + correct non-sticky drill test (<a href="https://github.com/heygen-com/hyperframes/commit/a44ef47e1aabea7369ad98ea95ec7358111f7028">a44ef47e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1770">#1770</a>)</li>
+<li><strong>Studio:</strong> Bake the group transform into members on ungroup (<a href="https://github.com/heygen-com/hyperframes/commit/bc5a51a6ee3277ad1f86bc542388a87b0252348a">bc5a51a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1764">#1764</a>)</li>
+<li><strong>Studio:</strong> Remove keyframe dragging from the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/cf8f8aa568e751ccb18d5929bc2a9568724715a3">cf8f8aa5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1763">#1763</a>)</li>
+<li><strong>Studio:</strong> Keyframe commit routing for 3D and cross-group edits (<a href="https://github.com/heygen-com/hyperframes/commit/2d3b19d2559d93ef5623bbd155573d10f695de05">2d3b19d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1762">#1762</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Remove debug logging (<a href="https://github.com/heygen-com/hyperframes/commit/de42af438aab6b145dfe2727d1611df567cc8bf7">de42af43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1765">#1765</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16">https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.15]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.15</link>
@@ -2059,46 +2113,6 @@ in source.</p>
 <li>feat(studio): off-screen element indicators + unclipped overlay by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1360">https://github.com/heygen-com/hyperframes/pull/1360</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.92">https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.92</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Model assets (PP-MattingV2)]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/model-assets-v1</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/model-assets-v1</guid>
-            <pubDate>Thu, 11 Jun 2026 17:25:25 GMT</pubDate>
-            <description><![CDATA[<p>Asset bucket for on-demand model downloads — not a software release.</p>
-<table>
-<thead>
-<tr>
-<th>asset</th>
-<th>sha256</th>
-<th>license</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ppmattingv2_stdc1_human_544x960.onnx</td>
-<td>75df19af62aaf0453e24444e7ee3cdf8d8de0f628aa9f59c30248cf6220ee9f6</td>
-<td>Apache-2.0 (PaddleSeg PP-MattingV2 export)</td>
-</tr>
-</tbody></table>
-<p>Consumed by <code>skills/embedded-captions/scripts/matte.cjs</code> (sha256-pinned, cached in ~/.cache/hyperframes/matting/). Same pattern as the CLI&#39;s background-removal manager pulling u2net from rembg&#39;s release bucket. Do not delete: existing installs download from this URL.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>Asset bucket for on-demand model downloads — not a software release.</p>
-<table>
-<thead>
-<tr>
-<th>asset</th>
-<th>sha256</th>
-<th>license</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>ppmattingv2_stdc1_human_544x960.onnx</td>
-<td>75df19af62aaf0453e24444e7ee3cdf8d8de0f628aa9f59c30248cf6220ee9f6</td>
-<td>Apache-2.0 (PaddleSeg PP-MattingV2 export)</td>
-</tr>
-</tbody></table>
-<p>Consumed by <code>skills/embedded-captions/scripts/matte.cjs</code> (sha256-pinned, cached in ~/.cache/hyperframes/matting/). Same pattern as the CLI&#39;s background-removal manager pulling u2net from rembg&#39;s release bucket. Do not delete: existing installs download from this URL.</p>
 ]]></content:encoded>
         </item>
         <item>
