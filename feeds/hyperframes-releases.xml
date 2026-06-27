@@ -4,11 +4,41 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 26 Jun 2026 22:46:08 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Jun 2026 00:42:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.14]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.14</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.14</guid>
+            <pubDate>Sat, 27 Jun 2026 00:42:13 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.14</h1>
+<p>Released on 2026-06-27.</p>
+<p>This CLI release makes HyperFrames skills self-healing: installs now keep a
+freshness manifest, install once globally, and mirror only HyperFrames-owned
+skills into detected agent stores.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Skills freshness — version check, manifest, global install + multi-agent mirror (<a href="https://github.com/heygen-com/hyperframes/commit/bf961d1268427997a9e0a909d13198f50d1ab8c5">bf961d12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1753">#1753</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14">https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.14</h1>
+<p>Released on 2026-06-27.</p>
+<p>This CLI release makes HyperFrames skills self-healing: installs now keep a
+freshness manifest, install once globally, and mirror only HyperFrames-owned
+skills into detected agent stores.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Skills freshness — version check, manifest, global install + multi-agent mirror (<a href="https://github.com/heygen-com/hyperframes/commit/bf961d1268427997a9e0a909d13198f50d1ab8c5">bf961d12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1753">#1753</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14">https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.13]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.13</link>
@@ -2161,32 +2191,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.88...v0.6.89">https://github.com/heygen-com/hyperframes/compare/v0.6.88...v0.6.89</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.88]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.88</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.88</guid>
-            <pubDate>Tue, 09 Jun 2026 23:36:51 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.88</h1>
-<p>Released on 2026-06-09.</p>
-<p>Fixes a regression where Studio&#39;s element stamping code ran during production renders, causing sub-composition elements to become incorrectly visible.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Guard element stamping to iframe-only (Studio preview) (<a href="https://github.com/heygen-com/hyperframes/commit/192417b7cd7384c2001b2be926246260bd728367">192417b7</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.88">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.88</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.88</h1>
-<p>Released on 2026-06-09.</p>
-<p>Fixes a regression where Studio&#39;s element stamping code ran during production renders, causing sub-composition elements to become incorrectly visible.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Guard element stamping to iframe-only (Studio preview) (<a href="https://github.com/heygen-com/hyperframes/commit/192417b7cd7384c2001b2be926246260bd728367">192417b7</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.88">https://github.com/heygen-com/hyperframes/compare/v0.6.85...v0.6.88</a></p>
 ]]></content:encoded>
         </item>
     </channel>
