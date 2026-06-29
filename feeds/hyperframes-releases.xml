@@ -4,11 +4,61 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 27 Jun 2026 17:59:01 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jun 2026 22:58:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.18]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.18</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.18</guid>
+            <pubDate>Sun, 28 Jun 2026 22:58:42 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.18</h1>
+<p>Released on 2026-06-28.</p>
+<p>This release targets the reported render regression by removing per-frame empty
+animation scans, fixing software WebGL auto-detection on CPU render hosts, and
+reducing headless capture setup overhead. It also exposes Studio selection state
+through <code>hyperframes preview</code> so coding agents can inspect and edit the active
+composition more directly.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Expose Studio selection through preview (<a href="https://github.com/heygen-com/hyperframes/commit/9983f37c13dc7d8fbd35da21e88229e3500cee9a">9983f37c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1777">#1777</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Render:</strong> Avoid empty WAAPI scans and llvmpipe auto GPU (<a href="https://github.com/heygen-com/hyperframes/commit/fc0f8c315102812a9629bcdeec09f75e26027da2">fc0f8c31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1775">#1775</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Engine:</strong> Reduce init overhead in headless capture sessions (<a href="https://github.com/heygen-com/hyperframes/commit/35a01d9058fca2c4f5e9a4aa13a86d2eafc77c68">35a01d90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1718">#1718</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18">https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.18</h1>
+<p>Released on 2026-06-28.</p>
+<p>This release targets the reported render regression by removing per-frame empty
+animation scans, fixing software WebGL auto-detection on CPU render hosts, and
+reducing headless capture setup overhead. It also exposes Studio selection state
+through <code>hyperframes preview</code> so coding agents can inspect and edit the active
+composition more directly.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Expose Studio selection through preview (<a href="https://github.com/heygen-com/hyperframes/commit/9983f37c13dc7d8fbd35da21e88229e3500cee9a">9983f37c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1777">#1777</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Render:</strong> Avoid empty WAAPI scans and llvmpipe auto GPU (<a href="https://github.com/heygen-com/hyperframes/commit/fc0f8c315102812a9629bcdeec09f75e26027da2">fc0f8c31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1775">#1775</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Engine:</strong> Reduce init overhead in headless capture sessions (<a href="https://github.com/heygen-com/hyperframes/commit/35a01d9058fca2c4f5e9a4aa13a86d2eafc77c68">35a01d90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1718">#1718</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18">https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.17]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.17</link>
@@ -2155,50 +2205,6 @@ in source.</p>
 <li>feat(studio): off-screen element indicators + unclipped overlay by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1360">https://github.com/heygen-com/hyperframes/pull/1360</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.92">https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.92</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.91]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.91</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.91</guid>
-            <pubDate>Thu, 11 Jun 2026 06:16:58 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.91</h1>
-<p>Released on 2026-06-11.</p>
-<p>Razor/blade tool for splitting timeline clips with GSAP-aware keyframe preservation, plus GSAP drag intercept is now behind a feature flag (off by default) to fix buggy drag behavior on animated elements.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Razor/blade tool UI for timeline clip splitting (<a href="https://github.com/heygen-com/hyperframes/commit/ef186139758e237633af77bbf9956272b064a1a5">ef186139</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1331">#1331</a>)</li>
-<li><strong>Core:</strong> GSAP-aware split engine for timeline clip splitting (<a href="https://github.com/heygen-com/hyperframes/commit/45d4a71ed0761364fdb983b7a04d559e5f331327">45d4a71e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1330">#1330</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Add GSAP drag intercept feature flag, disabled by default (<a href="https://github.com/heygen-com/hyperframes/commit/a5bc52bad19158cedeed21fbb1f8ee465bd2f57d">a5bc52ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1341">#1341</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Extract shared timeline components and deduplicate code (<a href="https://github.com/heygen-com/hyperframes/commit/ab08260201620277eca8baafeae330ac24342acb">ab082602</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1329">#1329</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.90...v0.6.91">https://github.com/heygen-com/hyperframes/compare/v0.6.90...v0.6.91</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.91</h1>
-<p>Released on 2026-06-11.</p>
-<p>Razor/blade tool for splitting timeline clips with GSAP-aware keyframe preservation, plus GSAP drag intercept is now behind a feature flag (off by default) to fix buggy drag behavior on animated elements.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Razor/blade tool UI for timeline clip splitting (<a href="https://github.com/heygen-com/hyperframes/commit/ef186139758e237633af77bbf9956272b064a1a5">ef186139</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1331">#1331</a>)</li>
-<li><strong>Core:</strong> GSAP-aware split engine for timeline clip splitting (<a href="https://github.com/heygen-com/hyperframes/commit/45d4a71ed0761364fdb983b7a04d559e5f331327">45d4a71e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1330">#1330</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Add GSAP drag intercept feature flag, disabled by default (<a href="https://github.com/heygen-com/hyperframes/commit/a5bc52bad19158cedeed21fbb1f8ee465bd2f57d">a5bc52ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1341">#1341</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Extract shared timeline components and deduplicate code (<a href="https://github.com/heygen-com/hyperframes/commit/ab08260201620277eca8baafeae330ac24342acb">ab082602</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1329">#1329</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.90...v0.6.91">https://github.com/heygen-com/hyperframes/compare/v0.6.90...v0.6.91</a></p>
 ]]></content:encoded>
         </item>
     </channel>
