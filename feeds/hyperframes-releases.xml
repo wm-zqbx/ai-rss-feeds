@@ -4,11 +4,83 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 30 Jun 2026 04:17:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jun 2026 22:14:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.22]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.22</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.22</guid>
+            <pubDate>Tue, 30 Jun 2026 22:14:55 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.22</h1>
+<p>Released on 2026-06-30.</p>
+<p>This release makes <code>@hyperframes/sdk</code> a first-class editing engine: a new shared <code>resolveEditingAffordances</code> API (with a browser SDK adapter) tells custom editors what&#39;s editable on any element, backed by comprehensive SDK reference docs and guides. The storyboard view is now on by default, plus encode, lint, and CLI reliability fixes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Editing:</strong> Shared resolveEditingAffordances (core) + studio re-point + SDK adapter (<a href="https://github.com/heygen-com/hyperframes/commit/5915590b069a2e3144ae1e1bfb49478b72240894">5915590b0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1814">#1814</a>)</li>
+<li><strong>CLI:</strong> Add --public flag to publish (<a href="https://github.com/heygen-com/hyperframes/commit/856bb0980fc9f85244cd1d0c8233cb7390642b0b">856bb0980</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1815">#1815</a>)</li>
+<li><strong>CLI:</strong> File a GitHub issue with a published repro from feedback (<a href="https://github.com/heygen-com/hyperframes/commit/010df6a0a4edbf7179d634fb12805f47ef89ec6e">010df6a0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1816">#1816</a>)</li>
+<li><strong>Studio:</strong> Make storyboard view default available (remove FF) (<a href="https://github.com/heygen-com/hyperframes/commit/f24a1a9ce7250965df8e89ece4403d373c9d01e9">f24a1a9ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1794">#1794</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> Recognize Three.js loaded via ESM URL/path imports (<a href="https://github.com/heygen-com/hyperframes/commit/27a7f37494f9b3e315bb8b89196d71b6f541b31f">27a7f3749</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1805">#1805</a>)</li>
+<li><strong>Lint:</strong> Stop font_family_without_font_face flagging system-ui stacks and var() (<a href="https://github.com/heygen-com/hyperframes/commit/11432ea8ce82571c8473244f56edc06a8decf531">11432ea8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1796">#1796</a>)</li>
+<li><strong>Engine:</strong> Pad odd output dimensions up to even for H.264/H.265 encode (<a href="https://github.com/heygen-com/hyperframes/commit/3a2f0528890c0de4ac0bb31629323ed7f00133d9">3a2f05288</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1802">#1802</a>)</li>
+<li><strong>Examples:</strong> Host the kinetic-type A-roll so the video actually renders (<a href="https://github.com/heygen-com/hyperframes/commit/c01d1ae03d710022f7fbabd21991eba9faea1eb3">c01d1ae03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1799">#1799</a>)</li>
+<li><strong>Lint:</strong> Stop overlapping_gsap_tweens flagging distinct unresolved targets (<a href="https://github.com/heygen-com/hyperframes/commit/036e3660cd1bd15ded7300ef2623f26aa1179faa">036e3660c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1798">#1798</a>)</li>
+<li><strong>CLI:</strong> Never print &quot;[object Object]&quot; from validate/inspect errors (<a href="https://github.com/heygen-com/hyperframes/commit/a5c2636e8c35043e89d476300019e37dfe0cb24c">a5c2636e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1810">#1810</a>)</li>
+<li><strong>CLI:</strong> Skip AI skills install when git is unavailable (<a href="https://github.com/heygen-com/hyperframes/commit/23adfdc496f2187c8eb3632d0a69e053930680f5">23adfdc49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1803">#1803</a>)</li>
+<li><strong>CLI:</strong> Omit render duration when feedback command has none (<a href="https://github.com/heygen-com/hyperframes/commit/db61509ddcdc9897768a9d242855956d21d5dd5b">db61509dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1797">#1797</a>)</li>
+<li><strong>CLI:</strong> Show output video length in render summary, not render time (<a href="https://github.com/heygen-com/hyperframes/commit/e7939ccd5309f6c31045d4ebd11f1912e2bd969c">e7939ccd5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1812">#1812</a>)</li>
+<li><strong>CLI:</strong> Serve project media with HTTP Range so validate reads WAV duration (<a href="https://github.com/heygen-com/hyperframes/commit/466ee08ffa540755a430bd54f078a3764ca4b4ef">466ee08ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1811">#1811</a>)</li>
+<li>Storyboard-angle review follow-ups (M1 bg-on-clip, B3 slideshow, parser guard, CLI fixes) (<a href="https://github.com/heygen-com/hyperframes/commit/a4303137cbce5164f1663996b3c3b2f5921c5485">a4303137c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1791">#1791</a>)</li>
+<li><strong>Studio:</strong> Filter runtime-generated nodes from resolver-shadow telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/a4eacaec37e79d8b3fcdbe514b59bf1e4035f4f8">a4eacaec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1795">#1795</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Sdk:</strong> Comprehensive SDK reference + guides (<a href="https://github.com/heygen-com/hyperframes/commit/26e9283f6b7c660c0f76a3b82143a226cde70702">26e9283f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1817">#1817</a>)</li>
+<li>Root composition duration is compile-time, not script/--variables parameterizable (<a href="https://github.com/heygen-com/hyperframes/commit/bdd0084c2a778b541b89af09689fd7a997408cdc">bdd0084c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1818">#1818</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22">https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.22</h1>
+<p>Released on 2026-06-30.</p>
+<p>This release makes <code>@hyperframes/sdk</code> a first-class editing engine: a new shared <code>resolveEditingAffordances</code> API (with a browser SDK adapter) tells custom editors what&#39;s editable on any element, backed by comprehensive SDK reference docs and guides. The storyboard view is now on by default, plus encode, lint, and CLI reliability fixes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Editing:</strong> Shared resolveEditingAffordances (core) + studio re-point + SDK adapter (<a href="https://github.com/heygen-com/hyperframes/commit/5915590b069a2e3144ae1e1bfb49478b72240894">5915590b0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1814">#1814</a>)</li>
+<li><strong>CLI:</strong> Add --public flag to publish (<a href="https://github.com/heygen-com/hyperframes/commit/856bb0980fc9f85244cd1d0c8233cb7390642b0b">856bb0980</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1815">#1815</a>)</li>
+<li><strong>CLI:</strong> File a GitHub issue with a published repro from feedback (<a href="https://github.com/heygen-com/hyperframes/commit/010df6a0a4edbf7179d634fb12805f47ef89ec6e">010df6a0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1816">#1816</a>)</li>
+<li><strong>Studio:</strong> Make storyboard view default available (remove FF) (<a href="https://github.com/heygen-com/hyperframes/commit/f24a1a9ce7250965df8e89ece4403d373c9d01e9">f24a1a9ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1794">#1794</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> Recognize Three.js loaded via ESM URL/path imports (<a href="https://github.com/heygen-com/hyperframes/commit/27a7f37494f9b3e315bb8b89196d71b6f541b31f">27a7f3749</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1805">#1805</a>)</li>
+<li><strong>Lint:</strong> Stop font_family_without_font_face flagging system-ui stacks and var() (<a href="https://github.com/heygen-com/hyperframes/commit/11432ea8ce82571c8473244f56edc06a8decf531">11432ea8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1796">#1796</a>)</li>
+<li><strong>Engine:</strong> Pad odd output dimensions up to even for H.264/H.265 encode (<a href="https://github.com/heygen-com/hyperframes/commit/3a2f0528890c0de4ac0bb31629323ed7f00133d9">3a2f05288</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1802">#1802</a>)</li>
+<li><strong>Examples:</strong> Host the kinetic-type A-roll so the video actually renders (<a href="https://github.com/heygen-com/hyperframes/commit/c01d1ae03d710022f7fbabd21991eba9faea1eb3">c01d1ae03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1799">#1799</a>)</li>
+<li><strong>Lint:</strong> Stop overlapping_gsap_tweens flagging distinct unresolved targets (<a href="https://github.com/heygen-com/hyperframes/commit/036e3660cd1bd15ded7300ef2623f26aa1179faa">036e3660c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1798">#1798</a>)</li>
+<li><strong>CLI:</strong> Never print &quot;[object Object]&quot; from validate/inspect errors (<a href="https://github.com/heygen-com/hyperframes/commit/a5c2636e8c35043e89d476300019e37dfe0cb24c">a5c2636e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1810">#1810</a>)</li>
+<li><strong>CLI:</strong> Skip AI skills install when git is unavailable (<a href="https://github.com/heygen-com/hyperframes/commit/23adfdc496f2187c8eb3632d0a69e053930680f5">23adfdc49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1803">#1803</a>)</li>
+<li><strong>CLI:</strong> Omit render duration when feedback command has none (<a href="https://github.com/heygen-com/hyperframes/commit/db61509ddcdc9897768a9d242855956d21d5dd5b">db61509dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1797">#1797</a>)</li>
+<li><strong>CLI:</strong> Show output video length in render summary, not render time (<a href="https://github.com/heygen-com/hyperframes/commit/e7939ccd5309f6c31045d4ebd11f1912e2bd969c">e7939ccd5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1812">#1812</a>)</li>
+<li><strong>CLI:</strong> Serve project media with HTTP Range so validate reads WAV duration (<a href="https://github.com/heygen-com/hyperframes/commit/466ee08ffa540755a430bd54f078a3764ca4b4ef">466ee08ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1811">#1811</a>)</li>
+<li>Storyboard-angle review follow-ups (M1 bg-on-clip, B3 slideshow, parser guard, CLI fixes) (<a href="https://github.com/heygen-com/hyperframes/commit/a4303137cbce5164f1663996b3c3b2f5921c5485">a4303137c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1791">#1791</a>)</li>
+<li><strong>Studio:</strong> Filter runtime-generated nodes from resolver-shadow telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/a4eacaec37e79d8b3fcdbe514b59bf1e4035f4f8">a4eacaec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1795">#1795</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Sdk:</strong> Comprehensive SDK reference + guides (<a href="https://github.com/heygen-com/hyperframes/commit/26e9283f6b7c660c0f76a3b82143a226cde70702">26e9283f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1817">#1817</a>)</li>
+<li>Root composition duration is compile-time, not script/--variables parameterizable (<a href="https://github.com/heygen-com/hyperframes/commit/bdd0084c2a778b541b89af09689fd7a997408cdc">bdd0084c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1818">#1818</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22">https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.21]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.21</link>
@@ -2205,74 +2277,6 @@ in source.</p>
             <description><![CDATA[<p>Batch rendering, WebGL determinism, studio resilience, and security hardening.</p>
 ]]></description>
             <content:encoded><![CDATA[<p>Batch rendering, WebGL determinism, studio resilience, and security hardening.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.96]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.96</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.96</guid>
-            <pubDate>Sat, 13 Jun 2026 03:32:25 GMT</pubDate>
-            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.96 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>fix(core): honor root data-duration when GSAP timeline ends short by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1378">https://github.com/heygen-com/hyperframes/pull/1378</a></li>
-<li>fix(release): include sdk in fixed-version bump by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1363">https://github.com/heygen-com/hyperframes/pull/1363</a></li>
-<li>fix(studio): remove motion tab from right panel by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1391">https://github.com/heygen-com/hyperframes/pull/1391</a></li>
-<li>fix(studio): stabilize manual drag targets by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1393">https://github.com/heygen-com/hyperframes/pull/1393</a></li>
-<li>fix: address review feedback from #1333 and #1335 by @mvanhorn in <a href="https://github.com/heygen-com/hyperframes/pull/1343">https://github.com/heygen-com/hyperframes/pull/1343</a></li>
-<li>fix(cli): respect registry compatibility metadata by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1251">https://github.com/heygen-com/hyperframes/pull/1251</a></li>
-<li>fix(cli): resolve and install transitive registry dependencies by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1396">https://github.com/heygen-com/hyperframes/pull/1396</a></li>
-<li>fix(runtime): respect hidden ancestor clips in Studio preview (#1387) by @manupareekk in <a href="https://github.com/heygen-com/hyperframes/pull/1395">https://github.com/heygen-com/hyperframes/pull/1395</a></li>
-<li>fix(cli): validate project directory before starting preview by @manupareekk in <a href="https://github.com/heygen-com/hyperframes/pull/1394">https://github.com/heygen-com/hyperframes/pull/1394</a></li>
-<li>fix(studio): journal source writebacks by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1388">https://github.com/heygen-com/hyperframes/pull/1388</a></li>
-<li>fix(core): exclude dot-directories and node_modules from studio composition discovery and lint by @leorivastech in <a href="https://github.com/heygen-com/hyperframes/pull/1385">https://github.com/heygen-com/hyperframes/pull/1385</a></li>
-<li>fix(sdk): bridge preview selection into session state by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1362">https://github.com/heygen-com/hyperframes/pull/1362</a></li>
-<li>fix(studio): save retries, mutation queue circuit breaker, save_failure diagnostics by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1366">https://github.com/heygen-com/hyperframes/pull/1366</a></li>
-<li>test(core): fix contradictory composition-discovery file-tree test (#1385) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1399">https://github.com/heygen-com/hyperframes/pull/1399</a></li>
-<li>test(core): align file-tree test with backup-only hiding (#1366) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1400">https://github.com/heygen-com/hyperframes/pull/1400</a></li>
-<li>fix(studio): reject unsafe keyframe values by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1389">https://github.com/heygen-com/hyperframes/pull/1389</a></li>
-<li>fix(core): block symlink-based path escape in studio-api isSafePath by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1397">https://github.com/heygen-com/hyperframes/pull/1397</a></li>
-<li>fix(studio): surface gesture recording controls by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1390">https://github.com/heygen-com/hyperframes/pull/1390</a></li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li>@manupareekk made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1395">https://github.com/heygen-com/hyperframes/pull/1395</a></li>
-<li>@leorivastech made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1385">https://github.com/heygen-com/hyperframes/pull/1385</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96">https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96</a></p>
-]]></description>
-            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.96 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>fix(core): honor root data-duration when GSAP timeline ends short by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1378">https://github.com/heygen-com/hyperframes/pull/1378</a></li>
-<li>fix(release): include sdk in fixed-version bump by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1363">https://github.com/heygen-com/hyperframes/pull/1363</a></li>
-<li>fix(studio): remove motion tab from right panel by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1391">https://github.com/heygen-com/hyperframes/pull/1391</a></li>
-<li>fix(studio): stabilize manual drag targets by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1393">https://github.com/heygen-com/hyperframes/pull/1393</a></li>
-<li>fix: address review feedback from #1333 and #1335 by @mvanhorn in <a href="https://github.com/heygen-com/hyperframes/pull/1343">https://github.com/heygen-com/hyperframes/pull/1343</a></li>
-<li>fix(cli): respect registry compatibility metadata by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1251">https://github.com/heygen-com/hyperframes/pull/1251</a></li>
-<li>fix(cli): resolve and install transitive registry dependencies by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1396">https://github.com/heygen-com/hyperframes/pull/1396</a></li>
-<li>fix(runtime): respect hidden ancestor clips in Studio preview (#1387) by @manupareekk in <a href="https://github.com/heygen-com/hyperframes/pull/1395">https://github.com/heygen-com/hyperframes/pull/1395</a></li>
-<li>fix(cli): validate project directory before starting preview by @manupareekk in <a href="https://github.com/heygen-com/hyperframes/pull/1394">https://github.com/heygen-com/hyperframes/pull/1394</a></li>
-<li>fix(studio): journal source writebacks by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1388">https://github.com/heygen-com/hyperframes/pull/1388</a></li>
-<li>fix(core): exclude dot-directories and node_modules from studio composition discovery and lint by @leorivastech in <a href="https://github.com/heygen-com/hyperframes/pull/1385">https://github.com/heygen-com/hyperframes/pull/1385</a></li>
-<li>fix(sdk): bridge preview selection into session state by @kiyeonjeon21 in <a href="https://github.com/heygen-com/hyperframes/pull/1362">https://github.com/heygen-com/hyperframes/pull/1362</a></li>
-<li>fix(studio): save retries, mutation queue circuit breaker, save_failure diagnostics by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1366">https://github.com/heygen-com/hyperframes/pull/1366</a></li>
-<li>test(core): fix contradictory composition-discovery file-tree test (#1385) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1399">https://github.com/heygen-com/hyperframes/pull/1399</a></li>
-<li>test(core): align file-tree test with backup-only hiding (#1366) by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1400">https://github.com/heygen-com/hyperframes/pull/1400</a></li>
-<li>fix(studio): reject unsafe keyframe values by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1389">https://github.com/heygen-com/hyperframes/pull/1389</a></li>
-<li>fix(core): block symlink-based path escape in studio-api isSafePath by @jrusso1020 in <a href="https://github.com/heygen-com/hyperframes/pull/1397">https://github.com/heygen-com/hyperframes/pull/1397</a></li>
-<li>fix(studio): surface gesture recording controls by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1390">https://github.com/heygen-com/hyperframes/pull/1390</a></li>
-</ul>
-<h2>New Contributors</h2>
-<ul>
-<li>@manupareekk made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1395">https://github.com/heygen-com/hyperframes/pull/1395</a></li>
-<li>@leorivastech made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1385">https://github.com/heygen-com/hyperframes/pull/1385</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96">https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96</a></p>
 ]]></content:encoded>
         </item>
     </channel>
