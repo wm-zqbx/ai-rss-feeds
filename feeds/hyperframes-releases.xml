@@ -4,11 +4,121 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 29 Jun 2026 21:49:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jun 2026 04:17:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.21]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.21</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.21</guid>
+            <pubDate>Tue, 30 Jun 2026 04:17:13 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.21</h1>
+<p>Released on 2026-06-30.</p>
+<p>Adds a lint rule that errors on <code>crossorigin</code> on media (it renders fine but shows blank in preview) and fixes the root cause of id-less media rendering as a blank wash in the timing compiler.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Lint:</strong> Error on crossorigin on media (breaks preview) (<a href="https://github.com/heygen-com/hyperframes/commit/1faeba4aa5e309c1ea688e37e833ffaba60429eb">1faeba4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1793">#1793</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Root-cause id-less media wash in timingCompiler getAttr, drop the band-aid (<a href="https://github.com/heygen-com/hyperframes/commit/0dfedd111c49948c531f2e2b0b290e50024176e7">0dfedd11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1792">#1792</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Instruct agents to run <code>hyperframes feedback</code> after render (<a href="https://github.com/heygen-com/hyperframes/commit/04700ea9c51d6b29f8512e2ae4c2655054acf20b">04700ea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1785">#1785</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.20...v0.7.21">https://github.com/heygen-com/hyperframes/compare/v0.7.20...v0.7.21</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.21</h1>
+<p>Released on 2026-06-30.</p>
+<p>Adds a lint rule that errors on <code>crossorigin</code> on media (it renders fine but shows blank in preview) and fixes the root cause of id-less media rendering as a blank wash in the timing compiler.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Lint:</strong> Error on crossorigin on media (breaks preview) (<a href="https://github.com/heygen-com/hyperframes/commit/1faeba4aa5e309c1ea688e37e833ffaba60429eb">1faeba4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1793">#1793</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Root-cause id-less media wash in timingCompiler getAttr, drop the band-aid (<a href="https://github.com/heygen-com/hyperframes/commit/0dfedd111c49948c531f2e2b0b290e50024176e7">0dfedd11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1792">#1792</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Instruct agents to run <code>hyperframes feedback</code> after render (<a href="https://github.com/heygen-com/hyperframes/commit/04700ea9c51d6b29f8512e2ae4c2655054acf20b">04700ea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1785">#1785</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.20...v0.7.21">https://github.com/heygen-com/hyperframes/compare/v0.7.20...v0.7.21</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.20]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.20</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.20</guid>
+            <pubDate>Tue, 30 Jun 2026 01:37:59 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.20</h1>
+<p>Released on 2026-06-30.</p>
+<p>This release fixes a render-correctness bug where a video or audio element identified only by a <code>data-hf-id</code> (no real <code>id</code>) rendered as a blank white wash with dropped audio. It also restores Studio keyframe retiming (drag-to-retime and Move to Playhead) and ships capture and runtime reliability improvements.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Restore keyframe retiming — drag-to-retime + Move to Playhead (closes #1782) (<a href="https://github.com/heygen-com/hyperframes/commit/b403c54ae7b8d3f58808600f7cc69a004fbd93f5">b403c54a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1784">#1784</a>)</li>
+<li><strong>CLI:</strong> Expose Studio selection through preview (<a href="https://github.com/heygen-com/hyperframes/commit/9983f37c13dc7d8fbd35da21e88229e3500cee9a">9983f37c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1777">#1777</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer,lint:</strong> Id-less media renders blank wash instead of footage (<a href="https://github.com/heygen-com/hyperframes/commit/74f9c31b3fdeacf3a5700b17cbe718d7b00e54d2">74f9c31b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1790">#1790</a>)</li>
+<li><strong>Producer:</strong> Keep video captures viewport-bound on software (<a href="https://github.com/heygen-com/hyperframes/commit/c9613cd8260563d92e4e87b4e68e27e836214398">c9613cd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1788">#1788</a>)</li>
+<li><strong>Core:</strong> Publish runtime inline artifact (<a href="https://github.com/heygen-com/hyperframes/commit/e73076e93c7d4dbcec779943fb0a801e8d10e31f">e73076e9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1787">#1787</a>)</li>
+<li><strong>Studio:</strong> Keyframe/position editing correctness + thumbnail cache busting + local-studio preview discovery (<a href="https://github.com/heygen-com/hyperframes/commit/0a9555a0f7176583c1ac04d0f3cd4db977e0c023">0a9555a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1781">#1781</a>)</li>
+<li><strong>Render:</strong> Avoid empty WAAPI scans and llvmpipe auto GPU (<a href="https://github.com/heygen-com/hyperframes/commit/fc0f8c315102812a9629bcdeec09f75e26027da2">fc0f8c31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1775">#1775</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Engine:</strong> Reduce init overhead in headless capture sessions (<a href="https://github.com/heygen-com/hyperframes/commit/35a01d9058fca2c4f5e9a4aa13a86d2eafc77c68">35a01d90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1718">#1718</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Trim README motion hero (<a href="https://github.com/heygen-com/hyperframes/commit/38c6cd1113738a95f2f360dc9d70571a47629151">38c6cd11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1780">#1780</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Rebuild faceless-explainer + pr-to-video on the shot-sequence architecture (<a href="https://github.com/heygen-com/hyperframes/commit/7cb83865390d642e4e09bc162ad8c4a002545c6b">7cb83865</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1778">#1778</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.20">https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.20</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.20</h1>
+<p>Released on 2026-06-30.</p>
+<p>This release fixes a render-correctness bug where a video or audio element identified only by a <code>data-hf-id</code> (no real <code>id</code>) rendered as a blank white wash with dropped audio. It also restores Studio keyframe retiming (drag-to-retime and Move to Playhead) and ships capture and runtime reliability improvements.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Restore keyframe retiming — drag-to-retime + Move to Playhead (closes #1782) (<a href="https://github.com/heygen-com/hyperframes/commit/b403c54ae7b8d3f58808600f7cc69a004fbd93f5">b403c54a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1784">#1784</a>)</li>
+<li><strong>CLI:</strong> Expose Studio selection through preview (<a href="https://github.com/heygen-com/hyperframes/commit/9983f37c13dc7d8fbd35da21e88229e3500cee9a">9983f37c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1777">#1777</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer,lint:</strong> Id-less media renders blank wash instead of footage (<a href="https://github.com/heygen-com/hyperframes/commit/74f9c31b3fdeacf3a5700b17cbe718d7b00e54d2">74f9c31b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1790">#1790</a>)</li>
+<li><strong>Producer:</strong> Keep video captures viewport-bound on software (<a href="https://github.com/heygen-com/hyperframes/commit/c9613cd8260563d92e4e87b4e68e27e836214398">c9613cd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1788">#1788</a>)</li>
+<li><strong>Core:</strong> Publish runtime inline artifact (<a href="https://github.com/heygen-com/hyperframes/commit/e73076e93c7d4dbcec779943fb0a801e8d10e31f">e73076e9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1787">#1787</a>)</li>
+<li><strong>Studio:</strong> Keyframe/position editing correctness + thumbnail cache busting + local-studio preview discovery (<a href="https://github.com/heygen-com/hyperframes/commit/0a9555a0f7176583c1ac04d0f3cd4db977e0c023">0a9555a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1781">#1781</a>)</li>
+<li><strong>Render:</strong> Avoid empty WAAPI scans and llvmpipe auto GPU (<a href="https://github.com/heygen-com/hyperframes/commit/fc0f8c315102812a9629bcdeec09f75e26027da2">fc0f8c31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1775">#1775</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Engine:</strong> Reduce init overhead in headless capture sessions (<a href="https://github.com/heygen-com/hyperframes/commit/35a01d9058fca2c4f5e9a4aa13a86d2eafc77c68">35a01d90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1718">#1718</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Trim README motion hero (<a href="https://github.com/heygen-com/hyperframes/commit/38c6cd1113738a95f2f360dc9d70571a47629151">38c6cd11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1780">#1780</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Rebuild faceless-explainer + pr-to-video on the shot-sequence architecture (<a href="https://github.com/heygen-com/hyperframes/commit/7cb83865390d642e4e09bc162ad8c4a002545c6b">7cb83865</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1778">#1778</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.20">https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.20</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.19]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.19</link>
@@ -2163,52 +2273,6 @@ in source.</p>
 <li>@leorivastech made their first contribution in <a href="https://github.com/heygen-com/hyperframes/pull/1385">https://github.com/heygen-com/hyperframes/pull/1385</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96">https://github.com/heygen-com/hyperframes/compare/v0.6.95...v0.6.96</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.95]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.95</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.95</guid>
-            <pubDate>Fri, 12 Jun 2026 16:46:43 GMT</pubDate>
-            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.95 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>fix(producer): pass resolved engine config through every encode path by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1371">https://github.com/heygen-com/hyperframes/pull/1371</a></li>
-<li>fix(engine): real back-pressure in StreamingEncoder.writeFrame by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1372">https://github.com/heygen-com/hyperframes/pull/1372</a></li>
-<li>fix(engine): respect cgroup memory limits in low-memory detection by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1373">https://github.com/heygen-com/hyperframes/pull/1373</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.94...v0.6.95">https://github.com/heygen-com/hyperframes/compare/v0.6.94...v0.6.95</a></p>
-]]></description>
-            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.95 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>fix(producer): pass resolved engine config through every encode path by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1371">https://github.com/heygen-com/hyperframes/pull/1371</a></li>
-<li>fix(engine): real back-pressure in StreamingEncoder.writeFrame by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1372">https://github.com/heygen-com/hyperframes/pull/1372</a></li>
-<li>fix(engine): respect cgroup memory limits in low-memory detection by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1373">https://github.com/heygen-com/hyperframes/pull/1373</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.94...v0.6.95">https://github.com/heygen-com/hyperframes/compare/v0.6.94...v0.6.95</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.93]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.93</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.93</guid>
-            <pubDate>Fri, 12 Jun 2026 05:04:42 GMT</pubDate>
-            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.93 -->
-
-
-
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.92...v0.6.93">https://github.com/heygen-com/hyperframes/compare/v0.6.92...v0.6.93</a></p>
-]]></description>
-            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.93 -->
-
-
-
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.92...v0.6.93">https://github.com/heygen-com/hyperframes/compare/v0.6.92...v0.6.93</a></p>
 ]]></content:encoded>
         </item>
     </channel>
