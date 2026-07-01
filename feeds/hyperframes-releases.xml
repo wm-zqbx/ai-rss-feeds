@@ -4,11 +4,107 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 30 Jun 2026 22:14:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2026 22:01:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.24]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.24</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.24</guid>
+            <pubDate>Wed, 01 Jul 2026 22:01:40 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.24</h1>
+<p>Released on 2026-07-01.</p>
+<p>Follow-up to v0.7.23&#39;s resolver-shadow filter extension: single-flights the reorder source read (one fetch per batch instead of one per unresolved target) and tags loose-match <code>sourceHfIdCount: 0</code> events so they&#39;re distinguishable on the telemetry dashboard.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Single-flight reorder source read, tag loose-match sourceHfIdCount, brace style (<a href="https://github.com/heygen-com/hyperframes/commit/69b927a300c9c9f8f74cd9cc55dff98abc0e5974">69b927a30</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.23...v0.7.24">https://github.com/heygen-com/hyperframes/compare/v0.7.23...v0.7.24</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.24</h1>
+<p>Released on 2026-07-01.</p>
+<p>Follow-up to v0.7.23&#39;s resolver-shadow filter extension: single-flights the reorder source read (one fetch per batch instead of one per unresolved target) and tags loose-match <code>sourceHfIdCount: 0</code> events so they&#39;re distinguishable on the telemetry dashboard.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Single-flight reorder source read, tag loose-match sourceHfIdCount, brace style (<a href="https://github.com/heygen-com/hyperframes/commit/69b927a300c9c9f8f74cd9cc55dff98abc0e5974">69b927a30</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.23...v0.7.24">https://github.com/heygen-com/hyperframes/compare/v0.7.23...v0.7.24</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.23]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.23</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.23</guid>
+            <pubDate>Wed, 01 Jul 2026 21:52:40 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.23</h1>
+<p>Released on 2026-07-01.</p>
+<p>This release unifies CLI and Studio telemetry identity, extends the resolver-shadow noise filter to cover timing/GSAP/reorder edits, and auto-infers composition duration for CSS/WAAPI/Lottie compositions so <code>data-duration</code> is no longer required. Also includes pre-flight validation for malformed sub-compositions and a batch of CLI/lint reliability fixes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Telemetry:</strong> Unify CLI and Studio PostHog identity (Layer 1) (<a href="https://github.com/heygen-com/hyperframes/commit/9c4d9e50a01e0e139d95a80f6c2216867036d905">9c4d9e50a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1829">#1829</a>)</li>
+<li><strong>Capture:</strong> Extract chips/stat-cells/tabs, detect icon fonts, transparent grounds (<a href="https://github.com/heygen-com/hyperframes/commit/6cc87312d4dffba9df531f6f156c0d0d1462aa82">6cc87312d</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Extend resolver-shadow runtime-node filter to timing/GSAP/reorder chokepoints (<a href="https://github.com/heygen-com/hyperframes/commit/c215a20c8e43c1966e92b42eddb45534922a6fae">c215a20c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1839">#1839</a>)</li>
+<li><strong>Player:</strong> Rescale on cross-origin timeline ready, guard warn spam (<a href="https://github.com/heygen-com/hyperframes/commit/e5ec4cf53243a19a8a34f029c3139abaf07315c3">e5ec4cf53</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1840">#1840</a>)</li>
+<li><strong>Runtime:</strong> Auto-infer composition duration for CSS/WAAPI/Lottie so data-duration is optional (<a href="https://github.com/heygen-com/hyperframes/commit/24edb15095d2343fcd20c0468d2591b075810507">24edb1509</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1830">#1830</a>)</li>
+<li><strong>Core,producer,cli:</strong> Pre-flight validation for empty/malformed sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/cf573f7f3f8bfcc68b99c514afba4de0655436fc">cf573f7f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1831">#1831</a>)</li>
+<li><strong>Engine:</strong> Retry probe on pollHfReady zero-duration timeout (<a href="https://github.com/heygen-com/hyperframes/commit/b33d54f54b362b754d0b32427e31ba6a8bf3f49b">b33d54f54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1824">#1824</a>)</li>
+<li><strong>Skills:</strong> Clear two Snyk Fails and harden the network + supply-chain surface (<a href="https://github.com/heygen-com/hyperframes/commit/535297280aabdd55005682d4774cbde2c5f1ef4b">535297280</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1804">#1804</a>)</li>
+<li><strong>Skills:</strong> Make hyperframes package version resolution non-fatal and overridable (<a href="https://github.com/heygen-com/hyperframes/commit/060889f84c430ad8d8d90fe1b7fd74ef4485a705">060889f84</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1825">#1825</a>)</li>
+<li><strong>CLI:</strong> Keep doctor resilient to a corrupt browser cache (<a href="https://github.com/heygen-com/hyperframes/commit/0d202ea77921e123c3df35133d4919bcf02a94e7">0d202ea77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1822">#1822</a>)</li>
+<li><strong>CLI:</strong> Exclude clip-path-hidden text from inspect layout and contrast audits (<a href="https://github.com/heygen-com/hyperframes/commit/a7d0ab2d61a0c7b1f60a9782981d8852af046a78">a7d0ab2d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1821">#1821</a>)</li>
+<li><strong>Lint:</strong> Catch visible markup comments (<a href="https://github.com/heygen-com/hyperframes/commit/d1038918bb92307d62ed7edfbb6c9b3ed37e41cb">d1038918b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1819">#1819</a>)</li>
+<li><strong>CLI:</strong> Don&#39;t run unbounded ffprobe on remote snapshot inputs (<a href="https://github.com/heygen-com/hyperframes/commit/1a36b2abb4298ac20e5c842ac2b06e0230ff5a5e">1a36b2abb</a>)</li>
+<li><strong>CLI:</strong> Extract snapshot video frames from remote http(s) srcs (<a href="https://github.com/heygen-com/hyperframes/commit/1f377f732b73a376b4371e9aa4347e7315e0a774">1f377f732</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Clarify transparent WebM shows as yuv420p under ffprobe (alpha is a VP9 side-channel) (<a href="https://github.com/heygen-com/hyperframes/commit/534d6177b65bfd7aadc74d1a0632410e03b1d8ac">534d6177b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1823">#1823</a>)</li>
+<li><strong>Sdk:</strong> Republish SDK tab pages (Mintlify incremental deploy skipped the new files) (<a href="https://github.com/heygen-com/hyperframes/commit/bd27ea31adcee07736f6a2c244acda77a4215975">bd27ea31a</a>)</li>
+<li><strong>Sdk:</strong> Pin editing-affordances availability to @hyperframes/<a href="mailto:sdk@0.7.22">sdk@0.7.22</a> (<a href="https://github.com/heygen-com/hyperframes/commit/9140ee51b3109b97346cda083714e0b13b1270cf">9140ee51b</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.22...v0.7.23">https://github.com/heygen-com/hyperframes/compare/v0.7.22...v0.7.23</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.23</h1>
+<p>Released on 2026-07-01.</p>
+<p>This release unifies CLI and Studio telemetry identity, extends the resolver-shadow noise filter to cover timing/GSAP/reorder edits, and auto-infers composition duration for CSS/WAAPI/Lottie compositions so <code>data-duration</code> is no longer required. Also includes pre-flight validation for malformed sub-compositions and a batch of CLI/lint reliability fixes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Telemetry:</strong> Unify CLI and Studio PostHog identity (Layer 1) (<a href="https://github.com/heygen-com/hyperframes/commit/9c4d9e50a01e0e139d95a80f6c2216867036d905">9c4d9e50a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1829">#1829</a>)</li>
+<li><strong>Capture:</strong> Extract chips/stat-cells/tabs, detect icon fonts, transparent grounds (<a href="https://github.com/heygen-com/hyperframes/commit/6cc87312d4dffba9df531f6f156c0d0d1462aa82">6cc87312d</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Extend resolver-shadow runtime-node filter to timing/GSAP/reorder chokepoints (<a href="https://github.com/heygen-com/hyperframes/commit/c215a20c8e43c1966e92b42eddb45534922a6fae">c215a20c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1839">#1839</a>)</li>
+<li><strong>Player:</strong> Rescale on cross-origin timeline ready, guard warn spam (<a href="https://github.com/heygen-com/hyperframes/commit/e5ec4cf53243a19a8a34f029c3139abaf07315c3">e5ec4cf53</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1840">#1840</a>)</li>
+<li><strong>Runtime:</strong> Auto-infer composition duration for CSS/WAAPI/Lottie so data-duration is optional (<a href="https://github.com/heygen-com/hyperframes/commit/24edb15095d2343fcd20c0468d2591b075810507">24edb1509</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1830">#1830</a>)</li>
+<li><strong>Core,producer,cli:</strong> Pre-flight validation for empty/malformed sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/cf573f7f3f8bfcc68b99c514afba4de0655436fc">cf573f7f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1831">#1831</a>)</li>
+<li><strong>Engine:</strong> Retry probe on pollHfReady zero-duration timeout (<a href="https://github.com/heygen-com/hyperframes/commit/b33d54f54b362b754d0b32427e31ba6a8bf3f49b">b33d54f54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1824">#1824</a>)</li>
+<li><strong>Skills:</strong> Clear two Snyk Fails and harden the network + supply-chain surface (<a href="https://github.com/heygen-com/hyperframes/commit/535297280aabdd55005682d4774cbde2c5f1ef4b">535297280</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1804">#1804</a>)</li>
+<li><strong>Skills:</strong> Make hyperframes package version resolution non-fatal and overridable (<a href="https://github.com/heygen-com/hyperframes/commit/060889f84c430ad8d8d90fe1b7fd74ef4485a705">060889f84</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1825">#1825</a>)</li>
+<li><strong>CLI:</strong> Keep doctor resilient to a corrupt browser cache (<a href="https://github.com/heygen-com/hyperframes/commit/0d202ea77921e123c3df35133d4919bcf02a94e7">0d202ea77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1822">#1822</a>)</li>
+<li><strong>CLI:</strong> Exclude clip-path-hidden text from inspect layout and contrast audits (<a href="https://github.com/heygen-com/hyperframes/commit/a7d0ab2d61a0c7b1f60a9782981d8852af046a78">a7d0ab2d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1821">#1821</a>)</li>
+<li><strong>Lint:</strong> Catch visible markup comments (<a href="https://github.com/heygen-com/hyperframes/commit/d1038918bb92307d62ed7edfbb6c9b3ed37e41cb">d1038918b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1819">#1819</a>)</li>
+<li><strong>CLI:</strong> Don&#39;t run unbounded ffprobe on remote snapshot inputs (<a href="https://github.com/heygen-com/hyperframes/commit/1a36b2abb4298ac20e5c842ac2b06e0230ff5a5e">1a36b2abb</a>)</li>
+<li><strong>CLI:</strong> Extract snapshot video frames from remote http(s) srcs (<a href="https://github.com/heygen-com/hyperframes/commit/1f377f732b73a376b4371e9aa4347e7315e0a774">1f377f732</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Clarify transparent WebM shows as yuv420p under ffprobe (alpha is a VP9 side-channel) (<a href="https://github.com/heygen-com/hyperframes/commit/534d6177b65bfd7aadc74d1a0632410e03b1d8ac">534d6177b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1823">#1823</a>)</li>
+<li><strong>Sdk:</strong> Republish SDK tab pages (Mintlify incremental deploy skipped the new files) (<a href="https://github.com/heygen-com/hyperframes/commit/bd27ea31adcee07736f6a2c244acda77a4215975">bd27ea31a</a>)</li>
+<li><strong>Sdk:</strong> Pin editing-affordances availability to @hyperframes/<a href="mailto:sdk@0.7.22">sdk@0.7.22</a> (<a href="https://github.com/heygen-com/hyperframes/commit/9140ee51b3109b97346cda083714e0b13b1270cf">9140ee51b</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.22...v0.7.23">https://github.com/heygen-com/hyperframes/compare/v0.7.22...v0.7.23</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.22]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.22</link>
@@ -2257,26 +2353,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.99">https://github.com/heygen-com/hyperframes/compare/v0.6.91...v0.6.99</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.98]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.98</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.98</guid>
-            <pubDate>Mon, 15 Jun 2026 06:35:56 GMT</pubDate>
-            <description><![CDATA[<p>Keyframe-aware timeline editing: clip resize proportionally scales GSAP animation positions and durations, clip drag shifts positions, and diamond rendering stays stable at clip boundaries. Music beat detection with timeline guides and headless CLI command.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>Keyframe-aware timeline editing: clip resize proportionally scales GSAP animation positions and durations, clip drag shifts positions, and diamond rendering stays stable at clip boundaries. Music beat detection with timeline guides and headless CLI command.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.97]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.97</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.97</guid>
-            <pubDate>Sat, 13 Jun 2026 06:06:54 GMT</pubDate>
-            <description><![CDATA[<p>Batch rendering, WebGL determinism, studio resilience, and security hardening.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>Batch rendering, WebGL determinism, studio resilience, and security hardening.</p>
 ]]></content:encoded>
         </item>
     </channel>
