@@ -4,11 +4,91 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 03 Jul 2026 20:04:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Jul 2026 02:18:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.29]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.29</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.29</guid>
+            <pubDate>Sat, 04 Jul 2026 02:18:39 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.29</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release ships the Figma integration: import Figma frames as frozen assets, pull brand variables and styles as composition tokens, convert frames to editable brand-linked HTML components, and translate Figma Motion timelines into seekable GSAP — all routed through the new /figma skill and <code>hyperframes figma</code> CLI. It also lands a wave of engine extraction-performance work (caching, dedup, one-pass VFR/HDR) and studio persist-failure hardening.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Reroute /figma by capability - REST/CLI for phases 1-3, MCP for 4-5 (M4) (<a href="https://github.com/heygen-com/hyperframes/commit/566d49382c9cb5c0f690e29f3cd1014b8e69e39a">566d49382</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1873">#1873</a>)</li>
+<li><strong>Core,cli:</strong> Figma component import with binding-aware node-to-html mapper (M3) (<a href="https://github.com/heygen-com/hyperframes/commit/ee7a96147a5d71797ef041e48395ed1918a375a9">ee7a96147</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1872">#1872</a>)</li>
+<li><strong>Core,cli:</strong> Figma tokens import with alias-aware binding records (M2) (<a href="https://github.com/heygen-com/hyperframes/commit/4d60792adc0cc9c807f5734b492052a8598d6d4e">4d60792ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1871">#1871</a>)</li>
+<li><strong>Core,cli:</strong> Figma REST client, asset import command, binding index (M0+M1) (<a href="https://github.com/heygen-com/hyperframes/commit/fb13797d2f2715dc38649add1aea577d214d42f8">fb13797d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1870">#1870</a>)</li>
+<li><strong>Core:</strong> Figma motion → GSAP translator + /figma skill v1 (<a href="https://github.com/heygen-com/hyperframes/commit/e92700acded50469d3fb35da3a8b198d2cdc36d8">e92700acd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1869">#1869</a>)</li>
+<li><strong>Core:</strong> Figma module foundations — types, parseFigmaRef, freeze, manifest, asset snippet (<a href="https://github.com/heygen-com/hyperframes/commit/397c3ba7a84211bfa52a93a410f34368f7ab5110">397c3ba7a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1868">#1868</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Surface persist failures with toast and guarded revert (<a href="https://github.com/heygen-com/hyperframes/commit/e6e0d97cc560ebca57a28f5c0872e706679f568d">e6e0d97cc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1910">#1910</a>)</li>
+<li><strong>Studio:</strong> Per-child patch op builders and persist-seam harness (<a href="https://github.com/heygen-com/hyperframes/commit/22942280b61c3b6d40dae6ca00a401969684e234">22942280b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1909">#1909</a>)</li>
+<li><strong>Studio Server:</strong> Child-scoped patch operations with batch abort (<a href="https://github.com/heygen-com/hyperframes/commit/23f67da5e236fa9b5c5838786b48378e7704b67d">23f67da5e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1908">#1908</a>)</li>
+<li><strong>Studio:</strong> Make canvas selection hit intended elements (<a href="https://github.com/heygen-com/hyperframes/commit/02e9d6142d8e3d812c1d8525753355793a3b9988">02e9d6142</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1907">#1907</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Engine:</strong> Superset extraction for overlapping trims of one source (<a href="https://github.com/heygen-com/hyperframes/commit/1a7002f208353239f0e10596fa1decc897fed34f">1a7002f20</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1885">#1885</a>)</li>
+<li><strong>Engine:</strong> One-pass SDR-to-HDR extraction with cache-key transform (<a href="https://github.com/heygen-com/hyperframes/commit/48f158a0c2cd27bfc114903a37560cd4db872fe8">48f158a0c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1902">#1902</a>)</li>
+<li><strong>Engine:</strong> Extraction cache on by default with atomic publish and LRU gc (<a href="https://github.com/heygen-com/hyperframes/commit/34590649a05594914b98d4cc6198a2e5aac953c6">34590649a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1901">#1901</a>)</li>
+<li><strong>Engine:</strong> Dedupe identical extractions within one render (<a href="https://github.com/heygen-com/hyperframes/commit/8d64d48e4a9ae620771e331d83bd74eb1716d66b">8d64d48e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1900">#1900</a>)</li>
+<li><strong>Engine:</strong> One-pass VFR extraction with -fps_mode cfr (<a href="https://github.com/heygen-com/hyperframes/commit/78605833415e9f80097a773b949c146f4e1a5e9d">786058334</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1899">#1899</a>)</li>
+<li><strong>Engine:</strong> Write PNG frames at compression_level 1 (<a href="https://github.com/heygen-com/hyperframes/commit/557a270271372d458d5adb944473a485d47e3079">557a27027</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1898">#1898</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Agent-browser e2e smoke for the design panel (<a href="https://github.com/heygen-com/hyperframes/commit/08c0a03510aaa86f1acc848ab75d0b24557dbf7e">08c0a0351</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1912">#1912</a>)</li>
+<li><strong>Studio:</strong> Cover persist-failure hook behavior (<a href="https://github.com/heygen-com/hyperframes/commit/64688ddaf2e5bb17d203b0d28f02e3142ac0035c">64688ddaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1911">#1911</a>)</li>
+<li><strong>Studio:</strong> Add design-panel QA fixture and triage matrix (<a href="https://github.com/heygen-com/hyperframes/commit/4d199c0f3ab8bec55e32eff197e12eca796bf172">4d199c0f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1906">#1906</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.28...v0.7.29">https://github.com/heygen-com/hyperframes/compare/v0.7.28...v0.7.29</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.29</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release ships the Figma integration: import Figma frames as frozen assets, pull brand variables and styles as composition tokens, convert frames to editable brand-linked HTML components, and translate Figma Motion timelines into seekable GSAP — all routed through the new /figma skill and <code>hyperframes figma</code> CLI. It also lands a wave of engine extraction-performance work (caching, dedup, one-pass VFR/HDR) and studio persist-failure hardening.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Reroute /figma by capability - REST/CLI for phases 1-3, MCP for 4-5 (M4) (<a href="https://github.com/heygen-com/hyperframes/commit/566d49382c9cb5c0f690e29f3cd1014b8e69e39a">566d49382</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1873">#1873</a>)</li>
+<li><strong>Core,cli:</strong> Figma component import with binding-aware node-to-html mapper (M3) (<a href="https://github.com/heygen-com/hyperframes/commit/ee7a96147a5d71797ef041e48395ed1918a375a9">ee7a96147</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1872">#1872</a>)</li>
+<li><strong>Core,cli:</strong> Figma tokens import with alias-aware binding records (M2) (<a href="https://github.com/heygen-com/hyperframes/commit/4d60792adc0cc9c807f5734b492052a8598d6d4e">4d60792ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1871">#1871</a>)</li>
+<li><strong>Core,cli:</strong> Figma REST client, asset import command, binding index (M0+M1) (<a href="https://github.com/heygen-com/hyperframes/commit/fb13797d2f2715dc38649add1aea577d214d42f8">fb13797d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1870">#1870</a>)</li>
+<li><strong>Core:</strong> Figma motion → GSAP translator + /figma skill v1 (<a href="https://github.com/heygen-com/hyperframes/commit/e92700acded50469d3fb35da3a8b198d2cdc36d8">e92700acd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1869">#1869</a>)</li>
+<li><strong>Core:</strong> Figma module foundations — types, parseFigmaRef, freeze, manifest, asset snippet (<a href="https://github.com/heygen-com/hyperframes/commit/397c3ba7a84211bfa52a93a410f34368f7ab5110">397c3ba7a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1868">#1868</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Surface persist failures with toast and guarded revert (<a href="https://github.com/heygen-com/hyperframes/commit/e6e0d97cc560ebca57a28f5c0872e706679f568d">e6e0d97cc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1910">#1910</a>)</li>
+<li><strong>Studio:</strong> Per-child patch op builders and persist-seam harness (<a href="https://github.com/heygen-com/hyperframes/commit/22942280b61c3b6d40dae6ca00a401969684e234">22942280b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1909">#1909</a>)</li>
+<li><strong>Studio Server:</strong> Child-scoped patch operations with batch abort (<a href="https://github.com/heygen-com/hyperframes/commit/23f67da5e236fa9b5c5838786b48378e7704b67d">23f67da5e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1908">#1908</a>)</li>
+<li><strong>Studio:</strong> Make canvas selection hit intended elements (<a href="https://github.com/heygen-com/hyperframes/commit/02e9d6142d8e3d812c1d8525753355793a3b9988">02e9d6142</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1907">#1907</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Engine:</strong> Superset extraction for overlapping trims of one source (<a href="https://github.com/heygen-com/hyperframes/commit/1a7002f208353239f0e10596fa1decc897fed34f">1a7002f20</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1885">#1885</a>)</li>
+<li><strong>Engine:</strong> One-pass SDR-to-HDR extraction with cache-key transform (<a href="https://github.com/heygen-com/hyperframes/commit/48f158a0c2cd27bfc114903a37560cd4db872fe8">48f158a0c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1902">#1902</a>)</li>
+<li><strong>Engine:</strong> Extraction cache on by default with atomic publish and LRU gc (<a href="https://github.com/heygen-com/hyperframes/commit/34590649a05594914b98d4cc6198a2e5aac953c6">34590649a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1901">#1901</a>)</li>
+<li><strong>Engine:</strong> Dedupe identical extractions within one render (<a href="https://github.com/heygen-com/hyperframes/commit/8d64d48e4a9ae620771e331d83bd74eb1716d66b">8d64d48e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1900">#1900</a>)</li>
+<li><strong>Engine:</strong> One-pass VFR extraction with -fps_mode cfr (<a href="https://github.com/heygen-com/hyperframes/commit/78605833415e9f80097a773b949c146f4e1a5e9d">786058334</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1899">#1899</a>)</li>
+<li><strong>Engine:</strong> Write PNG frames at compression_level 1 (<a href="https://github.com/heygen-com/hyperframes/commit/557a270271372d458d5adb944473a485d47e3079">557a27027</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1898">#1898</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Agent-browser e2e smoke for the design panel (<a href="https://github.com/heygen-com/hyperframes/commit/08c0a03510aaa86f1acc848ab75d0b24557dbf7e">08c0a0351</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1912">#1912</a>)</li>
+<li><strong>Studio:</strong> Cover persist-failure hook behavior (<a href="https://github.com/heygen-com/hyperframes/commit/64688ddaf2e5bb17d203b0d28f02e3142ac0035c">64688ddaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1911">#1911</a>)</li>
+<li><strong>Studio:</strong> Add design-panel QA fixture and triage matrix (<a href="https://github.com/heygen-com/hyperframes/commit/4d199c0f3ab8bec55e32eff197e12eca796bf172">4d199c0f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1906">#1906</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.28...v0.7.29">https://github.com/heygen-com/hyperframes/compare/v0.7.28...v0.7.29</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.28]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.28</link>
@@ -2139,32 +2219,6 @@ in source.</p>
 <li>fix(studio): make SDK shadow telemetry fire + be correct (5 fixes, E2E-verified) by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1491">https://github.com/heygen-com/hyperframes/pull/1491</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104">https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.103]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.103</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.103</guid>
-            <pubDate>Tue, 16 Jun 2026 07:00:18 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.103</h1>
-<p>Released on 2026-06-16.</p>
-<p>Fixes telemetry attribution for studio-triggered renders: render completion and error events are now logged under the browser user who started the render instead of the preview-server process, so render outcomes correlate with the session that triggered them.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Telemetry:</strong> Attribute studio renders to the browser user (joinable funnel) (<a href="https://github.com/heygen-com/hyperframes/commit/121cdd2d9fbc11c25cd8ea000a3946fc3494d8b7">121cdd2d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1492">#1492</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.102...v0.6.103">https://github.com/heygen-com/hyperframes/compare/v0.6.102...v0.6.103</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.103</h1>
-<p>Released on 2026-06-16.</p>
-<p>Fixes telemetry attribution for studio-triggered renders: render completion and error events are now logged under the browser user who started the render instead of the preview-server process, so render outcomes correlate with the session that triggered them.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Telemetry:</strong> Attribute studio renders to the browser user (joinable funnel) (<a href="https://github.com/heygen-com/hyperframes/commit/121cdd2d9fbc11c25cd8ea000a3946fc3494d8b7">121cdd2d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1492">#1492</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.102...v0.6.103">https://github.com/heygen-com/hyperframes/compare/v0.6.102...v0.6.103</a></p>
 ]]></content:encoded>
         </item>
     </channel>
