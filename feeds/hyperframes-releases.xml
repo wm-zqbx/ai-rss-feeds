@@ -4,11 +4,71 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 04 Jul 2026 02:18:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Jul 2026 06:11:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.31]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.31</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.31</guid>
+            <pubDate>Sat, 04 Jul 2026 06:11:08 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.31</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release makes Figma imports first-class citizens of the shared media inventory: every <code>hyperframes figma asset</code> import now regenerates <code>.media/index.md</code> (byte-identical with media-use&#39;s format), carries <code>--description</code>/<code>--entity</code> metadata into the manifest, index, and alt text, and the reuse path correctly upserts metadata and dedupes against any prior format/scale/version tuple. media-use&#39;s entity lookups now match figma-imported brand marks across the icon/image boundary.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core,cli:</strong> Media-use interop — shared index.md regen + description/entity on figma imports (<a href="https://github.com/heygen-com/hyperframes/commit/3900caaaa94443efb01597dac26df1533f8add35">3900caaaa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1927">#1927</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.30...v0.7.31">https://github.com/heygen-com/hyperframes/compare/v0.7.30...v0.7.31</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.31</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release makes Figma imports first-class citizens of the shared media inventory: every <code>hyperframes figma asset</code> import now regenerates <code>.media/index.md</code> (byte-identical with media-use&#39;s format), carries <code>--description</code>/<code>--entity</code> metadata into the manifest, index, and alt text, and the reuse path correctly upserts metadata and dedupes against any prior format/scale/version tuple. media-use&#39;s entity lookups now match figma-imported brand marks across the icon/image boundary.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core,cli:</strong> Media-use interop — shared index.md regen + description/entity on figma imports (<a href="https://github.com/heygen-com/hyperframes/commit/3900caaaa94443efb01597dac26df1533f8add35">3900caaaa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1927">#1927</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.30...v0.7.31">https://github.com/heygen-com/hyperframes/compare/v0.7.30...v0.7.31</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.30]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.30</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.30</guid>
+            <pubDate>Sat, 04 Jul 2026 04:50:49 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.30</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release adds a low-volume attempt counter to the resolver-shadow tripwire, giving the SDK-cutover soak gate a real <code>divergences / attempts</code> denominator instead of a bare divergence count. It also fixes <code>moveElement</code> losing its offset when the target element is under a running GSAP animation.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Add resolver-shadow attempt counter for soak-gate denominator (<a href="https://github.com/heygen-com/hyperframes/commit/fe821ff8bc9acbb840b4a42153db66790b9419a1">fe821ff8b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1926">#1926</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Sdk:</strong> MoveElement survives GSAP animation per-axis via runtime delta translate (<a href="https://github.com/heygen-com/hyperframes/commit/74faa4b2a42c60c77d1550e7288bf3333c15e25d">74faa4b2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1875">#1875</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.29...v0.7.30">https://github.com/heygen-com/hyperframes/compare/v0.7.29...v0.7.30</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.30</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release adds a low-volume attempt counter to the resolver-shadow tripwire, giving the SDK-cutover soak gate a real <code>divergences / attempts</code> denominator instead of a bare divergence count. It also fixes <code>moveElement</code> losing its offset when the target element is under a running GSAP animation.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Add resolver-shadow attempt counter for soak-gate denominator (<a href="https://github.com/heygen-com/hyperframes/commit/fe821ff8bc9acbb840b4a42153db66790b9419a1">fe821ff8b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1926">#1926</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Sdk:</strong> MoveElement survives GSAP animation per-axis via runtime delta translate (<a href="https://github.com/heygen-com/hyperframes/commit/74faa4b2a42c60c77d1550e7288bf3333c15e25d">74faa4b2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1875">#1875</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.29...v0.7.30">https://github.com/heygen-com/hyperframes/compare/v0.7.29...v0.7.30</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.29]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.29</link>
@@ -2167,58 +2227,6 @@ in source.</p>
             <description><![CDATA[<p>Studio now correctly resolves and displays keyframes for computed GSAP timelines (helpers, bounded loops), with drag improvements for position tweens.</p>
 ]]></description>
             <content:encoded><![CDATA[<p>Studio now correctly resolves and displays keyframes for computed GSAP timelines (helpers, bounded loops), with drag improvements for position tweens.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.105]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.105</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.105</guid>
-            <pubDate>Tue, 16 Jun 2026 16:33:07 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.105</h1>
-<p>Released on 2026-06-16.</p>
-<p>Restores <code>remove-background</code> by moving <code>sharp</code> and <code>onnxruntime-node</code> back to regular dependencies (they were skipped as optional deps, so the command&#39;s required native modules weren&#39;t installed). Also fixes the Linux GPU render path (deprecated EGL + NVENC probe failure on data-center GPUs).</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Restore sharp + onnxruntime-node as dependencies (unbreak remove-background) (<a href="https://github.com/heygen-com/hyperframes/commit/322147aef9ef7d13c58bb95f0b628dba821aed28">322147aef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1505">#1505</a>)</li>
-<li><strong>Engine:</strong> Linux GPU path uses deprecated EGL + NVENC probe fails on data-center GPUs (<a href="https://github.com/heygen-com/hyperframes/commit/e5346afdd84b99806dcdc828fc3318c3ef63d290">e5346afdd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1504">#1504</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.104...v0.6.105">https://github.com/heygen-com/hyperframes/compare/v0.6.104...v0.6.105</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.105</h1>
-<p>Released on 2026-06-16.</p>
-<p>Restores <code>remove-background</code> by moving <code>sharp</code> and <code>onnxruntime-node</code> back to regular dependencies (they were skipped as optional deps, so the command&#39;s required native modules weren&#39;t installed). Also fixes the Linux GPU render path (deprecated EGL + NVENC probe failure on data-center GPUs).</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Restore sharp + onnxruntime-node as dependencies (unbreak remove-background) (<a href="https://github.com/heygen-com/hyperframes/commit/322147aef9ef7d13c58bb95f0b628dba821aed28">322147aef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1505">#1505</a>)</li>
-<li><strong>Engine:</strong> Linux GPU path uses deprecated EGL + NVENC probe fails on data-center GPUs (<a href="https://github.com/heygen-com/hyperframes/commit/e5346afdd84b99806dcdc828fc3318c3ef63d290">e5346afdd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1504">#1504</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.104...v0.6.105">https://github.com/heygen-com/hyperframes/compare/v0.6.104...v0.6.105</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.104]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.104</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.104</guid>
-            <pubDate>Tue, 16 Jun 2026 10:01:46 GMT</pubDate>
-            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.104 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>fix(studio): make SDK shadow telemetry fire + be correct (5 fixes, E2E-verified) by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1491">https://github.com/heygen-com/hyperframes/pull/1491</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104">https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104</a></p>
-]]></description>
-            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.104 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>fix(studio): make SDK shadow telemetry fire + be correct (5 fixes, E2E-verified) by @vanceingalls in <a href="https://github.com/heygen-com/hyperframes/pull/1491">https://github.com/heygen-com/hyperframes/pull/1491</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104">https://github.com/heygen-com/hyperframes/compare/v0.6.103...v0.6.104</a></p>
 ]]></content:encoded>
         </item>
     </channel>
