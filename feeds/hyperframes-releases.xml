@@ -4,11 +4,51 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 04 Jul 2026 06:11:08 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Jul 2026 21:29:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.32]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.32</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.32</guid>
+            <pubDate>Sat, 04 Jul 2026 21:29:01 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.32</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release hardens the CLI validation and browser-install paths: validate now seeks through the runtime player, honors the configured timeout more consistently, and browser installs recover from stale or partial downloads without racing concurrent forced reinstalls. It also closes Windows media setup gaps, scopes <code>window.__hyperframes</code> correctly inside sub-compositions, pads transition-tail frame durations, and moves large audio filter graphs out of the command line.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Hyperframes Media:</strong> Install MusicGen deps via python3 -m pip, not bare pip (<a href="https://github.com/heygen-com/hyperframes/commit/942080fa8e8e77de93ef6546690b5b5421d80e88">942080fa8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1894">#1894</a>)</li>
+<li><strong>Hyperframes Media:</strong> Resolve python3 -&gt; python/py on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/3388635f1d1431de0b2a2e7d132f834f7614557c">3388635f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1922">#1922</a>)</li>
+<li><strong>CLI:</strong> Validate seeks the runtime player directly, not raw timelines (<a href="https://github.com/heygen-com/hyperframes/commit/3f49f107eb8fb64b34f621bfcd076391ff06e167">3f49f107e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1895">#1895</a>)</li>
+<li><strong>CLI:</strong> Validate navigation timeout honors --timeout, hints on CDN scripts (<a href="https://github.com/heygen-com/hyperframes/commit/0338be97fdc548fd4a179561810c0c9320b61388">0338be97f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1929">#1929</a>)</li>
+<li><strong>Video Workflows:</strong> Pad the frame&#39;s own duration to match the transition tail (<a href="https://github.com/heygen-com/hyperframes/commit/8bc1e5d603bd828511bdc6dddaa96a64ea7a43d3">8bc1e5d60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1889">#1889</a>)</li>
+<li><strong>Engine:</strong> Write the audio mix filter graph to a file, not the command line (<a href="https://github.com/heygen-com/hyperframes/commit/8a3227f5482320907edcb47972c3d7f6e25c6d62">8a3227f54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1890">#1890</a>)</li>
+<li><strong>CLI:</strong> Purge stale/partial browser installs instead of wedging retries (<a href="https://github.com/heygen-com/hyperframes/commit/78069da1403669cb3f68a475da128d0b0ce14a97">78069da14</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1913">#1913</a>)</li>
+<li><strong>Core:</strong> Route window.__hyperframes to the scoped variant in sub-comps (<a href="https://github.com/heygen-com/hyperframes/commit/f7c9c35d8b1095037402cc55539084d514691b28">f7c9c35d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1931">#1931</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.31...v0.7.32">https://github.com/heygen-com/hyperframes/compare/v0.7.31...v0.7.32</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.32</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release hardens the CLI validation and browser-install paths: validate now seeks through the runtime player, honors the configured timeout more consistently, and browser installs recover from stale or partial downloads without racing concurrent forced reinstalls. It also closes Windows media setup gaps, scopes <code>window.__hyperframes</code> correctly inside sub-compositions, pads transition-tail frame durations, and moves large audio filter graphs out of the command line.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Hyperframes Media:</strong> Install MusicGen deps via python3 -m pip, not bare pip (<a href="https://github.com/heygen-com/hyperframes/commit/942080fa8e8e77de93ef6546690b5b5421d80e88">942080fa8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1894">#1894</a>)</li>
+<li><strong>Hyperframes Media:</strong> Resolve python3 -&gt; python/py on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/3388635f1d1431de0b2a2e7d132f834f7614557c">3388635f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1922">#1922</a>)</li>
+<li><strong>CLI:</strong> Validate seeks the runtime player directly, not raw timelines (<a href="https://github.com/heygen-com/hyperframes/commit/3f49f107eb8fb64b34f621bfcd076391ff06e167">3f49f107e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1895">#1895</a>)</li>
+<li><strong>CLI:</strong> Validate navigation timeout honors --timeout, hints on CDN scripts (<a href="https://github.com/heygen-com/hyperframes/commit/0338be97fdc548fd4a179561810c0c9320b61388">0338be97f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1929">#1929</a>)</li>
+<li><strong>Video Workflows:</strong> Pad the frame&#39;s own duration to match the transition tail (<a href="https://github.com/heygen-com/hyperframes/commit/8bc1e5d603bd828511bdc6dddaa96a64ea7a43d3">8bc1e5d60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1889">#1889</a>)</li>
+<li><strong>Engine:</strong> Write the audio mix filter graph to a file, not the command line (<a href="https://github.com/heygen-com/hyperframes/commit/8a3227f5482320907edcb47972c3d7f6e25c6d62">8a3227f54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1890">#1890</a>)</li>
+<li><strong>CLI:</strong> Purge stale/partial browser installs instead of wedging retries (<a href="https://github.com/heygen-com/hyperframes/commit/78069da1403669cb3f68a475da128d0b0ce14a97">78069da14</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1913">#1913</a>)</li>
+<li><strong>Core:</strong> Route window.__hyperframes to the scoped variant in sub-comps (<a href="https://github.com/heygen-com/hyperframes/commit/f7c9c35d8b1095037402cc55539084d514691b28">f7c9c35d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1931">#1931</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.31...v0.7.32">https://github.com/heygen-com/hyperframes/compare/v0.7.31...v0.7.32</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.31]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.31</link>
@@ -2217,16 +2257,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.106...v0.6.107">https://github.com/heygen-com/hyperframes/compare/v0.6.106...v0.6.107</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.106]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.106</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.106</guid>
-            <pubDate>Tue, 16 Jun 2026 17:18:39 GMT</pubDate>
-            <description><![CDATA[<p>Studio now correctly resolves and displays keyframes for computed GSAP timelines (helpers, bounded loops), with drag improvements for position tweens.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>Studio now correctly resolves and displays keyframes for computed GSAP timelines (helpers, bounded loops), with drag improvements for position tweens.</p>
 ]]></content:encoded>
         </item>
     </channel>
