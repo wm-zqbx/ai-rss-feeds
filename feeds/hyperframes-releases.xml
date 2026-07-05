@@ -4,11 +4,43 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 04 Jul 2026 21:29:01 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Jul 2026 22:38:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.33]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.33</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.33</guid>
+            <pubDate>Sat, 04 Jul 2026 22:38:46 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.33</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release fixes an HDR compositing regression where hidden or future timed DOM
+descendants could be revived during per-layer screenshots and bleed into HDR
+frames. DOM-layer masking now preserves those hidden descendants while capturing
+the active layer, keeping HDR output aligned with preview timing.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Avoid reviving hidden DOM in HDR layers (<a href="https://github.com/heygen-com/hyperframes/commit/bb066077b4ecbf4efc021779e37da6475c6f80dd">bb066077b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1935">#1935</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.32...v0.7.33">https://github.com/heygen-com/hyperframes/compare/v0.7.32...v0.7.33</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.33</h1>
+<p>Released on 2026-07-04.</p>
+<p>This release fixes an HDR compositing regression where hidden or future timed DOM
+descendants could be revived during per-layer screenshots and bleed into HDR
+frames. DOM-layer masking now preserves those hidden descendants while capturing
+the active layer, keeping HDR output aligned with preview timing.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Avoid reviving hidden DOM in HDR layers (<a href="https://github.com/heygen-com/hyperframes/commit/bb066077b4ecbf4efc021779e37da6475c6f80dd">bb066077b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1935">#1935</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.32...v0.7.33">https://github.com/heygen-com/hyperframes/compare/v0.7.32...v0.7.33</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.32]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.32</link>
@@ -2207,56 +2239,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.107...v0.6.108">https://github.com/heygen-com/hyperframes/compare/v0.6.107...v0.6.108</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.107]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.107</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.107</guid>
-            <pubDate>Tue, 16 Jun 2026 19:52:45 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.107</h1>
-<p>Released on 2026-06-16.</p>
-<p>Hardens the Studio&#39;s SDK shadow-parity telemetry — adds GSAP keyframe-op coverage and clears false-positive mismatches from float precision, selector form, and live typing. Also fixes two SDK correctness bugs the telemetry surfaced: <code>setStyle</code> now removes hyphenated properties, and <code>removeElement</code>/<code>getElement</code> agree on which element a duplicated bare id targets.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Shadow telemetry for GSAP keyframe ops (gsap_keyframe) (<a href="https://github.com/heygen-com/hyperframes/commit/4b4a3eb63dbffe47e2ed19358e2a3b6ce2d19d8a">4b4a3eb63</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1509">#1509</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Serialize GSAP script commits per file (shadow request race) (<a href="https://github.com/heygen-com/hyperframes/commit/4ee57d55056af319631a860ed9752e31ce161f91">4ee57d550</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1512">#1512</a>)</li>
-<li><strong>Sdk:</strong> Agree removeElement/getElement on duplicate bare ids (<a href="https://github.com/heygen-com/hyperframes/commit/cc055f318d59623741fffa96e816ed68a635c2ef">cc055f318</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1511">#1511</a>)</li>
-<li><strong>Sdk:</strong> SetStyle removes hyphenated properties (was kebab/camel key mismatch) (<a href="https://github.com/heygen-com/hyperframes/commit/066ea798b4140ec04bbfd54216c08bc2af60b5a3">066ea798b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1510">#1510</a>)</li>
-<li><strong>Studio:</strong> Suppress shadow-parity false positives in timing + text (<a href="https://github.com/heygen-com/hyperframes/commit/5aca3ad770852d795cc85bc80a7a68c2a95edfeb">5aca3ad77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1508">#1508</a>)</li>
-<li><strong>Studio:</strong> Kill false-positive shadow GSAP fidelity mismatches (<a href="https://github.com/heygen-com/hyperframes/commit/c096ff3afa8a848d2b817415ad2329a2d7ab5dc8">c096ff3af</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1507">#1507</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Dedup shadow numeric-equal + GSAP script extraction (<a href="https://github.com/heygen-com/hyperframes/commit/0e5caa453a119faeddc20b3c5cbed8576f9a8bdc">0e5caa453</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1516">#1516</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.106...v0.6.107">https://github.com/heygen-com/hyperframes/compare/v0.6.106...v0.6.107</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.107</h1>
-<p>Released on 2026-06-16.</p>
-<p>Hardens the Studio&#39;s SDK shadow-parity telemetry — adds GSAP keyframe-op coverage and clears false-positive mismatches from float precision, selector form, and live typing. Also fixes two SDK correctness bugs the telemetry surfaced: <code>setStyle</code> now removes hyphenated properties, and <code>removeElement</code>/<code>getElement</code> agree on which element a duplicated bare id targets.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Shadow telemetry for GSAP keyframe ops (gsap_keyframe) (<a href="https://github.com/heygen-com/hyperframes/commit/4b4a3eb63dbffe47e2ed19358e2a3b6ce2d19d8a">4b4a3eb63</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1509">#1509</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Serialize GSAP script commits per file (shadow request race) (<a href="https://github.com/heygen-com/hyperframes/commit/4ee57d55056af319631a860ed9752e31ce161f91">4ee57d550</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1512">#1512</a>)</li>
-<li><strong>Sdk:</strong> Agree removeElement/getElement on duplicate bare ids (<a href="https://github.com/heygen-com/hyperframes/commit/cc055f318d59623741fffa96e816ed68a635c2ef">cc055f318</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1511">#1511</a>)</li>
-<li><strong>Sdk:</strong> SetStyle removes hyphenated properties (was kebab/camel key mismatch) (<a href="https://github.com/heygen-com/hyperframes/commit/066ea798b4140ec04bbfd54216c08bc2af60b5a3">066ea798b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1510">#1510</a>)</li>
-<li><strong>Studio:</strong> Suppress shadow-parity false positives in timing + text (<a href="https://github.com/heygen-com/hyperframes/commit/5aca3ad770852d795cc85bc80a7a68c2a95edfeb">5aca3ad77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1508">#1508</a>)</li>
-<li><strong>Studio:</strong> Kill false-positive shadow GSAP fidelity mismatches (<a href="https://github.com/heygen-com/hyperframes/commit/c096ff3afa8a848d2b817415ad2329a2d7ab5dc8">c096ff3af</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1507">#1507</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Dedup shadow numeric-equal + GSAP script extraction (<a href="https://github.com/heygen-com/hyperframes/commit/0e5caa453a119faeddc20b3c5cbed8576f9a8bdc">0e5caa453</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1516">#1516</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.106...v0.6.107">https://github.com/heygen-com/hyperframes/compare/v0.6.106...v0.6.107</a></p>
 ]]></content:encoded>
         </item>
     </channel>
