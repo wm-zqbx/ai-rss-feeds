@@ -4,11 +4,61 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 07 Jul 2026 05:52:19 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2026 16:33:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.40]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.40</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.40</guid>
+            <pubDate>Tue, 07 Jul 2026 16:33:51 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.40</h1>
+<p>Released on 2026-07-07.</p>
+<p>The headline this release is a Studio timeline revamp: clips visible at the playhead are highlighted, tracks and individual elements can be hidden with a non-destructive <code>data-hidden</code> toggle that carries through to renders, and ruler zoom and gutter behavior are cleaner. It also fixes static-position dragging beside an animated rotation and keeps off-canvas indicators in sync with live layout.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Timeline revamp with active-clip highlighting and hide controls (<a href="https://github.com/heygen-com/hyperframes/commit/037266e72bd808491a82008ca2520299fecef381">037266e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2017">#2017</a>)</li>
+<li><strong>CLI:</strong> Associate signed-in HeyGen account with telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/3d8372f880a6739ee3e0beea484905d76e5ad3a9">3d8372f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2020">#2020</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Figma component import survives unrenderable nodes (<a href="https://github.com/heygen-com/hyperframes/commit/4c8064d4d3d1ffe51a10b1c7eee79a49b2fc468f">4c8064d4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2022">#2022</a>)</li>
+<li><strong>Studio:</strong> Off-canvas indicators track live layout instead of going stale (<a href="https://github.com/heygen-com/hyperframes/commit/574da2b215b29cc3e8288551ce37e7a06cdaa194">574da2b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2018">#2018</a>)</li>
+<li><strong>Studio:</strong> Static-position drag no longer freezes an element beside an animated rotation (<a href="https://github.com/heygen-com/hyperframes/commit/5d59835446bb426def56a791d19a99a6ebe283d3">5d598354</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2016">#2016</a>)</li>
+<li><strong>Skills:</strong> Audit descriptions — trim routing prose, fix stale facts, add missing triggers (<a href="https://github.com/heygen-com/hyperframes/commit/306a291deaf8796cd2e9e34c406d707a7bdf3f7f">306a291d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1990">#1990</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine,producer:</strong> Adopt requestPaint contract, retire autoAlpha rewrite (<a href="https://github.com/heygen-com/hyperframes/commit/337d0b51bcd81184520b23259799d42aaa366ed2">337d0b51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2021">#2021</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.39...v0.7.40">https://github.com/heygen-com/hyperframes/compare/v0.7.39...v0.7.40</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.40</h1>
+<p>Released on 2026-07-07.</p>
+<p>The headline this release is a Studio timeline revamp: clips visible at the playhead are highlighted, tracks and individual elements can be hidden with a non-destructive <code>data-hidden</code> toggle that carries through to renders, and ruler zoom and gutter behavior are cleaner. It also fixes static-position dragging beside an animated rotation and keeps off-canvas indicators in sync with live layout.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Timeline revamp with active-clip highlighting and hide controls (<a href="https://github.com/heygen-com/hyperframes/commit/037266e72bd808491a82008ca2520299fecef381">037266e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2017">#2017</a>)</li>
+<li><strong>CLI:</strong> Associate signed-in HeyGen account with telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/3d8372f880a6739ee3e0beea484905d76e5ad3a9">3d8372f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2020">#2020</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Figma component import survives unrenderable nodes (<a href="https://github.com/heygen-com/hyperframes/commit/4c8064d4d3d1ffe51a10b1c7eee79a49b2fc468f">4c8064d4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2022">#2022</a>)</li>
+<li><strong>Studio:</strong> Off-canvas indicators track live layout instead of going stale (<a href="https://github.com/heygen-com/hyperframes/commit/574da2b215b29cc3e8288551ce37e7a06cdaa194">574da2b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2018">#2018</a>)</li>
+<li><strong>Studio:</strong> Static-position drag no longer freezes an element beside an animated rotation (<a href="https://github.com/heygen-com/hyperframes/commit/5d59835446bb426def56a791d19a99a6ebe283d3">5d598354</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2016">#2016</a>)</li>
+<li><strong>Skills:</strong> Audit descriptions — trim routing prose, fix stale facts, add missing triggers (<a href="https://github.com/heygen-com/hyperframes/commit/306a291deaf8796cd2e9e34c406d707a7bdf3f7f">306a291d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1990">#1990</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine,producer:</strong> Adopt requestPaint contract, retire autoAlpha rewrite (<a href="https://github.com/heygen-com/hyperframes/commit/337d0b51bcd81184520b23259799d42aaa366ed2">337d0b51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2021">#2021</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.39...v0.7.40">https://github.com/heygen-com/hyperframes/compare/v0.7.39...v0.7.40</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.39]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.39</link>
@@ -2141,68 +2191,6 @@ in source.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.112...v0.6.115">https://github.com/heygen-com/hyperframes/compare/v0.6.112...v0.6.115</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.114]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.114</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.114</guid>
-            <pubDate>Fri, 19 Jun 2026 11:40:56 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.114</h1>
-<p>Released on 2026-06-19.</p>
-<p>Adds slideshow support end-to-end: a player-side controller state machine and <code>&lt;hyperframes-slideshow&gt;</code> web component, a Studio branching-editor panel with manifest persistence, plus authoring-skill guidance and example decks.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Slideshow branching editor panel UI (<a href="https://github.com/heygen-com/hyperframes/commit/04a775b58a2e0272d294b4e6f2c7b1f4aed794cb">04a775b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1592">#1592</a>)</li>
-<li><strong>Studio:</strong> Slideshow manifest persistence + panel helpers (<a href="https://github.com/heygen-com/hyperframes/commit/b74020fa56ba4382d18f3ca23de349cf8c63e130">b74020fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1591">#1591</a>)</li>
-<li><strong>Player:</strong> <hyperframes-slideshow> web component + presenter (<a href="https://github.com/heygen-com/hyperframes/commit/075302cd0312e0c14f049d50f011c958140af540">075302cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1590">#1590</a>)</li>
-<li><strong>Player:</strong> Slideshow controller state machine (<a href="https://github.com/heygen-com/hyperframes/commit/6938d6acf2d8ee9a4b01fe541f38a9a8b00dc0c6">6938d6ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1589">#1589</a>)</li>
-<li><strong>Studio:</strong> Slideshow branching editor panel (<a href="https://github.com/heygen-com/hyperframes/commit/3861e8e9fc0f0b6660c31b3668bd71172aced38f">3861e8e9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1582">#1582</a>)</li>
-<li><strong>Player:</strong> Slideshow controller + <hyperframes-slideshow> component (<a href="https://github.com/heygen-com/hyperframes/commit/7af3eb8f80945e880138570d49aee585a5346e19">7af3eb8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1581">#1581</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Slideshow:</strong> Finish remaining split-PR review findings (<a href="https://github.com/heygen-com/hyperframes/commit/f05b3f9c7c07a08cbe917f1293fe31e3b0e9f9d6">f05b3f9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1594">#1594</a>)</li>
-<li><strong>Slideshow:</strong> Address code-review findings #1580-1584 (<a href="https://github.com/heygen-com/hyperframes/commit/cc2220e59ec7e0b48c0991445ca0857d3ac752d3">cc2220e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1585">#1585</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skill:</strong> Slideshow authoring guidance + standalone harness reference (<a href="https://github.com/heygen-com/hyperframes/commit/b7a1163753adc7efff0f15ba79ef0caaf0f06aa4">b7a11637</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1583">#1583</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Examples:</strong> Slideshow demos — airbnb deck, startup pitch, fixture (<a href="https://github.com/heygen-com/hyperframes/commit/ae40498433de266999031d8230a232f89f4a9cad">ae404984</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1584">#1584</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.113...v0.6.114">https://github.com/heygen-com/hyperframes/compare/v0.6.113...v0.6.114</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.114</h1>
-<p>Released on 2026-06-19.</p>
-<p>Adds slideshow support end-to-end: a player-side controller state machine and <code>&lt;hyperframes-slideshow&gt;</code> web component, a Studio branching-editor panel with manifest persistence, plus authoring-skill guidance and example decks.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Slideshow branching editor panel UI (<a href="https://github.com/heygen-com/hyperframes/commit/04a775b58a2e0272d294b4e6f2c7b1f4aed794cb">04a775b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1592">#1592</a>)</li>
-<li><strong>Studio:</strong> Slideshow manifest persistence + panel helpers (<a href="https://github.com/heygen-com/hyperframes/commit/b74020fa56ba4382d18f3ca23de349cf8c63e130">b74020fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1591">#1591</a>)</li>
-<li><strong>Player:</strong> <hyperframes-slideshow> web component + presenter (<a href="https://github.com/heygen-com/hyperframes/commit/075302cd0312e0c14f049d50f011c958140af540">075302cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1590">#1590</a>)</li>
-<li><strong>Player:</strong> Slideshow controller state machine (<a href="https://github.com/heygen-com/hyperframes/commit/6938d6acf2d8ee9a4b01fe541f38a9a8b00dc0c6">6938d6ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1589">#1589</a>)</li>
-<li><strong>Studio:</strong> Slideshow branching editor panel (<a href="https://github.com/heygen-com/hyperframes/commit/3861e8e9fc0f0b6660c31b3668bd71172aced38f">3861e8e9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1582">#1582</a>)</li>
-<li><strong>Player:</strong> Slideshow controller + <hyperframes-slideshow> component (<a href="https://github.com/heygen-com/hyperframes/commit/7af3eb8f80945e880138570d49aee585a5346e19">7af3eb8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1581">#1581</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Slideshow:</strong> Finish remaining split-PR review findings (<a href="https://github.com/heygen-com/hyperframes/commit/f05b3f9c7c07a08cbe917f1293fe31e3b0e9f9d6">f05b3f9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1594">#1594</a>)</li>
-<li><strong>Slideshow:</strong> Address code-review findings #1580-1584 (<a href="https://github.com/heygen-com/hyperframes/commit/cc2220e59ec7e0b48c0991445ca0857d3ac752d3">cc2220e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1585">#1585</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skill:</strong> Slideshow authoring guidance + standalone harness reference (<a href="https://github.com/heygen-com/hyperframes/commit/b7a1163753adc7efff0f15ba79ef0caaf0f06aa4">b7a11637</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1583">#1583</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Examples:</strong> Slideshow demos — airbnb deck, startup pitch, fixture (<a href="https://github.com/heygen-com/hyperframes/commit/ae40498433de266999031d8230a232f89f4a9cad">ae404984</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1584">#1584</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.113...v0.6.114">https://github.com/heygen-com/hyperframes/compare/v0.6.113...v0.6.114</a></p>
 ]]></content:encoded>
         </item>
     </channel>
