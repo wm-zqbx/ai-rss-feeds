@@ -4,11 +4,113 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 08 Jul 2026 00:00:11 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Jul 2026 23:12:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.43]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.43</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.43</guid>
+            <pubDate>Wed, 08 Jul 2026 23:12:17 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.43</h1>
+<p>Released on 2026-07-08.</p>
+<p>Chrome/drawElement fast-capture reliability fixes, a new GSAP lint rule catching text-reflow layout thrash, and creation-skill briefs that lead with mode and value instead of generic scaffolding.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Mode-first briefs, value-first storyboards, and destination defaults across creation workflows (<a href="https://github.com/heygen-com/hyperframes/commit/17b852784bf3922a42b3aa9801db647423073a13">17b852784</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2058">#2058</a>)</li>
+<li><strong>Media Use:</strong> Resolve official brand logos via a four-tier cascade (<a href="https://github.com/heygen-com/hyperframes/commit/4d3cdc3e4bb952a926b466561ed9c96540e10f20">4d3cdc3e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2061">#2061</a>)</li>
+<li><strong>Lint:</strong> Flag text-reflow props in gsap_non_transform_motion (<a href="https://github.com/heygen-com/hyperframes/commit/082280e8de2cc68e0943b4cae755b465aa41547f">082280e8d</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Cli,engine:</strong> Close review gaps in Chrome resolution fix (<a href="https://github.com/heygen-com/hyperframes/commit/5f9ee0b67829ac1430ae04be6011edb355ef4ac5">5f9ee0b67</a>)</li>
+<li><strong>Engine,cli:</strong> Resolve drawElement to a Chrome build that actually has it (<a href="https://github.com/heygen-com/hyperframes/commit/8854bad8f96623584199f913a0e06c867b4b6fe1">8854bad8f</a>)</li>
+<li><strong>CLI:</strong> Report unknown-flag errors + cover nested subcommands (HF#2033) [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/38b27c4d820d3e49b2a5a14ef00629fff7ea59a7">38b27c4d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2072">#2072</a>)</li>
+<li><strong>Producer:</strong> Scope per-instance variables for repeated sub-composition mounts (<a href="https://github.com/heygen-com/hyperframes/commit/5ebc5bb10f4895375a5fa5e4976f80cf920a773e">5ebc5bb10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2070">#2070</a>)</li>
+<li><strong>CLI:</strong> Contrast audit reads an element&#39;s own opaque background (<a href="https://github.com/heygen-com/hyperframes/commit/701ae9e9b90d93667503f75e4107c3c96dbaf6c9">701ae9e9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1975">#1975</a>)</li>
+<li><strong>CLI:</strong> Add --no-clipboard no longer throws &quot;Unknown flag: --clipboard&quot; (<a href="https://github.com/heygen-com/hyperframes/commit/e0183182253c34631bee2388c7df4abe28cacc7d">e01831822</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2067">#2067</a>)</li>
+<li><strong>CLI:</strong> Warn when a WebM render silently drops its alpha channel [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/f5f94a949524c804b1961da2471689c8ce6e60c0">f5f94a949</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2044">#2044</a>)</li>
+<li><strong>Engine:</strong> Resolve relative data-start references for audio tracks (<a href="https://github.com/heygen-com/hyperframes/commit/6f8bf5f364e5044a383f603b451fca2e00c15c6c">6f8bf5f36</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2062">#2062</a>)</li>
+<li><strong>Engine:</strong> Inject sub-composition variables on the render path (<a href="https://github.com/heygen-com/hyperframes/commit/41ad5b46906689fd800132bb869306026e29517e">41ad5b469</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2066">#2066</a>)</li>
+<li><strong>Cli,skills:</strong> Install workflow skills on demand instead of re-pulling the full set (<a href="https://github.com/heygen-com/hyperframes/commit/81884a74956fbf7d2666795422f325d78266e1aa">81884a749</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2012">#2012</a>)</li>
+<li><strong>Core:</strong> Address PR feedback — ReDoS-safe slug trim, getVariables cleanups (<a href="https://github.com/heygen-com/hyperframes/commit/d9368ec051a151dc377ec2daa98d7372ab4a1e86">d9368ec05</a>)</li>
+<li><strong>Core,producer:</strong> Composition CSS variables reach the render path at eval time (<a href="https://github.com/heygen-com/hyperframes/commit/e2c88ef689a11fb293934907d36c93584c57d083">e2c88ef68</a>)</li>
+<li><strong>Core,cli,lint:</strong> Close the figma brand-token loop — runtime CSS variables, --name, snippet lint (<a href="https://github.com/heygen-com/hyperframes/commit/def276524bc786625fce17f130e5b350996f1f4f">def276524</a>)</li>
+<li><strong>Media Use:</strong> Explain the codex alias-vs-PATH gotcha in the unavailable message (<a href="https://github.com/heygen-com/hyperframes/commit/80271863d34523e956e15f514ddfe85e75fa533a">80271863d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2042">#2042</a>)</li>
+<li><strong>CLI:</strong> Pin arm64 render Chromium to Playwright headless-shell (#2039) (<a href="https://github.com/heygen-com/hyperframes/commit/cebce603dfa5f24d65d82b98dc1698f7ea1fd48d">cebce603d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2040">#2040</a>)</li>
+<li><strong>Producer:</strong> Suppress GSAP call side effects during render seeks (<a href="https://github.com/heygen-com/hyperframes/commit/5b9b71df258f239a841542c92dd799126655eb05">5b9b71df2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2037">#2037</a>)</li>
+<li><strong>Ci:</strong> Format migrated comps with oxfmt, sync skills manifest (<a href="https://github.com/heygen-com/hyperframes/commit/b95f2ca25e46ac12468ca11efcaf51068de607ae">b95f2ca25</a>)</li>
+<li><strong>Lint:</strong> Catch fromTo from-object layout/reflow props in gsap_non_transform_motion (<a href="https://github.com/heygen-com/hyperframes/commit/189d8582f46d74083982a0408fd0f9d973aebf56">189d8582f</a>)</li>
+<li><strong>Lint,skills:</strong> Make the reflow-prop fix faithful, not a lossy scale swap (<a href="https://github.com/heygen-com/hyperframes/commit/6e21072f442791339f9af904d34fe4bd129e4d1f">6e21072f4</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>CLI:</strong> Fix render examples that pass a file as the project dir [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/ab129023de03f4d98f3bb4ad01c2aeb60da21e50">ab129023d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1974">#1974</a>)</li>
+<li>Add modal deployment template to deploy guide (<a href="https://github.com/heygen-com/hyperframes/commit/bb423dd217f92767962a39a25b14d42b0b612dee">bb423dd21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2069">#2069</a>)</li>
+<li><strong>Skills:</strong> Teach transforms-over-layout-props up front (<a href="https://github.com/heygen-com/hyperframes/commit/58f7dc1c724b0ef432f1e92b1eab2c2ae5d3d0e1">58f7dc1c7</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Lint:</strong> Add gsap_non_transform_motion rule, migrate registry comps to transforms (<a href="https://github.com/heygen-com/hyperframes/commit/619a603eabd7d0e3b7ee7b32297e6667acd7ecc5">619a603ea</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills,lint:</strong> Migrate kinetic-letter-in off letterSpacing; document rule design (<a href="https://github.com/heygen-com/hyperframes/commit/1c0eef835f3c30ccae4908b26498e2f7f462c64a">1c0eef835</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43">https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.43</h1>
+<p>Released on 2026-07-08.</p>
+<p>Chrome/drawElement fast-capture reliability fixes, a new GSAP lint rule catching text-reflow layout thrash, and creation-skill briefs that lead with mode and value instead of generic scaffolding.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Mode-first briefs, value-first storyboards, and destination defaults across creation workflows (<a href="https://github.com/heygen-com/hyperframes/commit/17b852784bf3922a42b3aa9801db647423073a13">17b852784</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2058">#2058</a>)</li>
+<li><strong>Media Use:</strong> Resolve official brand logos via a four-tier cascade (<a href="https://github.com/heygen-com/hyperframes/commit/4d3cdc3e4bb952a926b466561ed9c96540e10f20">4d3cdc3e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2061">#2061</a>)</li>
+<li><strong>Lint:</strong> Flag text-reflow props in gsap_non_transform_motion (<a href="https://github.com/heygen-com/hyperframes/commit/082280e8de2cc68e0943b4cae755b465aa41547f">082280e8d</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Cli,engine:</strong> Close review gaps in Chrome resolution fix (<a href="https://github.com/heygen-com/hyperframes/commit/5f9ee0b67829ac1430ae04be6011edb355ef4ac5">5f9ee0b67</a>)</li>
+<li><strong>Engine,cli:</strong> Resolve drawElement to a Chrome build that actually has it (<a href="https://github.com/heygen-com/hyperframes/commit/8854bad8f96623584199f913a0e06c867b4b6fe1">8854bad8f</a>)</li>
+<li><strong>CLI:</strong> Report unknown-flag errors + cover nested subcommands (HF#2033) [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/38b27c4d820d3e49b2a5a14ef00629fff7ea59a7">38b27c4d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2072">#2072</a>)</li>
+<li><strong>Producer:</strong> Scope per-instance variables for repeated sub-composition mounts (<a href="https://github.com/heygen-com/hyperframes/commit/5ebc5bb10f4895375a5fa5e4976f80cf920a773e">5ebc5bb10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2070">#2070</a>)</li>
+<li><strong>CLI:</strong> Contrast audit reads an element&#39;s own opaque background (<a href="https://github.com/heygen-com/hyperframes/commit/701ae9e9b90d93667503f75e4107c3c96dbaf6c9">701ae9e9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1975">#1975</a>)</li>
+<li><strong>CLI:</strong> Add --no-clipboard no longer throws &quot;Unknown flag: --clipboard&quot; (<a href="https://github.com/heygen-com/hyperframes/commit/e0183182253c34631bee2388c7df4abe28cacc7d">e01831822</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2067">#2067</a>)</li>
+<li><strong>CLI:</strong> Warn when a WebM render silently drops its alpha channel [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/f5f94a949524c804b1961da2471689c8ce6e60c0">f5f94a949</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2044">#2044</a>)</li>
+<li><strong>Engine:</strong> Resolve relative data-start references for audio tracks (<a href="https://github.com/heygen-com/hyperframes/commit/6f8bf5f364e5044a383f603b451fca2e00c15c6c">6f8bf5f36</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2062">#2062</a>)</li>
+<li><strong>Engine:</strong> Inject sub-composition variables on the render path (<a href="https://github.com/heygen-com/hyperframes/commit/41ad5b46906689fd800132bb869306026e29517e">41ad5b469</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2066">#2066</a>)</li>
+<li><strong>Cli,skills:</strong> Install workflow skills on demand instead of re-pulling the full set (<a href="https://github.com/heygen-com/hyperframes/commit/81884a74956fbf7d2666795422f325d78266e1aa">81884a749</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2012">#2012</a>)</li>
+<li><strong>Core:</strong> Address PR feedback — ReDoS-safe slug trim, getVariables cleanups (<a href="https://github.com/heygen-com/hyperframes/commit/d9368ec051a151dc377ec2daa98d7372ab4a1e86">d9368ec05</a>)</li>
+<li><strong>Core,producer:</strong> Composition CSS variables reach the render path at eval time (<a href="https://github.com/heygen-com/hyperframes/commit/e2c88ef689a11fb293934907d36c93584c57d083">e2c88ef68</a>)</li>
+<li><strong>Core,cli,lint:</strong> Close the figma brand-token loop — runtime CSS variables, --name, snippet lint (<a href="https://github.com/heygen-com/hyperframes/commit/def276524bc786625fce17f130e5b350996f1f4f">def276524</a>)</li>
+<li><strong>Media Use:</strong> Explain the codex alias-vs-PATH gotcha in the unavailable message (<a href="https://github.com/heygen-com/hyperframes/commit/80271863d34523e956e15f514ddfe85e75fa533a">80271863d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2042">#2042</a>)</li>
+<li><strong>CLI:</strong> Pin arm64 render Chromium to Playwright headless-shell (#2039) (<a href="https://github.com/heygen-com/hyperframes/commit/cebce603dfa5f24d65d82b98dc1698f7ea1fd48d">cebce603d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2040">#2040</a>)</li>
+<li><strong>Producer:</strong> Suppress GSAP call side effects during render seeks (<a href="https://github.com/heygen-com/hyperframes/commit/5b9b71df258f239a841542c92dd799126655eb05">5b9b71df2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2037">#2037</a>)</li>
+<li><strong>Ci:</strong> Format migrated comps with oxfmt, sync skills manifest (<a href="https://github.com/heygen-com/hyperframes/commit/b95f2ca25e46ac12468ca11efcaf51068de607ae">b95f2ca25</a>)</li>
+<li><strong>Lint:</strong> Catch fromTo from-object layout/reflow props in gsap_non_transform_motion (<a href="https://github.com/heygen-com/hyperframes/commit/189d8582f46d74083982a0408fd0f9d973aebf56">189d8582f</a>)</li>
+<li><strong>Lint,skills:</strong> Make the reflow-prop fix faithful, not a lossy scale swap (<a href="https://github.com/heygen-com/hyperframes/commit/6e21072f442791339f9af904d34fe4bd129e4d1f">6e21072f4</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>CLI:</strong> Fix render examples that pass a file as the project dir [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/ab129023de03f4d98f3bb4ad01c2aeb60da21e50">ab129023d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1974">#1974</a>)</li>
+<li>Add modal deployment template to deploy guide (<a href="https://github.com/heygen-com/hyperframes/commit/bb423dd217f92767962a39a25b14d42b0b612dee">bb423dd21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2069">#2069</a>)</li>
+<li><strong>Skills:</strong> Teach transforms-over-layout-props up front (<a href="https://github.com/heygen-com/hyperframes/commit/58f7dc1c724b0ef432f1e92b1eab2c2ae5d3d0e1">58f7dc1c7</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Lint:</strong> Add gsap_non_transform_motion rule, migrate registry comps to transforms (<a href="https://github.com/heygen-com/hyperframes/commit/619a603eabd7d0e3b7ee7b32297e6667acd7ecc5">619a603ea</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills,lint:</strong> Migrate kinetic-letter-in off letterSpacing; document rule design (<a href="https://github.com/heygen-com/hyperframes/commit/1c0eef835f3c30ccae4908b26498e2f7f462c64a">1c0eef835</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43">https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.42]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.42</link>
@@ -2121,38 +2223,6 @@ global mute, editable speaker notes, and first-load navigation chrome in sync.</
 <li>fix: allow standalone timeline rendering by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1617">https://github.com/heygen-com/hyperframes/pull/1617</a></li>
 </ul>
 <p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118">https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.117]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.117</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.117</guid>
-            <pubDate>Sat, 20 Jun 2026 22:08:30 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.117</h1>
-<p>Released on 2026-06-20.</p>
-<p>This hotfix restores the published <code>@hyperframes/core</code> subpath contract used by Studio,
-SDK, and CLI consumers. Installed packages can now resolve the <code>beats</code>, <code>storyboard</code>,
-HTML attribute safety, package metadata, and clip tree entry points that already existed
-in source.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Publish missing subpath exports (<a href="https://github.com/heygen-com/hyperframes/commit/960690e8e5b64d9cd10c815819e1bf7b010970cd">960690e8e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1616">#1616</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.116...v0.6.117">https://github.com/heygen-com/hyperframes/compare/v0.6.116...v0.6.117</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.117</h1>
-<p>Released on 2026-06-20.</p>
-<p>This hotfix restores the published <code>@hyperframes/core</code> subpath contract used by Studio,
-SDK, and CLI consumers. Installed packages can now resolve the <code>beats</code>, <code>storyboard</code>,
-HTML attribute safety, package metadata, and clip tree entry points that already existed
-in source.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Publish missing subpath exports (<a href="https://github.com/heygen-com/hyperframes/commit/960690e8e5b64d9cd10c815819e1bf7b010970cd">960690e8e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1616">#1616</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.116...v0.6.117">https://github.com/heygen-com/hyperframes/compare/v0.6.116...v0.6.117</a></p>
 ]]></content:encoded>
         </item>
     </channel>
