@@ -4,11 +4,57 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 09 Jul 2026 01:46:14 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 05:19:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.45]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.45</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.45</guid>
+            <pubDate>Thu, 09 Jul 2026 05:19:50 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.45</h1>
+<p>Released on 2026-07-09.</p>
+<p>SDK gains three exports (<code>getRootElements</code>, <code>isNewHostBoundary</code>, <code>bareId</code>) and a <code>serialize({ stripRuntime })</code> option, plus a fix for <code>data-start</code> relative-timing references that used to silently resolve to 0. Studio&#39;s storyboard, crop tool, and color grading also land this release.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Sdk:</strong> Export getRootElements/isNewHostBoundary/bareId, fix relative data-start (<a href="https://github.com/heygen-com/hyperframes/commit/c1b8815cb2d9f7299a12255bf74604f9f872c9b3">c1b8815cb</a>)</li>
+<li><strong>Studio:</strong> Storyboard empty state with agent copy-prompt and skeleton preview (<a href="https://github.com/heygen-com/hyperframes/commit/0ac000181e5809a27ea0e6b40cdfaffb6f4f8699">0ac000181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2091">#2091</a>)</li>
+<li><strong>Studio:</strong> Always-on crop with reposition handle, drop crop mode (<a href="https://github.com/heygen-com/hyperframes/commit/623f91d6a1ccacc7f7834b5efa251c44b79f35a2">623f91d6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2090">#2090</a>)</li>
+<li><strong>Media Use:</strong> Color grading — grade/lut resolve, smart-grade, grade-compare + compare (<a href="https://github.com/heygen-com/hyperframes/commit/57b3c7898783d8baec71cc55f39cee553a6f2534">57b3c7898</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2041">#2041</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Sdk:</strong> Address review feedback on getRootElements/serialize/getElementTimings PR (<a href="https://github.com/heygen-com/hyperframes/commit/4fb6068fa1512901882f87c71b6e6a0fcea476eb">4fb6068fa</a>)</li>
+<li><strong>CLI:</strong> Map zh to espeak-ng&#39;s cmn for Kokoro TTS synthesis (<a href="https://github.com/heygen-com/hyperframes/commit/995db68ad08462f3e6f7eae5ae0d3e0b47af8dd0">995db68ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2094">#2094</a>)</li>
+<li><strong>Core:</strong> Scope sub-composition html/body styles to the composition box (<a href="https://github.com/heygen-com/hyperframes/commit/6f0b57d60875945d7ec5dd4887b50ca5bf94ef3f">6f0b57d60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2089">#2089</a>)</li>
+<li><strong>CLI:</strong> Map ggml model stem to whisper.cpp dotted DTW preset (fixes large-v3) (<a href="https://github.com/heygen-com/hyperframes/commit/8e04d0196945c5173923fb72ecc665d40d122adb">8e04d0196</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2086">#2086</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45">https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.45</h1>
+<p>Released on 2026-07-09.</p>
+<p>SDK gains three exports (<code>getRootElements</code>, <code>isNewHostBoundary</code>, <code>bareId</code>) and a <code>serialize({ stripRuntime })</code> option, plus a fix for <code>data-start</code> relative-timing references that used to silently resolve to 0. Studio&#39;s storyboard, crop tool, and color grading also land this release.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Sdk:</strong> Export getRootElements/isNewHostBoundary/bareId, fix relative data-start (<a href="https://github.com/heygen-com/hyperframes/commit/c1b8815cb2d9f7299a12255bf74604f9f872c9b3">c1b8815cb</a>)</li>
+<li><strong>Studio:</strong> Storyboard empty state with agent copy-prompt and skeleton preview (<a href="https://github.com/heygen-com/hyperframes/commit/0ac000181e5809a27ea0e6b40cdfaffb6f4f8699">0ac000181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2091">#2091</a>)</li>
+<li><strong>Studio:</strong> Always-on crop with reposition handle, drop crop mode (<a href="https://github.com/heygen-com/hyperframes/commit/623f91d6a1ccacc7f7834b5efa251c44b79f35a2">623f91d6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2090">#2090</a>)</li>
+<li><strong>Media Use:</strong> Color grading — grade/lut resolve, smart-grade, grade-compare + compare (<a href="https://github.com/heygen-com/hyperframes/commit/57b3c7898783d8baec71cc55f39cee553a6f2534">57b3c7898</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2041">#2041</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Sdk:</strong> Address review feedback on getRootElements/serialize/getElementTimings PR (<a href="https://github.com/heygen-com/hyperframes/commit/4fb6068fa1512901882f87c71b6e6a0fcea476eb">4fb6068fa</a>)</li>
+<li><strong>CLI:</strong> Map zh to espeak-ng&#39;s cmn for Kokoro TTS synthesis (<a href="https://github.com/heygen-com/hyperframes/commit/995db68ad08462f3e6f7eae5ae0d3e0b47af8dd0">995db68ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2094">#2094</a>)</li>
+<li><strong>Core:</strong> Scope sub-composition html/body styles to the composition box (<a href="https://github.com/heygen-com/hyperframes/commit/6f0b57d60875945d7ec5dd4887b50ca5bf94ef3f">6f0b57d60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2089">#2089</a>)</li>
+<li><strong>CLI:</strong> Map ggml model stem to whisper.cpp dotted DTW preset (fixes large-v3) (<a href="https://github.com/heygen-com/hyperframes/commit/8e04d0196945c5173923fb72ecc665d40d122adb">8e04d0196</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2086">#2086</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45">https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.44]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.44</link>
@@ -2221,36 +2267,6 @@ correctly and final-scene content remains visible through the end of the render.
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.119...v0.6.120">https://github.com/heygen-com/hyperframes/compare/v0.6.119...v0.6.120</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.119]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.119</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.119</guid>
-            <pubDate>Sun, 21 Jun 2026 08:05:40 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.119</h1>
-<p>Released on 2026-06-21.</p>
-<p>This hotfix makes slideshow presenter decks more reliable when they contain interactive
-media. Presenter and audience views now keep media controls, muted autoplay fallback,
-global mute, editable speaker notes, and first-load navigation chrome in sync.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Slideshow:</strong> Harden media controls in present decks (<a href="https://github.com/heygen-com/hyperframes/commit/341e65aea2773235d2cd3482846bcd6ed7d24638">341e65aea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1619">#1619</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119">https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.119</h1>
-<p>Released on 2026-06-21.</p>
-<p>This hotfix makes slideshow presenter decks more reliable when they contain interactive
-media. Presenter and audience views now keep media controls, muted autoplay fallback,
-global mute, editable speaker notes, and first-load navigation chrome in sync.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Slideshow:</strong> Harden media controls in present decks (<a href="https://github.com/heygen-com/hyperframes/commit/341e65aea2773235d2cd3482846bcd6ed7d24638">341e65aea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1619">#1619</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119">https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119</a></p>
 ]]></content:encoded>
         </item>
     </channel>
