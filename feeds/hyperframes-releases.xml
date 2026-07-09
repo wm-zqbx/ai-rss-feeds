@@ -4,11 +4,63 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 08 Jul 2026 23:12:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jul 2026 01:46:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.44]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.44</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.44</guid>
+            <pubDate>Thu, 09 Jul 2026 01:46:14 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.44</h1>
+<p>Released on 2026-07-08.</p>
+<p>Opt-in verified interleaved parallel drawElement streaming, plus fail-fast sub-composition timeline waits and Chrome-cache resolution fixes carried over from PR review.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine,producer:</strong> Verified interleaved parallel drawElement streaming (opt-in) (<a href="https://github.com/heygen-com/hyperframes/commit/b3493a7b61cd3d07e7ce5de690c3cae7859e91be">b3493a7b6</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine,producer:</strong> Fix quadratic dedup rescan, correct race justification (<a href="https://github.com/heygen-com/hyperframes/commit/381887541f9513661666877f67335cc489ab5273">381887541</a>)</li>
+<li><strong>Engine,producer:</strong> Close review gaps in parallel drawElement streaming (<a href="https://github.com/heygen-com/hyperframes/commit/2dbe958a49baa08319d091d36795edd51afc3988">2dbe958a4</a>)</li>
+<li><strong>CLI:</strong> Check buildId when resolving the managed Chrome cache (<a href="https://github.com/heygen-com/hyperframes/commit/df1d20b7659df7858e1c8324e84cb88fa8124af0">df1d20b76</a>)</li>
+<li><strong>Engine:</strong> Log composition-id attribution on script-failure bail too (<a href="https://github.com/heygen-com/hyperframes/commit/8fee20a52543dc961983d5e31d3b44125c944416">8fee20a52</a>)</li>
+<li><strong>Engine,producer,cli:</strong> Close review gaps in sub-timeline fail-fast (<a href="https://github.com/heygen-com/hyperframes/commit/8ba3c339156c9d96dd08407019b550191851e5e5">8ba3c3391</a>)</li>
+<li><strong>Engine:</strong> Fail-fast the sub-composition timeline wait when a script 404s (<a href="https://github.com/heygen-com/hyperframes/commit/54359f3d6ad45a99c359c8d92a59795fbdc60052">54359f3d6</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Producer:</strong> Disambiguate compositor frame scheduling from the beginframe capture mode (<a href="https://github.com/heygen-com/hyperframes/commit/81a4f04360cf71ce67daa8eefe55d998eb375ab1">81a4f0436</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.43...v0.7.44">https://github.com/heygen-com/hyperframes/compare/v0.7.43...v0.7.44</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.44</h1>
+<p>Released on 2026-07-08.</p>
+<p>Opt-in verified interleaved parallel drawElement streaming, plus fail-fast sub-composition timeline waits and Chrome-cache resolution fixes carried over from PR review.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine,producer:</strong> Verified interleaved parallel drawElement streaming (opt-in) (<a href="https://github.com/heygen-com/hyperframes/commit/b3493a7b61cd3d07e7ce5de690c3cae7859e91be">b3493a7b6</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine,producer:</strong> Fix quadratic dedup rescan, correct race justification (<a href="https://github.com/heygen-com/hyperframes/commit/381887541f9513661666877f67335cc489ab5273">381887541</a>)</li>
+<li><strong>Engine,producer:</strong> Close review gaps in parallel drawElement streaming (<a href="https://github.com/heygen-com/hyperframes/commit/2dbe958a49baa08319d091d36795edd51afc3988">2dbe958a4</a>)</li>
+<li><strong>CLI:</strong> Check buildId when resolving the managed Chrome cache (<a href="https://github.com/heygen-com/hyperframes/commit/df1d20b7659df7858e1c8324e84cb88fa8124af0">df1d20b76</a>)</li>
+<li><strong>Engine:</strong> Log composition-id attribution on script-failure bail too (<a href="https://github.com/heygen-com/hyperframes/commit/8fee20a52543dc961983d5e31d3b44125c944416">8fee20a52</a>)</li>
+<li><strong>Engine,producer,cli:</strong> Close review gaps in sub-timeline fail-fast (<a href="https://github.com/heygen-com/hyperframes/commit/8ba3c339156c9d96dd08407019b550191851e5e5">8ba3c3391</a>)</li>
+<li><strong>Engine:</strong> Fail-fast the sub-composition timeline wait when a script 404s (<a href="https://github.com/heygen-com/hyperframes/commit/54359f3d6ad45a99c359c8d92a59795fbdc60052">54359f3d6</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Producer:</strong> Disambiguate compositor frame scheduling from the beginframe capture mode (<a href="https://github.com/heygen-com/hyperframes/commit/81a4f04360cf71ce67daa8eefe55d998eb375ab1">81a4f0436</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.43...v0.7.44">https://github.com/heygen-com/hyperframes/compare/v0.7.43...v0.7.44</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.43]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.43</link>
@@ -2199,30 +2251,6 @@ global mute, editable speaker notes, and first-load navigation chrome in sync.</
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119">https://github.com/heygen-com/hyperframes/compare/v0.6.118...v0.6.119</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.118]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.118</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.118</guid>
-            <pubDate>Sat, 20 Jun 2026 22:26:23 GMT</pubDate>
-            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.118 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>fix: allow standalone timeline rendering by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1617">https://github.com/heygen-com/hyperframes/pull/1617</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118">https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118</a></p>
-]]></description>
-            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.6.118 -->
-
-<h2>What&#39;s Changed</h2>
-<h3>Other Changes</h3>
-<ul>
-<li>fix: allow standalone timeline rendering by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/1617">https://github.com/heygen-com/hyperframes/pull/1617</a></li>
-</ul>
-<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118">https://github.com/heygen-com/hyperframes/compare/v0.6.117...v0.6.118</a></p>
 ]]></content:encoded>
         </item>
     </channel>
