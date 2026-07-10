@@ -4,11 +4,89 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 10 Jul 2026 17:10:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 22:52:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.50]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.50</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.50</guid>
+            <pubDate>Fri, 10 Jul 2026 22:52:22 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.50</h1>
+<p>Released on 2026-07-10.</p>
+<p>This release makes <code>hyperframes check</code> the canonical verification gate: one command, one browser session covering lint, runtime errors, layout, motion intent, and WCAG contrast, with agent-actionable findings (source anchors, contrast fix suggestions) and snapshot evidence via annotated frames and per-finding crops. <code>validate</code>, <code>inspect</code>, and <code>layout</code> are deprecated but fully functional; <code>snapshot</code> gains <code>--zoom</code> for high-density crops of any element or region.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> --frame-check accepts a severity/seek/tol spec (<a href="https://github.com/heygen-com/hyperframes/commit/659cb6a23605546e93e95977315f473c86d0f8fe">659cb6a23</a>)</li>
+<li><strong>CLI:</strong> Persistence-tiered findings, frozen-sweep guard, occlusion coverage (<a href="https://github.com/heygen-com/hyperframes/commit/94f6de8b8d57bbbadb5032905584881c7b3eaad8">94f6de8b8</a>)</li>
+<li><strong>CLI:</strong> Snapshot --zoom and per-finding crops on check --snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/f4cef54b8bde538b9a470f4bcee35f989ef3c71a">f4cef54b8</a>)</li>
+<li><strong>CLI:</strong> Deprecate validate, inspect, layout in favor of check (<a href="https://github.com/heygen-com/hyperframes/commit/58f45ef75871045ea9a5ae7fb7229e4f641336be">58f45ef75</a>)</li>
+<li><strong>CLI:</strong> Run-ID telemetry correlation and check breakdown event (<a href="https://github.com/heygen-com/hyperframes/commit/3a02942a03edd42ffde353e1e1d9331a045283c0">3a02942a0</a>)</li>
+<li><strong>CLI:</strong> Caption-zone and frame-check gates on check (<a href="https://github.com/heygen-com/hyperframes/commit/7ab6c2b7a2611a25a613fa41ee4d3b2efbf3be53">7ab6c2b7a</a>)</li>
+<li><strong>CLI:</strong> Add check — single-session verification gate (<a href="https://github.com/heygen-com/hyperframes/commit/7d6d41361bbf9db633dd061747d39ce24b326269">7d6d41361</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Address review — clip-duration audit in check, failure classing, crop observability (<a href="https://github.com/heygen-com/hyperframes/commit/67cdf0fdb795984addb0cf3588a1678db107bd08">67cdf0fdb</a>)</li>
+<li><strong>Core:</strong> Preserve playhead during volume probing (<a href="https://github.com/heygen-com/hyperframes/commit/16ab8b2935fb3ab6f8746ae1742ec757f064375e">16ab8b293</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2143">#2143</a>)</li>
+<li>Escape NUL bytes in HFMASK regex (Bun blank renders) + Windows junction for studio preview links (<a href="https://github.com/heygen-com/hyperframes/commit/718c67b387a00d3240dda53911b883ff6a5b4da1">718c67b38</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2140">#2140</a>)</li>
+<li><strong>CLI:</strong> Page closures survive keepNames transpilation; format motion-blur (<a href="https://github.com/heygen-com/hyperframes/commit/2ceb0683a8c1e515867cc159621b1d32510f2230">2ceb0683a</a>)</li>
+<li><strong>CLI:</strong> Contrast gate judges only readable content; examples pass check (<a href="https://github.com/heygen-com/hyperframes/commit/4b03866c02801bdc755f4ae7fd86e40b051b60d2">4b03866c0</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Cli,skills:</strong> Teach check as the canonical verification gate (<a href="https://github.com/heygen-com/hyperframes/commit/cf7c1d7609cb7816eaaa5e6651d53dd3873de162">cf7c1d760</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Type the guard test&#39;s mock so the full typecheck passes (<a href="https://github.com/heygen-com/hyperframes/commit/96cb5e39dd1accb764bf52648ad55116fd29998b">96cb5e39d</a>)</li>
+<li><strong>CLI:</strong> Import the page-function guard in its new unit test (<a href="https://github.com/heygen-com/hyperframes/commit/c169dbaa54fe1eda6bd4e34fa8181d221c054ece">c169dbaa5</a>)</li>
+<li><strong>CLI:</strong> Single-source-of-truth pass over the check branch (<a href="https://github.com/heygen-com/hyperframes/commit/cea34580160da6164bf75c679d9df8e76a063211">cea345801</a>)</li>
+<li><strong>Examples:</strong> Mark product-promo cursor and comment layering intentional (<a href="https://github.com/heygen-com/hyperframes/commit/b218ee744397a0f27eb16586db9c7691049903e7">b218ee744</a>)</li>
+<li><strong>CLI:</strong> Unify seek/settle and Chrome launch across browser commands (<a href="https://github.com/heygen-com/hyperframes/commit/feb256df8adf02a7aa26ebd791a9d939485c5dce">feb256df8</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.49...v0.7.50">https://github.com/heygen-com/hyperframes/compare/v0.7.49...v0.7.50</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.50</h1>
+<p>Released on 2026-07-10.</p>
+<p>This release makes <code>hyperframes check</code> the canonical verification gate: one command, one browser session covering lint, runtime errors, layout, motion intent, and WCAG contrast, with agent-actionable findings (source anchors, contrast fix suggestions) and snapshot evidence via annotated frames and per-finding crops. <code>validate</code>, <code>inspect</code>, and <code>layout</code> are deprecated but fully functional; <code>snapshot</code> gains <code>--zoom</code> for high-density crops of any element or region.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> --frame-check accepts a severity/seek/tol spec (<a href="https://github.com/heygen-com/hyperframes/commit/659cb6a23605546e93e95977315f473c86d0f8fe">659cb6a23</a>)</li>
+<li><strong>CLI:</strong> Persistence-tiered findings, frozen-sweep guard, occlusion coverage (<a href="https://github.com/heygen-com/hyperframes/commit/94f6de8b8d57bbbadb5032905584881c7b3eaad8">94f6de8b8</a>)</li>
+<li><strong>CLI:</strong> Snapshot --zoom and per-finding crops on check --snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/f4cef54b8bde538b9a470f4bcee35f989ef3c71a">f4cef54b8</a>)</li>
+<li><strong>CLI:</strong> Deprecate validate, inspect, layout in favor of check (<a href="https://github.com/heygen-com/hyperframes/commit/58f45ef75871045ea9a5ae7fb7229e4f641336be">58f45ef75</a>)</li>
+<li><strong>CLI:</strong> Run-ID telemetry correlation and check breakdown event (<a href="https://github.com/heygen-com/hyperframes/commit/3a02942a03edd42ffde353e1e1d9331a045283c0">3a02942a0</a>)</li>
+<li><strong>CLI:</strong> Caption-zone and frame-check gates on check (<a href="https://github.com/heygen-com/hyperframes/commit/7ab6c2b7a2611a25a613fa41ee4d3b2efbf3be53">7ab6c2b7a</a>)</li>
+<li><strong>CLI:</strong> Add check — single-session verification gate (<a href="https://github.com/heygen-com/hyperframes/commit/7d6d41361bbf9db633dd061747d39ce24b326269">7d6d41361</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Address review — clip-duration audit in check, failure classing, crop observability (<a href="https://github.com/heygen-com/hyperframes/commit/67cdf0fdb795984addb0cf3588a1678db107bd08">67cdf0fdb</a>)</li>
+<li><strong>Core:</strong> Preserve playhead during volume probing (<a href="https://github.com/heygen-com/hyperframes/commit/16ab8b2935fb3ab6f8746ae1742ec757f064375e">16ab8b293</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2143">#2143</a>)</li>
+<li>Escape NUL bytes in HFMASK regex (Bun blank renders) + Windows junction for studio preview links (<a href="https://github.com/heygen-com/hyperframes/commit/718c67b387a00d3240dda53911b883ff6a5b4da1">718c67b38</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2140">#2140</a>)</li>
+<li><strong>CLI:</strong> Page closures survive keepNames transpilation; format motion-blur (<a href="https://github.com/heygen-com/hyperframes/commit/2ceb0683a8c1e515867cc159621b1d32510f2230">2ceb0683a</a>)</li>
+<li><strong>CLI:</strong> Contrast gate judges only readable content; examples pass check (<a href="https://github.com/heygen-com/hyperframes/commit/4b03866c02801bdc755f4ae7fd86e40b051b60d2">4b03866c0</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Cli,skills:</strong> Teach check as the canonical verification gate (<a href="https://github.com/heygen-com/hyperframes/commit/cf7c1d7609cb7816eaaa5e6651d53dd3873de162">cf7c1d760</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Type the guard test&#39;s mock so the full typecheck passes (<a href="https://github.com/heygen-com/hyperframes/commit/96cb5e39dd1accb764bf52648ad55116fd29998b">96cb5e39d</a>)</li>
+<li><strong>CLI:</strong> Import the page-function guard in its new unit test (<a href="https://github.com/heygen-com/hyperframes/commit/c169dbaa54fe1eda6bd4e34fa8181d221c054ece">c169dbaa5</a>)</li>
+<li><strong>CLI:</strong> Single-source-of-truth pass over the check branch (<a href="https://github.com/heygen-com/hyperframes/commit/cea34580160da6164bf75c679d9df8e76a063211">cea345801</a>)</li>
+<li><strong>Examples:</strong> Mark product-promo cursor and comment layering intentional (<a href="https://github.com/heygen-com/hyperframes/commit/b218ee744397a0f27eb16586db9c7691049903e7">b218ee744</a>)</li>
+<li><strong>CLI:</strong> Unify seek/settle and Chrome launch across browser commands (<a href="https://github.com/heygen-com/hyperframes/commit/feb256df8adf02a7aa26ebd791a9d939485c5dce">feb256df8</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.49...v0.7.50">https://github.com/heygen-com/hyperframes/compare/v0.7.49...v0.7.50</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.49]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.49</link>
@@ -2539,16 +2617,6 @@ guidance.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.1...v0.7.2">https://github.com/heygen-com/hyperframes/compare/v0.7.1...v0.7.2</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.1]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.1</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.1</guid>
-            <pubDate>Mon, 22 Jun 2026 18:12:49 GMT</pubDate>
-            <description><![CDATA[<p>Fixes gesture recording selection sync and video-heavy render base64 frame injection.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>Fixes gesture recording selection sync and video-heavy render base64 frame injection.</p>
 ]]></content:encoded>
         </item>
     </channel>
