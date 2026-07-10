@@ -4,11 +4,189 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 09 Jul 2026 19:05:32 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 01:53:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.48]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.48</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.48</guid>
+            <pubDate>Fri, 10 Jul 2026 01:53:36 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.48</h1>
+<p>Released on 2026-07-10.</p>
+<p>Prevents slow Chrome downloads from losing their install lock and colliding with another HyperFrames process. Also restores <code>hyperframes tts --text-file</code> compatibility for existing skills and scripts.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Restore <code>tts --text-file</code> compatibility for file-based narration workflows (<a href="https://github.com/heygen-com/hyperframes/commit/ef38321d5d1b549777b846d1156de40a0f475b4e">ef38321d5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2117">#2117</a>)</li>
+<li><strong>CLI:</strong> Keep slow browser installs serialized with an active lock heartbeat and visible wait progress (<a href="https://github.com/heygen-com/hyperframes/commit/7bd8c0942e2d0863b7c82fe5a3dd1c026f1e5db1">7bd8c0942</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2116">#2116</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.47...v0.7.48">https://github.com/heygen-com/hyperframes/compare/v0.7.47...v0.7.48</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.48</h1>
+<p>Released on 2026-07-10.</p>
+<p>Prevents slow Chrome downloads from losing their install lock and colliding with another HyperFrames process. Also restores <code>hyperframes tts --text-file</code> compatibility for existing skills and scripts.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Restore <code>tts --text-file</code> compatibility for file-based narration workflows (<a href="https://github.com/heygen-com/hyperframes/commit/ef38321d5d1b549777b846d1156de40a0f475b4e">ef38321d5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2117">#2117</a>)</li>
+<li><strong>CLI:</strong> Keep slow browser installs serialized with an active lock heartbeat and visible wait progress (<a href="https://github.com/heygen-com/hyperframes/commit/7bd8c0942e2d0863b7c82fe5a3dd1c026f1e5db1">7bd8c0942</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2116">#2116</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.47...v0.7.48">https://github.com/heygen-com/hyperframes/compare/v0.7.47...v0.7.48</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.47]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.47</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.47</guid>
+            <pubDate>Fri, 10 Jul 2026 00:48:34 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.47</h1>
+<p>Released on 2026-07-10.</p>
+<p>Ships a lane-model Studio timeline (multi-select, marquee, group move/resize, magnetic snapping, NLE-style z-index stacking) and a declarative variables stack spanning core, SDK, and Studio (bindings, promote-to-variable, live preview injection). Also adds shared telemetry and free-usage onboarding to <code>media-use</code>.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Media Use:</strong> Usage visibility — shared telemetry identity, miss log, resolve --stats (<a href="https://github.com/heygen-com/hyperframes/commit/16eb11367a5f0b4213874b626b305e80edcf1d24">16eb11367</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2113">#2113</a>)</li>
+<li><strong>Media Use:</strong> Fast heygen CLI onboarding — actionable diagnostics, --doctor, free-usage framing (<a href="https://github.com/heygen-com/hyperframes/commit/cdb8d736f19c9d39b3fec51e6363c68895b28fe4">cdb8d736f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2065">#2065</a>)</li>
+<li><strong>Media Use:</strong> Use CLI free HeyGen usage (<a href="https://github.com/heygen-com/hyperframes/commit/3b93f516b40bc96f6dba3941d827529f04709642">3b93f516b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2027">#2027</a>)</li>
+<li><strong>Studio:</strong> Resize selected timeline clips together (<a href="https://github.com/heygen-com/hyperframes/commit/36413da7f69231ea2c9e39019508ed3307741dbe">36413da7f</a>)</li>
+<li><strong>Studio:</strong> Move selected timeline clips together (<a href="https://github.com/heygen-com/hyperframes/commit/5d27af30b23e35d8fa2346909eb502bea05cd76f">5d27af30b</a>)</li>
+<li><strong>Studio:</strong> Add timeline marquee selection (<a href="https://github.com/heygen-com/hyperframes/commit/45d09047b7ef65ad4a30347dba4d91002e1c5d38">45d09047b</a>)</li>
+<li><strong>Studio:</strong> Batch timeline timing commits (<a href="https://github.com/heygen-com/hyperframes/commit/1cf601202d6c7bd032cf56adef2a9b7d357fb3ed">1cf601202</a>)</li>
+<li><strong>Studio:</strong> Highlight timeline selection sets (<a href="https://github.com/heygen-com/hyperframes/commit/1d858f004d6c6171d6c4df090448f11429bc15a4">1d858f004</a>)</li>
+<li><strong>Studio:</strong> Activate selected element set state (<a href="https://github.com/heygen-com/hyperframes/commit/cca31feffeda60ab98e1cea7f01438ac299b0e42">cca31feff</a>)</li>
+<li><strong>Core:</strong> Sub-composition variable render path (<a href="https://github.com/heygen-com/hyperframes/commit/a9901cb661bf057fd7f0d1341645614bbf55b2b8">a9901cb66</a>)</li>
+<li><strong>Sdk,studio:</strong> Editable template sub-compositions + promote sub-comp element properties (<a href="https://github.com/heygen-com/hyperframes/commit/8de80bf3695400f7d22a37dd669cb87be80f653e">8de80bf36</a>)</li>
+<li><strong>Studio:</strong> Promote to variable from the design panel (<a href="https://github.com/heygen-com/hyperframes/commit/7c144ecc302d5ea8c4136912b03860bb708daf73">7c144ecc3</a>)</li>
+<li><strong>Studio:</strong> Bind selected element properties to variables (<a href="https://github.com/heygen-com/hyperframes/commit/267b289bb831c26f5ea823e9c501276b828ad975">267b289bb</a>)</li>
+<li><strong>Core:</strong> Declarative variable bindings — data-var-src, data-var-text, css custom props (<a href="https://github.com/heygen-com/hyperframes/commit/f7ee0768aeb03fb53e6468526591c665387bb6b2">f7ee0768a</a>)</li>
+<li><strong>Studio:</strong> Render with preview variables + template handoff + docs (<a href="https://github.com/heygen-com/hyperframes/commit/010d49327e75bd05dbe9e3db1b29a9d755a60160">010d49327</a>)</li>
+<li><strong>Studio:</strong> Variables inspector panel with live preview values (<a href="https://github.com/heygen-com/hyperframes/commit/b34ad851652fb2698a4578c6c02d1194f0bdaa8c">b34ad8516</a>)</li>
+<li><strong>Studio Server:</strong> Preview variable injection + render variables forwarding (<a href="https://github.com/heygen-com/hyperframes/commit/2e0b8845211535778bdd67c6d603282ffdd993a6">2e0b88452</a>)</li>
+<li><strong>Sdk:</strong> Variable usage scan + preview-values adapter seam (<a href="https://github.com/heygen-com/hyperframes/commit/91831f3f8e197a5de510f1036e86b61b0b72c54c">91831f3f8</a>)</li>
+<li><strong>Sdk:</strong> Variable declaration edit ops (declare/update/remove) (<a href="https://github.com/heygen-com/hyperframes/commit/839881a98e21d83a567dc670a2b21fe400e0c558">839881a98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2047">#2047</a>)</li>
+<li><strong>Sdk:</strong> Variable declaration read apis + browser-safe variables entry (<a href="https://github.com/heygen-com/hyperframes/commit/fcbd4cb0f61f063b252fe583f6643252bcf2118d">fcbd4cb0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2046">#2046</a>)</li>
+<li><strong>Studio:</strong> Fill the ruler with ticks across the full timeline width (<a href="https://github.com/heygen-com/hyperframes/commit/6f0bf75b69216b029c6a5410daecbe5166315575">6f0bf75b6</a>)</li>
+<li><strong>Studio:</strong> Lanes and ruler span the full timeline width at any zoom (<a href="https://github.com/heygen-com/hyperframes/commit/eb31e86d4f407845c498c92ad6aef5dadde38dcd">eb31e86d4</a>)</li>
+<li><strong>Studio:</strong> Magnetic snapping to clip edges, playhead, and bounds (<a href="https://github.com/heygen-com/hyperframes/commit/d7e7fca8ec93a894ec76404ecc8026a5168d7b60">d7e7fca8e</a>)</li>
+<li><strong>Studio:</strong> Drag a clip past the video end to extend its duration (<a href="https://github.com/heygen-com/hyperframes/commit/5e3ca6ae63d3c6484a4e5cde0eea4e3987f8236a">5e3ca6ae6</a>)</li>
+<li><strong>Studio:</strong> Lane-model timeline (non-overlapping clips share a row) (<a href="https://github.com/heygen-com/hyperframes/commit/ed8bf475d327951a63c61880e31e1d1f9121ea6e">ed8bf475d</a>)</li>
+<li><strong>Studio:</strong> Timeline layer UI — context headers, audio lanes, drop affordances (<a href="https://github.com/heygen-com/hyperframes/commit/bc5fc410ee9a57f377f3f6421b4142706cf11a46">bc5fc410e</a>)</li>
+<li><strong>Studio:</strong> Timeline track = stacking layer (NLE-style layering) (<a href="https://github.com/heygen-com/hyperframes/commit/e5ed5125293c0d85aae5db5482563f8dfe44ffa4">e5ed51252</a>)</li>
+<li><strong>Studio:</strong> Unify timeline vertical reorder with z-index stacking (<a href="https://github.com/heygen-com/hyperframes/commit/dd980697a20bacf04ec3d4d5a6171c040a78dbca">dd980697a</a>)</li>
+<li><strong>Studio:</strong> Expose resolved z-index and stacking context on timeline clips (<a href="https://github.com/heygen-com/hyperframes/commit/070ee91694d341310d8541a3370fcf05827b6e7e">070ee9169</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Sample real pixels behind hidden text for contrast-audit (<a href="https://github.com/heygen-com/hyperframes/commit/1614dd3e5ad287305d0d9d39402cb8bd66849250">1614dd3e5</a>)</li>
+<li><strong>Studio:</strong> Drop stale timeline-select results to stop selection flicker (<a href="https://github.com/heygen-com/hyperframes/commit/1265702edc2ac102abb687b6eb026a506f610f20">1265702ed</a>)</li>
+<li><strong>Studio:</strong> Fold GSAP timing rewrites into the recorded history entry (<a href="https://github.com/heygen-com/hyperframes/commit/076c656d6e99c954604e7679293ec33a97e21ad8">076c656d6</a>)</li>
+<li><strong>Studio:</strong> Make the player store the single source of truth for selection (<a href="https://github.com/heygen-com/hyperframes/commit/9cf575c6f928e45cd88e6f4fd5809af43b5c2e77">9cf575c6f</a>)</li>
+<li><strong>Studio:</strong> Keep timeline selection authoritative in the preview sync (<a href="https://github.com/heygen-com/hyperframes/commit/6673c328686c39b153d2487289573396794cc620">6673c3286</a>)</li>
+<li><strong>Studio:</strong> Harden group timeline edits (capabilities, rollback, snapping, marquee) (<a href="https://github.com/heygen-com/hyperframes/commit/04ddd411ecf14123c13e4d766454c9385fa4b9f0">04ddd411e</a>)</li>
+<li><strong>Studio:</strong> Draw the timeline marquee in the theme accent color (<a href="https://github.com/heygen-com/hyperframes/commit/95ded6c0268cb41d0667552f43d2d22897731454">95ded6c02</a>)</li>
+<li><strong>Studio:</strong> Keep the timeline multi-selection through a group edit (<a href="https://github.com/heygen-com/hyperframes/commit/fa3848a33d868f1b9796212bdc4efba4487ac14b">fa3848a33</a>)</li>
+<li><strong>Studio:</strong> Propagate z-index reorder save failures and drop dead targetTrack (<a href="https://github.com/heygen-com/hyperframes/commit/6080f5ad3e57af63578606838692f6da9027b267">6080f5ad3</a>)</li>
+<li><strong>Studio:</strong> Code-review and live-test fixes for the variables stack (<a href="https://github.com/heygen-com/hyperframes/commit/bc0e0b314b96b83ddc01d42bd7780a9ee347b130">bc0e0b314</a>)</li>
+<li><strong>Studio:</strong> Order the timing write after the z-index commit on a diagonal drag (<a href="https://github.com/heygen-com/hyperframes/commit/51dd8a0753ca42b144966d7a821d5d9490749dcb">51dd8a075</a>)</li>
+<li><strong>Studio:</strong> Keep a remounted clip marked active when it stays at the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/ffd513130b712129b2a0359616070410a98199a8">ffd513130</a>)</li>
+<li><strong>Studio:</strong> Make a timeline lane a z-band so a vertical restack moves the row (<a href="https://github.com/heygen-com/hyperframes/commit/eb6a311d82484e5c3d8061d360302e8699ac55fb">eb6a311d8</a>)</li>
+<li><strong>Studio:</strong> Stop horizontal drag from cancelling a vertical restack (<a href="https://github.com/heygen-com/hyperframes/commit/db6ccb80820f8aca219761ee16fd08cb14f07ebf">db6ccb808</a>)</li>
+<li><strong>Studio:</strong> Keep Timeline under the 600-line cap and un-export postRootDurationToPreview (<a href="https://github.com/heygen-com/hyperframes/commit/ce0ddbccf827b8581025ea451ab13f405b61e439">ce0ddbccf</a>)</li>
+<li><strong>Studio:</strong> Freeze timeline zoom during extend-drag so clips don&#39;t jump (<a href="https://github.com/heygen-com/hyperframes/commit/580676bbf46d2d6c5a39df0ccb6860407521adda">580676bbf</a>)</li>
+<li><strong>Studio:</strong> Dropping an overlapping clip on a lane restacks it, not a no-op (<a href="https://github.com/heygen-com/hyperframes/commit/6b4870246ce7d9c4f259c1f714c1467c97c0df29">6b4870246</a>)</li>
+<li><strong>Studio:</strong> Sub-composition child clips restack via self-contained intent (<a href="https://github.com/heygen-com/hyperframes/commit/82fe779bd86f8a7d2b517e6e10c0f1d1111b6195">82fe779bd</a>)</li>
+<li><strong>Studio:</strong> Realm-safe isHTMLElement so timeline z-index commits land (<a href="https://github.com/heygen-com/hyperframes/commit/eef500c8902de9573d6941234693f06a8d018991">eef500c89</a>)</li>
+<li><strong>Studio:</strong> Capture effective (computed) z-index for timeline ordering (<a href="https://github.com/heygen-com/hyperframes/commit/03f8089e523980105f22b31161628b75c521ed82">03f8089e5</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Grow composition duration live on extend, no preview remount (<a href="https://github.com/heygen-com/hyperframes/commit/9f6c20e4826e1304114dcdf8f963da6d75ef0cc2">9f6c20e48</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Single-source timeline selection id-resolution (<a href="https://github.com/heygen-com/hyperframes/commit/0fe38e8cc87dfa125d65023147d1f838ef1bfd57">0fe38e8cc</a>)</li>
+<li><strong>Studio:</strong> Single-source timeline id-resolution and resize-clamp math (<a href="https://github.com/heygen-com/hyperframes/commit/3c6c1d3f2778a2be912e05b42f094b2c3e4a3b3d">3c6c1d3f2</a>)</li>
+<li><strong>Studio:</strong> Single-source the timeline stacking key + guard audio reorder (<a href="https://github.com/heygen-com/hyperframes/commit/5ce362299c72f7d188adca608ff907b2f9e5eb73">5ce362299</a>)</li>
+<li><strong>Studio:</strong> Extract shared layerOrdering module from LayersPanel (<a href="https://github.com/heygen-com/hyperframes/commit/dae26e72b23a5907d173177a72e1f96bd5483934">dae26e72b</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.46...v0.7.47">https://github.com/heygen-com/hyperframes/compare/v0.7.46...v0.7.47</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.47</h1>
+<p>Released on 2026-07-10.</p>
+<p>Ships a lane-model Studio timeline (multi-select, marquee, group move/resize, magnetic snapping, NLE-style z-index stacking) and a declarative variables stack spanning core, SDK, and Studio (bindings, promote-to-variable, live preview injection). Also adds shared telemetry and free-usage onboarding to <code>media-use</code>.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Media Use:</strong> Usage visibility — shared telemetry identity, miss log, resolve --stats (<a href="https://github.com/heygen-com/hyperframes/commit/16eb11367a5f0b4213874b626b305e80edcf1d24">16eb11367</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2113">#2113</a>)</li>
+<li><strong>Media Use:</strong> Fast heygen CLI onboarding — actionable diagnostics, --doctor, free-usage framing (<a href="https://github.com/heygen-com/hyperframes/commit/cdb8d736f19c9d39b3fec51e6363c68895b28fe4">cdb8d736f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2065">#2065</a>)</li>
+<li><strong>Media Use:</strong> Use CLI free HeyGen usage (<a href="https://github.com/heygen-com/hyperframes/commit/3b93f516b40bc96f6dba3941d827529f04709642">3b93f516b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2027">#2027</a>)</li>
+<li><strong>Studio:</strong> Resize selected timeline clips together (<a href="https://github.com/heygen-com/hyperframes/commit/36413da7f69231ea2c9e39019508ed3307741dbe">36413da7f</a>)</li>
+<li><strong>Studio:</strong> Move selected timeline clips together (<a href="https://github.com/heygen-com/hyperframes/commit/5d27af30b23e35d8fa2346909eb502bea05cd76f">5d27af30b</a>)</li>
+<li><strong>Studio:</strong> Add timeline marquee selection (<a href="https://github.com/heygen-com/hyperframes/commit/45d09047b7ef65ad4a30347dba4d91002e1c5d38">45d09047b</a>)</li>
+<li><strong>Studio:</strong> Batch timeline timing commits (<a href="https://github.com/heygen-com/hyperframes/commit/1cf601202d6c7bd032cf56adef2a9b7d357fb3ed">1cf601202</a>)</li>
+<li><strong>Studio:</strong> Highlight timeline selection sets (<a href="https://github.com/heygen-com/hyperframes/commit/1d858f004d6c6171d6c4df090448f11429bc15a4">1d858f004</a>)</li>
+<li><strong>Studio:</strong> Activate selected element set state (<a href="https://github.com/heygen-com/hyperframes/commit/cca31feffeda60ab98e1cea7f01438ac299b0e42">cca31feff</a>)</li>
+<li><strong>Core:</strong> Sub-composition variable render path (<a href="https://github.com/heygen-com/hyperframes/commit/a9901cb661bf057fd7f0d1341645614bbf55b2b8">a9901cb66</a>)</li>
+<li><strong>Sdk,studio:</strong> Editable template sub-compositions + promote sub-comp element properties (<a href="https://github.com/heygen-com/hyperframes/commit/8de80bf3695400f7d22a37dd669cb87be80f653e">8de80bf36</a>)</li>
+<li><strong>Studio:</strong> Promote to variable from the design panel (<a href="https://github.com/heygen-com/hyperframes/commit/7c144ecc302d5ea8c4136912b03860bb708daf73">7c144ecc3</a>)</li>
+<li><strong>Studio:</strong> Bind selected element properties to variables (<a href="https://github.com/heygen-com/hyperframes/commit/267b289bb831c26f5ea823e9c501276b828ad975">267b289bb</a>)</li>
+<li><strong>Core:</strong> Declarative variable bindings — data-var-src, data-var-text, css custom props (<a href="https://github.com/heygen-com/hyperframes/commit/f7ee0768aeb03fb53e6468526591c665387bb6b2">f7ee0768a</a>)</li>
+<li><strong>Studio:</strong> Render with preview variables + template handoff + docs (<a href="https://github.com/heygen-com/hyperframes/commit/010d49327e75bd05dbe9e3db1b29a9d755a60160">010d49327</a>)</li>
+<li><strong>Studio:</strong> Variables inspector panel with live preview values (<a href="https://github.com/heygen-com/hyperframes/commit/b34ad851652fb2698a4578c6c02d1194f0bdaa8c">b34ad8516</a>)</li>
+<li><strong>Studio Server:</strong> Preview variable injection + render variables forwarding (<a href="https://github.com/heygen-com/hyperframes/commit/2e0b8845211535778bdd67c6d603282ffdd993a6">2e0b88452</a>)</li>
+<li><strong>Sdk:</strong> Variable usage scan + preview-values adapter seam (<a href="https://github.com/heygen-com/hyperframes/commit/91831f3f8e197a5de510f1036e86b61b0b72c54c">91831f3f8</a>)</li>
+<li><strong>Sdk:</strong> Variable declaration edit ops (declare/update/remove) (<a href="https://github.com/heygen-com/hyperframes/commit/839881a98e21d83a567dc670a2b21fe400e0c558">839881a98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2047">#2047</a>)</li>
+<li><strong>Sdk:</strong> Variable declaration read apis + browser-safe variables entry (<a href="https://github.com/heygen-com/hyperframes/commit/fcbd4cb0f61f063b252fe583f6643252bcf2118d">fcbd4cb0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2046">#2046</a>)</li>
+<li><strong>Studio:</strong> Fill the ruler with ticks across the full timeline width (<a href="https://github.com/heygen-com/hyperframes/commit/6f0bf75b69216b029c6a5410daecbe5166315575">6f0bf75b6</a>)</li>
+<li><strong>Studio:</strong> Lanes and ruler span the full timeline width at any zoom (<a href="https://github.com/heygen-com/hyperframes/commit/eb31e86d4f407845c498c92ad6aef5dadde38dcd">eb31e86d4</a>)</li>
+<li><strong>Studio:</strong> Magnetic snapping to clip edges, playhead, and bounds (<a href="https://github.com/heygen-com/hyperframes/commit/d7e7fca8ec93a894ec76404ecc8026a5168d7b60">d7e7fca8e</a>)</li>
+<li><strong>Studio:</strong> Drag a clip past the video end to extend its duration (<a href="https://github.com/heygen-com/hyperframes/commit/5e3ca6ae63d3c6484a4e5cde0eea4e3987f8236a">5e3ca6ae6</a>)</li>
+<li><strong>Studio:</strong> Lane-model timeline (non-overlapping clips share a row) (<a href="https://github.com/heygen-com/hyperframes/commit/ed8bf475d327951a63c61880e31e1d1f9121ea6e">ed8bf475d</a>)</li>
+<li><strong>Studio:</strong> Timeline layer UI — context headers, audio lanes, drop affordances (<a href="https://github.com/heygen-com/hyperframes/commit/bc5fc410ee9a57f377f3f6421b4142706cf11a46">bc5fc410e</a>)</li>
+<li><strong>Studio:</strong> Timeline track = stacking layer (NLE-style layering) (<a href="https://github.com/heygen-com/hyperframes/commit/e5ed5125293c0d85aae5db5482563f8dfe44ffa4">e5ed51252</a>)</li>
+<li><strong>Studio:</strong> Unify timeline vertical reorder with z-index stacking (<a href="https://github.com/heygen-com/hyperframes/commit/dd980697a20bacf04ec3d4d5a6171c040a78dbca">dd980697a</a>)</li>
+<li><strong>Studio:</strong> Expose resolved z-index and stacking context on timeline clips (<a href="https://github.com/heygen-com/hyperframes/commit/070ee91694d341310d8541a3370fcf05827b6e7e">070ee9169</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Sample real pixels behind hidden text for contrast-audit (<a href="https://github.com/heygen-com/hyperframes/commit/1614dd3e5ad287305d0d9d39402cb8bd66849250">1614dd3e5</a>)</li>
+<li><strong>Studio:</strong> Drop stale timeline-select results to stop selection flicker (<a href="https://github.com/heygen-com/hyperframes/commit/1265702edc2ac102abb687b6eb026a506f610f20">1265702ed</a>)</li>
+<li><strong>Studio:</strong> Fold GSAP timing rewrites into the recorded history entry (<a href="https://github.com/heygen-com/hyperframes/commit/076c656d6e99c954604e7679293ec33a97e21ad8">076c656d6</a>)</li>
+<li><strong>Studio:</strong> Make the player store the single source of truth for selection (<a href="https://github.com/heygen-com/hyperframes/commit/9cf575c6f928e45cd88e6f4fd5809af43b5c2e77">9cf575c6f</a>)</li>
+<li><strong>Studio:</strong> Keep timeline selection authoritative in the preview sync (<a href="https://github.com/heygen-com/hyperframes/commit/6673c328686c39b153d2487289573396794cc620">6673c3286</a>)</li>
+<li><strong>Studio:</strong> Harden group timeline edits (capabilities, rollback, snapping, marquee) (<a href="https://github.com/heygen-com/hyperframes/commit/04ddd411ecf14123c13e4d766454c9385fa4b9f0">04ddd411e</a>)</li>
+<li><strong>Studio:</strong> Draw the timeline marquee in the theme accent color (<a href="https://github.com/heygen-com/hyperframes/commit/95ded6c0268cb41d0667552f43d2d22897731454">95ded6c02</a>)</li>
+<li><strong>Studio:</strong> Keep the timeline multi-selection through a group edit (<a href="https://github.com/heygen-com/hyperframes/commit/fa3848a33d868f1b9796212bdc4efba4487ac14b">fa3848a33</a>)</li>
+<li><strong>Studio:</strong> Propagate z-index reorder save failures and drop dead targetTrack (<a href="https://github.com/heygen-com/hyperframes/commit/6080f5ad3e57af63578606838692f6da9027b267">6080f5ad3</a>)</li>
+<li><strong>Studio:</strong> Code-review and live-test fixes for the variables stack (<a href="https://github.com/heygen-com/hyperframes/commit/bc0e0b314b96b83ddc01d42bd7780a9ee347b130">bc0e0b314</a>)</li>
+<li><strong>Studio:</strong> Order the timing write after the z-index commit on a diagonal drag (<a href="https://github.com/heygen-com/hyperframes/commit/51dd8a0753ca42b144966d7a821d5d9490749dcb">51dd8a075</a>)</li>
+<li><strong>Studio:</strong> Keep a remounted clip marked active when it stays at the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/ffd513130b712129b2a0359616070410a98199a8">ffd513130</a>)</li>
+<li><strong>Studio:</strong> Make a timeline lane a z-band so a vertical restack moves the row (<a href="https://github.com/heygen-com/hyperframes/commit/eb6a311d82484e5c3d8061d360302e8699ac55fb">eb6a311d8</a>)</li>
+<li><strong>Studio:</strong> Stop horizontal drag from cancelling a vertical restack (<a href="https://github.com/heygen-com/hyperframes/commit/db6ccb80820f8aca219761ee16fd08cb14f07ebf">db6ccb808</a>)</li>
+<li><strong>Studio:</strong> Keep Timeline under the 600-line cap and un-export postRootDurationToPreview (<a href="https://github.com/heygen-com/hyperframes/commit/ce0ddbccf827b8581025ea451ab13f405b61e439">ce0ddbccf</a>)</li>
+<li><strong>Studio:</strong> Freeze timeline zoom during extend-drag so clips don&#39;t jump (<a href="https://github.com/heygen-com/hyperframes/commit/580676bbf46d2d6c5a39df0ccb6860407521adda">580676bbf</a>)</li>
+<li><strong>Studio:</strong> Dropping an overlapping clip on a lane restacks it, not a no-op (<a href="https://github.com/heygen-com/hyperframes/commit/6b4870246ce7d9c4f259c1f714c1467c97c0df29">6b4870246</a>)</li>
+<li><strong>Studio:</strong> Sub-composition child clips restack via self-contained intent (<a href="https://github.com/heygen-com/hyperframes/commit/82fe779bd86f8a7d2b517e6e10c0f1d1111b6195">82fe779bd</a>)</li>
+<li><strong>Studio:</strong> Realm-safe isHTMLElement so timeline z-index commits land (<a href="https://github.com/heygen-com/hyperframes/commit/eef500c8902de9573d6941234693f06a8d018991">eef500c89</a>)</li>
+<li><strong>Studio:</strong> Capture effective (computed) z-index for timeline ordering (<a href="https://github.com/heygen-com/hyperframes/commit/03f8089e523980105f22b31161628b75c521ed82">03f8089e5</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Grow composition duration live on extend, no preview remount (<a href="https://github.com/heygen-com/hyperframes/commit/9f6c20e4826e1304114dcdf8f963da6d75ef0cc2">9f6c20e48</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Single-source timeline selection id-resolution (<a href="https://github.com/heygen-com/hyperframes/commit/0fe38e8cc87dfa125d65023147d1f838ef1bfd57">0fe38e8cc</a>)</li>
+<li><strong>Studio:</strong> Single-source timeline id-resolution and resize-clamp math (<a href="https://github.com/heygen-com/hyperframes/commit/3c6c1d3f2778a2be912e05b42f094b2c3e4a3b3d">3c6c1d3f2</a>)</li>
+<li><strong>Studio:</strong> Single-source the timeline stacking key + guard audio reorder (<a href="https://github.com/heygen-com/hyperframes/commit/5ce362299c72f7d188adca608ff907b2f9e5eb73">5ce362299</a>)</li>
+<li><strong>Studio:</strong> Extract shared layerOrdering module from LayersPanel (<a href="https://github.com/heygen-com/hyperframes/commit/dae26e72b23a5907d173177a72e1f96bd5483934">dae26e72b</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.46...v0.7.47">https://github.com/heygen-com/hyperframes/compare/v0.7.46...v0.7.47</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.46]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.46</link>
@@ -2305,38 +2483,6 @@ guidance.</p>
             <description><![CDATA[<p>Studio GSAP keyframe and motion-path editing, instant flicker-free manual editing, sub-composition rendering fixes, and frame-preset foundation for skills.</p>
 ]]></description>
             <content:encoded><![CDATA[<p>Studio GSAP keyframe and motion-path editing, instant flicker-free manual editing, sub-composition rendering fixes, and frame-preset foundation for skills.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.6.121]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.121</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.6.121</guid>
-            <pubDate>Sun, 21 Jun 2026 22:01:47 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.6.121</h1>
-<p>Released on 2026-06-21.</p>
-<p>This hotfix restores <code>hyperframes skills</code> on Windows by invoking npm&#39;s <code>npx.cmd</code>
-shim through <code>cmd.exe</code>, while preserving direct <code>npx</code> execution on Linux and macOS.
-The same resolver also covers the local Studio preview&#39;s <code>npx vite</code> path and is
-verified by CI on all three operating systems.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Resolve npx shims on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/25b717dd9c0e1777adafa23dcfb4ad87c4989d91">25b717dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1626">#1626</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.120...v0.6.121">https://github.com/heygen-com/hyperframes/compare/v0.6.120...v0.6.121</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.6.121</h1>
-<p>Released on 2026-06-21.</p>
-<p>This hotfix restores <code>hyperframes skills</code> on Windows by invoking npm&#39;s <code>npx.cmd</code>
-shim through <code>cmd.exe</code>, while preserving direct <code>npx</code> execution on Linux and macOS.
-The same resolver also covers the local Studio preview&#39;s <code>npx vite</code> path and is
-verified by CI on all three operating systems.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Resolve npx shims on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/25b717dd9c0e1777adafa23dcfb4ad87c4989d91">25b717dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1626">#1626</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.6.120...v0.6.121">https://github.com/heygen-com/hyperframes/compare/v0.6.120...v0.6.121</a></p>
 ]]></content:encoded>
         </item>
     </channel>
