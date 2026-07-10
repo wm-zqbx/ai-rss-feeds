@@ -4,11 +4,87 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 10 Jul 2026 01:53:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jul 2026 17:10:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.49]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.49</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.49</guid>
+            <pubDate>Fri, 10 Jul 2026 17:10:51 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.49</h1>
+<p>Released on 2026-07-10.</p>
+<p>Hardens the Figma integration end to end — clearer 403/scope errors, 429 retry with backoff, batch asset fetch, and mapper fidelity fixes (dropped image fills, double-painted rasterized shapes) — plus a fix for creation-workflow skills bypassing the integration entirely. Also ships render-reapply hardening for SDK position edits and prompt-guide pipeline fixes.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills:</strong> Address PR #2110 review feedback (<a href="https://github.com/heygen-com/hyperframes/commit/23c9d15b6998fd118112cb1c5eb9fb7bdc87037a">23c9d15b6</a>)</li>
+<li><strong>Skills:</strong> Pipeline fixes from prompt-guide validation (BGM, caption accent, voice, PR version) (<a href="https://github.com/heygen-com/hyperframes/commit/c992a136bf74cd9e87ba23fc824448f1a9e5c94c">c992a136b</a>)</li>
+<li><strong>Skills:</strong> Force figma.com sources through /figma, not raw MCP tools (<a href="https://github.com/heygen-com/hyperframes/commit/d13c96d4704dc125d577c9612549f1e290b928f9">d13c96d47</a>)</li>
+<li><strong>Core,cli:</strong> Figma IMAGE fills dropped, rasterize double-paint, tokens false-success (<a href="https://github.com/heygen-com/hyperframes/commit/c8eff1a4ba5b25b2c821354cae51bbf12d180244">c8eff1a4b</a>)</li>
+<li>Clear fallow and windows artifact checks (<a href="https://github.com/heygen-com/hyperframes/commit/70ac80b08b0e120cf8f8092904f6d2732c19c419">70ac80b08</a>)</li>
+<li><strong>Core:</strong> Make generated artifact formatting deterministic (<a href="https://github.com/heygen-com/hyperframes/commit/960c31f66805c17ca06a24104d8976638854609a">960c31f66</a>)</li>
+<li><strong>Core:</strong> Narrow wrapped seek function type (<a href="https://github.com/heygen-com/hyperframes/commit/d2f32c831cd158d1d5d2507d601d73b46dc940c2">d2f32c831</a>)</li>
+<li><strong>Core:</strong> Use execFileSync for generated-file format step (<a href="https://github.com/heygen-com/hyperframes/commit/67a4fb6b7097c97ed81268d10830ca6f56c06776">67a4fb6b7</a>)</li>
+<li><strong>Core,producer:</strong> Harden render reapply wiring (<a href="https://github.com/heygen-com/hyperframes/commit/68ae4e51601006d1c8b465884767f4aa7ddda869">68ae4e516</a>)</li>
+<li><strong>Core:</strong> Preserve position edit fold detection during seeks (<a href="https://github.com/heygen-com/hyperframes/commit/4e3d639e1a082b27a1a5d80a4cffcc2b575c6d0d">4e3d639e1</a>)</li>
+<li><strong>Core,producer:</strong> Render SDK position edits in producer pipeline (<a href="https://github.com/heygen-com/hyperframes/commit/85bab88afbbc5350028fd9bd149e6796d9bdd203">85bab88af</a>)</li>
+<li><strong>Core,cli:</strong> Address PR review — consistent 403 error shape, cap Retry-After, URL-safe ref split (<a href="https://github.com/heygen-com/hyperframes/commit/87e2a70f9a9fe4bba2b3bee8cd8a27b4c303f00a">87e2a70f9</a>)</li>
+<li><strong>Core,cli:</strong> Parse figma 403 body, batch asset fetch, fix NO_TOKEN box (<a href="https://github.com/heygen-com/hyperframes/commit/4fc699fee6aa124717d899b7675a591f01325d4e">4fc699fee</a>)</li>
+<li><strong>Core:</strong> Name missing figma scope in 403, retry 429 with backoff (<a href="https://github.com/heygen-com/hyperframes/commit/1bb7688347126fe9e0213d93b36f50dade252b8a">1bb768834</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Figma:</strong> Lead setup with &quot;which credential do I need&quot;, not a token wall (<a href="https://github.com/heygen-com/hyperframes/commit/ffac2ecbfe542054648338098f1a2f9df5c4f8fb">ffac2ecbf</a>)</li>
+<li><strong>Figma:</strong> Remove stale duplicate RATE_LIMITED troubleshooting row (<a href="https://github.com/heygen-com/hyperframes/commit/49a78a30e49e83504dba6e11e2f9d15c50bb8e84">49a78a30e</a>)</li>
+<li><strong>Skills:</strong> Remove unused animation example assets (<a href="https://github.com/heygen-com/hyperframes/commit/ac8ac34bd86c55a7f61b0ce4ea1264ed06657bfa">ac8ac34bd</a>)</li>
+<li><strong>Figma:</strong> Sync guide scopes + error table; gate batch line, regen index in finally (<a href="https://github.com/heygen-com/hyperframes/commit/43af5825342a43653ad39c5fadaf51914c0323d6">43af58253</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> Refresh position edits render artifact (<a href="https://github.com/heygen-com/hyperframes/commit/0971f3b2a703eb829c86990f7fd4b33dd8f60ed9">0971f3b2a</a>)</li>
+<li><strong>CLI:</strong> Add renderNodes to tokens.test figma client mock (<a href="https://github.com/heygen-com/hyperframes/commit/1d18b30625ffd9ee4a0fbd5875ebb21fa2878a4f">1d18b3062</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.48...v0.7.49">https://github.com/heygen-com/hyperframes/compare/v0.7.48...v0.7.49</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.49</h1>
+<p>Released on 2026-07-10.</p>
+<p>Hardens the Figma integration end to end — clearer 403/scope errors, 429 retry with backoff, batch asset fetch, and mapper fidelity fixes (dropped image fills, double-painted rasterized shapes) — plus a fix for creation-workflow skills bypassing the integration entirely. Also ships render-reapply hardening for SDK position edits and prompt-guide pipeline fixes.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills:</strong> Address PR #2110 review feedback (<a href="https://github.com/heygen-com/hyperframes/commit/23c9d15b6998fd118112cb1c5eb9fb7bdc87037a">23c9d15b6</a>)</li>
+<li><strong>Skills:</strong> Pipeline fixes from prompt-guide validation (BGM, caption accent, voice, PR version) (<a href="https://github.com/heygen-com/hyperframes/commit/c992a136bf74cd9e87ba23fc824448f1a9e5c94c">c992a136b</a>)</li>
+<li><strong>Skills:</strong> Force figma.com sources through /figma, not raw MCP tools (<a href="https://github.com/heygen-com/hyperframes/commit/d13c96d4704dc125d577c9612549f1e290b928f9">d13c96d47</a>)</li>
+<li><strong>Core,cli:</strong> Figma IMAGE fills dropped, rasterize double-paint, tokens false-success (<a href="https://github.com/heygen-com/hyperframes/commit/c8eff1a4ba5b25b2c821354cae51bbf12d180244">c8eff1a4b</a>)</li>
+<li>Clear fallow and windows artifact checks (<a href="https://github.com/heygen-com/hyperframes/commit/70ac80b08b0e120cf8f8092904f6d2732c19c419">70ac80b08</a>)</li>
+<li><strong>Core:</strong> Make generated artifact formatting deterministic (<a href="https://github.com/heygen-com/hyperframes/commit/960c31f66805c17ca06a24104d8976638854609a">960c31f66</a>)</li>
+<li><strong>Core:</strong> Narrow wrapped seek function type (<a href="https://github.com/heygen-com/hyperframes/commit/d2f32c831cd158d1d5d2507d601d73b46dc940c2">d2f32c831</a>)</li>
+<li><strong>Core:</strong> Use execFileSync for generated-file format step (<a href="https://github.com/heygen-com/hyperframes/commit/67a4fb6b7097c97ed81268d10830ca6f56c06776">67a4fb6b7</a>)</li>
+<li><strong>Core,producer:</strong> Harden render reapply wiring (<a href="https://github.com/heygen-com/hyperframes/commit/68ae4e51601006d1c8b465884767f4aa7ddda869">68ae4e516</a>)</li>
+<li><strong>Core:</strong> Preserve position edit fold detection during seeks (<a href="https://github.com/heygen-com/hyperframes/commit/4e3d639e1a082b27a1a5d80a4cffcc2b575c6d0d">4e3d639e1</a>)</li>
+<li><strong>Core,producer:</strong> Render SDK position edits in producer pipeline (<a href="https://github.com/heygen-com/hyperframes/commit/85bab88afbbc5350028fd9bd149e6796d9bdd203">85bab88af</a>)</li>
+<li><strong>Core,cli:</strong> Address PR review — consistent 403 error shape, cap Retry-After, URL-safe ref split (<a href="https://github.com/heygen-com/hyperframes/commit/87e2a70f9a9fe4bba2b3bee8cd8a27b4c303f00a">87e2a70f9</a>)</li>
+<li><strong>Core,cli:</strong> Parse figma 403 body, batch asset fetch, fix NO_TOKEN box (<a href="https://github.com/heygen-com/hyperframes/commit/4fc699fee6aa124717d899b7675a591f01325d4e">4fc699fee</a>)</li>
+<li><strong>Core:</strong> Name missing figma scope in 403, retry 429 with backoff (<a href="https://github.com/heygen-com/hyperframes/commit/1bb7688347126fe9e0213d93b36f50dade252b8a">1bb768834</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Figma:</strong> Lead setup with &quot;which credential do I need&quot;, not a token wall (<a href="https://github.com/heygen-com/hyperframes/commit/ffac2ecbfe542054648338098f1a2f9df5c4f8fb">ffac2ecbf</a>)</li>
+<li><strong>Figma:</strong> Remove stale duplicate RATE_LIMITED troubleshooting row (<a href="https://github.com/heygen-com/hyperframes/commit/49a78a30e49e83504dba6e11e2f9d15c50bb8e84">49a78a30e</a>)</li>
+<li><strong>Skills:</strong> Remove unused animation example assets (<a href="https://github.com/heygen-com/hyperframes/commit/ac8ac34bd86c55a7f61b0ce4ea1264ed06657bfa">ac8ac34bd</a>)</li>
+<li><strong>Figma:</strong> Sync guide scopes + error table; gate batch line, regen index in finally (<a href="https://github.com/heygen-com/hyperframes/commit/43af5825342a43653ad39c5fadaf51914c0323d6">43af58253</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> Refresh position edits render artifact (<a href="https://github.com/heygen-com/hyperframes/commit/0971f3b2a703eb829c86990f7fd4b33dd8f60ed9">0971f3b2a</a>)</li>
+<li><strong>CLI:</strong> Add renderNodes to tokens.test figma client mock (<a href="https://github.com/heygen-com/hyperframes/commit/1d18b30625ffd9ee4a0fbd5875ebb21fa2878a4f">1d18b3062</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.48...v0.7.49">https://github.com/heygen-com/hyperframes/compare/v0.7.48...v0.7.49</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.48]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.48</link>
@@ -2473,16 +2549,6 @@ guidance.</p>
             <description><![CDATA[<p>Fixes gesture recording selection sync and video-heavy render base64 frame injection.</p>
 ]]></description>
             <content:encoded><![CDATA[<p>Fixes gesture recording selection sync and video-heavy render base64 frame injection.</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.0]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.0</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.0</guid>
-            <pubDate>Mon, 22 Jun 2026 15:26:51 GMT</pubDate>
-            <description><![CDATA[<p>Studio GSAP keyframe and motion-path editing, instant flicker-free manual editing, sub-composition rendering fixes, and frame-preset foundation for skills.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>Studio GSAP keyframe and motion-path editing, instant flicker-free manual editing, sub-composition rendering fixes, and frame-preset foundation for skills.</p>
 ]]></content:encoded>
         </item>
     </channel>
