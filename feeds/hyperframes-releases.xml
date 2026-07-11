@@ -4,11 +4,81 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 11 Jul 2026 02:51:47 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jul 2026 20:03:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.53]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.53</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.53</guid>
+            <pubDate>Sat, 11 Jul 2026 20:03:18 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.53</h1>
+<p>Released on 2026-07-11.</p>
+<p>This release makes studio manual editing safe for color-graded compositions: edits no longer bake runtime opacity transients into tween bounds (the &quot;element disappears after editing&quot; bug), resize and rotate commit clean per-group values, selecting an element no longer rewrites or destroys its authored clip-path, and the crop tool draws in the element&#39;s rotated frame. The GSAP writers also stop accumulating duplicate keys in saved compositions.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Draw the crop UI in the element&#39;s rotated frame (<a href="https://github.com/heygen-com/hyperframes/commit/39f33bd3a3bcd2ea20980bca1e871bbc9c6592f3">39f33bd3a</a>)</li>
+<li><strong>Studio:</strong> Address review findings on graded-element editing (<a href="https://github.com/heygen-com/hyperframes/commit/5d1cafff8225177ee1ae99da85a0ce0ce4e5babd">5d1cafff8</a>)</li>
+<li><strong>Studio:</strong> Crop restore value is owned by the lifted element&#39;s gesture (<a href="https://github.com/heygen-com/hyperframes/commit/b7fddd548acf1d268294a7fe71adc9a946ccaa40">b7fddd548</a>)</li>
+<li><strong>Core:</strong> Make timing masks safe for source loaders (<a href="https://github.com/heygen-com/hyperframes/commit/179c942cd2bb3fb37236368fa33b16c4c1ad58a0">179c942cd</a>)</li>
+<li><strong>Lint:</strong> Anchor the opacity-zero probe so 0.98 stops matching (<a href="https://github.com/heygen-com/hyperframes/commit/fe529667283ad07a2f3cd8440e285ad3d0fc8937">fe5296672</a>)</li>
+<li><strong>Parsers:</strong> Never emit duplicate vars keys in either writer (<a href="https://github.com/heygen-com/hyperframes/commit/90d77d016ffb75264491bfebb4c227072904d63d">90d77d016</a>)</li>
+<li><strong>Studio:</strong> Route panel property commits to a group-owning set (<a href="https://github.com/heygen-com/hyperframes/commit/066c3dae37bbe3397cfc35642076dd30da9743f3">066c3dae3</a>)</li>
+<li><strong>Studio:</strong> Crop tool stands down for clips it cannot edit (<a href="https://github.com/heygen-com/hyperframes/commit/cbfb6ba943ea458bb79f89bbc0611cd81c817831">cbfb6ba94</a>)</li>
+<li><strong>Studio:</strong> Correct gesture commits for scaled and graded elements (<a href="https://github.com/heygen-com/hyperframes/commit/3525c7ff52139a5d63093f7a8863e7fb8ff980e6">3525c7ff5</a>)</li>
+<li><strong>Studio:</strong> Stop tween re-inits from baking runtime opacity transients (<a href="https://github.com/heygen-com/hyperframes/commit/5cc14c2221bb6262ddd0631c9f2df1891f266217">5cc14c222</a>)</li>
+<li><strong>Core:</strong> Capture authored inline opacity at parse time and follow source geometry (<a href="https://github.com/heygen-com/hyperframes/commit/3147c8e063a72d999447aca8bb0528480bdcd043">3147c8e06</a>)</li>
+<li><strong>Product Launch:</strong> Hoist approved frame videos during assembly (<a href="https://github.com/heygen-com/hyperframes/commit/2aadf450e718497ac4b0edb7286cf4c8f3da06bc">2aadf450e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2226">#2226</a>)</li>
+<li><strong>Hooks:</strong> Scope pre-commit build check to target repo, fix stale symlinks (<a href="https://github.com/heygen-com/hyperframes/commit/522d7c93b7acb16c6ade1376040237ff615dca7b">522d7c93b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2175">#2175</a>)</li>
+<li><strong>Lint:</strong> Parse HTML structure without regex (<a href="https://github.com/heygen-com/hyperframes/commit/05c3b5503faf5da1efe5d64985b63db3f762f765">05c3b5503</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2223">#2223</a>)</li>
+<li><strong>Telemetry:</strong> Expose stalled render stages (<a href="https://github.com/heygen-com/hyperframes/commit/87618eef4c65aff78f99f94246c60114a579af0f">87618eef4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2220">#2220</a>)</li>
+<li><strong>Lint:</strong> Flag digit-leading element ids (<a href="https://github.com/heygen-com/hyperframes/commit/d51fa7eba2e369fd6212cdc59ebaef71e2024f7e">d51fa7eba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2222">#2222</a>)</li>
+<li><strong>CLI:</strong> Correct strict warning hint (<a href="https://github.com/heygen-com/hyperframes/commit/5f22209a82afbdf3c2a8d1a788b94e9aeeaac689">5f22209a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2221">#2221</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Address review nits (<a href="https://github.com/heygen-com/hyperframes/commit/67cfae2587e15b0dd6a064d9fdbd4790831905cf">67cfae258</a>)</li>
+<li><strong>Producer:</strong> Gate source tests by execution lane (<a href="https://github.com/heygen-com/hyperframes/commit/9e7b11998cb2727b05337f9133eae4647c979644">9e7b11998</a>)</li>
+<li><strong>Repo:</strong> Forbid tracked generated artifacts (<a href="https://github.com/heygen-com/hyperframes/commit/585aa9f6b24561fe45ea298787a291390ba8eea2">585aa9f6b</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.52...v0.7.53">https://github.com/heygen-com/hyperframes/compare/v0.7.52...v0.7.53</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.53</h1>
+<p>Released on 2026-07-11.</p>
+<p>This release makes studio manual editing safe for color-graded compositions: edits no longer bake runtime opacity transients into tween bounds (the &quot;element disappears after editing&quot; bug), resize and rotate commit clean per-group values, selecting an element no longer rewrites or destroys its authored clip-path, and the crop tool draws in the element&#39;s rotated frame. The GSAP writers also stop accumulating duplicate keys in saved compositions.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Draw the crop UI in the element&#39;s rotated frame (<a href="https://github.com/heygen-com/hyperframes/commit/39f33bd3a3bcd2ea20980bca1e871bbc9c6592f3">39f33bd3a</a>)</li>
+<li><strong>Studio:</strong> Address review findings on graded-element editing (<a href="https://github.com/heygen-com/hyperframes/commit/5d1cafff8225177ee1ae99da85a0ce0ce4e5babd">5d1cafff8</a>)</li>
+<li><strong>Studio:</strong> Crop restore value is owned by the lifted element&#39;s gesture (<a href="https://github.com/heygen-com/hyperframes/commit/b7fddd548acf1d268294a7fe71adc9a946ccaa40">b7fddd548</a>)</li>
+<li><strong>Core:</strong> Make timing masks safe for source loaders (<a href="https://github.com/heygen-com/hyperframes/commit/179c942cd2bb3fb37236368fa33b16c4c1ad58a0">179c942cd</a>)</li>
+<li><strong>Lint:</strong> Anchor the opacity-zero probe so 0.98 stops matching (<a href="https://github.com/heygen-com/hyperframes/commit/fe529667283ad07a2f3cd8440e285ad3d0fc8937">fe5296672</a>)</li>
+<li><strong>Parsers:</strong> Never emit duplicate vars keys in either writer (<a href="https://github.com/heygen-com/hyperframes/commit/90d77d016ffb75264491bfebb4c227072904d63d">90d77d016</a>)</li>
+<li><strong>Studio:</strong> Route panel property commits to a group-owning set (<a href="https://github.com/heygen-com/hyperframes/commit/066c3dae37bbe3397cfc35642076dd30da9743f3">066c3dae3</a>)</li>
+<li><strong>Studio:</strong> Crop tool stands down for clips it cannot edit (<a href="https://github.com/heygen-com/hyperframes/commit/cbfb6ba943ea458bb79f89bbc0611cd81c817831">cbfb6ba94</a>)</li>
+<li><strong>Studio:</strong> Correct gesture commits for scaled and graded elements (<a href="https://github.com/heygen-com/hyperframes/commit/3525c7ff52139a5d63093f7a8863e7fb8ff980e6">3525c7ff5</a>)</li>
+<li><strong>Studio:</strong> Stop tween re-inits from baking runtime opacity transients (<a href="https://github.com/heygen-com/hyperframes/commit/5cc14c2221bb6262ddd0631c9f2df1891f266217">5cc14c222</a>)</li>
+<li><strong>Core:</strong> Capture authored inline opacity at parse time and follow source geometry (<a href="https://github.com/heygen-com/hyperframes/commit/3147c8e063a72d999447aca8bb0528480bdcd043">3147c8e06</a>)</li>
+<li><strong>Product Launch:</strong> Hoist approved frame videos during assembly (<a href="https://github.com/heygen-com/hyperframes/commit/2aadf450e718497ac4b0edb7286cf4c8f3da06bc">2aadf450e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2226">#2226</a>)</li>
+<li><strong>Hooks:</strong> Scope pre-commit build check to target repo, fix stale symlinks (<a href="https://github.com/heygen-com/hyperframes/commit/522d7c93b7acb16c6ade1376040237ff615dca7b">522d7c93b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2175">#2175</a>)</li>
+<li><strong>Lint:</strong> Parse HTML structure without regex (<a href="https://github.com/heygen-com/hyperframes/commit/05c3b5503faf5da1efe5d64985b63db3f762f765">05c3b5503</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2223">#2223</a>)</li>
+<li><strong>Telemetry:</strong> Expose stalled render stages (<a href="https://github.com/heygen-com/hyperframes/commit/87618eef4c65aff78f99f94246c60114a579af0f">87618eef4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2220">#2220</a>)</li>
+<li><strong>Lint:</strong> Flag digit-leading element ids (<a href="https://github.com/heygen-com/hyperframes/commit/d51fa7eba2e369fd6212cdc59ebaef71e2024f7e">d51fa7eba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2222">#2222</a>)</li>
+<li><strong>CLI:</strong> Correct strict warning hint (<a href="https://github.com/heygen-com/hyperframes/commit/5f22209a82afbdf3c2a8d1a788b94e9aeeaac689">5f22209a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2221">#2221</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Address review nits (<a href="https://github.com/heygen-com/hyperframes/commit/67cfae2587e15b0dd6a064d9fdbd4790831905cf">67cfae258</a>)</li>
+<li><strong>Producer:</strong> Gate source tests by execution lane (<a href="https://github.com/heygen-com/hyperframes/commit/9e7b11998cb2727b05337f9133eae4647c979644">9e7b11998</a>)</li>
+<li><strong>Repo:</strong> Forbid tracked generated artifacts (<a href="https://github.com/heygen-com/hyperframes/commit/585aa9f6b24561fe45ea298787a291390ba8eea2">585aa9f6b</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.52...v0.7.53">https://github.com/heygen-com/hyperframes/compare/v0.7.52...v0.7.53</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.52]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.52</link>
@@ -2527,112 +2597,6 @@ and preventing visible GSAP transition overlays from leaking into output.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5">https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.4]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.4</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.4</guid>
-            <pubDate>Wed, 24 Jun 2026 00:13:10 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.4</h1>
-<p>Released on 2026-06-24.</p>
-<p>This stable release improves render reliability and skill authoring: producer duration
-now falls back to sub-composition timing, empty sub-composition files no longer abort
-renders, and Studio timeline styling handles missing tags safely. It also ships
-music-to-video workflow updates, per-skill telemetry, and clearer CLI install/debug
-guidance.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Per-skill usage telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/4961e4e4770a9b38eb34fef957c0ac8764614ce8">4961e4e4</a>)</li>
-<li><strong>Skills:</strong> Unify bgm-to-video flows into music-to-video (<a href="https://github.com/heygen-com/hyperframes/commit/a34d3dba4d15b3d6830bc546b7b6c423a1304477">a34d3dba</a>)</li>
-<li><strong>Skills:</strong> Add bgm-to-video skill (<a href="https://github.com/heygen-com/hyperframes/commit/d596379e52536672366e889602004a65bc8136d9">d596379e</a>)</li>
-<li><strong>Skills:</strong> Guide install when a matched workflow isn&#39;t installed (<a href="https://github.com/heygen-com/hyperframes/commit/08328b04e63e16c7bea469237552c1d9587dcfec">08328b04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1647">#1647</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Derive duration from sub-composition timing when root has no data-duration (<a href="https://github.com/heygen-com/hyperframes/commit/45a9440c61073314dd8d3ac34813d108c1e051e7">45a9440c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1680">#1680</a>)</li>
-<li><strong>Core:</strong> Skip empty sub-composition files instead of aborting render (<a href="https://github.com/heygen-com/hyperframes/commit/656c1200ee2e42fe2affa9641af8fcf0ccbb5683">656c1200</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1678">#1678</a>)</li>
-<li><strong>Studio:</strong> Guard against null tag in timeline track style (<a href="https://github.com/heygen-com/hyperframes/commit/d4aa5f93e16c564d5248da99cd22101b314d3d63">d4aa5f93</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1679">#1679</a>)</li>
-<li><strong>CLI:</strong> Improve whisper-cpp install guidance and add doctor check (<a href="https://github.com/heygen-com/hyperframes/commit/344618e22aaf27b526d16ef219dfe193ae8920fd">344618e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1681">#1681</a>)</li>
-<li><strong>Engine:</strong> Restore fast screenshot path for viewport captures (<a href="https://github.com/heygen-com/hyperframes/commit/f622e5a7ba3f840bda2703a93784ea0105d21fef">f622e5a7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1670">#1670</a>)</li>
-<li><strong>CLI:</strong> Install skills into project dir on non-interactive init (<a href="https://github.com/heygen-com/hyperframes/commit/bf4f34b359c252bfac25061d19bd178b28da5588">bf4f34b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1671">#1671</a>)</li>
-<li><strong>CLI:</strong> Expose render debug mode (<a href="https://github.com/heygen-com/hyperframes/commit/7133c396eb29f4d28f3d25b8dc8dcf017bc70618">7133c396</a>)</li>
-<li>Unblock music video ci checks (<a href="https://github.com/heygen-com/hyperframes/commit/5d1bff51b5a21145b9d84c95d21447ebb90efc13">5d1bff51</a>)</li>
-<li><strong>Producer:</strong> Store css-var-fonts baseline as raw binary, not LFS pointer (<a href="https://github.com/heygen-com/hyperframes/commit/119284d377878e38df60469a6bbeaf6d6a8ed857">119284d3</a>)</li>
-<li><strong>Producer:</strong> Restore css-var-fonts regression baseline (<a href="https://github.com/heygen-com/hyperframes/commit/f012b8b84691c6a5989e11c0d228c5320d8d6843">f012b8b8</a>)</li>
-<li><strong>Lint:</strong> Catch CSS↔GSAP transform conflicts in scoped selectors and frame sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/9ccae8637291262b8a2e1a1779e4ee7ad186f675">9ccae863</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Add music-source brief to music-to-video Step 0 (<a href="https://github.com/heygen-com/hyperframes/commit/7a4646894f0d3d5edcc185f1e1a61dcce11345ed">7a464689</a>)</li>
-<li><strong>Skills:</strong> Register music-to-video in the hyperframes router (<a href="https://github.com/heygen-com/hyperframes/commit/44b04324b1576d80a2fb5a1bdf8dda0fd049a6ff">44b04324</a>)</li>
-<li><strong>Skills:</strong> Add beat-synced montage authoring recipe (<a href="https://github.com/heygen-com/hyperframes/commit/0dcf914e14ae74ddfe6e8c6118113929bcfb894f">0dcf914e</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li>Refine music-to-video planning catalogs (<a href="https://github.com/heygen-com/hyperframes/commit/a23ca3487f712d9df9ed72e1d6b16683dfc4bd2f">a23ca348</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Lint:</strong> Keep the fallow audit gate green (<a href="https://github.com/heygen-com/hyperframes/commit/4a8e2f1cd0a1d156ac485fd084230da8c407b152">4a8e2f1c</a>)</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li>Merge pull request #1672 from heygen-com/fix/skill-authoring-fixes (<a href="https://github.com/heygen-com/hyperframes/commit/2681085624056aeac851b03fd46efe512017c2a7">26810856</a>)</li>
-<li><strong>Skills:</strong> Apply oxfmt to music-to-video and router docs (<a href="https://github.com/heygen-com/hyperframes/commit/265b02738e35d21b5455a640323551f0e3cf3c6e">265b0273</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.3...v0.7.4">https://github.com/heygen-com/hyperframes/compare/v0.7.3...v0.7.4</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.4</h1>
-<p>Released on 2026-06-24.</p>
-<p>This stable release improves render reliability and skill authoring: producer duration
-now falls back to sub-composition timing, empty sub-composition files no longer abort
-renders, and Studio timeline styling handles missing tags safely. It also ships
-music-to-video workflow updates, per-skill telemetry, and clearer CLI install/debug
-guidance.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Per-skill usage telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/4961e4e4770a9b38eb34fef957c0ac8764614ce8">4961e4e4</a>)</li>
-<li><strong>Skills:</strong> Unify bgm-to-video flows into music-to-video (<a href="https://github.com/heygen-com/hyperframes/commit/a34d3dba4d15b3d6830bc546b7b6c423a1304477">a34d3dba</a>)</li>
-<li><strong>Skills:</strong> Add bgm-to-video skill (<a href="https://github.com/heygen-com/hyperframes/commit/d596379e52536672366e889602004a65bc8136d9">d596379e</a>)</li>
-<li><strong>Skills:</strong> Guide install when a matched workflow isn&#39;t installed (<a href="https://github.com/heygen-com/hyperframes/commit/08328b04e63e16c7bea469237552c1d9587dcfec">08328b04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1647">#1647</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Derive duration from sub-composition timing when root has no data-duration (<a href="https://github.com/heygen-com/hyperframes/commit/45a9440c61073314dd8d3ac34813d108c1e051e7">45a9440c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1680">#1680</a>)</li>
-<li><strong>Core:</strong> Skip empty sub-composition files instead of aborting render (<a href="https://github.com/heygen-com/hyperframes/commit/656c1200ee2e42fe2affa9641af8fcf0ccbb5683">656c1200</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1678">#1678</a>)</li>
-<li><strong>Studio:</strong> Guard against null tag in timeline track style (<a href="https://github.com/heygen-com/hyperframes/commit/d4aa5f93e16c564d5248da99cd22101b314d3d63">d4aa5f93</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1679">#1679</a>)</li>
-<li><strong>CLI:</strong> Improve whisper-cpp install guidance and add doctor check (<a href="https://github.com/heygen-com/hyperframes/commit/344618e22aaf27b526d16ef219dfe193ae8920fd">344618e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1681">#1681</a>)</li>
-<li><strong>Engine:</strong> Restore fast screenshot path for viewport captures (<a href="https://github.com/heygen-com/hyperframes/commit/f622e5a7ba3f840bda2703a93784ea0105d21fef">f622e5a7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1670">#1670</a>)</li>
-<li><strong>CLI:</strong> Install skills into project dir on non-interactive init (<a href="https://github.com/heygen-com/hyperframes/commit/bf4f34b359c252bfac25061d19bd178b28da5588">bf4f34b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1671">#1671</a>)</li>
-<li><strong>CLI:</strong> Expose render debug mode (<a href="https://github.com/heygen-com/hyperframes/commit/7133c396eb29f4d28f3d25b8dc8dcf017bc70618">7133c396</a>)</li>
-<li>Unblock music video ci checks (<a href="https://github.com/heygen-com/hyperframes/commit/5d1bff51b5a21145b9d84c95d21447ebb90efc13">5d1bff51</a>)</li>
-<li><strong>Producer:</strong> Store css-var-fonts baseline as raw binary, not LFS pointer (<a href="https://github.com/heygen-com/hyperframes/commit/119284d377878e38df60469a6bbeaf6d6a8ed857">119284d3</a>)</li>
-<li><strong>Producer:</strong> Restore css-var-fonts regression baseline (<a href="https://github.com/heygen-com/hyperframes/commit/f012b8b84691c6a5989e11c0d228c5320d8d6843">f012b8b8</a>)</li>
-<li><strong>Lint:</strong> Catch CSS↔GSAP transform conflicts in scoped selectors and frame sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/9ccae8637291262b8a2e1a1779e4ee7ad186f675">9ccae863</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Add music-source brief to music-to-video Step 0 (<a href="https://github.com/heygen-com/hyperframes/commit/7a4646894f0d3d5edcc185f1e1a61dcce11345ed">7a464689</a>)</li>
-<li><strong>Skills:</strong> Register music-to-video in the hyperframes router (<a href="https://github.com/heygen-com/hyperframes/commit/44b04324b1576d80a2fb5a1bdf8dda0fd049a6ff">44b04324</a>)</li>
-<li><strong>Skills:</strong> Add beat-synced montage authoring recipe (<a href="https://github.com/heygen-com/hyperframes/commit/0dcf914e14ae74ddfe6e8c6118113929bcfb894f">0dcf914e</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li>Refine music-to-video planning catalogs (<a href="https://github.com/heygen-com/hyperframes/commit/a23ca3487f712d9df9ed72e1d6b16683dfc4bd2f">a23ca348</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Lint:</strong> Keep the fallow audit gate green (<a href="https://github.com/heygen-com/hyperframes/commit/4a8e2f1cd0a1d156ac485fd084230da8c407b152">4a8e2f1c</a>)</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li>Merge pull request #1672 from heygen-com/fix/skill-authoring-fixes (<a href="https://github.com/heygen-com/hyperframes/commit/2681085624056aeac851b03fd46efe512017c2a7">26810856</a>)</li>
-<li><strong>Skills:</strong> Apply oxfmt to music-to-video and router docs (<a href="https://github.com/heygen-com/hyperframes/commit/265b02738e35d21b5455a640323551f0e3cf3c6e">265b0273</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.3...v0.7.4">https://github.com/heygen-com/hyperframes/compare/v0.7.3...v0.7.4</a></p>
 ]]></content:encoded>
         </item>
     </channel>
