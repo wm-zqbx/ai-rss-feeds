@@ -4,11 +4,111 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 11 Jul 2026 20:03:18 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Jul 2026 00:19:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.54]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.54</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.54</guid>
+            <pubDate>Sun, 12 Jul 2026 00:19:16 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.54</h1>
+<p>Released on 2026-07-12.</p>
+<p>This release hardens the drawElement parallel-capture router with real-traffic safety rails — a machine-RAM floor, worker-count-scaled self-verify, and compile-time gates for ancestor background-images and HDR disk headroom — and extends parallel streaming to the non-drawElement screenshot/BeginFrame paths with cohort telemetry. It also closes a cluster of snapshot/check capture-fidelity gaps: remote fonts are localized and embedded to match the render, <code>check</code> now flags text that paints invisibly, and video-injection, canvas-motion, and shader-clone capture issues are surfaced or fixed.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> Emit eligible_off cohort-sizing signal when parallel-stream router is off (<a href="https://github.com/heygen-com/hyperframes/commit/591235f05c22fdd31134bd54c33edf8fdbc96702">591235f05</a>)</li>
+<li><strong>CLI:</strong> Capture_parallel_stream telemetry on success and failure paths (<a href="https://github.com/heygen-com/hyperframes/commit/88c21ccd8b07f18a405ddda895aa503b15be6967">88c21ccd8</a>)</li>
+<li><strong>Producer:</strong> Route eligible parallel screenshot/beginframe renders to streaming (<a href="https://github.com/heygen-com/hyperframes/commit/6d5a7711f36e534bc0870ebf175ce4ad7e814a07">6d5a7711f</a>)</li>
+<li><strong>Producer:</strong> Routing predicate for non-drawelement parallel streaming (<a href="https://github.com/heygen-com/hyperframes/commit/2416e9bcd5888420b311a5ee0ae9a52105c5b61d">2416e9bcd</a>)</li>
+<li><strong>CLI:</strong> Preview --browser-no-gpu for gpu-unstable hosts (<a href="https://github.com/heygen-com/hyperframes/commit/3dc08c0868ba053b9bf8b8739947d0864137dac2">3dc08c086</a>)</li>
+<li><strong>Producer:</strong> Surface beginframe no-damage reuse counters in perf summary and telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/dde3afb72e1b4aa8b1b83e0d342b2c636d2d62ad">dde3afb72</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Only exclude clipped text when a background actually paints the glyphs (<a href="https://github.com/heygen-com/hyperframes/commit/fa902400c973df07f17c59aced9332bee33171a9">fa902400c</a>)</li>
+<li><strong>CLI:</strong> Read effective text fill by property, not getPropertyValue (<a href="https://github.com/heygen-com/hyperframes/commit/a8fd8562a8e908c28f4e048e1c9c618a1d1dedc4">a8fd8562a</a>)</li>
+<li><strong>CLI:</strong> Flag text with an effectively transparent fill in check (<a href="https://github.com/heygen-com/hyperframes/commit/9ae84c652c15f64c74054ef040c44fdb193d50c8">9ae84c652</a>)</li>
+<li><strong>CLI:</strong> Distinguish producer-absent from injector failure in font localization (<a href="https://github.com/heygen-com/hyperframes/commit/fc2b905837344a1c4e4bae1ecc9b9a70af1a5c79">fc2b90583</a>)</li>
+<li><strong>CLI:</strong> Resolve producer font-localization at runtime so vitest transform doesn&#39;t fail (<a href="https://github.com/heygen-com/hyperframes/commit/aa10d49234ed3eb675232ee8e4ba567b4071bb0e">aa10d4923</a>)</li>
+<li><strong>CLI:</strong> Localize remote fonts in snapshot/check capture to match render (<a href="https://github.com/heygen-com/hyperframes/commit/ad0d2393fe3209e89292641e5c2f04a45ceec04c">ad0d2393f</a>)</li>
+<li><strong>Media:</strong> Resolve npx without npm_execpath on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/eba9ff9ae1e41e9fd4209aca455cc3d8635118b5">eba9ff9ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2236">#2236</a>)</li>
+<li><strong>Render:</strong> Scale timeout for long video encodes (<a href="https://github.com/heygen-com/hyperframes/commit/9d91c2a23ee129add021fecea7e3e4d3cbab1f94">9d91c2a23</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2244">#2244</a>)</li>
+<li><strong>Skills:</strong> Hold frame content through transitions (<a href="https://github.com/heygen-com/hyperframes/commit/687883124f5b0e81c0a15d6a0dd5d7058d756337">687883124</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2235">#2235</a>)</li>
+<li><strong>Lint:</strong> Honor data-no-timeline on root compositions (<a href="https://github.com/heygen-com/hyperframes/commit/c18391b98c63e3b13c7cb1fd7e0a71478ce94a56">c18391b98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2228">#2228</a>)</li>
+<li><strong>Producer:</strong> Render -c <scene> uses the scene&#39;s own duration, not the project&#39;s (<a href="https://github.com/heygen-com/hyperframes/commit/6b7431bf45a2bb93ff1836897e4e606fd8986339">6b7431bf4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2087">#2087</a>)</li>
+<li><strong>Hyperframes Media:</strong> Surface the real reason a TTS line failed [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/9c98c1e82ab6b27cd6b5025254539a7f7026b1b3">9c98c1e82</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1999">#1999</a>)</li>
+<li><strong>CLI:</strong> Surface video frame-injection failures in snapshot output (<a href="https://github.com/heygen-com/hyperframes/commit/edc0a1624b484cce48b2421110a09dbd8218ae4b">edc0a1624</a>)</li>
+<li><strong>Shader Transitions:</strong> Pin clones to their measured live box, not composition size (<a href="https://github.com/heygen-com/hyperframes/commit/b3d851d65af7e2d37e50b93983c6e721532224f9">b3d851d65</a>)</li>
+<li><strong>CLI:</strong> Fold canvas pixel hashes into the frozen-sweep fingerprint (<a href="https://github.com/heygen-com/hyperframes/commit/3338a6f3503e98249b48555303c69c515f40595b">3338a6f35</a>)</li>
+<li><strong>Shader Transitions:</strong> Pin cloned scene roots to composition dimensions (<a href="https://github.com/heygen-com/hyperframes/commit/9e3ff630f4b6bccd3995b64800429bde0078a841">9e3ff630f</a>)</li>
+<li><strong>Producer:</strong> Disk-headroom gate before hdr raw frame pre-extraction (<a href="https://github.com/heygen-com/hyperframes/commit/9a1afce43c7cbca5deb2875b10bb468dd73cc338">9a1afce43</a>)</li>
+<li><strong>CLI:</strong> Settle post-seek font subset loads before audit screenshots (<a href="https://github.com/heygen-com/hyperframes/commit/8bbd5a6496f0ac491e5b48956bb1d692dd7dcea5">8bbd5a649</a>)</li>
+<li><strong>Engine:</strong> Densify drawelement self-verify with parallel worker count (<a href="https://github.com/heygen-com/hyperframes/commit/1b95af8bbba63e914e99eef29f56ec71f9a13551">1b95af8bb</a>)</li>
+<li><strong>Producer:</strong> Withhold de parallel router below a machine ram floor (<a href="https://github.com/heygen-com/hyperframes/commit/ddcd380a1a2bb563f238f9145413e3533a4bb501">ddcd380a1</a>)</li>
+<li><strong>Producer,engine:</strong> Gate drawelement on ancestor background-image + tail verify sample (<a href="https://github.com/heygen-com/hyperframes/commit/0809c98518a9009de2822d3d23ca485afd01fee7">0809c9851</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Producer:</strong> Note attempt-scoped beginFrameReuse semantics after partial retries (<a href="https://github.com/heygen-com/hyperframes/commit/2cd8a750e3b5d9f6ff86f2f99fd16b2699b32a36">2cd8a750e</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> Stop coupling the hdr disk-headroom gate&#39;s control flow to error-string matching (<a href="https://github.com/heygen-com/hyperframes/commit/c20e20235b01fccec65e12f2d86775930e7e5553">c20e20235</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.53...v0.7.54">https://github.com/heygen-com/hyperframes/compare/v0.7.53...v0.7.54</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.54</h1>
+<p>Released on 2026-07-12.</p>
+<p>This release hardens the drawElement parallel-capture router with real-traffic safety rails — a machine-RAM floor, worker-count-scaled self-verify, and compile-time gates for ancestor background-images and HDR disk headroom — and extends parallel streaming to the non-drawElement screenshot/BeginFrame paths with cohort telemetry. It also closes a cluster of snapshot/check capture-fidelity gaps: remote fonts are localized and embedded to match the render, <code>check</code> now flags text that paints invisibly, and video-injection, canvas-motion, and shader-clone capture issues are surfaced or fixed.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> Emit eligible_off cohort-sizing signal when parallel-stream router is off (<a href="https://github.com/heygen-com/hyperframes/commit/591235f05c22fdd31134bd54c33edf8fdbc96702">591235f05</a>)</li>
+<li><strong>CLI:</strong> Capture_parallel_stream telemetry on success and failure paths (<a href="https://github.com/heygen-com/hyperframes/commit/88c21ccd8b07f18a405ddda895aa503b15be6967">88c21ccd8</a>)</li>
+<li><strong>Producer:</strong> Route eligible parallel screenshot/beginframe renders to streaming (<a href="https://github.com/heygen-com/hyperframes/commit/6d5a7711f36e534bc0870ebf175ce4ad7e814a07">6d5a7711f</a>)</li>
+<li><strong>Producer:</strong> Routing predicate for non-drawelement parallel streaming (<a href="https://github.com/heygen-com/hyperframes/commit/2416e9bcd5888420b311a5ee0ae9a52105c5b61d">2416e9bcd</a>)</li>
+<li><strong>CLI:</strong> Preview --browser-no-gpu for gpu-unstable hosts (<a href="https://github.com/heygen-com/hyperframes/commit/3dc08c0868ba053b9bf8b8739947d0864137dac2">3dc08c086</a>)</li>
+<li><strong>Producer:</strong> Surface beginframe no-damage reuse counters in perf summary and telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/dde3afb72e1b4aa8b1b83e0d342b2c636d2d62ad">dde3afb72</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Only exclude clipped text when a background actually paints the glyphs (<a href="https://github.com/heygen-com/hyperframes/commit/fa902400c973df07f17c59aced9332bee33171a9">fa902400c</a>)</li>
+<li><strong>CLI:</strong> Read effective text fill by property, not getPropertyValue (<a href="https://github.com/heygen-com/hyperframes/commit/a8fd8562a8e908c28f4e048e1c9c618a1d1dedc4">a8fd8562a</a>)</li>
+<li><strong>CLI:</strong> Flag text with an effectively transparent fill in check (<a href="https://github.com/heygen-com/hyperframes/commit/9ae84c652c15f64c74054ef040c44fdb193d50c8">9ae84c652</a>)</li>
+<li><strong>CLI:</strong> Distinguish producer-absent from injector failure in font localization (<a href="https://github.com/heygen-com/hyperframes/commit/fc2b905837344a1c4e4bae1ecc9b9a70af1a5c79">fc2b90583</a>)</li>
+<li><strong>CLI:</strong> Resolve producer font-localization at runtime so vitest transform doesn&#39;t fail (<a href="https://github.com/heygen-com/hyperframes/commit/aa10d49234ed3eb675232ee8e4ba567b4071bb0e">aa10d4923</a>)</li>
+<li><strong>CLI:</strong> Localize remote fonts in snapshot/check capture to match render (<a href="https://github.com/heygen-com/hyperframes/commit/ad0d2393fe3209e89292641e5c2f04a45ceec04c">ad0d2393f</a>)</li>
+<li><strong>Media:</strong> Resolve npx without npm_execpath on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/eba9ff9ae1e41e9fd4209aca455cc3d8635118b5">eba9ff9ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2236">#2236</a>)</li>
+<li><strong>Render:</strong> Scale timeout for long video encodes (<a href="https://github.com/heygen-com/hyperframes/commit/9d91c2a23ee129add021fecea7e3e4d3cbab1f94">9d91c2a23</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2244">#2244</a>)</li>
+<li><strong>Skills:</strong> Hold frame content through transitions (<a href="https://github.com/heygen-com/hyperframes/commit/687883124f5b0e81c0a15d6a0dd5d7058d756337">687883124</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2235">#2235</a>)</li>
+<li><strong>Lint:</strong> Honor data-no-timeline on root compositions (<a href="https://github.com/heygen-com/hyperframes/commit/c18391b98c63e3b13c7cb1fd7e0a71478ce94a56">c18391b98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2228">#2228</a>)</li>
+<li><strong>Producer:</strong> Render -c <scene> uses the scene&#39;s own duration, not the project&#39;s (<a href="https://github.com/heygen-com/hyperframes/commit/6b7431bf45a2bb93ff1836897e4e606fd8986339">6b7431bf4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2087">#2087</a>)</li>
+<li><strong>Hyperframes Media:</strong> Surface the real reason a TTS line failed [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/9c98c1e82ab6b27cd6b5025254539a7f7026b1b3">9c98c1e82</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1999">#1999</a>)</li>
+<li><strong>CLI:</strong> Surface video frame-injection failures in snapshot output (<a href="https://github.com/heygen-com/hyperframes/commit/edc0a1624b484cce48b2421110a09dbd8218ae4b">edc0a1624</a>)</li>
+<li><strong>Shader Transitions:</strong> Pin clones to their measured live box, not composition size (<a href="https://github.com/heygen-com/hyperframes/commit/b3d851d65af7e2d37e50b93983c6e721532224f9">b3d851d65</a>)</li>
+<li><strong>CLI:</strong> Fold canvas pixel hashes into the frozen-sweep fingerprint (<a href="https://github.com/heygen-com/hyperframes/commit/3338a6f3503e98249b48555303c69c515f40595b">3338a6f35</a>)</li>
+<li><strong>Shader Transitions:</strong> Pin cloned scene roots to composition dimensions (<a href="https://github.com/heygen-com/hyperframes/commit/9e3ff630f4b6bccd3995b64800429bde0078a841">9e3ff630f</a>)</li>
+<li><strong>Producer:</strong> Disk-headroom gate before hdr raw frame pre-extraction (<a href="https://github.com/heygen-com/hyperframes/commit/9a1afce43c7cbca5deb2875b10bb468dd73cc338">9a1afce43</a>)</li>
+<li><strong>CLI:</strong> Settle post-seek font subset loads before audit screenshots (<a href="https://github.com/heygen-com/hyperframes/commit/8bbd5a6496f0ac491e5b48956bb1d692dd7dcea5">8bbd5a649</a>)</li>
+<li><strong>Engine:</strong> Densify drawelement self-verify with parallel worker count (<a href="https://github.com/heygen-com/hyperframes/commit/1b95af8bbba63e914e99eef29f56ec71f9a13551">1b95af8bb</a>)</li>
+<li><strong>Producer:</strong> Withhold de parallel router below a machine ram floor (<a href="https://github.com/heygen-com/hyperframes/commit/ddcd380a1a2bb563f238f9145413e3533a4bb501">ddcd380a1</a>)</li>
+<li><strong>Producer,engine:</strong> Gate drawelement on ancestor background-image + tail verify sample (<a href="https://github.com/heygen-com/hyperframes/commit/0809c98518a9009de2822d3d23ca485afd01fee7">0809c9851</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Producer:</strong> Note attempt-scoped beginFrameReuse semantics after partial retries (<a href="https://github.com/heygen-com/hyperframes/commit/2cd8a750e3b5d9f6ff86f2f99fd16b2699b32a36">2cd8a750e</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> Stop coupling the hdr disk-headroom gate&#39;s control flow to error-string matching (<a href="https://github.com/heygen-com/hyperframes/commit/c20e20235b01fccec65e12f2d86775930e7e5553">c20e20235</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.53...v0.7.54">https://github.com/heygen-com/hyperframes/compare/v0.7.53...v0.7.54</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.53]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.53</link>
@@ -2561,42 +2661,6 @@ reconstructed extracted-frame assets resolve from the correct zero-based keys.</
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.5...v0.7.6">https://github.com/heygen-com/hyperframes/compare/v0.7.5...v0.7.6</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.5]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.5</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.5</guid>
-            <pubDate>Wed, 24 Jun 2026 04:44:44 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.5</h1>
-<p>Released on 2026-06-24.</p>
-<p>This stable release fixes cross-origin player readiness so hosted HyperFrames
-previews can play through the runtime bridge without app-origin blob wrappers.
-It also improves render robustness by retrying transient producer probe crashes
-and preventing visible GSAP transition overlays from leaking into output.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Player:</strong> Treat runtime timeline as cross-origin ready (<a href="https://github.com/heygen-com/hyperframes/commit/ea23e6309f5516897cebe6b95b1157d703de8dee">ea23e630</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1690">#1690</a>)</li>
-<li><strong>Producer:</strong> Retry probe stage on transient browser errors (<a href="https://github.com/heygen-com/hyperframes/commit/546b2d770bdc7e02d5c834f786c098f7d40f2749">546b2d77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1688">#1688</a>)</li>
-<li>Flag visible GSAP transition overlays (<a href="https://github.com/heygen-com/hyperframes/commit/899b8faa1203c4fb95ed39a38896426311312f22">899b8faa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1686">#1686</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5">https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.5</h1>
-<p>Released on 2026-06-24.</p>
-<p>This stable release fixes cross-origin player readiness so hosted HyperFrames
-previews can play through the runtime bridge without app-origin blob wrappers.
-It also improves render robustness by retrying transient producer probe crashes
-and preventing visible GSAP transition overlays from leaking into output.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Player:</strong> Treat runtime timeline as cross-origin ready (<a href="https://github.com/heygen-com/hyperframes/commit/ea23e6309f5516897cebe6b95b1157d703de8dee">ea23e630</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1690">#1690</a>)</li>
-<li><strong>Producer:</strong> Retry probe stage on transient browser errors (<a href="https://github.com/heygen-com/hyperframes/commit/546b2d770bdc7e02d5c834f786c098f7d40f2749">546b2d77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1688">#1688</a>)</li>
-<li>Flag visible GSAP transition overlays (<a href="https://github.com/heygen-com/hyperframes/commit/899b8faa1203c4fb95ed39a38896426311312f22">899b8faa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1686">#1686</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5">https://github.com/heygen-com/hyperframes/compare/v0.7.4...v0.7.5</a></p>
 ]]></content:encoded>
         </item>
     </channel>
