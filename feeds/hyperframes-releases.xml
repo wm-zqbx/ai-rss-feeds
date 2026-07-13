@@ -4,11 +4,63 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 12 Jul 2026 18:57:06 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jul 2026 07:09:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.56]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.56</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.56</guid>
+            <pubDate>Mon, 13 Jul 2026 07:09:09 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.56</h1>
+<p>Released on 2026-07-13.</p>
+<p>Studio now uses the rebuilt NLE editor, with a unified timeline, richer asset previews, and safer multi-selection, drag, resize, crop, split, and z-order workflows. Editing actions now settle and persist as atomic transactions, so one gesture produces one undo step and failed writes restore the prior state instead of leaving partial changes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Rebuilt the editor shell, timeline lanes, asset browser, media thumbnails, preview overlays, and Blocks workflow around the new NLE experience (<a href="https://github.com/heygen-com/hyperframes/commit/df29fa7a5e43203a989a2ed00c00b5f0e45cee4c">df29fa7a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2291">#2291</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Made edit commits atomic and corrected undo, razor split, group drag, z-order, instant-hold resize/rotate, overlay geometry, crop flicker, and stale-failure behavior (<a href="https://github.com/heygen-com/hyperframes/commit/df29fa7a5e43203a989a2ed00c00b5f0e45cee4c">df29fa7a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2291">#2291</a>)</li>
+<li><strong>Producer:</strong> Avoid duplicate local-font embedding when multiple references resolve to the same file (<a href="https://github.com/heygen-com/hyperframes/commit/9940503102c1f26e2ef8f43e75c013b555883696">994050310</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2317">#2317</a>)</li>
+<li><strong>Render:</strong> Allow an explicit composition entry to render without a project-level <code>index.html</code> (<a href="https://github.com/heygen-com/hyperframes/commit/796d5df15671050472578eb3add54a0982f311b3">796d5df15</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2307">#2307</a>)</li>
+<li><strong>Media Use:</strong> Recognize derived video outputs during ingest (<a href="https://github.com/heygen-com/hyperframes/commit/7c0dcb0b14d65658e7b4eb3fa714a86347313e7a">7c0dcb0b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2310">#2310</a>)</li>
+<li><strong>Render:</strong> Scope strict linting to the composition selected for rendering (<a href="https://github.com/heygen-com/hyperframes/commit/38badff820a2790b03c83ad643373dcbb76140fc">38badff82</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2261">#2261</a>)</li>
+<li><strong>Media Use:</strong> Fall back to bundled sound effects when the HeyGen CLI is missing or outdated (<a href="https://github.com/heygen-com/hyperframes/commit/2e34a2d5a0a14b5653b5a4f6dc109e8869a2e768">2e34a2d5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2257">#2257</a>)</li>
+<li><strong>CLI:</strong> Detect video-driven motion during frozen-frame checks (<a href="https://github.com/heygen-com/hyperframes/commit/44653b31da5621e7b8ae273e8b82dc32ae7acf43">44653b31d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2308">#2308</a>)</li>
+<li><strong>Check:</strong> Snapshot restored text state after contrast audits (<a href="https://github.com/heygen-com/hyperframes/commit/b861afe454e2291bb3b2c57c1945a87bf3e8a535">b861afe45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2306">#2306</a>)</li>
+<li><strong>Render:</strong> Stream long captures on memory-constrained machines instead of buffering the full frame set (<a href="https://github.com/heygen-com/hyperframes/commit/9c0c1f99d4f4475b8779c29d76bdbf96cd9ee47f">9c0c1f99d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2245">#2245</a>)</li>
+<li><strong>Render:</strong> Reject incomplete captured frames before they reach encoding (<a href="https://github.com/heygen-com/hyperframes/commit/995885484ff88ac8cc1863bbe61ebbd9ab5a2368">995885484</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2293">#2293</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56">https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.56</h1>
+<p>Released on 2026-07-13.</p>
+<p>Studio now uses the rebuilt NLE editor, with a unified timeline, richer asset previews, and safer multi-selection, drag, resize, crop, split, and z-order workflows. Editing actions now settle and persist as atomic transactions, so one gesture produces one undo step and failed writes restore the prior state instead of leaving partial changes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Rebuilt the editor shell, timeline lanes, asset browser, media thumbnails, preview overlays, and Blocks workflow around the new NLE experience (<a href="https://github.com/heygen-com/hyperframes/commit/df29fa7a5e43203a989a2ed00c00b5f0e45cee4c">df29fa7a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2291">#2291</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Made edit commits atomic and corrected undo, razor split, group drag, z-order, instant-hold resize/rotate, overlay geometry, crop flicker, and stale-failure behavior (<a href="https://github.com/heygen-com/hyperframes/commit/df29fa7a5e43203a989a2ed00c00b5f0e45cee4c">df29fa7a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2291">#2291</a>)</li>
+<li><strong>Producer:</strong> Avoid duplicate local-font embedding when multiple references resolve to the same file (<a href="https://github.com/heygen-com/hyperframes/commit/9940503102c1f26e2ef8f43e75c013b555883696">994050310</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2317">#2317</a>)</li>
+<li><strong>Render:</strong> Allow an explicit composition entry to render without a project-level <code>index.html</code> (<a href="https://github.com/heygen-com/hyperframes/commit/796d5df15671050472578eb3add54a0982f311b3">796d5df15</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2307">#2307</a>)</li>
+<li><strong>Media Use:</strong> Recognize derived video outputs during ingest (<a href="https://github.com/heygen-com/hyperframes/commit/7c0dcb0b14d65658e7b4eb3fa714a86347313e7a">7c0dcb0b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2310">#2310</a>)</li>
+<li><strong>Render:</strong> Scope strict linting to the composition selected for rendering (<a href="https://github.com/heygen-com/hyperframes/commit/38badff820a2790b03c83ad643373dcbb76140fc">38badff82</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2261">#2261</a>)</li>
+<li><strong>Media Use:</strong> Fall back to bundled sound effects when the HeyGen CLI is missing or outdated (<a href="https://github.com/heygen-com/hyperframes/commit/2e34a2d5a0a14b5653b5a4f6dc109e8869a2e768">2e34a2d5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2257">#2257</a>)</li>
+<li><strong>CLI:</strong> Detect video-driven motion during frozen-frame checks (<a href="https://github.com/heygen-com/hyperframes/commit/44653b31da5621e7b8ae273e8b82dc32ae7acf43">44653b31d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2308">#2308</a>)</li>
+<li><strong>Check:</strong> Snapshot restored text state after contrast audits (<a href="https://github.com/heygen-com/hyperframes/commit/b861afe454e2291bb3b2c57c1945a87bf3e8a535">b861afe45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2306">#2306</a>)</li>
+<li><strong>Render:</strong> Stream long captures on memory-constrained machines instead of buffering the full frame set (<a href="https://github.com/heygen-com/hyperframes/commit/9c0c1f99d4f4475b8779c29d76bdbf96cd9ee47f">9c0c1f99d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2245">#2245</a>)</li>
+<li><strong>Render:</strong> Reject incomplete captured frames before they reach encoding (<a href="https://github.com/heygen-com/hyperframes/commit/995885484ff88ac8cc1863bbe61ebbd9ab5a2368">995885484</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2293">#2293</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56">https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.55]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.55</link>
@@ -2617,60 +2669,6 @@ reconstructed extracted-frame assets resolve from the correct zero-based keys.</
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.7...v0.7.8">https://github.com/heygen-com/hyperframes/compare/v0.7.7...v0.7.8</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.7]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.7</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.7</guid>
-            <pubDate>Thu, 25 Jun 2026 15:57:10 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.7</h1>
-<p>Released on 2026-06-25.</p>
-<p>This release ships the post-0.7.6 fixes that unblock stable adoption: producer probe navigation timeouts now retry, and the Claude plugin fixture no longer trips compression guards during install. It also improves slideshow player interactivity and includes the latest Studio motion-editing and media-use provider work.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Slideshow:</strong> Auto-set interactive on inner player (<a href="https://github.com/heygen-com/hyperframes/commit/64eaad7d69b3c11b9e95b912f2c0b5070994078b">64eaad7d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1712">#1712</a>)</li>
-<li><strong>Studio:</strong> Motion editing — speed-curve editor, class-tween attribution, per-keyframe size &amp; ease (<a href="https://github.com/heygen-com/hyperframes/commit/364992203e39288b92d60c044c2849866ef02976">36499220</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1705">#1705</a>)</li>
-<li><strong>Studio:</strong> Redesign Asset tab + fix beat analysis auto-trigger (<a href="https://github.com/heygen-com/hyperframes/commit/92befea305e923f081d51592abfdc0278a7e840b">92befea3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1684">#1684</a>)</li>
-<li><strong>Media Use:</strong> Resolve engine + BGM/SFX/image/icon providers (<a href="https://github.com/heygen-com/hyperframes/commit/b2dc353725049a0ccecc45db4db8dc8629dc5f5c">b2dc3537</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1683">#1683</a>)</li>
-<li><strong>Media Use:</strong> Core infrastructure — manifest, cache, adopt, probe (<a href="https://github.com/heygen-com/hyperframes/commit/73f6d3e5bed284f80e7a865e4cf2142817f1160c">73f6d3e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1682">#1682</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Plugin:</strong> Avoid high compression silence fixture (<a href="https://github.com/heygen-com/hyperframes/commit/96ab4b18a4f20ff2b7961e64a3771092f92f78fb">96ab4b18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1717">#1717</a>)</li>
-<li><strong>Producer:</strong> Retry probe navigation timeouts (<a href="https://github.com/heygen-com/hyperframes/commit/0558b8761e48683887816cc1c290f46dc4c32745">0558b876</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1713">#1713</a>)</li>
-<li><strong>Skills:</strong> Make media-use frontmatter valid YAML so <code>skills add</code> works (<a href="https://github.com/heygen-com/hyperframes/commit/814c96cefaa149d397a18184ed244178a6f1e46d">814c96ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1709">#1709</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Media Use:</strong> Resolve tests + eval harness (<a href="https://github.com/heygen-com/hyperframes/commit/34bb496566bc1fcccd06a2c9c3f099a5b41d585c">34bb4965</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1685">#1685</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.6...v0.7.7">https://github.com/heygen-com/hyperframes/compare/v0.7.6...v0.7.7</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.7</h1>
-<p>Released on 2026-06-25.</p>
-<p>This release ships the post-0.7.6 fixes that unblock stable adoption: producer probe navigation timeouts now retry, and the Claude plugin fixture no longer trips compression guards during install. It also improves slideshow player interactivity and includes the latest Studio motion-editing and media-use provider work.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Slideshow:</strong> Auto-set interactive on inner player (<a href="https://github.com/heygen-com/hyperframes/commit/64eaad7d69b3c11b9e95b912f2c0b5070994078b">64eaad7d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1712">#1712</a>)</li>
-<li><strong>Studio:</strong> Motion editing — speed-curve editor, class-tween attribution, per-keyframe size &amp; ease (<a href="https://github.com/heygen-com/hyperframes/commit/364992203e39288b92d60c044c2849866ef02976">36499220</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1705">#1705</a>)</li>
-<li><strong>Studio:</strong> Redesign Asset tab + fix beat analysis auto-trigger (<a href="https://github.com/heygen-com/hyperframes/commit/92befea305e923f081d51592abfdc0278a7e840b">92befea3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1684">#1684</a>)</li>
-<li><strong>Media Use:</strong> Resolve engine + BGM/SFX/image/icon providers (<a href="https://github.com/heygen-com/hyperframes/commit/b2dc353725049a0ccecc45db4db8dc8629dc5f5c">b2dc3537</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1683">#1683</a>)</li>
-<li><strong>Media Use:</strong> Core infrastructure — manifest, cache, adopt, probe (<a href="https://github.com/heygen-com/hyperframes/commit/73f6d3e5bed284f80e7a865e4cf2142817f1160c">73f6d3e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1682">#1682</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Plugin:</strong> Avoid high compression silence fixture (<a href="https://github.com/heygen-com/hyperframes/commit/96ab4b18a4f20ff2b7961e64a3771092f92f78fb">96ab4b18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1717">#1717</a>)</li>
-<li><strong>Producer:</strong> Retry probe navigation timeouts (<a href="https://github.com/heygen-com/hyperframes/commit/0558b8761e48683887816cc1c290f46dc4c32745">0558b876</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1713">#1713</a>)</li>
-<li><strong>Skills:</strong> Make media-use frontmatter valid YAML so <code>skills add</code> works (<a href="https://github.com/heygen-com/hyperframes/commit/814c96cefaa149d397a18184ed244178a6f1e46d">814c96ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1709">#1709</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Media Use:</strong> Resolve tests + eval harness (<a href="https://github.com/heygen-com/hyperframes/commit/34bb496566bc1fcccd06a2c9c3f099a5b41d585c">34bb4965</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1685">#1685</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.6...v0.7.7">https://github.com/heygen-com/hyperframes/compare/v0.7.6...v0.7.7</a></p>
 ]]></content:encoded>
         </item>
     </channel>
