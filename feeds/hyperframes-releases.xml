@@ -4,11 +4,75 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 14 Jul 2026 04:33:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jul 2026 20:19:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.58]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.58</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.58</guid>
+            <pubDate>Tue, 14 Jul 2026 20:19:34 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.58</h1>
+<p>Released on 2026-07-14.</p>
+<p>HyperFrames now uses a 0–10 recommendation scale for feedback, keeps canvas z-order actions synchronized with timeline lanes, and makes the core workflow set easier to install from the skills picker. Rendering is more reliable across variable-bound and root-absolute media, explicit worker counts, Windows FFmpeg failures, and final artifact publication, while CLI snapshot, frame, layout, and contrast diagnostics are more consistent.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Feedback:</strong> Adopt 0–10 recommendation scale (<a href="https://github.com/heygen-com/hyperframes/commit/990f5c314513a379ccceef050da31a633101c9d1">990f5c314</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2438">#2438</a>)</li>
+<li><strong>Studio:</strong> Mirror canvas z-order actions into timeline lanes (track order = default paint order) (<a href="https://github.com/heygen-com/hyperframes/commit/89db7188994b6d808382cb311dd4d3677a89078d">89db71889</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2380">#2380</a>)</li>
+<li><strong>Skills:</strong> Group core skills in the skills add picker (<a href="https://github.com/heygen-com/hyperframes/commit/4a4903b49a8e1c8cf5ffa91add6c1d9032e79317">4a4903b49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2412">#2412</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Resolve color-mix() colors in contrast audit instead of false-failing (<a href="https://github.com/heygen-com/hyperframes/commit/6c2513d5c80fea57d6686ccddf560e2e8c213afb">6c2513d5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2445">#2445</a>)</li>
+<li><strong>Producer:</strong> Probe variable-bound media sources (<a href="https://github.com/heygen-com/hyperframes/commit/d2c8c2d8087814f35a3059069efc8c3a7a91cad8">d2c8c2d80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2444">#2444</a>)</li>
+<li><strong>Pr To Video:</strong> Use display names, not GitHub logins, in credits narration (<a href="https://github.com/heygen-com/hyperframes/commit/4cba58f5a3a269b438d88aa9be406f7961c2fa25">4cba58f5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2385">#2385</a>)</li>
+<li><strong>Engine:</strong> Honor explicit render worker counts (<a href="https://github.com/heygen-com/hyperframes/commit/e05debe1afadb802590ee8a58c55f7494a9229f1">e05debe1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2439">#2439</a>)</li>
+<li><strong>Render:</strong> Diagnose unlaunchable Windows FFmpeg (<a href="https://github.com/heygen-com/hyperframes/commit/3d7e26aabfa34d1a96cc66b7b59cd646711bf216">3d7e26aab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2430">#2430</a>)</li>
+<li><strong>Render:</strong> Publish artifacts atomically (<a href="https://github.com/heygen-com/hyperframes/commit/fb0d8235008632439967117d4e7f798cfb07e592">fb0d82350</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2154">#2154</a>)</li>
+<li><strong>CLI:</strong> Consolidate snapshot and frame diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/6933e8acda57268da9a40e0adf3d99c85059d2b5">6933e8acd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2402">#2402</a>)</li>
+<li><strong>CLI:</strong> Consolidate layout and contrast audit correctness (<a href="https://github.com/heygen-com/hyperframes/commit/b98463ae3ae7e278f410ebcae20ce2c3fc82218b">b98463ae3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2401">#2401</a>)</li>
+<li><strong>Engine:</strong> Resolve root-absolute media from project (<a href="https://github.com/heygen-com/hyperframes/commit/6fc92308d638a75d753cf160f656e7ec3f9066ea">6fc92308d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2399">#2399</a>)</li>
+<li><strong>Engine:</strong> Skip unnecessary dimension pad (<a href="https://github.com/heygen-com/hyperframes/commit/0dfc85b680aaff20d89dcab4f9d937b8139eb9f5">0dfc85b68</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2398">#2398</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Make FFmpeg path assertion platform-safe (<a href="https://github.com/heygen-com/hyperframes/commit/d7204ac47fceff0551de64312ed6affc41892ddc">d7204ac47</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2433">#2433</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.57...v0.7.58">https://github.com/heygen-com/hyperframes/compare/v0.7.57...v0.7.58</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.58</h1>
+<p>Released on 2026-07-14.</p>
+<p>HyperFrames now uses a 0–10 recommendation scale for feedback, keeps canvas z-order actions synchronized with timeline lanes, and makes the core workflow set easier to install from the skills picker. Rendering is more reliable across variable-bound and root-absolute media, explicit worker counts, Windows FFmpeg failures, and final artifact publication, while CLI snapshot, frame, layout, and contrast diagnostics are more consistent.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Feedback:</strong> Adopt 0–10 recommendation scale (<a href="https://github.com/heygen-com/hyperframes/commit/990f5c314513a379ccceef050da31a633101c9d1">990f5c314</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2438">#2438</a>)</li>
+<li><strong>Studio:</strong> Mirror canvas z-order actions into timeline lanes (track order = default paint order) (<a href="https://github.com/heygen-com/hyperframes/commit/89db7188994b6d808382cb311dd4d3677a89078d">89db71889</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2380">#2380</a>)</li>
+<li><strong>Skills:</strong> Group core skills in the skills add picker (<a href="https://github.com/heygen-com/hyperframes/commit/4a4903b49a8e1c8cf5ffa91add6c1d9032e79317">4a4903b49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2412">#2412</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Resolve color-mix() colors in contrast audit instead of false-failing (<a href="https://github.com/heygen-com/hyperframes/commit/6c2513d5c80fea57d6686ccddf560e2e8c213afb">6c2513d5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2445">#2445</a>)</li>
+<li><strong>Producer:</strong> Probe variable-bound media sources (<a href="https://github.com/heygen-com/hyperframes/commit/d2c8c2d8087814f35a3059069efc8c3a7a91cad8">d2c8c2d80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2444">#2444</a>)</li>
+<li><strong>Pr To Video:</strong> Use display names, not GitHub logins, in credits narration (<a href="https://github.com/heygen-com/hyperframes/commit/4cba58f5a3a269b438d88aa9be406f7961c2fa25">4cba58f5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2385">#2385</a>)</li>
+<li><strong>Engine:</strong> Honor explicit render worker counts (<a href="https://github.com/heygen-com/hyperframes/commit/e05debe1afadb802590ee8a58c55f7494a9229f1">e05debe1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2439">#2439</a>)</li>
+<li><strong>Render:</strong> Diagnose unlaunchable Windows FFmpeg (<a href="https://github.com/heygen-com/hyperframes/commit/3d7e26aabfa34d1a96cc66b7b59cd646711bf216">3d7e26aab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2430">#2430</a>)</li>
+<li><strong>Render:</strong> Publish artifacts atomically (<a href="https://github.com/heygen-com/hyperframes/commit/fb0d8235008632439967117d4e7f798cfb07e592">fb0d82350</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2154">#2154</a>)</li>
+<li><strong>CLI:</strong> Consolidate snapshot and frame diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/6933e8acda57268da9a40e0adf3d99c85059d2b5">6933e8acd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2402">#2402</a>)</li>
+<li><strong>CLI:</strong> Consolidate layout and contrast audit correctness (<a href="https://github.com/heygen-com/hyperframes/commit/b98463ae3ae7e278f410ebcae20ce2c3fc82218b">b98463ae3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2401">#2401</a>)</li>
+<li><strong>Engine:</strong> Resolve root-absolute media from project (<a href="https://github.com/heygen-com/hyperframes/commit/6fc92308d638a75d753cf160f656e7ec3f9066ea">6fc92308d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2399">#2399</a>)</li>
+<li><strong>Engine:</strong> Skip unnecessary dimension pad (<a href="https://github.com/heygen-com/hyperframes/commit/0dfc85b680aaff20d89dcab4f9d937b8139eb9f5">0dfc85b68</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2398">#2398</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Make FFmpeg path assertion platform-safe (<a href="https://github.com/heygen-com/hyperframes/commit/d7204ac47fceff0551de64312ed6affc41892ddc">d7204ac47</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2433">#2433</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.57...v0.7.58">https://github.com/heygen-com/hyperframes/compare/v0.7.57...v0.7.58</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.57]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.57</link>
@@ -2723,36 +2787,6 @@ reconstructed extracted-frame assets resolve from the correct zero-based keys.</
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.9...v0.7.10">https://github.com/heygen-com/hyperframes/compare/v0.7.9...v0.7.10</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.9]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.9</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.9</guid>
-            <pubDate>Fri, 26 Jun 2026 01:35:43 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.9</h1>
-<p>Released on 2026-06-26.</p>
-<p>A reliability release for Studio authoring: Enable-keyframes now works (and auto-tracks endpoints) on statically-positioned elements backed by a global <code>gsap.set</code>, and manually dragging such elements no longer flings them off-canvas — the position is migrated cleanly onto GSAP. Rounded out with composition-lint and clip hold-frame fixes.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Enable keyframes works (and auto-tracks) on elements with a global gsap.set (<a href="https://github.com/heygen-com/hyperframes/commit/226a741c9dd282a4a4aa88d173bc0a5cfd0f8ea9">226a741c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1728">#1728</a>)</li>
-<li><strong>Core:</strong> Lint leaked head text in compositions (<a href="https://github.com/heygen-com/hyperframes/commit/bafed1fc9a913f5f9b58bb6f48b354859e810d8b">bafed1fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1727">#1727</a>)</li>
-<li><strong>Engine:</strong> Hold last frame when a clip&#39;s media is shorter than its slot (<a href="https://github.com/heygen-com/hyperframes/commit/92385711dccbe89a6673357a6f39da7379d68528">92385711</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1726">#1726</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.8...v0.7.9">https://github.com/heygen-com/hyperframes/compare/v0.7.8...v0.7.9</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.9</h1>
-<p>Released on 2026-06-26.</p>
-<p>A reliability release for Studio authoring: Enable-keyframes now works (and auto-tracks endpoints) on statically-positioned elements backed by a global <code>gsap.set</code>, and manually dragging such elements no longer flings them off-canvas — the position is migrated cleanly onto GSAP. Rounded out with composition-lint and clip hold-frame fixes.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Enable keyframes works (and auto-tracks) on elements with a global gsap.set (<a href="https://github.com/heygen-com/hyperframes/commit/226a741c9dd282a4a4aa88d173bc0a5cfd0f8ea9">226a741c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1728">#1728</a>)</li>
-<li><strong>Core:</strong> Lint leaked head text in compositions (<a href="https://github.com/heygen-com/hyperframes/commit/bafed1fc9a913f5f9b58bb6f48b354859e810d8b">bafed1fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1727">#1727</a>)</li>
-<li><strong>Engine:</strong> Hold last frame when a clip&#39;s media is shorter than its slot (<a href="https://github.com/heygen-com/hyperframes/commit/92385711dccbe89a6673357a6f39da7379d68528">92385711</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1726">#1726</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.8...v0.7.9">https://github.com/heygen-com/hyperframes/compare/v0.7.8...v0.7.9</a></p>
 ]]></content:encoded>
         </item>
     </channel>
