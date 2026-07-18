@@ -4,11 +4,89 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 17 Jul 2026 08:11:39 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2026 02:06:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.62]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.62</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.62</guid>
+            <pubDate>Sat, 18 Jul 2026 02:06:09 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.62</h1>
+<p>Released on 2026-07-18.</p>
+<p>Studio now plays alpha-channel authoring proxies reliably through Chromium-compatible VP8, while the render pipeline gains stricter serializable request validation and immutable capture planning that preserves OOM retries. Cloud uploads are size-aware, timeline and sidecar recovery are more robust, and capture failures avoid duplicate compositing and pathological parsing.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Make cloud archives size-aware (<a href="https://github.com/heygen-com/hyperframes/commit/e73304fb0e94d2272839e55a0bcc4dd00210db34">e73304fb0</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Preserve alpha proxy playback (<a href="https://github.com/heygen-com/hyperframes/commit/e64a22893a161823c2b9f03522cf9d1246e96a9f">e64a22893</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2625">#2625</a>)</li>
+<li><strong>Producer:</strong> Retain streaming retry after OOM (<a href="https://github.com/heygen-com/hyperframes/commit/a7d6f7f7dc4ed03f9d3b71f83551be01fbc3ac1c">a7d6f7f7d</a>)</li>
+<li><strong>Producer:</strong> Preserve render request config contracts (<a href="https://github.com/heygen-com/hyperframes/commit/1a66c881b8f83932ebbf2f9c09b42f2f63de163e">1a66c881b</a>)</li>
+<li><strong>Producer:</strong> Validate render request engine snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/fc4e9a6c0ed8aa0eee054edce87e521c7ff3cafe">fc4e9a6c0</a>)</li>
+<li><strong>Producer:</strong> Omit absent render request options (<a href="https://github.com/heygen-com/hyperframes/commit/25dd4cc8c013c43de7e562465b2b7ddacd863d89">25dd4cc8c</a>)</li>
+<li><strong>Producer:</strong> Validate render request wire contracts (<a href="https://github.com/heygen-com/hyperframes/commit/c251db02d089c681a0739386d95489317da3b6ed">c251db02d</a>)</li>
+<li><strong>Studio:</strong> Ignore stale failed sidecars for existing renders (<a href="https://github.com/heygen-com/hyperframes/commit/2577aaffeb9703be3d9dd17c0c5fb3c45b6e32e7">2577aaffe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2621">#2621</a>)</li>
+<li><strong>Producer:</strong> Credit held video tails in coverage gate (<a href="https://github.com/heygen-com/hyperframes/commit/209784ab27801b70c9d8e636e4eaf2e3dc796d2b">209784ab2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2606">#2606</a>)</li>
+<li><strong>Studio:</strong> Harden composition timeline reliability (<a href="https://github.com/heygen-com/hyperframes/commit/2b65b4efcef9f69ab294aa608b54a89a600ab76f">2b65b4efc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2615">#2615</a>)</li>
+<li><strong>Engine:</strong> Stop compositing phantom duplicates on captureBeyondViewport (<a href="https://github.com/heygen-com/hyperframes/commit/2be8a62c0009e61aeae7f713773013afd9b6f173">2be8a62c0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2607">#2607</a>)</li>
+<li><strong>Engine:</strong> Avoid polynomial capture failure regex (<a href="https://github.com/heygen-com/hyperframes/commit/5da9f7ab3d53d7b5b95f216d63532f20cb6036dd">5da9f7ab3</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Guides:</strong> Resolve the Send-to fidelity contradiction (preserve substance, adapt form) (<a href="https://github.com/heygen-com/hyperframes/commit/7acabbcdeb9b55ce9f75c7d35d7f281273a99f29">7acabbcde</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2620">#2620</a>)</li>
+<li><strong>Guides:</strong> Redirect Send-to imports to the Send-to guide (<a href="https://github.com/heygen-com/hyperframes/commit/8bfc676881c07c3c8ee1f0b6b247cc5f207cd3fd">8bfc67688</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2619">#2619</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> Preserve parallel plan watchdog coverage (<a href="https://github.com/heygen-com/hyperframes/commit/e9604270b27c73abf7d3f94ebe1dbe198736a8a0">e9604270b</a>)</li>
+<li><strong>Producer:</strong> Make capture plans immutable (<a href="https://github.com/heygen-com/hyperframes/commit/6a84e95c68fd6009fcd13b33aa2703d72b535d8f">6a84e95c6</a>)</li>
+<li><strong>Producer:</strong> Unify render requests (<a href="https://github.com/heygen-com/hyperframes/commit/65f2e2927cc033a83ab7bdf5e43d4b63c2b7aa02">65f2e2927</a>)</li>
+<li><strong>Engine:</strong> Type capture failures (<a href="https://github.com/heygen-com/hyperframes/commit/acb3d81b99d4135009cf34ec3cb467054cf0fa66">acb3d81b9</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.61...v0.7.62">https://github.com/heygen-com/hyperframes/compare/v0.7.61...v0.7.62</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.62</h1>
+<p>Released on 2026-07-18.</p>
+<p>Studio now plays alpha-channel authoring proxies reliably through Chromium-compatible VP8, while the render pipeline gains stricter serializable request validation and immutable capture planning that preserves OOM retries. Cloud uploads are size-aware, timeline and sidecar recovery are more robust, and capture failures avoid duplicate compositing and pathological parsing.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Make cloud archives size-aware (<a href="https://github.com/heygen-com/hyperframes/commit/e73304fb0e94d2272839e55a0bcc4dd00210db34">e73304fb0</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Preserve alpha proxy playback (<a href="https://github.com/heygen-com/hyperframes/commit/e64a22893a161823c2b9f03522cf9d1246e96a9f">e64a22893</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2625">#2625</a>)</li>
+<li><strong>Producer:</strong> Retain streaming retry after OOM (<a href="https://github.com/heygen-com/hyperframes/commit/a7d6f7f7dc4ed03f9d3b71f83551be01fbc3ac1c">a7d6f7f7d</a>)</li>
+<li><strong>Producer:</strong> Preserve render request config contracts (<a href="https://github.com/heygen-com/hyperframes/commit/1a66c881b8f83932ebbf2f9c09b42f2f63de163e">1a66c881b</a>)</li>
+<li><strong>Producer:</strong> Validate render request engine snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/fc4e9a6c0ed8aa0eee054edce87e521c7ff3cafe">fc4e9a6c0</a>)</li>
+<li><strong>Producer:</strong> Omit absent render request options (<a href="https://github.com/heygen-com/hyperframes/commit/25dd4cc8c013c43de7e562465b2b7ddacd863d89">25dd4cc8c</a>)</li>
+<li><strong>Producer:</strong> Validate render request wire contracts (<a href="https://github.com/heygen-com/hyperframes/commit/c251db02d089c681a0739386d95489317da3b6ed">c251db02d</a>)</li>
+<li><strong>Studio:</strong> Ignore stale failed sidecars for existing renders (<a href="https://github.com/heygen-com/hyperframes/commit/2577aaffeb9703be3d9dd17c0c5fb3c45b6e32e7">2577aaffe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2621">#2621</a>)</li>
+<li><strong>Producer:</strong> Credit held video tails in coverage gate (<a href="https://github.com/heygen-com/hyperframes/commit/209784ab27801b70c9d8e636e4eaf2e3dc796d2b">209784ab2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2606">#2606</a>)</li>
+<li><strong>Studio:</strong> Harden composition timeline reliability (<a href="https://github.com/heygen-com/hyperframes/commit/2b65b4efcef9f69ab294aa608b54a89a600ab76f">2b65b4efc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2615">#2615</a>)</li>
+<li><strong>Engine:</strong> Stop compositing phantom duplicates on captureBeyondViewport (<a href="https://github.com/heygen-com/hyperframes/commit/2be8a62c0009e61aeae7f713773013afd9b6f173">2be8a62c0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2607">#2607</a>)</li>
+<li><strong>Engine:</strong> Avoid polynomial capture failure regex (<a href="https://github.com/heygen-com/hyperframes/commit/5da9f7ab3d53d7b5b95f216d63532f20cb6036dd">5da9f7ab3</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Guides:</strong> Resolve the Send-to fidelity contradiction (preserve substance, adapt form) (<a href="https://github.com/heygen-com/hyperframes/commit/7acabbcdeb9b55ce9f75c7d35d7f281273a99f29">7acabbcde</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2620">#2620</a>)</li>
+<li><strong>Guides:</strong> Redirect Send-to imports to the Send-to guide (<a href="https://github.com/heygen-com/hyperframes/commit/8bfc676881c07c3c8ee1f0b6b247cc5f207cd3fd">8bfc67688</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2619">#2619</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> Preserve parallel plan watchdog coverage (<a href="https://github.com/heygen-com/hyperframes/commit/e9604270b27c73abf7d3f94ebe1dbe198736a8a0">e9604270b</a>)</li>
+<li><strong>Producer:</strong> Make capture plans immutable (<a href="https://github.com/heygen-com/hyperframes/commit/6a84e95c68fd6009fcd13b33aa2703d72b535d8f">6a84e95c6</a>)</li>
+<li><strong>Producer:</strong> Unify render requests (<a href="https://github.com/heygen-com/hyperframes/commit/65f2e2927cc033a83ab7bdf5e43d4b63c2b7aa02">65f2e2927</a>)</li>
+<li><strong>Engine:</strong> Type capture failures (<a href="https://github.com/heygen-com/hyperframes/commit/acb3d81b99d4135009cf34ec3cb467054cf0fa66">acb3d81b9</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.61...v0.7.62">https://github.com/heygen-com/hyperframes/compare/v0.7.61...v0.7.62</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.61]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.61</link>
@@ -3303,48 +3381,6 @@ browser would render it as visible video text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.12...v0.7.13">https://github.com/heygen-com/hyperframes/compare/v0.7.12...v0.7.13</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.12]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.12</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.12</guid>
-            <pubDate>Fri, 26 Jun 2026 21:52:38 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.12</h1>
-<p>Released on 2026-06-26.</p>
-<p>This release unblocks Zephyr and other producer-backed generation flows that use
-Google Fonts: those imports now warn instead of hard-failing lint when the
-producer can resolve them. It also keeps HyperFrames skills installs targeted to
-the agents a project actually uses and adds a product-launch video skill.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Skills:</strong> Product-launch-video skill + consolidate motion knowledge into hyperframes-animation (<a href="https://github.com/heygen-com/hyperframes/commit/05af482f22a3df534c38056f7d7894b9e469d655">05af482f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1745">#1745</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Allow producer-resolved google fonts (<a href="https://github.com/heygen-com/hyperframes/commit/aacce27a33140857a3ee2d6384cb9c5d44a556fe">aacce27a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1750">#1750</a>)</li>
-<li><strong>CLI:</strong> Scope skill installs to relevant agents, not all ~70 via --all (<a href="https://github.com/heygen-com/hyperframes/commit/70a03f788bac97a04342a4db2310204766a0eacd">70a03f78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1748">#1748</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.11...v0.7.12">https://github.com/heygen-com/hyperframes/compare/v0.7.11...v0.7.12</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.12</h1>
-<p>Released on 2026-06-26.</p>
-<p>This release unblocks Zephyr and other producer-backed generation flows that use
-Google Fonts: those imports now warn instead of hard-failing lint when the
-producer can resolve them. It also keeps HyperFrames skills installs targeted to
-the agents a project actually uses and adds a product-launch video skill.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Skills:</strong> Product-launch-video skill + consolidate motion knowledge into hyperframes-animation (<a href="https://github.com/heygen-com/hyperframes/commit/05af482f22a3df534c38056f7d7894b9e469d655">05af482f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1745">#1745</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Allow producer-resolved google fonts (<a href="https://github.com/heygen-com/hyperframes/commit/aacce27a33140857a3ee2d6384cb9c5d44a556fe">aacce27a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1750">#1750</a>)</li>
-<li><strong>CLI:</strong> Scope skill installs to relevant agents, not all ~70 via --all (<a href="https://github.com/heygen-com/hyperframes/commit/70a03f788bac97a04342a4db2310204766a0eacd">70a03f78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1748">#1748</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.11...v0.7.12">https://github.com/heygen-com/hyperframes/compare/v0.7.11...v0.7.12</a></p>
 ]]></content:encoded>
         </item>
     </channel>
