@@ -4,11 +4,43 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 18 Jul 2026 02:06:09 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2026 08:48:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.63]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.63</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.63</guid>
+            <pubDate>Sat, 18 Jul 2026 08:48:32 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.63</h1>
+<p>Released on 2026-07-18.</p>
+<p>Media Use now releases incomplete asset reservations when downloads, cache imports, or LUT
+generation fail, preventing zero-byte placeholders from being mistaken for valid media. Missing
+HeyGen CLI guidance now points to the official setup docs instead of embedding pipe-to-shell
+installer text.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> Clean failed asset reservations (<a href="https://github.com/heygen-com/hyperframes/commit/49113eb08487b2c53b7404bc26c5e419244ae97f">49113eb08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2627">#2627</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.62...v0.7.63">https://github.com/heygen-com/hyperframes/compare/v0.7.62...v0.7.63</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.63</h1>
+<p>Released on 2026-07-18.</p>
+<p>Media Use now releases incomplete asset reservations when downloads, cache imports, or LUT
+generation fail, preventing zero-byte placeholders from being mistaken for valid media. Missing
+HeyGen CLI guidance now points to the official setup docs instead of embedding pipe-to-shell
+installer text.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> Clean failed asset reservations (<a href="https://github.com/heygen-com/hyperframes/commit/49113eb08487b2c53b7404bc26c5e419244ae97f">49113eb08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2627">#2627</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.62...v0.7.63">https://github.com/heygen-com/hyperframes/compare/v0.7.62...v0.7.63</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.62]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.62</link>
@@ -3351,36 +3383,6 @@ skills into detected agent stores.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14">https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.13]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.13</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.13</guid>
-            <pubDate>Fri, 26 Jun 2026 22:46:08 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.13</h1>
-<p>Released on 2026-06-26.</p>
-<p>This lint reliability release catches malformed generated HTML that leaves CSS
-or code-looking text between the document head and the composition root, where a
-browser would render it as visible video text.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Catch visible css before composition root (<a href="https://github.com/heygen-com/hyperframes/commit/c7830b54c617f1435a97575b9a7eaa104594c835">c7830b54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1751">#1751</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.12...v0.7.13">https://github.com/heygen-com/hyperframes/compare/v0.7.12...v0.7.13</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.13</h1>
-<p>Released on 2026-06-26.</p>
-<p>This lint reliability release catches malformed generated HTML that leaves CSS
-or code-looking text between the document head and the composition root, where a
-browser would render it as visible video text.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Catch visible css before composition root (<a href="https://github.com/heygen-com/hyperframes/commit/c7830b54c617f1435a97575b9a7eaa104594c835">c7830b54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1751">#1751</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.12...v0.7.13">https://github.com/heygen-com/hyperframes/compare/v0.7.12...v0.7.13</a></p>
 ]]></content:encoded>
         </item>
     </channel>
