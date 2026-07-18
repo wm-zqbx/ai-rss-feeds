@@ -4,11 +4,65 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 18 Jul 2026 08:48:32 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2026 19:06:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.64]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.64</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.64</guid>
+            <pubDate>Sat, 18 Jul 2026 19:06:20 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.64</h1>
+<p>Released on 2026-07-18.</p>
+<p>Studio editing is more predictable: multi-selection drags now keep composition positions in sync,
+and Acorn-based atomic cuts stay isolated from Recast behind explicit operation-family gates.
+Preview and render compilation now share a semantic-parity contract, while local <code>.scratch</code> files
+no longer pollute lint runs.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep composition multi-drag positions in sync (<a href="https://github.com/heygen-com/hyperframes/commit/f7911d10b0a7deac6fe4630947b53434d237ad21">f7911d10b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2629">#2629</a>)</li>
+<li><strong>Lint:</strong> Ignore local .scratch directories in oxlint (<a href="https://github.com/heygen-com/hyperframes/commit/452e9074f413677b0040c7ea231dacf3f0470c0e">452e9074f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2624">#2624</a>)</li>
+<li><strong>Studio:</strong> Keep atomic Acorn splits Recast-free (<a href="https://github.com/heygen-com/hyperframes/commit/8dd7e3dfc57dd1f44f50818cd9eea5225edd0ec0">8dd7e3dfc</a>)</li>
+<li><strong>Studio:</strong> Read writer environment explicitly (<a href="https://github.com/heygen-com/hyperframes/commit/022e260ac3096fd4826e14e1924aba2cfd1a84c6">022e260ac</a>)</li>
+<li><strong>Studio:</strong> Select writer for atomic cuts (<a href="https://github.com/heygen-com/hyperframes/commit/710a8f1db2568b078a894ccfde87a07aefcecab8">710a8f1db</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> Own edit protocol contract (<a href="https://github.com/heygen-com/hyperframes/commit/562544f68de4f769cdb1faac633b7c8341dbd0fb">562544f68</a>)</li>
+<li><strong>Compiler:</strong> Enforce preview render parity (<a href="https://github.com/heygen-com/hyperframes/commit/f0956e59447de4bf1f02fcc3f765ac8461edd00b">f0956e594</a>)</li>
+<li><strong>Studio:</strong> Gate SDK operation families (<a href="https://github.com/heygen-com/hyperframes/commit/38c2d069333e0d6deae746de970539e8a4d94a5d">38c2d0693</a>)</li>
+<li><strong>Studio:</strong> Gate Acorn writer migration (<a href="https://github.com/heygen-com/hyperframes/commit/43788c6dda35badd9333f53a91c5e88f56d502be">43788c6dd</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.63...v0.7.64">https://github.com/heygen-com/hyperframes/compare/v0.7.63...v0.7.64</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.64</h1>
+<p>Released on 2026-07-18.</p>
+<p>Studio editing is more predictable: multi-selection drags now keep composition positions in sync,
+and Acorn-based atomic cuts stay isolated from Recast behind explicit operation-family gates.
+Preview and render compilation now share a semantic-parity contract, while local <code>.scratch</code> files
+no longer pollute lint runs.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep composition multi-drag positions in sync (<a href="https://github.com/heygen-com/hyperframes/commit/f7911d10b0a7deac6fe4630947b53434d237ad21">f7911d10b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2629">#2629</a>)</li>
+<li><strong>Lint:</strong> Ignore local .scratch directories in oxlint (<a href="https://github.com/heygen-com/hyperframes/commit/452e9074f413677b0040c7ea231dacf3f0470c0e">452e9074f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2624">#2624</a>)</li>
+<li><strong>Studio:</strong> Keep atomic Acorn splits Recast-free (<a href="https://github.com/heygen-com/hyperframes/commit/8dd7e3dfc57dd1f44f50818cd9eea5225edd0ec0">8dd7e3dfc</a>)</li>
+<li><strong>Studio:</strong> Read writer environment explicitly (<a href="https://github.com/heygen-com/hyperframes/commit/022e260ac3096fd4826e14e1924aba2cfd1a84c6">022e260ac</a>)</li>
+<li><strong>Studio:</strong> Select writer for atomic cuts (<a href="https://github.com/heygen-com/hyperframes/commit/710a8f1db2568b078a894ccfde87a07aefcecab8">710a8f1db</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> Own edit protocol contract (<a href="https://github.com/heygen-com/hyperframes/commit/562544f68de4f769cdb1faac633b7c8341dbd0fb">562544f68</a>)</li>
+<li><strong>Compiler:</strong> Enforce preview render parity (<a href="https://github.com/heygen-com/hyperframes/commit/f0956e59447de4bf1f02fcc3f765ac8461edd00b">f0956e594</a>)</li>
+<li><strong>Studio:</strong> Gate SDK operation families (<a href="https://github.com/heygen-com/hyperframes/commit/38c2d069333e0d6deae746de970539e8a4d94a5d">38c2d0693</a>)</li>
+<li><strong>Studio:</strong> Gate Acorn writer migration (<a href="https://github.com/heygen-com/hyperframes/commit/43788c6dda35badd9333f53a91c5e88f56d502be">43788c6dd</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.63...v0.7.64">https://github.com/heygen-com/hyperframes/compare/v0.7.63...v0.7.64</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.63]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.63</link>
@@ -3353,36 +3407,6 @@ package set.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.14...v0.7.15">https://github.com/heygen-com/hyperframes/compare/v0.7.14...v0.7.15</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.14]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.14</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.14</guid>
-            <pubDate>Sat, 27 Jun 2026 00:42:13 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.14</h1>
-<p>Released on 2026-06-27.</p>
-<p>This CLI release makes HyperFrames skills self-healing: installs now keep a
-freshness manifest, install once globally, and mirror only HyperFrames-owned
-skills into detected agent stores.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Skills freshness — version check, manifest, global install + multi-agent mirror (<a href="https://github.com/heygen-com/hyperframes/commit/bf961d1268427997a9e0a909d13198f50d1ab8c5">bf961d12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1753">#1753</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14">https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.14</h1>
-<p>Released on 2026-06-27.</p>
-<p>This CLI release makes HyperFrames skills self-healing: installs now keep a
-freshness manifest, install once globally, and mirror only HyperFrames-owned
-skills into detected agent stores.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Skills freshness — version check, manifest, global install + multi-agent mirror (<a href="https://github.com/heygen-com/hyperframes/commit/bf961d1268427997a9e0a909d13198f50d1ab8c5">bf961d12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1753">#1753</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14">https://github.com/heygen-com/hyperframes/compare/v0.7.13...v0.7.14</a></p>
 ]]></content:encoded>
         </item>
     </channel>
