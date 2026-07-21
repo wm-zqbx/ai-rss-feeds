@@ -4,11 +4,47 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 21 Jul 2026 04:50:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 12:42:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.66]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.66</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.66</guid>
+            <pubDate>Tue, 21 Jul 2026 12:42:09 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.66</h1>
+<p>Released on 2026-07-21.</p>
+<p>Studio preview audio now plays at playback speeds above 1x instead of being silently muted, and the mute control stays usable at every speed. This release also fixes an engine worker frame-stride false-positive and lands a c2v skills mining pass with new blueprints and rules.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> C2v mining pass — 7 new blueprints, 10 new rules, compacted recipe corpus (<a href="https://github.com/heygen-com/hyperframes/commit/853256403b3ffd3dc0b616785ab876b4c0f04a89">853256403</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2680">#2680</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Play preview audio at speeds above 1x (<a href="https://github.com/heygen-com/hyperframes/commit/07965e9fe93fc7b53dfe7c933f8abd0c4b10c86d">07965e9fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2691">#2691</a>)</li>
+<li><strong>Engine:</strong> Carry frameStride onto WorkerResult (fixes interleaved worker false-positive) (<a href="https://github.com/heygen-com/hyperframes/commit/4f53dd4f2cd607de17b2d2329746fa5da0cadeaa">4f53dd4f2</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.65...v0.7.66">https://github.com/heygen-com/hyperframes/compare/v0.7.65...v0.7.66</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.66</h1>
+<p>Released on 2026-07-21.</p>
+<p>Studio preview audio now plays at playback speeds above 1x instead of being silently muted, and the mute control stays usable at every speed. This release also fixes an engine worker frame-stride false-positive and lands a c2v skills mining pass with new blueprints and rules.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> C2v mining pass — 7 new blueprints, 10 new rules, compacted recipe corpus (<a href="https://github.com/heygen-com/hyperframes/commit/853256403b3ffd3dc0b616785ab876b4c0f04a89">853256403</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2680">#2680</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Play preview audio at speeds above 1x (<a href="https://github.com/heygen-com/hyperframes/commit/07965e9fe93fc7b53dfe7c933f8abd0c4b10c86d">07965e9fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2691">#2691</a>)</li>
+<li><strong>Engine:</strong> Carry frameStride onto WorkerResult (fixes interleaved worker false-positive) (<a href="https://github.com/heygen-com/hyperframes/commit/4f53dd4f2cd607de17b2d2329746fa5da0cadeaa">4f53dd4f2</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.65...v0.7.66">https://github.com/heygen-com/hyperframes/compare/v0.7.65...v0.7.66</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.65]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.65</link>
@@ -3397,60 +3433,6 @@ composition more directly.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.16...v0.7.17">https://github.com/heygen-com/hyperframes/compare/v0.7.16...v0.7.17</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.16]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.16</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.16</guid>
-            <pubDate>Sat, 27 Jun 2026 16:19:56 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.16</h1>
-<p>Released on 2026-06-27.</p>
-<p>Studio gains <strong>element groups</strong>: select multiple elements and group them into a single editable unit — on the canvas and in the timeline — then ungroup back to their original positions. This release also reads inline-authored GSAP timelines and fixes keyframe commit routing, 3D-transform edits, and ungroup positioning.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Expand sub-composition groups + children in the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/6a729b7e035e79ef08d41ec55e5df5623c98cbfa">6a729b7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1761">#1761</a>)</li>
-<li><strong>Gsap:</strong> Read timelines authored inline (acorn read path) (<a href="https://github.com/heygen-com/hyperframes/commit/2e02bcf77af55db4b60e4504bcd2dd0033dc337a">2e02bcf7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1760">#1760</a>)</li>
-<li><strong>Studio:</strong> Element groups — studio UI (<a href="https://github.com/heygen-com/hyperframes/commit/1eed7a9b1f8bf7b93ad8cc22bcc7125c644c43d9">1eed7a9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1759">#1759</a>)</li>
-<li><strong>Studio:</strong> Element groups — source mutations (<a href="https://github.com/heygen-com/hyperframes/commit/4c461b4a55dbd3a200386f3efa724cf251cf6f37">4c461b4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1758">#1758</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keep useGsapTweenCache under the size cap + correct non-sticky drill test (<a href="https://github.com/heygen-com/hyperframes/commit/a44ef47e1aabea7369ad98ea95ec7358111f7028">a44ef47e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1770">#1770</a>)</li>
-<li><strong>Studio:</strong> Bake the group transform into members on ungroup (<a href="https://github.com/heygen-com/hyperframes/commit/bc5a51a6ee3277ad1f86bc542388a87b0252348a">bc5a51a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1764">#1764</a>)</li>
-<li><strong>Studio:</strong> Remove keyframe dragging from the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/cf8f8aa568e751ccb18d5929bc2a9568724715a3">cf8f8aa5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1763">#1763</a>)</li>
-<li><strong>Studio:</strong> Keyframe commit routing for 3D and cross-group edits (<a href="https://github.com/heygen-com/hyperframes/commit/2d3b19d2559d93ef5623bbd155573d10f695de05">2d3b19d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1762">#1762</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Remove debug logging (<a href="https://github.com/heygen-com/hyperframes/commit/de42af438aab6b145dfe2727d1611df567cc8bf7">de42af43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1765">#1765</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16">https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.16</h1>
-<p>Released on 2026-06-27.</p>
-<p>Studio gains <strong>element groups</strong>: select multiple elements and group them into a single editable unit — on the canvas and in the timeline — then ungroup back to their original positions. This release also reads inline-authored GSAP timelines and fixes keyframe commit routing, 3D-transform edits, and ungroup positioning.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Expand sub-composition groups + children in the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/6a729b7e035e79ef08d41ec55e5df5623c98cbfa">6a729b7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1761">#1761</a>)</li>
-<li><strong>Gsap:</strong> Read timelines authored inline (acorn read path) (<a href="https://github.com/heygen-com/hyperframes/commit/2e02bcf77af55db4b60e4504bcd2dd0033dc337a">2e02bcf7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1760">#1760</a>)</li>
-<li><strong>Studio:</strong> Element groups — studio UI (<a href="https://github.com/heygen-com/hyperframes/commit/1eed7a9b1f8bf7b93ad8cc22bcc7125c644c43d9">1eed7a9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1759">#1759</a>)</li>
-<li><strong>Studio:</strong> Element groups — source mutations (<a href="https://github.com/heygen-com/hyperframes/commit/4c461b4a55dbd3a200386f3efa724cf251cf6f37">4c461b4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1758">#1758</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keep useGsapTweenCache under the size cap + correct non-sticky drill test (<a href="https://github.com/heygen-com/hyperframes/commit/a44ef47e1aabea7369ad98ea95ec7358111f7028">a44ef47e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1770">#1770</a>)</li>
-<li><strong>Studio:</strong> Bake the group transform into members on ungroup (<a href="https://github.com/heygen-com/hyperframes/commit/bc5a51a6ee3277ad1f86bc542388a87b0252348a">bc5a51a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1764">#1764</a>)</li>
-<li><strong>Studio:</strong> Remove keyframe dragging from the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/cf8f8aa568e751ccb18d5929bc2a9568724715a3">cf8f8aa5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1763">#1763</a>)</li>
-<li><strong>Studio:</strong> Keyframe commit routing for 3D and cross-group edits (<a href="https://github.com/heygen-com/hyperframes/commit/2d3b19d2559d93ef5623bbd155573d10f695de05">2d3b19d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1762">#1762</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Remove debug logging (<a href="https://github.com/heygen-com/hyperframes/commit/de42af438aab6b145dfe2727d1611df567cc8bf7">de42af43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1765">#1765</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16">https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16</a></p>
 ]]></content:encoded>
         </item>
     </channel>
