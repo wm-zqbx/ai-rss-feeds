@@ -3393,47 +3393,5 @@ composition more directly.</p>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18">https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18</a></p>
 ]]></content:encoded>
         </item>
-        <item>
-            <title><![CDATA[v0.7.17]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.17</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.17</guid>
-            <pubDate>Sat, 27 Jun 2026 17:59:01 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.17</h1>
-<p>Released on 2026-06-27.</p>
-<p><code>@hyperframes/lint</code> can now run <strong>fully in the browser</strong> — validate compositions client-side with no Node.js and no server round-trip — and it now depends only on <code>@hyperframes/parsers</code>, so installing the validator no longer pulls the studio server or other unrelated packages.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> New <code>@hyperframes/lint/browser</code> entry — a node-free, client-side rule engine (<code>lintHyperframeHtml</code>, <code>lintMediaUrls</code>, <code>shouldBlockRender</code>) for browser-only editors and tools (<a href="https://github.com/heygen-com/hyperframes/commit/6aaab32ccb4de355abca8310c2d4fd69ea95e47b">6aaab32c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1773">#1773</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Lint:</strong> Depend only on <code>@hyperframes/parsers</code> (dropped <code>@hyperframes/core</code>); relocated the shared URL/asset-path, font-alias, and slideshow-parser utilities into <code>@hyperframes/parsers</code> with back-compat stubs in core, and hardened the CSS <code>url()</code> regex against polynomial-ReDoS (<a href="https://github.com/heygen-com/hyperframes/commit/6aaab32ccb4de355abca8310c2d4fd69ea95e47b">6aaab32c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1773">#1773</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Add package pages for parsers, lint, and studio-server (<a href="https://github.com/heygen-com/hyperframes/commit/7e0a4cd02edc6a5e7229cdb914ea159618dd29cd">7e0a4cd0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1772">#1772</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.16...v0.7.17">https://github.com/heygen-com/hyperframes/compare/v0.7.16...v0.7.17</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.17</h1>
-<p>Released on 2026-06-27.</p>
-<p><code>@hyperframes/lint</code> can now run <strong>fully in the browser</strong> — validate compositions client-side with no Node.js and no server round-trip — and it now depends only on <code>@hyperframes/parsers</code>, so installing the validator no longer pulls the studio server or other unrelated packages.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> New <code>@hyperframes/lint/browser</code> entry — a node-free, client-side rule engine (<code>lintHyperframeHtml</code>, <code>lintMediaUrls</code>, <code>shouldBlockRender</code>) for browser-only editors and tools (<a href="https://github.com/heygen-com/hyperframes/commit/6aaab32ccb4de355abca8310c2d4fd69ea95e47b">6aaab32c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1773">#1773</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Lint:</strong> Depend only on <code>@hyperframes/parsers</code> (dropped <code>@hyperframes/core</code>); relocated the shared URL/asset-path, font-alias, and slideshow-parser utilities into <code>@hyperframes/parsers</code> with back-compat stubs in core, and hardened the CSS <code>url()</code> regex against polynomial-ReDoS (<a href="https://github.com/heygen-com/hyperframes/commit/6aaab32ccb4de355abca8310c2d4fd69ea95e47b">6aaab32c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1773">#1773</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Add package pages for parsers, lint, and studio-server (<a href="https://github.com/heygen-com/hyperframes/commit/7e0a4cd02edc6a5e7229cdb914ea159618dd29cd">7e0a4cd0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1772">#1772</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.16...v0.7.17">https://github.com/heygen-com/hyperframes/compare/v0.7.16...v0.7.17</a></p>
-]]></content:encoded>
-        </item>
     </channel>
 </rss>
