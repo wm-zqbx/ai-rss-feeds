@@ -4,11 +4,101 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 18 Jul 2026 19:06:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 04:50:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.65]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.65</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.65</guid>
+            <pubDate>Tue, 21 Jul 2026 04:50:25 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.65</h1>
+<p>Released on 2026-07-21.</p>
+<p>Rendering now fails fast on unbounded timeline durations instead of exhausting static-frame analysis, and lint guidance prevents unsafe GSAP repeat calculations. This release also hardens Studio keyframe retiming, recursive sub-composition inlining, CLI failure telemetry, and package/runtime contracts.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Renderer:</strong> Reject unbounded durations before static-frame analysis can allocate impossible frame sets; regular and distributed paths now return typed duration errors (<a href="https://github.com/heygen-com/hyperframes/commit/344d9c0a87aeba01beca618e21d2469921506cdf">344d9c0a8</a>)</li>
+<li><strong>Studio:</strong> Harden flat keyframe retiming (<a href="https://github.com/heygen-com/hyperframes/commit/270179d94b3ca3b82f61655b354855187f0d210c">270179d94</a>)</li>
+<li><strong>Studio:</strong> Retime flat tween keyframe diamonds (<a href="https://github.com/heygen-com/hyperframes/commit/f25a1369279c99081c56966b14991649138bc035">f25a13692</a>)</li>
+<li><strong>CLI:</strong> Await error telemetry before finalization (<a href="https://github.com/heygen-com/hyperframes/commit/a9338a4e0f91b8482fe32bef50018209c29ce031">a9338a4e0</a>)</li>
+<li><strong>CLI:</strong> Report command failures once (<a href="https://github.com/heygen-com/hyperframes/commit/73d3b4e1f491e5211a960bac86fbb674909be7ad">73d3b4e1f</a>)</li>
+<li><strong>CLI:</strong> Complete process lifecycle migration (<a href="https://github.com/heygen-com/hyperframes/commit/619406a23b061bf659d107f83beec4eada6ff086">619406a23</a>)</li>
+<li><strong>CLI:</strong> Keep post-render exit reset root-owned (<a href="https://github.com/heygen-com/hyperframes/commit/e0bda7a17111753f76b7e073d654be802c06c129">e0bda7a17</a>)</li>
+<li><strong>Lint:</strong> Recognize compiler-derived data-end as legitimate (<a href="https://github.com/heygen-com/hyperframes/commit/ac9f463108531d28eee496bd837aab542eb9e409">ac9f46310</a>)</li>
+<li>Recursive sub-composition inlining for depth-3+ nesting (<a href="https://github.com/heygen-com/hyperframes/commit/d21883fe05a5819e910d4747683dc008a0ab5147">d21883fe0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2660">#2660</a>)</li>
+<li><strong>Core:</strong> Install runtime bridge after transport setup (<a href="https://github.com/heygen-com/hyperframes/commit/735128a61a152267a00b99defbd290f489482cbc">735128a61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2558">#2558</a>)</li>
+<li><strong>Cloudrun:</strong> Publish adapter contract (<a href="https://github.com/heygen-com/hyperframes/commit/942db16fcda863d6047a95b82cbfe90603d464e7">942db16fc</a>)</li>
+<li><strong>Parsers:</strong> Mark node-only subpaths (<a href="https://github.com/heygen-com/hyperframes/commit/634cd719a26742ae92a33c38348da4d8fd37fc52">634cd719a</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Add pre-build gate to changelog-video SKILL.md (<a href="https://github.com/heygen-com/hyperframes/commit/7d312bd170baa6fb1d2c247e14fef7c4d1022279">7d312bd17</a>)</li>
+<li><strong>Guides:</strong> Publish the Send-to guide in nav + llms.txt so agents can discover it (<a href="https://github.com/heygen-com/hyperframes/commit/911b332bb2131f1b3fc4abbea563bf0c70d165c4">911b332bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2667">#2667</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Skills:</strong> Cut per-run context cost — route-once router, packet-dispatched workers, catalog splits (<a href="https://github.com/heygen-com/hyperframes/commit/6ad738b580adf157393fde02351af64669c9fbc5">6ad738b58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2618">#2618</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Align distributed duration assertion (<a href="https://github.com/heygen-com/hyperframes/commit/52da8d3cdb6e2a5645fdb67c7278ad25b2009c52">52da8d3cd</a>)</li>
+<li><strong>Repo:</strong> Resolve changed-code audit (<a href="https://github.com/heygen-com/hyperframes/commit/ab8b50afd735ac495fa7b02e4d61f8d525a0c222">ab8b50afd</a>)</li>
+<li><strong>Engine:</strong> Isolate peer abort regression (<a href="https://github.com/heygen-com/hyperframes/commit/a03d40ef4cd1f68f0a80888cfb2329f0bcdaf341">a03d40ef4</a>)</li>
+<li><strong>CLI:</strong> Decompose render phases (<a href="https://github.com/heygen-com/hyperframes/commit/3222f1f31d9142a0275de5ec1624d876c915926f">3222f1f31</a>)</li>
+<li><strong>CLI:</strong> Align timeout failure with result contract (<a href="https://github.com/heygen-com/hyperframes/commit/00b88abeb7d478c474d1486aefc7d56782c27508">00b88abeb</a>)</li>
+<li><strong>CLI:</strong> Centralize process lifecycle (<a href="https://github.com/heygen-com/hyperframes/commit/3aa2404747f41382f4413a53b927e04a327d5322">3aa240474</a>)</li>
+<li>Rerun regression checks after PR base edits (<a href="https://github.com/heygen-com/hyperframes/commit/6b4df032fe12dc8979501bb23906b73f5a8a05f0">6b4df032f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2659">#2659</a>)</li>
+<li><strong>Repo:</strong> Execute packed subpaths (<a href="https://github.com/heygen-com/hyperframes/commit/3454a80eb2a27e6154cc7306e889aec416c5c4d2">3454a80eb</a>)</li>
+<li><strong>Repo:</strong> Centralize package subpaths (<a href="https://github.com/heygen-com/hyperframes/commit/8d9d9c016e3d022bc0c5d2ae46bb186c9f1b183a">8d9d9c016</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.64...v0.7.65">https://github.com/heygen-com/hyperframes/compare/v0.7.64...v0.7.65</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.65</h1>
+<p>Released on 2026-07-21.</p>
+<p>Rendering now fails fast on unbounded timeline durations instead of exhausting static-frame analysis, and lint guidance prevents unsafe GSAP repeat calculations. This release also hardens Studio keyframe retiming, recursive sub-composition inlining, CLI failure telemetry, and package/runtime contracts.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Renderer:</strong> Reject unbounded durations before static-frame analysis can allocate impossible frame sets; regular and distributed paths now return typed duration errors (<a href="https://github.com/heygen-com/hyperframes/commit/344d9c0a87aeba01beca618e21d2469921506cdf">344d9c0a8</a>)</li>
+<li><strong>Studio:</strong> Harden flat keyframe retiming (<a href="https://github.com/heygen-com/hyperframes/commit/270179d94b3ca3b82f61655b354855187f0d210c">270179d94</a>)</li>
+<li><strong>Studio:</strong> Retime flat tween keyframe diamonds (<a href="https://github.com/heygen-com/hyperframes/commit/f25a1369279c99081c56966b14991649138bc035">f25a13692</a>)</li>
+<li><strong>CLI:</strong> Await error telemetry before finalization (<a href="https://github.com/heygen-com/hyperframes/commit/a9338a4e0f91b8482fe32bef50018209c29ce031">a9338a4e0</a>)</li>
+<li><strong>CLI:</strong> Report command failures once (<a href="https://github.com/heygen-com/hyperframes/commit/73d3b4e1f491e5211a960bac86fbb674909be7ad">73d3b4e1f</a>)</li>
+<li><strong>CLI:</strong> Complete process lifecycle migration (<a href="https://github.com/heygen-com/hyperframes/commit/619406a23b061bf659d107f83beec4eada6ff086">619406a23</a>)</li>
+<li><strong>CLI:</strong> Keep post-render exit reset root-owned (<a href="https://github.com/heygen-com/hyperframes/commit/e0bda7a17111753f76b7e073d654be802c06c129">e0bda7a17</a>)</li>
+<li><strong>Lint:</strong> Recognize compiler-derived data-end as legitimate (<a href="https://github.com/heygen-com/hyperframes/commit/ac9f463108531d28eee496bd837aab542eb9e409">ac9f46310</a>)</li>
+<li>Recursive sub-composition inlining for depth-3+ nesting (<a href="https://github.com/heygen-com/hyperframes/commit/d21883fe05a5819e910d4747683dc008a0ab5147">d21883fe0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2660">#2660</a>)</li>
+<li><strong>Core:</strong> Install runtime bridge after transport setup (<a href="https://github.com/heygen-com/hyperframes/commit/735128a61a152267a00b99defbd290f489482cbc">735128a61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2558">#2558</a>)</li>
+<li><strong>Cloudrun:</strong> Publish adapter contract (<a href="https://github.com/heygen-com/hyperframes/commit/942db16fcda863d6047a95b82cbfe90603d464e7">942db16fc</a>)</li>
+<li><strong>Parsers:</strong> Mark node-only subpaths (<a href="https://github.com/heygen-com/hyperframes/commit/634cd719a26742ae92a33c38348da4d8fd37fc52">634cd719a</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Add pre-build gate to changelog-video SKILL.md (<a href="https://github.com/heygen-com/hyperframes/commit/7d312bd170baa6fb1d2c247e14fef7c4d1022279">7d312bd17</a>)</li>
+<li><strong>Guides:</strong> Publish the Send-to guide in nav + llms.txt so agents can discover it (<a href="https://github.com/heygen-com/hyperframes/commit/911b332bb2131f1b3fc4abbea563bf0c70d165c4">911b332bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2667">#2667</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Skills:</strong> Cut per-run context cost — route-once router, packet-dispatched workers, catalog splits (<a href="https://github.com/heygen-com/hyperframes/commit/6ad738b580adf157393fde02351af64669c9fbc5">6ad738b58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2618">#2618</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Align distributed duration assertion (<a href="https://github.com/heygen-com/hyperframes/commit/52da8d3cdb6e2a5645fdb67c7278ad25b2009c52">52da8d3cd</a>)</li>
+<li><strong>Repo:</strong> Resolve changed-code audit (<a href="https://github.com/heygen-com/hyperframes/commit/ab8b50afd735ac495fa7b02e4d61f8d525a0c222">ab8b50afd</a>)</li>
+<li><strong>Engine:</strong> Isolate peer abort regression (<a href="https://github.com/heygen-com/hyperframes/commit/a03d40ef4cd1f68f0a80888cfb2329f0bcdaf341">a03d40ef4</a>)</li>
+<li><strong>CLI:</strong> Decompose render phases (<a href="https://github.com/heygen-com/hyperframes/commit/3222f1f31d9142a0275de5ec1624d876c915926f">3222f1f31</a>)</li>
+<li><strong>CLI:</strong> Align timeout failure with result contract (<a href="https://github.com/heygen-com/hyperframes/commit/00b88abeb7d478c474d1486aefc7d56782c27508">00b88abeb</a>)</li>
+<li><strong>CLI:</strong> Centralize process lifecycle (<a href="https://github.com/heygen-com/hyperframes/commit/3aa2404747f41382f4413a53b927e04a327d5322">3aa240474</a>)</li>
+<li>Rerun regression checks after PR base edits (<a href="https://github.com/heygen-com/hyperframes/commit/6b4df032fe12dc8979501bb23906b73f5a8a05f0">6b4df032f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2659">#2659</a>)</li>
+<li><strong>Repo:</strong> Execute packed subpaths (<a href="https://github.com/heygen-com/hyperframes/commit/3454a80eb2a27e6154cc7306e889aec416c5c4d2">3454a80eb</a>)</li>
+<li><strong>Repo:</strong> Centralize package subpaths (<a href="https://github.com/heygen-com/hyperframes/commit/8d9d9c016e3d022bc0c5d2ae46bb186c9f1b183a">8d9d9c016</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.64...v0.7.65">https://github.com/heygen-com/hyperframes/compare/v0.7.64...v0.7.65</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.64]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.64</link>
@@ -3361,52 +3451,6 @@ composition more directly.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16">https://github.com/heygen-com/hyperframes/compare/v0.7.15...v0.7.16</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.15]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.15</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.15</guid>
-            <pubDate>Sat, 27 Jun 2026 15:09:15 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.15</h1>
-<p>Released on 2026-06-27.</p>
-<p>This CLI release keeps <code>hyperframes init</code> on the GitHub-backed skills
-freshness path while the skills.sh registry catches up, with a CI-only escape
-hatch and offline-safe best-effort install behavior. It also publishes the newly
-extracted parser, lint, and studio-server packages as part of the fixed-version
-package set.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Always check GitHub skills on init while skills.sh syncs (<a href="https://github.com/heygen-com/hyperframes/commit/bf630bfe1ee9998429d73f109f242903634891df">bf630bfe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1768">#1768</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Extract @hyperframes/studio-server from core (<a href="https://github.com/heygen-com/hyperframes/commit/7a4853dfe6e7e55effca57314011cec322c13a23">7a4853df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1757">#1757</a>)</li>
-<li>Extract @hyperframes/lint from core (<a href="https://github.com/heygen-com/hyperframes/commit/98d0bdd73c7551abeb6962bd82eedc1c44e3d953">98d0bdd7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1756">#1756</a>)</li>
-<li>Extract @hyperframes/parsers from core (<a href="https://github.com/heygen-com/hyperframes/commit/cdf9c817e1c0c396a5c24c75ea08a8dba72e3528">cdf9c817</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1755">#1755</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.14...v0.7.15">https://github.com/heygen-com/hyperframes/compare/v0.7.14...v0.7.15</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.15</h1>
-<p>Released on 2026-06-27.</p>
-<p>This CLI release keeps <code>hyperframes init</code> on the GitHub-backed skills
-freshness path while the skills.sh registry catches up, with a CI-only escape
-hatch and offline-safe best-effort install behavior. It also publishes the newly
-extracted parser, lint, and studio-server packages as part of the fixed-version
-package set.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Always check GitHub skills on init while skills.sh syncs (<a href="https://github.com/heygen-com/hyperframes/commit/bf630bfe1ee9998429d73f109f242903634891df">bf630bfe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1768">#1768</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Extract @hyperframes/studio-server from core (<a href="https://github.com/heygen-com/hyperframes/commit/7a4853dfe6e7e55effca57314011cec322c13a23">7a4853df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1757">#1757</a>)</li>
-<li>Extract @hyperframes/lint from core (<a href="https://github.com/heygen-com/hyperframes/commit/98d0bdd73c7551abeb6962bd82eedc1c44e3d953">98d0bdd7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1756">#1756</a>)</li>
-<li>Extract @hyperframes/parsers from core (<a href="https://github.com/heygen-com/hyperframes/commit/cdf9c817e1c0c396a5c24c75ea08a8dba72e3528">cdf9c817</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1755">#1755</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.14...v0.7.15">https://github.com/heygen-com/hyperframes/compare/v0.7.14...v0.7.15</a></p>
 ]]></content:encoded>
         </item>
     </channel>
