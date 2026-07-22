@@ -4,11 +4,59 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 21 Jul 2026 12:42:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jul 2026 23:58:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.67]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.67</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.67</guid>
+            <pubDate>Tue, 21 Jul 2026 23:58:11 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.67</h1>
+<p>Released on 2026-07-21.</p>
+<p>Distributed renders now carry runtime media variables through planning and honor runtime durations during extraction and volume automation, preventing placeholder metadata from clipping full-length audio. This release also adds RenderStretch for longer scenes, applies position edits to SVG elements, and warns when live map viewports are captured.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> RenderStretch to re-time short compositions across longer scenes (<a href="https://github.com/heygen-com/hyperframes/commit/e786b78b3311d697e95269ec8fc21a4159af909d">e786b78b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2676">#2676</a>)</li>
+<li><strong>Engine:</strong> Warn when a live map viewport is detected at capture init (<a href="https://github.com/heygen-com/hyperframes/commit/30ca51c615fce20f5266278cdf5f4c97fd691c88">30ca51c61</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Preserve runtime audio variables in distributed plans (<a href="https://github.com/heygen-com/hyperframes/commit/465c9e764138b94faa48badbee468eb42bd1a39d">465c9e764</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2725">#2725</a>)</li>
+<li><strong>Core:</strong> Apply position edits to SVG elements, not just HTML (<a href="https://github.com/heygen-com/hyperframes/commit/63539a0cdef75597d2e301736740cf3bdd905596">63539a0cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2724">#2724</a>)</li>
+<li><strong>Skills:</strong> Anonymize CLI feedback repro guidance (<a href="https://github.com/heygen-com/hyperframes/commit/78ab9bc889908e412e806d80f4ffbd938efc7a78">78ab9bc88</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Package Codex plugin upload (<a href="https://github.com/heygen-com/hyperframes/commit/696cbdbbd0e5c83faf72c767126d4a153110f130">696cbdbbd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2668">#2668</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.66...v0.7.67">https://github.com/heygen-com/hyperframes/compare/v0.7.66...v0.7.67</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.67</h1>
+<p>Released on 2026-07-21.</p>
+<p>Distributed renders now carry runtime media variables through planning and honor runtime durations during extraction and volume automation, preventing placeholder metadata from clipping full-length audio. This release also adds RenderStretch for longer scenes, applies position edits to SVG elements, and warns when live map viewports are captured.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> RenderStretch to re-time short compositions across longer scenes (<a href="https://github.com/heygen-com/hyperframes/commit/e786b78b3311d697e95269ec8fc21a4159af909d">e786b78b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2676">#2676</a>)</li>
+<li><strong>Engine:</strong> Warn when a live map viewport is detected at capture init (<a href="https://github.com/heygen-com/hyperframes/commit/30ca51c615fce20f5266278cdf5f4c97fd691c88">30ca51c61</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Preserve runtime audio variables in distributed plans (<a href="https://github.com/heygen-com/hyperframes/commit/465c9e764138b94faa48badbee468eb42bd1a39d">465c9e764</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2725">#2725</a>)</li>
+<li><strong>Core:</strong> Apply position edits to SVG elements, not just HTML (<a href="https://github.com/heygen-com/hyperframes/commit/63539a0cdef75597d2e301736740cf3bdd905596">63539a0cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2724">#2724</a>)</li>
+<li><strong>Skills:</strong> Anonymize CLI feedback repro guidance (<a href="https://github.com/heygen-com/hyperframes/commit/78ab9bc889908e412e806d80f4ffbd938efc7a78">78ab9bc88</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Package Codex plugin upload (<a href="https://github.com/heygen-com/hyperframes/commit/696cbdbbd0e5c83faf72c767126d4a153110f130">696cbdbbd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2668">#2668</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.66...v0.7.67">https://github.com/heygen-com/hyperframes/compare/v0.7.66...v0.7.67</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.66]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.66</link>
@@ -3341,56 +3389,6 @@ README motion preview.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.18...v0.7.19">https://github.com/heygen-com/hyperframes/compare/v0.7.18...v0.7.19</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.18]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.18</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.18</guid>
-            <pubDate>Sun, 28 Jun 2026 22:58:42 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.18</h1>
-<p>Released on 2026-06-28.</p>
-<p>This release targets the reported render regression by removing per-frame empty
-animation scans, fixing software WebGL auto-detection on CPU render hosts, and
-reducing headless capture setup overhead. It also exposes Studio selection state
-through <code>hyperframes preview</code> so coding agents can inspect and edit the active
-composition more directly.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Expose Studio selection through preview (<a href="https://github.com/heygen-com/hyperframes/commit/9983f37c13dc7d8fbd35da21e88229e3500cee9a">9983f37c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1777">#1777</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Render:</strong> Avoid empty WAAPI scans and llvmpipe auto GPU (<a href="https://github.com/heygen-com/hyperframes/commit/fc0f8c315102812a9629bcdeec09f75e26027da2">fc0f8c31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1775">#1775</a>)</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Engine:</strong> Reduce init overhead in headless capture sessions (<a href="https://github.com/heygen-com/hyperframes/commit/35a01d9058fca2c4f5e9a4aa13a86d2eafc77c68">35a01d90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1718">#1718</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18">https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.18</h1>
-<p>Released on 2026-06-28.</p>
-<p>This release targets the reported render regression by removing per-frame empty
-animation scans, fixing software WebGL auto-detection on CPU render hosts, and
-reducing headless capture setup overhead. It also exposes Studio selection state
-through <code>hyperframes preview</code> so coding agents can inspect and edit the active
-composition more directly.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Expose Studio selection through preview (<a href="https://github.com/heygen-com/hyperframes/commit/9983f37c13dc7d8fbd35da21e88229e3500cee9a">9983f37c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1777">#1777</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Render:</strong> Avoid empty WAAPI scans and llvmpipe auto GPU (<a href="https://github.com/heygen-com/hyperframes/commit/fc0f8c315102812a9629bcdeec09f75e26027da2">fc0f8c31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1775">#1775</a>)</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Engine:</strong> Reduce init overhead in headless capture sessions (<a href="https://github.com/heygen-com/hyperframes/commit/35a01d9058fca2c4f5e9a4aa13a86d2eafc77c68">35a01d90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1718">#1718</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18">https://github.com/heygen-com/hyperframes/compare/v0.7.17...v0.7.18</a></p>
 ]]></content:encoded>
         </item>
     </channel>
