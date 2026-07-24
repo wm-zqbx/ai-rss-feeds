@@ -4,11 +4,85 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 24 Jul 2026 05:45:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 19:07:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.71]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.71</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.71</guid>
+            <pubDate>Fri, 24 Jul 2026 19:07:51 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.71</h1>
+<p>Released on 2026-07-24.</p>
+<p>Finite compositions can now use GSAP <code>repeat: -1</code> loops when an explicit root
+<code>data-duration</code> bounds the export, while unbounded infinite timelines remain
+blocking. Preview also serves external symlink assets correctly, and this release
+adds media-treatment capabilities plus performance and stability improvements
+for data-driven caption templates.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Define media treatment capabilities (<a href="https://github.com/heygen-com/hyperframes/commit/70213c5a8526b12c8b26f01b8288d78bb9edc917">70213c5a8</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> Allow bounded GSAP infinite repeats (<a href="https://github.com/heygen-com/hyperframes/commit/adb149b86939e61bb3fce91cb8d0e5530f7bd29c">adb149b86</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2763">#2763</a>)</li>
+<li><strong>Preview:</strong> Serve external symlink assets (<a href="https://github.com/heygen-com/hyperframes/commit/7778c093b6288756cf5e27311828e6049e7c85c3">7778c093b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2764">#2764</a>)</li>
+<li><strong>Caption Weight Shift:</strong> Remove O(n^2) redundant hide-all-others loop (<a href="https://github.com/heygen-com/hyperframes/commit/5af6203ae7fcd506511ca5683a9097d666c4a63e">5af6203ae</a>)</li>
+<li><strong>Caption Editorial Emphasis / Emoji Pop:</strong> Remove O(n²) redundant hide-all-others loop (<a href="https://github.com/heygen-com/hyperframes/commit/18de2b1f1de8062a79ae7aa6fa4796e320fe6131">18de2b1f1</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Liberal emoji-pop brand colors, weight-shift fit fixes, 8192 clamp (<a href="https://github.com/heygen-com/hyperframes/commit/8bf939043fb44e05f6dd7caba81822ac5ef18334">8bf939043</a>)</li>
+<li><strong>Registry:</strong> Reject non-numeric caption-data versions; boot fetch never clobbers a manual attach (<a href="https://github.com/heygen-com/hyperframes/commit/5c2981d066480000d623e4d023e9cf918b2772e3">5c2981d06</a>)</li>
+<li><strong>Registry:</strong> Encapsulate caption template runtimes in IIFEs (<a href="https://github.com/heygen-com/hyperframes/commit/e2846eb7cc81821f7fc21a9c4dccdd85c7ef3429">e2846eb7c</a>)</li>
+<li><strong>Registry:</strong> Clear brand CSS custom properties on unbranded re-attach; remove dead italic path (<a href="https://github.com/heygen-com/hyperframes/commit/4f6994719196e72dc01ebe8f60d869e064ec7685">4f6994719</a>)</li>
+<li><strong>Registry:</strong> Make caption-editorial-emphasis data-driven with emphasis heuristic (<a href="https://github.com/heygen-com/hyperframes/commit/ed8973952dda2aa43931e0ffa05b3fc6ba0cb1cb">ed8973952</a>)</li>
+<li><strong>Registry:</strong> Make caption-highlight data-driven with automatic grouping (<a href="https://github.com/heygen-com/hyperframes/commit/7d4e71d10b617b858fde2e764e15d530e9ffdf19">7d4e71d10</a>)</li>
+<li><strong>Registry:</strong> Make caption-emoji-pop data-driven with generic emoji lexicon (<a href="https://github.com/heygen-com/hyperframes/commit/392a9d251a4feadbf7703ba4f9157c1857c7a59b">392a9d251</a>)</li>
+<li><strong>Registry:</strong> Force GSAP render at attach — seek(0) is a no-op on a fresh timeline (<a href="https://github.com/heygen-com/hyperframes/commit/020c8986f46f795757203900cd251ad551ccc620">020c8986f</a>)</li>
+<li><strong>Registry:</strong> Make caption-pill-karaoke data-driven via caption-data runtime (<a href="https://github.com/heygen-com/hyperframes/commit/08620b75df5275739fd9b0b8f480527fdc1d9a98">08620b75d</a>)</li>
+<li><strong>Registry:</strong> Make caption-weight-shift data-driven via caption-data runtime (<a href="https://github.com/heygen-com/hyperframes/commit/c67e9dc1f843122225468ce63a67c57f70c2bba2">c67e9dc1f</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.70...v0.7.71">https://github.com/heygen-com/hyperframes/compare/v0.7.70...v0.7.71</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.71</h1>
+<p>Released on 2026-07-24.</p>
+<p>Finite compositions can now use GSAP <code>repeat: -1</code> loops when an explicit root
+<code>data-duration</code> bounds the export, while unbounded infinite timelines remain
+blocking. Preview also serves external symlink assets correctly, and this release
+adds media-treatment capabilities plus performance and stability improvements
+for data-driven caption templates.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Define media treatment capabilities (<a href="https://github.com/heygen-com/hyperframes/commit/70213c5a8526b12c8b26f01b8288d78bb9edc917">70213c5a8</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> Allow bounded GSAP infinite repeats (<a href="https://github.com/heygen-com/hyperframes/commit/adb149b86939e61bb3fce91cb8d0e5530f7bd29c">adb149b86</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2763">#2763</a>)</li>
+<li><strong>Preview:</strong> Serve external symlink assets (<a href="https://github.com/heygen-com/hyperframes/commit/7778c093b6288756cf5e27311828e6049e7c85c3">7778c093b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2764">#2764</a>)</li>
+<li><strong>Caption Weight Shift:</strong> Remove O(n^2) redundant hide-all-others loop (<a href="https://github.com/heygen-com/hyperframes/commit/5af6203ae7fcd506511ca5683a9097d666c4a63e">5af6203ae</a>)</li>
+<li><strong>Caption Editorial Emphasis / Emoji Pop:</strong> Remove O(n²) redundant hide-all-others loop (<a href="https://github.com/heygen-com/hyperframes/commit/18de2b1f1de8062a79ae7aa6fa4796e320fe6131">18de2b1f1</a>)</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Liberal emoji-pop brand colors, weight-shift fit fixes, 8192 clamp (<a href="https://github.com/heygen-com/hyperframes/commit/8bf939043fb44e05f6dd7caba81822ac5ef18334">8bf939043</a>)</li>
+<li><strong>Registry:</strong> Reject non-numeric caption-data versions; boot fetch never clobbers a manual attach (<a href="https://github.com/heygen-com/hyperframes/commit/5c2981d066480000d623e4d023e9cf918b2772e3">5c2981d06</a>)</li>
+<li><strong>Registry:</strong> Encapsulate caption template runtimes in IIFEs (<a href="https://github.com/heygen-com/hyperframes/commit/e2846eb7cc81821f7fc21a9c4dccdd85c7ef3429">e2846eb7c</a>)</li>
+<li><strong>Registry:</strong> Clear brand CSS custom properties on unbranded re-attach; remove dead italic path (<a href="https://github.com/heygen-com/hyperframes/commit/4f6994719196e72dc01ebe8f60d869e064ec7685">4f6994719</a>)</li>
+<li><strong>Registry:</strong> Make caption-editorial-emphasis data-driven with emphasis heuristic (<a href="https://github.com/heygen-com/hyperframes/commit/ed8973952dda2aa43931e0ffa05b3fc6ba0cb1cb">ed8973952</a>)</li>
+<li><strong>Registry:</strong> Make caption-highlight data-driven with automatic grouping (<a href="https://github.com/heygen-com/hyperframes/commit/7d4e71d10b617b858fde2e764e15d530e9ffdf19">7d4e71d10</a>)</li>
+<li><strong>Registry:</strong> Make caption-emoji-pop data-driven with generic emoji lexicon (<a href="https://github.com/heygen-com/hyperframes/commit/392a9d251a4feadbf7703ba4f9157c1857c7a59b">392a9d251</a>)</li>
+<li><strong>Registry:</strong> Force GSAP render at attach — seek(0) is a no-op on a fresh timeline (<a href="https://github.com/heygen-com/hyperframes/commit/020c8986f46f795757203900cd251ad551ccc620">020c8986f</a>)</li>
+<li><strong>Registry:</strong> Make caption-pill-karaoke data-driven via caption-data runtime (<a href="https://github.com/heygen-com/hyperframes/commit/08620b75df5275739fd9b0b8f480527fdc1d9a98">08620b75d</a>)</li>
+<li><strong>Registry:</strong> Make caption-weight-shift data-driven via caption-data runtime (<a href="https://github.com/heygen-com/hyperframes/commit/c67e9dc1f843122225468ce63a67c57f70c2bba2">c67e9dc1f</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.70...v0.7.71">https://github.com/heygen-com/hyperframes/compare/v0.7.70...v0.7.71</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.70]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.70</link>
@@ -3267,78 +3341,6 @@ the active layer, keeping HDR output aligned with preview timing.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.22...v0.7.23">https://github.com/heygen-com/hyperframes/compare/v0.7.22...v0.7.23</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.22]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.22</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.22</guid>
-            <pubDate>Tue, 30 Jun 2026 22:14:55 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.22</h1>
-<p>Released on 2026-06-30.</p>
-<p>This release makes <code>@hyperframes/sdk</code> a first-class editing engine: a new shared <code>resolveEditingAffordances</code> API (with a browser SDK adapter) tells custom editors what&#39;s editable on any element, backed by comprehensive SDK reference docs and guides. The storyboard view is now on by default, plus encode, lint, and CLI reliability fixes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Editing:</strong> Shared resolveEditingAffordances (core) + studio re-point + SDK adapter (<a href="https://github.com/heygen-com/hyperframes/commit/5915590b069a2e3144ae1e1bfb49478b72240894">5915590b0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1814">#1814</a>)</li>
-<li><strong>CLI:</strong> Add --public flag to publish (<a href="https://github.com/heygen-com/hyperframes/commit/856bb0980fc9f85244cd1d0c8233cb7390642b0b">856bb0980</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1815">#1815</a>)</li>
-<li><strong>CLI:</strong> File a GitHub issue with a published repro from feedback (<a href="https://github.com/heygen-com/hyperframes/commit/010df6a0a4edbf7179d634fb12805f47ef89ec6e">010df6a0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1816">#1816</a>)</li>
-<li><strong>Studio:</strong> Make storyboard view default available (remove FF) (<a href="https://github.com/heygen-com/hyperframes/commit/f24a1a9ce7250965df8e89ece4403d373c9d01e9">f24a1a9ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1794">#1794</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Recognize Three.js loaded via ESM URL/path imports (<a href="https://github.com/heygen-com/hyperframes/commit/27a7f37494f9b3e315bb8b89196d71b6f541b31f">27a7f3749</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1805">#1805</a>)</li>
-<li><strong>Lint:</strong> Stop font_family_without_font_face flagging system-ui stacks and var() (<a href="https://github.com/heygen-com/hyperframes/commit/11432ea8ce82571c8473244f56edc06a8decf531">11432ea8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1796">#1796</a>)</li>
-<li><strong>Engine:</strong> Pad odd output dimensions up to even for H.264/H.265 encode (<a href="https://github.com/heygen-com/hyperframes/commit/3a2f0528890c0de4ac0bb31629323ed7f00133d9">3a2f05288</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1802">#1802</a>)</li>
-<li><strong>Examples:</strong> Host the kinetic-type A-roll so the video actually renders (<a href="https://github.com/heygen-com/hyperframes/commit/c01d1ae03d710022f7fbabd21991eba9faea1eb3">c01d1ae03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1799">#1799</a>)</li>
-<li><strong>Lint:</strong> Stop overlapping_gsap_tweens flagging distinct unresolved targets (<a href="https://github.com/heygen-com/hyperframes/commit/036e3660cd1bd15ded7300ef2623f26aa1179faa">036e3660c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1798">#1798</a>)</li>
-<li><strong>CLI:</strong> Never print &quot;[object Object]&quot; from validate/inspect errors (<a href="https://github.com/heygen-com/hyperframes/commit/a5c2636e8c35043e89d476300019e37dfe0cb24c">a5c2636e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1810">#1810</a>)</li>
-<li><strong>CLI:</strong> Skip AI skills install when git is unavailable (<a href="https://github.com/heygen-com/hyperframes/commit/23adfdc496f2187c8eb3632d0a69e053930680f5">23adfdc49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1803">#1803</a>)</li>
-<li><strong>CLI:</strong> Omit render duration when feedback command has none (<a href="https://github.com/heygen-com/hyperframes/commit/db61509ddcdc9897768a9d242855956d21d5dd5b">db61509dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1797">#1797</a>)</li>
-<li><strong>CLI:</strong> Show output video length in render summary, not render time (<a href="https://github.com/heygen-com/hyperframes/commit/e7939ccd5309f6c31045d4ebd11f1912e2bd969c">e7939ccd5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1812">#1812</a>)</li>
-<li><strong>CLI:</strong> Serve project media with HTTP Range so validate reads WAV duration (<a href="https://github.com/heygen-com/hyperframes/commit/466ee08ffa540755a430bd54f078a3764ca4b4ef">466ee08ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1811">#1811</a>)</li>
-<li>Storyboard-angle review follow-ups (M1 bg-on-clip, B3 slideshow, parser guard, CLI fixes) (<a href="https://github.com/heygen-com/hyperframes/commit/a4303137cbce5164f1663996b3c3b2f5921c5485">a4303137c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1791">#1791</a>)</li>
-<li><strong>Studio:</strong> Filter runtime-generated nodes from resolver-shadow telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/a4eacaec37e79d8b3fcdbe514b59bf1e4035f4f8">a4eacaec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1795">#1795</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Sdk:</strong> Comprehensive SDK reference + guides (<a href="https://github.com/heygen-com/hyperframes/commit/26e9283f6b7c660c0f76a3b82143a226cde70702">26e9283f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1817">#1817</a>)</li>
-<li>Root composition duration is compile-time, not script/--variables parameterizable (<a href="https://github.com/heygen-com/hyperframes/commit/bdd0084c2a778b541b89af09689fd7a997408cdc">bdd0084c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1818">#1818</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22">https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.22</h1>
-<p>Released on 2026-06-30.</p>
-<p>This release makes <code>@hyperframes/sdk</code> a first-class editing engine: a new shared <code>resolveEditingAffordances</code> API (with a browser SDK adapter) tells custom editors what&#39;s editable on any element, backed by comprehensive SDK reference docs and guides. The storyboard view is now on by default, plus encode, lint, and CLI reliability fixes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Editing:</strong> Shared resolveEditingAffordances (core) + studio re-point + SDK adapter (<a href="https://github.com/heygen-com/hyperframes/commit/5915590b069a2e3144ae1e1bfb49478b72240894">5915590b0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1814">#1814</a>)</li>
-<li><strong>CLI:</strong> Add --public flag to publish (<a href="https://github.com/heygen-com/hyperframes/commit/856bb0980fc9f85244cd1d0c8233cb7390642b0b">856bb0980</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1815">#1815</a>)</li>
-<li><strong>CLI:</strong> File a GitHub issue with a published repro from feedback (<a href="https://github.com/heygen-com/hyperframes/commit/010df6a0a4edbf7179d634fb12805f47ef89ec6e">010df6a0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1816">#1816</a>)</li>
-<li><strong>Studio:</strong> Make storyboard view default available (remove FF) (<a href="https://github.com/heygen-com/hyperframes/commit/f24a1a9ce7250965df8e89ece4403d373c9d01e9">f24a1a9ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1794">#1794</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Recognize Three.js loaded via ESM URL/path imports (<a href="https://github.com/heygen-com/hyperframes/commit/27a7f37494f9b3e315bb8b89196d71b6f541b31f">27a7f3749</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1805">#1805</a>)</li>
-<li><strong>Lint:</strong> Stop font_family_without_font_face flagging system-ui stacks and var() (<a href="https://github.com/heygen-com/hyperframes/commit/11432ea8ce82571c8473244f56edc06a8decf531">11432ea8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1796">#1796</a>)</li>
-<li><strong>Engine:</strong> Pad odd output dimensions up to even for H.264/H.265 encode (<a href="https://github.com/heygen-com/hyperframes/commit/3a2f0528890c0de4ac0bb31629323ed7f00133d9">3a2f05288</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1802">#1802</a>)</li>
-<li><strong>Examples:</strong> Host the kinetic-type A-roll so the video actually renders (<a href="https://github.com/heygen-com/hyperframes/commit/c01d1ae03d710022f7fbabd21991eba9faea1eb3">c01d1ae03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1799">#1799</a>)</li>
-<li><strong>Lint:</strong> Stop overlapping_gsap_tweens flagging distinct unresolved targets (<a href="https://github.com/heygen-com/hyperframes/commit/036e3660cd1bd15ded7300ef2623f26aa1179faa">036e3660c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1798">#1798</a>)</li>
-<li><strong>CLI:</strong> Never print &quot;[object Object]&quot; from validate/inspect errors (<a href="https://github.com/heygen-com/hyperframes/commit/a5c2636e8c35043e89d476300019e37dfe0cb24c">a5c2636e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1810">#1810</a>)</li>
-<li><strong>CLI:</strong> Skip AI skills install when git is unavailable (<a href="https://github.com/heygen-com/hyperframes/commit/23adfdc496f2187c8eb3632d0a69e053930680f5">23adfdc49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1803">#1803</a>)</li>
-<li><strong>CLI:</strong> Omit render duration when feedback command has none (<a href="https://github.com/heygen-com/hyperframes/commit/db61509ddcdc9897768a9d242855956d21d5dd5b">db61509dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1797">#1797</a>)</li>
-<li><strong>CLI:</strong> Show output video length in render summary, not render time (<a href="https://github.com/heygen-com/hyperframes/commit/e7939ccd5309f6c31045d4ebd11f1912e2bd969c">e7939ccd5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1812">#1812</a>)</li>
-<li><strong>CLI:</strong> Serve project media with HTTP Range so validate reads WAV duration (<a href="https://github.com/heygen-com/hyperframes/commit/466ee08ffa540755a430bd54f078a3764ca4b4ef">466ee08ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1811">#1811</a>)</li>
-<li>Storyboard-angle review follow-ups (M1 bg-on-clip, B3 slideshow, parser guard, CLI fixes) (<a href="https://github.com/heygen-com/hyperframes/commit/a4303137cbce5164f1663996b3c3b2f5921c5485">a4303137c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1791">#1791</a>)</li>
-<li><strong>Studio:</strong> Filter runtime-generated nodes from resolver-shadow telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/a4eacaec37e79d8b3fcdbe514b59bf1e4035f4f8">a4eacaec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1795">#1795</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Sdk:</strong> Comprehensive SDK reference + guides (<a href="https://github.com/heygen-com/hyperframes/commit/26e9283f6b7c660c0f76a3b82143a226cde70702">26e9283f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1817">#1817</a>)</li>
-<li>Root composition duration is compile-time, not script/--variables parameterizable (<a href="https://github.com/heygen-com/hyperframes/commit/bdd0084c2a778b541b89af09689fd7a997408cdc">bdd0084c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1818">#1818</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22">https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22</a></p>
 ]]></content:encoded>
         </item>
     </channel>
