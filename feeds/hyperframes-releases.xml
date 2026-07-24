@@ -4,11 +4,39 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 23 Jul 2026 19:09:49 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 05:45:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.70]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.70</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.70</guid>
+            <pubDate>Fri, 24 Jul 2026 05:45:00 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.70</h1>
+<p>Released on 2026-07-24.</p>
+<p>Multi-worker renders using experimental fast capture (<code>--experimental-fast-capture</code>) now self-verify their frames on the disk path and automatically fall back to screenshot capture when GPU or memory pressure corrupts output — previously that corruption (e.g. a worker&#39;s frames displaced into vertical strips) could ship silently.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine/Producer:</strong> Parallel and sequential disk-path drawElement capture now verify sampled frames against pre-injection ground truth and screenshot-retry on a breach — closing the gap where <code>--experimental-fast-capture --workers N</code> shipped compositor-damaged frames with no error (PRINFRA-352) (<a href="https://github.com/heygen-com/hyperframes/commit/060b6f8ae53e8ae243d8e2c2c3afd690dbe7f99c">060b6f8ae</a>, <a href="https://github.com/heygen-com/hyperframes/commit/ec791e91d97c0070502c4ad208923d4f98005846">ec791e91d</a>, <a href="https://github.com/heygen-com/hyperframes/commit/9fc1c2f15990fc44f50533362bec2f075aa1d53d">9fc1c2f15</a>, <a href="https://github.com/heygen-com/hyperframes/commit/c85cfae8fa97229e9c4f4d7217cf08b4bc859f3d">c85cfae8f</a>)</li>
+<li><strong>Producer:</strong> Close the orphaned probe session before a verify-triggered retry so the probe Chrome process isn&#39;t leaked under the GPU/memory pressure the retry is recovering from (<a href="https://github.com/heygen-com/hyperframes/commit/b8e10154762f5a0fe71fb4a6a9f3d472e9bf99ec">b8e101547</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.69...v0.7.70">https://github.com/heygen-com/hyperframes/compare/v0.7.69...v0.7.70</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.70</h1>
+<p>Released on 2026-07-24.</p>
+<p>Multi-worker renders using experimental fast capture (<code>--experimental-fast-capture</code>) now self-verify their frames on the disk path and automatically fall back to screenshot capture when GPU or memory pressure corrupts output — previously that corruption (e.g. a worker&#39;s frames displaced into vertical strips) could ship silently.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine/Producer:</strong> Parallel and sequential disk-path drawElement capture now verify sampled frames against pre-injection ground truth and screenshot-retry on a breach — closing the gap where <code>--experimental-fast-capture --workers N</code> shipped compositor-damaged frames with no error (PRINFRA-352) (<a href="https://github.com/heygen-com/hyperframes/commit/060b6f8ae53e8ae243d8e2c2c3afd690dbe7f99c">060b6f8ae</a>, <a href="https://github.com/heygen-com/hyperframes/commit/ec791e91d97c0070502c4ad208923d4f98005846">ec791e91d</a>, <a href="https://github.com/heygen-com/hyperframes/commit/9fc1c2f15990fc44f50533362bec2f075aa1d53d">9fc1c2f15</a>, <a href="https://github.com/heygen-com/hyperframes/commit/c85cfae8fa97229e9c4f4d7217cf08b4bc859f3d">c85cfae8f</a>)</li>
+<li><strong>Producer:</strong> Close the orphaned probe session before a verify-triggered retry so the probe Chrome process isn&#39;t leaked under the GPU/memory pressure the retry is recovering from (<a href="https://github.com/heygen-com/hyperframes/commit/b8e10154762f5a0fe71fb4a6a9f3d472e9bf99ec">b8e101547</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.69...v0.7.70">https://github.com/heygen-com/hyperframes/compare/v0.7.69...v0.7.70</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.69]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.69</link>
@@ -3311,48 +3339,6 @@ the active layer, keeping HDR output aligned with preview timing.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22">https://github.com/heygen-com/hyperframes/compare/v0.7.21...v0.7.22</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.21]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.21</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.21</guid>
-            <pubDate>Tue, 30 Jun 2026 04:17:13 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.21</h1>
-<p>Released on 2026-06-30.</p>
-<p>Adds a lint rule that errors on <code>crossorigin</code> on media (it renders fine but shows blank in preview) and fixes the root cause of id-less media rendering as a blank wash in the timing compiler.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> Error on crossorigin on media (breaks preview) (<a href="https://github.com/heygen-com/hyperframes/commit/1faeba4aa5e309c1ea688e37e833ffaba60429eb">1faeba4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1793">#1793</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Root-cause id-less media wash in timingCompiler getAttr, drop the band-aid (<a href="https://github.com/heygen-com/hyperframes/commit/0dfedd111c49948c531f2e2b0b290e50024176e7">0dfedd11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1792">#1792</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Instruct agents to run <code>hyperframes feedback</code> after render (<a href="https://github.com/heygen-com/hyperframes/commit/04700ea9c51d6b29f8512e2ae4c2655054acf20b">04700ea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1785">#1785</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.20...v0.7.21">https://github.com/heygen-com/hyperframes/compare/v0.7.20...v0.7.21</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.21</h1>
-<p>Released on 2026-06-30.</p>
-<p>Adds a lint rule that errors on <code>crossorigin</code> on media (it renders fine but shows blank in preview) and fixes the root cause of id-less media rendering as a blank wash in the timing compiler.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> Error on crossorigin on media (breaks preview) (<a href="https://github.com/heygen-com/hyperframes/commit/1faeba4aa5e309c1ea688e37e833ffaba60429eb">1faeba4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1793">#1793</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Root-cause id-less media wash in timingCompiler getAttr, drop the band-aid (<a href="https://github.com/heygen-com/hyperframes/commit/0dfedd111c49948c531f2e2b0b290e50024176e7">0dfedd11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1792">#1792</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Instruct agents to run <code>hyperframes feedback</code> after render (<a href="https://github.com/heygen-com/hyperframes/commit/04700ea9c51d6b29f8512e2ae4c2655054acf20b">04700ea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1785">#1785</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.20...v0.7.21">https://github.com/heygen-com/hyperframes/compare/v0.7.20...v0.7.21</a></p>
 ]]></content:encoded>
         </item>
     </channel>
