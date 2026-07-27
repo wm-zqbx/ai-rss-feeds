@@ -4,11 +4,45 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 27 Jul 2026 03:45:09 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2026 05:13:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.76]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.76</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.76</guid>
+            <pubDate>Mon, 27 Jul 2026 05:13:16 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.76</h1>
+<p>Released on 2026-07-27.</p>
+<p>Plan v2 chunk materialization now recreates declared video directory skeletons even
+when a sparse chunk needs no frames, so inactive-video chunks render without
+downloading unused artifacts. Layout checks also improve rotation-pivot drift
+diagnostics.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Materialize declared video directories for sparse Plan v2 chunks (<a href="https://github.com/heygen-com/hyperframes/commit/ddb59d3567fc70d808f86ef8b5b531078e3df2d6">ddb59d356</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2823">#2823</a>)</li>
+<li><strong>Check:</strong> Improve elongated rotation-pivot drift detection and detached-connector diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/75ed99e1d4f45015812575ff26c07efb0b253f21">75ed99e1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2819">#2819</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76">https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.76</h1>
+<p>Released on 2026-07-27.</p>
+<p>Plan v2 chunk materialization now recreates declared video directory skeletons even
+when a sparse chunk needs no frames, so inactive-video chunks render without
+downloading unused artifacts. Layout checks also improve rotation-pivot drift
+diagnostics.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Materialize declared video directories for sparse Plan v2 chunks (<a href="https://github.com/heygen-com/hyperframes/commit/ddb59d3567fc70d808f86ef8b5b531078e3df2d6">ddb59d356</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2823">#2823</a>)</li>
+<li><strong>Check:</strong> Improve elongated rotation-pivot drift detection and detached-connector diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/75ed99e1d4f45015812575ff26c07efb0b253f21">75ed99e1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2819">#2819</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76">https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.75]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.75</link>
@@ -3365,64 +3399,6 @@ the active layer, keeping HDR output aligned with preview timing.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.27...v0.7.28">https://github.com/heygen-com/hyperframes/compare/v0.7.27...v0.7.28</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.27]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.27</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.27</guid>
-            <pubDate>Fri, 03 Jul 2026 18:59:44 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.27</h1>
-<p>Released on 2026-07-03.</p>
-<p>This release adds three new capture-extraction categories (gradient washes, glass panels, nav CTAs) and migrates cloud-render uploads to the higher-capacity direct-uploads endpoint. Also includes reliability fixes across CLI (Chrome install races, media validation), producer (audio-mix failures now surface instead of shipping silently video-only), lint (several false-positive fixes), and slideshow presenter mode over screen share.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Capture:</strong> Extract gradient washes, glass panels, and nav CTAs (<a href="https://github.com/heygen-com/hyperframes/commit/dd774b3692e71656b038cb2d5a11f05ba52c2880">dd774b369</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1879">#1879</a>)</li>
-<li><strong>CLI:</strong> Migrate cloud-render upload to /v3/assets/direct-uploads (200MB) (<a href="https://github.com/heygen-com/hyperframes/commit/a59ff0d91b4074bd16b7e4d41fb9a9ffbc9eab8e">a59ff0d91</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1844">#1844</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Hyperframes Media:</strong> Npx spawn without shell:true fails silently on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/3b67918242ab0d74b37241b059fa54a792977067">3b6791824</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1845">#1845</a>)</li>
-<li><strong>Hyperframes Media:</strong> Fall back to ffmpeg when ffprobe is missing (<a href="https://github.com/heygen-com/hyperframes/commit/e2b43583fc2480aa9511cd5e606a58841c4f211e">e2b43583f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1877">#1877</a>)</li>
-<li><strong>Hyperframes Media:</strong> Cap TTS synthesis concurrency instead of firing every line at once (<a href="https://github.com/heygen-com/hyperframes/commit/2e9a33ca719a2b28bd8bb51083df32b8f74ca437">2e9a33ca7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1862">#1862</a>)</li>
-<li><strong>Producer:</strong> Surface the reason when audio mixing fails instead of silently shipping video-only (<a href="https://github.com/heygen-com/hyperframes/commit/f40dbd86cf2df77a26004578a66b4035e4d742c5">f40dbd86c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1854">#1854</a>)</li>
-<li><strong>CLI:</strong> Lock chrome-headless-shell install against concurrent extraction races (<a href="https://github.com/heygen-com/hyperframes/commit/638c33bc01965247614af67875644e2e18a8e4a3">638c33bc0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1866">#1866</a>)</li>
-<li><strong>CLI:</strong> Validate stops misreporting slow-loading media as unreadable (<a href="https://github.com/heygen-com/hyperframes/commit/b087f1e3c09d24e3a339ec4bf2f129af39f0a915">b087f1e3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1849">#1849</a>)</li>
-<li><strong>Engine:</strong> Name the fix in the ffmpeg encode-timeout error message (<a href="https://github.com/heygen-com/hyperframes/commit/eef469075299439c0c79b38d8488639106a42dca">eef469075</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1858">#1858</a>)</li>
-<li><strong>Lint:</strong> Stop scene-exit hard-kill rules from contradicting gsap_animates_clip_element (<a href="https://github.com/heygen-com/hyperframes/commit/c7b34d5c6536129e5589377e7e4c9a0b763b4494">c7b34d5c6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1846">#1846</a>)</li>
-<li><strong>Lint:</strong> Stop a leading <svg> defs block from being mistaken for the composition root (<a href="https://github.com/heygen-com/hyperframes/commit/8ee4b7dfda8f884076f4844136611c886d8e8107">8ee4b7dfd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1867">#1867</a>)</li>
-<li><strong>Lint:</strong> Recognize computed-key window.__timelines registrations (<a href="https://github.com/heygen-com/hyperframes/commit/d2f1adc2affea69e33550d60945a237e92602eb5">d2f1adc2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1874">#1874</a>)</li>
-<li><strong>Lint:</strong> Mention src: local() for system fonts in font_family_without_font_face (<a href="https://github.com/heygen-com/hyperframes/commit/b7eb0dfb5a87d53bb542f5f70723110ea60c6990">b7eb0dfb5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1859">#1859</a>)</li>
-<li><strong>Slideshow:</strong> Make presenter mode work over Google Meet/Zoom screen share (<a href="https://github.com/heygen-com/hyperframes/commit/a7c3cc7d689b13c5bb96559f9bad713205edb194">a7c3cc7d6</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.26...v0.7.27">https://github.com/heygen-com/hyperframes/compare/v0.7.26...v0.7.27</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.27</h1>
-<p>Released on 2026-07-03.</p>
-<p>This release adds three new capture-extraction categories (gradient washes, glass panels, nav CTAs) and migrates cloud-render uploads to the higher-capacity direct-uploads endpoint. Also includes reliability fixes across CLI (Chrome install races, media validation), producer (audio-mix failures now surface instead of shipping silently video-only), lint (several false-positive fixes), and slideshow presenter mode over screen share.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Capture:</strong> Extract gradient washes, glass panels, and nav CTAs (<a href="https://github.com/heygen-com/hyperframes/commit/dd774b3692e71656b038cb2d5a11f05ba52c2880">dd774b369</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1879">#1879</a>)</li>
-<li><strong>CLI:</strong> Migrate cloud-render upload to /v3/assets/direct-uploads (200MB) (<a href="https://github.com/heygen-com/hyperframes/commit/a59ff0d91b4074bd16b7e4d41fb9a9ffbc9eab8e">a59ff0d91</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1844">#1844</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Hyperframes Media:</strong> Npx spawn without shell:true fails silently on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/3b67918242ab0d74b37241b059fa54a792977067">3b6791824</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1845">#1845</a>)</li>
-<li><strong>Hyperframes Media:</strong> Fall back to ffmpeg when ffprobe is missing (<a href="https://github.com/heygen-com/hyperframes/commit/e2b43583fc2480aa9511cd5e606a58841c4f211e">e2b43583f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1877">#1877</a>)</li>
-<li><strong>Hyperframes Media:</strong> Cap TTS synthesis concurrency instead of firing every line at once (<a href="https://github.com/heygen-com/hyperframes/commit/2e9a33ca719a2b28bd8bb51083df32b8f74ca437">2e9a33ca7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1862">#1862</a>)</li>
-<li><strong>Producer:</strong> Surface the reason when audio mixing fails instead of silently shipping video-only (<a href="https://github.com/heygen-com/hyperframes/commit/f40dbd86cf2df77a26004578a66b4035e4d742c5">f40dbd86c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1854">#1854</a>)</li>
-<li><strong>CLI:</strong> Lock chrome-headless-shell install against concurrent extraction races (<a href="https://github.com/heygen-com/hyperframes/commit/638c33bc01965247614af67875644e2e18a8e4a3">638c33bc0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1866">#1866</a>)</li>
-<li><strong>CLI:</strong> Validate stops misreporting slow-loading media as unreadable (<a href="https://github.com/heygen-com/hyperframes/commit/b087f1e3c09d24e3a339ec4bf2f129af39f0a915">b087f1e3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1849">#1849</a>)</li>
-<li><strong>Engine:</strong> Name the fix in the ffmpeg encode-timeout error message (<a href="https://github.com/heygen-com/hyperframes/commit/eef469075299439c0c79b38d8488639106a42dca">eef469075</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1858">#1858</a>)</li>
-<li><strong>Lint:</strong> Stop scene-exit hard-kill rules from contradicting gsap_animates_clip_element (<a href="https://github.com/heygen-com/hyperframes/commit/c7b34d5c6536129e5589377e7e4c9a0b763b4494">c7b34d5c6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1846">#1846</a>)</li>
-<li><strong>Lint:</strong> Stop a leading <svg> defs block from being mistaken for the composition root (<a href="https://github.com/heygen-com/hyperframes/commit/8ee4b7dfda8f884076f4844136611c886d8e8107">8ee4b7dfd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1867">#1867</a>)</li>
-<li><strong>Lint:</strong> Recognize computed-key window.__timelines registrations (<a href="https://github.com/heygen-com/hyperframes/commit/d2f1adc2affea69e33550d60945a237e92602eb5">d2f1adc2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1874">#1874</a>)</li>
-<li><strong>Lint:</strong> Mention src: local() for system fonts in font_family_without_font_face (<a href="https://github.com/heygen-com/hyperframes/commit/b7eb0dfb5a87d53bb542f5f70723110ea60c6990">b7eb0dfb5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1859">#1859</a>)</li>
-<li><strong>Slideshow:</strong> Make presenter mode work over Google Meet/Zoom screen share (<a href="https://github.com/heygen-com/hyperframes/commit/a7c3cc7d689b13c5bb96559f9bad713205edb194">a7c3cc7d6</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.26...v0.7.27">https://github.com/heygen-com/hyperframes/compare/v0.7.26...v0.7.27</a></p>
 ]]></content:encoded>
         </item>
     </channel>
