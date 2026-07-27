@@ -4,11 +4,93 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 26 Jul 2026 21:40:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 27 Jul 2026 03:45:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.75]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.75</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.75</guid>
+            <pubDate>Mon, 27 Jul 2026 03:45:09 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.75</h1>
+<p>Released on 2026-07-27.</p>
+<p>Distributed capture now preflights <code>BeginFrame</code> support and falls back to screenshot
+capture when the browser cannot provide a healthy <code>BeginFrame</code> session. A targeted
+retry also recovers from <code>BeginFrame</code>-specific failures without masking unrelated errors.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Fall back from unhealthy distributed <code>BeginFrame</code> capture safely (<a href="https://github.com/heygen-com/hyperframes/commit/96cafb47c6c9850939c85e2cc76e578d3b6dbd1b">96cafb47c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2821">#2821</a>)</li>
+<li><strong>Regression:</strong> Schedule the Plan v2 color fixture in regression shards (<a href="https://github.com/heygen-com/hyperframes/commit/51cbbe6fc93e025ee94fc73ad2b65afce8a35d3b">51cbbe6fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2820">#2820</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Regression:</strong> Compute the shard matrix from recorded fixture timings (<a href="https://github.com/heygen-com/hyperframes/commit/f67012eb9f6a953de90a3d7828979b56a3c96006">f67012eb9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2815">#2815</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75">https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.75</h1>
+<p>Released on 2026-07-27.</p>
+<p>Distributed capture now preflights <code>BeginFrame</code> support and falls back to screenshot
+capture when the browser cannot provide a healthy <code>BeginFrame</code> session. A targeted
+retry also recovers from <code>BeginFrame</code>-specific failures without masking unrelated errors.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Fall back from unhealthy distributed <code>BeginFrame</code> capture safely (<a href="https://github.com/heygen-com/hyperframes/commit/96cafb47c6c9850939c85e2cc76e578d3b6dbd1b">96cafb47c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2821">#2821</a>)</li>
+<li><strong>Regression:</strong> Schedule the Plan v2 color fixture in regression shards (<a href="https://github.com/heygen-com/hyperframes/commit/51cbbe6fc93e025ee94fc73ad2b65afce8a35d3b">51cbbe6fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2820">#2820</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Regression:</strong> Compute the shard matrix from recorded fixture timings (<a href="https://github.com/heygen-com/hyperframes/commit/f67012eb9f6a953de90a3d7828979b56a3c96006">f67012eb9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2815">#2815</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75">https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.74]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.74</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.74</guid>
+            <pubDate>Mon, 27 Jul 2026 02:01:21 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.74</h1>
+<p>Released on 2026-07-27.</p>
+<p>Distributed Plan v2 now handles extraction-cache sentinels and partial color metadata
+without corrupting chunk dependencies. Distributed cold starts also preserve live GSAP
+volume state, while GCP captures honor the effective <code>BeginFrame</code> boundary.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Handle partial color metadata and extraction sentinels in Plan v2 (<a href="https://github.com/heygen-com/hyperframes/commit/58869f0878e304fd39d564b93cc4a8b18e885b4e">58869f087</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2814">#2814</a>)</li>
+<li><strong>GCP Cloud Run:</strong> Enforce effective <code>BeginFrame</code> capture (<a href="https://github.com/heygen-com/hyperframes/commit/2a284a8e3aca62100ec037c23c98706e7146aa14">2a284a8e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2817">#2817</a>)</li>
+<li><strong>Core:</strong> Avoid live volume probes during render (<a href="https://github.com/heygen-com/hyperframes/commit/477defc7e7397684c2def4459b3981f62a06816d">477defc7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2816">#2816</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> Compute regression PSNR in one ffmpeg pass (<a href="https://github.com/heygen-com/hyperframes/commit/98a4cd70fd2df38f300a2e19c86f75cd8dd93895">98a4cd70f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2813">#2813</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.73...v0.7.74">https://github.com/heygen-com/hyperframes/compare/v0.7.73...v0.7.74</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.74</h1>
+<p>Released on 2026-07-27.</p>
+<p>Distributed Plan v2 now handles extraction-cache sentinels and partial color metadata
+without corrupting chunk dependencies. Distributed cold starts also preserve live GSAP
+volume state, while GCP captures honor the effective <code>BeginFrame</code> boundary.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Handle partial color metadata and extraction sentinels in Plan v2 (<a href="https://github.com/heygen-com/hyperframes/commit/58869f0878e304fd39d564b93cc4a8b18e885b4e">58869f087</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2814">#2814</a>)</li>
+<li><strong>GCP Cloud Run:</strong> Enforce effective <code>BeginFrame</code> capture (<a href="https://github.com/heygen-com/hyperframes/commit/2a284a8e3aca62100ec037c23c98706e7146aa14">2a284a8e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2817">#2817</a>)</li>
+<li><strong>Core:</strong> Avoid live volume probes during render (<a href="https://github.com/heygen-com/hyperframes/commit/477defc7e7397684c2def4459b3981f62a06816d">477defc7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2816">#2816</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> Compute regression PSNR in one ffmpeg pass (<a href="https://github.com/heygen-com/hyperframes/commit/98a4cd70fd2df38f300a2e19c86f75cd8dd93895">98a4cd70f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2813">#2813</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.73...v0.7.74">https://github.com/heygen-com/hyperframes/compare/v0.7.73...v0.7.74</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.73]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.73</link>
@@ -3341,110 +3423,6 @@ the active layer, keeping HDR output aligned with preview timing.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.26...v0.7.27">https://github.com/heygen-com/hyperframes/compare/v0.7.26...v0.7.27</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.26]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.26</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.26</guid>
-            <pubDate>Thu, 02 Jul 2026 07:39:25 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.26</h1>
-<p>Released on 2026-07-02.</p>
-<p>v0.7.26 makes imported designs more reliable by normalizing host-system primary font stacks to deterministic web fonts before distributed plan validation. It also adds render-reliability telemetry for preflight rejections, transient retries, and OOM classification, plus Studio controls and fixes around automatic keyframe recording.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Emit render_preflight_rejected telemetry for P1-3 pre-flight saves (<a href="https://github.com/heygen-com/hyperframes/commit/9b41891f3a39e73a0b91bd97bb00fa6767a4769e">9b41891f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1856">#1856</a>)</li>
-<li><strong>Producer,cli:</strong> Render-reliability telemetry counters for capture hardening (<a href="https://github.com/heygen-com/hyperframes/commit/733f88cb1f10bdbe31c924c4e0f1f8359f19e7d9">733f88cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1850">#1850</a>)</li>
-<li><strong>Studio:</strong> Add a global toggle to stop manual edits from auto-recording keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/636d5dd6c52083a6c10a25eb00580c207b164534">636d5dd6</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Normalize system-primary font stacks (<a href="https://github.com/heygen-com/hyperframes/commit/e10e61ceb2cfb9664915548b4b8d42456d636aa1">e10e61ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1857">#1857</a>)</li>
-<li><strong>Studio:</strong> Don&#39;t crash resizing an element whose keyframes were removed (<a href="https://github.com/heygen-com/hyperframes/commit/dff3634ea89d8834a41f2fd935111d9f5530a637">dff3634e</a>)</li>
-<li><strong>Studio:</strong> Re-sync soft-reloaded timelines to the studio&#39;s own scrub time (<a href="https://github.com/heygen-com/hyperframes/commit/70606f840df92549afdc85824fdc58d319b93819">70606f84</a>)</li>
-<li><strong>Studio:</strong> Fix array-form keyframe writes, diamond click-deselect, and nested video sync (<a href="https://github.com/heygen-com/hyperframes/commit/1b8b2ac425703e4ea3600b6656f7fc67bb7cd7b2">1b8b2ac4</a>)</li>
-<li><strong>Studio:</strong> Resolve recent timeline regressions (<a href="https://github.com/heygen-com/hyperframes/commit/9b311588be7e72ab7627c55a001fa63ae5c8307c">9b311588</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>CLI:</strong> De-flake cold-import tests under CI contention via vitest timeouts (<a href="https://github.com/heygen-com/hyperframes/commit/438474c968e1c094cb3a01453d6309c099502666">438474c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1855">#1855</a>)</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li>Keep Codex plugin category as Creativity (<a href="https://github.com/heygen-com/hyperframes/commit/bf8b3d9796a740ff93015d4723b486bfcc5935a1">bf8b3d97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1860">#1860</a>)</li>
-<li><strong>Studio:</strong> Make the auto-keyframe toggle icon a diamond with a record dot (<a href="https://github.com/heygen-com/hyperframes/commit/ae50327bdb4a80123ff3b099ff067310a59b85c3">ae50327b</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.25...v0.7.26">https://github.com/heygen-com/hyperframes/compare/v0.7.25...v0.7.26</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.26</h1>
-<p>Released on 2026-07-02.</p>
-<p>v0.7.26 makes imported designs more reliable by normalizing host-system primary font stacks to deterministic web fonts before distributed plan validation. It also adds render-reliability telemetry for preflight rejections, transient retries, and OOM classification, plus Studio controls and fixes around automatic keyframe recording.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Emit render_preflight_rejected telemetry for P1-3 pre-flight saves (<a href="https://github.com/heygen-com/hyperframes/commit/9b41891f3a39e73a0b91bd97bb00fa6767a4769e">9b41891f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1856">#1856</a>)</li>
-<li><strong>Producer,cli:</strong> Render-reliability telemetry counters for capture hardening (<a href="https://github.com/heygen-com/hyperframes/commit/733f88cb1f10bdbe31c924c4e0f1f8359f19e7d9">733f88cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1850">#1850</a>)</li>
-<li><strong>Studio:</strong> Add a global toggle to stop manual edits from auto-recording keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/636d5dd6c52083a6c10a25eb00580c207b164534">636d5dd6</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Normalize system-primary font stacks (<a href="https://github.com/heygen-com/hyperframes/commit/e10e61ceb2cfb9664915548b4b8d42456d636aa1">e10e61ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1857">#1857</a>)</li>
-<li><strong>Studio:</strong> Don&#39;t crash resizing an element whose keyframes were removed (<a href="https://github.com/heygen-com/hyperframes/commit/dff3634ea89d8834a41f2fd935111d9f5530a637">dff3634e</a>)</li>
-<li><strong>Studio:</strong> Re-sync soft-reloaded timelines to the studio&#39;s own scrub time (<a href="https://github.com/heygen-com/hyperframes/commit/70606f840df92549afdc85824fdc58d319b93819">70606f84</a>)</li>
-<li><strong>Studio:</strong> Fix array-form keyframe writes, diamond click-deselect, and nested video sync (<a href="https://github.com/heygen-com/hyperframes/commit/1b8b2ac425703e4ea3600b6656f7fc67bb7cd7b2">1b8b2ac4</a>)</li>
-<li><strong>Studio:</strong> Resolve recent timeline regressions (<a href="https://github.com/heygen-com/hyperframes/commit/9b311588be7e72ab7627c55a001fa63ae5c8307c">9b311588</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>CLI:</strong> De-flake cold-import tests under CI contention via vitest timeouts (<a href="https://github.com/heygen-com/hyperframes/commit/438474c968e1c094cb3a01453d6309c099502666">438474c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1855">#1855</a>)</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li>Keep Codex plugin category as Creativity (<a href="https://github.com/heygen-com/hyperframes/commit/bf8b3d9796a740ff93015d4723b486bfcc5935a1">bf8b3d97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1860">#1860</a>)</li>
-<li><strong>Studio:</strong> Make the auto-keyframe toggle icon a diamond with a record dot (<a href="https://github.com/heygen-com/hyperframes/commit/ae50327bdb4a80123ff3b099ff067310a59b85c3">ae50327b</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.25...v0.7.26">https://github.com/heygen-com/hyperframes/compare/v0.7.25...v0.7.26</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.25]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.25</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.25</guid>
-            <pubDate>Thu, 02 Jul 2026 03:05:58 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.25</h1>
-<p>Released on 2026-07-02.</p>
-<p>v0.7.25 adds the <code>hyperframes keyframes</code> command for inspecting GSAP, CSS, Anime.js, and 3D onion-skin shots from the CLI. It also improves first-time render reliability with Linux/WSL dependency checks, actionable preset preflight failures, transient capture retries with OOM guidance, and isolated forced-screenshot workers for parallel renders.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Keyframes command (surface GSAP/CSS/Anime keyframes + 3D onion-skin --shot) (<a href="https://github.com/heygen-com/hyperframes/commit/a908af11a814d6fd2c9d3b65d8311e5c3f3742b9">a908af11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1603">#1603</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Parallelize forced screenshot workers (<a href="https://github.com/heygen-com/hyperframes/commit/145c71e837f208d382462f0dfe5d8840f3c33414">145c71e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1848">#1848</a>)</li>
-<li><strong>Render:</strong> Pre-flight aspect-ratio / alpha preset mismatch with actionable guidance (<a href="https://github.com/heygen-com/hyperframes/commit/6be46813a213cdd1ef605f2efd93c76bb18deda9">6be46813</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1843">#1843</a>)</li>
-<li><strong>Producer:</strong> Harden capture against timeouts, transient tab deaths, and OOM (<a href="https://github.com/heygen-com/hyperframes/commit/c0c3abf0f16ca41e5dfebcf6b70bd6845127130c">c0c3abf0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1842">#1842</a>)</li>
-<li><strong>CLI:</strong> Detect missing Chrome libs &amp; ffmpeg on Linux/WSL in doctor (<a href="https://github.com/heygen-com/hyperframes/commit/180f368af1dd6b4d949d182805644077feaa81bc">180f368a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1841">#1841</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.24...v0.7.25">https://github.com/heygen-com/hyperframes/compare/v0.7.24...v0.7.25</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.25</h1>
-<p>Released on 2026-07-02.</p>
-<p>v0.7.25 adds the <code>hyperframes keyframes</code> command for inspecting GSAP, CSS, Anime.js, and 3D onion-skin shots from the CLI. It also improves first-time render reliability with Linux/WSL dependency checks, actionable preset preflight failures, transient capture retries with OOM guidance, and isolated forced-screenshot workers for parallel renders.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Keyframes command (surface GSAP/CSS/Anime keyframes + 3D onion-skin --shot) (<a href="https://github.com/heygen-com/hyperframes/commit/a908af11a814d6fd2c9d3b65d8311e5c3f3742b9">a908af11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1603">#1603</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Parallelize forced screenshot workers (<a href="https://github.com/heygen-com/hyperframes/commit/145c71e837f208d382462f0dfe5d8840f3c33414">145c71e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1848">#1848</a>)</li>
-<li><strong>Render:</strong> Pre-flight aspect-ratio / alpha preset mismatch with actionable guidance (<a href="https://github.com/heygen-com/hyperframes/commit/6be46813a213cdd1ef605f2efd93c76bb18deda9">6be46813</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1843">#1843</a>)</li>
-<li><strong>Producer:</strong> Harden capture against timeouts, transient tab deaths, and OOM (<a href="https://github.com/heygen-com/hyperframes/commit/c0c3abf0f16ca41e5dfebcf6b70bd6845127130c">c0c3abf0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1842">#1842</a>)</li>
-<li><strong>CLI:</strong> Detect missing Chrome libs &amp; ffmpeg on Linux/WSL in doctor (<a href="https://github.com/heygen-com/hyperframes/commit/180f368af1dd6b4d949d182805644077feaa81bc">180f368a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1841">#1841</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.24...v0.7.25">https://github.com/heygen-com/hyperframes/compare/v0.7.24...v0.7.25</a></p>
 ]]></content:encoded>
         </item>
     </channel>
