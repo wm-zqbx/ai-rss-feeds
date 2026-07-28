@@ -4,11 +4,107 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 27 Jul 2026 05:13:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jul 2026 02:18:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.77]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.77</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.77</guid>
+            <pubDate>Tue, 28 Jul 2026 02:18:40 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.77</h1>
+<p>Released on 2026-07-28.</p>
+<p>Studio&#39;s timeline now exposes expandable property lanes, track headers, precise
+keyframe retiming, and selection-safe editing across nested compositions. This
+release also makes stalled CLI download cleanup reliable on Windows and adds an
+opt-in prose-coverage floor to layout checks.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Add expanded keyframe lanes, track headers, retiming interactions,
+and nested-composition timeline support
+(<a href="https://github.com/heygen-com/hyperframes/pull/2791">#2791</a>)</li>
+<li><strong>Check:</strong> Add the opt-in <code>proseCoverageFloor</code> layout rule
+(<a href="https://github.com/heygen-com/hyperframes/pull/2834">#2834</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Wait for stalled download pipelines to release temporary files before
+cleanup, fixing the Windows locked-file failure
+(<a href="https://github.com/heygen-com/hyperframes/pull/2835">#2835</a>)</li>
+<li><strong>Telemetry:</strong> Send CLI feedback through the plain-event path instead of the
+PostHog survey API
+(<a href="https://github.com/heygen-com/hyperframes/pull/2831">#2831</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>CI:</strong> Distribute the two heaviest render fixtures and improve Docker layer
+reuse for producer-only changes
+(<a href="https://github.com/heygen-com/hyperframes/pull/2825">#2825</a>,
+<a href="https://github.com/heygen-com/hyperframes/pull/2822">#2822</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Send-to guide:</strong> Clarify that enhance turns are free and rendering is the
+paid step
+(<a href="https://github.com/heygen-com/hyperframes/pull/2827">#2827</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Separate telemetry delivery from event policy while preserving the
+queued flush and process-exit behavior
+(<a href="https://github.com/heygen-com/hyperframes/pull/2344">#2344</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77">https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.77</h1>
+<p>Released on 2026-07-28.</p>
+<p>Studio&#39;s timeline now exposes expandable property lanes, track headers, precise
+keyframe retiming, and selection-safe editing across nested compositions. This
+release also makes stalled CLI download cleanup reliable on Windows and adds an
+opt-in prose-coverage floor to layout checks.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Add expanded keyframe lanes, track headers, retiming interactions,
+and nested-composition timeline support
+(<a href="https://github.com/heygen-com/hyperframes/pull/2791">#2791</a>)</li>
+<li><strong>Check:</strong> Add the opt-in <code>proseCoverageFloor</code> layout rule
+(<a href="https://github.com/heygen-com/hyperframes/pull/2834">#2834</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Wait for stalled download pipelines to release temporary files before
+cleanup, fixing the Windows locked-file failure
+(<a href="https://github.com/heygen-com/hyperframes/pull/2835">#2835</a>)</li>
+<li><strong>Telemetry:</strong> Send CLI feedback through the plain-event path instead of the
+PostHog survey API
+(<a href="https://github.com/heygen-com/hyperframes/pull/2831">#2831</a>)</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>CI:</strong> Distribute the two heaviest render fixtures and improve Docker layer
+reuse for producer-only changes
+(<a href="https://github.com/heygen-com/hyperframes/pull/2825">#2825</a>,
+<a href="https://github.com/heygen-com/hyperframes/pull/2822">#2822</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Send-to guide:</strong> Clarify that enhance turns are free and rendering is the
+paid step
+(<a href="https://github.com/heygen-com/hyperframes/pull/2827">#2827</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Separate telemetry delivery from event policy while preserving the
+queued flush and process-exit behavior
+(<a href="https://github.com/heygen-com/hyperframes/pull/2344">#2344</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77">https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.76]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.76</link>
@@ -3371,34 +3467,6 @@ the active layer, keeping HDR output aligned with preview timing.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.28...v0.7.29">https://github.com/heygen-com/hyperframes/compare/v0.7.28...v0.7.29</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.28]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.28</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.28</guid>
-            <pubDate>Fri, 03 Jul 2026 20:04:39 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.28</h1>
-<p>Released on 2026-07-03.</p>
-<p>This release fixes a render/preview mismatch where sub-composition root styles could diverge in producer renders. It also scales static-frame dedup verification with longer runs so repeated-frame optimizations stay reliable across longer outputs.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Scale static-dedup verification density with run length (<a href="https://github.com/heygen-com/hyperframes/commit/df221c1fd685862b62e3057438203f79eedae111">df221c1f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1903">#1903</a>)</li>
-<li><strong>Producer:</strong> Render diverges from preview for sub-composition root styling (<a href="https://github.com/heygen-com/hyperframes/commit/7e8a1466c3b058071c5ed89241ed70e2d0878645">7e8a1466</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1886">#1886</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.27...v0.7.28">https://github.com/heygen-com/hyperframes/compare/v0.7.27...v0.7.28</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.28</h1>
-<p>Released on 2026-07-03.</p>
-<p>This release fixes a render/preview mismatch where sub-composition root styles could diverge in producer renders. It also scales static-frame dedup verification with longer runs so repeated-frame optimizations stay reliable across longer outputs.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Scale static-dedup verification density with run length (<a href="https://github.com/heygen-com/hyperframes/commit/df221c1fd685862b62e3057438203f79eedae111">df221c1f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1903">#1903</a>)</li>
-<li><strong>Producer:</strong> Render diverges from preview for sub-composition root styling (<a href="https://github.com/heygen-com/hyperframes/commit/7e8a1466c3b058071c5ed89241ed70e2d0878645">7e8a1466</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1886">#1886</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.27...v0.7.28">https://github.com/heygen-com/hyperframes/compare/v0.7.27...v0.7.28</a></p>
 ]]></content:encoded>
         </item>
     </channel>
