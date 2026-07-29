@@ -4,11 +4,43 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 29 Jul 2026 06:21:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Jul 2026 11:29:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.82]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.82</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.82</guid>
+            <pubDate>Wed, 29 Jul 2026 11:29:37 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.82</h1>
+<p>Released on 2026-07-29.</p>
+<p>Studio exports now preserve the selected orientation-aware resolution, including 4K, instead of
+silently falling back to the composition&#39;s native canvas size. Browser startup also honors
+explicit HyperFrames browser-path environment overrides and retries transient launch failures
+without hanging preview requests.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Honor selected render resolution (<a href="https://github.com/heygen-com/hyperframes/commit/f1655b9302dc870c1e2ee24f19fd23897c767b42">f1655b930</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2876">#2876</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.81...v0.7.82">https://github.com/heygen-com/hyperframes/compare/v0.7.81...v0.7.82</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.82</h1>
+<p>Released on 2026-07-29.</p>
+<p>Studio exports now preserve the selected orientation-aware resolution, including 4K, instead of
+silently falling back to the composition&#39;s native canvas size. Browser startup also honors
+explicit HyperFrames browser-path environment overrides and retries transient launch failures
+without hanging preview requests.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Honor selected render resolution (<a href="https://github.com/heygen-com/hyperframes/commit/f1655b9302dc870c1e2ee24f19fd23897c767b42">f1655b930</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2876">#2876</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.81...v0.7.82">https://github.com/heygen-com/hyperframes/compare/v0.7.81...v0.7.82</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.81]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.81</link>
@@ -3523,38 +3555,6 @@ later captures.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.33...v0.7.34">https://github.com/heygen-com/hyperframes/compare/v0.7.33...v0.7.34</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.33]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.33</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.33</guid>
-            <pubDate>Sat, 04 Jul 2026 22:38:46 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.33</h1>
-<p>Released on 2026-07-04.</p>
-<p>This release fixes an HDR compositing regression where hidden or future timed DOM
-descendants could be revived during per-layer screenshots and bleed into HDR
-frames. DOM-layer masking now preserves those hidden descendants while capturing
-the active layer, keeping HDR output aligned with preview timing.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Avoid reviving hidden DOM in HDR layers (<a href="https://github.com/heygen-com/hyperframes/commit/bb066077b4ecbf4efc021779e37da6475c6f80dd">bb066077b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1935">#1935</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.32...v0.7.33">https://github.com/heygen-com/hyperframes/compare/v0.7.32...v0.7.33</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.33</h1>
-<p>Released on 2026-07-04.</p>
-<p>This release fixes an HDR compositing regression where hidden or future timed DOM
-descendants could be revived during per-layer screenshots and bleed into HDR
-frames. DOM-layer masking now preserves those hidden descendants while capturing
-the active layer, keeping HDR output aligned with preview timing.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Avoid reviving hidden DOM in HDR layers (<a href="https://github.com/heygen-com/hyperframes/commit/bb066077b4ecbf4efc021779e37da6475c6f80dd">bb066077b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1935">#1935</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.32...v0.7.33">https://github.com/heygen-com/hyperframes/compare/v0.7.32...v0.7.33</a></p>
 ]]></content:encoded>
         </item>
     </channel>
