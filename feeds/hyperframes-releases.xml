@@ -4,11 +4,171 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 28 Jul 2026 12:32:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 29 Jul 2026 02:48:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.80]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.80</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.80</guid>
+            <pubDate>Wed, 29 Jul 2026 02:48:37 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.80</h1>
+<p>Released on 2026-07-29.</p>
+<p>HyperFrames now renders scene-local video timing correctly across sequential nested templates
+and removes vulnerable runtime dependency paths. Studio also gains exact bulk easing for
+merged keyframes, atomic keyframe-cache refreshes, and smoother optimistic ease-mode changes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Bulk-edit easing for merged keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/10d45def058248d0d59d1448beef6a6ee91ddeba">10d45def0</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep hidden state on expanded sub-composition rows (<a href="https://github.com/heygen-com/hyperframes/commit/5dad52370f77a9a0618827279b8a4dcd86868456">5dad52370</a>)</li>
+<li><strong>Studio:</strong> Open the path node menu on arc waypoints (<a href="https://github.com/heygen-com/hyperframes/commit/adb7de5358d7ed6feeb41c55e6152ed7758bf1b5">adb7de535</a>)</li>
+<li><strong>Studio:</strong> Switch keyframe ease modes optimistically (<a href="https://github.com/heygen-com/hyperframes/commit/659e22656e51aef54d079b3822fa40086d93726b">659e22656</a>)</li>
+<li><strong>Studio:</strong> Publish keyframe cache refresh atomically (<a href="https://github.com/heygen-com/hyperframes/commit/6b11d3743339c13424073fca63791d941d3fbbf6">6b11d3743</a>)</li>
+<li><strong>Studio:</strong> Target colliding keyframes exactly (<a href="https://github.com/heygen-com/hyperframes/commit/7482c22d821c0a46b48cb17421c4df73014dbbd6">7482c22d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2692">#2692</a>)</li>
+<li><strong>Core:</strong> Preserve scene-local video timing across sequential nested templates (<a href="https://github.com/heygen-com/hyperframes/commit/9bbb6d50a02e128fcdab9ae20d33649b65406788">9bbb6d50a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2859">#2859</a>)</li>
+<li><strong>Security:</strong> Remove vulnerable runtime dependency paths (<a href="https://github.com/heygen-com/hyperframes/commit/13ac9e390585e75b80f5efd46393531315f0be2c">13ac9e390</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Split bulk easing helpers (<a href="https://github.com/heygen-com/hyperframes/commit/23ab104aff7a90de6d41aa7af2fb425314015d1d">23ab104af</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.79...v0.7.80">https://github.com/heygen-com/hyperframes/compare/v0.7.79...v0.7.80</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.80</h1>
+<p>Released on 2026-07-29.</p>
+<p>HyperFrames now renders scene-local video timing correctly across sequential nested templates
+and removes vulnerable runtime dependency paths. Studio also gains exact bulk easing for
+merged keyframes, atomic keyframe-cache refreshes, and smoother optimistic ease-mode changes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Bulk-edit easing for merged keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/10d45def058248d0d59d1448beef6a6ee91ddeba">10d45def0</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep hidden state on expanded sub-composition rows (<a href="https://github.com/heygen-com/hyperframes/commit/5dad52370f77a9a0618827279b8a4dcd86868456">5dad52370</a>)</li>
+<li><strong>Studio:</strong> Open the path node menu on arc waypoints (<a href="https://github.com/heygen-com/hyperframes/commit/adb7de5358d7ed6feeb41c55e6152ed7758bf1b5">adb7de535</a>)</li>
+<li><strong>Studio:</strong> Switch keyframe ease modes optimistically (<a href="https://github.com/heygen-com/hyperframes/commit/659e22656e51aef54d079b3822fa40086d93726b">659e22656</a>)</li>
+<li><strong>Studio:</strong> Publish keyframe cache refresh atomically (<a href="https://github.com/heygen-com/hyperframes/commit/6b11d3743339c13424073fca63791d941d3fbbf6">6b11d3743</a>)</li>
+<li><strong>Studio:</strong> Target colliding keyframes exactly (<a href="https://github.com/heygen-com/hyperframes/commit/7482c22d821c0a46b48cb17421c4df73014dbbd6">7482c22d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2692">#2692</a>)</li>
+<li><strong>Core:</strong> Preserve scene-local video timing across sequential nested templates (<a href="https://github.com/heygen-com/hyperframes/commit/9bbb6d50a02e128fcdab9ae20d33649b65406788">9bbb6d50a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2859">#2859</a>)</li>
+<li><strong>Security:</strong> Remove vulnerable runtime dependency paths (<a href="https://github.com/heygen-com/hyperframes/commit/13ac9e390585e75b80f5efd46393531315f0be2c">13ac9e390</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Split bulk easing helpers (<a href="https://github.com/heygen-com/hyperframes/commit/23ab104aff7a90de6d41aa7af2fb425314015d1d">23ab104af</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.79...v0.7.80">https://github.com/heygen-com/hyperframes/compare/v0.7.79...v0.7.80</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.79]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.79</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.79</guid>
+            <pubDate>Tue, 28 Jul 2026 23:13:27 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.79</h1>
+<p>Released on 2026-07-28.</p>
+<p>Studio editing is now more exact and predictable: timeline, motion-path, and playhead
+keyframe operations stay scoped to the intended element; nested-composition timing
+preserves its host rows; and color, shortcuts, ruler, and accessibility interactions
+are more reliable. This release also adds a narrow caption-zone layout waiver, makes
+CLI telemetry opt-out durable, and recognizes the renamed Codex image-generation
+feature flag.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Check:</strong> Add data-layout-allow-caption-zone waiver (<a href="https://github.com/heygen-com/hyperframes/commit/3a7950fd63b501788f39f1fd44c12fc317139d79">3a7950fd6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2853">#2853</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> Accept renamed codex image_generation feature flag (<a href="https://github.com/heygen-com/hyperframes/commit/02c57609ab2919792c5f4442b9eb08d729ddf544">02c57609a</a>)</li>
+<li><strong>Studio:</strong> Give the motion path and the fallbacks a one-element target (<a href="https://github.com/heygen-com/hyperframes/commit/1f3fd2800cd2e4df9e8a2c2b81ea11ed5b799630">1f3fd2800</a>)</li>
+<li><strong>Studio:</strong> Author every new tween against one element (<a href="https://github.com/heygen-com/hyperframes/commit/3d924360667a15745d85dc060689d913b5dcc5d7">3d9243606</a>)</li>
+<li><strong>Studio:</strong> Scope lane ids per timeline and stop inventing a track row (<a href="https://github.com/heygen-com/hyperframes/commit/ba0d6406d23d11e12305ba79834a69ae672b8432">ba0d6406d</a>)</li>
+<li><strong>Studio:</strong> Never re-author a target the DOM proved is not unique (<a href="https://github.com/heygen-com/hyperframes/commit/f04cdb79c5f1475fa7d6048036a4e0af354a60a2">f04cdb79c</a>)</li>
+<li><strong>Studio:</strong> Label undo history with the track display row (<a href="https://github.com/heygen-com/hyperframes/commit/477916cbe25dd6dd1877c09df3d826cd60b609e5">477916cbe</a>)</li>
+<li><strong>Studio:</strong> Target one element when adding a keyframe at the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/fd5555be758450d73335dd3f89c70329aac8ee35">fd5555be7</a>)</li>
+<li><strong>Studio:</strong> Announce real track numbers and point aria-controls at the lanes (<a href="https://github.com/heygen-com/hyperframes/commit/1faa0cbdadc71abdea220d8705682c0a18e499bb">1faa0cbda</a>)</li>
+<li><strong>Studio:</strong> Resolve a panel edit through the lane groups it can see (<a href="https://github.com/heygen-com/hyperframes/commit/be3451aae43779d47cd593e12bdf8fb2f4da2889">be3451aae</a>)</li>
+<li><strong>CLI:</strong> Make telemetry opt-out durable (<a href="https://github.com/heygen-com/hyperframes/commit/880021411d785e7470d3150868dee916245ffce8">880021411</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2852">#2852</a>)</li>
+<li><strong>Studio:</strong> Lane every tween and attribute tweens to their real target (<a href="https://github.com/heygen-com/hyperframes/commit/59a818e80a3ef561c5cb4a25ea30128cd18458b2">59a818e80</a>)</li>
+<li><strong>Studio:</strong> Keep every host row on the drill path, not just the top (<a href="https://github.com/heygen-com/hyperframes/commit/acad7b268ea1e9e4b35e15265ac6c8a178e43865">acad7b268</a>)</li>
+<li><strong>Studio:</strong> Keep the host row when drilling into a sub-composition (<a href="https://github.com/heygen-com/hyperframes/commit/d48440a9bacb83aef8007b3667e78e02a2481d8f">d48440a9b</a>)</li>
+<li><strong>Studio:</strong> Expand sub-comp children against their resolved parent host (<a href="https://github.com/heygen-com/hyperframes/commit/12546985f588df8cf984d241dd27e3417edb3320">12546985f</a>)</li>
+<li><strong>Studio:</strong> Compute keyframe percentages in the tween&#39;s own time frame (<a href="https://github.com/heygen-com/hyperframes/commit/3f0c20f633e9ac064e45df838e03d4412ddafda8">3f0c20f63</a>)</li>
+<li><strong>Studio:</strong> Accept 3-digit hex shorthand in the colour field (<a href="https://github.com/heygen-com/hyperframes/commit/86f633f98573a79f88422c8a24a69bd55d718c3d">86f633f98</a>)</li>
+<li><strong>Studio:</strong> Drop aria-modal from the non-modal shortcuts popup (<a href="https://github.com/heygen-com/hyperframes/commit/7f0cadcbb1f24df12bee091d5156e3cbf67f51e4">7f0cadcbb</a>)</li>
+<li><strong>Studio:</strong> Dismiss the shortcuts panel on escape and outside press (<a href="https://github.com/heygen-com/hyperframes/commit/aa2811642fecabdef58ce45329b115993d1e43fb">aa2811642</a>)</li>
+<li><strong>Studio:</strong> Let the colour hex field be edited and commit it on outside press (<a href="https://github.com/heygen-com/hyperframes/commit/55614033e501b5e55bfd3a2099396b74443652cd">55614033e</a>)</li>
+<li><strong>Studio:</strong> Grow the ease target only where the segment has room (<a href="https://github.com/heygen-com/hyperframes/commit/b82506363f08bf9b2efbd37dce94c0eaec71844e">b82506363</a>)</li>
+<li><strong>Studio:</strong> Meet the 24x24 pointer target minimum on toolbar and lane controls (<a href="https://github.com/heygen-com/hyperframes/commit/4e74eefddd4c1e38f7c97662cc52fae6d2a01698">4e74eefdd</a>)</li>
+<li><strong>Studio:</strong> Seek ruler clicks to the pressed position and round retime percentages (<a href="https://github.com/heygen-com/hyperframes/commit/69020699dfb595194c8bf85117525045439bcdb2">69020699d</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Regenerate skills-manifest for media-use change (<a href="https://github.com/heygen-com/hyperframes/commit/b6da5bd6b3e95e391ad340c9e11e162f647b8a4b">b6da5bd6b</a>)</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep StudioRightPanel under the 600 line cap (<a href="https://github.com/heygen-com/hyperframes/commit/bb24d0037a96d14a63eeb4c6e2a983f4971f331d">bb24d0037</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.78...v0.7.79">https://github.com/heygen-com/hyperframes/compare/v0.7.78...v0.7.79</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.79</h1>
+<p>Released on 2026-07-28.</p>
+<p>Studio editing is now more exact and predictable: timeline, motion-path, and playhead
+keyframe operations stay scoped to the intended element; nested-composition timing
+preserves its host rows; and color, shortcuts, ruler, and accessibility interactions
+are more reliable. This release also adds a narrow caption-zone layout waiver, makes
+CLI telemetry opt-out durable, and recognizes the renamed Codex image-generation
+feature flag.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Check:</strong> Add data-layout-allow-caption-zone waiver (<a href="https://github.com/heygen-com/hyperframes/commit/3a7950fd63b501788f39f1fd44c12fc317139d79">3a7950fd6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2853">#2853</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> Accept renamed codex image_generation feature flag (<a href="https://github.com/heygen-com/hyperframes/commit/02c57609ab2919792c5f4442b9eb08d729ddf544">02c57609a</a>)</li>
+<li><strong>Studio:</strong> Give the motion path and the fallbacks a one-element target (<a href="https://github.com/heygen-com/hyperframes/commit/1f3fd2800cd2e4df9e8a2c2b81ea11ed5b799630">1f3fd2800</a>)</li>
+<li><strong>Studio:</strong> Author every new tween against one element (<a href="https://github.com/heygen-com/hyperframes/commit/3d924360667a15745d85dc060689d913b5dcc5d7">3d9243606</a>)</li>
+<li><strong>Studio:</strong> Scope lane ids per timeline and stop inventing a track row (<a href="https://github.com/heygen-com/hyperframes/commit/ba0d6406d23d11e12305ba79834a69ae672b8432">ba0d6406d</a>)</li>
+<li><strong>Studio:</strong> Never re-author a target the DOM proved is not unique (<a href="https://github.com/heygen-com/hyperframes/commit/f04cdb79c5f1475fa7d6048036a4e0af354a60a2">f04cdb79c</a>)</li>
+<li><strong>Studio:</strong> Label undo history with the track display row (<a href="https://github.com/heygen-com/hyperframes/commit/477916cbe25dd6dd1877c09df3d826cd60b609e5">477916cbe</a>)</li>
+<li><strong>Studio:</strong> Target one element when adding a keyframe at the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/fd5555be758450d73335dd3f89c70329aac8ee35">fd5555be7</a>)</li>
+<li><strong>Studio:</strong> Announce real track numbers and point aria-controls at the lanes (<a href="https://github.com/heygen-com/hyperframes/commit/1faa0cbdadc71abdea220d8705682c0a18e499bb">1faa0cbda</a>)</li>
+<li><strong>Studio:</strong> Resolve a panel edit through the lane groups it can see (<a href="https://github.com/heygen-com/hyperframes/commit/be3451aae43779d47cd593e12bdf8fb2f4da2889">be3451aae</a>)</li>
+<li><strong>CLI:</strong> Make telemetry opt-out durable (<a href="https://github.com/heygen-com/hyperframes/commit/880021411d785e7470d3150868dee916245ffce8">880021411</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2852">#2852</a>)</li>
+<li><strong>Studio:</strong> Lane every tween and attribute tweens to their real target (<a href="https://github.com/heygen-com/hyperframes/commit/59a818e80a3ef561c5cb4a25ea30128cd18458b2">59a818e80</a>)</li>
+<li><strong>Studio:</strong> Keep every host row on the drill path, not just the top (<a href="https://github.com/heygen-com/hyperframes/commit/acad7b268ea1e9e4b35e15265ac6c8a178e43865">acad7b268</a>)</li>
+<li><strong>Studio:</strong> Keep the host row when drilling into a sub-composition (<a href="https://github.com/heygen-com/hyperframes/commit/d48440a9bacb83aef8007b3667e78e02a2481d8f">d48440a9b</a>)</li>
+<li><strong>Studio:</strong> Expand sub-comp children against their resolved parent host (<a href="https://github.com/heygen-com/hyperframes/commit/12546985f588df8cf984d241dd27e3417edb3320">12546985f</a>)</li>
+<li><strong>Studio:</strong> Compute keyframe percentages in the tween&#39;s own time frame (<a href="https://github.com/heygen-com/hyperframes/commit/3f0c20f633e9ac064e45df838e03d4412ddafda8">3f0c20f63</a>)</li>
+<li><strong>Studio:</strong> Accept 3-digit hex shorthand in the colour field (<a href="https://github.com/heygen-com/hyperframes/commit/86f633f98573a79f88422c8a24a69bd55d718c3d">86f633f98</a>)</li>
+<li><strong>Studio:</strong> Drop aria-modal from the non-modal shortcuts popup (<a href="https://github.com/heygen-com/hyperframes/commit/7f0cadcbb1f24df12bee091d5156e3cbf67f51e4">7f0cadcbb</a>)</li>
+<li><strong>Studio:</strong> Dismiss the shortcuts panel on escape and outside press (<a href="https://github.com/heygen-com/hyperframes/commit/aa2811642fecabdef58ce45329b115993d1e43fb">aa2811642</a>)</li>
+<li><strong>Studio:</strong> Let the colour hex field be edited and commit it on outside press (<a href="https://github.com/heygen-com/hyperframes/commit/55614033e501b5e55bfd3a2099396b74443652cd">55614033e</a>)</li>
+<li><strong>Studio:</strong> Grow the ease target only where the segment has room (<a href="https://github.com/heygen-com/hyperframes/commit/b82506363f08bf9b2efbd37dce94c0eaec71844e">b82506363</a>)</li>
+<li><strong>Studio:</strong> Meet the 24x24 pointer target minimum on toolbar and lane controls (<a href="https://github.com/heygen-com/hyperframes/commit/4e74eefddd4c1e38f7c97662cc52fae6d2a01698">4e74eefdd</a>)</li>
+<li><strong>Studio:</strong> Seek ruler clicks to the pressed position and round retime percentages (<a href="https://github.com/heygen-com/hyperframes/commit/69020699dfb595194c8bf85117525045439bcdb2">69020699d</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Regenerate skills-manifest for media-use change (<a href="https://github.com/heygen-com/hyperframes/commit/b6da5bd6b3e95e391ad340c9e11e162f647b8a4b">b6da5bd6b</a>)</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep StudioRightPanel under the 600 line cap (<a href="https://github.com/heygen-com/hyperframes/commit/bb24d0037a96d14a63eeb4c6e2a983f4971f331d">bb24d0037</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.78...v0.7.79">https://github.com/heygen-com/hyperframes/compare/v0.7.78...v0.7.79</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.78]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.78</link>
@@ -3403,66 +3563,6 @@ the active layer, keeping HDR output aligned with preview timing.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.31...v0.7.32">https://github.com/heygen-com/hyperframes/compare/v0.7.31...v0.7.32</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.31]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.31</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.31</guid>
-            <pubDate>Sat, 04 Jul 2026 06:11:08 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.31</h1>
-<p>Released on 2026-07-04.</p>
-<p>This release makes Figma imports first-class citizens of the shared media inventory: every <code>hyperframes figma asset</code> import now regenerates <code>.media/index.md</code> (byte-identical with media-use&#39;s format), carries <code>--description</code>/<code>--entity</code> metadata into the manifest, index, and alt text, and the reuse path correctly upserts metadata and dedupes against any prior format/scale/version tuple. media-use&#39;s entity lookups now match figma-imported brand marks across the icon/image boundary.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Core,cli:</strong> Media-use interop — shared index.md regen + description/entity on figma imports (<a href="https://github.com/heygen-com/hyperframes/commit/3900caaaa94443efb01597dac26df1533f8add35">3900caaaa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1927">#1927</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.30...v0.7.31">https://github.com/heygen-com/hyperframes/compare/v0.7.30...v0.7.31</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.31</h1>
-<p>Released on 2026-07-04.</p>
-<p>This release makes Figma imports first-class citizens of the shared media inventory: every <code>hyperframes figma asset</code> import now regenerates <code>.media/index.md</code> (byte-identical with media-use&#39;s format), carries <code>--description</code>/<code>--entity</code> metadata into the manifest, index, and alt text, and the reuse path correctly upserts metadata and dedupes against any prior format/scale/version tuple. media-use&#39;s entity lookups now match figma-imported brand marks across the icon/image boundary.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Core,cli:</strong> Media-use interop — shared index.md regen + description/entity on figma imports (<a href="https://github.com/heygen-com/hyperframes/commit/3900caaaa94443efb01597dac26df1533f8add35">3900caaaa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1927">#1927</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.30...v0.7.31">https://github.com/heygen-com/hyperframes/compare/v0.7.30...v0.7.31</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.30]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.30</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.30</guid>
-            <pubDate>Sat, 04 Jul 2026 04:50:49 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.30</h1>
-<p>Released on 2026-07-04.</p>
-<p>This release adds a low-volume attempt counter to the resolver-shadow tripwire, giving the SDK-cutover soak gate a real <code>divergences / attempts</code> denominator instead of a bare divergence count. It also fixes <code>moveElement</code> losing its offset when the target element is under a running GSAP animation.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Add resolver-shadow attempt counter for soak-gate denominator (<a href="https://github.com/heygen-com/hyperframes/commit/fe821ff8bc9acbb840b4a42153db66790b9419a1">fe821ff8b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1926">#1926</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Sdk:</strong> MoveElement survives GSAP animation per-axis via runtime delta translate (<a href="https://github.com/heygen-com/hyperframes/commit/74faa4b2a42c60c77d1550e7288bf3333c15e25d">74faa4b2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1875">#1875</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.29...v0.7.30">https://github.com/heygen-com/hyperframes/compare/v0.7.29...v0.7.30</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.30</h1>
-<p>Released on 2026-07-04.</p>
-<p>This release adds a low-volume attempt counter to the resolver-shadow tripwire, giving the SDK-cutover soak gate a real <code>divergences / attempts</code> denominator instead of a bare divergence count. It also fixes <code>moveElement</code> losing its offset when the target element is under a running GSAP animation.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Add resolver-shadow attempt counter for soak-gate denominator (<a href="https://github.com/heygen-com/hyperframes/commit/fe821ff8bc9acbb840b4a42153db66790b9419a1">fe821ff8b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1926">#1926</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Sdk:</strong> MoveElement survives GSAP animation per-axis via runtime delta translate (<a href="https://github.com/heygen-com/hyperframes/commit/74faa4b2a42c60c77d1550e7288bf3333c15e25d">74faa4b2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1875">#1875</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.29...v0.7.30">https://github.com/heygen-com/hyperframes/compare/v0.7.29...v0.7.30</a></p>
 ]]></content:encoded>
         </item>
     </channel>
