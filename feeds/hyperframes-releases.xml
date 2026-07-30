@@ -4,11 +4,63 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 30 Jul 2026 17:44:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 21:46:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.86]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.86</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.86</guid>
+            <pubDate>Thu, 30 Jul 2026 21:46:49 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.86</h1>
+<p>Released on 2026-07-30.</p>
+<p>Hardens media probing against malformed frame rates, option-like file paths, and
+out-of-order PNG color metadata, while keeping Studio timeline latency telemetry
+non-negative. Contributor documentation now points to the correct Studio
+development port.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Prevent negative timeline latency telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/b813b17345531874a00b3c755f60ee6f42849fee">b813b1734</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2905">#2905</a>)</li>
+<li><strong>Engine:</strong> Harden ffprobe parsing and command arguments (<a href="https://github.com/heygen-com/hyperframes/commit/f75ca076b790d38e518af892b67a9ea42cca3dd5">f75ca076b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2740">#2740</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Studio:</strong> Document monorepo dev server port (<a href="https://github.com/heygen-com/hyperframes/commit/a52dd9c3087c63a5c2c7f38d480961794d8c5eae">a52dd9c30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2902">#2902</a>)</li>
+<li><strong>Contributing:</strong> Fix studio dev server port in setup guide (<a href="https://github.com/heygen-com/hyperframes/commit/ffe5e12cf8f404b86e019d28ca25dc75de903d57">ffe5e12cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2901">#2901</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Pr To Video:</strong> Pin the code-vocabulary section of the frame packet (<a href="https://github.com/heygen-com/hyperframes/commit/7b3d3db8adbfb7e04663d7373b9fd62c71321e6c">7b3d3db8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2900">#2900</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.85...v0.7.86">https://github.com/heygen-com/hyperframes/compare/v0.7.85...v0.7.86</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.86</h1>
+<p>Released on 2026-07-30.</p>
+<p>Hardens media probing against malformed frame rates, option-like file paths, and
+out-of-order PNG color metadata, while keeping Studio timeline latency telemetry
+non-negative. Contributor documentation now points to the correct Studio
+development port.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Prevent negative timeline latency telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/b813b17345531874a00b3c755f60ee6f42849fee">b813b1734</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2905">#2905</a>)</li>
+<li><strong>Engine:</strong> Harden ffprobe parsing and command arguments (<a href="https://github.com/heygen-com/hyperframes/commit/f75ca076b790d38e518af892b67a9ea42cca3dd5">f75ca076b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2740">#2740</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Studio:</strong> Document monorepo dev server port (<a href="https://github.com/heygen-com/hyperframes/commit/a52dd9c3087c63a5c2c7f38d480961794d8c5eae">a52dd9c30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2902">#2902</a>)</li>
+<li><strong>Contributing:</strong> Fix studio dev server port in setup guide (<a href="https://github.com/heygen-com/hyperframes/commit/ffe5e12cf8f404b86e019d28ca25dc75de903d57">ffe5e12cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2901">#2901</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Pr To Video:</strong> Pin the code-vocabulary section of the frame packet (<a href="https://github.com/heygen-com/hyperframes/commit/7b3d3db8adbfb7e04663d7373b9fd62c71321e6c">7b3d3db8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2900">#2900</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.85...v0.7.86">https://github.com/heygen-com/hyperframes/compare/v0.7.85...v0.7.86</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.85]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.85</link>
@@ -3625,52 +3677,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.37...v0.7.38">https://github.com/heygen-com/hyperframes/compare/v0.7.37...v0.7.38</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[HyperFrames v0.7.37]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.37</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.37</guid>
-            <pubDate>Mon, 06 Jul 2026 05:15:59 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.37</h1>
-<p>Released on 2026-07-06.</p>
-<p>A maintenance release with two reliability fixes: animation ids now resolve from the parsed script in the SDK and Studio (so tweens whose selectors don&#39;t currently match a live DOM element are handled correctly), and the CLI gives a clear error when <code>npx</code> can&#39;t be resolved on Windows. Also includes 53 documentation accuracy fixes.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Sdk,studio:</strong> Resolve animation ids from parsed script, not just DOM-matched elements (<a href="https://github.com/heygen-com/hyperframes/commit/c5d725abd0407761dc4a44de95417688ca6a4af2">c5d725abd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1957">#1957</a>)</li>
-<li><strong>Hyperframes Media:</strong> Surface a clear error when npx can&#39;t be resolved on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/dfa6fedbcdaf8478b4be99d907d88fd079d9bc0a">dfa6fedbc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1961">#1961</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Fix 53 inaccuracies across all documentation (<a href="https://github.com/heygen-com/hyperframes/commit/52d586dd31cfcc2d436d046f71907c2655617552">52d586dd3</a>)</li>
-<li>Update README.md (<a href="https://github.com/heygen-com/hyperframes/commit/c2862eae1bc03fad7ccfb8b44be072757051c94d">c2862eae1</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Lambda:</strong> Behavioral guard for handler CJS banner shims (<a href="https://github.com/heygen-com/hyperframes/commit/2b1109db4c05d8edfa71c398d8482e166f63b650">2b1109db4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1977">#1977</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.36...v0.7.37">https://github.com/heygen-com/hyperframes/compare/v0.7.36...v0.7.37</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.37</h1>
-<p>Released on 2026-07-06.</p>
-<p>A maintenance release with two reliability fixes: animation ids now resolve from the parsed script in the SDK and Studio (so tweens whose selectors don&#39;t currently match a live DOM element are handled correctly), and the CLI gives a clear error when <code>npx</code> can&#39;t be resolved on Windows. Also includes 53 documentation accuracy fixes.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Sdk,studio:</strong> Resolve animation ids from parsed script, not just DOM-matched elements (<a href="https://github.com/heygen-com/hyperframes/commit/c5d725abd0407761dc4a44de95417688ca6a4af2">c5d725abd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1957">#1957</a>)</li>
-<li><strong>Hyperframes Media:</strong> Surface a clear error when npx can&#39;t be resolved on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/dfa6fedbcdaf8478b4be99d907d88fd079d9bc0a">dfa6fedbc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1961">#1961</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Fix 53 inaccuracies across all documentation (<a href="https://github.com/heygen-com/hyperframes/commit/52d586dd31cfcc2d436d046f71907c2655617552">52d586dd3</a>)</li>
-<li>Update README.md (<a href="https://github.com/heygen-com/hyperframes/commit/c2862eae1bc03fad7ccfb8b44be072757051c94d">c2862eae1</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Lambda:</strong> Behavioral guard for handler CJS banner shims (<a href="https://github.com/heygen-com/hyperframes/commit/2b1109db4c05d8edfa71c398d8482e166f63b650">2b1109db4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1977">#1977</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.36...v0.7.37">https://github.com/heygen-com/hyperframes/compare/v0.7.36...v0.7.37</a></p>
 ]]></content:encoded>
         </item>
     </channel>
