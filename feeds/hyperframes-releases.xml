@@ -4,11 +4,47 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 30 Jul 2026 01:49:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 10:30:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.84]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.84</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.84</guid>
+            <pubDate>Thu, 30 Jul 2026 10:30:57 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.84</h1>
+<p>Released on 2026-07-30.</p>
+<p>Makes the composition element-count signal trustworthy fleet-wide: every render now reports its live DOM size (not just the ~17% that get a probe session), and the static fallback scan no longer inflates counts from markup written inside inline scripts. Observational only — no routing behaviour changes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> Measure live DOM size on every render, not just probed ones (<a href="https://github.com/heygen-com/hyperframes/commit/d74afc7b7dc620036439b398c6bca823fb3911b4">d74afc7b7</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Strip script bodies to a fixed point, not one pass (<a href="https://github.com/heygen-com/hyperframes/commit/042d5aaba6d10c1f0497db9c86f6f71f9e69368c">042d5aaba</a>)</li>
+<li><strong>Producer:</strong> Unbias the static element count and stop zeroing failures (<a href="https://github.com/heygen-com/hyperframes/commit/c61a24b510b022fb7956caa089ee093f87053f96">c61a24b51</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84">https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.84</h1>
+<p>Released on 2026-07-30.</p>
+<p>Makes the composition element-count signal trustworthy fleet-wide: every render now reports its live DOM size (not just the ~17% that get a probe session), and the static fallback scan no longer inflates counts from markup written inside inline scripts. Observational only — no routing behaviour changes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> Measure live DOM size on every render, not just probed ones (<a href="https://github.com/heygen-com/hyperframes/commit/d74afc7b7dc620036439b398c6bca823fb3911b4">d74afc7b7</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Strip script bodies to a fixed point, not one pass (<a href="https://github.com/heygen-com/hyperframes/commit/042d5aaba6d10c1f0497db9c86f6f71f9e69368c">042d5aaba</a>)</li>
+<li><strong>Producer:</strong> Unbias the static element count and stop zeroing failures (<a href="https://github.com/heygen-com/hyperframes/commit/c61a24b510b022fb7956caa089ee093f87053f96">c61a24b51</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84">https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.83]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.83</link>
@@ -3581,36 +3617,6 @@ the engine on the hardened executable-resolution path.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.35...v0.7.36">https://github.com/heygen-com/hyperframes/compare/v0.7.35...v0.7.36</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.35]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.35</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.35</guid>
-            <pubDate>Sun, 05 Jul 2026 18:51:55 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.35</h1>
-<p>Released on 2026-07-05.</p>
-<p>This release fixes three feedback-driven reliability issues: Lambda render bundles now provide CommonJS path globals for inlined dependencies, Windows FFmpeg lookup prefers real executables over command shims, and offline SFX resolution no longer records missing bundled files as usable audio.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lambda:</strong> Define <code>__dirname</code> and <code>__filename</code> in handler bundles (<a href="https://github.com/heygen-com/hyperframes/commit/f999b40d73aa8e0cbe082c199a566f544fbf6f96">f999b40d</a>)</li>
-<li><strong>Engine:</strong> Prefer real FFmpeg executables over Windows command shims (<a href="https://github.com/heygen-com/hyperframes/commit/b7dcb9e2a3bd220c889be0ac8ff31b0ea5c62a36">b7dcb9e2</a>)</li>
-<li><strong>Hyperframes Media:</strong> Skip and report offline SFX entries whose bundled file is missing (<a href="https://github.com/heygen-com/hyperframes/commit/b34e623bf8c5fb2ae9608edf1908c466584d627e">b34e623b</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.34...v0.7.35">https://github.com/heygen-com/hyperframes/compare/v0.7.34...v0.7.35</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.35</h1>
-<p>Released on 2026-07-05.</p>
-<p>This release fixes three feedback-driven reliability issues: Lambda render bundles now provide CommonJS path globals for inlined dependencies, Windows FFmpeg lookup prefers real executables over command shims, and offline SFX resolution no longer records missing bundled files as usable audio.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lambda:</strong> Define <code>__dirname</code> and <code>__filename</code> in handler bundles (<a href="https://github.com/heygen-com/hyperframes/commit/f999b40d73aa8e0cbe082c199a566f544fbf6f96">f999b40d</a>)</li>
-<li><strong>Engine:</strong> Prefer real FFmpeg executables over Windows command shims (<a href="https://github.com/heygen-com/hyperframes/commit/b7dcb9e2a3bd220c889be0ac8ff31b0ea5c62a36">b7dcb9e2</a>)</li>
-<li><strong>Hyperframes Media:</strong> Skip and report offline SFX entries whose bundled file is missing (<a href="https://github.com/heygen-com/hyperframes/commit/b34e623bf8c5fb2ae9608edf1908c466584d627e">b34e623b</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.34...v0.7.35">https://github.com/heygen-com/hyperframes/compare/v0.7.34...v0.7.35</a></p>
 ]]></content:encoded>
         </item>
     </channel>
