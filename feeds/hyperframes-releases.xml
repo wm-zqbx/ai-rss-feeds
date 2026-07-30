@@ -4,11 +4,95 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 30 Jul 2026 10:30:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jul 2026 17:44:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.85]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.85</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.85</guid>
+            <pubDate>Thu, 30 Jul 2026 17:44:10 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.85</h1>
+<p>Released on 2026-07-30.</p>
+<p>Ships the <strong>Prompt Guide</strong> — a novice-to-capstone arc across <code>/prompting</code>, where every prompt sits beside the unedited render it produced and each chapter cuts its own region out of one 62-second capstone film. The guide now opens with the intent interview the agent runs before building, and records its answers to <code>BRIEF.md</code> so a later session resumes without re-asking. Also lands fixes from running <code>product-launch-video</code> end to end, plus lint and transition-duration corrections.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Track timeline performance (<a href="https://github.com/heygen-com/hyperframes/commit/10b517dab9515988cb82100c3975b53a47da1f35">10b517dab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2898">#2898</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Docs:</strong> Correct mediabunny GitHub link in CREDITS.md (<a href="https://github.com/heygen-com/hyperframes/commit/1481fe1ed936ee2aac7220061f258155c274bfb8">1481fe1ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2897">#2897</a>)</li>
+<li><strong>Skills:</strong> Extend transition roots without explicit duration (<a href="https://github.com/heygen-com/hyperframes/commit/14ced9051795b32db75a479ac2580eef3c5df85c">14ced9051</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2873">#2873</a>)</li>
+<li><strong>Lint:</strong> Don&#39;t flag unresolved templating-token asset srcs as missing (<a href="https://github.com/heygen-com/hyperframes/commit/6c185f252f38a5a1f1dc9e23f17ef98f63ea18c7">6c185f252</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2893">#2893</a>)</li>
+<li><strong>Capture,audio,docs:</strong> Defects found running product-launch-video end to end (<a href="https://github.com/heygen-com/hyperframes/commit/e0dc255e8a4108833ac727d54f4b039cca397042">e0dc255e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2892">#2892</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Prompt Guide:</strong> Restructured into a seven-level arc, novice to capstone, with the nav regrouped to match (<a href="https://github.com/heygen-com/hyperframes/pull/2109">#2109</a>)</li>
+<li><strong>Prompt Guide:</strong> Every embedded render is now reproducible from the prompt printed beside it — 18 verified examples, plus validated renders across the chapters</li>
+<li><strong>Prompting:</strong> The eight-rule motion grammar, each rule shown as an A/B render built twice from the same composition (<a href="https://github.com/heygen-com/hyperframes/commit/8fb1482e7ff59a7007e5f6e40d38a7a02ede3adb">8fb1482e7</a>, <a href="https://github.com/heygen-com/hyperframes/commit/cdac57c0757cee22db67e9595b29809cfabd056c">cdac57c07</a>, <a href="https://github.com/heygen-com/hyperframes/commit/dd4fd9cefaa1f5816a8a2ff404e2152af542b25d">dd4fd9cef</a>)</li>
+<li><strong>Prompting:</strong> New capstone chapter dissecting <em>The Timeline</em> — one continuous camera across nine regions, rendered twice from one template (<a href="https://github.com/heygen-com/hyperframes/commit/a90e343e8e4f7c15424cb2b33030a2522509218d">a90e343e8</a>)</li>
+<li><strong>Prompting:</strong> New chapters for storyboards, porting from Remotion, and recreating a reference from text alone (<a href="https://github.com/heygen-com/hyperframes/commit/630ad482c627c850dcc4dade7b4aef5a189f3bb5">630ad482c</a>, <a href="https://github.com/heygen-com/hyperframes/commit/ead4341c7c7d57a78c944d7e3fbac1ed545d9cfd">ead4341c7</a>)</li>
+<li><strong>Prompting:</strong> &quot;Avoiding the slideshow&quot; — the continuity contract, framed as one method among several (<a href="https://github.com/heygen-com/hyperframes/commit/4f6fb8fc16c566bd8f473820a559a16c15b1fbeb">4f6fb8fc1</a>)</li>
+<li><strong>Prompting:</strong> Documented the intent interview, run-shape questions, and <code>BRIEF.md</code> (<a href="https://github.com/heygen-com/hyperframes/commit/2efbfd47583f75534b194d90ec0f689278b370f5">2efbfd475</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2872">#2872</a>)</li>
+<li><strong>Prompting:</strong> Appendix of traps the validation runs exposed — layout waivers and the contrast-gate side effect, <code>fromTo</code> back-render, round-linecap dots (<a href="https://github.com/heygen-com/hyperframes/commit/4d89bd426150e054cf42e3c05d6bc75585bcffbb">4d89bd426</a>, <a href="https://github.com/heygen-com/hyperframes/commit/fda3d9a65af9ef02c21bf4c632857ff0f801f925">fda3d9a65</a>)</li>
+<li><strong>Prompting:</strong> <code>frame.md</code> is the design spec; <code>design.md</code> references removed throughout (<a href="https://github.com/heygen-com/hyperframes/commit/4260f12b01a7bbcd9b5841e5f29cbba02fe0604f">4260f12b0</a>)</li>
+<li><strong>Skills:</strong> Text corrections found while validating the guide&#39;s prompts (<a href="https://github.com/heygen-com/hyperframes/commit/e7a6cb0da622e2086afb27fe1ecb6144af2734c4">e7a6cb0da</a>)</li>
+</ul>
+<p>Every prompt-guide commit is listed in the full changelog below.</p>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Prompting:</strong> Fix misquoted caption-color phrase in captions-catalog bridge (<a href="https://github.com/heygen-com/hyperframes/commit/16224fd2fbd1b591e88e4029352d682dcf8b734d">16224fd2f</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Format prompt-guide-expansion plan (fixes Format CI) (<a href="https://github.com/heygen-com/hyperframes/commit/b71ce85c2cd830d16af28299adf2df6938ab306a">b71ce85c2</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.84...v0.7.85">https://github.com/heygen-com/hyperframes/compare/v0.7.84...v0.7.85</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.85</h1>
+<p>Released on 2026-07-30.</p>
+<p>Ships the <strong>Prompt Guide</strong> — a novice-to-capstone arc across <code>/prompting</code>, where every prompt sits beside the unedited render it produced and each chapter cuts its own region out of one 62-second capstone film. The guide now opens with the intent interview the agent runs before building, and records its answers to <code>BRIEF.md</code> so a later session resumes without re-asking. Also lands fixes from running <code>product-launch-video</code> end to end, plus lint and transition-duration corrections.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Track timeline performance (<a href="https://github.com/heygen-com/hyperframes/commit/10b517dab9515988cb82100c3975b53a47da1f35">10b517dab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2898">#2898</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Docs:</strong> Correct mediabunny GitHub link in CREDITS.md (<a href="https://github.com/heygen-com/hyperframes/commit/1481fe1ed936ee2aac7220061f258155c274bfb8">1481fe1ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2897">#2897</a>)</li>
+<li><strong>Skills:</strong> Extend transition roots without explicit duration (<a href="https://github.com/heygen-com/hyperframes/commit/14ced9051795b32db75a479ac2580eef3c5df85c">14ced9051</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2873">#2873</a>)</li>
+<li><strong>Lint:</strong> Don&#39;t flag unresolved templating-token asset srcs as missing (<a href="https://github.com/heygen-com/hyperframes/commit/6c185f252f38a5a1f1dc9e23f17ef98f63ea18c7">6c185f252</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2893">#2893</a>)</li>
+<li><strong>Capture,audio,docs:</strong> Defects found running product-launch-video end to end (<a href="https://github.com/heygen-com/hyperframes/commit/e0dc255e8a4108833ac727d54f4b039cca397042">e0dc255e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2892">#2892</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Prompt Guide:</strong> Restructured into a seven-level arc, novice to capstone, with the nav regrouped to match (<a href="https://github.com/heygen-com/hyperframes/pull/2109">#2109</a>)</li>
+<li><strong>Prompt Guide:</strong> Every embedded render is now reproducible from the prompt printed beside it — 18 verified examples, plus validated renders across the chapters</li>
+<li><strong>Prompting:</strong> The eight-rule motion grammar, each rule shown as an A/B render built twice from the same composition (<a href="https://github.com/heygen-com/hyperframes/commit/8fb1482e7ff59a7007e5f6e40d38a7a02ede3adb">8fb1482e7</a>, <a href="https://github.com/heygen-com/hyperframes/commit/cdac57c0757cee22db67e9595b29809cfabd056c">cdac57c07</a>, <a href="https://github.com/heygen-com/hyperframes/commit/dd4fd9cefaa1f5816a8a2ff404e2152af542b25d">dd4fd9cef</a>)</li>
+<li><strong>Prompting:</strong> New capstone chapter dissecting <em>The Timeline</em> — one continuous camera across nine regions, rendered twice from one template (<a href="https://github.com/heygen-com/hyperframes/commit/a90e343e8e4f7c15424cb2b33030a2522509218d">a90e343e8</a>)</li>
+<li><strong>Prompting:</strong> New chapters for storyboards, porting from Remotion, and recreating a reference from text alone (<a href="https://github.com/heygen-com/hyperframes/commit/630ad482c627c850dcc4dade7b4aef5a189f3bb5">630ad482c</a>, <a href="https://github.com/heygen-com/hyperframes/commit/ead4341c7c7d57a78c944d7e3fbac1ed545d9cfd">ead4341c7</a>)</li>
+<li><strong>Prompting:</strong> &quot;Avoiding the slideshow&quot; — the continuity contract, framed as one method among several (<a href="https://github.com/heygen-com/hyperframes/commit/4f6fb8fc16c566bd8f473820a559a16c15b1fbeb">4f6fb8fc1</a>)</li>
+<li><strong>Prompting:</strong> Documented the intent interview, run-shape questions, and <code>BRIEF.md</code> (<a href="https://github.com/heygen-com/hyperframes/commit/2efbfd47583f75534b194d90ec0f689278b370f5">2efbfd475</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2872">#2872</a>)</li>
+<li><strong>Prompting:</strong> Appendix of traps the validation runs exposed — layout waivers and the contrast-gate side effect, <code>fromTo</code> back-render, round-linecap dots (<a href="https://github.com/heygen-com/hyperframes/commit/4d89bd426150e054cf42e3c05d6bc75585bcffbb">4d89bd426</a>, <a href="https://github.com/heygen-com/hyperframes/commit/fda3d9a65af9ef02c21bf4c632857ff0f801f925">fda3d9a65</a>)</li>
+<li><strong>Prompting:</strong> <code>frame.md</code> is the design spec; <code>design.md</code> references removed throughout (<a href="https://github.com/heygen-com/hyperframes/commit/4260f12b01a7bbcd9b5841e5f29cbba02fe0604f">4260f12b0</a>)</li>
+<li><strong>Skills:</strong> Text corrections found while validating the guide&#39;s prompts (<a href="https://github.com/heygen-com/hyperframes/commit/e7a6cb0da622e2086afb27fe1ecb6144af2734c4">e7a6cb0da</a>)</li>
+</ul>
+<p>Every prompt-guide commit is listed in the full changelog below.</p>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Prompting:</strong> Fix misquoted caption-color phrase in captions-catalog bridge (<a href="https://github.com/heygen-com/hyperframes/commit/16224fd2fbd1b591e88e4029352d682dcf8b734d">16224fd2f</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Format prompt-guide-expansion plan (fixes Format CI) (<a href="https://github.com/heygen-com/hyperframes/commit/b71ce85c2cd830d16af28299adf2df6938ab306a">b71ce85c2</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.84...v0.7.85">https://github.com/heygen-com/hyperframes/compare/v0.7.84...v0.7.85</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.84]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.84</link>
@@ -3587,36 +3671,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.36...v0.7.37">https://github.com/heygen-com/hyperframes/compare/v0.7.36...v0.7.37</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.36]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.36</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.36</guid>
-            <pubDate>Sun, 05 Jul 2026 19:29:59 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.36</h1>
-<p>Released on 2026-07-05.</p>
-<p>This release closes the remaining Windows FFmpeg path gap by making CLI preflight
-choose real <code>ffmpeg.exe</code>/<code>ffprobe.exe</code> binaries over shell shims. <code>hyperframes render</code> now avoids exporting <code>ffmpeg.cmd</code> as <code>HYPERFRAMES_FFMPEG_PATH</code>, keeping
-the engine on the hardened executable-resolution path.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Prefer real ffmpeg exe over cmd shim (<a href="https://github.com/heygen-com/hyperframes/commit/98b539df728f221de677e7ede3e9e3eb4cad2bca">98b539df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1958">#1958</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.35...v0.7.36">https://github.com/heygen-com/hyperframes/compare/v0.7.35...v0.7.36</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.36</h1>
-<p>Released on 2026-07-05.</p>
-<p>This release closes the remaining Windows FFmpeg path gap by making CLI preflight
-choose real <code>ffmpeg.exe</code>/<code>ffprobe.exe</code> binaries over shell shims. <code>hyperframes render</code> now avoids exporting <code>ffmpeg.cmd</code> as <code>HYPERFRAMES_FFMPEG_PATH</code>, keeping
-the engine on the hardened executable-resolution path.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Prefer real ffmpeg exe over cmd shim (<a href="https://github.com/heygen-com/hyperframes/commit/98b539df728f221de677e7ede3e9e3eb4cad2bca">98b539df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1958">#1958</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.35...v0.7.36">https://github.com/heygen-com/hyperframes/compare/v0.7.35...v0.7.36</a></p>
 ]]></content:encoded>
         </item>
     </channel>
