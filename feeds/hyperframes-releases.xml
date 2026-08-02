@@ -4,11 +4,39 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 01 Aug 2026 23:57:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Aug 2026 18:29:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.89]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.89</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.89</guid>
+            <pubDate>Sun, 02 Aug 2026 18:29:10 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.89</h1>
+<p>Released on 2026-08-02.</p>
+<p>Stops generated waveform, thumbnail, and transcode caches from retriggering Studio project reloads or appearing as project files. Real source edits still invalidate previews normally.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Ignore generated cache directories in the recursive project watcher, preventing preview refresh loops during cache generation (<a href="https://github.com/heygen-com/hyperframes/pull/2952">#2952</a>)</li>
+<li><strong>Studio:</strong> Keep generated caches out of Storyboard signatures and the project file tree while retaining invalidation for real source edits (<a href="https://github.com/heygen-com/hyperframes/pull/2952">#2952</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.88...v0.7.89">https://github.com/heygen-com/hyperframes/compare/v0.7.88...v0.7.89</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.89</h1>
+<p>Released on 2026-08-02.</p>
+<p>Stops generated waveform, thumbnail, and transcode caches from retriggering Studio project reloads or appearing as project files. Real source edits still invalidate previews normally.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Ignore generated cache directories in the recursive project watcher, preventing preview refresh loops during cache generation (<a href="https://github.com/heygen-com/hyperframes/pull/2952">#2952</a>)</li>
+<li><strong>Studio:</strong> Keep generated caches out of Storyboard signatures and the project file tree while retaining invalidation for real source edits (<a href="https://github.com/heygen-com/hyperframes/pull/2952">#2952</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.88...v0.7.89">https://github.com/heygen-com/hyperframes/compare/v0.7.88...v0.7.89</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.88]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.88</link>
@@ -3599,56 +3627,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.40...v0.7.41">https://github.com/heygen-com/hyperframes/compare/v0.7.40...v0.7.41</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.40]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.40</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.40</guid>
-            <pubDate>Tue, 07 Jul 2026 16:33:51 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.40</h1>
-<p>Released on 2026-07-07.</p>
-<p>The headline this release is a Studio timeline revamp: clips visible at the playhead are highlighted, tracks and individual elements can be hidden with a non-destructive <code>data-hidden</code> toggle that carries through to renders, and ruler zoom and gutter behavior are cleaner. It also fixes static-position dragging beside an animated rotation and keeps off-canvas indicators in sync with live layout.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Timeline revamp with active-clip highlighting and hide controls (<a href="https://github.com/heygen-com/hyperframes/commit/037266e72bd808491a82008ca2520299fecef381">037266e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2017">#2017</a>)</li>
-<li><strong>CLI:</strong> Associate signed-in HeyGen account with telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/3d8372f880a6739ee3e0beea484905d76e5ad3a9">3d8372f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2020">#2020</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Figma component import survives unrenderable nodes (<a href="https://github.com/heygen-com/hyperframes/commit/4c8064d4d3d1ffe51a10b1c7eee79a49b2fc468f">4c8064d4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2022">#2022</a>)</li>
-<li><strong>Studio:</strong> Off-canvas indicators track live layout instead of going stale (<a href="https://github.com/heygen-com/hyperframes/commit/574da2b215b29cc3e8288551ce37e7a06cdaa194">574da2b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2018">#2018</a>)</li>
-<li><strong>Studio:</strong> Static-position drag no longer freezes an element beside an animated rotation (<a href="https://github.com/heygen-com/hyperframes/commit/5d59835446bb426def56a791d19a99a6ebe283d3">5d598354</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2016">#2016</a>)</li>
-<li><strong>Skills:</strong> Audit descriptions — trim routing prose, fix stale facts, add missing triggers (<a href="https://github.com/heygen-com/hyperframes/commit/306a291deaf8796cd2e9e34c406d707a7bdf3f7f">306a291d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1990">#1990</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine,producer:</strong> Adopt requestPaint contract, retire autoAlpha rewrite (<a href="https://github.com/heygen-com/hyperframes/commit/337d0b51bcd81184520b23259799d42aaa366ed2">337d0b51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2021">#2021</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.39...v0.7.40">https://github.com/heygen-com/hyperframes/compare/v0.7.39...v0.7.40</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.40</h1>
-<p>Released on 2026-07-07.</p>
-<p>The headline this release is a Studio timeline revamp: clips visible at the playhead are highlighted, tracks and individual elements can be hidden with a non-destructive <code>data-hidden</code> toggle that carries through to renders, and ruler zoom and gutter behavior are cleaner. It also fixes static-position dragging beside an animated rotation and keeps off-canvas indicators in sync with live layout.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Timeline revamp with active-clip highlighting and hide controls (<a href="https://github.com/heygen-com/hyperframes/commit/037266e72bd808491a82008ca2520299fecef381">037266e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2017">#2017</a>)</li>
-<li><strong>CLI:</strong> Associate signed-in HeyGen account with telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/3d8372f880a6739ee3e0beea484905d76e5ad3a9">3d8372f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2020">#2020</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Figma component import survives unrenderable nodes (<a href="https://github.com/heygen-com/hyperframes/commit/4c8064d4d3d1ffe51a10b1c7eee79a49b2fc468f">4c8064d4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2022">#2022</a>)</li>
-<li><strong>Studio:</strong> Off-canvas indicators track live layout instead of going stale (<a href="https://github.com/heygen-com/hyperframes/commit/574da2b215b29cc3e8288551ce37e7a06cdaa194">574da2b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2018">#2018</a>)</li>
-<li><strong>Studio:</strong> Static-position drag no longer freezes an element beside an animated rotation (<a href="https://github.com/heygen-com/hyperframes/commit/5d59835446bb426def56a791d19a99a6ebe283d3">5d598354</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2016">#2016</a>)</li>
-<li><strong>Skills:</strong> Audit descriptions — trim routing prose, fix stale facts, add missing triggers (<a href="https://github.com/heygen-com/hyperframes/commit/306a291deaf8796cd2e9e34c406d707a7bdf3f7f">306a291d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1990">#1990</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine,producer:</strong> Adopt requestPaint contract, retire autoAlpha rewrite (<a href="https://github.com/heygen-com/hyperframes/commit/337d0b51bcd81184520b23259799d42aaa366ed2">337d0b51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2021">#2021</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.39...v0.7.40">https://github.com/heygen-com/hyperframes/compare/v0.7.39...v0.7.40</a></p>
 ]]></content:encoded>
         </item>
     </channel>
