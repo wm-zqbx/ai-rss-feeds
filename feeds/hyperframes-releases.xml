@@ -4,11 +4,67 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 02 Aug 2026 18:29:10 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Aug 2026 05:01:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.90]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.90</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.90</guid>
+            <pubDate>Mon, 03 Aug 2026 05:01:20 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.90</h1>
+<p>Released on 2026-08-03.</p>
+<p>Prevents short compositions from decoding entire long video sources and exhausting producer memory through HDR raw-frame scratch and filesystem page cache. Extraction now follows the playable timeline, reserves bounded scratch capacity across concurrent renders, and cleans resources on every exit path.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Bound video extraction to the composition&#39;s playable interval instead of the source&#39;s full duration, including negative timeline starts, non-zero media offsets, loops, held tails, and distributed planning (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
+<li><strong>Producer:</strong> Limit concurrent HDR raw-frame scratch against the configured ceiling, cgroup memory, and free disk; release reservations and temporary resources after success, cancellation, and partial failure (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
+<li><strong>Engine:</strong> Resolve the true final playable frame for held-tail media, including streams with non-zero or negative timestamp bases, without sharing cancellation state across renders (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
+<li><strong>Producer API:</strong> Add <code>outputDynamicRange: auto | hdr | sdr</code> while temporarily accepting the legacy <code>hdrMode</code> field for rolling migrations (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
+</ul>
+<h2>Rollout</h2>
+<ul>
+<li>Upgrade the HyperFrames producer fleet to v0.7.90 before deploying callers that send <code>outputDynamicRange</code>; the legacy <code>hdrMode</code> field remains accepted only to bridge the rolling deployment.</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Contributing:</strong> Refresh the catalog contribution guide (<a href="https://github.com/heygen-com/hyperframes/pull/2954">#2954</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Release:</strong> Publish stable packages only from a reviewed release PR&#39;s exact merge commit, with fail-closed checkout/tag verification and safe same-commit retries (<a href="https://github.com/heygen-com/hyperframes/pull/2959">#2959</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.89...v0.7.90">https://github.com/heygen-com/hyperframes/compare/v0.7.89...v0.7.90</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.90</h1>
+<p>Released on 2026-08-03.</p>
+<p>Prevents short compositions from decoding entire long video sources and exhausting producer memory through HDR raw-frame scratch and filesystem page cache. Extraction now follows the playable timeline, reserves bounded scratch capacity across concurrent renders, and cleans resources on every exit path.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Bound video extraction to the composition&#39;s playable interval instead of the source&#39;s full duration, including negative timeline starts, non-zero media offsets, loops, held tails, and distributed planning (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
+<li><strong>Producer:</strong> Limit concurrent HDR raw-frame scratch against the configured ceiling, cgroup memory, and free disk; release reservations and temporary resources after success, cancellation, and partial failure (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
+<li><strong>Engine:</strong> Resolve the true final playable frame for held-tail media, including streams with non-zero or negative timestamp bases, without sharing cancellation state across renders (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
+<li><strong>Producer API:</strong> Add <code>outputDynamicRange: auto | hdr | sdr</code> while temporarily accepting the legacy <code>hdrMode</code> field for rolling migrations (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
+</ul>
+<h2>Rollout</h2>
+<ul>
+<li>Upgrade the HyperFrames producer fleet to v0.7.90 before deploying callers that send <code>outputDynamicRange</code>; the legacy <code>hdrMode</code> field remains accepted only to bridge the rolling deployment.</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Contributing:</strong> Refresh the catalog contribution guide (<a href="https://github.com/heygen-com/hyperframes/pull/2954">#2954</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Release:</strong> Publish stable packages only from a reviewed release PR&#39;s exact merge commit, with fail-closed checkout/tag verification and safe same-commit retries (<a href="https://github.com/heygen-com/hyperframes/pull/2959">#2959</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.89...v0.7.90">https://github.com/heygen-com/hyperframes/compare/v0.7.89...v0.7.90</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.89]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.89</link>
@@ -3591,42 +3647,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.41...v0.7.42">https://github.com/heygen-com/hyperframes/compare/v0.7.41...v0.7.42</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.41]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.41</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.41</guid>
-            <pubDate>Tue, 07 Jul 2026 20:37:04 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.41</h1>
-<p>Released on 2026-07-07.</p>
-<p>This release makes media-use smarter about reusing existing assets instead of regenerating work, with more forgiving prompt matching and a more precise assets scan. It also fixes a render-engine edge case by pre-creating <code>__render_frame__</code> sibling directories during session initialization.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Media Use:</strong> Agent-driven asset reuse (candidates + reuse) (<a href="https://github.com/heygen-com/hyperframes/commit/35e54cae1978e04d09ab4cc7c8627cdecdcf6421">35e54cae1</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Pre-create <strong>render_frame</strong> siblings in initializeSession (<a href="https://github.com/heygen-com/hyperframes/commit/76204ec6308a235eb0b77557d0a52657952572f4">76204ec63</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2006">#2006</a>)</li>
-<li><strong>Media Use:</strong> Forgiving prompt matching + precise assets/ scan (<a href="https://github.com/heygen-com/hyperframes/commit/b5383ded4249aca8f7d2fba2e2ab11e7beb2e751">b5383ded4</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.40...v0.7.41">https://github.com/heygen-com/hyperframes/compare/v0.7.40...v0.7.41</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.41</h1>
-<p>Released on 2026-07-07.</p>
-<p>This release makes media-use smarter about reusing existing assets instead of regenerating work, with more forgiving prompt matching and a more precise assets scan. It also fixes a render-engine edge case by pre-creating <code>__render_frame__</code> sibling directories during session initialization.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Media Use:</strong> Agent-driven asset reuse (candidates + reuse) (<a href="https://github.com/heygen-com/hyperframes/commit/35e54cae1978e04d09ab4cc7c8627cdecdcf6421">35e54cae1</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Pre-create <strong>render_frame</strong> siblings in initializeSession (<a href="https://github.com/heygen-com/hyperframes/commit/76204ec6308a235eb0b77557d0a52657952572f4">76204ec63</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2006">#2006</a>)</li>
-<li><strong>Media Use:</strong> Forgiving prompt matching + precise assets/ scan (<a href="https://github.com/heygen-com/hyperframes/commit/b5383ded4249aca8f7d2fba2e2ab11e7beb2e751">b5383ded4</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.40...v0.7.41">https://github.com/heygen-com/hyperframes/compare/v0.7.40...v0.7.41</a></p>
 ]]></content:encoded>
         </item>
     </channel>
