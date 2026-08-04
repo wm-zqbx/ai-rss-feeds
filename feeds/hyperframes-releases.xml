@@ -4,11 +4,19 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 03 Aug 2026 05:01:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2026 17:47:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.92]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.92</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.92</guid>
+            <pubDate>Tue, 04 Aug 2026 17:47:43 GMT</pubDate>
+            <description><![CDATA[<p>Release v0.7.92</p>]]></description>
+            <content:encoded><![CDATA[<p>Release v0.7.92</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.90]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.90</link>
@@ -3599,54 +3607,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43">https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.42]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.42</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.42</guid>
-            <pubDate>Wed, 08 Jul 2026 00:00:11 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.42</h1>
-<p>Released on 2026-07-07.</p>
-<p>This release switches drawElement fast capture to single-worker streaming after benchmarks showed multi-page parallelism losing to priority inversion, and makes Windows rendering reliable by copying extracted frames when symlinks hit EPERM. It also hardens the CLI: render fps defaults to the composition&#39;s <code>data-fps</code>, corrupt browser downloads self-heal, and upgrade notices match the detected install method.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer,cli:</strong> DrawElement priority inversion — single-worker streaming over auto-parallel (<a href="https://github.com/heygen-com/hyperframes/commit/924727a0b462b63c28c68a5fdf971ba7a6b1a369">924727a0b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2026">#2026</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Upgrade and update notice use the detected install method (<a href="https://github.com/heygen-com/hyperframes/commit/4b3c73d941f208834d913876b94757a767218c70">4b3c73d94</a>)</li>
-<li><strong>Engine:</strong> Resolve relative data-start references in video-frame extraction (<a href="https://github.com/heygen-com/hyperframes/commit/4a36655b2bd966ed81afcdcd2afb3bb201810b09">4a36655b2</a>)</li>
-<li><strong>Media Use:</strong> Create the output dir before ElevenLabs TTS writes (<a href="https://github.com/heygen-com/hyperframes/commit/42a209545b55c62d0647e7770523e1ce47c2de67">42a209545</a>)</li>
-<li><strong>Producer:</strong> Fall back to copying extracted frames when symlink hits EPERM (<a href="https://github.com/heygen-com/hyperframes/commit/00b96d2eaab071e65a02452b0416088866a2c451">00b96d2ea</a>)</li>
-<li><strong>Producer:</strong> Copy extracted frames on Windows to avoid symlink EPERM (<a href="https://github.com/heygen-com/hyperframes/commit/1aa39d46538544c71ca98dfa3bff059a48ceaec9">1aa39d465</a>)</li>
-<li><strong>CLI:</strong> Default render fps to the composition&#39;s data-fps (<a href="https://github.com/heygen-com/hyperframes/commit/de27b466808d1e1f020d06701c8ed1196a4d3029">de27b4668</a>)</li>
-<li><strong>CLI:</strong> Re-download the browser when the cached archive is corrupt (<a href="https://github.com/heygen-com/hyperframes/commit/92f3116dee8d10090d1e6d18647b9445ee965a01">92f3116de</a>)</li>
-<li><strong>CLI:</strong> Lint sets process.exitCode instead of process.exit() to flush stdout (<a href="https://github.com/heygen-com/hyperframes/commit/4834de37f4c94f05fc8ab3098d5f12e6486b18de">4834de37f</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.41...v0.7.42">https://github.com/heygen-com/hyperframes/compare/v0.7.41...v0.7.42</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.42</h1>
-<p>Released on 2026-07-07.</p>
-<p>This release switches drawElement fast capture to single-worker streaming after benchmarks showed multi-page parallelism losing to priority inversion, and makes Windows rendering reliable by copying extracted frames when symlinks hit EPERM. It also hardens the CLI: render fps defaults to the composition&#39;s <code>data-fps</code>, corrupt browser downloads self-heal, and upgrade notices match the detected install method.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer,cli:</strong> DrawElement priority inversion — single-worker streaming over auto-parallel (<a href="https://github.com/heygen-com/hyperframes/commit/924727a0b462b63c28c68a5fdf971ba7a6b1a369">924727a0b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2026">#2026</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Upgrade and update notice use the detected install method (<a href="https://github.com/heygen-com/hyperframes/commit/4b3c73d941f208834d913876b94757a767218c70">4b3c73d94</a>)</li>
-<li><strong>Engine:</strong> Resolve relative data-start references in video-frame extraction (<a href="https://github.com/heygen-com/hyperframes/commit/4a36655b2bd966ed81afcdcd2afb3bb201810b09">4a36655b2</a>)</li>
-<li><strong>Media Use:</strong> Create the output dir before ElevenLabs TTS writes (<a href="https://github.com/heygen-com/hyperframes/commit/42a209545b55c62d0647e7770523e1ce47c2de67">42a209545</a>)</li>
-<li><strong>Producer:</strong> Fall back to copying extracted frames when symlink hits EPERM (<a href="https://github.com/heygen-com/hyperframes/commit/00b96d2eaab071e65a02452b0416088866a2c451">00b96d2ea</a>)</li>
-<li><strong>Producer:</strong> Copy extracted frames on Windows to avoid symlink EPERM (<a href="https://github.com/heygen-com/hyperframes/commit/1aa39d46538544c71ca98dfa3bff059a48ceaec9">1aa39d465</a>)</li>
-<li><strong>CLI:</strong> Default render fps to the composition&#39;s data-fps (<a href="https://github.com/heygen-com/hyperframes/commit/de27b466808d1e1f020d06701c8ed1196a4d3029">de27b4668</a>)</li>
-<li><strong>CLI:</strong> Re-download the browser when the cached archive is corrupt (<a href="https://github.com/heygen-com/hyperframes/commit/92f3116dee8d10090d1e6d18647b9445ee965a01">92f3116de</a>)</li>
-<li><strong>CLI:</strong> Lint sets process.exitCode instead of process.exit() to flush stdout (<a href="https://github.com/heygen-com/hyperframes/commit/4834de37f4c94f05fc8ab3098d5f12e6486b18de">4834de37f</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.41...v0.7.42">https://github.com/heygen-com/hyperframes/compare/v0.7.41...v0.7.42</a></p>
 ]]></content:encoded>
         </item>
     </channel>
