@@ -4,11 +4,147 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 04 Aug 2026 17:47:43 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Aug 2026 03:46:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.94]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.94</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.94</guid>
+            <pubDate>Wed, 05 Aug 2026 03:46:16 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.94</h1>
+<p>Released on 2026-08-05.</p>
+<p>The CLI now supports explicit RFC 8628 device authorization for attended SSH
+and remote-terminal sessions, so users can sign in without copying API keys or
+exposing a loopback callback. The flow is fail-closed, validates minted tokens
+before atomic persistence, and leaves the existing browser login unchanged.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Add device authorization login (<a href="https://github.com/heygen-com/hyperframes/commit/b9233525b2e02ec9329445ab2602ebd557033daf">b9233525b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2836">#2836</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.93...v0.7.94">https://github.com/heygen-com/hyperframes/compare/v0.7.93...v0.7.94</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.94</h1>
+<p>Released on 2026-08-05.</p>
+<p>The CLI now supports explicit RFC 8628 device authorization for attended SSH
+and remote-terminal sessions, so users can sign in without copying API keys or
+exposing a loopback callback. The flow is fail-closed, validates minted tokens
+before atomic persistence, and leaves the existing browser login unchanged.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Add device authorization login (<a href="https://github.com/heygen-com/hyperframes/commit/b9233525b2e02ec9329445ab2602ebd557033daf">b9233525b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2836">#2836</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.93...v0.7.94">https://github.com/heygen-com/hyperframes/compare/v0.7.93...v0.7.94</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.7.93]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.93</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.93</guid>
+            <pubDate>Wed, 05 Aug 2026 03:31:12 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.93</h1>
+<p>Released on 2026-08-05.</p>
+<p>Studio now preserves and recovers external file edits instead of silently
+overwriting them, while logical timeline navigation makes keyboard control more
+predictable. The engine and producer also harden remote downloads, ffprobe
+invocation, telemetry path redaction, GPU verification, and cross-frame-rate
+BeginFrame timing.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Model logical timeline navigation (<a href="https://github.com/heygen-com/hyperframes/commit/0f1333c80d3c18eddf8af69110168cc910d14fec">0f1333c80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2712">#2712</a>)</li>
+<li><strong>Studio:</strong> Add external conflict recovery UI (<a href="https://github.com/heygen-com/hyperframes/commit/8a0dccfc72224d993efdb0ae8d95fc0e020327d4">8a0dccfc7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2992">#2992</a>)</li>
+<li><strong>Studio:</strong> Coordinate external file changes (<a href="https://github.com/heygen-com/hyperframes/commit/a99caad581496f2ad8e132b750ced73be8cf3e51">a99caad58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2991">#2991</a>)</li>
+<li><strong>Studio:</strong> Preserve external file conflicts (<a href="https://github.com/heygen-com/hyperframes/commit/b30a23402e2db19b43cb0283e1553048746fb8bb">b30a23402</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2990">#2990</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Keep BeginFrame time monotonic across frame rates (<a href="https://github.com/heygen-com/hyperframes/commit/b390b71bde982ffbf55c9ec93f1491d99011bfc3">b390b71bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3011">#3011</a>)</li>
+<li><strong>Engine:</strong> Validate remote download integrity (<a href="https://github.com/heygen-com/hyperframes/commit/bbdfee1166c45e348ef76d2e384a0ad2243ac847">bbdfee116</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2938">#2938</a>)</li>
+<li><strong>Studio:</strong> Reconcile external edits before reload (<a href="https://github.com/heygen-com/hyperframes/commit/ebdd1893c4a0d86b984fb627fed0283a981d2713">ebdd1893c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2993">#2993</a>)</li>
+<li><strong>Studio:</strong> Drain pending edits before reload (<a href="https://github.com/heygen-com/hyperframes/commit/47131385445c0f8ee4203f8d6ff4f5600d8c8b2e">471313854</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2989">#2989</a>)</li>
+<li><strong>Studio:</strong> Make inspector commits transactional (<a href="https://github.com/heygen-com/hyperframes/commit/552419c52d16fa5a5e8d15a9263bc5f41e596360">552419c52</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2987">#2987</a>)</li>
+<li><strong>Engine:</strong> Distinguish probe failure from a genuinely absent GPU (<a href="https://github.com/heygen-com/hyperframes/commit/f69c4a0e3aa8feb1110b52d538f8ca127481c95d">f69c4a0e3</a>)</li>
+<li><strong>Studio:</strong> Respect GSAP transform ownership (<a href="https://github.com/heygen-com/hyperframes/commit/cf45c984549bc41ed4debc99d5283d2a60108cbb">cf45c9845</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2986">#2986</a>)</li>
+<li><strong>Parsers:</strong> Preserve safe GSAP helper defaults (<a href="https://github.com/heygen-com/hyperframes/commit/532f06158b3a930b85a289ab0608d720311cd5a1">532f06158</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2985">#2985</a>)</li>
+<li><strong>Engine:</strong> Warn once per process about unverified hardware GPU (<a href="https://github.com/heygen-com/hyperframes/commit/6703ea7e04701b490c5fb563db4f532fbc8aec89">6703ea7e0</a>)</li>
+<li><strong>Engine:</strong> Verify explicit browserGpuMode=hardware instead of trusting it (<a href="https://github.com/heygen-com/hyperframes/commit/131780fe9627ee7fb17cb871ef6a144a6ef02735">131780fe9</a>)</li>
+<li><strong>Core,producer,skills:</strong> Unicode paths, non-Error rejections, shell callers (<a href="https://github.com/heygen-com/hyperframes/commit/1664fe6ad773c76e0dc7314e7f2eb439cd3687d6">1664fe6ad</a>)</li>
+<li><strong>Producer:</strong> Drop the ReDoS-prone literal-argv regex for a linear scan (<a href="https://github.com/heygen-com/hyperframes/commit/6c5403f7cd5e5b21f301b88d6d9f84451751ba15">6c5403f7c</a>)</li>
+<li><strong>Skills,producer:</strong> Terminate ffprobe options in shipped skill scripts (<a href="https://github.com/heygen-com/hyperframes/commit/255cf929150977fa57dc1cadde2e9cf626f5c20c">255cf9291</a>)</li>
+<li><strong>Core,producer:</strong> Redact bare relative paths and the known input path (<a href="https://github.com/heygen-com/hyperframes/commit/e79ab3ab31a5f789f8c998430f2b58cb95973f07">e79ab3ab3</a>)</li>
+<li><strong>Core:</strong> Redact any path in telemetry, not an allowlist of roots (<a href="https://github.com/heygen-com/hyperframes/commit/d04569e37f1c63967ce7373557ded4e4f150e7de">d04569e37</a>)</li>
+<li><strong>Producer,studio Server:</strong> Finish the ffprobe argv sweep, pin the contract (<a href="https://github.com/heygen-com/hyperframes/commit/d0dbf11ef53dd7ca535ed40a10e8f2dad4f12c4d">d0dbf11ef</a>)</li>
+<li><strong>Cli,core,lint,producer:</strong> Terminate ffprobe options at every call site (<a href="https://github.com/heygen-com/hyperframes/commit/47564ab94cc4bac5de6715169939353c211af689">47564ab94</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Studio:</strong> Document timeline keyboard navigation (<a href="https://github.com/heygen-com/hyperframes/commit/7bf425b7a90c5a3c8154c66025261ff9e52c8c72">7bf425b7a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3031">#3031</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Relax large fixture timeout (<a href="https://github.com/heygen-com/hyperframes/commit/bce2140ff208e16f83ee0854bca8baf85ad7216e">bce2140ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3040">#3040</a>)</li>
+<li><strong>Studio:</strong> Extract live timeline clock (<a href="https://github.com/heygen-com/hyperframes/commit/19b8a1f3c5a55c30b5aa367c9054ca1b31552536">19b8a1f3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2711">#2711</a>)</li>
+<li><strong>Studio:</strong> Pin text-field Backspace routing (<a href="https://github.com/heygen-com/hyperframes/commit/cde5bae4c5a6afa167faf827ab1073e66964cd35">cde5bae4c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2988">#2988</a>)</li>
+<li><strong>Producer:</strong> Treat an all-literal probe argv as taking no input (<a href="https://github.com/heygen-com/hyperframes/commit/c81f68b59225d0acd34acbc419e408125fa51e36">c81f68b59</a>)</li>
+<li><strong>Producer:</strong> Discover ffprobe callers and pin terminator position (<a href="https://github.com/heygen-com/hyperframes/commit/91a7cb1f5b7f9a4bb539384fb50645a8feab3f29">91a7cb1f5</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.92...v0.7.93">https://github.com/heygen-com/hyperframes/compare/v0.7.92...v0.7.93</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.93</h1>
+<p>Released on 2026-08-05.</p>
+<p>Studio now preserves and recovers external file edits instead of silently
+overwriting them, while logical timeline navigation makes keyboard control more
+predictable. The engine and producer also harden remote downloads, ffprobe
+invocation, telemetry path redaction, GPU verification, and cross-frame-rate
+BeginFrame timing.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Model logical timeline navigation (<a href="https://github.com/heygen-com/hyperframes/commit/0f1333c80d3c18eddf8af69110168cc910d14fec">0f1333c80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2712">#2712</a>)</li>
+<li><strong>Studio:</strong> Add external conflict recovery UI (<a href="https://github.com/heygen-com/hyperframes/commit/8a0dccfc72224d993efdb0ae8d95fc0e020327d4">8a0dccfc7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2992">#2992</a>)</li>
+<li><strong>Studio:</strong> Coordinate external file changes (<a href="https://github.com/heygen-com/hyperframes/commit/a99caad581496f2ad8e132b750ced73be8cf3e51">a99caad58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2991">#2991</a>)</li>
+<li><strong>Studio:</strong> Preserve external file conflicts (<a href="https://github.com/heygen-com/hyperframes/commit/b30a23402e2db19b43cb0283e1553048746fb8bb">b30a23402</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2990">#2990</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Keep BeginFrame time monotonic across frame rates (<a href="https://github.com/heygen-com/hyperframes/commit/b390b71bde982ffbf55c9ec93f1491d99011bfc3">b390b71bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3011">#3011</a>)</li>
+<li><strong>Engine:</strong> Validate remote download integrity (<a href="https://github.com/heygen-com/hyperframes/commit/bbdfee1166c45e348ef76d2e384a0ad2243ac847">bbdfee116</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2938">#2938</a>)</li>
+<li><strong>Studio:</strong> Reconcile external edits before reload (<a href="https://github.com/heygen-com/hyperframes/commit/ebdd1893c4a0d86b984fb627fed0283a981d2713">ebdd1893c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2993">#2993</a>)</li>
+<li><strong>Studio:</strong> Drain pending edits before reload (<a href="https://github.com/heygen-com/hyperframes/commit/47131385445c0f8ee4203f8d6ff4f5600d8c8b2e">471313854</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2989">#2989</a>)</li>
+<li><strong>Studio:</strong> Make inspector commits transactional (<a href="https://github.com/heygen-com/hyperframes/commit/552419c52d16fa5a5e8d15a9263bc5f41e596360">552419c52</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2987">#2987</a>)</li>
+<li><strong>Engine:</strong> Distinguish probe failure from a genuinely absent GPU (<a href="https://github.com/heygen-com/hyperframes/commit/f69c4a0e3aa8feb1110b52d538f8ca127481c95d">f69c4a0e3</a>)</li>
+<li><strong>Studio:</strong> Respect GSAP transform ownership (<a href="https://github.com/heygen-com/hyperframes/commit/cf45c984549bc41ed4debc99d5283d2a60108cbb">cf45c9845</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2986">#2986</a>)</li>
+<li><strong>Parsers:</strong> Preserve safe GSAP helper defaults (<a href="https://github.com/heygen-com/hyperframes/commit/532f06158b3a930b85a289ab0608d720311cd5a1">532f06158</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2985">#2985</a>)</li>
+<li><strong>Engine:</strong> Warn once per process about unverified hardware GPU (<a href="https://github.com/heygen-com/hyperframes/commit/6703ea7e04701b490c5fb563db4f532fbc8aec89">6703ea7e0</a>)</li>
+<li><strong>Engine:</strong> Verify explicit browserGpuMode=hardware instead of trusting it (<a href="https://github.com/heygen-com/hyperframes/commit/131780fe9627ee7fb17cb871ef6a144a6ef02735">131780fe9</a>)</li>
+<li><strong>Core,producer,skills:</strong> Unicode paths, non-Error rejections, shell callers (<a href="https://github.com/heygen-com/hyperframes/commit/1664fe6ad773c76e0dc7314e7f2eb439cd3687d6">1664fe6ad</a>)</li>
+<li><strong>Producer:</strong> Drop the ReDoS-prone literal-argv regex for a linear scan (<a href="https://github.com/heygen-com/hyperframes/commit/6c5403f7cd5e5b21f301b88d6d9f84451751ba15">6c5403f7c</a>)</li>
+<li><strong>Skills,producer:</strong> Terminate ffprobe options in shipped skill scripts (<a href="https://github.com/heygen-com/hyperframes/commit/255cf929150977fa57dc1cadde2e9cf626f5c20c">255cf9291</a>)</li>
+<li><strong>Core,producer:</strong> Redact bare relative paths and the known input path (<a href="https://github.com/heygen-com/hyperframes/commit/e79ab3ab31a5f789f8c998430f2b58cb95973f07">e79ab3ab3</a>)</li>
+<li><strong>Core:</strong> Redact any path in telemetry, not an allowlist of roots (<a href="https://github.com/heygen-com/hyperframes/commit/d04569e37f1c63967ce7373557ded4e4f150e7de">d04569e37</a>)</li>
+<li><strong>Producer,studio Server:</strong> Finish the ffprobe argv sweep, pin the contract (<a href="https://github.com/heygen-com/hyperframes/commit/d0dbf11ef53dd7ca535ed40a10e8f2dad4f12c4d">d0dbf11ef</a>)</li>
+<li><strong>Cli,core,lint,producer:</strong> Terminate ffprobe options at every call site (<a href="https://github.com/heygen-com/hyperframes/commit/47564ab94cc4bac5de6715169939353c211af689">47564ab94</a>)</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Studio:</strong> Document timeline keyboard navigation (<a href="https://github.com/heygen-com/hyperframes/commit/7bf425b7a90c5a3c8154c66025261ff9e52c8c72">7bf425b7a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3031">#3031</a>)</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Relax large fixture timeout (<a href="https://github.com/heygen-com/hyperframes/commit/bce2140ff208e16f83ee0854bca8baf85ad7216e">bce2140ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3040">#3040</a>)</li>
+<li><strong>Studio:</strong> Extract live timeline clock (<a href="https://github.com/heygen-com/hyperframes/commit/19b8a1f3c5a55c30b5aa367c9054ca1b31552536">19b8a1f3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2711">#2711</a>)</li>
+<li><strong>Studio:</strong> Pin text-field Backspace routing (<a href="https://github.com/heygen-com/hyperframes/commit/cde5bae4c5a6afa167faf827ab1073e66964cd35">cde5bae4c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2988">#2988</a>)</li>
+<li><strong>Producer:</strong> Treat an all-literal probe argv as taking no input (<a href="https://github.com/heygen-com/hyperframes/commit/c81f68b59225d0acd34acbc419e408125fa51e36">c81f68b59</a>)</li>
+<li><strong>Producer:</strong> Discover ffprobe callers and pin terminator position (<a href="https://github.com/heygen-com/hyperframes/commit/91a7cb1f5b7f9a4bb539384fb50645a8feab3f29">91a7cb1f5</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.92...v0.7.93">https://github.com/heygen-com/hyperframes/compare/v0.7.92...v0.7.93</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.92]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.92</link>
@@ -3453,160 +3589,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45">https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.44]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.44</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.44</guid>
-            <pubDate>Thu, 09 Jul 2026 01:46:14 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.44</h1>
-<p>Released on 2026-07-08.</p>
-<p>Opt-in verified interleaved parallel drawElement streaming, plus fail-fast sub-composition timeline waits and Chrome-cache resolution fixes carried over from PR review.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine,producer:</strong> Verified interleaved parallel drawElement streaming (opt-in) (<a href="https://github.com/heygen-com/hyperframes/commit/b3493a7b61cd3d07e7ce5de690c3cae7859e91be">b3493a7b6</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine,producer:</strong> Fix quadratic dedup rescan, correct race justification (<a href="https://github.com/heygen-com/hyperframes/commit/381887541f9513661666877f67335cc489ab5273">381887541</a>)</li>
-<li><strong>Engine,producer:</strong> Close review gaps in parallel drawElement streaming (<a href="https://github.com/heygen-com/hyperframes/commit/2dbe958a49baa08319d091d36795edd51afc3988">2dbe958a4</a>)</li>
-<li><strong>CLI:</strong> Check buildId when resolving the managed Chrome cache (<a href="https://github.com/heygen-com/hyperframes/commit/df1d20b7659df7858e1c8324e84cb88fa8124af0">df1d20b76</a>)</li>
-<li><strong>Engine:</strong> Log composition-id attribution on script-failure bail too (<a href="https://github.com/heygen-com/hyperframes/commit/8fee20a52543dc961983d5e31d3b44125c944416">8fee20a52</a>)</li>
-<li><strong>Engine,producer,cli:</strong> Close review gaps in sub-timeline fail-fast (<a href="https://github.com/heygen-com/hyperframes/commit/8ba3c339156c9d96dd08407019b550191851e5e5">8ba3c3391</a>)</li>
-<li><strong>Engine:</strong> Fail-fast the sub-composition timeline wait when a script 404s (<a href="https://github.com/heygen-com/hyperframes/commit/54359f3d6ad45a99c359c8d92a59795fbdc60052">54359f3d6</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Producer:</strong> Disambiguate compositor frame scheduling from the beginframe capture mode (<a href="https://github.com/heygen-com/hyperframes/commit/81a4f04360cf71ce67daa8eefe55d998eb375ab1">81a4f0436</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.43...v0.7.44">https://github.com/heygen-com/hyperframes/compare/v0.7.43...v0.7.44</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.44</h1>
-<p>Released on 2026-07-08.</p>
-<p>Opt-in verified interleaved parallel drawElement streaming, plus fail-fast sub-composition timeline waits and Chrome-cache resolution fixes carried over from PR review.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine,producer:</strong> Verified interleaved parallel drawElement streaming (opt-in) (<a href="https://github.com/heygen-com/hyperframes/commit/b3493a7b61cd3d07e7ce5de690c3cae7859e91be">b3493a7b6</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine,producer:</strong> Fix quadratic dedup rescan, correct race justification (<a href="https://github.com/heygen-com/hyperframes/commit/381887541f9513661666877f67335cc489ab5273">381887541</a>)</li>
-<li><strong>Engine,producer:</strong> Close review gaps in parallel drawElement streaming (<a href="https://github.com/heygen-com/hyperframes/commit/2dbe958a49baa08319d091d36795edd51afc3988">2dbe958a4</a>)</li>
-<li><strong>CLI:</strong> Check buildId when resolving the managed Chrome cache (<a href="https://github.com/heygen-com/hyperframes/commit/df1d20b7659df7858e1c8324e84cb88fa8124af0">df1d20b76</a>)</li>
-<li><strong>Engine:</strong> Log composition-id attribution on script-failure bail too (<a href="https://github.com/heygen-com/hyperframes/commit/8fee20a52543dc961983d5e31d3b44125c944416">8fee20a52</a>)</li>
-<li><strong>Engine,producer,cli:</strong> Close review gaps in sub-timeline fail-fast (<a href="https://github.com/heygen-com/hyperframes/commit/8ba3c339156c9d96dd08407019b550191851e5e5">8ba3c3391</a>)</li>
-<li><strong>Engine:</strong> Fail-fast the sub-composition timeline wait when a script 404s (<a href="https://github.com/heygen-com/hyperframes/commit/54359f3d6ad45a99c359c8d92a59795fbdc60052">54359f3d6</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Producer:</strong> Disambiguate compositor frame scheduling from the beginframe capture mode (<a href="https://github.com/heygen-com/hyperframes/commit/81a4f04360cf71ce67daa8eefe55d998eb375ab1">81a4f0436</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.43...v0.7.44">https://github.com/heygen-com/hyperframes/compare/v0.7.43...v0.7.44</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.43]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.43</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.43</guid>
-            <pubDate>Wed, 08 Jul 2026 23:12:17 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.43</h1>
-<p>Released on 2026-07-08.</p>
-<p>Chrome/drawElement fast-capture reliability fixes, a new GSAP lint rule catching text-reflow layout thrash, and creation-skill briefs that lead with mode and value instead of generic scaffolding.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Skills:</strong> Mode-first briefs, value-first storyboards, and destination defaults across creation workflows (<a href="https://github.com/heygen-com/hyperframes/commit/17b852784bf3922a42b3aa9801db647423073a13">17b852784</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2058">#2058</a>)</li>
-<li><strong>Media Use:</strong> Resolve official brand logos via a four-tier cascade (<a href="https://github.com/heygen-com/hyperframes/commit/4d3cdc3e4bb952a926b466561ed9c96540e10f20">4d3cdc3e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2061">#2061</a>)</li>
-<li><strong>Lint:</strong> Flag text-reflow props in gsap_non_transform_motion (<a href="https://github.com/heygen-com/hyperframes/commit/082280e8de2cc68e0943b4cae755b465aa41547f">082280e8d</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Cli,engine:</strong> Close review gaps in Chrome resolution fix (<a href="https://github.com/heygen-com/hyperframes/commit/5f9ee0b67829ac1430ae04be6011edb355ef4ac5">5f9ee0b67</a>)</li>
-<li><strong>Engine,cli:</strong> Resolve drawElement to a Chrome build that actually has it (<a href="https://github.com/heygen-com/hyperframes/commit/8854bad8f96623584199f913a0e06c867b4b6fe1">8854bad8f</a>)</li>
-<li><strong>CLI:</strong> Report unknown-flag errors + cover nested subcommands (HF#2033) [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/38b27c4d820d3e49b2a5a14ef00629fff7ea59a7">38b27c4d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2072">#2072</a>)</li>
-<li><strong>Producer:</strong> Scope per-instance variables for repeated sub-composition mounts (<a href="https://github.com/heygen-com/hyperframes/commit/5ebc5bb10f4895375a5fa5e4976f80cf920a773e">5ebc5bb10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2070">#2070</a>)</li>
-<li><strong>CLI:</strong> Contrast audit reads an element&#39;s own opaque background (<a href="https://github.com/heygen-com/hyperframes/commit/701ae9e9b90d93667503f75e4107c3c96dbaf6c9">701ae9e9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1975">#1975</a>)</li>
-<li><strong>CLI:</strong> Add --no-clipboard no longer throws &quot;Unknown flag: --clipboard&quot; (<a href="https://github.com/heygen-com/hyperframes/commit/e0183182253c34631bee2388c7df4abe28cacc7d">e01831822</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2067">#2067</a>)</li>
-<li><strong>CLI:</strong> Warn when a WebM render silently drops its alpha channel [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/f5f94a949524c804b1961da2471689c8ce6e60c0">f5f94a949</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2044">#2044</a>)</li>
-<li><strong>Engine:</strong> Resolve relative data-start references for audio tracks (<a href="https://github.com/heygen-com/hyperframes/commit/6f8bf5f364e5044a383f603b451fca2e00c15c6c">6f8bf5f36</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2062">#2062</a>)</li>
-<li><strong>Engine:</strong> Inject sub-composition variables on the render path (<a href="https://github.com/heygen-com/hyperframes/commit/41ad5b46906689fd800132bb869306026e29517e">41ad5b469</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2066">#2066</a>)</li>
-<li><strong>Cli,skills:</strong> Install workflow skills on demand instead of re-pulling the full set (<a href="https://github.com/heygen-com/hyperframes/commit/81884a74956fbf7d2666795422f325d78266e1aa">81884a749</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2012">#2012</a>)</li>
-<li><strong>Core:</strong> Address PR feedback — ReDoS-safe slug trim, getVariables cleanups (<a href="https://github.com/heygen-com/hyperframes/commit/d9368ec051a151dc377ec2daa98d7372ab4a1e86">d9368ec05</a>)</li>
-<li><strong>Core,producer:</strong> Composition CSS variables reach the render path at eval time (<a href="https://github.com/heygen-com/hyperframes/commit/e2c88ef689a11fb293934907d36c93584c57d083">e2c88ef68</a>)</li>
-<li><strong>Core,cli,lint:</strong> Close the figma brand-token loop — runtime CSS variables, --name, snippet lint (<a href="https://github.com/heygen-com/hyperframes/commit/def276524bc786625fce17f130e5b350996f1f4f">def276524</a>)</li>
-<li><strong>Media Use:</strong> Explain the codex alias-vs-PATH gotcha in the unavailable message (<a href="https://github.com/heygen-com/hyperframes/commit/80271863d34523e956e15f514ddfe85e75fa533a">80271863d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2042">#2042</a>)</li>
-<li><strong>CLI:</strong> Pin arm64 render Chromium to Playwright headless-shell (#2039) (<a href="https://github.com/heygen-com/hyperframes/commit/cebce603dfa5f24d65d82b98dc1698f7ea1fd48d">cebce603d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2040">#2040</a>)</li>
-<li><strong>Producer:</strong> Suppress GSAP call side effects during render seeks (<a href="https://github.com/heygen-com/hyperframes/commit/5b9b71df258f239a841542c92dd799126655eb05">5b9b71df2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2037">#2037</a>)</li>
-<li><strong>Ci:</strong> Format migrated comps with oxfmt, sync skills manifest (<a href="https://github.com/heygen-com/hyperframes/commit/b95f2ca25e46ac12468ca11efcaf51068de607ae">b95f2ca25</a>)</li>
-<li><strong>Lint:</strong> Catch fromTo from-object layout/reflow props in gsap_non_transform_motion (<a href="https://github.com/heygen-com/hyperframes/commit/189d8582f46d74083982a0408fd0f9d973aebf56">189d8582f</a>)</li>
-<li><strong>Lint,skills:</strong> Make the reflow-prop fix faithful, not a lossy scale swap (<a href="https://github.com/heygen-com/hyperframes/commit/6e21072f442791339f9af904d34fe4bd129e4d1f">6e21072f4</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>CLI:</strong> Fix render examples that pass a file as the project dir [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/ab129023de03f4d98f3bb4ad01c2aeb60da21e50">ab129023d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1974">#1974</a>)</li>
-<li>Add modal deployment template to deploy guide (<a href="https://github.com/heygen-com/hyperframes/commit/bb423dd217f92767962a39a25b14d42b0b612dee">bb423dd21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2069">#2069</a>)</li>
-<li><strong>Skills:</strong> Teach transforms-over-layout-props up front (<a href="https://github.com/heygen-com/hyperframes/commit/58f7dc1c724b0ef432f1e92b1eab2c2ae5d3d0e1">58f7dc1c7</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Lint:</strong> Add gsap_non_transform_motion rule, migrate registry comps to transforms (<a href="https://github.com/heygen-com/hyperframes/commit/619a603eabd7d0e3b7ee7b32297e6667acd7ecc5">619a603ea</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Skills,lint:</strong> Migrate kinetic-letter-in off letterSpacing; document rule design (<a href="https://github.com/heygen-com/hyperframes/commit/1c0eef835f3c30ccae4908b26498e2f7f462c64a">1c0eef835</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43">https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.43</h1>
-<p>Released on 2026-07-08.</p>
-<p>Chrome/drawElement fast-capture reliability fixes, a new GSAP lint rule catching text-reflow layout thrash, and creation-skill briefs that lead with mode and value instead of generic scaffolding.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Skills:</strong> Mode-first briefs, value-first storyboards, and destination defaults across creation workflows (<a href="https://github.com/heygen-com/hyperframes/commit/17b852784bf3922a42b3aa9801db647423073a13">17b852784</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2058">#2058</a>)</li>
-<li><strong>Media Use:</strong> Resolve official brand logos via a four-tier cascade (<a href="https://github.com/heygen-com/hyperframes/commit/4d3cdc3e4bb952a926b466561ed9c96540e10f20">4d3cdc3e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2061">#2061</a>)</li>
-<li><strong>Lint:</strong> Flag text-reflow props in gsap_non_transform_motion (<a href="https://github.com/heygen-com/hyperframes/commit/082280e8de2cc68e0943b4cae755b465aa41547f">082280e8d</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Cli,engine:</strong> Close review gaps in Chrome resolution fix (<a href="https://github.com/heygen-com/hyperframes/commit/5f9ee0b67829ac1430ae04be6011edb355ef4ac5">5f9ee0b67</a>)</li>
-<li><strong>Engine,cli:</strong> Resolve drawElement to a Chrome build that actually has it (<a href="https://github.com/heygen-com/hyperframes/commit/8854bad8f96623584199f913a0e06c867b4b6fe1">8854bad8f</a>)</li>
-<li><strong>CLI:</strong> Report unknown-flag errors + cover nested subcommands (HF#2033) [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/38b27c4d820d3e49b2a5a14ef00629fff7ea59a7">38b27c4d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2072">#2072</a>)</li>
-<li><strong>Producer:</strong> Scope per-instance variables for repeated sub-composition mounts (<a href="https://github.com/heygen-com/hyperframes/commit/5ebc5bb10f4895375a5fa5e4976f80cf920a773e">5ebc5bb10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2070">#2070</a>)</li>
-<li><strong>CLI:</strong> Contrast audit reads an element&#39;s own opaque background (<a href="https://github.com/heygen-com/hyperframes/commit/701ae9e9b90d93667503f75e4107c3c96dbaf6c9">701ae9e9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1975">#1975</a>)</li>
-<li><strong>CLI:</strong> Add --no-clipboard no longer throws &quot;Unknown flag: --clipboard&quot; (<a href="https://github.com/heygen-com/hyperframes/commit/e0183182253c34631bee2388c7df4abe28cacc7d">e01831822</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2067">#2067</a>)</li>
-<li><strong>CLI:</strong> Warn when a WebM render silently drops its alpha channel [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/f5f94a949524c804b1961da2471689c8ce6e60c0">f5f94a949</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2044">#2044</a>)</li>
-<li><strong>Engine:</strong> Resolve relative data-start references for audio tracks (<a href="https://github.com/heygen-com/hyperframes/commit/6f8bf5f364e5044a383f603b451fca2e00c15c6c">6f8bf5f36</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2062">#2062</a>)</li>
-<li><strong>Engine:</strong> Inject sub-composition variables on the render path (<a href="https://github.com/heygen-com/hyperframes/commit/41ad5b46906689fd800132bb869306026e29517e">41ad5b469</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2066">#2066</a>)</li>
-<li><strong>Cli,skills:</strong> Install workflow skills on demand instead of re-pulling the full set (<a href="https://github.com/heygen-com/hyperframes/commit/81884a74956fbf7d2666795422f325d78266e1aa">81884a749</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2012">#2012</a>)</li>
-<li><strong>Core:</strong> Address PR feedback — ReDoS-safe slug trim, getVariables cleanups (<a href="https://github.com/heygen-com/hyperframes/commit/d9368ec051a151dc377ec2daa98d7372ab4a1e86">d9368ec05</a>)</li>
-<li><strong>Core,producer:</strong> Composition CSS variables reach the render path at eval time (<a href="https://github.com/heygen-com/hyperframes/commit/e2c88ef689a11fb293934907d36c93584c57d083">e2c88ef68</a>)</li>
-<li><strong>Core,cli,lint:</strong> Close the figma brand-token loop — runtime CSS variables, --name, snippet lint (<a href="https://github.com/heygen-com/hyperframes/commit/def276524bc786625fce17f130e5b350996f1f4f">def276524</a>)</li>
-<li><strong>Media Use:</strong> Explain the codex alias-vs-PATH gotcha in the unavailable message (<a href="https://github.com/heygen-com/hyperframes/commit/80271863d34523e956e15f514ddfe85e75fa533a">80271863d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2042">#2042</a>)</li>
-<li><strong>CLI:</strong> Pin arm64 render Chromium to Playwright headless-shell (#2039) (<a href="https://github.com/heygen-com/hyperframes/commit/cebce603dfa5f24d65d82b98dc1698f7ea1fd48d">cebce603d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2040">#2040</a>)</li>
-<li><strong>Producer:</strong> Suppress GSAP call side effects during render seeks (<a href="https://github.com/heygen-com/hyperframes/commit/5b9b71df258f239a841542c92dd799126655eb05">5b9b71df2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2037">#2037</a>)</li>
-<li><strong>Ci:</strong> Format migrated comps with oxfmt, sync skills manifest (<a href="https://github.com/heygen-com/hyperframes/commit/b95f2ca25e46ac12468ca11efcaf51068de607ae">b95f2ca25</a>)</li>
-<li><strong>Lint:</strong> Catch fromTo from-object layout/reflow props in gsap_non_transform_motion (<a href="https://github.com/heygen-com/hyperframes/commit/189d8582f46d74083982a0408fd0f9d973aebf56">189d8582f</a>)</li>
-<li><strong>Lint,skills:</strong> Make the reflow-prop fix faithful, not a lossy scale swap (<a href="https://github.com/heygen-com/hyperframes/commit/6e21072f442791339f9af904d34fe4bd129e4d1f">6e21072f4</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>CLI:</strong> Fix render examples that pass a file as the project dir [P2] (<a href="https://github.com/heygen-com/hyperframes/commit/ab129023de03f4d98f3bb4ad01c2aeb60da21e50">ab129023d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1974">#1974</a>)</li>
-<li>Add modal deployment template to deploy guide (<a href="https://github.com/heygen-com/hyperframes/commit/bb423dd217f92767962a39a25b14d42b0b612dee">bb423dd21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2069">#2069</a>)</li>
-<li><strong>Skills:</strong> Teach transforms-over-layout-props up front (<a href="https://github.com/heygen-com/hyperframes/commit/58f7dc1c724b0ef432f1e92b1eab2c2ae5d3d0e1">58f7dc1c7</a>)</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Lint:</strong> Add gsap_non_transform_motion rule, migrate registry comps to transforms (<a href="https://github.com/heygen-com/hyperframes/commit/619a603eabd7d0e3b7ee7b32297e6667acd7ecc5">619a603ea</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Skills,lint:</strong> Migrate kinetic-letter-in off letterSpacing; document rule design (<a href="https://github.com/heygen-com/hyperframes/commit/1c0eef835f3c30ccae4908b26498e2f7f462c64a">1c0eef835</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43">https://github.com/heygen-com/hyperframes/compare/v0.7.42...v0.7.43</a></p>
 ]]></content:encoded>
         </item>
     </channel>
