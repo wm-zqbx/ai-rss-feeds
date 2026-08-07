@@ -4,11 +4,231 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 05 Aug 2026 03:46:16 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Aug 2026 00:41:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.96]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.96</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.96</guid>
+            <pubDate>Fri, 07 Aug 2026 00:41:38 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.96</h1>
+<p>Released on 2026-08-06.</p>
+<p>Canary rollouts now record why each install landed in or out of a cohort, on both
+the CLI and Studio. Before this, a forced override and an ordinary cohort roll
+looked identical, so cohort changes could not be explained. Telemetry events also
+say whether an install&#39;s anonymous id will survive to the next run.</p>
+<p>For everyday use the visible changes are a Studio fix for rooted timeline media in
+preview, cancelable thumbnail generation, and a large pass over the docs examples.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Emit the canary reason on Studio events too (<a href="https://github.com/heygen-com/hyperframes/commit/b3990ac789a40242b38eb740475811a03e701b2b">b3990ac78</a>).</li>
+<li><strong>Core,cli:</strong> Emit the canary decision reason alongside the assignment (<a href="https://github.com/heygen-com/hyperframes/commit/076657a63994a911deba65cd4d54131d5997e1d1">076657a63</a>).</li>
+<li><strong>CLI:</strong> Classify identity persistence on every telemetry event (<a href="https://github.com/heygen-com/hyperframes/commit/3b65321a204383582e3794ac19eca5d6f5eb3474">3b65321a2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3065">#3065</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Route rooted timeline media through preview (<a href="https://github.com/heygen-com/hyperframes/commit/88853f170f9ab6c7bfa515d59694d1f995ac0e7d">88853f170</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3061">#3061</a>).</li>
+<li><strong>Scripts:</strong> Import the changelog style note instead of duplicating it (<a href="https://github.com/heygen-com/hyperframes/commit/8cadefa5d8d0f558863e35327b6059aeef76523c">8cadefa5d</a>).</li>
+<li><strong>Scripts:</strong> Restore the texture instruction phrase a core test pins (<a href="https://github.com/heygen-com/hyperframes/commit/ddbd547fad33042c10172b4e3607ed0b12fd7a06">ddbd547fa</a>).</li>
+<li><strong>Scripts:</strong> The repo already knew which items have no poster (<a href="https://github.com/heygen-com/hyperframes/commit/74ba97b7edcc6ed2166fe00ee280c8c05ff718fc">74ba97b7e</a>).</li>
+<li><strong>Scripts:</strong> Actually commit the delivery encode (<a href="https://github.com/heygen-com/hyperframes/commit/4f1ace9f476fe10e9b6da2a9e9bae0332f5ead1a">4f1ace9f4</a>).</li>
+<li><strong>Docs:</strong> Stop claiming a poster image that was never generated (<a href="https://github.com/heygen-com/hyperframes/commit/a6217f5ed145b28e80ecfb5744fd7d3537f1335e">a6217f5ed</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio Server:</strong> Coordinate cancelable thumbnail generation (<a href="https://github.com/heygen-com/hyperframes/commit/96861cbafc33e9e7b853b31c56610d50599cb96b">96861cbaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2720">#2720</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Add user interview booking links (<a href="https://github.com/heygen-com/hyperframes/commit/27d113e56c8ebb52a805e73308ffbfe313f8cc32">27d113e56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3059">#3059</a>).</li>
+<li>Correct composition offset rationale; pin nav fix; label-in-name (<a href="https://github.com/heygen-com/hyperframes/commit/fed2baf27882cda0e19ae0e972f7335a162c36eb">fed2baf27</a>).</li>
+<li><strong>Examples:</strong> Stop the sound control from following the card&#39;s link (<a href="https://github.com/heygen-com/hyperframes/commit/83db94e75e87271c86f8823e636b729c500cbac9">83db94e75</a>).</li>
+<li><strong>Examples:</strong> Reset control state on offscreen release; precise a11y labels (<a href="https://github.com/heygen-com/hyperframes/commit/f3d1d531d138d69e7d347391e5f7a4b35fb599a3">f3d1d531d</a>).</li>
+<li>Complete the media-start layer map + fix the third page (<a href="https://github.com/heygen-com/hyperframes/commit/c49fea2e0c4caaa7c4329493cdd5112581addc06">c49fea2e0</a>).</li>
+<li><strong>Examples:</strong> Reduced-motion play starts both films; precise media-start layers (<a href="https://github.com/heygen-com/hyperframes/commit/630c8900f5866d5cd51eb3da96293981e41fc971">630c8900f</a>).</li>
+<li><strong>Studio:</strong> Note the third arrow-key meaning after merging Timeline navigation (<a href="https://github.com/heygen-com/hyperframes/commit/b541245f1a49b1c784797050c7ae81040115d946">b541245f1</a>).</li>
+<li><strong>Examples:</strong> Allow voluntary playback under reduced motion; a11y parity (<a href="https://github.com/heygen-com/hyperframes/commit/c9fd7465c9b9d516b53241fee1f8ca78d18ba905">c9fd7465c</a>).</li>
+<li><strong>Sdk:</strong> Fix dispatch/can contract, second stale GSAP site, media-start layers (<a href="https://github.com/heygen-com/hyperframes/commit/8e658bd6c932ee1b8c65f247f9767d75fbd56275">8e658bd6c</a>).</li>
+<li><strong>Examples:</strong> Intersection-gate the recreate pair too (<a href="https://github.com/heygen-com/hyperframes/commit/aa077e000df94db2348fa6d744909a67706b09e1">aa077e000</a>).</li>
+<li><strong>Examples:</strong> Make hover-audio accessible, lazy-loaded, and guard-complete (<a href="https://github.com/heygen-com/hyperframes/commit/0467bc812916259a53a3f08eb30fb8a35586ee19">0467bc812</a>).</li>
+<li>Correct three source-contradiction findings from review (<a href="https://github.com/heygen-com/hyperframes/commit/0f6259d461cfb678d60ae7926d343fbe44aee925">0f6259d46</a>).</li>
+<li><strong>Theme:</strong> Brand the Playground CTA + align the navbar logo (<a href="https://github.com/heygen-com/hyperframes/commit/b62c3fd65617cb1d89c828e1f7460893d34a3216">b62c3fd65</a>).</li>
+<li><strong>Nav:</strong> Lift 30 Days above the update feeds in Explore (<a href="https://github.com/heygen-com/hyperframes/commit/c53c7efd1ec1070251ecf1a25643f96d5b96e7a7">c53c7efd1</a>).</li>
+<li><strong>Examples:</strong> Fix silent recreate references (stale keys -&gt; new audio keys) (<a href="https://github.com/heygen-com/hyperframes/commit/4b1a526facb128b98a33a2c8878761320bfea529">4b1a526fa</a>).</li>
+<li><strong>Examples:</strong> K3 promo now hover-to-hear with its audio version from X (<a href="https://github.com/heygen-com/hyperframes/commit/821189586f19da6a67472ddfb952a63f0f1afc85">821189586</a>).</li>
+<li><strong>Examples:</strong> Replace two padded launch films + wire figma audio (<a href="https://github.com/heygen-com/hyperframes/commit/630c6c880ddf164ca3dbad0a6979b0d943ec2691">630c6c880</a>).</li>
+<li><strong>Examples:</strong> More hover-audio + a &#39;Where HyperFrames plugs in&#39; strip (<a href="https://github.com/heygen-com/hyperframes/commit/59a2ee31c93818ce06c8575af4043948f0404a34">59a2ee31c</a>).</li>
+<li><strong>Examples:</strong> Hover-audio on six more grid films from the X launch archive (<a href="https://github.com/heygen-com/hyperframes/commit/e6bc8f139c032d202d94fe2b4837b2e1b0f45ff8">e6bc8f139</a>).</li>
+<li><strong>Examples:</strong> Hover-to-hear on the four launch films that have audio masters (<a href="https://github.com/heygen-com/hyperframes/commit/fb6a82c5052d5c801ecd6ec52d1ceadf4757e6a9">fb6a82c50</a>).</li>
+<li><strong>30 Days:</strong> Hover a card to hear the film&#39;s audio (<a href="https://github.com/heygen-com/hyperframes/commit/5361b9e10c80c787527ffa25a0db01002ddebbf0">5361b9e10</a>).</li>
+<li><strong>Examples:</strong> Drop three dead source links (no such launch folder) (<a href="https://github.com/heygen-com/hyperframes/commit/8298bd439092f67badef626987f385bb020a61dc">8298bd439</a>).</li>
+<li><strong>Examples:</strong> Bind reference video muted to state so unmute sticks (<a href="https://github.com/heygen-com/hyperframes/commit/407a5fd5139cda1dc10aae21aa52f6bc69c1e502">407a5fd51</a>).</li>
+<li><strong>Examples:</strong> Sync the recreate pairs with a tap-to-unmute button (<a href="https://github.com/heygen-com/hyperframes/commit/bde03484ae46345d4f10051a6db7155073e1eb76">bde03484a</a>).</li>
+<li><strong>Examples:</strong> Add 1:1 recreate-any-video comparison block (<a href="https://github.com/heygen-com/hyperframes/commit/98ae45e0661f120cedb8bda2d6002224db146924">98ae45e06</a>).</li>
+<li>30 Days shows all thirty films, the real ones (<a href="https://github.com/heygen-com/hyperframes/commit/a46bc9d565de76ad6e6dc5d35c6a9ff7d1e5cf76">a46bc9d56</a>).</li>
+<li>Remove the Reference Project — nobody wants to be sent to GitHub (<a href="https://github.com/heygen-com/hyperframes/commit/b5509602fa9f8ad9944c79b9f73f3a440357ecbf">b5509602f</a>).</li>
+<li>30 Days keeps its structure but borrows no videos (<a href="https://github.com/heygen-com/hyperframes/commit/06d2d6f24c31b094198e4cd630d1f34c5df5dd2e">06d2d6f24</a>).</li>
+<li>Examples shows 19 launch films grouped by what they prove, and 30 Days moves into Explore (<a href="https://github.com/heygen-com/hyperframes/commit/8483b51d4b7111710b8ac98befbd3c9ca07432cd">8483b51d4</a>).</li>
+<li>Light-theme videos on nine guides, plus two rewritten pages (<a href="https://github.com/heygen-com/hyperframes/commit/ad4c6a9b6e0781e4253507ec4a179b83b3faee9b">ad4c6a9b6</a>).</li>
+<li>Put the ten workflows in one place, and connect the two tracks (<a href="https://github.com/heygen-com/hyperframes/commit/f742084fa85c1e2be1c0711c4467c48d4cd6f214">f742084fa</a>).</li>
+<li>Name the two workflows the captions page covers (<a href="https://github.com/heygen-com/hyperframes/commit/c669616370db90f63ef4828e53db8a34e760406b">c66961637</a>).</li>
+<li>The examples gallery now tells you what it is (<a href="https://github.com/heygen-com/hyperframes/commit/18c0b8319d657d6b7578c6a34b8c183b5ff1865e">18c0b8319</a>).</li>
+<li>E_NO_GSAP_TIMELINE is not a missing feature (<a href="https://github.com/heygen-com/hyperframes/commit/d3331aad28ccb1f3ace49227e06d844e0c4ee58d">d3331aad2</a>).</li>
+<li>An Inspector map that matches the Inspector, and an example that can run (<a href="https://github.com/heygen-com/hyperframes/commit/9a659053db3a3da95a4eece58f15e871ce9dc9d8">9a659053d</a>).</li>
+<li>Four more the source contradicts, one of them mine (<a href="https://github.com/heygen-com/hyperframes/commit/af5ebf09ce8bd15991da51bf83a9fe852e8dca29">af5ebf09c</a>).</li>
+<li>Three things the source contradicts, found by reading the pages (<a href="https://github.com/heygen-com/hyperframes/commit/d01253771fa7f3eac4fa9126c7bedb9911e0be30">d01253771</a>).</li>
+<li>A compare example that works, and prose instead of a semicolon list (<a href="https://github.com/heygen-com/hyperframes/commit/1a22d6542a9a1492882cd11943b68e4a29522407">1a22d6542</a>).</li>
+<li>Three Studio shortcuts the page never mentioned (<a href="https://github.com/heygen-com/hyperframes/commit/f28b6d2bf73490cae7dd0403682064169951af5a">f28b6d2bf</a>).</li>
+<li>Write down the house narrator, and stop the videos sounding like two products (<a href="https://github.com/heygen-com/hyperframes/commit/bb7b0c899f91bcfd1b4f36378bc750aa74e95976">bb7b0c899</a>).</li>
+<li>Put the slideshow demo on the slideshow page (<a href="https://github.com/heygen-com/hyperframes/commit/199885b85edea981a3ce132fd09e3bcaac7ff316">199885b85</a>).</li>
+<li>Six pages get a real film instead of a six-second clip (<a href="https://github.com/heygen-com/hyperframes/commit/b4648e0e5a45734970e3e905efcac4cf76d51057">b4648e0e5</a>).</li>
+<li>Make the ten hardest-reading prompting pages readable (<a href="https://github.com/heygen-com/hyperframes/commit/8dba394d4dd52678cd49b68a3ec8fd8a921a1d6d">8dba394d4</a>).</li>
+<li>Stop serving render masters as if they were deliverables (<a href="https://github.com/heygen-com/hyperframes/commit/158d0fea1fa8e267f9e77aafc1f359ae37781beb">158d0fea1</a>).</li>
+<li>Draw the project model instead of describing it twice (<a href="https://github.com/heygen-com/hyperframes/commit/31366d724d83ff855c1a02edb2c37ff441a3648c">31366d724</a>).</li>
+<li>The last five blind guides now show the thing (<a href="https://github.com/heygen-com/hyperframes/commit/f595a7d68388c2e8842d3b8f5346273d0f9450b7">f595a7d68</a>).</li>
+<li>Move 19 anchor links onto the headings that now exist (<a href="https://github.com/heygen-com/hyperframes/commit/d16f6e69d72c8582fac9577f57aaad158596b1e1">d16f6e69d</a>).</li>
+<li>Make the two hardest-reading pages readable, and draw the two core concepts (<a href="https://github.com/heygen-com/hyperframes/commit/eb199bd1595f7774a16fb7baea12510a8d8a02d6">eb199bd15</a>).</li>
+<li>Four more guides show the thing instead of describing it (<a href="https://github.com/heygen-com/hyperframes/commit/8762887a5b3773f460fa61e017d870f68f5d540a">8762887a5</a>).</li>
+<li>Point two prompting links at headings that exist (<a href="https://github.com/heygen-com/hyperframes/commit/951c6ea45c1eddc377a40542a84acd40d1f472ef">951c6ea45</a>).</li>
+<li>Give every click-to-play video an audio track (<a href="https://github.com/heygen-com/hyperframes/commit/60f09dfcfd3f8b18ac51e9d26f34e614969477e8">60f09dfcf</a>).</li>
+<li>Keep the audio on the Huly launch film (<a href="https://github.com/heygen-com/hyperframes/commit/61cd3f1da2afd8b59ee1a729c6653513a70e73bf">61cd3f1da</a>).</li>
+<li>Show GSAP keyframes moving, and drop the weakest video on Examples (<a href="https://github.com/heygen-com/hyperframes/commit/ef9980948206fa6c13f7c0c55e00f3f906c42a9f">ef9980948</a>).</li>
+<li>Rewrite four pages that told instead of showed (<a href="https://github.com/heygen-com/hyperframes/commit/72d4016f5f25fb71c856f0d6fd9e52e91686c83a">72d4016f5</a>).</li>
+<li>Show the work on Media effects, Product launch, and Examples (<a href="https://github.com/heygen-com/hyperframes/commit/84b5160b663c8bf758c4134fdffceba4982ae374">84b5160b6</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Explicit section ownership, no body-sniffing heuristic (<a href="https://github.com/heygen-com/hyperframes/commit/d373c3f4a09f59b349586c0885be47388844a658">d373c3f4a</a>).</li>
+<li><strong>Catalog:</strong> Restore the required Related topics section on generated pages (<a href="https://github.com/heygen-com/hyperframes/commit/6ff6601dd03026f55be3d974222ac5c4ff890a8e">6ff6601dd</a>).</li>
+<li>Quiet fallow complexity on the catalog generator&#39;s grown functions (<a href="https://github.com/heygen-com/hyperframes/commit/b33974cf72270fded5b9caf2244f26acf6b3c7e6">b33974cf7</a>).</li>
+<li><strong>Scripts:</strong> Drop the catalog poster instead of guarding it, and cut the encode pass down (<a href="https://github.com/heygen-com/hyperframes/commit/592301248ea93336189aa723b0b24971f7173ae0">592301248</a>).</li>
+<li><strong>Docs:</strong> The poster guard again, for the catalog index this time (<a href="https://github.com/heygen-com/hyperframes/commit/663f3e8325c192324520113fa1819b3e1fcdd07a">663f3e832</a>).</li>
+<li>Rebuild the catalog generator, and show what background removal and HDR do (<a href="https://github.com/heygen-com/hyperframes/commit/2a7d9bd0ad114a7aadf65f1f65b8556f8da6d61d">2a7d9bd0a</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Regenerate skills manifest after the media-use voice rule (<a href="https://github.com/heygen-com/hyperframes/commit/00a4f454ee75d4c434ee034f6dc62e5e924783fb">00a4f454e</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li><strong>Scripts:</strong> Oxfmt the nav-suppression assertion (<a href="https://github.com/heygen-com/hyperframes/commit/aa928f399a571fa9b61c67a931db4a97dfb1875d">aa928f399</a>).</li>
+<li>Format the house-narrator note in tts.md, resync manifest (<a href="https://github.com/heygen-com/hyperframes/commit/08fadcef41d1128ed2493978ea665874306f60c6">08fadcef4</a>).</li>
+<li>Format changelog-weekly.ts (<a href="https://github.com/heygen-com/hyperframes/commit/fffc56c33b96c0fa9e3db15cb0f4799d0cbd6e5b">fffc56c33</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.94...v0.7.96">https://github.com/heygen-com/hyperframes/compare/v0.7.94...v0.7.96</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.96</h1>
+<p>Released on 2026-08-06.</p>
+<p>Canary rollouts now record why each install landed in or out of a cohort, on both
+the CLI and Studio. Before this, a forced override and an ordinary cohort roll
+looked identical, so cohort changes could not be explained. Telemetry events also
+say whether an install&#39;s anonymous id will survive to the next run.</p>
+<p>For everyday use the visible changes are a Studio fix for rooted timeline media in
+preview, cancelable thumbnail generation, and a large pass over the docs examples.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Emit the canary reason on Studio events too (<a href="https://github.com/heygen-com/hyperframes/commit/b3990ac789a40242b38eb740475811a03e701b2b">b3990ac78</a>).</li>
+<li><strong>Core,cli:</strong> Emit the canary decision reason alongside the assignment (<a href="https://github.com/heygen-com/hyperframes/commit/076657a63994a911deba65cd4d54131d5997e1d1">076657a63</a>).</li>
+<li><strong>CLI:</strong> Classify identity persistence on every telemetry event (<a href="https://github.com/heygen-com/hyperframes/commit/3b65321a204383582e3794ac19eca5d6f5eb3474">3b65321a2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3065">#3065</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Route rooted timeline media through preview (<a href="https://github.com/heygen-com/hyperframes/commit/88853f170f9ab6c7bfa515d59694d1f995ac0e7d">88853f170</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3061">#3061</a>).</li>
+<li><strong>Scripts:</strong> Import the changelog style note instead of duplicating it (<a href="https://github.com/heygen-com/hyperframes/commit/8cadefa5d8d0f558863e35327b6059aeef76523c">8cadefa5d</a>).</li>
+<li><strong>Scripts:</strong> Restore the texture instruction phrase a core test pins (<a href="https://github.com/heygen-com/hyperframes/commit/ddbd547fad33042c10172b4e3607ed0b12fd7a06">ddbd547fa</a>).</li>
+<li><strong>Scripts:</strong> The repo already knew which items have no poster (<a href="https://github.com/heygen-com/hyperframes/commit/74ba97b7edcc6ed2166fe00ee280c8c05ff718fc">74ba97b7e</a>).</li>
+<li><strong>Scripts:</strong> Actually commit the delivery encode (<a href="https://github.com/heygen-com/hyperframes/commit/4f1ace9f476fe10e9b6da2a9e9bae0332f5ead1a">4f1ace9f4</a>).</li>
+<li><strong>Docs:</strong> Stop claiming a poster image that was never generated (<a href="https://github.com/heygen-com/hyperframes/commit/a6217f5ed145b28e80ecfb5744fd7d3537f1335e">a6217f5ed</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio Server:</strong> Coordinate cancelable thumbnail generation (<a href="https://github.com/heygen-com/hyperframes/commit/96861cbafc33e9e7b853b31c56610d50599cb96b">96861cbaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2720">#2720</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Add user interview booking links (<a href="https://github.com/heygen-com/hyperframes/commit/27d113e56c8ebb52a805e73308ffbfe313f8cc32">27d113e56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3059">#3059</a>).</li>
+<li>Correct composition offset rationale; pin nav fix; label-in-name (<a href="https://github.com/heygen-com/hyperframes/commit/fed2baf27882cda0e19ae0e972f7335a162c36eb">fed2baf27</a>).</li>
+<li><strong>Examples:</strong> Stop the sound control from following the card&#39;s link (<a href="https://github.com/heygen-com/hyperframes/commit/83db94e75e87271c86f8823e636b729c500cbac9">83db94e75</a>).</li>
+<li><strong>Examples:</strong> Reset control state on offscreen release; precise a11y labels (<a href="https://github.com/heygen-com/hyperframes/commit/f3d1d531d138d69e7d347391e5f7a4b35fb599a3">f3d1d531d</a>).</li>
+<li>Complete the media-start layer map + fix the third page (<a href="https://github.com/heygen-com/hyperframes/commit/c49fea2e0c4caaa7c4329493cdd5112581addc06">c49fea2e0</a>).</li>
+<li><strong>Examples:</strong> Reduced-motion play starts both films; precise media-start layers (<a href="https://github.com/heygen-com/hyperframes/commit/630c8900f5866d5cd51eb3da96293981e41fc971">630c8900f</a>).</li>
+<li><strong>Studio:</strong> Note the third arrow-key meaning after merging Timeline navigation (<a href="https://github.com/heygen-com/hyperframes/commit/b541245f1a49b1c784797050c7ae81040115d946">b541245f1</a>).</li>
+<li><strong>Examples:</strong> Allow voluntary playback under reduced motion; a11y parity (<a href="https://github.com/heygen-com/hyperframes/commit/c9fd7465c9b9d516b53241fee1f8ca78d18ba905">c9fd7465c</a>).</li>
+<li><strong>Sdk:</strong> Fix dispatch/can contract, second stale GSAP site, media-start layers (<a href="https://github.com/heygen-com/hyperframes/commit/8e658bd6c932ee1b8c65f247f9767d75fbd56275">8e658bd6c</a>).</li>
+<li><strong>Examples:</strong> Intersection-gate the recreate pair too (<a href="https://github.com/heygen-com/hyperframes/commit/aa077e000df94db2348fa6d744909a67706b09e1">aa077e000</a>).</li>
+<li><strong>Examples:</strong> Make hover-audio accessible, lazy-loaded, and guard-complete (<a href="https://github.com/heygen-com/hyperframes/commit/0467bc812916259a53a3f08eb30fb8a35586ee19">0467bc812</a>).</li>
+<li>Correct three source-contradiction findings from review (<a href="https://github.com/heygen-com/hyperframes/commit/0f6259d461cfb678d60ae7926d343fbe44aee925">0f6259d46</a>).</li>
+<li><strong>Theme:</strong> Brand the Playground CTA + align the navbar logo (<a href="https://github.com/heygen-com/hyperframes/commit/b62c3fd65617cb1d89c828e1f7460893d34a3216">b62c3fd65</a>).</li>
+<li><strong>Nav:</strong> Lift 30 Days above the update feeds in Explore (<a href="https://github.com/heygen-com/hyperframes/commit/c53c7efd1ec1070251ecf1a25643f96d5b96e7a7">c53c7efd1</a>).</li>
+<li><strong>Examples:</strong> Fix silent recreate references (stale keys -&gt; new audio keys) (<a href="https://github.com/heygen-com/hyperframes/commit/4b1a526facb128b98a33a2c8878761320bfea529">4b1a526fa</a>).</li>
+<li><strong>Examples:</strong> K3 promo now hover-to-hear with its audio version from X (<a href="https://github.com/heygen-com/hyperframes/commit/821189586f19da6a67472ddfb952a63f0f1afc85">821189586</a>).</li>
+<li><strong>Examples:</strong> Replace two padded launch films + wire figma audio (<a href="https://github.com/heygen-com/hyperframes/commit/630c6c880ddf164ca3dbad0a6979b0d943ec2691">630c6c880</a>).</li>
+<li><strong>Examples:</strong> More hover-audio + a &#39;Where HyperFrames plugs in&#39; strip (<a href="https://github.com/heygen-com/hyperframes/commit/59a2ee31c93818ce06c8575af4043948f0404a34">59a2ee31c</a>).</li>
+<li><strong>Examples:</strong> Hover-audio on six more grid films from the X launch archive (<a href="https://github.com/heygen-com/hyperframes/commit/e6bc8f139c032d202d94fe2b4837b2e1b0f45ff8">e6bc8f139</a>).</li>
+<li><strong>Examples:</strong> Hover-to-hear on the four launch films that have audio masters (<a href="https://github.com/heygen-com/hyperframes/commit/fb6a82c5052d5c801ecd6ec52d1ceadf4757e6a9">fb6a82c50</a>).</li>
+<li><strong>30 Days:</strong> Hover a card to hear the film&#39;s audio (<a href="https://github.com/heygen-com/hyperframes/commit/5361b9e10c80c787527ffa25a0db01002ddebbf0">5361b9e10</a>).</li>
+<li><strong>Examples:</strong> Drop three dead source links (no such launch folder) (<a href="https://github.com/heygen-com/hyperframes/commit/8298bd439092f67badef626987f385bb020a61dc">8298bd439</a>).</li>
+<li><strong>Examples:</strong> Bind reference video muted to state so unmute sticks (<a href="https://github.com/heygen-com/hyperframes/commit/407a5fd5139cda1dc10aae21aa52f6bc69c1e502">407a5fd51</a>).</li>
+<li><strong>Examples:</strong> Sync the recreate pairs with a tap-to-unmute button (<a href="https://github.com/heygen-com/hyperframes/commit/bde03484ae46345d4f10051a6db7155073e1eb76">bde03484a</a>).</li>
+<li><strong>Examples:</strong> Add 1:1 recreate-any-video comparison block (<a href="https://github.com/heygen-com/hyperframes/commit/98ae45e0661f120cedb8bda2d6002224db146924">98ae45e06</a>).</li>
+<li>30 Days shows all thirty films, the real ones (<a href="https://github.com/heygen-com/hyperframes/commit/a46bc9d565de76ad6e6dc5d35c6a9ff7d1e5cf76">a46bc9d56</a>).</li>
+<li>Remove the Reference Project — nobody wants to be sent to GitHub (<a href="https://github.com/heygen-com/hyperframes/commit/b5509602fa9f8ad9944c79b9f73f3a440357ecbf">b5509602f</a>).</li>
+<li>30 Days keeps its structure but borrows no videos (<a href="https://github.com/heygen-com/hyperframes/commit/06d2d6f24c31b094198e4cd630d1f34c5df5dd2e">06d2d6f24</a>).</li>
+<li>Examples shows 19 launch films grouped by what they prove, and 30 Days moves into Explore (<a href="https://github.com/heygen-com/hyperframes/commit/8483b51d4b7111710b8ac98befbd3c9ca07432cd">8483b51d4</a>).</li>
+<li>Light-theme videos on nine guides, plus two rewritten pages (<a href="https://github.com/heygen-com/hyperframes/commit/ad4c6a9b6e0781e4253507ec4a179b83b3faee9b">ad4c6a9b6</a>).</li>
+<li>Put the ten workflows in one place, and connect the two tracks (<a href="https://github.com/heygen-com/hyperframes/commit/f742084fa85c1e2be1c0711c4467c48d4cd6f214">f742084fa</a>).</li>
+<li>Name the two workflows the captions page covers (<a href="https://github.com/heygen-com/hyperframes/commit/c669616370db90f63ef4828e53db8a34e760406b">c66961637</a>).</li>
+<li>The examples gallery now tells you what it is (<a href="https://github.com/heygen-com/hyperframes/commit/18c0b8319d657d6b7578c6a34b8c183b5ff1865e">18c0b8319</a>).</li>
+<li>E_NO_GSAP_TIMELINE is not a missing feature (<a href="https://github.com/heygen-com/hyperframes/commit/d3331aad28ccb1f3ace49227e06d844e0c4ee58d">d3331aad2</a>).</li>
+<li>An Inspector map that matches the Inspector, and an example that can run (<a href="https://github.com/heygen-com/hyperframes/commit/9a659053db3a3da95a4eece58f15e871ce9dc9d8">9a659053d</a>).</li>
+<li>Four more the source contradicts, one of them mine (<a href="https://github.com/heygen-com/hyperframes/commit/af5ebf09ce8bd15991da51bf83a9fe852e8dca29">af5ebf09c</a>).</li>
+<li>Three things the source contradicts, found by reading the pages (<a href="https://github.com/heygen-com/hyperframes/commit/d01253771fa7f3eac4fa9126c7bedb9911e0be30">d01253771</a>).</li>
+<li>A compare example that works, and prose instead of a semicolon list (<a href="https://github.com/heygen-com/hyperframes/commit/1a22d6542a9a1492882cd11943b68e4a29522407">1a22d6542</a>).</li>
+<li>Three Studio shortcuts the page never mentioned (<a href="https://github.com/heygen-com/hyperframes/commit/f28b6d2bf73490cae7dd0403682064169951af5a">f28b6d2bf</a>).</li>
+<li>Write down the house narrator, and stop the videos sounding like two products (<a href="https://github.com/heygen-com/hyperframes/commit/bb7b0c899f91bcfd1b4f36378bc750aa74e95976">bb7b0c899</a>).</li>
+<li>Put the slideshow demo on the slideshow page (<a href="https://github.com/heygen-com/hyperframes/commit/199885b85edea981a3ce132fd09e3bcaac7ff316">199885b85</a>).</li>
+<li>Six pages get a real film instead of a six-second clip (<a href="https://github.com/heygen-com/hyperframes/commit/b4648e0e5a45734970e3e905efcac4cf76d51057">b4648e0e5</a>).</li>
+<li>Make the ten hardest-reading prompting pages readable (<a href="https://github.com/heygen-com/hyperframes/commit/8dba394d4dd52678cd49b68a3ec8fd8a921a1d6d">8dba394d4</a>).</li>
+<li>Stop serving render masters as if they were deliverables (<a href="https://github.com/heygen-com/hyperframes/commit/158d0fea1fa8e267f9e77aafc1f359ae37781beb">158d0fea1</a>).</li>
+<li>Draw the project model instead of describing it twice (<a href="https://github.com/heygen-com/hyperframes/commit/31366d724d83ff855c1a02edb2c37ff441a3648c">31366d724</a>).</li>
+<li>The last five blind guides now show the thing (<a href="https://github.com/heygen-com/hyperframes/commit/f595a7d68388c2e8842d3b8f5346273d0f9450b7">f595a7d68</a>).</li>
+<li>Move 19 anchor links onto the headings that now exist (<a href="https://github.com/heygen-com/hyperframes/commit/d16f6e69d72c8582fac9577f57aaad158596b1e1">d16f6e69d</a>).</li>
+<li>Make the two hardest-reading pages readable, and draw the two core concepts (<a href="https://github.com/heygen-com/hyperframes/commit/eb199bd1595f7774a16fb7baea12510a8d8a02d6">eb199bd15</a>).</li>
+<li>Four more guides show the thing instead of describing it (<a href="https://github.com/heygen-com/hyperframes/commit/8762887a5b3773f460fa61e017d870f68f5d540a">8762887a5</a>).</li>
+<li>Point two prompting links at headings that exist (<a href="https://github.com/heygen-com/hyperframes/commit/951c6ea45c1eddc377a40542a84acd40d1f472ef">951c6ea45</a>).</li>
+<li>Give every click-to-play video an audio track (<a href="https://github.com/heygen-com/hyperframes/commit/60f09dfcfd3f8b18ac51e9d26f34e614969477e8">60f09dfcf</a>).</li>
+<li>Keep the audio on the Huly launch film (<a href="https://github.com/heygen-com/hyperframes/commit/61cd3f1da2afd8b59ee1a729c6653513a70e73bf">61cd3f1da</a>).</li>
+<li>Show GSAP keyframes moving, and drop the weakest video on Examples (<a href="https://github.com/heygen-com/hyperframes/commit/ef9980948206fa6c13f7c0c55e00f3f906c42a9f">ef9980948</a>).</li>
+<li>Rewrite four pages that told instead of showed (<a href="https://github.com/heygen-com/hyperframes/commit/72d4016f5f25fb71c856f0d6fd9e52e91686c83a">72d4016f5</a>).</li>
+<li>Show the work on Media effects, Product launch, and Examples (<a href="https://github.com/heygen-com/hyperframes/commit/84b5160b663c8bf758c4134fdffceba4982ae374">84b5160b6</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Explicit section ownership, no body-sniffing heuristic (<a href="https://github.com/heygen-com/hyperframes/commit/d373c3f4a09f59b349586c0885be47388844a658">d373c3f4a</a>).</li>
+<li><strong>Catalog:</strong> Restore the required Related topics section on generated pages (<a href="https://github.com/heygen-com/hyperframes/commit/6ff6601dd03026f55be3d974222ac5c4ff890a8e">6ff6601dd</a>).</li>
+<li>Quiet fallow complexity on the catalog generator&#39;s grown functions (<a href="https://github.com/heygen-com/hyperframes/commit/b33974cf72270fded5b9caf2244f26acf6b3c7e6">b33974cf7</a>).</li>
+<li><strong>Scripts:</strong> Drop the catalog poster instead of guarding it, and cut the encode pass down (<a href="https://github.com/heygen-com/hyperframes/commit/592301248ea93336189aa723b0b24971f7173ae0">592301248</a>).</li>
+<li><strong>Docs:</strong> The poster guard again, for the catalog index this time (<a href="https://github.com/heygen-com/hyperframes/commit/663f3e8325c192324520113fa1819b3e1fcdd07a">663f3e832</a>).</li>
+<li>Rebuild the catalog generator, and show what background removal and HDR do (<a href="https://github.com/heygen-com/hyperframes/commit/2a7d9bd0ad114a7aadf65f1f65b8556f8da6d61d">2a7d9bd0a</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Regenerate skills manifest after the media-use voice rule (<a href="https://github.com/heygen-com/hyperframes/commit/00a4f454ee75d4c434ee034f6dc62e5e924783fb">00a4f454e</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li><strong>Scripts:</strong> Oxfmt the nav-suppression assertion (<a href="https://github.com/heygen-com/hyperframes/commit/aa928f399a571fa9b61c67a931db4a97dfb1875d">aa928f399</a>).</li>
+<li>Format the house-narrator note in tts.md, resync manifest (<a href="https://github.com/heygen-com/hyperframes/commit/08fadcef41d1128ed2493978ea665874306f60c6">08fadcef4</a>).</li>
+<li>Format changelog-weekly.ts (<a href="https://github.com/heygen-com/hyperframes/commit/fffc56c33b96c0fa9e3db15cb0f4799d0cbd6e5b">fffc56c33</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.94...v0.7.96">https://github.com/heygen-com/hyperframes/compare/v0.7.94...v0.7.96</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.94]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.94</link>
@@ -3543,52 +3763,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.45...v0.7.46">https://github.com/heygen-com/hyperframes/compare/v0.7.45...v0.7.46</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.45]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.45</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.45</guid>
-            <pubDate>Thu, 09 Jul 2026 05:19:50 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.45</h1>
-<p>Released on 2026-07-09.</p>
-<p>SDK gains three exports (<code>getRootElements</code>, <code>isNewHostBoundary</code>, <code>bareId</code>) and a <code>serialize({ stripRuntime })</code> option, plus a fix for <code>data-start</code> relative-timing references that used to silently resolve to 0. Studio&#39;s storyboard, crop tool, and color grading also land this release.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Sdk:</strong> Export getRootElements/isNewHostBoundary/bareId, fix relative data-start (<a href="https://github.com/heygen-com/hyperframes/commit/c1b8815cb2d9f7299a12255bf74604f9f872c9b3">c1b8815cb</a>)</li>
-<li><strong>Studio:</strong> Storyboard empty state with agent copy-prompt and skeleton preview (<a href="https://github.com/heygen-com/hyperframes/commit/0ac000181e5809a27ea0e6b40cdfaffb6f4f8699">0ac000181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2091">#2091</a>)</li>
-<li><strong>Studio:</strong> Always-on crop with reposition handle, drop crop mode (<a href="https://github.com/heygen-com/hyperframes/commit/623f91d6a1ccacc7f7834b5efa251c44b79f35a2">623f91d6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2090">#2090</a>)</li>
-<li><strong>Media Use:</strong> Color grading — grade/lut resolve, smart-grade, grade-compare + compare (<a href="https://github.com/heygen-com/hyperframes/commit/57b3c7898783d8baec71cc55f39cee553a6f2534">57b3c7898</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2041">#2041</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Sdk:</strong> Address review feedback on getRootElements/serialize/getElementTimings PR (<a href="https://github.com/heygen-com/hyperframes/commit/4fb6068fa1512901882f87c71b6e6a0fcea476eb">4fb6068fa</a>)</li>
-<li><strong>CLI:</strong> Map zh to espeak-ng&#39;s cmn for Kokoro TTS synthesis (<a href="https://github.com/heygen-com/hyperframes/commit/995db68ad08462f3e6f7eae5ae0d3e0b47af8dd0">995db68ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2094">#2094</a>)</li>
-<li><strong>Core:</strong> Scope sub-composition html/body styles to the composition box (<a href="https://github.com/heygen-com/hyperframes/commit/6f0b57d60875945d7ec5dd4887b50ca5bf94ef3f">6f0b57d60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2089">#2089</a>)</li>
-<li><strong>CLI:</strong> Map ggml model stem to whisper.cpp dotted DTW preset (fixes large-v3) (<a href="https://github.com/heygen-com/hyperframes/commit/8e04d0196945c5173923fb72ecc665d40d122adb">8e04d0196</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2086">#2086</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45">https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.45</h1>
-<p>Released on 2026-07-09.</p>
-<p>SDK gains three exports (<code>getRootElements</code>, <code>isNewHostBoundary</code>, <code>bareId</code>) and a <code>serialize({ stripRuntime })</code> option, plus a fix for <code>data-start</code> relative-timing references that used to silently resolve to 0. Studio&#39;s storyboard, crop tool, and color grading also land this release.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Sdk:</strong> Export getRootElements/isNewHostBoundary/bareId, fix relative data-start (<a href="https://github.com/heygen-com/hyperframes/commit/c1b8815cb2d9f7299a12255bf74604f9f872c9b3">c1b8815cb</a>)</li>
-<li><strong>Studio:</strong> Storyboard empty state with agent copy-prompt and skeleton preview (<a href="https://github.com/heygen-com/hyperframes/commit/0ac000181e5809a27ea0e6b40cdfaffb6f4f8699">0ac000181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2091">#2091</a>)</li>
-<li><strong>Studio:</strong> Always-on crop with reposition handle, drop crop mode (<a href="https://github.com/heygen-com/hyperframes/commit/623f91d6a1ccacc7f7834b5efa251c44b79f35a2">623f91d6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2090">#2090</a>)</li>
-<li><strong>Media Use:</strong> Color grading — grade/lut resolve, smart-grade, grade-compare + compare (<a href="https://github.com/heygen-com/hyperframes/commit/57b3c7898783d8baec71cc55f39cee553a6f2534">57b3c7898</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2041">#2041</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Sdk:</strong> Address review feedback on getRootElements/serialize/getElementTimings PR (<a href="https://github.com/heygen-com/hyperframes/commit/4fb6068fa1512901882f87c71b6e6a0fcea476eb">4fb6068fa</a>)</li>
-<li><strong>CLI:</strong> Map zh to espeak-ng&#39;s cmn for Kokoro TTS synthesis (<a href="https://github.com/heygen-com/hyperframes/commit/995db68ad08462f3e6f7eae5ae0d3e0b47af8dd0">995db68ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2094">#2094</a>)</li>
-<li><strong>Core:</strong> Scope sub-composition html/body styles to the composition box (<a href="https://github.com/heygen-com/hyperframes/commit/6f0b57d60875945d7ec5dd4887b50ca5bf94ef3f">6f0b57d60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2089">#2089</a>)</li>
-<li><strong>CLI:</strong> Map ggml model stem to whisper.cpp dotted DTW preset (fixes large-v3) (<a href="https://github.com/heygen-com/hyperframes/commit/8e04d0196945c5173923fb72ecc665d40d122adb">8e04d0196</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2086">#2086</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45">https://github.com/heygen-com/hyperframes/compare/v0.7.44...v0.7.45</a></p>
 ]]></content:encoded>
         </item>
     </channel>
