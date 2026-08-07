@@ -4,11 +4,41 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 07 Aug 2026 07:02:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 07 Aug 2026 15:55:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.99]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.99</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.99</guid>
+            <pubDate>Fri, 07 Aug 2026 15:55:27 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.99</h1>
+<p>Released on 2026-08-07.</p>
+<p>Publishing now retries brief network failures during upload and tells you which step failed when it cannot recover.
+Long timeouts are not retried, and signed upload secrets stay out of error messages.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Harden publish retry behavior (<a href="https://github.com/heygen-com/hyperframes/commit/dd629697d3356971e50132703b8a897c1a79bfdf">dd629697d</a>).</li>
+<li><strong>CLI:</strong> Recover transient publish failures (<a href="https://github.com/heygen-com/hyperframes/commit/f2d6ce32459fc4c6be604a152e8707df03ce96e2">f2d6ce324</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99">https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.99</h1>
+<p>Released on 2026-08-07.</p>
+<p>Publishing now retries brief network failures during upload and tells you which step failed when it cannot recover.
+Long timeouts are not retried, and signed upload secrets stay out of error messages.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Harden publish retry behavior (<a href="https://github.com/heygen-com/hyperframes/commit/dd629697d3356971e50132703b8a897c1a79bfdf">dd629697d</a>).</li>
+<li><strong>CLI:</strong> Recover transient publish failures (<a href="https://github.com/heygen-com/hyperframes/commit/f2d6ce32459fc4c6be604a152e8707df03ce96e2">f2d6ce324</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99">https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.98]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.98</link>
@@ -3541,34 +3571,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.48...v0.7.49">https://github.com/heygen-com/hyperframes/compare/v0.7.48...v0.7.49</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.48]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.48</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.48</guid>
-            <pubDate>Fri, 10 Jul 2026 01:53:36 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.48</h1>
-<p>Released on 2026-07-10.</p>
-<p>Prevents slow Chrome downloads from losing their install lock and colliding with another HyperFrames process. Also restores <code>hyperframes tts --text-file</code> compatibility for existing skills and scripts.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Restore <code>tts --text-file</code> compatibility for file-based narration workflows (<a href="https://github.com/heygen-com/hyperframes/commit/ef38321d5d1b549777b846d1156de40a0f475b4e">ef38321d5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2117">#2117</a>)</li>
-<li><strong>CLI:</strong> Keep slow browser installs serialized with an active lock heartbeat and visible wait progress (<a href="https://github.com/heygen-com/hyperframes/commit/7bd8c0942e2d0863b7c82fe5a3dd1c026f1e5db1">7bd8c0942</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2116">#2116</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.47...v0.7.48">https://github.com/heygen-com/hyperframes/compare/v0.7.47...v0.7.48</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.48</h1>
-<p>Released on 2026-07-10.</p>
-<p>Prevents slow Chrome downloads from losing their install lock and colliding with another HyperFrames process. Also restores <code>hyperframes tts --text-file</code> compatibility for existing skills and scripts.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Restore <code>tts --text-file</code> compatibility for file-based narration workflows (<a href="https://github.com/heygen-com/hyperframes/commit/ef38321d5d1b549777b846d1156de40a0f475b4e">ef38321d5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2117">#2117</a>)</li>
-<li><strong>CLI:</strong> Keep slow browser installs serialized with an active lock heartbeat and visible wait progress (<a href="https://github.com/heygen-com/hyperframes/commit/7bd8c0942e2d0863b7c82fe5a3dd1c026f1e5db1">7bd8c0942</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2116">#2116</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.47...v0.7.48">https://github.com/heygen-com/hyperframes/compare/v0.7.47...v0.7.48</a></p>
 ]]></content:encoded>
         </item>
     </channel>
