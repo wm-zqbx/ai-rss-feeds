@@ -4,11 +4,45 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 08 Aug 2026 03:16:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Aug 2026 20:17:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.102]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.102</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.102</guid>
+            <pubDate>Sat, 08 Aug 2026 20:17:22 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.102</h1>
+<p>Released on 2026-08-08.</p>
+<p>Text with spaces in it now reaches your composition intact. Before, a space could arrive as a plus sign, which garbled headlines and left some shapes drawing nothing at all.
+Compositions can also read their own variables the moment they start, because the runtime now loads before your scripts do.</p>
+<h2>Fixes</h2>
+<ul>
+<li>Preserve the composition query and serve the runtime before author scripts (<a href="https://github.com/heygen-com/hyperframes/commit/b6ff3ab74556b844dd87b067cf850badc000bba7">b6ff3ab74</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3114">#3114</a>).</li>
+<li><strong>CLI:</strong> Stop skills update deleting skills the manifest never covered (<a href="https://github.com/heygen-com/hyperframes/commit/ed3ff98ce0443a232fc740a5821c601e67fd09cc">ed3ff98ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3118">#3118</a>).</li>
+<li><strong>Core:</strong> Draw the dim baseline only from tweens the guess still applies to (<a href="https://github.com/heygen-com/hyperframes/commit/cef0dde5f2e9028349be0eef31e6ba2622405fe2">cef0dde5f</a>).</li>
+<li><strong>Core:</strong> Let a composition declare its caption colour states (<a href="https://github.com/heygen-com/hyperframes/commit/1e7799bfbb08c30a55b01a262653f40a2bbeda8a">1e7799bfb</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.101...v0.7.102">https://github.com/heygen-com/hyperframes/compare/v0.7.101...v0.7.102</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.102</h1>
+<p>Released on 2026-08-08.</p>
+<p>Text with spaces in it now reaches your composition intact. Before, a space could arrive as a plus sign, which garbled headlines and left some shapes drawing nothing at all.
+Compositions can also read their own variables the moment they start, because the runtime now loads before your scripts do.</p>
+<h2>Fixes</h2>
+<ul>
+<li>Preserve the composition query and serve the runtime before author scripts (<a href="https://github.com/heygen-com/hyperframes/commit/b6ff3ab74556b844dd87b067cf850badc000bba7">b6ff3ab74</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3114">#3114</a>).</li>
+<li><strong>CLI:</strong> Stop skills update deleting skills the manifest never covered (<a href="https://github.com/heygen-com/hyperframes/commit/ed3ff98ce0443a232fc740a5821c601e67fd09cc">ed3ff98ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3118">#3118</a>).</li>
+<li><strong>Core:</strong> Draw the dim baseline only from tweens the guess still applies to (<a href="https://github.com/heygen-com/hyperframes/commit/cef0dde5f2e9028349be0eef31e6ba2622405fe2">cef0dde5f</a>).</li>
+<li><strong>Core:</strong> Let a composition declare its caption colour states (<a href="https://github.com/heygen-com/hyperframes/commit/1e7799bfbb08c30a55b01a262653f40a2bbeda8a">1e7799bfb</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.101...v0.7.102">https://github.com/heygen-com/hyperframes/compare/v0.7.101...v0.7.102</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.101]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.101</link>
@@ -3503,40 +3537,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.51...v0.7.52">https://github.com/heygen-com/hyperframes/compare/v0.7.51...v0.7.52</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.51]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.51</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.51</guid>
-            <pubDate>Sat, 11 Jul 2026 00:19:47 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.51</h1>
-<p>Released on 2026-07-11.</p>
-<p><code>media-use</code>&#39;s HeyGen resolves now tag whether a call went through the free (OAuth) or paid (API-key) path and classify failures into stable reasons, with a test-isolation fix so local runs can&#39;t reach the production telemetry endpoint. <code>hyperframes skills update</code> now converges when a skill has been retired or renamed upstream — it no longer fails with <code>Skill(s) still missing after install</code> or loops on <code>No matching skills found</code>, and reconciles the orphaned skill away instead.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Media Use:</strong> Usage telemetry for HeyGen conversion (<a href="https://github.com/heygen-com/hyperframes/commit/521f2c9ba7016f08ea3ad7fff4a97d323363eedb">521f2c9ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2130">#2130</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Make skills update converge on a skill retired upstream (<a href="https://github.com/heygen-com/hyperframes/commit/b1f1c0571e0dbbc6f12ccfde68345349704ee86e">b1f1c0571</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2176">#2176</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.50...v0.7.51">https://github.com/heygen-com/hyperframes/compare/v0.7.50...v0.7.51</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.51</h1>
-<p>Released on 2026-07-11.</p>
-<p><code>media-use</code>&#39;s HeyGen resolves now tag whether a call went through the free (OAuth) or paid (API-key) path and classify failures into stable reasons, with a test-isolation fix so local runs can&#39;t reach the production telemetry endpoint. <code>hyperframes skills update</code> now converges when a skill has been retired or renamed upstream — it no longer fails with <code>Skill(s) still missing after install</code> or loops on <code>No matching skills found</code>, and reconciles the orphaned skill away instead.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Media Use:</strong> Usage telemetry for HeyGen conversion (<a href="https://github.com/heygen-com/hyperframes/commit/521f2c9ba7016f08ea3ad7fff4a97d323363eedb">521f2c9ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2130">#2130</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Make skills update converge on a skill retired upstream (<a href="https://github.com/heygen-com/hyperframes/commit/b1f1c0571e0dbbc6f12ccfde68345349704ee86e">b1f1c0571</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2176">#2176</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.50...v0.7.51">https://github.com/heygen-com/hyperframes/compare/v0.7.50...v0.7.51</a></p>
 ]]></content:encoded>
         </item>
     </channel>
