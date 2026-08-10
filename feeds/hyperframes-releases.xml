@@ -4,11 +4,39 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 09 Aug 2026 10:18:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Aug 2026 00:24:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.104]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.104</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.104</guid>
+            <pubDate>Mon, 10 Aug 2026 00:24:38 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.104</h1>
+<p>Released on 2026-08-10.</p>
+<p>Selecting and moving elements in Studio&#39;s canvas now behaves the way it looks. Multi-selection sticks, a dragged group lands where you dropped it, a resized element keeps its size, and editing no longer flashes the preview.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Canvas selection, drag and resize correctness (<a href="https://github.com/heygen-com/hyperframes/commit/17ac986bfe0fffbbc8aac2a68b9e9814f561b562">17ac986bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3146">#3146</a>).</li>
+<li><strong>Studio:</strong> Stop a Studio edit from reloading the preview (<a href="https://github.com/heygen-com/hyperframes/commit/bea32b8aae5bd9008c5fbe453a17a8a4588365ba">bea32b8aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3137">#3137</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104">https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.104</h1>
+<p>Released on 2026-08-10.</p>
+<p>Selecting and moving elements in Studio&#39;s canvas now behaves the way it looks. Multi-selection sticks, a dragged group lands where you dropped it, a resized element keeps its size, and editing no longer flashes the preview.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Canvas selection, drag and resize correctness (<a href="https://github.com/heygen-com/hyperframes/commit/17ac986bfe0fffbbc8aac2a68b9e9814f561b562">17ac986bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3146">#3146</a>).</li>
+<li><strong>Studio:</strong> Stop a Studio edit from reloading the preview (<a href="https://github.com/heygen-com/hyperframes/commit/bea32b8aae5bd9008c5fbe453a17a8a4588365ba">bea32b8aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3137">#3137</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104">https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.103]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.103</link>
@@ -3445,76 +3473,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.53...v0.7.54">https://github.com/heygen-com/hyperframes/compare/v0.7.53...v0.7.54</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.53]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.53</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.53</guid>
-            <pubDate>Sat, 11 Jul 2026 20:03:18 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.53</h1>
-<p>Released on 2026-07-11.</p>
-<p>This release makes studio manual editing safe for color-graded compositions: edits no longer bake runtime opacity transients into tween bounds (the &quot;element disappears after editing&quot; bug), resize and rotate commit clean per-group values, selecting an element no longer rewrites or destroys its authored clip-path, and the crop tool draws in the element&#39;s rotated frame. The GSAP writers also stop accumulating duplicate keys in saved compositions.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Draw the crop UI in the element&#39;s rotated frame (<a href="https://github.com/heygen-com/hyperframes/commit/39f33bd3a3bcd2ea20980bca1e871bbc9c6592f3">39f33bd3a</a>)</li>
-<li><strong>Studio:</strong> Address review findings on graded-element editing (<a href="https://github.com/heygen-com/hyperframes/commit/5d1cafff8225177ee1ae99da85a0ce0ce4e5babd">5d1cafff8</a>)</li>
-<li><strong>Studio:</strong> Crop restore value is owned by the lifted element&#39;s gesture (<a href="https://github.com/heygen-com/hyperframes/commit/b7fddd548acf1d268294a7fe71adc9a946ccaa40">b7fddd548</a>)</li>
-<li><strong>Core:</strong> Make timing masks safe for source loaders (<a href="https://github.com/heygen-com/hyperframes/commit/179c942cd2bb3fb37236368fa33b16c4c1ad58a0">179c942cd</a>)</li>
-<li><strong>Lint:</strong> Anchor the opacity-zero probe so 0.98 stops matching (<a href="https://github.com/heygen-com/hyperframes/commit/fe529667283ad07a2f3cd8440e285ad3d0fc8937">fe5296672</a>)</li>
-<li><strong>Parsers:</strong> Never emit duplicate vars keys in either writer (<a href="https://github.com/heygen-com/hyperframes/commit/90d77d016ffb75264491bfebb4c227072904d63d">90d77d016</a>)</li>
-<li><strong>Studio:</strong> Route panel property commits to a group-owning set (<a href="https://github.com/heygen-com/hyperframes/commit/066c3dae37bbe3397cfc35642076dd30da9743f3">066c3dae3</a>)</li>
-<li><strong>Studio:</strong> Crop tool stands down for clips it cannot edit (<a href="https://github.com/heygen-com/hyperframes/commit/cbfb6ba943ea458bb79f89bbc0611cd81c817831">cbfb6ba94</a>)</li>
-<li><strong>Studio:</strong> Correct gesture commits for scaled and graded elements (<a href="https://github.com/heygen-com/hyperframes/commit/3525c7ff52139a5d63093f7a8863e7fb8ff980e6">3525c7ff5</a>)</li>
-<li><strong>Studio:</strong> Stop tween re-inits from baking runtime opacity transients (<a href="https://github.com/heygen-com/hyperframes/commit/5cc14c2221bb6262ddd0631c9f2df1891f266217">5cc14c222</a>)</li>
-<li><strong>Core:</strong> Capture authored inline opacity at parse time and follow source geometry (<a href="https://github.com/heygen-com/hyperframes/commit/3147c8e063a72d999447aca8bb0528480bdcd043">3147c8e06</a>)</li>
-<li><strong>Product Launch:</strong> Hoist approved frame videos during assembly (<a href="https://github.com/heygen-com/hyperframes/commit/2aadf450e718497ac4b0edb7286cf4c8f3da06bc">2aadf450e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2226">#2226</a>)</li>
-<li><strong>Hooks:</strong> Scope pre-commit build check to target repo, fix stale symlinks (<a href="https://github.com/heygen-com/hyperframes/commit/522d7c93b7acb16c6ade1376040237ff615dca7b">522d7c93b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2175">#2175</a>)</li>
-<li><strong>Lint:</strong> Parse HTML structure without regex (<a href="https://github.com/heygen-com/hyperframes/commit/05c3b5503faf5da1efe5d64985b63db3f762f765">05c3b5503</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2223">#2223</a>)</li>
-<li><strong>Telemetry:</strong> Expose stalled render stages (<a href="https://github.com/heygen-com/hyperframes/commit/87618eef4c65aff78f99f94246c60114a579af0f">87618eef4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2220">#2220</a>)</li>
-<li><strong>Lint:</strong> Flag digit-leading element ids (<a href="https://github.com/heygen-com/hyperframes/commit/d51fa7eba2e369fd6212cdc59ebaef71e2024f7e">d51fa7eba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2222">#2222</a>)</li>
-<li><strong>CLI:</strong> Correct strict warning hint (<a href="https://github.com/heygen-com/hyperframes/commit/5f22209a82afbdf3c2a8d1a788b94e9aeeaac689">5f22209a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2221">#2221</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Address review nits (<a href="https://github.com/heygen-com/hyperframes/commit/67cfae2587e15b0dd6a064d9fdbd4790831905cf">67cfae258</a>)</li>
-<li><strong>Producer:</strong> Gate source tests by execution lane (<a href="https://github.com/heygen-com/hyperframes/commit/9e7b11998cb2727b05337f9133eae4647c979644">9e7b11998</a>)</li>
-<li><strong>Repo:</strong> Forbid tracked generated artifacts (<a href="https://github.com/heygen-com/hyperframes/commit/585aa9f6b24561fe45ea298787a291390ba8eea2">585aa9f6b</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.52...v0.7.53">https://github.com/heygen-com/hyperframes/compare/v0.7.52...v0.7.53</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.53</h1>
-<p>Released on 2026-07-11.</p>
-<p>This release makes studio manual editing safe for color-graded compositions: edits no longer bake runtime opacity transients into tween bounds (the &quot;element disappears after editing&quot; bug), resize and rotate commit clean per-group values, selecting an element no longer rewrites or destroys its authored clip-path, and the crop tool draws in the element&#39;s rotated frame. The GSAP writers also stop accumulating duplicate keys in saved compositions.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Draw the crop UI in the element&#39;s rotated frame (<a href="https://github.com/heygen-com/hyperframes/commit/39f33bd3a3bcd2ea20980bca1e871bbc9c6592f3">39f33bd3a</a>)</li>
-<li><strong>Studio:</strong> Address review findings on graded-element editing (<a href="https://github.com/heygen-com/hyperframes/commit/5d1cafff8225177ee1ae99da85a0ce0ce4e5babd">5d1cafff8</a>)</li>
-<li><strong>Studio:</strong> Crop restore value is owned by the lifted element&#39;s gesture (<a href="https://github.com/heygen-com/hyperframes/commit/b7fddd548acf1d268294a7fe71adc9a946ccaa40">b7fddd548</a>)</li>
-<li><strong>Core:</strong> Make timing masks safe for source loaders (<a href="https://github.com/heygen-com/hyperframes/commit/179c942cd2bb3fb37236368fa33b16c4c1ad58a0">179c942cd</a>)</li>
-<li><strong>Lint:</strong> Anchor the opacity-zero probe so 0.98 stops matching (<a href="https://github.com/heygen-com/hyperframes/commit/fe529667283ad07a2f3cd8440e285ad3d0fc8937">fe5296672</a>)</li>
-<li><strong>Parsers:</strong> Never emit duplicate vars keys in either writer (<a href="https://github.com/heygen-com/hyperframes/commit/90d77d016ffb75264491bfebb4c227072904d63d">90d77d016</a>)</li>
-<li><strong>Studio:</strong> Route panel property commits to a group-owning set (<a href="https://github.com/heygen-com/hyperframes/commit/066c3dae37bbe3397cfc35642076dd30da9743f3">066c3dae3</a>)</li>
-<li><strong>Studio:</strong> Crop tool stands down for clips it cannot edit (<a href="https://github.com/heygen-com/hyperframes/commit/cbfb6ba943ea458bb79f89bbc0611cd81c817831">cbfb6ba94</a>)</li>
-<li><strong>Studio:</strong> Correct gesture commits for scaled and graded elements (<a href="https://github.com/heygen-com/hyperframes/commit/3525c7ff52139a5d63093f7a8863e7fb8ff980e6">3525c7ff5</a>)</li>
-<li><strong>Studio:</strong> Stop tween re-inits from baking runtime opacity transients (<a href="https://github.com/heygen-com/hyperframes/commit/5cc14c2221bb6262ddd0631c9f2df1891f266217">5cc14c222</a>)</li>
-<li><strong>Core:</strong> Capture authored inline opacity at parse time and follow source geometry (<a href="https://github.com/heygen-com/hyperframes/commit/3147c8e063a72d999447aca8bb0528480bdcd043">3147c8e06</a>)</li>
-<li><strong>Product Launch:</strong> Hoist approved frame videos during assembly (<a href="https://github.com/heygen-com/hyperframes/commit/2aadf450e718497ac4b0edb7286cf4c8f3da06bc">2aadf450e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2226">#2226</a>)</li>
-<li><strong>Hooks:</strong> Scope pre-commit build check to target repo, fix stale symlinks (<a href="https://github.com/heygen-com/hyperframes/commit/522d7c93b7acb16c6ade1376040237ff615dca7b">522d7c93b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2175">#2175</a>)</li>
-<li><strong>Lint:</strong> Parse HTML structure without regex (<a href="https://github.com/heygen-com/hyperframes/commit/05c3b5503faf5da1efe5d64985b63db3f762f765">05c3b5503</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2223">#2223</a>)</li>
-<li><strong>Telemetry:</strong> Expose stalled render stages (<a href="https://github.com/heygen-com/hyperframes/commit/87618eef4c65aff78f99f94246c60114a579af0f">87618eef4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2220">#2220</a>)</li>
-<li><strong>Lint:</strong> Flag digit-leading element ids (<a href="https://github.com/heygen-com/hyperframes/commit/d51fa7eba2e369fd6212cdc59ebaef71e2024f7e">d51fa7eba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2222">#2222</a>)</li>
-<li><strong>CLI:</strong> Correct strict warning hint (<a href="https://github.com/heygen-com/hyperframes/commit/5f22209a82afbdf3c2a8d1a788b94e9aeeaac689">5f22209a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2221">#2221</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Address review nits (<a href="https://github.com/heygen-com/hyperframes/commit/67cfae2587e15b0dd6a064d9fdbd4790831905cf">67cfae258</a>)</li>
-<li><strong>Producer:</strong> Gate source tests by execution lane (<a href="https://github.com/heygen-com/hyperframes/commit/9e7b11998cb2727b05337f9133eae4647c979644">9e7b11998</a>)</li>
-<li><strong>Repo:</strong> Forbid tracked generated artifacts (<a href="https://github.com/heygen-com/hyperframes/commit/585aa9f6b24561fe45ea298787a291390ba8eea2">585aa9f6b</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.52...v0.7.53">https://github.com/heygen-com/hyperframes/compare/v0.7.52...v0.7.53</a></p>
 ]]></content:encoded>
         </item>
     </channel>
