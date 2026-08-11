@@ -4,11 +4,63 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 11 Aug 2026 02:57:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 20:23:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.107]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.107</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.107</guid>
+            <pubDate>Tue, 11 Aug 2026 20:23:56 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.107</h1>
+<p>Released on 2026-08-11.</p>
+<p>Studio can now edit and style rich text directly in the preview, including mixed selections and partial character ranges. Feedback prompts now appear after renders, while playback, capture, and editing fixes improve reliability.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Show every colour of a mixed selection in the swatch (<a href="https://github.com/heygen-com/hyperframes/commit/896bc336a2eb058fa7cd21e6686b3c6a23879d28">896bc336a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3144">#3144</a>).</li>
+<li><strong>Studio:</strong> Edit and style text in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/4cc46f5f9f6ba063bcebcc663a9b04c008f119d4">4cc46f5f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3143">#3143</a>).</li>
+<li><strong>Studio:</strong> Apply a style to a run of characters (<a href="https://github.com/heygen-com/hyperframes/commit/cb73c8dc2e0d9c6b911044de0e0d7fb5fbb49752">cb73c8dc2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3142">#3142</a>).</li>
+<li><strong>Core:</strong> Sanitize rich text on the way into a composition (<a href="https://github.com/heygen-com/hyperframes/commit/636dc042a7b773d9038b6bea589b4118051764c5">636dc042a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3141">#3141</a>).</li>
+<li><strong>Studio:</strong> Ask for feedback when a render ends, not on a session counter (<a href="https://github.com/heygen-com/hyperframes/commit/20d915938b33301d78402407d167841f8da3e9a5">20d915938</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3205">#3205</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills:</strong> Stop embedded-captions shipping author-only paths; dedupe slideshow (<a href="https://github.com/heygen-com/hyperframes/commit/d3a4e9037096c0234c58b44fcbcc7df87ba8958b">d3a4e9037</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3225">#3225</a>).</li>
+<li><strong>Capture:</strong> Fall back from networkidle2 to domcontentloaded on nav timeout (<a href="https://github.com/heygen-com/hyperframes/commit/7860d19433e45507c9544f6e6b542e7e572e47c9">7860d1943</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3224">#3224</a>).</li>
+<li><strong>Studio:</strong> Match the write receipt in dev, so an edit stops reloading the preview (<a href="https://github.com/heygen-com/hyperframes/commit/fceb376551093be69e918786532d88eb63a2d07c">fceb37655</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3206">#3206</a>).</li>
+<li><strong>Producer:</strong> Mix audio into a container that can record encoder delay (<a href="https://github.com/heygen-com/hyperframes/commit/dc4383113cfad3677d016b457cce8b4d41ff7b9c">dc4383113</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3200">#3200</a>).</li>
+<li><strong>Core:</strong> Key the preview volume envelope to the clip, not the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/eee9b26fb78a6bf3a80e81d6077f7fd93aeca150">eee9b26fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3198">#3198</a>).</li>
+<li><strong>Core:</strong> Stop a graded plate painting through an inactive clip (<a href="https://github.com/heygen-com/hyperframes/commit/91f14958cc449f95a412993373077a6f53fabc1a">91f14958c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3196">#3196</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.106...v0.7.107">https://github.com/heygen-com/hyperframes/compare/v0.7.106...v0.7.107</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.107</h1>
+<p>Released on 2026-08-11.</p>
+<p>Studio can now edit and style rich text directly in the preview, including mixed selections and partial character ranges. Feedback prompts now appear after renders, while playback, capture, and editing fixes improve reliability.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Show every colour of a mixed selection in the swatch (<a href="https://github.com/heygen-com/hyperframes/commit/896bc336a2eb058fa7cd21e6686b3c6a23879d28">896bc336a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3144">#3144</a>).</li>
+<li><strong>Studio:</strong> Edit and style text in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/4cc46f5f9f6ba063bcebcc663a9b04c008f119d4">4cc46f5f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3143">#3143</a>).</li>
+<li><strong>Studio:</strong> Apply a style to a run of characters (<a href="https://github.com/heygen-com/hyperframes/commit/cb73c8dc2e0d9c6b911044de0e0d7fb5fbb49752">cb73c8dc2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3142">#3142</a>).</li>
+<li><strong>Core:</strong> Sanitize rich text on the way into a composition (<a href="https://github.com/heygen-com/hyperframes/commit/636dc042a7b773d9038b6bea589b4118051764c5">636dc042a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3141">#3141</a>).</li>
+<li><strong>Studio:</strong> Ask for feedback when a render ends, not on a session counter (<a href="https://github.com/heygen-com/hyperframes/commit/20d915938b33301d78402407d167841f8da3e9a5">20d915938</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3205">#3205</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills:</strong> Stop embedded-captions shipping author-only paths; dedupe slideshow (<a href="https://github.com/heygen-com/hyperframes/commit/d3a4e9037096c0234c58b44fcbcc7df87ba8958b">d3a4e9037</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3225">#3225</a>).</li>
+<li><strong>Capture:</strong> Fall back from networkidle2 to domcontentloaded on nav timeout (<a href="https://github.com/heygen-com/hyperframes/commit/7860d19433e45507c9544f6e6b542e7e572e47c9">7860d1943</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3224">#3224</a>).</li>
+<li><strong>Studio:</strong> Match the write receipt in dev, so an edit stops reloading the preview (<a href="https://github.com/heygen-com/hyperframes/commit/fceb376551093be69e918786532d88eb63a2d07c">fceb37655</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3206">#3206</a>).</li>
+<li><strong>Producer:</strong> Mix audio into a container that can record encoder delay (<a href="https://github.com/heygen-com/hyperframes/commit/dc4383113cfad3677d016b457cce8b4d41ff7b9c">dc4383113</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3200">#3200</a>).</li>
+<li><strong>Core:</strong> Key the preview volume envelope to the clip, not the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/eee9b26fb78a6bf3a80e81d6077f7fd93aeca150">eee9b26fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3198">#3198</a>).</li>
+<li><strong>Core:</strong> Stop a graded plate painting through an inactive clip (<a href="https://github.com/heygen-com/hyperframes/commit/91f14958cc449f95a412993373077a6f53fabc1a">91f14958c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3196">#3196</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.106...v0.7.107">https://github.com/heygen-com/hyperframes/compare/v0.7.106...v0.7.107</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.106]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.106</link>
@@ -3367,58 +3419,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.56...v0.7.57">https://github.com/heygen-com/hyperframes/compare/v0.7.56...v0.7.57</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.56]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.56</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.56</guid>
-            <pubDate>Mon, 13 Jul 2026 07:09:09 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.56</h1>
-<p>Released on 2026-07-13.</p>
-<p>Studio now uses the rebuilt NLE editor, with a unified timeline, richer asset previews, and safer multi-selection, drag, resize, crop, split, and z-order workflows. Editing actions now settle and persist as atomic transactions, so one gesture produces one undo step and failed writes restore the prior state instead of leaving partial changes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Rebuilt the editor shell, timeline lanes, asset browser, media thumbnails, preview overlays, and Blocks workflow around the new NLE experience (<a href="https://github.com/heygen-com/hyperframes/commit/df29fa7a5e43203a989a2ed00c00b5f0e45cee4c">df29fa7a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2291">#2291</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Made edit commits atomic and corrected undo, razor split, group drag, z-order, instant-hold resize/rotate, overlay geometry, crop flicker, and stale-failure behavior (<a href="https://github.com/heygen-com/hyperframes/commit/df29fa7a5e43203a989a2ed00c00b5f0e45cee4c">df29fa7a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2291">#2291</a>)</li>
-<li><strong>Producer:</strong> Avoid duplicate local-font embedding when multiple references resolve to the same file (<a href="https://github.com/heygen-com/hyperframes/commit/9940503102c1f26e2ef8f43e75c013b555883696">994050310</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2317">#2317</a>)</li>
-<li><strong>Render:</strong> Allow an explicit composition entry to render without a project-level <code>index.html</code> (<a href="https://github.com/heygen-com/hyperframes/commit/796d5df15671050472578eb3add54a0982f311b3">796d5df15</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2307">#2307</a>)</li>
-<li><strong>Media Use:</strong> Recognize derived video outputs during ingest (<a href="https://github.com/heygen-com/hyperframes/commit/7c0dcb0b14d65658e7b4eb3fa714a86347313e7a">7c0dcb0b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2310">#2310</a>)</li>
-<li><strong>Render:</strong> Scope strict linting to the composition selected for rendering (<a href="https://github.com/heygen-com/hyperframes/commit/38badff820a2790b03c83ad643373dcbb76140fc">38badff82</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2261">#2261</a>)</li>
-<li><strong>Media Use:</strong> Fall back to bundled sound effects when the HeyGen CLI is missing or outdated (<a href="https://github.com/heygen-com/hyperframes/commit/2e34a2d5a0a14b5653b5a4f6dc109e8869a2e768">2e34a2d5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2257">#2257</a>)</li>
-<li><strong>CLI:</strong> Detect video-driven motion during frozen-frame checks (<a href="https://github.com/heygen-com/hyperframes/commit/44653b31da5621e7b8ae273e8b82dc32ae7acf43">44653b31d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2308">#2308</a>)</li>
-<li><strong>Check:</strong> Snapshot restored text state after contrast audits (<a href="https://github.com/heygen-com/hyperframes/commit/b861afe454e2291bb3b2c57c1945a87bf3e8a535">b861afe45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2306">#2306</a>)</li>
-<li><strong>Render:</strong> Stream long captures on memory-constrained machines instead of buffering the full frame set (<a href="https://github.com/heygen-com/hyperframes/commit/9c0c1f99d4f4475b8779c29d76bdbf96cd9ee47f">9c0c1f99d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2245">#2245</a>)</li>
-<li><strong>Render:</strong> Reject incomplete captured frames before they reach encoding (<a href="https://github.com/heygen-com/hyperframes/commit/995885484ff88ac8cc1863bbe61ebbd9ab5a2368">995885484</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2293">#2293</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56">https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.56</h1>
-<p>Released on 2026-07-13.</p>
-<p>Studio now uses the rebuilt NLE editor, with a unified timeline, richer asset previews, and safer multi-selection, drag, resize, crop, split, and z-order workflows. Editing actions now settle and persist as atomic transactions, so one gesture produces one undo step and failed writes restore the prior state instead of leaving partial changes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Rebuilt the editor shell, timeline lanes, asset browser, media thumbnails, preview overlays, and Blocks workflow around the new NLE experience (<a href="https://github.com/heygen-com/hyperframes/commit/df29fa7a5e43203a989a2ed00c00b5f0e45cee4c">df29fa7a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2291">#2291</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Made edit commits atomic and corrected undo, razor split, group drag, z-order, instant-hold resize/rotate, overlay geometry, crop flicker, and stale-failure behavior (<a href="https://github.com/heygen-com/hyperframes/commit/df29fa7a5e43203a989a2ed00c00b5f0e45cee4c">df29fa7a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2291">#2291</a>)</li>
-<li><strong>Producer:</strong> Avoid duplicate local-font embedding when multiple references resolve to the same file (<a href="https://github.com/heygen-com/hyperframes/commit/9940503102c1f26e2ef8f43e75c013b555883696">994050310</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2317">#2317</a>)</li>
-<li><strong>Render:</strong> Allow an explicit composition entry to render without a project-level <code>index.html</code> (<a href="https://github.com/heygen-com/hyperframes/commit/796d5df15671050472578eb3add54a0982f311b3">796d5df15</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2307">#2307</a>)</li>
-<li><strong>Media Use:</strong> Recognize derived video outputs during ingest (<a href="https://github.com/heygen-com/hyperframes/commit/7c0dcb0b14d65658e7b4eb3fa714a86347313e7a">7c0dcb0b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2310">#2310</a>)</li>
-<li><strong>Render:</strong> Scope strict linting to the composition selected for rendering (<a href="https://github.com/heygen-com/hyperframes/commit/38badff820a2790b03c83ad643373dcbb76140fc">38badff82</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2261">#2261</a>)</li>
-<li><strong>Media Use:</strong> Fall back to bundled sound effects when the HeyGen CLI is missing or outdated (<a href="https://github.com/heygen-com/hyperframes/commit/2e34a2d5a0a14b5653b5a4f6dc109e8869a2e768">2e34a2d5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2257">#2257</a>)</li>
-<li><strong>CLI:</strong> Detect video-driven motion during frozen-frame checks (<a href="https://github.com/heygen-com/hyperframes/commit/44653b31da5621e7b8ae273e8b82dc32ae7acf43">44653b31d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2308">#2308</a>)</li>
-<li><strong>Check:</strong> Snapshot restored text state after contrast audits (<a href="https://github.com/heygen-com/hyperframes/commit/b861afe454e2291bb3b2c57c1945a87bf3e8a535">b861afe45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2306">#2306</a>)</li>
-<li><strong>Render:</strong> Stream long captures on memory-constrained machines instead of buffering the full frame set (<a href="https://github.com/heygen-com/hyperframes/commit/9c0c1f99d4f4475b8779c29d76bdbf96cd9ee47f">9c0c1f99d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2245">#2245</a>)</li>
-<li><strong>Render:</strong> Reject incomplete captured frames before they reach encoding (<a href="https://github.com/heygen-com/hyperframes/commit/995885484ff88ac8cc1863bbe61ebbd9ab5a2368">995885484</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2293">#2293</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56">https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56</a></p>
 ]]></content:encoded>
         </item>
     </channel>
