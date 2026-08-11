@@ -4,11 +4,87 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 10 Aug 2026 15:12:40 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Aug 2026 02:57:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.106]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.106</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.106</guid>
+            <pubDate>Tue, 11 Aug 2026 02:57:49 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.106</h1>
+<p>Released on 2026-08-11.</p>
+<p>Catalog pages now play the real composition in the player instead of a recorded video. The sidebar groups 358 items under eight sections you can open.</p>
+<p>Every item with variables gets a panel you can change. The preview rebuilds with your values, a link keeps them, and the install command copies with them attached. Reinstalling an item no longer overwrites your edits.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Read the rotate property when measuring an element&#39;s angle (<a href="https://github.com/heygen-com/hyperframes/commit/3e5be0e8c30812e45d302f24dc5aecd3d135ef04">3e5be0e8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3163">#3163</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-08-03–2026-08-10 (<a href="https://github.com/heygen-com/hyperframes/commit/945988d61facb36ae1a7e27519db2acb3c84fced">945988d61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3154">#3154</a>).</li>
+<li><strong>Studio:</strong> Write down what Studio does not tell you about itself (<a href="https://github.com/heygen-com/hyperframes/commit/604f02b31a4e5950262066cf39adbc01d65bbade">604f02b31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3165">#3165</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Put the variables panel back, on payloads (<a href="https://github.com/heygen-com/hyperframes/commit/1ae2067b8da54555889f09f05b826fc791c5ec4c">1ae2067b8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3199">#3199</a>).</li>
+<li><strong>Catalog:</strong> Group the sidebar by what you came to make (<a href="https://github.com/heygen-com/hyperframes/commit/ce18acf075d56e44ebe6382edffc8f3baa96c2c8">ce18acf07</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3194">#3194</a>).</li>
+<li><strong>CLI:</strong> Keep your edits when you reinstall a catalog item (<a href="https://github.com/heygen-com/hyperframes/commit/0c33b2dc7ab711ebd9c124ce44535d36d47da748">0c33b2dc7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3193">#3193</a>).</li>
+<li><strong>Registry:</strong> Bring back the video-primitive moves (<a href="https://github.com/heygen-com/hyperframes/commit/9734578e6065d6dec8993c4e30a978263c3eaa8b">9734578e6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3169">#3169</a>).</li>
+<li><strong>Catalog:</strong> Keep the recorded video for canvas drawElement previews (<a href="https://github.com/heygen-com/hyperframes/commit/0f763051910f9b38ada67a0f3699a0a75f00b22a">0f7630519</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3171">#3171</a>).</li>
+<li><strong>Catalog:</strong> Resolve assets a script loads by name (<a href="https://github.com/heygen-com/hyperframes/commit/470f802d9f387b0a6e77e25d0b199bf9c16e68f0">470f802d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3170">#3170</a>).</li>
+<li><strong>Catalog:</strong> Play the real composition on catalog pages (<a href="https://github.com/heygen-com/hyperframes/commit/536165b6ef1ad2fbd5d799a4a43fe0f31495852f">536165b6e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3168">#3168</a>).</li>
+<li><strong>Media Use:</strong> Derive provider cost tier from the registry (<a href="https://github.com/heygen-com/hyperframes/commit/6de29f5beabf29545c1c70e97530d4cf24542c5b">6de29f5be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3155">#3155</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Regenerate the skills manifest (<a href="https://github.com/heygen-com/hyperframes/commit/0156b5688da70690770ec8dd5253482d0b82c7df">0156b5688</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3203">#3203</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li><strong>Studio:</strong> Format AGENTS.md (<a href="https://github.com/heygen-com/hyperframes/commit/a58ebf610bc56dcced7505c706e031cc8fd36d3c">a58ebf610</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3167">#3167</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.105...v0.7.106">https://github.com/heygen-com/hyperframes/compare/v0.7.105...v0.7.106</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.106</h1>
+<p>Released on 2026-08-11.</p>
+<p>Catalog pages now play the real composition in the player instead of a recorded video. The sidebar groups 358 items under eight sections you can open.</p>
+<p>Every item with variables gets a panel you can change. The preview rebuilds with your values, a link keeps them, and the install command copies with them attached. Reinstalling an item no longer overwrites your edits.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Read the rotate property when measuring an element&#39;s angle (<a href="https://github.com/heygen-com/hyperframes/commit/3e5be0e8c30812e45d302f24dc5aecd3d135ef04">3e5be0e8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3163">#3163</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-08-03–2026-08-10 (<a href="https://github.com/heygen-com/hyperframes/commit/945988d61facb36ae1a7e27519db2acb3c84fced">945988d61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3154">#3154</a>).</li>
+<li><strong>Studio:</strong> Write down what Studio does not tell you about itself (<a href="https://github.com/heygen-com/hyperframes/commit/604f02b31a4e5950262066cf39adbc01d65bbade">604f02b31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3165">#3165</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Put the variables panel back, on payloads (<a href="https://github.com/heygen-com/hyperframes/commit/1ae2067b8da54555889f09f05b826fc791c5ec4c">1ae2067b8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3199">#3199</a>).</li>
+<li><strong>Catalog:</strong> Group the sidebar by what you came to make (<a href="https://github.com/heygen-com/hyperframes/commit/ce18acf075d56e44ebe6382edffc8f3baa96c2c8">ce18acf07</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3194">#3194</a>).</li>
+<li><strong>CLI:</strong> Keep your edits when you reinstall a catalog item (<a href="https://github.com/heygen-com/hyperframes/commit/0c33b2dc7ab711ebd9c124ce44535d36d47da748">0c33b2dc7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3193">#3193</a>).</li>
+<li><strong>Registry:</strong> Bring back the video-primitive moves (<a href="https://github.com/heygen-com/hyperframes/commit/9734578e6065d6dec8993c4e30a978263c3eaa8b">9734578e6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3169">#3169</a>).</li>
+<li><strong>Catalog:</strong> Keep the recorded video for canvas drawElement previews (<a href="https://github.com/heygen-com/hyperframes/commit/0f763051910f9b38ada67a0f3699a0a75f00b22a">0f7630519</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3171">#3171</a>).</li>
+<li><strong>Catalog:</strong> Resolve assets a script loads by name (<a href="https://github.com/heygen-com/hyperframes/commit/470f802d9f387b0a6e77e25d0b199bf9c16e68f0">470f802d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3170">#3170</a>).</li>
+<li><strong>Catalog:</strong> Play the real composition on catalog pages (<a href="https://github.com/heygen-com/hyperframes/commit/536165b6ef1ad2fbd5d799a4a43fe0f31495852f">536165b6e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3168">#3168</a>).</li>
+<li><strong>Media Use:</strong> Derive provider cost tier from the registry (<a href="https://github.com/heygen-com/hyperframes/commit/6de29f5beabf29545c1c70e97530d4cf24542c5b">6de29f5be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3155">#3155</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Regenerate the skills manifest (<a href="https://github.com/heygen-com/hyperframes/commit/0156b5688da70690770ec8dd5253482d0b82c7df">0156b5688</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3203">#3203</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li><strong>Studio:</strong> Format AGENTS.md (<a href="https://github.com/heygen-com/hyperframes/commit/a58ebf610bc56dcced7505c706e031cc8fd36d3c">a58ebf610</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3167">#3167</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.105...v0.7.106">https://github.com/heygen-com/hyperframes/compare/v0.7.105...v0.7.106</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.105]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.105</link>
@@ -3343,82 +3419,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56">https://github.com/heygen-com/hyperframes/compare/v0.7.55...v0.7.56</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.55]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.55</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.55</guid>
-            <pubDate>Sun, 12 Jul 2026 18:57:06 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.55</h1>
-<p>Released on 2026-07-12.</p>
-<p>Studio gains a real timeline collision-and-placement model (snapping, stacking sync, seek-restore on reload). On the render side, several capture-correctness fixes land: software-GPU and distributed video renders no longer clip a black band off the bottom edge, and the experimental parallel drawElement router now fails over to the pinned screenshot path in seconds instead of hanging on a stalled worker.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Timeline collision and placement model (<a href="https://github.com/heygen-com/hyperframes/commit/44ffe4b41f991c8866d310b760cc17597d5e0434">44ffe4b41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2279">#2279</a>)</li>
-<li><strong>Studio:</strong> Timeline collision and placement model (<a href="https://github.com/heygen-com/hyperframes/commit/7f21d5dc49c50386bb4351f13758cff1a6e4bdab">7f21d5dc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2195">#2195</a>)</li>
-<li><strong>Studio Server:</strong> Files route extensions (<a href="https://github.com/heygen-com/hyperframes/commit/c15819fe8846402efdf0dc70c7e1fb4fd875fe86">c15819fe8</a>)</li>
-<li><strong>Studio:</strong> Seek-restore contract for player reloads (<a href="https://github.com/heygen-com/hyperframes/commit/3930460c517e0f3d8c404f707931bccab561052e">3930460c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2193">#2193</a>)</li>
-<li><strong>Studio:</strong> Timeline leaf helpers — audio inspector, zoom math, UI prefs (<a href="https://github.com/heygen-com/hyperframes/commit/920dad35ebb162e7b7940a640aec57ead96986f1">920dad35e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2192">#2192</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Stop clipping the bottom edge of software-GPU video renders (<a href="https://github.com/heygen-com/hyperframes/commit/de95daa096d9f75860472dfc4742cf5a8769a807">de95daa09</a>)</li>
-<li><strong>Producer:</strong> Fall back fast when the parallel DE streaming capture stalls (<a href="https://github.com/heygen-com/hyperframes/commit/07fb35c375955bba690889b0ac9ce706a9067b06">07fb35c37</a>)</li>
-<li><strong>CLI:</strong> Stop losing render telemetry to the exit race (<a href="https://github.com/heygen-com/hyperframes/commit/ccf5f20b3beea2b245c398a89cb686077b546de2">ccf5f20b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2105">#2105</a>)</li>
-<li><strong>CLI:</strong> Grant s3 encryption actions in lambda policies user output (<a href="https://github.com/heygen-com/hyperframes/commit/f1f317a20cbcdd1386d90676eefecdf84bf1685c">f1f317a20</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2289">#2289</a>)</li>
-<li><strong>Core:</strong> Enforce strict runtime safety (<a href="https://github.com/heygen-com/hyperframes/commit/0af07a07c5368b857fde0cd8cc9c8d788a39fab9">0af07a07c</a>)</li>
-<li><strong>Studio:</strong> Continuation of #2281 (<a href="https://github.com/heygen-com/hyperframes/commit/ebbd1eb2c2bcec72ea79bee98538312d021e32ce">ebbd1eb2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2287">#2287</a>)</li>
-<li><strong>Studio:</strong> Continuation of #2277 (<a href="https://github.com/heygen-com/hyperframes/commit/c6a508a9bc1b7fc94544eba06dcb677bab334b0b">c6a508a9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2286">#2286</a>)</li>
-<li><strong>Studio:</strong> Continuation of #2280 (<a href="https://github.com/heygen-com/hyperframes/commit/8e5b18f7400b5df72731672961d395d017366c55">8e5b18f74</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2285">#2285</a>)</li>
-<li><strong>Studio:</strong> Stacking sync (<a href="https://github.com/heygen-com/hyperframes/commit/e464b33bb3b52fe26755cb4585a6279f028ba1bc">e464b33bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2270">#2270</a>)</li>
-<li><strong>Studio:</strong> Timeline snapping (<a href="https://github.com/heygen-com/hyperframes/commit/345f715c3f7a88c61522a87818880b7a0dbe784c">345f715c3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2269">#2269</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Tell agents to file reproducible render bugs, not paraphrases (<a href="https://github.com/heygen-com/hyperframes/commit/6a3da1f624c7a6f0e67228d9ee5f9cf0771d2f7b">6a3da1f62</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Repo:</strong> Enforce workspace contracts (<a href="https://github.com/heygen-com/hyperframes/commit/83db364f81f2f800c74ebd43eaaaaa25d194c1c7">83db364f8</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.54...v0.7.55">https://github.com/heygen-com/hyperframes/compare/v0.7.54...v0.7.55</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.55</h1>
-<p>Released on 2026-07-12.</p>
-<p>Studio gains a real timeline collision-and-placement model (snapping, stacking sync, seek-restore on reload). On the render side, several capture-correctness fixes land: software-GPU and distributed video renders no longer clip a black band off the bottom edge, and the experimental parallel drawElement router now fails over to the pinned screenshot path in seconds instead of hanging on a stalled worker.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Timeline collision and placement model (<a href="https://github.com/heygen-com/hyperframes/commit/44ffe4b41f991c8866d310b760cc17597d5e0434">44ffe4b41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2279">#2279</a>)</li>
-<li><strong>Studio:</strong> Timeline collision and placement model (<a href="https://github.com/heygen-com/hyperframes/commit/7f21d5dc49c50386bb4351f13758cff1a6e4bdab">7f21d5dc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2195">#2195</a>)</li>
-<li><strong>Studio Server:</strong> Files route extensions (<a href="https://github.com/heygen-com/hyperframes/commit/c15819fe8846402efdf0dc70c7e1fb4fd875fe86">c15819fe8</a>)</li>
-<li><strong>Studio:</strong> Seek-restore contract for player reloads (<a href="https://github.com/heygen-com/hyperframes/commit/3930460c517e0f3d8c404f707931bccab561052e">3930460c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2193">#2193</a>)</li>
-<li><strong>Studio:</strong> Timeline leaf helpers — audio inspector, zoom math, UI prefs (<a href="https://github.com/heygen-com/hyperframes/commit/920dad35ebb162e7b7940a640aec57ead96986f1">920dad35e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2192">#2192</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Stop clipping the bottom edge of software-GPU video renders (<a href="https://github.com/heygen-com/hyperframes/commit/de95daa096d9f75860472dfc4742cf5a8769a807">de95daa09</a>)</li>
-<li><strong>Producer:</strong> Fall back fast when the parallel DE streaming capture stalls (<a href="https://github.com/heygen-com/hyperframes/commit/07fb35c375955bba690889b0ac9ce706a9067b06">07fb35c37</a>)</li>
-<li><strong>CLI:</strong> Stop losing render telemetry to the exit race (<a href="https://github.com/heygen-com/hyperframes/commit/ccf5f20b3beea2b245c398a89cb686077b546de2">ccf5f20b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2105">#2105</a>)</li>
-<li><strong>CLI:</strong> Grant s3 encryption actions in lambda policies user output (<a href="https://github.com/heygen-com/hyperframes/commit/f1f317a20cbcdd1386d90676eefecdf84bf1685c">f1f317a20</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2289">#2289</a>)</li>
-<li><strong>Core:</strong> Enforce strict runtime safety (<a href="https://github.com/heygen-com/hyperframes/commit/0af07a07c5368b857fde0cd8cc9c8d788a39fab9">0af07a07c</a>)</li>
-<li><strong>Studio:</strong> Continuation of #2281 (<a href="https://github.com/heygen-com/hyperframes/commit/ebbd1eb2c2bcec72ea79bee98538312d021e32ce">ebbd1eb2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2287">#2287</a>)</li>
-<li><strong>Studio:</strong> Continuation of #2277 (<a href="https://github.com/heygen-com/hyperframes/commit/c6a508a9bc1b7fc94544eba06dcb677bab334b0b">c6a508a9b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2286">#2286</a>)</li>
-<li><strong>Studio:</strong> Continuation of #2280 (<a href="https://github.com/heygen-com/hyperframes/commit/8e5b18f7400b5df72731672961d395d017366c55">8e5b18f74</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2285">#2285</a>)</li>
-<li><strong>Studio:</strong> Stacking sync (<a href="https://github.com/heygen-com/hyperframes/commit/e464b33bb3b52fe26755cb4585a6279f028ba1bc">e464b33bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2270">#2270</a>)</li>
-<li><strong>Studio:</strong> Timeline snapping (<a href="https://github.com/heygen-com/hyperframes/commit/345f715c3f7a88c61522a87818880b7a0dbe784c">345f715c3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2269">#2269</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Tell agents to file reproducible render bugs, not paraphrases (<a href="https://github.com/heygen-com/hyperframes/commit/6a3da1f624c7a6f0e67228d9ee5f9cf0771d2f7b">6a3da1f62</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Repo:</strong> Enforce workspace contracts (<a href="https://github.com/heygen-com/hyperframes/commit/83db364f81f2f800c74ebd43eaaaaa25d194c1c7">83db364f8</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.54...v0.7.55">https://github.com/heygen-com/hyperframes/compare/v0.7.54...v0.7.55</a></p>
 ]]></content:encoded>
         </item>
     </channel>
