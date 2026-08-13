@@ -4,11 +4,175 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 11 Aug 2026 20:23:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Aug 2026 22:15:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.7.108]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.108</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.108</guid>
+            <pubDate>Thu, 13 Aug 2026 22:15:32 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.7.108</h1>
+<p>Released on 2026-08-13.</p>
+<p>Studio can now automate any effect parameter with keyframed lanes, complete with copy, retime, and reshape tools. The full audio FX rack ships behind a staged rollout, so it isn&#39;t visible yet.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Instrument the audio FX rack, including work an agent did (<a href="https://github.com/heygen-com/hyperframes/commit/d6c4774ef41c54f66dc02c6dd433facee822a8f8">d6c4774ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3229">#3229</a>).</li>
+<li><strong>Studio:</strong> Fold a preset shut, and give each one its own title design (<a href="https://github.com/heygen-com/hyperframes/commit/e3ec48adce494d40d787cd4cbca6464a3b53362f">e3ec48adc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3191">#3191</a>).</li>
+<li>Switch a preset off, or ramp it, as one thing (<a href="https://github.com/heygen-com/hyperframes/commit/acdb11250ce3bb97a70cdd63d080968900a2f003">acdb11250</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3189">#3189</a>).</li>
+<li>One knob for the five effects that cannot honestly have one (<a href="https://github.com/heygen-com/hyperframes/commit/29f516d490c00697594f3b88a565d69115b7af12">29f516d49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3188">#3188</a>).</li>
+<li><strong>Studio:</strong> Family lettering, tints, and the rack as a signal path (<a href="https://github.com/heygen-com/hyperframes/commit/2020b82c9b8f2d2050b5b11c76bdb27323d64e07">2020b82c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3187">#3187</a>).</li>
+<li><strong>Studio:</strong> Two faces, and the shared frequency ruler (<a href="https://github.com/heygen-com/hyperframes/commit/96fd4d061ecddef59e3949b4fb3e30d51209bd76">96fd4d061</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3186">#3186</a>).</li>
+<li>Offer the job, not the machine — the range IS the module (<a href="https://github.com/heygen-com/hyperframes/commit/31fa523b7ed71c6fbbc0c4b2558fb83bf636fc88">31fa523b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3185">#3185</a>).</li>
+<li><strong>Studio:</strong> Make the FX rack speak the author&#39;s language (<a href="https://github.com/heygen-com/hyperframes/commit/0e4da52c8222b8d18a1211b34f2fb3bd0f7e79ee">0e4da52c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3192">#3192</a>).</li>
+<li><strong>Core:</strong> Land the plain-language layer, and test that it covers the rack (<a href="https://github.com/heygen-com/hyperframes/commit/27cdd4d5b1684afae16f96fe3e4af30c73178e1a">27cdd4d5b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3184">#3184</a>).</li>
+<li><strong>Core:</strong> The levelling script — &quot;Even Out Levels&quot; (<a href="https://github.com/heygen-com/hyperframes/commit/71066fc25ba362a18d52ba0648b6b279e9ee3206">71066fc25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3180">#3180</a>).</li>
+<li><strong>Studio:</strong> The Tone module — a multi-band EQ on faders (<a href="https://github.com/heygen-com/hyperframes/commit/818a7b281b44182b6a4e47b7f30f92df332f62a2">818a7b281</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3179">#3179</a>).</li>
+<li><strong>Core:</strong> Name every preset node, and add a multi-band EQ over existing filters (<a href="https://github.com/heygen-com/hyperframes/commit/9f676205239a4e1ce03498223ef9f6ce5448aeec">9f6762052</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3178">#3178</a>).</li>
+<li><strong>Studio:</strong> Give the clips on a track one automation lane row (<a href="https://github.com/heygen-com/hyperframes/commit/9b18fa7a26bd5e7b4f8b4b4e10c984585767620b">9b18fa7a2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3214">#3214</a>).</li>
+<li><strong>Studio:</strong> The carve is one module in the rack (<a href="https://github.com/heygen-com/hyperframes/commit/d18cbcb7f31862a37b9051b85ebb562f104a516c">d18cbcb7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3213">#3213</a>).</li>
+<li><strong>Studio:</strong> Show every automated knob at the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/7d38fed97fd50f70e5a67229250a186baac98d3c">7d38fed97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3210">#3210</a>).</li>
+<li><strong>Studio:</strong> Retime and edge-stretch an automation selection (<a href="https://github.com/heygen-com/hyperframes/commit/120ea37c2fbd7202a443b94c0ff21c1ee7a63996">120ea37c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3207">#3207</a>).</li>
+<li><strong>Studio:</strong> Copy and paste automation ranges across lanes (<a href="https://github.com/heygen-com/hyperframes/commit/c7c95e2f018efa961b7a5e06fb142a98fd14ecc9">c7c95e2f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3056">#3056</a>).</li>
+<li><strong>Studio:</strong> Shape and simplify an automation selection (<a href="https://github.com/heygen-com/hyperframes/commit/64a85e775a2259938e24d2fc7dc279c402397761">64a85e775</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3055">#3055</a>).</li>
+<li><strong>Studio:</strong> Select a time range on an automation lane (<a href="https://github.com/heygen-com/hyperframes/commit/3670e9a921ddcbcd84e5d448faec5b08fca0ba40">3670e9a92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3050">#3050</a>).</li>
+<li><strong>Studio:</strong> Curve, snap and type a value in an automation lane (<a href="https://github.com/heygen-com/hyperframes/commit/e465a07a322db8a63fc757bda5a53a842a0c269f">e465a07a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3038">#3038</a>).</li>
+<li><strong>Engine:</strong> Let an FX tail decay instead of cutting it at the clip (<a href="https://github.com/heygen-com/hyperframes/commit/6a0e409fc2704683613b0a94cc734635dd9ded94">6a0e409fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3036">#3036</a>).</li>
+<li><strong>Studio:</strong> Automate and un-automate each effect parameter (<a href="https://github.com/heygen-com/hyperframes/commit/32f29721d2fd9ab7e85c0cf87108aa2c1b9859a9">32f29721d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3026">#3026</a>).</li>
+<li><strong>Studio:</strong> Automate a parameter without reloading the preview (<a href="https://github.com/heygen-com/hyperframes/commit/7203e0a73ca9f51cde74f0820bc31fed16454972">7203e0a73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3025">#3025</a>).</li>
+<li><strong>Studio:</strong> The automation lane itself (<a href="https://github.com/heygen-com/hyperframes/commit/0d3c0246d00fe1cfb33492581fc06c5d0abf17ba">0d3c0246d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3024">#3024</a>).</li>
+<li><strong>Studio:</strong> The geometry and plumbing behind automation lanes (<a href="https://github.com/heygen-com/hyperframes/commit/3cfacf440d4d0631618df48ed50cd06f42922db6">3cfacf440</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3023">#3023</a>).</li>
+<li><strong>Audio:</strong> Play automation envelopes in preview and bake them at render (<a href="https://github.com/heygen-com/hyperframes/commit/23ba58cfd33a5a5ec627e2e88d65da2cbc43a55c">23ba58cfd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3016">#3016</a>).</li>
+<li><strong>Audio:</strong> Automation envelope model (<a href="https://github.com/heygen-com/hyperframes/commit/fd97926cf67e860330624072050043c2bc03ccfe">fd97926cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3015">#3015</a>).</li>
+<li><strong>Audio:</strong> Hear the FX chain while previewing (<a href="https://github.com/heygen-com/hyperframes/commit/9b0c5e85596efaf93823bf5f19b7f1d1216ca7d5">9b0c5e855</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3014">#3014</a>).</li>
+<li><strong>Engine:</strong> Render the FX chain offline, and the carve analysis behind it (<a href="https://github.com/heygen-com/hyperframes/commit/cc40e35aa0995c2731c4d34a4502d45927997a2d">cc40e35aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3021">#3021</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Audition from the playhead while paused, and let an author out of a menu (<a href="https://github.com/heygen-com/hyperframes/commit/6bcf739390842dc00f94ba1e99f2baea1b989717">6bcf73939</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3190">#3190</a>).</li>
+<li><strong>Core:</strong> Give the chorus and phaser LFOs a phase, and unwire them on dispose (<a href="https://github.com/heygen-com/hyperframes/commit/b839dbd2cc2c7e6e1da432fd8c000cf9e897375c">b839dbd2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3183">#3183</a>).</li>
+<li><strong>Core:</strong> Retire worklet processors, retry failed registration, reuse FFT scratch (<a href="https://github.com/heygen-com/hyperframes/commit/f6cf3b242bf425b6149a42c9708f287ddc36d905">f6cf3b242</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3175">#3175</a>).</li>
+<li><strong>Engine:</strong> Duck before quantising, chunk the PCM, reschedule on rate change (<a href="https://github.com/heygen-com/hyperframes/commit/ea0344122c22b6e82828216b8ce72e08afef3b46">ea0344122</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3174">#3174</a>).</li>
+<li><strong>Audio:</strong> Eleven small correctness fixes across engine, core and the panel (<a href="https://github.com/heygen-com/hyperframes/commit/95751d6b10c44c982ce1aeed97b4abb44a7bb7d7">95751d6b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3173">#3173</a>).</li>
+<li><strong>Studio:</strong> The shared-row follow-ups (<a href="https://github.com/heygen-com/hyperframes/commit/df57ad4bace78f97bef51d9b1dc32ec1f6ded431">df57ad4ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3215">#3215</a>).</li>
+<li><strong>Core:</strong> Make audio automation survive being rescheduled (<a href="https://github.com/heygen-com/hyperframes/commit/69face9dc6a8faab5c728860cc7a3f7170d17e07">69face9dc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3208">#3208</a>).</li>
+<li><strong>Core:</strong> Escape <code>&lt;</code> in compiler-emitted composition variable CSS (<a href="https://github.com/heygen-com/hyperframes/commit/f9a20692f8a0ee10330d0a95de1abd422e92d74a">f9a20692f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3072">#3072</a>).</li>
+<li><strong>Core:</strong> Escape <code>&lt;</code> in the compiler-emitted variables script (<a href="https://github.com/heygen-com/hyperframes/commit/91db93aa345a8dfc2b68ec0ac18c81065a805cd9">91db93aa3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3071">#3071</a>).</li>
+<li><strong>Audio:</strong> Two things the envelopes needed to be heard at all (<a href="https://github.com/heygen-com/hyperframes/commit/2c41a74ff72bcfe21cbb9beb02c07de6fe247019">2c41a74ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3017">#3017</a>).</li>
+<li><strong>Capture:</strong> Bound scroll/evaluate timeouts so heavy pages keep capturing (<a href="https://github.com/heygen-com/hyperframes/commit/43dba22057e1fc131f6a2758e5ae3481b81efdc5">43dba2205</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3236">#3236</a>).</li>
+<li><strong>Fonts:</strong> Supplement alias faces from the canonical family (<a href="https://github.com/heygen-com/hyperframes/commit/a16222d9a278e93b0eff8ebbc62fef04e3c979e9">a16222d9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3230">#3230</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Add /hyperframes-audio, and key the waveform cache by file (<a href="https://github.com/heygen-com/hyperframes/commit/56d8df65ca0314f0089c366335c19cbf224546e2">56d8df65c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3211">#3211</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Core:</strong> The audio FX preset catalogue, and applying one from the rack (<a href="https://github.com/heygen-com/hyperframes/commit/7d0d74dcae1bd9110f64f6836101fc25e2146500">7d0d74dca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3177">#3177</a>).</li>
+<li><strong>Catalog:</strong> Restore the caption texture preview (<a href="https://github.com/heygen-com/hyperframes/commit/cbd38b32f7a1cc38964e898991b8767d3a05506c">cbd38b32f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3258">#3258</a>).</li>
+<li><strong>Catalog:</strong> Center the menu morph preview (<a href="https://github.com/heygen-com/hyperframes/commit/c71fab322e555463bde94953a006a1c46c0c2a12">c71fab322</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3256">#3256</a>).</li>
+<li><strong>Catalog:</strong> Keep the text stagger preview inside the frame (<a href="https://github.com/heygen-com/hyperframes/commit/a2109a863319e6c603b3d5758bc4a180c7cff064">a2109a863</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3255">#3255</a>).</li>
+<li><strong>Catalog:</strong> Keep the animated bar chart preview in frame (<a href="https://github.com/heygen-com/hyperframes/commit/158f15e8f0739c08d72eca46b34904285dae09c5">158f15e8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3254">#3254</a>).</li>
+<li><strong>Catalog:</strong> Keep the typewriter preview inside the frame (<a href="https://github.com/heygen-com/hyperframes/commit/dc01a12d71022b60ee0d12cad74c46a2e8753f81">dc01a12d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3249">#3249</a>).</li>
+<li><strong>Studio:</strong> The FX panel, generated from the registry (<a href="https://github.com/heygen-com/hyperframes/commit/c2996c8626135db5253519359d8a063d3bafad8d">c2996c862</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3022">#3022</a>).</li>
+<li><strong>Registry:</strong> Add ChatGPT and Claude exchange templates (<a href="https://github.com/heygen-com/hyperframes/commit/0474d4ae266ccc4b482ed6631fc46fb2dd19b1af">0474d4ae2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3244">#3244</a>).</li>
+<li>Simplify the Catalog overview with a section tour (<a href="https://github.com/heygen-com/hyperframes/commit/9b1232965201baae4764c470edd33878a0c1ceef">9b1232965</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3240">#3240</a>).</li>
+<li><strong>Core:</strong> Web Audio graphs for the FX registry (<a href="https://github.com/heygen-com/hyperframes/commit/2350f9b69b10c32ec12d0f84800133aa5173804e">2350f9b69</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3020">#3020</a>).</li>
+<li><strong>Core:</strong> The audio FX registry (<a href="https://github.com/heygen-com/hyperframes/commit/5752d224929f00ac2fa2757df02339f781cdd6fa">5752d2249</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3019">#3019</a>).</li>
+<li><strong>Registry:</strong> Normalize ai chat portrait canvas (<a href="https://github.com/heygen-com/hyperframes/commit/93fbb6d7fd3e4c925927df994bf7cbab8d223d92">93fbb6d7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3235">#3235</a>).</li>
+<li><strong>Registry:</strong> Align notes reveal typing (<a href="https://github.com/heygen-com/hyperframes/commit/c69692464ea42d5d4c4ff878f60e0642f25e419e">c69692464</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3234">#3234</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Lift the effect row out of the FX section file (<a href="https://github.com/heygen-com/hyperframes/commit/2f97fc2b89c67725a03b70f95e2510e0bc90b3a3">2f97fc2b8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3182">#3182</a>).</li>
+<li><strong>Studio:</strong> Lift the carve out of the FX section file (<a href="https://github.com/heygen-com/hyperframes/commit/c327740c79e2cb448a26cc1b848c45d4b3ecd7ed">c327740c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3181">#3181</a>).</li>
+<li><strong>Audio:</strong> The review&#39;s cleanup list, and the design record behind the rack (<a href="https://github.com/heygen-com/hyperframes/commit/fd4d41153c76f25f50feb4f4c3b380787cbfb136">fd4d41153</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3176">#3176</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.107...v0.7.108">https://github.com/heygen-com/hyperframes/compare/v0.7.107...v0.7.108</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.7.108</h1>
+<p>Released on 2026-08-13.</p>
+<p>Studio can now automate any effect parameter with keyframed lanes, complete with copy, retime, and reshape tools. The full audio FX rack ships behind a staged rollout, so it isn&#39;t visible yet.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Instrument the audio FX rack, including work an agent did (<a href="https://github.com/heygen-com/hyperframes/commit/d6c4774ef41c54f66dc02c6dd433facee822a8f8">d6c4774ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3229">#3229</a>).</li>
+<li><strong>Studio:</strong> Fold a preset shut, and give each one its own title design (<a href="https://github.com/heygen-com/hyperframes/commit/e3ec48adce494d40d787cd4cbca6464a3b53362f">e3ec48adc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3191">#3191</a>).</li>
+<li>Switch a preset off, or ramp it, as one thing (<a href="https://github.com/heygen-com/hyperframes/commit/acdb11250ce3bb97a70cdd63d080968900a2f003">acdb11250</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3189">#3189</a>).</li>
+<li>One knob for the five effects that cannot honestly have one (<a href="https://github.com/heygen-com/hyperframes/commit/29f516d490c00697594f3b88a565d69115b7af12">29f516d49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3188">#3188</a>).</li>
+<li><strong>Studio:</strong> Family lettering, tints, and the rack as a signal path (<a href="https://github.com/heygen-com/hyperframes/commit/2020b82c9b8f2d2050b5b11c76bdb27323d64e07">2020b82c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3187">#3187</a>).</li>
+<li><strong>Studio:</strong> Two faces, and the shared frequency ruler (<a href="https://github.com/heygen-com/hyperframes/commit/96fd4d061ecddef59e3949b4fb3e30d51209bd76">96fd4d061</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3186">#3186</a>).</li>
+<li>Offer the job, not the machine — the range IS the module (<a href="https://github.com/heygen-com/hyperframes/commit/31fa523b7ed71c6fbbc0c4b2558fb83bf636fc88">31fa523b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3185">#3185</a>).</li>
+<li><strong>Studio:</strong> Make the FX rack speak the author&#39;s language (<a href="https://github.com/heygen-com/hyperframes/commit/0e4da52c8222b8d18a1211b34f2fb3bd0f7e79ee">0e4da52c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3192">#3192</a>).</li>
+<li><strong>Core:</strong> Land the plain-language layer, and test that it covers the rack (<a href="https://github.com/heygen-com/hyperframes/commit/27cdd4d5b1684afae16f96fe3e4af30c73178e1a">27cdd4d5b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3184">#3184</a>).</li>
+<li><strong>Core:</strong> The levelling script — &quot;Even Out Levels&quot; (<a href="https://github.com/heygen-com/hyperframes/commit/71066fc25ba362a18d52ba0648b6b279e9ee3206">71066fc25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3180">#3180</a>).</li>
+<li><strong>Studio:</strong> The Tone module — a multi-band EQ on faders (<a href="https://github.com/heygen-com/hyperframes/commit/818a7b281b44182b6a4e47b7f30f92df332f62a2">818a7b281</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3179">#3179</a>).</li>
+<li><strong>Core:</strong> Name every preset node, and add a multi-band EQ over existing filters (<a href="https://github.com/heygen-com/hyperframes/commit/9f676205239a4e1ce03498223ef9f6ce5448aeec">9f6762052</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3178">#3178</a>).</li>
+<li><strong>Studio:</strong> Give the clips on a track one automation lane row (<a href="https://github.com/heygen-com/hyperframes/commit/9b18fa7a26bd5e7b4f8b4b4e10c984585767620b">9b18fa7a2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3214">#3214</a>).</li>
+<li><strong>Studio:</strong> The carve is one module in the rack (<a href="https://github.com/heygen-com/hyperframes/commit/d18cbcb7f31862a37b9051b85ebb562f104a516c">d18cbcb7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3213">#3213</a>).</li>
+<li><strong>Studio:</strong> Show every automated knob at the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/7d38fed97fd50f70e5a67229250a186baac98d3c">7d38fed97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3210">#3210</a>).</li>
+<li><strong>Studio:</strong> Retime and edge-stretch an automation selection (<a href="https://github.com/heygen-com/hyperframes/commit/120ea37c2fbd7202a443b94c0ff21c1ee7a63996">120ea37c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3207">#3207</a>).</li>
+<li><strong>Studio:</strong> Copy and paste automation ranges across lanes (<a href="https://github.com/heygen-com/hyperframes/commit/c7c95e2f018efa961b7a5e06fb142a98fd14ecc9">c7c95e2f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3056">#3056</a>).</li>
+<li><strong>Studio:</strong> Shape and simplify an automation selection (<a href="https://github.com/heygen-com/hyperframes/commit/64a85e775a2259938e24d2fc7dc279c402397761">64a85e775</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3055">#3055</a>).</li>
+<li><strong>Studio:</strong> Select a time range on an automation lane (<a href="https://github.com/heygen-com/hyperframes/commit/3670e9a921ddcbcd84e5d448faec5b08fca0ba40">3670e9a92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3050">#3050</a>).</li>
+<li><strong>Studio:</strong> Curve, snap and type a value in an automation lane (<a href="https://github.com/heygen-com/hyperframes/commit/e465a07a322db8a63fc757bda5a53a842a0c269f">e465a07a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3038">#3038</a>).</li>
+<li><strong>Engine:</strong> Let an FX tail decay instead of cutting it at the clip (<a href="https://github.com/heygen-com/hyperframes/commit/6a0e409fc2704683613b0a94cc734635dd9ded94">6a0e409fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3036">#3036</a>).</li>
+<li><strong>Studio:</strong> Automate and un-automate each effect parameter (<a href="https://github.com/heygen-com/hyperframes/commit/32f29721d2fd9ab7e85c0cf87108aa2c1b9859a9">32f29721d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3026">#3026</a>).</li>
+<li><strong>Studio:</strong> Automate a parameter without reloading the preview (<a href="https://github.com/heygen-com/hyperframes/commit/7203e0a73ca9f51cde74f0820bc31fed16454972">7203e0a73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3025">#3025</a>).</li>
+<li><strong>Studio:</strong> The automation lane itself (<a href="https://github.com/heygen-com/hyperframes/commit/0d3c0246d00fe1cfb33492581fc06c5d0abf17ba">0d3c0246d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3024">#3024</a>).</li>
+<li><strong>Studio:</strong> The geometry and plumbing behind automation lanes (<a href="https://github.com/heygen-com/hyperframes/commit/3cfacf440d4d0631618df48ed50cd06f42922db6">3cfacf440</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3023">#3023</a>).</li>
+<li><strong>Audio:</strong> Play automation envelopes in preview and bake them at render (<a href="https://github.com/heygen-com/hyperframes/commit/23ba58cfd33a5a5ec627e2e88d65da2cbc43a55c">23ba58cfd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3016">#3016</a>).</li>
+<li><strong>Audio:</strong> Automation envelope model (<a href="https://github.com/heygen-com/hyperframes/commit/fd97926cf67e860330624072050043c2bc03ccfe">fd97926cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3015">#3015</a>).</li>
+<li><strong>Audio:</strong> Hear the FX chain while previewing (<a href="https://github.com/heygen-com/hyperframes/commit/9b0c5e85596efaf93823bf5f19b7f1d1216ca7d5">9b0c5e855</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3014">#3014</a>).</li>
+<li><strong>Engine:</strong> Render the FX chain offline, and the carve analysis behind it (<a href="https://github.com/heygen-com/hyperframes/commit/cc40e35aa0995c2731c4d34a4502d45927997a2d">cc40e35aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3021">#3021</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Audition from the playhead while paused, and let an author out of a menu (<a href="https://github.com/heygen-com/hyperframes/commit/6bcf739390842dc00f94ba1e99f2baea1b989717">6bcf73939</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3190">#3190</a>).</li>
+<li><strong>Core:</strong> Give the chorus and phaser LFOs a phase, and unwire them on dispose (<a href="https://github.com/heygen-com/hyperframes/commit/b839dbd2cc2c7e6e1da432fd8c000cf9e897375c">b839dbd2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3183">#3183</a>).</li>
+<li><strong>Core:</strong> Retire worklet processors, retry failed registration, reuse FFT scratch (<a href="https://github.com/heygen-com/hyperframes/commit/f6cf3b242bf425b6149a42c9708f287ddc36d905">f6cf3b242</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3175">#3175</a>).</li>
+<li><strong>Engine:</strong> Duck before quantising, chunk the PCM, reschedule on rate change (<a href="https://github.com/heygen-com/hyperframes/commit/ea0344122c22b6e82828216b8ce72e08afef3b46">ea0344122</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3174">#3174</a>).</li>
+<li><strong>Audio:</strong> Eleven small correctness fixes across engine, core and the panel (<a href="https://github.com/heygen-com/hyperframes/commit/95751d6b10c44c982ce1aeed97b4abb44a7bb7d7">95751d6b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3173">#3173</a>).</li>
+<li><strong>Studio:</strong> The shared-row follow-ups (<a href="https://github.com/heygen-com/hyperframes/commit/df57ad4bace78f97bef51d9b1dc32ec1f6ded431">df57ad4ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3215">#3215</a>).</li>
+<li><strong>Core:</strong> Make audio automation survive being rescheduled (<a href="https://github.com/heygen-com/hyperframes/commit/69face9dc6a8faab5c728860cc7a3f7170d17e07">69face9dc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3208">#3208</a>).</li>
+<li><strong>Core:</strong> Escape <code>&lt;</code> in compiler-emitted composition variable CSS (<a href="https://github.com/heygen-com/hyperframes/commit/f9a20692f8a0ee10330d0a95de1abd422e92d74a">f9a20692f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3072">#3072</a>).</li>
+<li><strong>Core:</strong> Escape <code>&lt;</code> in the compiler-emitted variables script (<a href="https://github.com/heygen-com/hyperframes/commit/91db93aa345a8dfc2b68ec0ac18c81065a805cd9">91db93aa3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3071">#3071</a>).</li>
+<li><strong>Audio:</strong> Two things the envelopes needed to be heard at all (<a href="https://github.com/heygen-com/hyperframes/commit/2c41a74ff72bcfe21cbb9beb02c07de6fe247019">2c41a74ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3017">#3017</a>).</li>
+<li><strong>Capture:</strong> Bound scroll/evaluate timeouts so heavy pages keep capturing (<a href="https://github.com/heygen-com/hyperframes/commit/43dba22057e1fc131f6a2758e5ae3481b81efdc5">43dba2205</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3236">#3236</a>).</li>
+<li><strong>Fonts:</strong> Supplement alias faces from the canonical family (<a href="https://github.com/heygen-com/hyperframes/commit/a16222d9a278e93b0eff8ebbc62fef04e3c979e9">a16222d9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3230">#3230</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Add /hyperframes-audio, and key the waveform cache by file (<a href="https://github.com/heygen-com/hyperframes/commit/56d8df65ca0314f0089c366335c19cbf224546e2">56d8df65c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3211">#3211</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Core:</strong> The audio FX preset catalogue, and applying one from the rack (<a href="https://github.com/heygen-com/hyperframes/commit/7d0d74dcae1bd9110f64f6836101fc25e2146500">7d0d74dca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3177">#3177</a>).</li>
+<li><strong>Catalog:</strong> Restore the caption texture preview (<a href="https://github.com/heygen-com/hyperframes/commit/cbd38b32f7a1cc38964e898991b8767d3a05506c">cbd38b32f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3258">#3258</a>).</li>
+<li><strong>Catalog:</strong> Center the menu morph preview (<a href="https://github.com/heygen-com/hyperframes/commit/c71fab322e555463bde94953a006a1c46c0c2a12">c71fab322</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3256">#3256</a>).</li>
+<li><strong>Catalog:</strong> Keep the text stagger preview inside the frame (<a href="https://github.com/heygen-com/hyperframes/commit/a2109a863319e6c603b3d5758bc4a180c7cff064">a2109a863</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3255">#3255</a>).</li>
+<li><strong>Catalog:</strong> Keep the animated bar chart preview in frame (<a href="https://github.com/heygen-com/hyperframes/commit/158f15e8f0739c08d72eca46b34904285dae09c5">158f15e8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3254">#3254</a>).</li>
+<li><strong>Catalog:</strong> Keep the typewriter preview inside the frame (<a href="https://github.com/heygen-com/hyperframes/commit/dc01a12d71022b60ee0d12cad74c46a2e8753f81">dc01a12d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3249">#3249</a>).</li>
+<li><strong>Studio:</strong> The FX panel, generated from the registry (<a href="https://github.com/heygen-com/hyperframes/commit/c2996c8626135db5253519359d8a063d3bafad8d">c2996c862</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3022">#3022</a>).</li>
+<li><strong>Registry:</strong> Add ChatGPT and Claude exchange templates (<a href="https://github.com/heygen-com/hyperframes/commit/0474d4ae266ccc4b482ed6631fc46fb2dd19b1af">0474d4ae2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3244">#3244</a>).</li>
+<li>Simplify the Catalog overview with a section tour (<a href="https://github.com/heygen-com/hyperframes/commit/9b1232965201baae4764c470edd33878a0c1ceef">9b1232965</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3240">#3240</a>).</li>
+<li><strong>Core:</strong> Web Audio graphs for the FX registry (<a href="https://github.com/heygen-com/hyperframes/commit/2350f9b69b10c32ec12d0f84800133aa5173804e">2350f9b69</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3020">#3020</a>).</li>
+<li><strong>Core:</strong> The audio FX registry (<a href="https://github.com/heygen-com/hyperframes/commit/5752d224929f00ac2fa2757df02339f781cdd6fa">5752d2249</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3019">#3019</a>).</li>
+<li><strong>Registry:</strong> Normalize ai chat portrait canvas (<a href="https://github.com/heygen-com/hyperframes/commit/93fbb6d7fd3e4c925927df994bf7cbab8d223d92">93fbb6d7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3235">#3235</a>).</li>
+<li><strong>Registry:</strong> Align notes reveal typing (<a href="https://github.com/heygen-com/hyperframes/commit/c69692464ea42d5d4c4ff878f60e0642f25e419e">c69692464</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3234">#3234</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Lift the effect row out of the FX section file (<a href="https://github.com/heygen-com/hyperframes/commit/2f97fc2b89c67725a03b70f95e2510e0bc90b3a3">2f97fc2b8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3182">#3182</a>).</li>
+<li><strong>Studio:</strong> Lift the carve out of the FX section file (<a href="https://github.com/heygen-com/hyperframes/commit/c327740c79e2cb448a26cc1b848c45d4b3ecd7ed">c327740c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3181">#3181</a>).</li>
+<li><strong>Audio:</strong> The review&#39;s cleanup list, and the design record behind the rack (<a href="https://github.com/heygen-com/hyperframes/commit/fd4d41153c76f25f50feb4f4c3b380787cbfb136">fd4d41153</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3176">#3176</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.107...v0.7.108">https://github.com/heygen-com/hyperframes/compare/v0.7.107...v0.7.108</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.7.107]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.107</link>
@@ -3277,148 +3441,6 @@ installer text.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.57...v0.7.58">https://github.com/heygen-com/hyperframes/compare/v0.7.57...v0.7.58</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.57]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.57</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.57</guid>
-            <pubDate>Tue, 14 Jul 2026 04:33:00 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.57</h1>
-<p>Released on 2026-07-14.</p>
-<p><code>hyperframes publish</code> now returns a stable public URL: re-publishing updates the same link in place, and a <code>--space</code> flag plus a committable project file let a whole team publish to one shared URL. This release also keeps preview review sessions alive across reloads and tags HeyGen API calls with an <code>X-HeyGen-Client-Source</code> header.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Preview:</strong> Keep review sessions alive (<a href="https://github.com/heygen-com/hyperframes/commit/2a7a5e62361c178daf5f741ee6d0479b3c16c3e9">2a7a5e623</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2384">#2384</a>)</li>
-<li><strong>CLI:</strong> Stable public URL for hyperframes publish (re-publish updates the same link) (<a href="https://github.com/heygen-com/hyperframes/commit/4495cb7355bcbb401bcaa04355c817220ef0be48">4495cb735</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2363">#2363</a>)</li>
-<li><strong>Media Use:</strong> Tag HeyGen calls with X-HeyGen-Client-Source (<a href="https://github.com/heygen-com/hyperframes/commit/dd938c7a16dc0200fb46ff2037e07913d299a471">dd938c7a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2365">#2365</a>)</li>
-<li><strong>CLI:</strong> Tag HeyGen API calls with X-HeyGen-Client-Source (<a href="https://github.com/heygen-com/hyperframes/commit/746b6d5b7558220f213c8dae69e4175d3aa6445f">746b6d5b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2368">#2368</a>)</li>
-<li><strong>CLI:</strong> Coordinate-frame layout findings in check (<a href="https://github.com/heygen-com/hyperframes/commit/7f4eaeb56813640cfb026ff6392d3900dcc12715">7f4eaeb56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2354">#2354</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Release:</strong> Resolve packed-consumer transitive deps to local tarballs (<a href="https://github.com/heygen-com/hyperframes/commit/3dcc6e6a8021d081aa700f0fbf23e7545a610258">3dcc6e6a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2396">#2396</a>)</li>
-<li><strong>CLI:</strong> Require explicit non-interactive init source (<a href="https://github.com/heygen-com/hyperframes/commit/8bf7bc3af5242942ad7b7e8664dc5542fca775b2">8bf7bc3af</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2395">#2395</a>)</li>
-<li><strong>Engine,producer:</strong> Drive forceScreenshot from one authoritative local (<a href="https://github.com/heygen-com/hyperframes/commit/f44bc3a5253af417705b9a373a9f0338a58dae08">f44bc3a52</a>)</li>
-<li><strong>Engine:</strong> Carry programmatic forceScreenshot opt-out to concrete-resolved site (<a href="https://github.com/heygen-com/hyperframes/commit/72daac2a1d6785749e78f838114aa1283037f933">72daac2a1</a>)</li>
-<li><strong>Media Use:</strong> Tag avatar-video heygen recipes with X-HeyGen-Client-Source (<a href="https://github.com/heygen-com/hyperframes/commit/ca7c017e4986f07ea9da18db5dc817843bbf0826">ca7c017e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2391">#2391</a>)</li>
-<li><strong>Pr To Video:</strong> Enforce offline frame contract (<a href="https://github.com/heygen-com/hyperframes/commit/852d1891d3936d3976a66ec88ae8488c23dc1c4c">852d1891d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2383">#2383</a>)</li>
-<li><strong>Pr To Video:</strong> Bound first-run workspace and context (<a href="https://github.com/heygen-com/hyperframes/commit/fba5cb9c93e462c06afba79b2705ec5e38dffa71">fba5cb9c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2382">#2382</a>)</li>
-<li><strong>Lint:</strong> Isolate IIFE timing constants (<a href="https://github.com/heygen-com/hyperframes/commit/6f4c6308f01b5a4471c56833d291ad9bc2a02950">6f4c6308f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2378">#2378</a>)</li>
-<li><strong>CLI:</strong> Surface keyframes from scripts and styles inside <template> (<a href="https://github.com/heygen-com/hyperframes/commit/b231b6f963895bcef76a046a365404432f4b2c3e">b231b6f96</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2374">#2374</a>)</li>
-<li><strong>Render:</strong> Require HDR transfer metadata (<a href="https://github.com/heygen-com/hyperframes/commit/9639824f4edadd0a3768d68270513e20f0dcd3db">9639824f4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2377">#2377</a>)</li>
-<li><strong>CLI:</strong> Reject missing init example values (<a href="https://github.com/heygen-com/hyperframes/commit/3a020bf543dd97df4790370562f3daec5a9862a4">3a020bf54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2376">#2376</a>)</li>
-<li><strong>Studio:</strong> Address PR #2347 review findings (rounds 1-2) (<a href="https://github.com/heygen-com/hyperframes/commit/a33b3f35e1f4326354857f3e15051207efc6b528">a33b3f35e</a>)</li>
-<li><strong>Studio:</strong> Flashless z-order commits and visible-overlap stepping (<a href="https://github.com/heygen-com/hyperframes/commit/760b88a6f3d75ab492ce7ab4718abfe889c5c1eb">760b88a6f</a>)</li>
-<li><strong>Studio:</strong> Persist canvas z-order actions correctly for static elements (<a href="https://github.com/heygen-com/hyperframes/commit/84963ea8ba469f25466738294bf8cbeae12bf186">84963ea8b</a>)</li>
-<li><strong>Studio:</strong> Make vertical lane moves persist correctly and harden the z/lane pipeline (<a href="https://github.com/heygen-com/hyperframes/commit/19139b91edafba1d012738f666017c1b9a4e0251">19139b91e</a>)</li>
-<li><strong>Studio:</strong> Restore golden-branch timeline behaviors dropped by the stack rebuild (<a href="https://github.com/heygen-com/hyperframes/commit/54f41b41b6ffd63eb0eb862517178f3f8868007b">54f41b41b</a>)</li>
-<li><strong>Engine,producer:</strong> Apply software-GPU screenshot invariant at concrete-resolved point (<a href="https://github.com/heygen-com/hyperframes/commit/2e44602f99c882ecd050870354dd555becd73182">2e44602f9</a>)</li>
-<li><strong>Render:</strong> Surface structured outcomes (<a href="https://github.com/heygen-com/hyperframes/commit/cb69d3fe00da06168a43b6e23a88e93f8dc449cc">cb69d3fe0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2153">#2153</a>)</li>
-<li><strong>CLI:</strong> Skip contrast for intentionally covered text (<a href="https://github.com/heygen-com/hyperframes/commit/8e50e8477ffc4c266f6ee33371f00bbe460b245b">8e50e8477</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2366">#2366</a>)</li>
-<li><strong>CLI:</strong> Accept 1–3-frame short WebMs + add direct pixel-probe tests (<a href="https://github.com/heygen-com/hyperframes/commit/56dcc4e47a2cbd8ce60a0a92e89969ac3cacf746">56dcc4e47</a>)</li>
-<li><strong>CLI:</strong> Label the batch asset-import RENDER_FAILED with the images endpoint (<a href="https://github.com/heygen-com/hyperframes/commit/bd8ee05ae29c67f61934c43c1c334864e5f8ac31">bd8ee05ae</a>)</li>
-<li><strong>Core,cli:</strong> Attribute figma REST failures to the endpoint that failed (<a href="https://github.com/heygen-com/hyperframes/commit/4ca1552e20af5244f5d21a63aa4e3c0ed7165077">4ca1552e2</a>)</li>
-<li><strong>CLI:</strong> Detect WebM alpha lost when the ALPHA_MODE tag is written without side data (<a href="https://github.com/heygen-com/hyperframes/commit/b8562c91d5fea2155822739644404556b1051255">b8562c91d</a>)</li>
-<li><strong>Engine:</strong> Software-GPU browsers imply screenshot capture (<a href="https://github.com/heygen-com/hyperframes/commit/ba5168293f8d0db11ff2801814aacd7b8497df94">ba5168293</a>)</li>
-<li><strong>CLI:</strong> Occlusion-probe false positives — pointer-events blindness, low-alpha gradients, not-yet-entered text (<a href="https://github.com/heygen-com/hyperframes/commit/3e3b37d37fb330154480902fe39a4330107c3c98">3e3b37d37</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2357">#2357</a>)</li>
-<li><strong>Engine:</strong> Support current FFmpeg filter scripts (<a href="https://github.com/heygen-com/hyperframes/commit/3df59fc0a4410b2144362e95473e20c149184722">3df59fc0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2324">#2324</a>)</li>
-<li><strong>Browser:</strong> Recover abandoned install locks (<a href="https://github.com/heygen-com/hyperframes/commit/81a6edcb6734470e2a56b33f7367a4459032bef5">81a6edcb6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2328">#2328</a>)</li>
-<li><strong>Render:</strong> Retry explicit parallel capture timeouts (<a href="https://github.com/heygen-com/hyperframes/commit/5ff4ba13f42516491b19065daa753e9512660037">5ff4ba13f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2331">#2331</a>)</li>
-<li><strong>CLI:</strong> Declare Apache-2.0 license (<a href="https://github.com/heygen-com/hyperframes/commit/648e4e8c54edf7933ad872e1197194e2904cd939">648e4e8c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2351">#2351</a>)</li>
-<li><strong>Player:</strong> Own connection and media resources (<a href="https://github.com/heygen-com/hyperframes/commit/16942c0c12fab7e87876fa253432e29d85835db4">16942c0c1</a>)</li>
-<li><strong>Core:</strong> Preserve runtime transport contract (<a href="https://github.com/heygen-com/hyperframes/commit/cc3ca2f9f7f42ace95da0f7b1ec03d5c8115f2df">cc3ca2f9f</a>)</li>
-<li><strong>Player:</strong> Version runtime protocol (<a href="https://github.com/heygen-com/hyperframes/commit/dcefdd98ca4791cf4090fac78f172746c4a1bd92">dcefdd98c</a>)</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Producer:</strong> Cache local font compression (<a href="https://github.com/heygen-com/hyperframes/commit/3f6ea0a1ab3be45a64ae307c8a5af803ac9d0c85">3f6ea0a1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2397">#2397</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Media Use:</strong> Drop the HeyGen generative use-cases table (<a href="https://github.com/heygen-com/hyperframes/commit/6892b62662a65f8421a397fd75ae75bc12027512">6892b6266</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2370">#2370</a>)</li>
-<li><strong>Skills:</strong> Add cloud render + variables to CLI skill, media-use generative use cases (<a href="https://github.com/heygen-com/hyperframes/commit/78b9a814d54ffa11f6a5782d7a9fea8e0d073ebd">78b9a814d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2356">#2356</a>)</li>
-<li><strong>CLI:</strong> Sync SRT upload docs from EF (<a href="https://github.com/heygen-com/hyperframes/commit/74fb4dbcc36f5f5fb65fc8757457c718418bda0b">74fb4dbcc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2364">#2364</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> Write HDR fixture color tags into the H.264 VUI (<a href="https://github.com/heygen-com/hyperframes/commit/9ac4ab8dee6fad5a7a47b0c592567e6e1bd9a4ac">9ac4ab8de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2389">#2389</a>)</li>
-<li><strong>Studio:</strong> Delete-path duration rollback coverage, shared dismiss predicate on preview open (<a href="https://github.com/heygen-com/hyperframes/commit/512560b4c3d66f30307252765ab3e8d172bec1cc">512560b4c</a>)</li>
-<li><strong>Fallow:</strong> Allow sampledAlphaIsFullyOpaque test-only export (<a href="https://github.com/heygen-com/hyperframes/commit/c3b0b91feb6be5759a4217c869cc2975b72d63d6">c3b0b91fe</a>)</li>
-<li><strong>CLI:</strong> Stabilize flaky install-lock wait-notice test with fake timers (<a href="https://github.com/heygen-com/hyperframes/commit/e47af77c5a9e43524243833a054e61a5ffbd246e">e47af77c5</a>)</li>
-<li><strong>Repo:</strong> Verify packed consumers (<a href="https://github.com/heygen-com/hyperframes/commit/979e9d0902aa336bd8c1e91a61a3bb0be8bb0ddb">979e9d090</a>)</li>
-<li><strong>Ci:</strong> Stabilize Windows suites after Studio cutover (<a href="https://github.com/heygen-com/hyperframes/commit/758a6d215289cecea4d3c322b9b85d0b7c7ff1e2">758a6d215</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2320">#2320</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.56...v0.7.57">https://github.com/heygen-com/hyperframes/compare/v0.7.56...v0.7.57</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.57</h1>
-<p>Released on 2026-07-14.</p>
-<p><code>hyperframes publish</code> now returns a stable public URL: re-publishing updates the same link in place, and a <code>--space</code> flag plus a committable project file let a whole team publish to one shared URL. This release also keeps preview review sessions alive across reloads and tags HeyGen API calls with an <code>X-HeyGen-Client-Source</code> header.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Preview:</strong> Keep review sessions alive (<a href="https://github.com/heygen-com/hyperframes/commit/2a7a5e62361c178daf5f741ee6d0479b3c16c3e9">2a7a5e623</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2384">#2384</a>)</li>
-<li><strong>CLI:</strong> Stable public URL for hyperframes publish (re-publish updates the same link) (<a href="https://github.com/heygen-com/hyperframes/commit/4495cb7355bcbb401bcaa04355c817220ef0be48">4495cb735</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2363">#2363</a>)</li>
-<li><strong>Media Use:</strong> Tag HeyGen calls with X-HeyGen-Client-Source (<a href="https://github.com/heygen-com/hyperframes/commit/dd938c7a16dc0200fb46ff2037e07913d299a471">dd938c7a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2365">#2365</a>)</li>
-<li><strong>CLI:</strong> Tag HeyGen API calls with X-HeyGen-Client-Source (<a href="https://github.com/heygen-com/hyperframes/commit/746b6d5b7558220f213c8dae69e4175d3aa6445f">746b6d5b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2368">#2368</a>)</li>
-<li><strong>CLI:</strong> Coordinate-frame layout findings in check (<a href="https://github.com/heygen-com/hyperframes/commit/7f4eaeb56813640cfb026ff6392d3900dcc12715">7f4eaeb56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2354">#2354</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Release:</strong> Resolve packed-consumer transitive deps to local tarballs (<a href="https://github.com/heygen-com/hyperframes/commit/3dcc6e6a8021d081aa700f0fbf23e7545a610258">3dcc6e6a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2396">#2396</a>)</li>
-<li><strong>CLI:</strong> Require explicit non-interactive init source (<a href="https://github.com/heygen-com/hyperframes/commit/8bf7bc3af5242942ad7b7e8664dc5542fca775b2">8bf7bc3af</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2395">#2395</a>)</li>
-<li><strong>Engine,producer:</strong> Drive forceScreenshot from one authoritative local (<a href="https://github.com/heygen-com/hyperframes/commit/f44bc3a5253af417705b9a373a9f0338a58dae08">f44bc3a52</a>)</li>
-<li><strong>Engine:</strong> Carry programmatic forceScreenshot opt-out to concrete-resolved site (<a href="https://github.com/heygen-com/hyperframes/commit/72daac2a1d6785749e78f838114aa1283037f933">72daac2a1</a>)</li>
-<li><strong>Media Use:</strong> Tag avatar-video heygen recipes with X-HeyGen-Client-Source (<a href="https://github.com/heygen-com/hyperframes/commit/ca7c017e4986f07ea9da18db5dc817843bbf0826">ca7c017e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2391">#2391</a>)</li>
-<li><strong>Pr To Video:</strong> Enforce offline frame contract (<a href="https://github.com/heygen-com/hyperframes/commit/852d1891d3936d3976a66ec88ae8488c23dc1c4c">852d1891d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2383">#2383</a>)</li>
-<li><strong>Pr To Video:</strong> Bound first-run workspace and context (<a href="https://github.com/heygen-com/hyperframes/commit/fba5cb9c93e462c06afba79b2705ec5e38dffa71">fba5cb9c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2382">#2382</a>)</li>
-<li><strong>Lint:</strong> Isolate IIFE timing constants (<a href="https://github.com/heygen-com/hyperframes/commit/6f4c6308f01b5a4471c56833d291ad9bc2a02950">6f4c6308f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2378">#2378</a>)</li>
-<li><strong>CLI:</strong> Surface keyframes from scripts and styles inside <template> (<a href="https://github.com/heygen-com/hyperframes/commit/b231b6f963895bcef76a046a365404432f4b2c3e">b231b6f96</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2374">#2374</a>)</li>
-<li><strong>Render:</strong> Require HDR transfer metadata (<a href="https://github.com/heygen-com/hyperframes/commit/9639824f4edadd0a3768d68270513e20f0dcd3db">9639824f4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2377">#2377</a>)</li>
-<li><strong>CLI:</strong> Reject missing init example values (<a href="https://github.com/heygen-com/hyperframes/commit/3a020bf543dd97df4790370562f3daec5a9862a4">3a020bf54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2376">#2376</a>)</li>
-<li><strong>Studio:</strong> Address PR #2347 review findings (rounds 1-2) (<a href="https://github.com/heygen-com/hyperframes/commit/a33b3f35e1f4326354857f3e15051207efc6b528">a33b3f35e</a>)</li>
-<li><strong>Studio:</strong> Flashless z-order commits and visible-overlap stepping (<a href="https://github.com/heygen-com/hyperframes/commit/760b88a6f3d75ab492ce7ab4718abfe889c5c1eb">760b88a6f</a>)</li>
-<li><strong>Studio:</strong> Persist canvas z-order actions correctly for static elements (<a href="https://github.com/heygen-com/hyperframes/commit/84963ea8ba469f25466738294bf8cbeae12bf186">84963ea8b</a>)</li>
-<li><strong>Studio:</strong> Make vertical lane moves persist correctly and harden the z/lane pipeline (<a href="https://github.com/heygen-com/hyperframes/commit/19139b91edafba1d012738f666017c1b9a4e0251">19139b91e</a>)</li>
-<li><strong>Studio:</strong> Restore golden-branch timeline behaviors dropped by the stack rebuild (<a href="https://github.com/heygen-com/hyperframes/commit/54f41b41b6ffd63eb0eb862517178f3f8868007b">54f41b41b</a>)</li>
-<li><strong>Engine,producer:</strong> Apply software-GPU screenshot invariant at concrete-resolved point (<a href="https://github.com/heygen-com/hyperframes/commit/2e44602f99c882ecd050870354dd555becd73182">2e44602f9</a>)</li>
-<li><strong>Render:</strong> Surface structured outcomes (<a href="https://github.com/heygen-com/hyperframes/commit/cb69d3fe00da06168a43b6e23a88e93f8dc449cc">cb69d3fe0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2153">#2153</a>)</li>
-<li><strong>CLI:</strong> Skip contrast for intentionally covered text (<a href="https://github.com/heygen-com/hyperframes/commit/8e50e8477ffc4c266f6ee33371f00bbe460b245b">8e50e8477</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2366">#2366</a>)</li>
-<li><strong>CLI:</strong> Accept 1–3-frame short WebMs + add direct pixel-probe tests (<a href="https://github.com/heygen-com/hyperframes/commit/56dcc4e47a2cbd8ce60a0a92e89969ac3cacf746">56dcc4e47</a>)</li>
-<li><strong>CLI:</strong> Label the batch asset-import RENDER_FAILED with the images endpoint (<a href="https://github.com/heygen-com/hyperframes/commit/bd8ee05ae29c67f61934c43c1c334864e5f8ac31">bd8ee05ae</a>)</li>
-<li><strong>Core,cli:</strong> Attribute figma REST failures to the endpoint that failed (<a href="https://github.com/heygen-com/hyperframes/commit/4ca1552e20af5244f5d21a63aa4e3c0ed7165077">4ca1552e2</a>)</li>
-<li><strong>CLI:</strong> Detect WebM alpha lost when the ALPHA_MODE tag is written without side data (<a href="https://github.com/heygen-com/hyperframes/commit/b8562c91d5fea2155822739644404556b1051255">b8562c91d</a>)</li>
-<li><strong>Engine:</strong> Software-GPU browsers imply screenshot capture (<a href="https://github.com/heygen-com/hyperframes/commit/ba5168293f8d0db11ff2801814aacd7b8497df94">ba5168293</a>)</li>
-<li><strong>CLI:</strong> Occlusion-probe false positives — pointer-events blindness, low-alpha gradients, not-yet-entered text (<a href="https://github.com/heygen-com/hyperframes/commit/3e3b37d37fb330154480902fe39a4330107c3c98">3e3b37d37</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2357">#2357</a>)</li>
-<li><strong>Engine:</strong> Support current FFmpeg filter scripts (<a href="https://github.com/heygen-com/hyperframes/commit/3df59fc0a4410b2144362e95473e20c149184722">3df59fc0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2324">#2324</a>)</li>
-<li><strong>Browser:</strong> Recover abandoned install locks (<a href="https://github.com/heygen-com/hyperframes/commit/81a6edcb6734470e2a56b33f7367a4459032bef5">81a6edcb6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2328">#2328</a>)</li>
-<li><strong>Render:</strong> Retry explicit parallel capture timeouts (<a href="https://github.com/heygen-com/hyperframes/commit/5ff4ba13f42516491b19065daa753e9512660037">5ff4ba13f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2331">#2331</a>)</li>
-<li><strong>CLI:</strong> Declare Apache-2.0 license (<a href="https://github.com/heygen-com/hyperframes/commit/648e4e8c54edf7933ad872e1197194e2904cd939">648e4e8c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2351">#2351</a>)</li>
-<li><strong>Player:</strong> Own connection and media resources (<a href="https://github.com/heygen-com/hyperframes/commit/16942c0c12fab7e87876fa253432e29d85835db4">16942c0c1</a>)</li>
-<li><strong>Core:</strong> Preserve runtime transport contract (<a href="https://github.com/heygen-com/hyperframes/commit/cc3ca2f9f7f42ace95da0f7b1ec03d5c8115f2df">cc3ca2f9f</a>)</li>
-<li><strong>Player:</strong> Version runtime protocol (<a href="https://github.com/heygen-com/hyperframes/commit/dcefdd98ca4791cf4090fac78f172746c4a1bd92">dcefdd98c</a>)</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Producer:</strong> Cache local font compression (<a href="https://github.com/heygen-com/hyperframes/commit/3f6ea0a1ab3be45a64ae307c8a5af803ac9d0c85">3f6ea0a1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2397">#2397</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Media Use:</strong> Drop the HeyGen generative use-cases table (<a href="https://github.com/heygen-com/hyperframes/commit/6892b62662a65f8421a397fd75ae75bc12027512">6892b6266</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2370">#2370</a>)</li>
-<li><strong>Skills:</strong> Add cloud render + variables to CLI skill, media-use generative use cases (<a href="https://github.com/heygen-com/hyperframes/commit/78b9a814d54ffa11f6a5782d7a9fea8e0d073ebd">78b9a814d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2356">#2356</a>)</li>
-<li><strong>CLI:</strong> Sync SRT upload docs from EF (<a href="https://github.com/heygen-com/hyperframes/commit/74fb4dbcc36f5f5fb65fc8757457c718418bda0b">74fb4dbcc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2364">#2364</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> Write HDR fixture color tags into the H.264 VUI (<a href="https://github.com/heygen-com/hyperframes/commit/9ac4ab8dee6fad5a7a47b0c592567e6e1bd9a4ac">9ac4ab8de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2389">#2389</a>)</li>
-<li><strong>Studio:</strong> Delete-path duration rollback coverage, shared dismiss predicate on preview open (<a href="https://github.com/heygen-com/hyperframes/commit/512560b4c3d66f30307252765ab3e8d172bec1cc">512560b4c</a>)</li>
-<li><strong>Fallow:</strong> Allow sampledAlphaIsFullyOpaque test-only export (<a href="https://github.com/heygen-com/hyperframes/commit/c3b0b91feb6be5759a4217c869cc2975b72d63d6">c3b0b91fe</a>)</li>
-<li><strong>CLI:</strong> Stabilize flaky install-lock wait-notice test with fake timers (<a href="https://github.com/heygen-com/hyperframes/commit/e47af77c5a9e43524243833a054e61a5ffbd246e">e47af77c5</a>)</li>
-<li><strong>Repo:</strong> Verify packed consumers (<a href="https://github.com/heygen-com/hyperframes/commit/979e9d0902aa336bd8c1e91a61a3bb0be8bb0ddb">979e9d090</a>)</li>
-<li><strong>Ci:</strong> Stabilize Windows suites after Studio cutover (<a href="https://github.com/heygen-com/hyperframes/commit/758a6d215289cecea4d3c322b9b85d0b7c7ff1e2">758a6d215</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2320">#2320</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.56...v0.7.57">https://github.com/heygen-com/hyperframes/compare/v0.7.56...v0.7.57</a></p>
 ]]></content:encoded>
         </item>
     </channel>
