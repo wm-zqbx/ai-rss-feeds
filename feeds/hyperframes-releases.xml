@@ -4,11 +4,49 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 18 Aug 2026 01:20:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 06:03:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.2]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.2</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.2</guid>
+            <pubDate>Tue, 18 Aug 2026 06:03:25 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.2</h1>
+<p>Released on 2026-08-18.</p>
+<p>The variables panel on a component&#39;s catalog page now changes its preview. Pick an accent or a size and the preview answers, so what you see is what the copied snippet installs.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills:</strong> Count proxy-driver tweens in the animation map (<a href="https://github.com/heygen-com/hyperframes/commit/0d874adc685a94a519311cf9ed9e4107bb0347c9">0d874adc6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3301">#3301</a>).</li>
+<li><strong>Skills:</strong> Declare the caption brand font&#39;s style axis, not just its weight (<a href="https://github.com/heygen-com/hyperframes/commit/a41da8651768942adf588a959d9dc062c90c6a13">a41da8651</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3300">#3300</a>).</li>
+<li><strong>Skills:</strong> Pin UTF-8 in Python scripts instead of the platform code page (<a href="https://github.com/heygen-com/hyperframes/commit/f8a1e2d315e51856491af003958914152371c29d">f8a1e2d31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3298">#3298</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Make component previews answer their variables panel (<a href="https://github.com/heygen-com/hyperframes/commit/406bf316a38d8a6ff24c00696d9e537ee85997d4">406bf316a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3323">#3323</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.1...v0.8.2">https://github.com/heygen-com/hyperframes/compare/v0.8.1...v0.8.2</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.2</h1>
+<p>Released on 2026-08-18.</p>
+<p>The variables panel on a component&#39;s catalog page now changes its preview. Pick an accent or a size and the preview answers, so what you see is what the copied snippet installs.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills:</strong> Count proxy-driver tweens in the animation map (<a href="https://github.com/heygen-com/hyperframes/commit/0d874adc685a94a519311cf9ed9e4107bb0347c9">0d874adc6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3301">#3301</a>).</li>
+<li><strong>Skills:</strong> Declare the caption brand font&#39;s style axis, not just its weight (<a href="https://github.com/heygen-com/hyperframes/commit/a41da8651768942adf588a959d9dc062c90c6a13">a41da8651</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3300">#3300</a>).</li>
+<li><strong>Skills:</strong> Pin UTF-8 in Python scripts instead of the platform code page (<a href="https://github.com/heygen-com/hyperframes/commit/f8a1e2d315e51856491af003958914152371c29d">f8a1e2d31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3298">#3298</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Make component previews answer their variables panel (<a href="https://github.com/heygen-com/hyperframes/commit/406bf316a38d8a6ff24c00696d9e537ee85997d4">406bf316a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3323">#3323</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.1...v0.8.2">https://github.com/heygen-com/hyperframes/compare/v0.8.1...v0.8.2</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.1]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.1</link>
@@ -2845,38 +2883,6 @@ no longer pollute lint runs.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.63...v0.7.64">https://github.com/heygen-com/hyperframes/compare/v0.7.63...v0.7.64</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.63]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.63</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.63</guid>
-            <pubDate>Sat, 18 Jul 2026 08:48:32 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.63</h1>
-<p>Released on 2026-07-18.</p>
-<p>Media Use now releases incomplete asset reservations when downloads, cache imports, or LUT
-generation fail, preventing zero-byte placeholders from being mistaken for valid media. Missing
-HeyGen CLI guidance now points to the official setup docs instead of embedding pipe-to-shell
-installer text.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Media Use:</strong> Clean failed asset reservations (<a href="https://github.com/heygen-com/hyperframes/commit/49113eb08487b2c53b7404bc26c5e419244ae97f">49113eb08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2627">#2627</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.62...v0.7.63">https://github.com/heygen-com/hyperframes/compare/v0.7.62...v0.7.63</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.63</h1>
-<p>Released on 2026-07-18.</p>
-<p>Media Use now releases incomplete asset reservations when downloads, cache imports, or LUT
-generation fail, preventing zero-byte placeholders from being mistaken for valid media. Missing
-HeyGen CLI guidance now points to the official setup docs instead of embedding pipe-to-shell
-installer text.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Media Use:</strong> Clean failed asset reservations (<a href="https://github.com/heygen-com/hyperframes/commit/49113eb08487b2c53b7404bc26c5e419244ae97f">49113eb08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2627">#2627</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.62...v0.7.63">https://github.com/heygen-com/hyperframes/compare/v0.7.62...v0.7.63</a></p>
 ]]></content:encoded>
         </item>
     </channel>
