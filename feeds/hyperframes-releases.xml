@@ -4,11 +4,69 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 19 Aug 2026 23:32:38 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 23:07:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.5]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.5</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.5</guid>
+            <pubDate>Thu, 20 Aug 2026 23:07:50 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.5</h1>
+<p>Released on 2026-08-20.</p>
+<p>Lint is quieter and more accurate. Seven rules that fired on correct compositions are gone, so you waste fewer edits chasing errors that were never real.
+The clip example in the docs also stopped failing its own linter.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Telemetry:</strong> Measure which lint rules fire, cost, and fail to converge (<a href="https://github.com/heygen-com/hyperframes/commit/f822200fb8f437b73985f43837c195f5e7312289">f822200fb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3367">#3367</a>).</li>
+<li><strong>Skills:</strong> Anchored-connector rule + source-traceable visuals doctrine (<a href="https://github.com/heygen-com/hyperframes/commit/a6a9e2f89e509424a64a1dcd976aabfd54b60d02">a6a9e2f89e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3354">#3354</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Capture storyboard tiles at review density (<a href="https://github.com/heygen-com/hyperframes/commit/b4d5abd7b2cdc419906153ca75d99bd813adf614">b4d5abd7b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3371">#3371</a>).</li>
+<li><strong>Lint:</strong> Stop erroring on the documented canonical clip block (<a href="https://github.com/heygen-com/hyperframes/commit/2be5a03b800e0b17ee36e99167c99edc383065ce">2be5a03b80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3374">#3374</a>).</li>
+<li><strong>Skills:</strong> Resolve the blueprint id from a qualified <code>blueprint:</code> field (<a href="https://github.com/heygen-com/hyperframes/commit/d1482b012926d7118fa39e53ef8974328e84cc9e">d1482b0129</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3337">#3337</a>).</li>
+<li><strong>Skills:</strong> Stage SVGs that capture wrote into capture/assets/svgs/ (<a href="https://github.com/heygen-com/hyperframes/commit/c66c9a4c76ff0681cadc8007a8e02744bbcdab10">c66c9a4c76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3336">#3336</a>).</li>
+<li><strong>Core:</strong> Keep authored gain above unity off el.volume in the sandbox bridge (<a href="https://github.com/heygen-com/hyperframes/commit/9140c0eaa1b332de7ca061af040611f5b1c64419">9140c0eaa1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3349">#3349</a>).</li>
+<li><strong>Producer:</strong> Seek once per step when discovering video visibility (<a href="https://github.com/heygen-com/hyperframes/commit/d09145faabfd3078c29969fbcf293067d50275ac">d09145faab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3233">#3233</a>).</li>
+<li><strong>Studio:</strong> Capture the storyboard frame hero at full resolution (<a href="https://github.com/heygen-com/hyperframes/commit/f0e637375f2c43b22192f1ad8c3aef1b5d010e8a">f0e637375f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3338">#3338</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Lint:</strong> Drop seven rules that fire on correct compositions (<a href="https://github.com/heygen-com/hyperframes/commit/83ceaeb902f07ffc4bed976ca3bdd501eb60aa55">83ceaeb902</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3366">#3366</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.4...v0.8.5">https://github.com/heygen-com/hyperframes/compare/v0.8.4...v0.8.5</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.5</h1>
+<p>Released on 2026-08-20.</p>
+<p>Lint is quieter and more accurate. Seven rules that fired on correct compositions are gone, so you waste fewer edits chasing errors that were never real.
+The clip example in the docs also stopped failing its own linter.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Telemetry:</strong> Measure which lint rules fire, cost, and fail to converge (<a href="https://github.com/heygen-com/hyperframes/commit/f822200fb8f437b73985f43837c195f5e7312289">f822200fb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3367">#3367</a>).</li>
+<li><strong>Skills:</strong> Anchored-connector rule + source-traceable visuals doctrine (<a href="https://github.com/heygen-com/hyperframes/commit/a6a9e2f89e509424a64a1dcd976aabfd54b60d02">a6a9e2f89e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3354">#3354</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Capture storyboard tiles at review density (<a href="https://github.com/heygen-com/hyperframes/commit/b4d5abd7b2cdc419906153ca75d99bd813adf614">b4d5abd7b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3371">#3371</a>).</li>
+<li><strong>Lint:</strong> Stop erroring on the documented canonical clip block (<a href="https://github.com/heygen-com/hyperframes/commit/2be5a03b800e0b17ee36e99167c99edc383065ce">2be5a03b80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3374">#3374</a>).</li>
+<li><strong>Skills:</strong> Resolve the blueprint id from a qualified <code>blueprint:</code> field (<a href="https://github.com/heygen-com/hyperframes/commit/d1482b012926d7118fa39e53ef8974328e84cc9e">d1482b0129</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3337">#3337</a>).</li>
+<li><strong>Skills:</strong> Stage SVGs that capture wrote into capture/assets/svgs/ (<a href="https://github.com/heygen-com/hyperframes/commit/c66c9a4c76ff0681cadc8007a8e02744bbcdab10">c66c9a4c76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3336">#3336</a>).</li>
+<li><strong>Core:</strong> Keep authored gain above unity off el.volume in the sandbox bridge (<a href="https://github.com/heygen-com/hyperframes/commit/9140c0eaa1b332de7ca061af040611f5b1c64419">9140c0eaa1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3349">#3349</a>).</li>
+<li><strong>Producer:</strong> Seek once per step when discovering video visibility (<a href="https://github.com/heygen-com/hyperframes/commit/d09145faabfd3078c29969fbcf293067d50275ac">d09145faab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3233">#3233</a>).</li>
+<li><strong>Studio:</strong> Capture the storyboard frame hero at full resolution (<a href="https://github.com/heygen-com/hyperframes/commit/f0e637375f2c43b22192f1ad8c3aef1b5d010e8a">f0e637375f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3338">#3338</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Lint:</strong> Drop seven rules that fire on correct compositions (<a href="https://github.com/heygen-com/hyperframes/commit/83ceaeb902f07ffc4bed976ca3bdd501eb60aa55">83ceaeb902</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3366">#3366</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.4...v0.8.5">https://github.com/heygen-com/hyperframes/compare/v0.8.4...v0.8.5</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.4]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.4</link>
@@ -2801,42 +2859,6 @@ for data-driven caption templates.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.66...v0.7.67">https://github.com/heygen-com/hyperframes/compare/v0.7.66...v0.7.67</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.66]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.66</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.66</guid>
-            <pubDate>Tue, 21 Jul 2026 12:42:09 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.66</h1>
-<p>Released on 2026-07-21.</p>
-<p>Studio preview audio now plays at playback speeds above 1x instead of being silently muted, and the mute control stays usable at every speed. This release also fixes an engine worker frame-stride false-positive and lands a c2v skills mining pass with new blueprints and rules.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Skills:</strong> C2v mining pass — 7 new blueprints, 10 new rules, compacted recipe corpus (<a href="https://github.com/heygen-com/hyperframes/commit/853256403b3ffd3dc0b616785ab876b4c0f04a89">853256403</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2680">#2680</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Play preview audio at speeds above 1x (<a href="https://github.com/heygen-com/hyperframes/commit/07965e9fe93fc7b53dfe7c933f8abd0c4b10c86d">07965e9fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2691">#2691</a>)</li>
-<li><strong>Engine:</strong> Carry frameStride onto WorkerResult (fixes interleaved worker false-positive) (<a href="https://github.com/heygen-com/hyperframes/commit/4f53dd4f2cd607de17b2d2329746fa5da0cadeaa">4f53dd4f2</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.65...v0.7.66">https://github.com/heygen-com/hyperframes/compare/v0.7.65...v0.7.66</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.66</h1>
-<p>Released on 2026-07-21.</p>
-<p>Studio preview audio now plays at playback speeds above 1x instead of being silently muted, and the mute control stays usable at every speed. This release also fixes an engine worker frame-stride false-positive and lands a c2v skills mining pass with new blueprints and rules.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Skills:</strong> C2v mining pass — 7 new blueprints, 10 new rules, compacted recipe corpus (<a href="https://github.com/heygen-com/hyperframes/commit/853256403b3ffd3dc0b616785ab876b4c0f04a89">853256403</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2680">#2680</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Play preview audio at speeds above 1x (<a href="https://github.com/heygen-com/hyperframes/commit/07965e9fe93fc7b53dfe7c933f8abd0c4b10c86d">07965e9fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2691">#2691</a>)</li>
-<li><strong>Engine:</strong> Carry frameStride onto WorkerResult (fixes interleaved worker false-positive) (<a href="https://github.com/heygen-com/hyperframes/commit/4f53dd4f2cd607de17b2d2329746fa5da0cadeaa">4f53dd4f2</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.65...v0.7.66">https://github.com/heygen-com/hyperframes/compare/v0.7.65...v0.7.66</a></p>
 ]]></content:encoded>
         </item>
     </channel>
