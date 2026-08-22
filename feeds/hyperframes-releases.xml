@@ -4,11 +4,97 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 22 Aug 2026 02:08:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 22 Aug 2026 13:01:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.9]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.9</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.9</guid>
+            <pubDate>Sat, 22 Aug 2026 13:01:57 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.9</h1>
+<p>Released on 2026-08-22.</p>
+<p>The last release turned the audio effects rack on for everyone. This one fixes
+what people hit first when they used it, and documents the whole system.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> Renders no longer finish with the drawElement self-check silently
+switched off. That check compares frames with ffmpeg&#39;s <code>psnr</code> filter, and an
+ffmpeg built without it made every comparison fail quietly. HyperFrames now
+tests for the filter once at startup and captures by screenshot instead when it
+is missing (<a href="https://github.com/heygen-com/hyperframes/commit/073b098e21aa006571b60c446711c6dff57a2eac">073b098e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3418">#3418</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> The effects preset list on a timeline track no longer runs off the
+top or bottom of the window. It fits the space it opens into and scrolls, so
+every preset and both footer buttons stay reachable (<a href="https://github.com/heygen-com/hyperframes/commit/277fe0fa221756480928605d71590ead55cbfb64">277fe0fa2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3413">#3413</a>).</li>
+<li><strong>Studio:</strong> The timeline&#39;s popovers and menus can no longer be painted behind
+other parts of the app. Every panel that floats above the timeline now sits on
+the same layer as the rest of the studio&#39;s popovers (<a href="https://github.com/heygen-com/hyperframes/commit/8612cfd40fcfd2d4dae6bff6b9b9ac940c7e7bbd">8612cfd40</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3414">#3414</a>).</li>
+<li><strong>Studio:</strong> The expand arrow on an audio group row is back to the size and
+shape the properties panel uses, instead of a smaller rotated one (<a href="https://github.com/heygen-com/hyperframes/commit/c59402389555ef2fca455e504fa40c5773354cf3">c59402389</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3415">#3415</a>).</li>
+<li><strong>Skills:</strong> The voiceover carve command now runs in your own project. It could
+not load HyperFrames from a published install at all, and the error it printed
+suggested reinstalling, which never helped. It also records the voice group
+rather than a list of clip ids, so a narration clip added later is covered
+without editing the carve (<a href="https://github.com/heygen-com/hyperframes/commit/f0cc9b1a3441522797cfe06dc3892ac2065c7bf2">f0cc9b1a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3416">#3416</a>).</li>
+<li><strong>Producer, CLI:</strong> A render that cannot find its manifest now lists every path
+it looked in, instead of naming one (<a href="https://github.com/heygen-com/hyperframes/commit/718bf5ef32d4e521f686ea6ebe64545a6a2647ed">718bf5ef3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3387">#3387</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Audio:</strong> The audio effects system is documented. There are new pages for
+mixing and presets, the voiceover carve, groups and mute and solo, and
+automation lanes, plus a full reference covering every effect, parameter range,
+preset, and attribute (<a href="https://github.com/heygen-com/hyperframes/commit/0eca7b1e0aef831bbab1265395f942378468afc0">0eca7b1e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3420">#3420</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.8...v0.8.9">https://github.com/heygen-com/hyperframes/compare/v0.8.8...v0.8.9</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.9</h1>
+<p>Released on 2026-08-22.</p>
+<p>The last release turned the audio effects rack on for everyone. This one fixes
+what people hit first when they used it, and documents the whole system.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> Renders no longer finish with the drawElement self-check silently
+switched off. That check compares frames with ffmpeg&#39;s <code>psnr</code> filter, and an
+ffmpeg built without it made every comparison fail quietly. HyperFrames now
+tests for the filter once at startup and captures by screenshot instead when it
+is missing (<a href="https://github.com/heygen-com/hyperframes/commit/073b098e21aa006571b60c446711c6dff57a2eac">073b098e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3418">#3418</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> The effects preset list on a timeline track no longer runs off the
+top or bottom of the window. It fits the space it opens into and scrolls, so
+every preset and both footer buttons stay reachable (<a href="https://github.com/heygen-com/hyperframes/commit/277fe0fa221756480928605d71590ead55cbfb64">277fe0fa2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3413">#3413</a>).</li>
+<li><strong>Studio:</strong> The timeline&#39;s popovers and menus can no longer be painted behind
+other parts of the app. Every panel that floats above the timeline now sits on
+the same layer as the rest of the studio&#39;s popovers (<a href="https://github.com/heygen-com/hyperframes/commit/8612cfd40fcfd2d4dae6bff6b9b9ac940c7e7bbd">8612cfd40</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3414">#3414</a>).</li>
+<li><strong>Studio:</strong> The expand arrow on an audio group row is back to the size and
+shape the properties panel uses, instead of a smaller rotated one (<a href="https://github.com/heygen-com/hyperframes/commit/c59402389555ef2fca455e504fa40c5773354cf3">c59402389</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3415">#3415</a>).</li>
+<li><strong>Skills:</strong> The voiceover carve command now runs in your own project. It could
+not load HyperFrames from a published install at all, and the error it printed
+suggested reinstalling, which never helped. It also records the voice group
+rather than a list of clip ids, so a narration clip added later is covered
+without editing the carve (<a href="https://github.com/heygen-com/hyperframes/commit/f0cc9b1a3441522797cfe06dc3892ac2065c7bf2">f0cc9b1a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3416">#3416</a>).</li>
+<li><strong>Producer, CLI:</strong> A render that cannot find its manifest now lists every path
+it looked in, instead of naming one (<a href="https://github.com/heygen-com/hyperframes/commit/718bf5ef32d4e521f686ea6ebe64545a6a2647ed">718bf5ef3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3387">#3387</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Audio:</strong> The audio effects system is documented. There are new pages for
+mixing and presets, the voiceover carve, groups and mute and solo, and
+automation lanes, plus a full reference covering every effect, parameter range,
+preset, and attribute (<a href="https://github.com/heygen-com/hyperframes/commit/0eca7b1e0aef831bbab1265395f942378468afc0">0eca7b1e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3420">#3420</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.8...v0.8.9">https://github.com/heygen-com/hyperframes/compare/v0.8.8...v0.8.9</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.8]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.8</link>
@@ -2931,50 +3017,6 @@ for data-driven caption templates.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.69...v0.7.70">https://github.com/heygen-com/hyperframes/compare/v0.7.69...v0.7.70</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.69]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.69</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.69</guid>
-            <pubDate>Thu, 23 Jul 2026 19:09:49 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.69</h1>
-<p>Released on 2026-07-23.</p>
-<p>HyperFrames now catches rotation pivot drift during layout audits, helping surface off-center spinners before render. This release also preserves editable <code>&lt;br&gt;</code> line breaks in SDK text edits, strengthens producer font, probe, and worker-memory handling, and improves preflight and pre-commit feedback.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> Add rotation_pivot_drift layout check (<a href="https://github.com/heygen-com/hyperframes/commit/222aec45ab0553c014dddccd563e273affd9b71a">222aec45a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2741">#2741</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Sdk:</strong> Keep <br> line breaks editable and uncorrupted in setText (<a href="https://github.com/heygen-com/hyperframes/commit/dd7378bbd934ecc0da85c1edfae7946ac7e2271a">dd7378bbd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2742">#2742</a>)</li>
-<li><strong>Lint:</strong> Address render preflight review feedback (<a href="https://github.com/heygen-com/hyperframes/commit/7a294f19562928036dae20d5e73c2637d1e19060">7a294f195</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2739">#2739</a>)</li>
-<li><strong>Producer:</strong> Resolve residual font and probe failures (<a href="https://github.com/heygen-com/hyperframes/commit/948264d6b205cadd191e04f36af332ed4a6bb233">948264d6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2738">#2738</a>)</li>
-<li><strong>Hooks:</strong> Pre-commit gate denies commit instead of ending the turn (<a href="https://github.com/heygen-com/hyperframes/commit/97ec7db5cccd14a47fcfbe534d269dfea7a0d37d">97ec7db5c</a>)</li>
-<li><strong>Producer:</strong> Emit heap advisory at orchestrator, lock message + telemetry props with tests (<a href="https://github.com/heygen-com/hyperframes/commit/c6462a0a225772c7a357afd5fe2f5c9a39bca238">c6462a0a2</a>)</li>
-<li><strong>Engine:</strong> Realistic worker memory budget + sizing/feedback telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/12e599a6bac7dea5feec59c71dd0e5aeecab354e">12e599a6b</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.68...v0.7.69">https://github.com/heygen-com/hyperframes/compare/v0.7.68...v0.7.69</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.69</h1>
-<p>Released on 2026-07-23.</p>
-<p>HyperFrames now catches rotation pivot drift during layout audits, helping surface off-center spinners before render. This release also preserves editable <code>&lt;br&gt;</code> line breaks in SDK text edits, strengthens producer font, probe, and worker-memory handling, and improves preflight and pre-commit feedback.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> Add rotation_pivot_drift layout check (<a href="https://github.com/heygen-com/hyperframes/commit/222aec45ab0553c014dddccd563e273affd9b71a">222aec45a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2741">#2741</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Sdk:</strong> Keep <br> line breaks editable and uncorrupted in setText (<a href="https://github.com/heygen-com/hyperframes/commit/dd7378bbd934ecc0da85c1edfae7946ac7e2271a">dd7378bbd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2742">#2742</a>)</li>
-<li><strong>Lint:</strong> Address render preflight review feedback (<a href="https://github.com/heygen-com/hyperframes/commit/7a294f19562928036dae20d5e73c2637d1e19060">7a294f195</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2739">#2739</a>)</li>
-<li><strong>Producer:</strong> Resolve residual font and probe failures (<a href="https://github.com/heygen-com/hyperframes/commit/948264d6b205cadd191e04f36af332ed4a6bb233">948264d6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2738">#2738</a>)</li>
-<li><strong>Hooks:</strong> Pre-commit gate denies commit instead of ending the turn (<a href="https://github.com/heygen-com/hyperframes/commit/97ec7db5cccd14a47fcfbe534d269dfea7a0d37d">97ec7db5c</a>)</li>
-<li><strong>Producer:</strong> Emit heap advisory at orchestrator, lock message + telemetry props with tests (<a href="https://github.com/heygen-com/hyperframes/commit/c6462a0a225772c7a357afd5fe2f5c9a39bca238">c6462a0a2</a>)</li>
-<li><strong>Engine:</strong> Realistic worker memory budget + sizing/feedback telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/12e599a6bac7dea5feec59c71dd0e5aeecab354e">12e599a6b</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.68...v0.7.69">https://github.com/heygen-com/hyperframes/compare/v0.7.68...v0.7.69</a></p>
 ]]></content:encoded>
         </item>
     </channel>
