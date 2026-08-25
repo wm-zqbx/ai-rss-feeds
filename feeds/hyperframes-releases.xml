@@ -4,11 +4,45 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 24 Aug 2026 20:13:03 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 Aug 2026 00:07:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.14]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.14</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.14</guid>
+            <pubDate>Tue, 25 Aug 2026 00:07:08 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.14</h1>
+<p>Released on 2026-08-24.</p>
+<p>Agent skills no longer teach composition rules the renderer does not enforce, four of which used to make a render fail outright. <code>hyperframes add</code> now records what it installed in <code>hyperframes.json</code>, so a render can report which catalog blocks the video used.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills,lint:</strong> Correct composition-contract claims the code contradicts (<a href="https://github.com/heygen-com/hyperframes/commit/b2fc18b2df60fd9049cb694c97c45104ee5b4e0d">b2fc18b2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3468">#3468</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Report which catalog items a render actually used (<a href="https://github.com/heygen-com/hyperframes/commit/045b3a4fd7df71b46f4432c114f70fb25d13b551">045b3a4fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3470">#3470</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14">https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.14</h1>
+<p>Released on 2026-08-24.</p>
+<p>Agent skills no longer teach composition rules the renderer does not enforce, four of which used to make a render fail outright. <code>hyperframes add</code> now records what it installed in <code>hyperframes.json</code>, so a render can report which catalog blocks the video used.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills,lint:</strong> Correct composition-contract claims the code contradicts (<a href="https://github.com/heygen-com/hyperframes/commit/b2fc18b2df60fd9049cb694c97c45104ee5b4e0d">b2fc18b2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3468">#3468</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Report which catalog items a render actually used (<a href="https://github.com/heygen-com/hyperframes/commit/045b3a4fd7df71b46f4432c114f70fb25d13b551">045b3a4fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3470">#3470</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14">https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.13]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.13</link>
@@ -2845,48 +2879,6 @@ retry also recovers from <code>BeginFrame</code>-specific failures without maski
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75">https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.74]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.74</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.74</guid>
-            <pubDate>Mon, 27 Jul 2026 02:01:21 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.74</h1>
-<p>Released on 2026-07-27.</p>
-<p>Distributed Plan v2 now handles extraction-cache sentinels and partial color metadata
-without corrupting chunk dependencies. Distributed cold starts also preserve live GSAP
-volume state, while GCP captures honor the effective <code>BeginFrame</code> boundary.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Handle partial color metadata and extraction sentinels in Plan v2 (<a href="https://github.com/heygen-com/hyperframes/commit/58869f0878e304fd39d564b93cc4a8b18e885b4e">58869f087</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2814">#2814</a>)</li>
-<li><strong>GCP Cloud Run:</strong> Enforce effective <code>BeginFrame</code> capture (<a href="https://github.com/heygen-com/hyperframes/commit/2a284a8e3aca62100ec037c23c98706e7146aa14">2a284a8e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2817">#2817</a>)</li>
-<li><strong>Core:</strong> Avoid live volume probes during render (<a href="https://github.com/heygen-com/hyperframes/commit/477defc7e7397684c2def4459b3981f62a06816d">477defc7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2816">#2816</a>)</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Producer:</strong> Compute regression PSNR in one ffmpeg pass (<a href="https://github.com/heygen-com/hyperframes/commit/98a4cd70fd2df38f300a2e19c86f75cd8dd93895">98a4cd70f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2813">#2813</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.73...v0.7.74">https://github.com/heygen-com/hyperframes/compare/v0.7.73...v0.7.74</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.74</h1>
-<p>Released on 2026-07-27.</p>
-<p>Distributed Plan v2 now handles extraction-cache sentinels and partial color metadata
-without corrupting chunk dependencies. Distributed cold starts also preserve live GSAP
-volume state, while GCP captures honor the effective <code>BeginFrame</code> boundary.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Handle partial color metadata and extraction sentinels in Plan v2 (<a href="https://github.com/heygen-com/hyperframes/commit/58869f0878e304fd39d564b93cc4a8b18e885b4e">58869f087</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2814">#2814</a>)</li>
-<li><strong>GCP Cloud Run:</strong> Enforce effective <code>BeginFrame</code> capture (<a href="https://github.com/heygen-com/hyperframes/commit/2a284a8e3aca62100ec037c23c98706e7146aa14">2a284a8e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2817">#2817</a>)</li>
-<li><strong>Core:</strong> Avoid live volume probes during render (<a href="https://github.com/heygen-com/hyperframes/commit/477defc7e7397684c2def4459b3981f62a06816d">477defc7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2816">#2816</a>)</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Producer:</strong> Compute regression PSNR in one ffmpeg pass (<a href="https://github.com/heygen-com/hyperframes/commit/98a4cd70fd2df38f300a2e19c86f75cd8dd93895">98a4cd70f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2813">#2813</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.73...v0.7.74">https://github.com/heygen-com/hyperframes/compare/v0.7.73...v0.7.74</a></p>
 ]]></content:encoded>
         </item>
     </channel>
