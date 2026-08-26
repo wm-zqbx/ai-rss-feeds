@@ -4,11 +4,61 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 25 Aug 2026 00:07:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2026 03:28:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.15]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.15</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.15</guid>
+            <pubDate>Wed, 26 Aug 2026 03:28:36 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.15</h1>
+<p>Released on 2026-08-26.</p>
+<p>Preview publishers can now use the same deterministic font resolver as final renders, preventing CSS case transforms from changing typography between preview and export. Rendering now exits stalled parallel capture paths, while template editing and JSON attribute linting handle promoted media and encoded values more safely.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Stamp font compiler version in localized HTML (<a href="https://github.com/heygen-com/hyperframes/commit/d6de083411d76a0819768b21d30a305500a92048">d6de08341</a>).</li>
+<li><strong>CLI:</strong> Expose deterministic font localization (<a href="https://github.com/heygen-com/hyperframes/commit/38f8f9250a3f2a551a2e0a5f685ac4f64109e218">38f8f9250</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Fonts:</strong> Harden localizer release diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/7c40efbc62bd7bd70bcfdb80cd55aef4bafb39d6">7c40efbc6</a>).</li>
+<li><strong>CLI:</strong> Keep font localizer process ownership explicit (<a href="https://github.com/heygen-com/hyperframes/commit/ec68d40cc617272943069123383e7a9f6e463e93">ec68d40cc</a>).</li>
+<li><strong>Fonts:</strong> Cover rendered case variants in subsets (<a href="https://github.com/heygen-com/hyperframes/commit/744146eb6e71f3c108091fe981a7d63859a6287b">744146eb6</a>).</li>
+<li><strong>Producer:</strong> Trip DE parallel-router circuit breaker on stalls and hangs (<a href="https://github.com/heygen-com/hyperframes/commit/3202f3fb87e0f7babfdfe0a9d62703b293abfd80">3202f3fb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3479">#3479</a>).</li>
+<li><strong>Lint:</strong> Decode JSON attribute entities (<a href="https://github.com/heygen-com/hyperframes/commit/3cacac5bdc405b808e74df3da14e6c1595357325">3cacac5bd</a>).</li>
+<li>Document safe template default editing (<a href="https://github.com/heygen-com/hyperframes/commit/71e8e92ae940584a2be5a82c5a3d102187043dea">71e8e92ae</a>).</li>
+<li>Expose promoted template media slots (<a href="https://github.com/heygen-com/hyperframes/commit/1e11608d443d0cadeb64b5b005d72763f1a6dccd">1e11608d4</a>).</li>
+<li><strong>Scripts:</strong> Stop the large-file guard firing on text (<a href="https://github.com/heygen-com/hyperframes/commit/a562946e11538a87ac2a0766fdad7833b2798696">a562946e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3475">#3475</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.14...v0.8.15">https://github.com/heygen-com/hyperframes/compare/v0.8.14...v0.8.15</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.15</h1>
+<p>Released on 2026-08-26.</p>
+<p>Preview publishers can now use the same deterministic font resolver as final renders, preventing CSS case transforms from changing typography between preview and export. Rendering now exits stalled parallel capture paths, while template editing and JSON attribute linting handle promoted media and encoded values more safely.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Stamp font compiler version in localized HTML (<a href="https://github.com/heygen-com/hyperframes/commit/d6de083411d76a0819768b21d30a305500a92048">d6de08341</a>).</li>
+<li><strong>CLI:</strong> Expose deterministic font localization (<a href="https://github.com/heygen-com/hyperframes/commit/38f8f9250a3f2a551a2e0a5f685ac4f64109e218">38f8f9250</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Fonts:</strong> Harden localizer release diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/7c40efbc62bd7bd70bcfdb80cd55aef4bafb39d6">7c40efbc6</a>).</li>
+<li><strong>CLI:</strong> Keep font localizer process ownership explicit (<a href="https://github.com/heygen-com/hyperframes/commit/ec68d40cc617272943069123383e7a9f6e463e93">ec68d40cc</a>).</li>
+<li><strong>Fonts:</strong> Cover rendered case variants in subsets (<a href="https://github.com/heygen-com/hyperframes/commit/744146eb6e71f3c108091fe981a7d63859a6287b">744146eb6</a>).</li>
+<li><strong>Producer:</strong> Trip DE parallel-router circuit breaker on stalls and hangs (<a href="https://github.com/heygen-com/hyperframes/commit/3202f3fb87e0f7babfdfe0a9d62703b293abfd80">3202f3fb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3479">#3479</a>).</li>
+<li><strong>Lint:</strong> Decode JSON attribute entities (<a href="https://github.com/heygen-com/hyperframes/commit/3cacac5bdc405b808e74df3da14e6c1595357325">3cacac5bd</a>).</li>
+<li>Document safe template default editing (<a href="https://github.com/heygen-com/hyperframes/commit/71e8e92ae940584a2be5a82c5a3d102187043dea">71e8e92ae</a>).</li>
+<li>Expose promoted template media slots (<a href="https://github.com/heygen-com/hyperframes/commit/1e11608d443d0cadeb64b5b005d72763f1a6dccd">1e11608d4</a>).</li>
+<li><strong>Scripts:</strong> Stop the large-file guard firing on text (<a href="https://github.com/heygen-com/hyperframes/commit/a562946e11538a87ac2a0766fdad7833b2798696">a562946e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3475">#3475</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.14...v0.8.15">https://github.com/heygen-com/hyperframes/compare/v0.8.14...v0.8.15</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.14]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.14</link>
@@ -2839,46 +2889,6 @@ diagnostics.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76">https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.75]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.75</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.75</guid>
-            <pubDate>Mon, 27 Jul 2026 03:45:09 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.75</h1>
-<p>Released on 2026-07-27.</p>
-<p>Distributed capture now preflights <code>BeginFrame</code> support and falls back to screenshot
-capture when the browser cannot provide a healthy <code>BeginFrame</code> session. A targeted
-retry also recovers from <code>BeginFrame</code>-specific failures without masking unrelated errors.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Fall back from unhealthy distributed <code>BeginFrame</code> capture safely (<a href="https://github.com/heygen-com/hyperframes/commit/96cafb47c6c9850939c85e2cc76e578d3b6dbd1b">96cafb47c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2821">#2821</a>)</li>
-<li><strong>Regression:</strong> Schedule the Plan v2 color fixture in regression shards (<a href="https://github.com/heygen-com/hyperframes/commit/51cbbe6fc93e025ee94fc73ad2b65afce8a35d3b">51cbbe6fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2820">#2820</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Regression:</strong> Compute the shard matrix from recorded fixture timings (<a href="https://github.com/heygen-com/hyperframes/commit/f67012eb9f6a953de90a3d7828979b56a3c96006">f67012eb9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2815">#2815</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75">https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.75</h1>
-<p>Released on 2026-07-27.</p>
-<p>Distributed capture now preflights <code>BeginFrame</code> support and falls back to screenshot
-capture when the browser cannot provide a healthy <code>BeginFrame</code> session. A targeted
-retry also recovers from <code>BeginFrame</code>-specific failures without masking unrelated errors.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Fall back from unhealthy distributed <code>BeginFrame</code> capture safely (<a href="https://github.com/heygen-com/hyperframes/commit/96cafb47c6c9850939c85e2cc76e578d3b6dbd1b">96cafb47c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2821">#2821</a>)</li>
-<li><strong>Regression:</strong> Schedule the Plan v2 color fixture in regression shards (<a href="https://github.com/heygen-com/hyperframes/commit/51cbbe6fc93e025ee94fc73ad2b65afce8a35d3b">51cbbe6fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2820">#2820</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Regression:</strong> Compute the shard matrix from recorded fixture timings (<a href="https://github.com/heygen-com/hyperframes/commit/f67012eb9f6a953de90a3d7828979b56a3c96006">f67012eb9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2815">#2815</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75">https://github.com/heygen-com/hyperframes/compare/v0.7.74...v0.7.75</a></p>
 ]]></content:encoded>
         </item>
     </channel>
