@@ -4,11 +4,69 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 26 Aug 2026 03:28:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Aug 2026 01:40:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.16]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.16</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.16</guid>
+            <pubDate>Thu, 27 Aug 2026 01:40:42 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.16</h1>
+<p>Released on 2026-08-27.</p>
+<p>Rendering is more reliable across audio, embedded sources, long sequences, and empty caches, while CJK and Thai captions keep phrase boundaries. Local video generation now avoids dead model tiers, and the player can retain runtime data channels for richer integrations.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Player:</strong> Add retained runtime data channels (<a href="https://github.com/heygen-com/hyperframes/commit/4f00336c92f6418aab82c060853da604dd832197">4f00336c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3471">#3471</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> Repoint the dead videogen tier, demote past unusable local models (<a href="https://github.com/heygen-com/hyperframes/commit/8392e84a1839dbe083b74d093cb441f4610389c4">8392e84a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3509">#3509</a>).</li>
+<li><strong>Engine:</strong> Stop destroying the AAC priming edit list when muxing (<a href="https://github.com/heygen-com/hyperframes/commit/ee64c3b1168a3466269344197ba6774f9eb15e14">ee64c3b11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3505">#3505</a>).</li>
+<li><strong>CLI:</strong> Keep phrase-level CJK and Thai transcripts as separate cues (<a href="https://github.com/heygen-com/hyperframes/commit/18409c9f2742e491ef7ff6a1454675a295e5d0a0">18409c9f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3436">#3436</a>).</li>
+<li><strong>Engine,producer,lint:</strong> Resolve <source> children for media extract and localize (<a href="https://github.com/heygen-com/hyperframes/commit/97991bbd3566a70f857412739dfa6ca9acfcaf27">97991bbd3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3238">#3238</a>).</li>
+<li><strong>Engine:</strong> Preserve source frame identity above 99,999 (<a href="https://github.com/heygen-com/hyperframes/commit/c9f43ebcfbc05a83b18f46007f31a5cbd973ebb9">c9f43ebcf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3503">#3503</a>).</li>
+<li><strong>Studio:</strong> Dedupe repeated selection telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/9aaa7552fc7a41d479e4b4638cd0c47472652ddc">9aaa7552f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3498">#3498</a>).</li>
+<li><strong>Engine:</strong> Treat a sentineled cache entry with no frames as a miss (<a href="https://github.com/heygen-com/hyperframes/commit/dae5b7b90b7eefceffc9e64cc532b5cc74eeeedd">dae5b7b90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3434">#3434</a>).</li>
+<li><strong>Producer,core:</strong> Honor relative data-start id-refs in render media scheduling (<a href="https://github.com/heygen-com/hyperframes/commit/f52ec1c25f3af20fcceefad24acb06f37feab24c">f52ec1c25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3252">#3252</a>).</li>
+<li><strong>Producer:</strong> Fall back to screenshot capture on drawElement canvas-not-initialized (<a href="https://github.com/heygen-com/hyperframes/commit/a7e86747586b5aad0263b6b00bbd9d32c51ff7e6">a7e867475</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3480">#3480</a>).</li>
+<li><strong>Core:</strong> Evict cached MediaElementSource on src mutation, soften enforcement-point claims (<a href="https://github.com/heygen-com/hyperframes/commit/f7fc0017a6a6f31a4ae725f9f391d8dc63e3d9cc">f7fc0017a</a>).</li>
+<li><strong>Core:</strong> Correct web-audio-route subpath export resolution (<a href="https://github.com/heygen-com/hyperframes/commit/32ef37cfc31975afbeae85a3f6805e575a43e87a">32ef37cfc</a>).</li>
+<li><strong>Core:</strong> Address review — gate early diagnostic, fix empty crossOrigin, document gaps (<a href="https://github.com/heygen-com/hyperframes/commit/acc689825543942939bbef14ccd2844b7f13298d">acc689825</a>).</li>
+<li><strong>Core:</strong> Prevent cross-origin Web Audio capture from silencing audio (<a href="https://github.com/heygen-com/hyperframes/commit/cce17da5a9eb1c6efa21db084d786a1d34b5d8f9">cce17da5a</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.15...v0.8.16">https://github.com/heygen-com/hyperframes/compare/v0.8.15...v0.8.16</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.16</h1>
+<p>Released on 2026-08-27.</p>
+<p>Rendering is more reliable across audio, embedded sources, long sequences, and empty caches, while CJK and Thai captions keep phrase boundaries. Local video generation now avoids dead model tiers, and the player can retain runtime data channels for richer integrations.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Player:</strong> Add retained runtime data channels (<a href="https://github.com/heygen-com/hyperframes/commit/4f00336c92f6418aab82c060853da604dd832197">4f00336c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3471">#3471</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> Repoint the dead videogen tier, demote past unusable local models (<a href="https://github.com/heygen-com/hyperframes/commit/8392e84a1839dbe083b74d093cb441f4610389c4">8392e84a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3509">#3509</a>).</li>
+<li><strong>Engine:</strong> Stop destroying the AAC priming edit list when muxing (<a href="https://github.com/heygen-com/hyperframes/commit/ee64c3b1168a3466269344197ba6774f9eb15e14">ee64c3b11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3505">#3505</a>).</li>
+<li><strong>CLI:</strong> Keep phrase-level CJK and Thai transcripts as separate cues (<a href="https://github.com/heygen-com/hyperframes/commit/18409c9f2742e491ef7ff6a1454675a295e5d0a0">18409c9f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3436">#3436</a>).</li>
+<li><strong>Engine,producer,lint:</strong> Resolve <source> children for media extract and localize (<a href="https://github.com/heygen-com/hyperframes/commit/97991bbd3566a70f857412739dfa6ca9acfcaf27">97991bbd3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3238">#3238</a>).</li>
+<li><strong>Engine:</strong> Preserve source frame identity above 99,999 (<a href="https://github.com/heygen-com/hyperframes/commit/c9f43ebcfbc05a83b18f46007f31a5cbd973ebb9">c9f43ebcf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3503">#3503</a>).</li>
+<li><strong>Studio:</strong> Dedupe repeated selection telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/9aaa7552fc7a41d479e4b4638cd0c47472652ddc">9aaa7552f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3498">#3498</a>).</li>
+<li><strong>Engine:</strong> Treat a sentineled cache entry with no frames as a miss (<a href="https://github.com/heygen-com/hyperframes/commit/dae5b7b90b7eefceffc9e64cc532b5cc74eeeedd">dae5b7b90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3434">#3434</a>).</li>
+<li><strong>Producer,core:</strong> Honor relative data-start id-refs in render media scheduling (<a href="https://github.com/heygen-com/hyperframes/commit/f52ec1c25f3af20fcceefad24acb06f37feab24c">f52ec1c25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3252">#3252</a>).</li>
+<li><strong>Producer:</strong> Fall back to screenshot capture on drawElement canvas-not-initialized (<a href="https://github.com/heygen-com/hyperframes/commit/a7e86747586b5aad0263b6b00bbd9d32c51ff7e6">a7e867475</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3480">#3480</a>).</li>
+<li><strong>Core:</strong> Evict cached MediaElementSource on src mutation, soften enforcement-point claims (<a href="https://github.com/heygen-com/hyperframes/commit/f7fc0017a6a6f31a4ae725f9f391d8dc63e3d9cc">f7fc0017a</a>).</li>
+<li><strong>Core:</strong> Correct web-audio-route subpath export resolution (<a href="https://github.com/heygen-com/hyperframes/commit/32ef37cfc31975afbeae85a3f6805e575a43e87a">32ef37cfc</a>).</li>
+<li><strong>Core:</strong> Address review — gate early diagnostic, fix empty crossOrigin, document gaps (<a href="https://github.com/heygen-com/hyperframes/commit/acc689825543942939bbef14ccd2844b7f13298d">acc689825</a>).</li>
+<li><strong>Core:</strong> Prevent cross-origin Web Audio capture from silencing audio (<a href="https://github.com/heygen-com/hyperframes/commit/cce17da5a9eb1c6efa21db084d786a1d34b5d8f9">cce17da5a</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.15...v0.8.16">https://github.com/heygen-com/hyperframes/compare/v0.8.15...v0.8.16</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.15]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.15</link>
@@ -2855,40 +2913,6 @@ queued flush and process-exit behavior
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77">https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.76]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.76</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.76</guid>
-            <pubDate>Mon, 27 Jul 2026 05:13:16 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.76</h1>
-<p>Released on 2026-07-27.</p>
-<p>Plan v2 chunk materialization now recreates declared video directory skeletons even
-when a sparse chunk needs no frames, so inactive-video chunks render without
-downloading unused artifacts. Layout checks also improve rotation-pivot drift
-diagnostics.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Materialize declared video directories for sparse Plan v2 chunks (<a href="https://github.com/heygen-com/hyperframes/commit/ddb59d3567fc70d808f86ef8b5b531078e3df2d6">ddb59d356</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2823">#2823</a>)</li>
-<li><strong>Check:</strong> Improve elongated rotation-pivot drift detection and detached-connector diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/75ed99e1d4f45015812575ff26c07efb0b253f21">75ed99e1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2819">#2819</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76">https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.76</h1>
-<p>Released on 2026-07-27.</p>
-<p>Plan v2 chunk materialization now recreates declared video directory skeletons even
-when a sparse chunk needs no frames, so inactive-video chunks render without
-downloading unused artifacts. Layout checks also improve rotation-pivot drift
-diagnostics.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Materialize declared video directories for sparse Plan v2 chunks (<a href="https://github.com/heygen-com/hyperframes/commit/ddb59d3567fc70d808f86ef8b5b531078e3df2d6">ddb59d356</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2823">#2823</a>)</li>
-<li><strong>Check:</strong> Improve elongated rotation-pivot drift detection and detached-connector diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/75ed99e1d4f45015812575ff26c07efb0b253f21">75ed99e1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2819">#2819</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76">https://github.com/heygen-com/hyperframes/compare/v0.7.75...v0.7.76</a></p>
 ]]></content:encoded>
         </item>
     </channel>
