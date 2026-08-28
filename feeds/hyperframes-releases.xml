@@ -4,11 +4,57 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 27 Aug 2026 01:40:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Aug 2026 00:44:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.17]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.17</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.17</guid>
+            <pubDate>Fri, 28 Aug 2026 00:44:38 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.17</h1>
+<p>Released on 2026-08-28.</p>
+<p>Studio now exposes live editing state to agentic browsers, including browsers without native WebMCP. Renders now fail instead of silently succeeding when sub-compositions, media extraction, or artifact validation break, while nested runtime videos keep distinct identities.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Fall back to a WebMCP polyfill where the browser has none (<a href="https://github.com/heygen-com/hyperframes/commit/097d901d703be01781a47f2a8aa2dc65e0a3e19e">097d901d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3514">#3514</a>).</li>
+<li><strong>Studio:</strong> Expose Studio&#39;s live state to an agentic browser (WebMCP) (<a href="https://github.com/heygen-com/hyperframes/commit/94da403d6d9e3bdf23665794572a90918832036d">94da403d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3511">#3511</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Enforce video extraction failures by default (#3372) (<a href="https://github.com/heygen-com/hyperframes/commit/4d87f8bbae3d4cda71f75fa33e8d48ce38a3afc7">4d87f8bba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3526">#3526</a>).</li>
+<li><strong>Core,producer:</strong> Stamp render ids on empty-src media and pair the snapshot by them (<a href="https://github.com/heygen-com/hyperframes/commit/9eb84c91b6a785028d6bc4c122b633bda0741c7f">9eb84c91b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3513">#3513</a>).</li>
+<li><strong>Engine:</strong> Fail render on sub-composition script failures (#3352) (<a href="https://github.com/heygen-com/hyperframes/commit/e69be30e985a32a70d04de607763135884246193">e69be30e9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3528">#3528</a>).</li>
+<li><strong>Producer:</strong> Assert render artifact duration and frame count before commit (<a href="https://github.com/heygen-com/hyperframes/commit/05275c1e8ce3bee6d331cca9ff9c8eec02c34977">05275c1e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3506">#3506</a>).</li>
+<li><strong>Core:</strong> Read CSS animation opacity through color grading&#39;s own hide (#3329) (<a href="https://github.com/heygen-com/hyperframes/commit/e5c7dc75e8ae7146d81d07e1f0e0731d4ad9eb6c">e5c7dc75e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3507">#3507</a>).</li>
+<li><strong>Studio:</strong> Let a failed DOM edit report that it failed (<a href="https://github.com/heygen-com/hyperframes/commit/21bcd5745cc0d8bb4c51363ef4183b343cbbd169">21bcd5745</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3510">#3510</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.16...v0.8.17">https://github.com/heygen-com/hyperframes/compare/v0.8.16...v0.8.17</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.17</h1>
+<p>Released on 2026-08-28.</p>
+<p>Studio now exposes live editing state to agentic browsers, including browsers without native WebMCP. Renders now fail instead of silently succeeding when sub-compositions, media extraction, or artifact validation break, while nested runtime videos keep distinct identities.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Fall back to a WebMCP polyfill where the browser has none (<a href="https://github.com/heygen-com/hyperframes/commit/097d901d703be01781a47f2a8aa2dc65e0a3e19e">097d901d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3514">#3514</a>).</li>
+<li><strong>Studio:</strong> Expose Studio&#39;s live state to an agentic browser (WebMCP) (<a href="https://github.com/heygen-com/hyperframes/commit/94da403d6d9e3bdf23665794572a90918832036d">94da403d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3511">#3511</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Enforce video extraction failures by default (#3372) (<a href="https://github.com/heygen-com/hyperframes/commit/4d87f8bbae3d4cda71f75fa33e8d48ce38a3afc7">4d87f8bba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3526">#3526</a>).</li>
+<li><strong>Core,producer:</strong> Stamp render ids on empty-src media and pair the snapshot by them (<a href="https://github.com/heygen-com/hyperframes/commit/9eb84c91b6a785028d6bc4c122b633bda0741c7f">9eb84c91b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3513">#3513</a>).</li>
+<li><strong>Engine:</strong> Fail render on sub-composition script failures (#3352) (<a href="https://github.com/heygen-com/hyperframes/commit/e69be30e985a32a70d04de607763135884246193">e69be30e9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3528">#3528</a>).</li>
+<li><strong>Producer:</strong> Assert render artifact duration and frame count before commit (<a href="https://github.com/heygen-com/hyperframes/commit/05275c1e8ce3bee6d331cca9ff9c8eec02c34977">05275c1e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3506">#3506</a>).</li>
+<li><strong>Core:</strong> Read CSS animation opacity through color grading&#39;s own hide (#3329) (<a href="https://github.com/heygen-com/hyperframes/commit/e5c7dc75e8ae7146d81d07e1f0e0731d4ad9eb6c">e5c7dc75e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3507">#3507</a>).</li>
+<li><strong>Studio:</strong> Let a failed DOM edit report that it failed (<a href="https://github.com/heygen-com/hyperframes/commit/21bcd5745cc0d8bb4c51363ef4183b343cbbd169">21bcd5745</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3510">#3510</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.16...v0.8.17">https://github.com/heygen-com/hyperframes/compare/v0.8.16...v0.8.17</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.16]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.16</link>
@@ -2817,102 +2863,6 @@ feature flag.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.77...v0.7.78">https://github.com/heygen-com/hyperframes/compare/v0.7.77...v0.7.78</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.77]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.77</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.77</guid>
-            <pubDate>Tue, 28 Jul 2026 02:18:40 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.77</h1>
-<p>Released on 2026-07-28.</p>
-<p>Studio&#39;s timeline now exposes expandable property lanes, track headers, precise
-keyframe retiming, and selection-safe editing across nested compositions. This
-release also makes stalled CLI download cleanup reliable on Windows and adds an
-opt-in prose-coverage floor to layout checks.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Add expanded keyframe lanes, track headers, retiming interactions,
-and nested-composition timeline support
-(<a href="https://github.com/heygen-com/hyperframes/pull/2791">#2791</a>)</li>
-<li><strong>Check:</strong> Add the opt-in <code>proseCoverageFloor</code> layout rule
-(<a href="https://github.com/heygen-com/hyperframes/pull/2834">#2834</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Wait for stalled download pipelines to release temporary files before
-cleanup, fixing the Windows locked-file failure
-(<a href="https://github.com/heygen-com/hyperframes/pull/2835">#2835</a>)</li>
-<li><strong>Telemetry:</strong> Send CLI feedback through the plain-event path instead of the
-PostHog survey API
-(<a href="https://github.com/heygen-com/hyperframes/pull/2831">#2831</a>)</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CI:</strong> Distribute the two heaviest render fixtures and improve Docker layer
-reuse for producer-only changes
-(<a href="https://github.com/heygen-com/hyperframes/pull/2825">#2825</a>,
-<a href="https://github.com/heygen-com/hyperframes/pull/2822">#2822</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Send-to guide:</strong> Clarify that enhance turns are free and rendering is the
-paid step
-(<a href="https://github.com/heygen-com/hyperframes/pull/2827">#2827</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>CLI:</strong> Separate telemetry delivery from event policy while preserving the
-queued flush and process-exit behavior
-(<a href="https://github.com/heygen-com/hyperframes/pull/2344">#2344</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77">https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.77</h1>
-<p>Released on 2026-07-28.</p>
-<p>Studio&#39;s timeline now exposes expandable property lanes, track headers, precise
-keyframe retiming, and selection-safe editing across nested compositions. This
-release also makes stalled CLI download cleanup reliable on Windows and adds an
-opt-in prose-coverage floor to layout checks.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Add expanded keyframe lanes, track headers, retiming interactions,
-and nested-composition timeline support
-(<a href="https://github.com/heygen-com/hyperframes/pull/2791">#2791</a>)</li>
-<li><strong>Check:</strong> Add the opt-in <code>proseCoverageFloor</code> layout rule
-(<a href="https://github.com/heygen-com/hyperframes/pull/2834">#2834</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Wait for stalled download pipelines to release temporary files before
-cleanup, fixing the Windows locked-file failure
-(<a href="https://github.com/heygen-com/hyperframes/pull/2835">#2835</a>)</li>
-<li><strong>Telemetry:</strong> Send CLI feedback through the plain-event path instead of the
-PostHog survey API
-(<a href="https://github.com/heygen-com/hyperframes/pull/2831">#2831</a>)</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CI:</strong> Distribute the two heaviest render fixtures and improve Docker layer
-reuse for producer-only changes
-(<a href="https://github.com/heygen-com/hyperframes/pull/2825">#2825</a>,
-<a href="https://github.com/heygen-com/hyperframes/pull/2822">#2822</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Send-to guide:</strong> Clarify that enhance turns are free and rendering is the
-paid step
-(<a href="https://github.com/heygen-com/hyperframes/pull/2827">#2827</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>CLI:</strong> Separate telemetry delivery from event policy while preserving the
-queued flush and process-exit behavior
-(<a href="https://github.com/heygen-com/hyperframes/pull/2344">#2344</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77">https://github.com/heygen-com/hyperframes/compare/v0.7.76...v0.7.77</a></p>
 ]]></content:encoded>
         </item>
     </channel>
