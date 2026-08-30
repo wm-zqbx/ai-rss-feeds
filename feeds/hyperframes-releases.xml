@@ -4,11 +4,39 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 29 Aug 2026 18:02:59 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 30 Aug 2026 04:35:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.20]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.20</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.20</guid>
+            <pubDate>Sun, 30 Aug 2026 04:35:17 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.20</h1>
+<p>Released on 2026-08-30.</p>
+<p>Studio now separates blocked direct edits from real save failures and keeps the file and HTTP details needed to diagnose them.
+Repeated failures are grouped, and write tracking now works in more secure browser contexts.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Correct save failure telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/28be8dddfacefe29b5e25ae2d36fd76ffe4c4852">28be8dddfa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3499">#3499</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.19...v0.8.20">https://github.com/heygen-com/hyperframes/compare/v0.8.19...v0.8.20</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.20</h1>
+<p>Released on 2026-08-30.</p>
+<p>Studio now separates blocked direct edits from real save failures and keeps the file and HTTP details needed to diagnose them.
+Repeated failures are grouped, and write tracking now works in more secure browser contexts.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Correct save failure telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/28be8dddfacefe29b5e25ae2d36fd76ffe4c4852">28be8dddfa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3499">#3499</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.19...v0.8.20">https://github.com/heygen-com/hyperframes/compare/v0.8.19...v0.8.20</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.19]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.19</link>
@@ -2687,64 +2715,6 @@ as <code>FONT_FETCH_UNAVAILABLE</code> for orchestration-level recovery.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.80...v0.7.81">https://github.com/heygen-com/hyperframes/compare/v0.7.80...v0.7.81</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.80]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.80</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.80</guid>
-            <pubDate>Wed, 29 Jul 2026 02:48:37 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.80</h1>
-<p>Released on 2026-07-29.</p>
-<p>HyperFrames now renders scene-local video timing correctly across sequential nested templates
-and removes vulnerable runtime dependency paths. Studio also gains exact bulk easing for
-merged keyframes, atomic keyframe-cache refreshes, and smoother optimistic ease-mode changes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Bulk-edit easing for merged keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/10d45def058248d0d59d1448beef6a6ee91ddeba">10d45def0</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keep hidden state on expanded sub-composition rows (<a href="https://github.com/heygen-com/hyperframes/commit/5dad52370f77a9a0618827279b8a4dcd86868456">5dad52370</a>)</li>
-<li><strong>Studio:</strong> Open the path node menu on arc waypoints (<a href="https://github.com/heygen-com/hyperframes/commit/adb7de5358d7ed6feeb41c55e6152ed7758bf1b5">adb7de535</a>)</li>
-<li><strong>Studio:</strong> Switch keyframe ease modes optimistically (<a href="https://github.com/heygen-com/hyperframes/commit/659e22656e51aef54d079b3822fa40086d93726b">659e22656</a>)</li>
-<li><strong>Studio:</strong> Publish keyframe cache refresh atomically (<a href="https://github.com/heygen-com/hyperframes/commit/6b11d3743339c13424073fca63791d941d3fbbf6">6b11d3743</a>)</li>
-<li><strong>Studio:</strong> Target colliding keyframes exactly (<a href="https://github.com/heygen-com/hyperframes/commit/7482c22d821c0a46b48cb17421c4df73014dbbd6">7482c22d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2692">#2692</a>)</li>
-<li><strong>Core:</strong> Preserve scene-local video timing across sequential nested templates (<a href="https://github.com/heygen-com/hyperframes/commit/9bbb6d50a02e128fcdab9ae20d33649b65406788">9bbb6d50a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2859">#2859</a>)</li>
-<li><strong>Security:</strong> Remove vulnerable runtime dependency paths (<a href="https://github.com/heygen-com/hyperframes/commit/13ac9e390585e75b80f5efd46393531315f0be2c">13ac9e390</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Split bulk easing helpers (<a href="https://github.com/heygen-com/hyperframes/commit/23ab104aff7a90de6d41aa7af2fb425314015d1d">23ab104af</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.79...v0.7.80">https://github.com/heygen-com/hyperframes/compare/v0.7.79...v0.7.80</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.80</h1>
-<p>Released on 2026-07-29.</p>
-<p>HyperFrames now renders scene-local video timing correctly across sequential nested templates
-and removes vulnerable runtime dependency paths. Studio also gains exact bulk easing for
-merged keyframes, atomic keyframe-cache refreshes, and smoother optimistic ease-mode changes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Bulk-edit easing for merged keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/10d45def058248d0d59d1448beef6a6ee91ddeba">10d45def0</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keep hidden state on expanded sub-composition rows (<a href="https://github.com/heygen-com/hyperframes/commit/5dad52370f77a9a0618827279b8a4dcd86868456">5dad52370</a>)</li>
-<li><strong>Studio:</strong> Open the path node menu on arc waypoints (<a href="https://github.com/heygen-com/hyperframes/commit/adb7de5358d7ed6feeb41c55e6152ed7758bf1b5">adb7de535</a>)</li>
-<li><strong>Studio:</strong> Switch keyframe ease modes optimistically (<a href="https://github.com/heygen-com/hyperframes/commit/659e22656e51aef54d079b3822fa40086d93726b">659e22656</a>)</li>
-<li><strong>Studio:</strong> Publish keyframe cache refresh atomically (<a href="https://github.com/heygen-com/hyperframes/commit/6b11d3743339c13424073fca63791d941d3fbbf6">6b11d3743</a>)</li>
-<li><strong>Studio:</strong> Target colliding keyframes exactly (<a href="https://github.com/heygen-com/hyperframes/commit/7482c22d821c0a46b48cb17421c4df73014dbbd6">7482c22d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2692">#2692</a>)</li>
-<li><strong>Core:</strong> Preserve scene-local video timing across sequential nested templates (<a href="https://github.com/heygen-com/hyperframes/commit/9bbb6d50a02e128fcdab9ae20d33649b65406788">9bbb6d50a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2859">#2859</a>)</li>
-<li><strong>Security:</strong> Remove vulnerable runtime dependency paths (<a href="https://github.com/heygen-com/hyperframes/commit/13ac9e390585e75b80f5efd46393531315f0be2c">13ac9e390</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Split bulk easing helpers (<a href="https://github.com/heygen-com/hyperframes/commit/23ab104aff7a90de6d41aa7af2fb425314015d1d">23ab104af</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.79...v0.7.80">https://github.com/heygen-com/hyperframes/compare/v0.7.79...v0.7.80</a></p>
 ]]></content:encoded>
         </item>
     </channel>
