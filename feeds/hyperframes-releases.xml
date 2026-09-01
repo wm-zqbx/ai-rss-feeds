@@ -4,11 +4,59 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 01 Sep 2026 02:58:12 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Sep 2026 18:11:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.23]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.23</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.23</guid>
+            <pubDate>Tue, 01 Sep 2026 18:11:08 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.23</h1>
+<p>Released on 2026-09-01.</p>
+<p>Server deployments can now caption captured assets with Vertex credentials, and promoted templates identify the brand each slot represents.
+Caption-zone checks catch overlapping text, while safer timeline lint prevents a class of broken template playback.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Capture:</strong> Authenticate vision captioning with Vertex service accounts and keep SVG rasterization safe (<a href="https://github.com/heygen-com/hyperframes/commit/8eea3c913f1584b769cc38e8a91bd70f600f352a">8eea3c913</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3561">#3561</a>).</li>
+<li><strong>CLI:</strong> Flag text whenever its DOM box overlaps the reserved caption zone (<a href="https://github.com/heygen-com/hyperframes/commit/45cc3435254c44abe7b21bc8e996bbef32365fe6">45cc34352</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3580">#3580</a>).</li>
+<li><strong>Lint:</strong> Reject timeline return values used as child tweens before they can detach template playback (<a href="https://github.com/heygen-com/hyperframes/commit/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590">254fe4bd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3562">#3562</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Mark identity-bearing slots across eight promoted templates and keep long prompts visible in exchange composers (<a href="https://github.com/heygen-com/hyperframes/commit/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590">254fe4bd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3562">#3562</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Optimize Windows test lanes (<a href="https://github.com/heygen-com/hyperframes/commit/f42b5ce86c23268a533217e012cd228434c84e02">f42b5ce86</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3579">#3579</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23">https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.23</h1>
+<p>Released on 2026-09-01.</p>
+<p>Server deployments can now caption captured assets with Vertex credentials, and promoted templates identify the brand each slot represents.
+Caption-zone checks catch overlapping text, while safer timeline lint prevents a class of broken template playback.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Capture:</strong> Authenticate vision captioning with Vertex service accounts and keep SVG rasterization safe (<a href="https://github.com/heygen-com/hyperframes/commit/8eea3c913f1584b769cc38e8a91bd70f600f352a">8eea3c913</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3561">#3561</a>).</li>
+<li><strong>CLI:</strong> Flag text whenever its DOM box overlaps the reserved caption zone (<a href="https://github.com/heygen-com/hyperframes/commit/45cc3435254c44abe7b21bc8e996bbef32365fe6">45cc34352</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3580">#3580</a>).</li>
+<li><strong>Lint:</strong> Reject timeline return values used as child tweens before they can detach template playback (<a href="https://github.com/heygen-com/hyperframes/commit/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590">254fe4bd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3562">#3562</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Mark identity-bearing slots across eight promoted templates and keep long prompts visible in exchange composers (<a href="https://github.com/heygen-com/hyperframes/commit/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590">254fe4bd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3562">#3562</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Optimize Windows test lanes (<a href="https://github.com/heygen-com/hyperframes/commit/f42b5ce86c23268a533217e012cd228434c84e02">f42b5ce86</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3579">#3579</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23">https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.22]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.22</link>
@@ -2659,94 +2707,6 @@ development port.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84">https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.83]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.83</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.83</guid>
-            <pubDate>Thu, 30 Jul 2026 01:49:30 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.83</h1>
-<p>Released on 2026-07-30.</p>
-<p>Lays the measurement groundwork for opening the drawElement fast path to short compositions: renders now report their live DOM element count and whether the short-comp routing band would apply, while routing itself stays unchanged behind a default-off flag. Also carries a batch of Windows and browser-resolution fixes, audio-mix corrections, and transparent GIF output.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> Surface init telemetry from parallel workers — the band&#39;s missing motion axis (<a href="https://github.com/heygen-com/hyperframes/commit/23854f7c6a328ef1f6913160af345c9fda70b036">23854f7c6</a>)</li>
-<li><strong>Producer:</strong> Open the DE single-worker inversion to short comps under an element ceiling (<a href="https://github.com/heygen-com/hyperframes/commit/0749cd9ff83ad41c72c7dc6be1b224e9bc27731b">0749cd9ff</a>)</li>
-<li><strong>CLI:</strong> Roll circuit-breaker state over across config wipes (<a href="https://github.com/heygen-com/hyperframes/commit/dfe92b2aabcea8d934e4696f9dfe063307fccdf7">dfe92b2aa</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Stop popovers and tooltips clipping at panel edges (<a href="https://github.com/heygen-com/hyperframes/commit/f81ac745726d3195d07b79d7de9c31357ce8ab43">f81ac7457</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2890">#2890</a>)</li>
-<li><strong>Producer:</strong> Fail closed when no live element count is available (<a href="https://github.com/heygen-com/hyperframes/commit/4dbf0d90b05de2c3db7c983641c8785fd9988148">4dbf0d90b</a>)</li>
-<li><strong>Producer:</strong> Count live DOM, not source markup, for the short-band gate (<a href="https://github.com/heygen-com/hyperframes/commit/def98f79c3fa746e805c6fbe9ee51392c267ea1e">def98f79c</a>)</li>
-<li><strong>Producer:</strong> Keep large local fonts file-backed (<a href="https://github.com/heygen-com/hyperframes/commit/87791fd01d93ee82226bf09d98a4dfe339c42307">87791fd01</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2864">#2864</a>)</li>
-<li>Exclude hidden audio from render mix (<a href="https://github.com/heygen-com/hyperframes/commit/b7160f69bba87254f8d33853df21a8be862605e1">b7160f69b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2870">#2870</a>)</li>
-<li><strong>Parsers:</strong> Validate Windows FFmpeg discovery candidates (<a href="https://github.com/heygen-com/hyperframes/commit/4ad1cf4551b724e7d54f82f86b233ef734545250">4ad1cf455</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2871">#2871</a>)</li>
-<li>Preserve plateaus in sampled audio automation (<a href="https://github.com/heygen-com/hyperframes/commit/04e0ccce429c0c7c579cd06db09e7bad8fb550f3">04e0ccce4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2863">#2863</a>)</li>
-<li><strong>CLI:</strong> Select host-compatible cached browser (<a href="https://github.com/heygen-com/hyperframes/commit/85f0c9d3546b1973dfba884fe6d2a7a8188d4ad3">85f0c9d35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2861">#2861</a>)</li>
-<li><strong>CLI:</strong> Honor check navigation timeout (<a href="https://github.com/heygen-com/hyperframes/commit/fdc5932897ea3ecf778d520da77e6f6d493017d5">fdc593289</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2860">#2860</a>)</li>
-<li><strong>CLI:</strong> Simplify nextInstallState&#39;s dead hadFired branch (review nit) (<a href="https://github.com/heygen-com/hyperframes/commit/ec76985f4072469762388739f16b1c6904e84519">ec76985f4</a>)</li>
-<li><strong>Producer:</strong> Address R2 review findings — element undercount and kill-switch attribution (<a href="https://github.com/heygen-com/hyperframes/commit/7bb9e3cbf920e04d01854a839d01619cb3615ab4">7bb9e3cbf</a>)</li>
-<li><strong>Render:</strong> Preserve transparency in GIF output (<a href="https://github.com/heygen-com/hyperframes/commit/6cfb05e38bcb0ad02fa848500b462f0193a639b1">6cfb05e38</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2327">#2327</a>)</li>
-<li><strong>Studio:</strong> Resolve Chrome on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/d8d626537bf6a830711f38e24cc8756bc26f8d48">d8d626537</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2878">#2878</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Product Launch Video:</strong> Use real screenshots for site showcases (<a href="https://github.com/heygen-com/hyperframes/commit/860954d71c15dcd7d47ce9d8bda55009010f08f7">860954d71</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2881">#2881</a>)</li>
-<li><strong>Product Launch Video:</strong> Catch motion jumps at frame cuts (<a href="https://github.com/heygen-com/hyperframes/commit/5466bceccef70a3663f5a92bc567455fd018f050">5466bcecc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2880">#2880</a>)</li>
-<li><strong>Audio:</strong> Avoid weak music openings in short launch videos (<a href="https://github.com/heygen-com/hyperframes/commit/30900c3465f457bf65f07ed4b4b55c384286bd20">30900c346</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2882">#2882</a>)</li>
-<li><strong>Skills:</strong> Name the media-treatment policy targets instead of alluding to them (<a href="https://github.com/heygen-com/hyperframes/commit/6cab53a681bf159ffe34f66506a8004e38213fae">6cab53a68</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2879">#2879</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Split ease mode controls out of EaseCurveSection (<a href="https://github.com/heygen-com/hyperframes/commit/e0b19094758044b6e6b9e57d8a13e19d738c6952">e0b190947</a>)</li>
-<li><strong>Studio:</strong> Remove fully rolled-out studio feature flags (<a href="https://github.com/heygen-com/hyperframes/commit/cef3b86c95cb257be7c61ac3bdc4dd6dc9692e11">cef3b86c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2889">#2889</a>)</li>
-<li><strong>Producer:</strong> Make the short-comp band baseline-first and its attribution decisive (<a href="https://github.com/heygen-com/hyperframes/commit/e9de2fa14f61f503287c9d87ec0487c165ecbcba">e9de2fa14</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.82...v0.7.83">https://github.com/heygen-com/hyperframes/compare/v0.7.82...v0.7.83</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.83</h1>
-<p>Released on 2026-07-30.</p>
-<p>Lays the measurement groundwork for opening the drawElement fast path to short compositions: renders now report their live DOM element count and whether the short-comp routing band would apply, while routing itself stays unchanged behind a default-off flag. Also carries a batch of Windows and browser-resolution fixes, audio-mix corrections, and transparent GIF output.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> Surface init telemetry from parallel workers — the band&#39;s missing motion axis (<a href="https://github.com/heygen-com/hyperframes/commit/23854f7c6a328ef1f6913160af345c9fda70b036">23854f7c6</a>)</li>
-<li><strong>Producer:</strong> Open the DE single-worker inversion to short comps under an element ceiling (<a href="https://github.com/heygen-com/hyperframes/commit/0749cd9ff83ad41c72c7dc6be1b224e9bc27731b">0749cd9ff</a>)</li>
-<li><strong>CLI:</strong> Roll circuit-breaker state over across config wipes (<a href="https://github.com/heygen-com/hyperframes/commit/dfe92b2aabcea8d934e4696f9dfe063307fccdf7">dfe92b2aa</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Stop popovers and tooltips clipping at panel edges (<a href="https://github.com/heygen-com/hyperframes/commit/f81ac745726d3195d07b79d7de9c31357ce8ab43">f81ac7457</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2890">#2890</a>)</li>
-<li><strong>Producer:</strong> Fail closed when no live element count is available (<a href="https://github.com/heygen-com/hyperframes/commit/4dbf0d90b05de2c3db7c983641c8785fd9988148">4dbf0d90b</a>)</li>
-<li><strong>Producer:</strong> Count live DOM, not source markup, for the short-band gate (<a href="https://github.com/heygen-com/hyperframes/commit/def98f79c3fa746e805c6fbe9ee51392c267ea1e">def98f79c</a>)</li>
-<li><strong>Producer:</strong> Keep large local fonts file-backed (<a href="https://github.com/heygen-com/hyperframes/commit/87791fd01d93ee82226bf09d98a4dfe339c42307">87791fd01</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2864">#2864</a>)</li>
-<li>Exclude hidden audio from render mix (<a href="https://github.com/heygen-com/hyperframes/commit/b7160f69bba87254f8d33853df21a8be862605e1">b7160f69b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2870">#2870</a>)</li>
-<li><strong>Parsers:</strong> Validate Windows FFmpeg discovery candidates (<a href="https://github.com/heygen-com/hyperframes/commit/4ad1cf4551b724e7d54f82f86b233ef734545250">4ad1cf455</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2871">#2871</a>)</li>
-<li>Preserve plateaus in sampled audio automation (<a href="https://github.com/heygen-com/hyperframes/commit/04e0ccce429c0c7c579cd06db09e7bad8fb550f3">04e0ccce4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2863">#2863</a>)</li>
-<li><strong>CLI:</strong> Select host-compatible cached browser (<a href="https://github.com/heygen-com/hyperframes/commit/85f0c9d3546b1973dfba884fe6d2a7a8188d4ad3">85f0c9d35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2861">#2861</a>)</li>
-<li><strong>CLI:</strong> Honor check navigation timeout (<a href="https://github.com/heygen-com/hyperframes/commit/fdc5932897ea3ecf778d520da77e6f6d493017d5">fdc593289</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2860">#2860</a>)</li>
-<li><strong>CLI:</strong> Simplify nextInstallState&#39;s dead hadFired branch (review nit) (<a href="https://github.com/heygen-com/hyperframes/commit/ec76985f4072469762388739f16b1c6904e84519">ec76985f4</a>)</li>
-<li><strong>Producer:</strong> Address R2 review findings — element undercount and kill-switch attribution (<a href="https://github.com/heygen-com/hyperframes/commit/7bb9e3cbf920e04d01854a839d01619cb3615ab4">7bb9e3cbf</a>)</li>
-<li><strong>Render:</strong> Preserve transparency in GIF output (<a href="https://github.com/heygen-com/hyperframes/commit/6cfb05e38bcb0ad02fa848500b462f0193a639b1">6cfb05e38</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2327">#2327</a>)</li>
-<li><strong>Studio:</strong> Resolve Chrome on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/d8d626537bf6a830711f38e24cc8756bc26f8d48">d8d626537</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2878">#2878</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Product Launch Video:</strong> Use real screenshots for site showcases (<a href="https://github.com/heygen-com/hyperframes/commit/860954d71c15dcd7d47ce9d8bda55009010f08f7">860954d71</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2881">#2881</a>)</li>
-<li><strong>Product Launch Video:</strong> Catch motion jumps at frame cuts (<a href="https://github.com/heygen-com/hyperframes/commit/5466bceccef70a3663f5a92bc567455fd018f050">5466bcecc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2880">#2880</a>)</li>
-<li><strong>Audio:</strong> Avoid weak music openings in short launch videos (<a href="https://github.com/heygen-com/hyperframes/commit/30900c3465f457bf65f07ed4b4b55c384286bd20">30900c346</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2882">#2882</a>)</li>
-<li><strong>Skills:</strong> Name the media-treatment policy targets instead of alluding to them (<a href="https://github.com/heygen-com/hyperframes/commit/6cab53a681bf159ffe34f66506a8004e38213fae">6cab53a68</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2879">#2879</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Split ease mode controls out of EaseCurveSection (<a href="https://github.com/heygen-com/hyperframes/commit/e0b19094758044b6e6b9e57d8a13e19d738c6952">e0b190947</a>)</li>
-<li><strong>Studio:</strong> Remove fully rolled-out studio feature flags (<a href="https://github.com/heygen-com/hyperframes/commit/cef3b86c95cb257be7c61ac3bdc4dd6dc9692e11">cef3b86c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2889">#2889</a>)</li>
-<li><strong>Producer:</strong> Make the short-comp band baseline-first and its attribution decisive (<a href="https://github.com/heygen-com/hyperframes/commit/e9de2fa14f61f503287c9d87ec0487c165ecbcba">e9de2fa14</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.82...v0.7.83">https://github.com/heygen-com/hyperframes/compare/v0.7.82...v0.7.83</a></p>
 ]]></content:encoded>
         </item>
     </channel>
