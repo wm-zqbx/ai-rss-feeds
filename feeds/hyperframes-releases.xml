@@ -4,11 +4,55 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 01 Sep 2026 18:11:08 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Sep 2026 01:59:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.24]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.24</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.24</guid>
+            <pubDate>Wed, 02 Sep 2026 01:59:16 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.24</h1>
+<p>Released on 2026-09-02.</p>
+<p>Producer failures now carry bounded extraction evidence across service boundaries without exposing signed URLs.
+Catalog tabs also stay aligned with their active indicator.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Transport safe extraction failure metadata (<a href="https://github.com/heygen-com/hyperframes/commit/c0887b650d433ecec39a2ea7efa0674b63b103fe">c0887b650</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3592">#3592</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Sync tab labels with the sliding indicator (<a href="https://github.com/heygen-com/hyperframes/commit/305de15432730397b23f0c2061b73b48857af6a3">305de1543</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3267">#3267</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Give the 150-track audio mix test a Windows-sized budget (<a href="https://github.com/heygen-com/hyperframes/commit/db92f8ab592e92571f172e1ba5c9791e002366bb">db92f8ab5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3587">#3587</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.23...v0.8.24">https://github.com/heygen-com/hyperframes/compare/v0.8.23...v0.8.24</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.24</h1>
+<p>Released on 2026-09-02.</p>
+<p>Producer failures now carry bounded extraction evidence across service boundaries without exposing signed URLs.
+Catalog tabs also stay aligned with their active indicator.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Transport safe extraction failure metadata (<a href="https://github.com/heygen-com/hyperframes/commit/c0887b650d433ecec39a2ea7efa0674b63b103fe">c0887b650</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3592">#3592</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Sync tab labels with the sliding indicator (<a href="https://github.com/heygen-com/hyperframes/commit/305de15432730397b23f0c2061b73b48857af6a3">305de1543</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3267">#3267</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Give the 150-track audio mix test a Windows-sized budget (<a href="https://github.com/heygen-com/hyperframes/commit/db92f8ab592e92571f172e1ba5c9791e002366bb">db92f8ab5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3587">#3587</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.23...v0.8.24">https://github.com/heygen-com/hyperframes/compare/v0.8.23...v0.8.24</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.23]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.23</link>
@@ -2671,42 +2715,6 @@ development port.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.84...v0.7.85">https://github.com/heygen-com/hyperframes/compare/v0.7.84...v0.7.85</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.84]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.84</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.84</guid>
-            <pubDate>Thu, 30 Jul 2026 10:30:57 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.84</h1>
-<p>Released on 2026-07-30.</p>
-<p>Makes the composition element-count signal trustworthy fleet-wide: every render now reports its live DOM size (not just the ~17% that get a probe session), and the static fallback scan no longer inflates counts from markup written inside inline scripts. Observational only — no routing behaviour changes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> Measure live DOM size on every render, not just probed ones (<a href="https://github.com/heygen-com/hyperframes/commit/d74afc7b7dc620036439b398c6bca823fb3911b4">d74afc7b7</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Strip script bodies to a fixed point, not one pass (<a href="https://github.com/heygen-com/hyperframes/commit/042d5aaba6d10c1f0497db9c86f6f71f9e69368c">042d5aaba</a>)</li>
-<li><strong>Producer:</strong> Unbias the static element count and stop zeroing failures (<a href="https://github.com/heygen-com/hyperframes/commit/c61a24b510b022fb7956caa089ee093f87053f96">c61a24b51</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84">https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.84</h1>
-<p>Released on 2026-07-30.</p>
-<p>Makes the composition element-count signal trustworthy fleet-wide: every render now reports its live DOM size (not just the ~17% that get a probe session), and the static fallback scan no longer inflates counts from markup written inside inline scripts. Observational only — no routing behaviour changes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> Measure live DOM size on every render, not just probed ones (<a href="https://github.com/heygen-com/hyperframes/commit/d74afc7b7dc620036439b398c6bca823fb3911b4">d74afc7b7</a>)</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Strip script bodies to a fixed point, not one pass (<a href="https://github.com/heygen-com/hyperframes/commit/042d5aaba6d10c1f0497db9c86f6f71f9e69368c">042d5aaba</a>)</li>
-<li><strong>Producer:</strong> Unbias the static element count and stop zeroing failures (<a href="https://github.com/heygen-com/hyperframes/commit/c61a24b510b022fb7956caa089ee093f87053f96">c61a24b51</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84">https://github.com/heygen-com/hyperframes/compare/v0.7.83...v0.7.84</a></p>
 ]]></content:encoded>
         </item>
     </channel>
