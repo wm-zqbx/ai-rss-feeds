@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 02 Sep 2026 05:33:28 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 02 Sep 2026 14:40:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.26]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.26</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.26</guid>
+            <pubDate>Wed, 02 Sep 2026 14:40:43 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.26</h1>
+<p>Released on 2026-09-02.</p>
+<p>Paused Studio previews now rebind immediately after live edits, so timed layers no longer cover the intended frame until a scrub or reload.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Rebind paused preview after live edits (<a href="https://github.com/heygen-com/hyperframes/commit/81f1a903e1fded20bf32bd565aad5a29f2b5935b">81f1a903e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3596">#3596</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.25...v0.8.26">https://github.com/heygen-com/hyperframes/compare/v0.8.25...v0.8.26</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.26</h1>
+<p>Released on 2026-09-02.</p>
+<p>Paused Studio previews now rebind immediately after live edits, so timed layers no longer cover the intended frame until a scrub or reload.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Rebind paused preview after live edits (<a href="https://github.com/heygen-com/hyperframes/commit/81f1a903e1fded20bf32bd565aad5a29f2b5935b">81f1a903e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3596">#3596</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.25...v0.8.26">https://github.com/heygen-com/hyperframes/compare/v0.8.25...v0.8.26</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.25]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.25</link>
@@ -2617,58 +2643,6 @@ BeginFrame timing.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.86...v0.7.87">https://github.com/heygen-com/hyperframes/compare/v0.7.86...v0.7.87</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.86]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.86</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.86</guid>
-            <pubDate>Thu, 30 Jul 2026 21:46:49 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.86</h1>
-<p>Released on 2026-07-30.</p>
-<p>Hardens media probing against malformed frame rates, option-like file paths, and
-out-of-order PNG color metadata, while keeping Studio timeline latency telemetry
-non-negative. Contributor documentation now points to the correct Studio
-development port.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Prevent negative timeline latency telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/b813b17345531874a00b3c755f60ee6f42849fee">b813b1734</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2905">#2905</a>)</li>
-<li><strong>Engine:</strong> Harden ffprobe parsing and command arguments (<a href="https://github.com/heygen-com/hyperframes/commit/f75ca076b790d38e518af892b67a9ea42cca3dd5">f75ca076b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2740">#2740</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Studio:</strong> Document monorepo dev server port (<a href="https://github.com/heygen-com/hyperframes/commit/a52dd9c3087c63a5c2c7f38d480961794d8c5eae">a52dd9c30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2902">#2902</a>)</li>
-<li><strong>Contributing:</strong> Fix studio dev server port in setup guide (<a href="https://github.com/heygen-com/hyperframes/commit/ffe5e12cf8f404b86e019d28ca25dc75de903d57">ffe5e12cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2901">#2901</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Pr To Video:</strong> Pin the code-vocabulary section of the frame packet (<a href="https://github.com/heygen-com/hyperframes/commit/7b3d3db8adbfb7e04663d7373b9fd62c71321e6c">7b3d3db8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2900">#2900</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.85...v0.7.86">https://github.com/heygen-com/hyperframes/compare/v0.7.85...v0.7.86</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.86</h1>
-<p>Released on 2026-07-30.</p>
-<p>Hardens media probing against malformed frame rates, option-like file paths, and
-out-of-order PNG color metadata, while keeping Studio timeline latency telemetry
-non-negative. Contributor documentation now points to the correct Studio
-development port.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Prevent negative timeline latency telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/b813b17345531874a00b3c755f60ee6f42849fee">b813b1734</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2905">#2905</a>)</li>
-<li><strong>Engine:</strong> Harden ffprobe parsing and command arguments (<a href="https://github.com/heygen-com/hyperframes/commit/f75ca076b790d38e518af892b67a9ea42cca3dd5">f75ca076b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2740">#2740</a>)</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Studio:</strong> Document monorepo dev server port (<a href="https://github.com/heygen-com/hyperframes/commit/a52dd9c3087c63a5c2c7f38d480961794d8c5eae">a52dd9c30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2902">#2902</a>)</li>
-<li><strong>Contributing:</strong> Fix studio dev server port in setup guide (<a href="https://github.com/heygen-com/hyperframes/commit/ffe5e12cf8f404b86e019d28ca25dc75de903d57">ffe5e12cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2901">#2901</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Pr To Video:</strong> Pin the code-vocabulary section of the frame packet (<a href="https://github.com/heygen-com/hyperframes/commit/7b3d3db8adbfb7e04663d7373b9fd62c71321e6c">7b3d3db8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2900">#2900</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.85...v0.7.86">https://github.com/heygen-com/hyperframes/compare/v0.7.85...v0.7.86</a></p>
 ]]></content:encoded>
         </item>
     </channel>
