@@ -4,11 +4,81 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 05 Sep 2026 01:56:17 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 06 Sep 2026 03:18:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.30]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.30</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.30</guid>
+            <pubDate>Sun, 06 Sep 2026 03:18:55 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.30</h1>
+<p>Released on 2026-09-06.</p>
+<p>Site capture now keeps every icon a page declares and fetches assets as the same browser that loaded the page. The rest of this release hardens file handling and bounds slow scans across core, engine, studio and producer.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Keep every icon a site declares and headline the bare mark (<a href="https://github.com/heygen-com/hyperframes/commit/1fa31d5dfb9c2e2e27fd9f745e5bd52f3dff0663">1fa31d5df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3727">#3727</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Clarify publish visibility and claim links (<a href="https://github.com/heygen-com/hyperframes/commit/672ea844a5e66c574d367163741bdf7b7adea367">672ea844a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3730">#3730</a>).</li>
+<li><strong>CLI:</strong> Pin Studio bundle, signature and runtime file reads (<a href="https://github.com/heygen-com/hyperframes/commit/97fde27df741ba82358f4e518a37bb59e9e7c250">97fde27df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3728">#3728</a>).</li>
+<li><strong>CLI:</strong> Fetch a page&#39;s assets as the same agent that loaded the page (<a href="https://github.com/heygen-com/hyperframes/commit/7a07ea9ac34804e77cd054ca10ea84f3e0a0c774">7a07ea9ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3726">#3726</a>).</li>
+<li><strong>Render:</strong> Serve engine and producer files through checked descriptors (<a href="https://github.com/heygen-com/hyperframes/commit/be86a1ec7d5c35d31c81524983ac377e4dca8582">be86a1ec7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3725">#3725</a>).</li>
+<li><strong>CLI:</strong> Read caption images through checked file descriptors (<a href="https://github.com/heygen-com/hyperframes/commit/41551c7acbb4ddf37dffdb6d1020e824da1ca1a0">41551c7ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3724">#3724</a>).</li>
+<li><strong>CLI:</strong> Publish cached synthesis script exclusively (<a href="https://github.com/heygen-com/hyperframes/commit/cfdaccb7e612f92572cc99ebcf189e9a7dfeb6b2">cfdaccb7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3722">#3722</a>).</li>
+<li><strong>CLI:</strong> Preserve concurrent scaffold config creation (<a href="https://github.com/heygen-com/hyperframes/commit/b49fba8dea7453a3cde2517aaded25475463ccd2">b49fba8de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3721">#3721</a>).</li>
+<li><strong>CLI:</strong> Publish capture metadata without overwriting files (<a href="https://github.com/heygen-com/hyperframes/commit/e6d2816e1d6efa9a15439f37fafaa166e1181b38">e6d2816e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3720">#3720</a>).</li>
+<li><strong>Core:</strong> Bound timing compiler opening tag scans (<a href="https://github.com/heygen-com/hyperframes/commit/b94b5bde5812da876ef6feb3f43a74fd2a020c01">b94b5bde5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3719">#3719</a>).</li>
+<li><strong>Producer:</strong> Bound existing font-face recognition scans (<a href="https://github.com/heygen-com/hyperframes/commit/3610d94a9850aebb5f530f1457d46b350de45024">3610d94a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3718">#3718</a>).</li>
+<li><strong>Core:</strong> Bound inert region scans in timing compiler (<a href="https://github.com/heygen-com/hyperframes/commit/e78da303f4392118883f9b69e85ca35edc649ddf">e78da303f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3717">#3717</a>).</li>
+<li><strong>Studio Server:</strong> Bound preview variable insertion scans (<a href="https://github.com/heygen-com/hyperframes/commit/fe2cc92050e0f06b07fb13757ca18ba2e72212e1">fe2cc9205</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3715">#3715</a>).</li>
+<li><strong>Studio:</strong> Match style attributes with explicit quote boundaries (<a href="https://github.com/heygen-com/hyperframes/commit/7d7003aa648c6f98cb62ebe2f357acd3f3710b1f">7d7003aa6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3712">#3712</a>).</li>
+<li><strong>Studio Server:</strong> Simplify normalized group ID trimming (<a href="https://github.com/heygen-com/hyperframes/commit/e9250fcc45db4adf2a1a9994ba08c015e369646f">e9250fcc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3711">#3711</a>).</li>
+<li><strong>Engine:</strong> Isolate WAV staging in a private directory (<a href="https://github.com/heygen-com/hyperframes/commit/51a3c7e24569bac431295fcee5f94b7c1942ace6">51a3c7e24</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3709">#3709</a>).</li>
+<li><strong>Studio:</strong> Avoid inline style regex backtracking (<a href="https://github.com/heygen-com/hyperframes/commit/c564daf21054a9715c6cdfebc60ab1840152bace">c564daf21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3708">#3708</a>).</li>
+<li><strong>Core:</strong> Avoid grade stats regex backtracking (<a href="https://github.com/heygen-com/hyperframes/commit/eec04340b3535da024126629b54033afedfc42b4">eec04340b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3706">#3706</a>).</li>
+<li><strong>Engine:</strong> Avoid transform regex backtracking (<a href="https://github.com/heygen-com/hyperframes/commit/e5d1d9bf0e3016fd0bac9981b1f40b03f316da84">e5d1d9bf0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3704">#3704</a>).</li>
+<li><strong>Engine:</strong> Isolate chunked encode temporary files (<a href="https://github.com/heygen-com/hyperframes/commit/f13037ecd4cdf115fb2f644e294bb9d4b3d3d145">f13037ecd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3680">#3680</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.29...v0.8.30">https://github.com/heygen-com/hyperframes/compare/v0.8.29...v0.8.30</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.30</h1>
+<p>Released on 2026-09-06.</p>
+<p>Site capture now keeps every icon a page declares and fetches assets as the same browser that loaded the page. The rest of this release hardens file handling and bounds slow scans across core, engine, studio and producer.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Keep every icon a site declares and headline the bare mark (<a href="https://github.com/heygen-com/hyperframes/commit/1fa31d5dfb9c2e2e27fd9f745e5bd52f3dff0663">1fa31d5df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3727">#3727</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Clarify publish visibility and claim links (<a href="https://github.com/heygen-com/hyperframes/commit/672ea844a5e66c574d367163741bdf7b7adea367">672ea844a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3730">#3730</a>).</li>
+<li><strong>CLI:</strong> Pin Studio bundle, signature and runtime file reads (<a href="https://github.com/heygen-com/hyperframes/commit/97fde27df741ba82358f4e518a37bb59e9e7c250">97fde27df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3728">#3728</a>).</li>
+<li><strong>CLI:</strong> Fetch a page&#39;s assets as the same agent that loaded the page (<a href="https://github.com/heygen-com/hyperframes/commit/7a07ea9ac34804e77cd054ca10ea84f3e0a0c774">7a07ea9ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3726">#3726</a>).</li>
+<li><strong>Render:</strong> Serve engine and producer files through checked descriptors (<a href="https://github.com/heygen-com/hyperframes/commit/be86a1ec7d5c35d31c81524983ac377e4dca8582">be86a1ec7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3725">#3725</a>).</li>
+<li><strong>CLI:</strong> Read caption images through checked file descriptors (<a href="https://github.com/heygen-com/hyperframes/commit/41551c7acbb4ddf37dffdb6d1020e824da1ca1a0">41551c7ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3724">#3724</a>).</li>
+<li><strong>CLI:</strong> Publish cached synthesis script exclusively (<a href="https://github.com/heygen-com/hyperframes/commit/cfdaccb7e612f92572cc99ebcf189e9a7dfeb6b2">cfdaccb7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3722">#3722</a>).</li>
+<li><strong>CLI:</strong> Preserve concurrent scaffold config creation (<a href="https://github.com/heygen-com/hyperframes/commit/b49fba8dea7453a3cde2517aaded25475463ccd2">b49fba8de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3721">#3721</a>).</li>
+<li><strong>CLI:</strong> Publish capture metadata without overwriting files (<a href="https://github.com/heygen-com/hyperframes/commit/e6d2816e1d6efa9a15439f37fafaa166e1181b38">e6d2816e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3720">#3720</a>).</li>
+<li><strong>Core:</strong> Bound timing compiler opening tag scans (<a href="https://github.com/heygen-com/hyperframes/commit/b94b5bde5812da876ef6feb3f43a74fd2a020c01">b94b5bde5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3719">#3719</a>).</li>
+<li><strong>Producer:</strong> Bound existing font-face recognition scans (<a href="https://github.com/heygen-com/hyperframes/commit/3610d94a9850aebb5f530f1457d46b350de45024">3610d94a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3718">#3718</a>).</li>
+<li><strong>Core:</strong> Bound inert region scans in timing compiler (<a href="https://github.com/heygen-com/hyperframes/commit/e78da303f4392118883f9b69e85ca35edc649ddf">e78da303f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3717">#3717</a>).</li>
+<li><strong>Studio Server:</strong> Bound preview variable insertion scans (<a href="https://github.com/heygen-com/hyperframes/commit/fe2cc92050e0f06b07fb13757ca18ba2e72212e1">fe2cc9205</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3715">#3715</a>).</li>
+<li><strong>Studio:</strong> Match style attributes with explicit quote boundaries (<a href="https://github.com/heygen-com/hyperframes/commit/7d7003aa648c6f98cb62ebe2f357acd3f3710b1f">7d7003aa6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3712">#3712</a>).</li>
+<li><strong>Studio Server:</strong> Simplify normalized group ID trimming (<a href="https://github.com/heygen-com/hyperframes/commit/e9250fcc45db4adf2a1a9994ba08c015e369646f">e9250fcc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3711">#3711</a>).</li>
+<li><strong>Engine:</strong> Isolate WAV staging in a private directory (<a href="https://github.com/heygen-com/hyperframes/commit/51a3c7e24569bac431295fcee5f94b7c1942ace6">51a3c7e24</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3709">#3709</a>).</li>
+<li><strong>Studio:</strong> Avoid inline style regex backtracking (<a href="https://github.com/heygen-com/hyperframes/commit/c564daf21054a9715c6cdfebc60ab1840152bace">c564daf21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3708">#3708</a>).</li>
+<li><strong>Core:</strong> Avoid grade stats regex backtracking (<a href="https://github.com/heygen-com/hyperframes/commit/eec04340b3535da024126629b54033afedfc42b4">eec04340b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3706">#3706</a>).</li>
+<li><strong>Engine:</strong> Avoid transform regex backtracking (<a href="https://github.com/heygen-com/hyperframes/commit/e5d1d9bf0e3016fd0bac9981b1f40b03f316da84">e5d1d9bf0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3704">#3704</a>).</li>
+<li><strong>Engine:</strong> Isolate chunked encode temporary files (<a href="https://github.com/heygen-com/hyperframes/commit/f13037ecd4cdf115fb2f644e294bb9d4b3d3d145">f13037ecd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3680">#3680</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.29...v0.8.30">https://github.com/heygen-com/hyperframes/compare/v0.8.29...v0.8.30</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.29]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.29</link>
@@ -2632,62 +2702,6 @@ BeginFrame timing.</p>
             <pubDate>Tue, 04 Aug 2026 17:47:43 GMT</pubDate>
             <description><![CDATA[<p>Release v0.7.92</p>]]></description>
             <content:encoded><![CDATA[<p>Release v0.7.92</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.90]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.90</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.90</guid>
-            <pubDate>Mon, 03 Aug 2026 05:01:20 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.90</h1>
-<p>Released on 2026-08-03.</p>
-<p>Prevents short compositions from decoding entire long video sources and exhausting producer memory through HDR raw-frame scratch and filesystem page cache. Extraction now follows the playable timeline, reserves bounded scratch capacity across concurrent renders, and cleans resources on every exit path.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Bound video extraction to the composition&#39;s playable interval instead of the source&#39;s full duration, including negative timeline starts, non-zero media offsets, loops, held tails, and distributed planning (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
-<li><strong>Producer:</strong> Limit concurrent HDR raw-frame scratch against the configured ceiling, cgroup memory, and free disk; release reservations and temporary resources after success, cancellation, and partial failure (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
-<li><strong>Engine:</strong> Resolve the true final playable frame for held-tail media, including streams with non-zero or negative timestamp bases, without sharing cancellation state across renders (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
-<li><strong>Producer API:</strong> Add <code>outputDynamicRange: auto | hdr | sdr</code> while temporarily accepting the legacy <code>hdrMode</code> field for rolling migrations (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
-</ul>
-<h2>Rollout</h2>
-<ul>
-<li>Upgrade the HyperFrames producer fleet to v0.7.90 before deploying callers that send <code>outputDynamicRange</code>; the legacy <code>hdrMode</code> field remains accepted only to bridge the rolling deployment.</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Contributing:</strong> Refresh the catalog contribution guide (<a href="https://github.com/heygen-com/hyperframes/pull/2954">#2954</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Release:</strong> Publish stable packages only from a reviewed release PR&#39;s exact merge commit, with fail-closed checkout/tag verification and safe same-commit retries (<a href="https://github.com/heygen-com/hyperframes/pull/2959">#2959</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.89...v0.7.90">https://github.com/heygen-com/hyperframes/compare/v0.7.89...v0.7.90</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.90</h1>
-<p>Released on 2026-08-03.</p>
-<p>Prevents short compositions from decoding entire long video sources and exhausting producer memory through HDR raw-frame scratch and filesystem page cache. Extraction now follows the playable timeline, reserves bounded scratch capacity across concurrent renders, and cleans resources on every exit path.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Bound video extraction to the composition&#39;s playable interval instead of the source&#39;s full duration, including negative timeline starts, non-zero media offsets, loops, held tails, and distributed planning (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
-<li><strong>Producer:</strong> Limit concurrent HDR raw-frame scratch against the configured ceiling, cgroup memory, and free disk; release reservations and temporary resources after success, cancellation, and partial failure (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
-<li><strong>Engine:</strong> Resolve the true final playable frame for held-tail media, including streams with non-zero or negative timestamp bases, without sharing cancellation state across renders (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
-<li><strong>Producer API:</strong> Add <code>outputDynamicRange: auto | hdr | sdr</code> while temporarily accepting the legacy <code>hdrMode</code> field for rolling migrations (<a href="https://github.com/heygen-com/hyperframes/pull/2955">#2955</a>)</li>
-</ul>
-<h2>Rollout</h2>
-<ul>
-<li>Upgrade the HyperFrames producer fleet to v0.7.90 before deploying callers that send <code>outputDynamicRange</code>; the legacy <code>hdrMode</code> field remains accepted only to bridge the rolling deployment.</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Contributing:</strong> Refresh the catalog contribution guide (<a href="https://github.com/heygen-com/hyperframes/pull/2954">#2954</a>)</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Release:</strong> Publish stable packages only from a reviewed release PR&#39;s exact merge commit, with fail-closed checkout/tag verification and safe same-commit retries (<a href="https://github.com/heygen-com/hyperframes/pull/2959">#2959</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.89...v0.7.90">https://github.com/heygen-com/hyperframes/compare/v0.7.89...v0.7.90</a></p>
-]]></content:encoded>
         </item>
     </channel>
 </rss>
