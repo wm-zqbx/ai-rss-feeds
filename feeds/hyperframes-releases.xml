@@ -4,11 +4,67 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 06 Sep 2026 03:18:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Sep 2026 16:17:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.31]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.31</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.31</guid>
+            <pubDate>Mon, 07 Sep 2026 16:17:07 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.31</h1>
+<p>Released on 2026-09-07.</p>
+<p>Studio preview now serves only the bytes a browser asks for instead of reading a whole media file per request, which drops server memory and latency on large sources. Lint and check gain a rule for media pointing at the wrong file type and stop flagging code a composition only displays.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Lint:</strong> Flag video/img src pointing at an audio file (<a href="https://github.com/heygen-com/hyperframes/commit/0d5d3f3eb3aecd9fd64954d2767d3d64e97e58fc">0d5d3f3eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3741">#3741</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Bridge the node web stream type for the Windows build (<a href="https://github.com/heygen-com/hyperframes/commit/8958342dd143d1eb00c75ec2293027eb0d8ac602">8958342dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3746">#3746</a>).</li>
+<li><strong>Studio Server:</strong> Stream preview media byte ranges instead of reading the whole file (<a href="https://github.com/heygen-com/hyperframes/commit/8825def610fed12985329e495993d47a3943df3e">8825def61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3745">#3745</a>).</li>
+<li><strong>Lint:</strong> See the grouped gsap.set that stages a whole scene at once (<a href="https://github.com/heygen-com/hyperframes/commit/b0ac581d8e26a154604f009bd9c264c4d878507e">b0ac581d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3737">#3737</a>).</li>
+<li><strong>Check:</strong> Key content_overlap and text_occluded collapse by pair, and bill a clipped text box once (<a href="https://github.com/heygen-com/hyperframes/commit/c59fd162aabf9d829e06d3237b930ed5b7658b1a">c59fd162a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2801">#2801</a>).</li>
+<li><strong>Lint:</strong> Stop three rules matching code a composition only displays (<a href="https://github.com/heygen-com/hyperframes/commit/051336c07b34dec08b5dddf6f54dfcc7f4f64755">051336c07</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2811">#2811</a>).</li>
+<li><strong>Check:</strong> Keep auditing when a motion spec is partly unusable (<a href="https://github.com/heygen-com/hyperframes/commit/39ad2721b3875c0568130d3dae55b1df5f486477">39ad2721b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2805">#2805</a>).</li>
+<li><strong>Producer:</strong> Pin lint entry reads to checked descriptors (<a href="https://github.com/heygen-com/hyperframes/commit/f1d0c2e553ba6e684fb935f22a059a9617cf149c">f1d0c2e55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3734">#3734</a>).</li>
+<li><strong>Studio Server:</strong> Publish waveform caches atomically (<a href="https://github.com/heygen-com/hyperframes/commit/e5b3514118cbd5d2ce97750455078e6b5cbee703">e5b351411</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3731">#3731</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Bind asset reads to checked project files (<a href="https://github.com/heygen-com/hyperframes/commit/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd">7a2a69173</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3735">#3735</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.30...v0.8.31">https://github.com/heygen-com/hyperframes/compare/v0.8.30...v0.8.31</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.31</h1>
+<p>Released on 2026-09-07.</p>
+<p>Studio preview now serves only the bytes a browser asks for instead of reading a whole media file per request, which drops server memory and latency on large sources. Lint and check gain a rule for media pointing at the wrong file type and stop flagging code a composition only displays.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Lint:</strong> Flag video/img src pointing at an audio file (<a href="https://github.com/heygen-com/hyperframes/commit/0d5d3f3eb3aecd9fd64954d2767d3d64e97e58fc">0d5d3f3eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3741">#3741</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Bridge the node web stream type for the Windows build (<a href="https://github.com/heygen-com/hyperframes/commit/8958342dd143d1eb00c75ec2293027eb0d8ac602">8958342dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3746">#3746</a>).</li>
+<li><strong>Studio Server:</strong> Stream preview media byte ranges instead of reading the whole file (<a href="https://github.com/heygen-com/hyperframes/commit/8825def610fed12985329e495993d47a3943df3e">8825def61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3745">#3745</a>).</li>
+<li><strong>Lint:</strong> See the grouped gsap.set that stages a whole scene at once (<a href="https://github.com/heygen-com/hyperframes/commit/b0ac581d8e26a154604f009bd9c264c4d878507e">b0ac581d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3737">#3737</a>).</li>
+<li><strong>Check:</strong> Key content_overlap and text_occluded collapse by pair, and bill a clipped text box once (<a href="https://github.com/heygen-com/hyperframes/commit/c59fd162aabf9d829e06d3237b930ed5b7658b1a">c59fd162a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2801">#2801</a>).</li>
+<li><strong>Lint:</strong> Stop three rules matching code a composition only displays (<a href="https://github.com/heygen-com/hyperframes/commit/051336c07b34dec08b5dddf6f54dfcc7f4f64755">051336c07</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2811">#2811</a>).</li>
+<li><strong>Check:</strong> Keep auditing when a motion spec is partly unusable (<a href="https://github.com/heygen-com/hyperframes/commit/39ad2721b3875c0568130d3dae55b1df5f486477">39ad2721b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2805">#2805</a>).</li>
+<li><strong>Producer:</strong> Pin lint entry reads to checked descriptors (<a href="https://github.com/heygen-com/hyperframes/commit/f1d0c2e553ba6e684fb935f22a059a9617cf149c">f1d0c2e55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3734">#3734</a>).</li>
+<li><strong>Studio Server:</strong> Publish waveform caches atomically (<a href="https://github.com/heygen-com/hyperframes/commit/e5b3514118cbd5d2ce97750455078e6b5cbee703">e5b351411</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3731">#3731</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Bind asset reads to checked project files (<a href="https://github.com/heygen-com/hyperframes/commit/7a2a6917367e6dd7ce22f4c321c4a852dcf58dfd">7a2a69173</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3735">#3735</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.30...v0.8.31">https://github.com/heygen-com/hyperframes/compare/v0.8.30...v0.8.31</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.30]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.30</link>
@@ -2694,14 +2750,6 @@ BeginFrame timing.</p>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.92...v0.7.93">https://github.com/heygen-com/hyperframes/compare/v0.7.92...v0.7.93</a></p>
 ]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.92]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.92</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.92</guid>
-            <pubDate>Tue, 04 Aug 2026 17:47:43 GMT</pubDate>
-            <description><![CDATA[<p>Release v0.7.92</p>]]></description>
-            <content:encoded><![CDATA[<p>Release v0.7.92</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
