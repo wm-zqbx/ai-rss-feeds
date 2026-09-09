@@ -4,11 +4,31 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 08 Sep 2026 23:44:52 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Sep 2026 02:17:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.33]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.33</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.33</guid>
+            <pubDate>Wed, 09 Sep 2026 02:17:23 GMT</pubDate>
+            <description><![CDATA[<h1>v0.8.33</h1>
+<p>Patch release — fixes static-frame dedup freezing <code>onUpdate</code>-driven motion.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Detect <code>onUpdate</code> callbacks on timelines and exclude their spans from static-frame prediction; enable events during verification seeks so callback-driven motion is visible to the verifier (#3794). Fixes #3793.</li>
+</ul>
+]]></description>
+            <content:encoded><![CDATA[<h1>v0.8.33</h1>
+<p>Patch release — fixes static-frame dedup freezing <code>onUpdate</code>-driven motion.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Detect <code>onUpdate</code> callbacks on timelines and exclude their spans from static-frame prediction; enable events during verification seeks so callback-driven motion is visible to the verifier (#3794). Fixes #3793.</li>
+</ul>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.32]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.32</link>
@@ -2721,38 +2741,6 @@ preview, cancelable thumbnail generation, and a large pass over the docs example
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.94...v0.7.96">https://github.com/heygen-com/hyperframes/compare/v0.7.94...v0.7.96</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.94]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.94</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.94</guid>
-            <pubDate>Wed, 05 Aug 2026 03:46:16 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.94</h1>
-<p>Released on 2026-08-05.</p>
-<p>The CLI now supports explicit RFC 8628 device authorization for attended SSH
-and remote-terminal sessions, so users can sign in without copying API keys or
-exposing a loopback callback. The flow is fail-closed, validates minted tokens
-before atomic persistence, and leaves the existing browser login unchanged.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Add device authorization login (<a href="https://github.com/heygen-com/hyperframes/commit/b9233525b2e02ec9329445ab2602ebd557033daf">b9233525b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2836">#2836</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.93...v0.7.94">https://github.com/heygen-com/hyperframes/compare/v0.7.93...v0.7.94</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.94</h1>
-<p>Released on 2026-08-05.</p>
-<p>The CLI now supports explicit RFC 8628 device authorization for attended SSH
-and remote-terminal sessions, so users can sign in without copying API keys or
-exposing a loopback callback. The flow is fail-closed, validates minted tokens
-before atomic persistence, and leaves the existing browser login unchanged.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Add device authorization login (<a href="https://github.com/heygen-com/hyperframes/commit/b9233525b2e02ec9329445ab2602ebd557033daf">b9233525b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2836">#2836</a>)</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.93...v0.7.94">https://github.com/heygen-com/hyperframes/compare/v0.7.93...v0.7.94</a></p>
 ]]></content:encoded>
         </item>
     </channel>
