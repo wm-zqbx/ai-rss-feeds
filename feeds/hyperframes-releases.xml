@@ -4,11 +4,73 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 10 Sep 2026 18:49:39 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Sep 2026 21:40:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.35]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.35</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.35</guid>
+            <pubDate>Fri, 11 Sep 2026 21:40:01 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.35</h1>
+<p>Released on 2026-09-11.</p>
+<p>Background music under a voice now gets carved by default, harder and with a slower recovery, so narration stays clear without the bed dropping out at every sentence break. Multi-worker renders on macOS also stream frames again instead of refusing, and a BGM loop extension writes a real .mp3.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Audio:</strong> The voiceover carve is now part of finishing any mix with music under a voice. <code>carve.mjs</code> defaults to strength 0.8 (was 0.25), the level envelope releases over 2.4 s instead of 1.6 s, and the audio, general-video and production-loop skills state the requirement once. Both the default and the release are pinned by tests (<a href="https://github.com/heygen-com/hyperframes/commit/2e2b5c8530580be28b9d786b70a529a649aa85a8">2e2b5c853</a>, <a href="https://github.com/heygen-com/hyperframes/commit/fe53f51adb3d0bf09d0be687044728a990098f99">fe53f51ad</a>, <a href="https://github.com/heygen-com/hyperframes/commit/e488871ce1b7ede9c54d8c4003ec7ac5fd5aae32">e488871ce</a>, <a href="https://github.com/heygen-com/hyperframes/commit/0b9852fee44b63679f3056d4ede65fb0e58bc1e3">0b9852fee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3878">#3878</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Non-DE parallel-stream router silently refused on macOS multi-worker renders (<a href="https://github.com/heygen-com/hyperframes/commit/26513984f361811bb2407bbc0fecf5f5ce8ab666">26513984f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3886">#3886</a>).</li>
+<li><strong>Skills:</strong> Loop-extended BGM writes .mp3, not MP3-in-a-.wav (<a href="https://github.com/heygen-com/hyperframes/commit/42a3e7a5191d9aaaca7d12313b6378250753cd03">42a3e7a51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3884">#3884</a>).</li>
+<li><strong>CLI:</strong> Surface a warning when doctor&#39;s HYPERFRAMES_PYTHON override is rejected (<a href="https://github.com/heygen-com/hyperframes/commit/ea7e1dbd0bd2afb77370b946461c4ea16afdb387">ea7e1dbd0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3870">#3870</a>).</li>
+<li><strong>Lint:</strong> Flag an unclosed tag that swallows a nested element as bogus attribute text (<a href="https://github.com/heygen-com/hyperframes/commit/2ef76bf97b8c77dd8b76ac40615738eb91ecbc3c">2ef76bf97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3869">#3869</a>).</li>
+<li><strong>CLI:</strong> Stop promising a universal per-time filmstrip for --layout strip (<a href="https://github.com/heygen-com/hyperframes/commit/bafc7b4e0067814b4102ee6586d3e118e8ba2062">bafc7b4e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3867">#3867</a>).</li>
+<li><strong>CLI:</strong> Apply the canvas/video pixel-hash carve-out to img (<a href="https://github.com/heygen-com/hyperframes/commit/5a95211e36a3aa0907c59779039158f6acfbef15">5a95211e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3865">#3865</a>).</li>
+<li><strong>CLI:</strong> Let .hyperframesignore negation re-include hidden directories (<a href="https://github.com/heygen-com/hyperframes/commit/9c84277d28c32152aededdb1d9ed6be095c07197">9c84277d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3859">#3859</a>).</li>
+<li><strong>Studio:</strong> Tolerate WebMCP execute calls without an options object (<a href="https://github.com/heygen-com/hyperframes/commit/14b9e2039b69ae70044cc3b657c77e7688069618">14b9e2039</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3860">#3860</a>).</li>
+<li><strong>Skills:</strong> Exclude repo-native skills from public installs (<a href="https://github.com/heygen-com/hyperframes/commit/8820a01090692020ef6c5d4fb70fdc06b4b3bd81">8820a0109</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3856">#3856</a>).</li>
+<li><strong>Engine:</strong> Emit pipelined frame diagnostics before the recoverable wrapper (<a href="https://github.com/heygen-com/hyperframes/commit/4c7fbde51e80f63a87d0e3be01ef3f7ec0c043f9">4c7fbde51</a>).</li>
+<li><strong>Render:</strong> Retry drawElement failures on a fresh screenshot page (<a href="https://github.com/heygen-com/hyperframes/commit/6a206ffea637a936e6379545d371a44bc80a9119">6a206ffea</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Name the better search tier when a search finds nothing (<a href="https://github.com/heygen-com/hyperframes/commit/849ce0176ae343f31181cf4517ea7bc22d621f8c">849ce0176</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3872">#3872</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.34...v0.8.35">https://github.com/heygen-com/hyperframes/compare/v0.8.34...v0.8.35</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.35</h1>
+<p>Released on 2026-09-11.</p>
+<p>Background music under a voice now gets carved by default, harder and with a slower recovery, so narration stays clear without the bed dropping out at every sentence break. Multi-worker renders on macOS also stream frames again instead of refusing, and a BGM loop extension writes a real .mp3.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Audio:</strong> The voiceover carve is now part of finishing any mix with music under a voice. <code>carve.mjs</code> defaults to strength 0.8 (was 0.25), the level envelope releases over 2.4 s instead of 1.6 s, and the audio, general-video and production-loop skills state the requirement once. Both the default and the release are pinned by tests (<a href="https://github.com/heygen-com/hyperframes/commit/2e2b5c8530580be28b9d786b70a529a649aa85a8">2e2b5c853</a>, <a href="https://github.com/heygen-com/hyperframes/commit/fe53f51adb3d0bf09d0be687044728a990098f99">fe53f51ad</a>, <a href="https://github.com/heygen-com/hyperframes/commit/e488871ce1b7ede9c54d8c4003ec7ac5fd5aae32">e488871ce</a>, <a href="https://github.com/heygen-com/hyperframes/commit/0b9852fee44b63679f3056d4ede65fb0e58bc1e3">0b9852fee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3878">#3878</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Non-DE parallel-stream router silently refused on macOS multi-worker renders (<a href="https://github.com/heygen-com/hyperframes/commit/26513984f361811bb2407bbc0fecf5f5ce8ab666">26513984f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3886">#3886</a>).</li>
+<li><strong>Skills:</strong> Loop-extended BGM writes .mp3, not MP3-in-a-.wav (<a href="https://github.com/heygen-com/hyperframes/commit/42a3e7a5191d9aaaca7d12313b6378250753cd03">42a3e7a51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3884">#3884</a>).</li>
+<li><strong>CLI:</strong> Surface a warning when doctor&#39;s HYPERFRAMES_PYTHON override is rejected (<a href="https://github.com/heygen-com/hyperframes/commit/ea7e1dbd0bd2afb77370b946461c4ea16afdb387">ea7e1dbd0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3870">#3870</a>).</li>
+<li><strong>Lint:</strong> Flag an unclosed tag that swallows a nested element as bogus attribute text (<a href="https://github.com/heygen-com/hyperframes/commit/2ef76bf97b8c77dd8b76ac40615738eb91ecbc3c">2ef76bf97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3869">#3869</a>).</li>
+<li><strong>CLI:</strong> Stop promising a universal per-time filmstrip for --layout strip (<a href="https://github.com/heygen-com/hyperframes/commit/bafc7b4e0067814b4102ee6586d3e118e8ba2062">bafc7b4e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3867">#3867</a>).</li>
+<li><strong>CLI:</strong> Apply the canvas/video pixel-hash carve-out to img (<a href="https://github.com/heygen-com/hyperframes/commit/5a95211e36a3aa0907c59779039158f6acfbef15">5a95211e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3865">#3865</a>).</li>
+<li><strong>CLI:</strong> Let .hyperframesignore negation re-include hidden directories (<a href="https://github.com/heygen-com/hyperframes/commit/9c84277d28c32152aededdb1d9ed6be095c07197">9c84277d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3859">#3859</a>).</li>
+<li><strong>Studio:</strong> Tolerate WebMCP execute calls without an options object (<a href="https://github.com/heygen-com/hyperframes/commit/14b9e2039b69ae70044cc3b657c77e7688069618">14b9e2039</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3860">#3860</a>).</li>
+<li><strong>Skills:</strong> Exclude repo-native skills from public installs (<a href="https://github.com/heygen-com/hyperframes/commit/8820a01090692020ef6c5d4fb70fdc06b4b3bd81">8820a0109</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3856">#3856</a>).</li>
+<li><strong>Engine:</strong> Emit pipelined frame diagnostics before the recoverable wrapper (<a href="https://github.com/heygen-com/hyperframes/commit/4c7fbde51e80f63a87d0e3be01ef3f7ec0c043f9">4c7fbde51</a>).</li>
+<li><strong>Render:</strong> Retry drawElement failures on a fresh screenshot page (<a href="https://github.com/heygen-com/hyperframes/commit/6a206ffea637a936e6379545d371a44bc80a9119">6a206ffea</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Name the better search tier when a search finds nothing (<a href="https://github.com/heygen-com/hyperframes/commit/849ce0176ae343f31181cf4517ea7bc22d621f8c">849ce0176</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3872">#3872</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.34...v0.8.35">https://github.com/heygen-com/hyperframes/compare/v0.8.34...v0.8.35</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.34]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.34</link>
@@ -2623,34 +2685,6 @@ changes about how renders run.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.97...v0.7.98">https://github.com/heygen-com/hyperframes/compare/v0.7.97...v0.7.98</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.97]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.97</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.97</guid>
-            <pubDate>Fri, 07 Aug 2026 05:32:38 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.97</h1>
-<p>Released on 2026-08-07.</p>
-<p>Studio resizes now keep animated elements exactly where they were dropped. The saved GSAP scale and position match the frame shown during the gesture, preventing post-drop jumps.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keep first, repeated, rotated, uniform, and per-axis animated resizes pinned to their drop point (<a href="https://github.com/heygen-com/hyperframes/pull/3076">#3076</a>).</li>
-<li><strong>Studio:</strong> Measure stylesheet-sized and legacy elements from their real box instead of a 200px fallback (<a href="https://github.com/heygen-com/hyperframes/pull/3076">#3076</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.96...v0.7.97">https://github.com/heygen-com/hyperframes/compare/v0.7.96...v0.7.97</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.97</h1>
-<p>Released on 2026-08-07.</p>
-<p>Studio resizes now keep animated elements exactly where they were dropped. The saved GSAP scale and position match the frame shown during the gesture, preventing post-drop jumps.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keep first, repeated, rotated, uniform, and per-axis animated resizes pinned to their drop point (<a href="https://github.com/heygen-com/hyperframes/pull/3076">#3076</a>).</li>
-<li><strong>Studio:</strong> Measure stylesheet-sized and legacy elements from their real box instead of a 200px fallback (<a href="https://github.com/heygen-com/hyperframes/pull/3076">#3076</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.96...v0.7.97">https://github.com/heygen-com/hyperframes/compare/v0.7.96...v0.7.97</a></p>
 ]]></content:encoded>
         </item>
     </channel>
