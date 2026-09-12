@@ -4,11 +4,57 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 11 Sep 2026 21:40:01 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Sep 2026 17:06:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.36]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.36</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.36</guid>
+            <pubDate>Sat, 12 Sep 2026 17:06:54 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.36</h1>
+<p>Released on 2026-09-12.</p>
+<p>Pausing the Studio preview now keeps it still, typing in the Design panel no longer blanks the preview, and opening a project no longer re-encodes a video the browser already plays. Three fixes to how the preview behaves while you edit.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Pausing the preview keeps it still. Sub-compositions used to keep animating after an edit and a seek while the button said paused, and the same leak advanced exported frames between captures (<a href="https://github.com/heygen-com/hyperframes/commit/4c6fa9a7906e3b099a943a3fff7edbc41573497b">4c6fa9a79</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3910">#3910</a>).</li>
+<li><strong>Studio:</strong> Typing in the Design panel no longer blanks the preview. Every edit used to reload the preview iframe for several seconds because the studio could not read its own write label over the event stream (<a href="https://github.com/heygen-com/hyperframes/pull/3910">#3910</a>).</li>
+<li><strong>Studio:</strong> Opening a project no longer re-encodes VP9 or AV1 video the browser plays natively, and the studio bundle is cached instead of refetched on every open (<a href="https://github.com/heygen-com/hyperframes/pull/3910">#3910</a>).</li>
+</ul>
+<h2>Breaking</h2>
+<ul>
+<li><strong>studio-server:</strong> <code>consumeFileWriteReceipt</code> is renamed <code>identifyFileWrite</code>. The old name stays for one release as a deprecated alias and no longer removes the receipt. <code>BROWSER_HOSTILE_CODECS</code> entries are now objects with <code>representativeMime</code> and <code>prewarm</code> (<a href="https://github.com/heygen-com/hyperframes/pull/3910">#3910</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Put the install command above the preview (<a href="https://github.com/heygen-com/hyperframes/commit/51a88b95660c5f67e66e9c5977226f6ae7b31255">51a88b956</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3888">#3888</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.35...v0.8.36">https://github.com/heygen-com/hyperframes/compare/v0.8.35...v0.8.36</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.36</h1>
+<p>Released on 2026-09-12.</p>
+<p>Pausing the Studio preview now keeps it still, typing in the Design panel no longer blanks the preview, and opening a project no longer re-encodes a video the browser already plays. Three fixes to how the preview behaves while you edit.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Pausing the preview keeps it still. Sub-compositions used to keep animating after an edit and a seek while the button said paused, and the same leak advanced exported frames between captures (<a href="https://github.com/heygen-com/hyperframes/commit/4c6fa9a7906e3b099a943a3fff7edbc41573497b">4c6fa9a79</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3910">#3910</a>).</li>
+<li><strong>Studio:</strong> Typing in the Design panel no longer blanks the preview. Every edit used to reload the preview iframe for several seconds because the studio could not read its own write label over the event stream (<a href="https://github.com/heygen-com/hyperframes/pull/3910">#3910</a>).</li>
+<li><strong>Studio:</strong> Opening a project no longer re-encodes VP9 or AV1 video the browser plays natively, and the studio bundle is cached instead of refetched on every open (<a href="https://github.com/heygen-com/hyperframes/pull/3910">#3910</a>).</li>
+</ul>
+<h2>Breaking</h2>
+<ul>
+<li><strong>studio-server:</strong> <code>consumeFileWriteReceipt</code> is renamed <code>identifyFileWrite</code>. The old name stays for one release as a deprecated alias and no longer removes the receipt. <code>BROWSER_HOSTILE_CODECS</code> entries are now objects with <code>representativeMime</code> and <code>prewarm</code> (<a href="https://github.com/heygen-com/hyperframes/pull/3910">#3910</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Put the install command above the preview (<a href="https://github.com/heygen-com/hyperframes/commit/51a88b95660c5f67e66e9c5977226f6ae7b31255">51a88b956</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3888">#3888</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.35...v0.8.36">https://github.com/heygen-com/hyperframes/compare/v0.8.35...v0.8.36</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.35]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.35</link>
@@ -2653,38 +2699,6 @@ Long timeouts are not retried, and signed upload secrets stay out of error messa
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99">https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.98]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.98</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.98</guid>
-            <pubDate>Fri, 07 Aug 2026 07:02:48 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.98</h1>
-<p>Released on 2026-08-07.</p>
-<p>Failed renders now record whether the parallel drawElement router was active.
-That state was on almost every successful render and almost no failed one, so a
-crash or hang looked the same as a render that never used the router. Nothing
-changes about how renders run.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Record routing state on the failure path (<a href="https://github.com/heygen-com/hyperframes/commit/a3d13e2673405dee68643003574d5b260c4d5d18">a3d13e267</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.97...v0.7.98">https://github.com/heygen-com/hyperframes/compare/v0.7.97...v0.7.98</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.98</h1>
-<p>Released on 2026-08-07.</p>
-<p>Failed renders now record whether the parallel drawElement router was active.
-That state was on almost every successful render and almost no failed one, so a
-crash or hang looked the same as a render that never used the router. Nothing
-changes about how renders run.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Record routing state on the failure path (<a href="https://github.com/heygen-com/hyperframes/commit/a3d13e2673405dee68643003574d5b260c4d5d18">a3d13e267</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.97...v0.7.98">https://github.com/heygen-com/hyperframes/compare/v0.7.97...v0.7.98</a></p>
 ]]></content:encoded>
         </item>
     </channel>
