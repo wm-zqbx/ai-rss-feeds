@@ -4,11 +4,53 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 12 Sep 2026 17:06:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Sep 2026 17:13:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.37]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.37</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.37</guid>
+            <pubDate>Sun, 13 Sep 2026 17:13:47 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.37</h1>
+<p>Released on 2026-09-13.</p>
+<p>Bundled HTML now embeds supported fonts and images up to 2 MiB each, so they remain available without the project folder. This release also fixes missing clips, shifting video layouts, render recovery on low disk space, and AAC audio peak correction.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Bundling:</strong> Embed supported local fonts and raster images up to 2 MiB each in bundled HTML. Larger assets warn and remain external, as do audio and video (<a href="https://github.com/heygen-com/hyperframes/commit/cd975d8c2805acc78542a68433271f771352de23">cd975d8c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3590">#3590</a>).</li>
+<li><strong>Rendering:</strong> When capture verification fails, use the available streaming fallback if saving frames to disk would exceed available storage (<a href="https://github.com/heygen-com/hyperframes/commit/4c26ffe8ce910ae1b3a41479192f613a6a4bd75b">4c26ffe8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3703">#3703</a>).</li>
+<li><strong>Video layout:</strong> Keep inactive nested videos out of the layout so neighboring videos do not shift during rendering (<a href="https://github.com/heygen-com/hyperframes/commit/fdf9ffac953d9d18329907d6956faa58c73ad489">fdf9ffac9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3639">#3639</a>).</li>
+<li><strong>Clip visibility:</strong> Show later root-level clips when their start time arrives, even if the runtime previously hid them (<a href="https://github.com/heygen-com/hyperframes/commit/1acc65dbf813d5750c241c7e6e15b48329271ffb">1acc65dbf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3893">#3893</a>).</li>
+<li><strong>Audio:</strong> Leave extra headroom when correcting AAC peaks so re-encoding is less likely to push them back above the delivery limit. Failed corrections now report measurements (<a href="https://github.com/heygen-com/hyperframes/commit/58707afaa04371b1d2cd7b5ff9154804add7f652">58707afaa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3693">#3693</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Fix links to examples, transitions, and shared guidance in the video creation skills (<a href="https://github.com/heygen-com/hyperframes/commit/4aa6e17b762e9478d2bfd35e1ac6cc6f011a5d0c">4aa6e17b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3920">#3920</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.36...v0.8.37">https://github.com/heygen-com/hyperframes/compare/v0.8.36...v0.8.37</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.37</h1>
+<p>Released on 2026-09-13.</p>
+<p>Bundled HTML now embeds supported fonts and images up to 2 MiB each, so they remain available without the project folder. This release also fixes missing clips, shifting video layouts, render recovery on low disk space, and AAC audio peak correction.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Bundling:</strong> Embed supported local fonts and raster images up to 2 MiB each in bundled HTML. Larger assets warn and remain external, as do audio and video (<a href="https://github.com/heygen-com/hyperframes/commit/cd975d8c2805acc78542a68433271f771352de23">cd975d8c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3590">#3590</a>).</li>
+<li><strong>Rendering:</strong> When capture verification fails, use the available streaming fallback if saving frames to disk would exceed available storage (<a href="https://github.com/heygen-com/hyperframes/commit/4c26ffe8ce910ae1b3a41479192f613a6a4bd75b">4c26ffe8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3703">#3703</a>).</li>
+<li><strong>Video layout:</strong> Keep inactive nested videos out of the layout so neighboring videos do not shift during rendering (<a href="https://github.com/heygen-com/hyperframes/commit/fdf9ffac953d9d18329907d6956faa58c73ad489">fdf9ffac9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3639">#3639</a>).</li>
+<li><strong>Clip visibility:</strong> Show later root-level clips when their start time arrives, even if the runtime previously hid them (<a href="https://github.com/heygen-com/hyperframes/commit/1acc65dbf813d5750c241c7e6e15b48329271ffb">1acc65dbf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3893">#3893</a>).</li>
+<li><strong>Audio:</strong> Leave extra headroom when correcting AAC peaks so re-encoding is less likely to push them back above the delivery limit. Failed corrections now report measurements (<a href="https://github.com/heygen-com/hyperframes/commit/58707afaa04371b1d2cd7b5ff9154804add7f652">58707afaa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3693">#3693</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Fix links to examples, transitions, and shared guidance in the video creation skills (<a href="https://github.com/heygen-com/hyperframes/commit/4aa6e17b762e9478d2bfd35e1ac6cc6f011a5d0c">4aa6e17b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3920">#3920</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.36...v0.8.37">https://github.com/heygen-com/hyperframes/compare/v0.8.36...v0.8.37</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.36]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.36</link>
@@ -2669,36 +2711,6 @@ Screenshot captures on software rendering no longer accumulate earlier frames, a
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.99...v0.7.100">https://github.com/heygen-com/hyperframes/compare/v0.7.99...v0.7.100</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.99]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.99</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.99</guid>
-            <pubDate>Fri, 07 Aug 2026 15:55:27 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.99</h1>
-<p>Released on 2026-08-07.</p>
-<p>Publishing now retries brief network failures during upload and tells you which step failed when it cannot recover.
-Long timeouts are not retried, and signed upload secrets stay out of error messages.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Harden publish retry behavior (<a href="https://github.com/heygen-com/hyperframes/commit/dd629697d3356971e50132703b8a897c1a79bfdf">dd629697d</a>).</li>
-<li><strong>CLI:</strong> Recover transient publish failures (<a href="https://github.com/heygen-com/hyperframes/commit/f2d6ce32459fc4c6be604a152e8707df03ce96e2">f2d6ce324</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99">https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.99</h1>
-<p>Released on 2026-08-07.</p>
-<p>Publishing now retries brief network failures during upload and tells you which step failed when it cannot recover.
-Long timeouts are not retried, and signed upload secrets stay out of error messages.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Harden publish retry behavior (<a href="https://github.com/heygen-com/hyperframes/commit/dd629697d3356971e50132703b8a897c1a79bfdf">dd629697d</a>).</li>
-<li><strong>CLI:</strong> Recover transient publish failures (<a href="https://github.com/heygen-com/hyperframes/commit/f2d6ce32459fc4c6be604a152e8707df03ce96e2">f2d6ce324</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99">https://github.com/heygen-com/hyperframes/compare/v0.7.98...v0.7.99</a></p>
 ]]></content:encoded>
         </item>
     </channel>
