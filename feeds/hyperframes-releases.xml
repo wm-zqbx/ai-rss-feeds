@@ -4,11 +4,65 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 14 Sep 2026 02:05:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 16:46:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.40]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.40</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.40</guid>
+            <pubDate>Mon, 14 Sep 2026 16:46:13 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.40</h1>
+<p>Released on 2026-09-14.</p>
+<p>Sandboxed compositions no longer lose audio while the timeline and visuals keep playing.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Web Audio routing now checks the document’s security origin with <code>window.origin</code>. Media without <code>crossorigin</code> stays out of Web Audio when that origin is opaque, even if the URL origins match (<a href="https://github.com/heygen-com/hyperframes/commit/293829a2c1bde0707548b230b74b5cdf8e8985f2">293829a2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3937">#3937</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.39...v0.8.40">https://github.com/heygen-com/hyperframes/compare/v0.8.39...v0.8.40</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.40</h1>
+<p>Released on 2026-09-14.</p>
+<p>Sandboxed compositions no longer lose audio while the timeline and visuals keep playing.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Web Audio routing now checks the document’s security origin with <code>window.origin</code>. Media without <code>crossorigin</code> stays out of Web Audio when that origin is opaque, even if the URL origins match (<a href="https://github.com/heygen-com/hyperframes/commit/293829a2c1bde0707548b230b74b5cdf8e8985f2">293829a2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3937">#3937</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.39...v0.8.40">https://github.com/heygen-com/hyperframes/compare/v0.8.39...v0.8.40</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.39]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.39</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.39</guid>
+            <pubDate>Mon, 14 Sep 2026 15:18:12 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.39</h1>
+<p>Released on 2026-09-14.</p>
+<p>JSON transcripts now get stable word ids, so per-word caption overrides work without converting to SRT first. Lint no longer flags a valid next tag after a closing tag split across lines.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> JSON transcripts now get <code>w0</code>, <code>w1</code>, ... ids when loaded. Per-word caption overrides can key off those ids without converting to SRT first (<a href="https://github.com/heygen-com/hyperframes/commit/dc6d78b46281ddf39cd5d45f6c3def39fb612a14">dc6d78b46</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3770">#3770</a>).</li>
+<li><strong>Lint:</strong> A closing tag split across lines no longer makes the next sibling look unclosed (<a href="https://github.com/heygen-com/hyperframes/commit/f6041d7597c8c53d381d4c27feb86b305b3317a4">f6041d759</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3917">#3917</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.38...v0.8.39">https://github.com/heygen-com/hyperframes/compare/v0.8.38...v0.8.39</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.39</h1>
+<p>Released on 2026-09-14.</p>
+<p>JSON transcripts now get stable word ids, so per-word caption overrides work without converting to SRT first. Lint no longer flags a valid next tag after a closing tag split across lines.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> JSON transcripts now get <code>w0</code>, <code>w1</code>, ... ids when loaded. Per-word caption overrides can key off those ids without converting to SRT first (<a href="https://github.com/heygen-com/hyperframes/commit/dc6d78b46281ddf39cd5d45f6c3def39fb612a14">dc6d78b46</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3770">#3770</a>).</li>
+<li><strong>Lint:</strong> A closing tag split across lines no longer makes the next sibling look unclosed (<a href="https://github.com/heygen-com/hyperframes/commit/f6041d7597c8c53d381d4c27feb86b305b3317a4">f6041d759</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3917">#3917</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.38...v0.8.39">https://github.com/heygen-com/hyperframes/compare/v0.8.38...v0.8.39</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.38]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.38</link>
@@ -2591,94 +2645,6 @@ This patch release includes the Plan v2-by-default behavior. Use <a href="https:
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.102...v0.7.103">https://github.com/heygen-com/hyperframes/compare/v0.7.102...v0.7.103</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.102]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.102</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.102</guid>
-            <pubDate>Sat, 08 Aug 2026 20:17:22 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.102</h1>
-<p>Released on 2026-08-08.</p>
-<p>Text with spaces in it now reaches your composition intact. Before, a space could arrive as a plus sign, which garbled headlines and left some shapes drawing nothing at all.
-Compositions can also read their own variables the moment they start, because the runtime now loads before your scripts do.</p>
-<h2>Fixes</h2>
-<ul>
-<li>Preserve the composition query and serve the runtime before author scripts (<a href="https://github.com/heygen-com/hyperframes/commit/b6ff3ab74556b844dd87b067cf850badc000bba7">b6ff3ab74</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3114">#3114</a>).</li>
-<li><strong>CLI:</strong> Stop skills update deleting skills the manifest never covered (<a href="https://github.com/heygen-com/hyperframes/commit/ed3ff98ce0443a232fc740a5821c601e67fd09cc">ed3ff98ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3118">#3118</a>).</li>
-<li><strong>Core:</strong> Draw the dim baseline only from tweens the guess still applies to (<a href="https://github.com/heygen-com/hyperframes/commit/cef0dde5f2e9028349be0eef31e6ba2622405fe2">cef0dde5f</a>).</li>
-<li><strong>Core:</strong> Let a composition declare its caption colour states (<a href="https://github.com/heygen-com/hyperframes/commit/1e7799bfbb08c30a55b01a262653f40a2bbeda8a">1e7799bfb</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.101...v0.7.102">https://github.com/heygen-com/hyperframes/compare/v0.7.101...v0.7.102</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.102</h1>
-<p>Released on 2026-08-08.</p>
-<p>Text with spaces in it now reaches your composition intact. Before, a space could arrive as a plus sign, which garbled headlines and left some shapes drawing nothing at all.
-Compositions can also read their own variables the moment they start, because the runtime now loads before your scripts do.</p>
-<h2>Fixes</h2>
-<ul>
-<li>Preserve the composition query and serve the runtime before author scripts (<a href="https://github.com/heygen-com/hyperframes/commit/b6ff3ab74556b844dd87b067cf850badc000bba7">b6ff3ab74</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3114">#3114</a>).</li>
-<li><strong>CLI:</strong> Stop skills update deleting skills the manifest never covered (<a href="https://github.com/heygen-com/hyperframes/commit/ed3ff98ce0443a232fc740a5821c601e67fd09cc">ed3ff98ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3118">#3118</a>).</li>
-<li><strong>Core:</strong> Draw the dim baseline only from tweens the guess still applies to (<a href="https://github.com/heygen-com/hyperframes/commit/cef0dde5f2e9028349be0eef31e6ba2622405fe2">cef0dde5f</a>).</li>
-<li><strong>Core:</strong> Let a composition declare its caption colour states (<a href="https://github.com/heygen-com/hyperframes/commit/1e7799bfbb08c30a55b01a262653f40a2bbeda8a">1e7799bfb</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.101...v0.7.102">https://github.com/heygen-com/hyperframes/compare/v0.7.101...v0.7.102</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.101]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.101</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.101</guid>
-            <pubDate>Sat, 08 Aug 2026 03:16:30 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.101</h1>
-<p>Released on 2026-08-08.</p>
-<p>Faster drawElement capture starts rolling out to a small slice of installs. Five in
-a hundred now use the parallel capture path for long renders. If a render ever has
-to fall back, that install turns it off and keeps it off.</p>
-<p>Set HF_DE_PARALLEL_ROUTER=false to opt out, or =true to opt in early. Studio also
-stops three editor crashes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Cli,core:</strong> Ramp the default-on router through the canary (<a href="https://github.com/heygen-com/hyperframes/commit/4a2514232b9f20ea4baa94510e79a42bae85e92f">4a2514232</a>).</li>
-<li><strong>Producer:</strong> Enable the parallel-DE router by default, behind a per-install circuit breaker (<a href="https://github.com/heygen-com/hyperframes/commit/c6df112ac1843e228a9d40bbcb6bad1752f53de5">c6df112ac</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Stop three crash-boundary trips in the editor (<a href="https://github.com/heygen-com/hyperframes/commit/d8a91fc347df4def4a957609d1847ca3306eb867">d8a91fc34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3102">#3102</a>).</li>
-<li><strong>CLI:</strong> Keep a set-but-empty router env var breaker-managed (review) (<a href="https://github.com/heygen-com/hyperframes/commit/af535080a250bb150c0a6448517a075cd8076818">af535080a</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>CLI:</strong> Stop calling the router trial an opt-in in risk prose (<a href="https://github.com/heygen-com/hyperframes/commit/1033d03271fb381be51fbc1103063cd8147a626b">1033d0327</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.100...v0.7.101">https://github.com/heygen-com/hyperframes/compare/v0.7.100...v0.7.101</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.101</h1>
-<p>Released on 2026-08-08.</p>
-<p>Faster drawElement capture starts rolling out to a small slice of installs. Five in
-a hundred now use the parallel capture path for long renders. If a render ever has
-to fall back, that install turns it off and keeps it off.</p>
-<p>Set HF_DE_PARALLEL_ROUTER=false to opt out, or =true to opt in early. Studio also
-stops three editor crashes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Cli,core:</strong> Ramp the default-on router through the canary (<a href="https://github.com/heygen-com/hyperframes/commit/4a2514232b9f20ea4baa94510e79a42bae85e92f">4a2514232</a>).</li>
-<li><strong>Producer:</strong> Enable the parallel-DE router by default, behind a per-install circuit breaker (<a href="https://github.com/heygen-com/hyperframes/commit/c6df112ac1843e228a9d40bbcb6bad1752f53de5">c6df112ac</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Stop three crash-boundary trips in the editor (<a href="https://github.com/heygen-com/hyperframes/commit/d8a91fc347df4def4a957609d1847ca3306eb867">d8a91fc34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3102">#3102</a>).</li>
-<li><strong>CLI:</strong> Keep a set-but-empty router env var breaker-managed (review) (<a href="https://github.com/heygen-com/hyperframes/commit/af535080a250bb150c0a6448517a075cd8076818">af535080a</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>CLI:</strong> Stop calling the router trial an opt-in in risk prose (<a href="https://github.com/heygen-com/hyperframes/commit/1033d03271fb381be51fbc1103063cd8147a626b">1033d0327</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.100...v0.7.101">https://github.com/heygen-com/hyperframes/compare/v0.7.100...v0.7.101</a></p>
 ]]></content:encoded>
         </item>
     </channel>
