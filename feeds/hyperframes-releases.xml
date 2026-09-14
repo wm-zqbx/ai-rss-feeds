@@ -4,11 +4,45 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 13 Sep 2026 17:13:47 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Sep 2026 02:05:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.38]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.38</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.38</guid>
+            <pubDate>Mon, 14 Sep 2026 02:05:39 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.38</h1>
+<p>Released on 2026-09-14.</p>
+<p>Starting a project now opens on a centered title on a dark frame, with no extra flags. Local renders use the faster capture path, and the default encode is the cleaner looks setting.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> <code>npx hyperframes init</code> scaffolds a centered title on a dark frame. Local render uses the faster capture path. The default quality is looks (<a href="https://github.com/heygen-com/hyperframes/commit/f059a6eb539e6289d20156f04eb04a43ddc8b806">f059a6eb5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3927">#3927</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> The core skill now covers only how to write composition HTML. Planning and review docs live on the main HyperFrames skill (<a href="https://github.com/heygen-com/hyperframes/commit/95bea1631ff51dd38332f69daef3a1e1849d51c6">95bea1631</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3928">#3928</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.37...v0.8.38">https://github.com/heygen-com/hyperframes/compare/v0.8.37...v0.8.38</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.38</h1>
+<p>Released on 2026-09-14.</p>
+<p>Starting a project now opens on a centered title on a dark frame, with no extra flags. Local renders use the faster capture path, and the default encode is the cleaner looks setting.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> <code>npx hyperframes init</code> scaffolds a centered title on a dark frame. Local render uses the faster capture path. The default quality is looks (<a href="https://github.com/heygen-com/hyperframes/commit/f059a6eb539e6289d20156f04eb04a43ddc8b806">f059a6eb5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3927">#3927</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> The core skill now covers only how to write composition HTML. Planning and review docs live on the main HyperFrames skill (<a href="https://github.com/heygen-com/hyperframes/commit/95bea1631ff51dd38332f69daef3a1e1849d51c6">95bea1631</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3928">#3928</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.37...v0.8.38">https://github.com/heygen-com/hyperframes/compare/v0.8.37...v0.8.38</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.37]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.37</link>
@@ -2645,72 +2679,6 @@ stops three editor crashes.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.100...v0.7.101">https://github.com/heygen-com/hyperframes/compare/v0.7.100...v0.7.101</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.100]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.100</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.100</guid>
-            <pubDate>Fri, 07 Aug 2026 23:15:58 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.100</h1>
-<p>Released on 2026-08-07.</p>
-<p>Components that another composition mounts now keep their own styles in the live preview. Some of them rendered unstyled before, even though the video they produced was correct.
-Screenshot captures on software rendering no longer accumulate earlier frames, and Studio keeps the preview alive in a tight window.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> Sniff HTML payload before ffprobe in resolveMediaDuration (<a href="https://github.com/heygen-com/hyperframes/commit/8a11e9776d3c65c2512c595bbde3dfc5bb194f39">8a11e9776</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Stop SwiftShader ghosting in software screenshot captures (<a href="https://github.com/heygen-com/hyperframes/commit/b57dc13cb6c8752c4f8f9426cfda2faf529136c2">b57dc13cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3096">#3096</a>).</li>
-<li><strong>Studio:</strong> Resize an element whose scale is an instant hold (<a href="https://github.com/heygen-com/hyperframes/commit/a850e97f3d5a2cfcf183aec2cc2620020e8e1bf4">a850e97f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3092">#3092</a>).</li>
-<li><strong>Core:</strong> Stop dropping a mounted composition styles, and gate the divergence (<a href="https://github.com/heygen-com/hyperframes/commit/8d9db3df731409d5aaed4ba0af70ea1c81ab40e4">8d9db3df7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3094">#3094</a>).</li>
-<li><strong>Compiler:</strong> Split font-family only on top-level commas (<a href="https://github.com/heygen-com/hyperframes/commit/172311e95e99b04cd2d76d43de9bbadd69c630ab">172311e95</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3067">#3067</a>).</li>
-<li><strong>Studio:</strong> Keep the preview alive when the window is tight (<a href="https://github.com/heygen-com/hyperframes/commit/d5cc1c9c6249c27a63269288d8b7771656eb50db">d5cc1c9c6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3091">#3091</a>).</li>
-<li><strong>CLI:</strong> Refresh identity persistence classification (<a href="https://github.com/heygen-com/hyperframes/commit/7640adc5f2c39bd5d330aca3d0180ea2f67a793d">7640adc5f</a>).</li>
-<li><strong>Producer:</strong> Classify JSON error bodies as non-media sources too (<a href="https://github.com/heygen-com/hyperframes/commit/349c066a83c21046f888073776212348c2c5057b">349c066a8</a>).</li>
-<li><strong>Producer:</strong> Scope and harden the markup-payload sniff (<a href="https://github.com/heygen-com/hyperframes/commit/f3689c148190b0c72d1b5296b2a5b740d8dd97d8">f3689c148</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Scripts:</strong> Render template-only blocks in catalog previews (<a href="https://github.com/heygen-com/hyperframes/commit/218eff7d361487becf7e1d6fc0d85453ac199b5e">218eff7d3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3098">#3098</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Core:</strong> Settle the four remaining preview-vs-render divergences (<a href="https://github.com/heygen-com/hyperframes/commit/57ec008cb295efb0a817840a1eadac53fbbf355e">57ec008cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3097">#3097</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.99...v0.7.100">https://github.com/heygen-com/hyperframes/compare/v0.7.99...v0.7.100</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.100</h1>
-<p>Released on 2026-08-07.</p>
-<p>Components that another composition mounts now keep their own styles in the live preview. Some of them rendered unstyled before, even though the video they produced was correct.
-Screenshot captures on software rendering no longer accumulate earlier frames, and Studio keeps the preview alive in a tight window.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> Sniff HTML payload before ffprobe in resolveMediaDuration (<a href="https://github.com/heygen-com/hyperframes/commit/8a11e9776d3c65c2512c595bbde3dfc5bb194f39">8a11e9776</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Stop SwiftShader ghosting in software screenshot captures (<a href="https://github.com/heygen-com/hyperframes/commit/b57dc13cb6c8752c4f8f9426cfda2faf529136c2">b57dc13cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3096">#3096</a>).</li>
-<li><strong>Studio:</strong> Resize an element whose scale is an instant hold (<a href="https://github.com/heygen-com/hyperframes/commit/a850e97f3d5a2cfcf183aec2cc2620020e8e1bf4">a850e97f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3092">#3092</a>).</li>
-<li><strong>Core:</strong> Stop dropping a mounted composition styles, and gate the divergence (<a href="https://github.com/heygen-com/hyperframes/commit/8d9db3df731409d5aaed4ba0af70ea1c81ab40e4">8d9db3df7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3094">#3094</a>).</li>
-<li><strong>Compiler:</strong> Split font-family only on top-level commas (<a href="https://github.com/heygen-com/hyperframes/commit/172311e95e99b04cd2d76d43de9bbadd69c630ab">172311e95</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3067">#3067</a>).</li>
-<li><strong>Studio:</strong> Keep the preview alive when the window is tight (<a href="https://github.com/heygen-com/hyperframes/commit/d5cc1c9c6249c27a63269288d8b7771656eb50db">d5cc1c9c6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3091">#3091</a>).</li>
-<li><strong>CLI:</strong> Refresh identity persistence classification (<a href="https://github.com/heygen-com/hyperframes/commit/7640adc5f2c39bd5d330aca3d0180ea2f67a793d">7640adc5f</a>).</li>
-<li><strong>Producer:</strong> Classify JSON error bodies as non-media sources too (<a href="https://github.com/heygen-com/hyperframes/commit/349c066a83c21046f888073776212348c2c5057b">349c066a8</a>).</li>
-<li><strong>Producer:</strong> Scope and harden the markup-payload sniff (<a href="https://github.com/heygen-com/hyperframes/commit/f3689c148190b0c72d1b5296b2a5b740d8dd97d8">f3689c148</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Scripts:</strong> Render template-only blocks in catalog previews (<a href="https://github.com/heygen-com/hyperframes/commit/218eff7d361487becf7e1d6fc0d85453ac199b5e">218eff7d3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3098">#3098</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Core:</strong> Settle the four remaining preview-vs-render divergences (<a href="https://github.com/heygen-com/hyperframes/commit/57ec008cb295efb0a817840a1eadac53fbbf355e">57ec008cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3097">#3097</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.99...v0.7.100">https://github.com/heygen-com/hyperframes/compare/v0.7.99...v0.7.100</a></p>
 ]]></content:encoded>
         </item>
     </channel>
