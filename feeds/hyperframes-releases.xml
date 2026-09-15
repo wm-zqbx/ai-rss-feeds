@@ -4,11 +4,57 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 14 Sep 2026 16:46:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Sep 2026 21:28:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.41]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.41</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.41</guid>
+            <pubDate>Tue, 15 Sep 2026 21:28:32 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.41</h1>
+<p>Released on 2026-09-15.</p>
+<p>Studio no longer crashes when the player loads outside a Vite host, like MCP session preview pages. Engine renders also hold finite video slots past EOF and keep long-capture caches alive.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Hold finite video slots past EOF (<a href="https://github.com/heygen-com/hyperframes/commit/f3bd4234f50c378f60fd63404d12f1f6cc759e4d">f3bd4234f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3962">#3962</a>).</li>
+<li><strong>Studio:</strong> Fail closed on backup failures (<a href="https://github.com/heygen-com/hyperframes/commit/cccc78c65eb6d7804b6725b7c526786b3251e14d">cccc78c65</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3961">#3961</a>).</li>
+<li><strong>Engine:</strong> Keep a render&#39;s dependent extraction-cache entry alive during long captures (<a href="https://github.com/heygen-com/hyperframes/commit/e2d60cf27c80849cb6c0fa5c22be34c85b8f6e05">e2d60cf27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3913">#3913</a>).</li>
+<li><strong>Studio:</strong> Guard import.meta.env reads so the player survives non-Vite ESM hosts (<a href="https://github.com/heygen-com/hyperframes/commit/f98b8ead374c20e850995ba071c1da37cdbefe54">f98b8ead3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3948">#3948</a>).</li>
+<li><strong>Core:</strong> Tell an opaque document how to actually get its Web Audio back (<a href="https://github.com/heygen-com/hyperframes/commit/8886743f447176094aaee7d9ac0570fe735e10ff">8886743f4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3940">#3940</a>).</li>
+<li><strong>Skills:</strong> Keep changelog-video&#39;s stamped seams off the clip elements (<a href="https://github.com/heygen-com/hyperframes/commit/e8cbf0ca85530b9085f7ce3b9e26dd46f136aa3f">e8cbf0ca8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3946">#3946</a>).</li>
+<li><strong>Producer:</strong> Retry capture on a CDP Page.captureScreenshot refusal (<a href="https://github.com/heygen-com/hyperframes/commit/a0a6244be7a40956c5343f5846609e584ee5c6b5">a0a6244be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3892">#3892</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-09-07–2026-09-14 (<a href="https://github.com/heygen-com/hyperframes/commit/14ad0c08a3ea18c6b2a0ae758e9ed7ca1e3e4010">14ad0c08a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3939">#3939</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.40...v0.8.41">https://github.com/heygen-com/hyperframes/compare/v0.8.40...v0.8.41</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.41</h1>
+<p>Released on 2026-09-15.</p>
+<p>Studio no longer crashes when the player loads outside a Vite host, like MCP session preview pages. Engine renders also hold finite video slots past EOF and keep long-capture caches alive.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Hold finite video slots past EOF (<a href="https://github.com/heygen-com/hyperframes/commit/f3bd4234f50c378f60fd63404d12f1f6cc759e4d">f3bd4234f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3962">#3962</a>).</li>
+<li><strong>Studio:</strong> Fail closed on backup failures (<a href="https://github.com/heygen-com/hyperframes/commit/cccc78c65eb6d7804b6725b7c526786b3251e14d">cccc78c65</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3961">#3961</a>).</li>
+<li><strong>Engine:</strong> Keep a render&#39;s dependent extraction-cache entry alive during long captures (<a href="https://github.com/heygen-com/hyperframes/commit/e2d60cf27c80849cb6c0fa5c22be34c85b8f6e05">e2d60cf27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3913">#3913</a>).</li>
+<li><strong>Studio:</strong> Guard import.meta.env reads so the player survives non-Vite ESM hosts (<a href="https://github.com/heygen-com/hyperframes/commit/f98b8ead374c20e850995ba071c1da37cdbefe54">f98b8ead3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3948">#3948</a>).</li>
+<li><strong>Core:</strong> Tell an opaque document how to actually get its Web Audio back (<a href="https://github.com/heygen-com/hyperframes/commit/8886743f447176094aaee7d9ac0570fe735e10ff">8886743f4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3940">#3940</a>).</li>
+<li><strong>Skills:</strong> Keep changelog-video&#39;s stamped seams off the clip elements (<a href="https://github.com/heygen-com/hyperframes/commit/e8cbf0ca85530b9085f7ce3b9e26dd46f136aa3f">e8cbf0ca8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3946">#3946</a>).</li>
+<li><strong>Producer:</strong> Retry capture on a CDP Page.captureScreenshot refusal (<a href="https://github.com/heygen-com/hyperframes/commit/a0a6244be7a40956c5343f5846609e584ee5c6b5">a0a6244be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3892">#3892</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-09-07–2026-09-14 (<a href="https://github.com/heygen-com/hyperframes/commit/14ad0c08a3ea18c6b2a0ae758e9ed7ca1e3e4010">14ad0c08a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3939">#3939</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.40...v0.8.41">https://github.com/heygen-com/hyperframes/compare/v0.8.40...v0.8.41</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.40]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.40</link>
@@ -2603,48 +2649,6 @@ This patch release includes the Plan v2-by-default behavior. Use <a href="https:
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104">https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.103]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.103</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.103</guid>
-            <pubDate>Sun, 09 Aug 2026 10:18:26 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.103</h1>
-<p>Released on 2026-08-09.</p>
-<p>Long renders use the faster parallel capture path again. A gate added in 0.7.101 had switched it off for most installs, making renders slower.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Core,cli:</strong> Ship the DE parallel router fleet-wide — remove the canary gate (<a href="https://github.com/heygen-com/hyperframes/commit/19defeabfe8fa47747d1d8bc087a84d69a09cb59">19defeabf</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Retry bpm-detective import after transient failure (<a href="https://github.com/heygen-com/hyperframes/commit/b4bd670402b82f25c1f5e0343336e21455284f80">b4bd67040</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2736">#2736</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Fix preview port in DOCS_GUIDELINES example (<a href="https://github.com/heygen-com/hyperframes/commit/9ec9e3a711531b3d45c30a1e2c3006df97dbe5cb">9ec9e3a71</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2903">#2903</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.102...v0.7.103">https://github.com/heygen-com/hyperframes/compare/v0.7.102...v0.7.103</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.103</h1>
-<p>Released on 2026-08-09.</p>
-<p>Long renders use the faster parallel capture path again. A gate added in 0.7.101 had switched it off for most installs, making renders slower.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Core,cli:</strong> Ship the DE parallel router fleet-wide — remove the canary gate (<a href="https://github.com/heygen-com/hyperframes/commit/19defeabfe8fa47747d1d8bc087a84d69a09cb59">19defeabf</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Retry bpm-detective import after transient failure (<a href="https://github.com/heygen-com/hyperframes/commit/b4bd670402b82f25c1f5e0343336e21455284f80">b4bd67040</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2736">#2736</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Fix preview port in DOCS_GUIDELINES example (<a href="https://github.com/heygen-com/hyperframes/commit/9ec9e3a711531b3d45c30a1e2c3006df97dbe5cb">9ec9e3a71</a>, <a href="https://github.com/heygen-com/hyperframes/pull/2903">#2903</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.102...v0.7.103">https://github.com/heygen-com/hyperframes/compare/v0.7.102...v0.7.103</a></p>
 ]]></content:encoded>
         </item>
     </channel>
