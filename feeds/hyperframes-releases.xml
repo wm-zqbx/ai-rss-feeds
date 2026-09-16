@@ -4,11 +4,53 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 15 Sep 2026 21:28:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Sep 2026 13:44:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.42]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.42</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.42</guid>
+            <pubDate>Wed, 16 Sep 2026 13:44:23 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.42</h1>
+<p>Released on 2026-09-16.</p>
+<p>Studio preview and render downloads now work for compositions and files with non-Latin-1 names. Forced <code>--sdr</code> renders tone-map HDR sources so colors match the Studio preview. HDR auto-promotion now shows up in <code>check --json</code>, and render workers no longer survive as orphans after Ctrl-C or a parent exit.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Stop render and preview worker processes from surviving as orphans after Ctrl-C, parent exit, or a stopped Windows wrapper. Carry cancellation through final artifact promotion so a cancelled render never replaces an existing output. Set <code>HYPERFRAMES_RENDER_DETACHED=1</code> for intentionally detached renders (<a href="https://github.com/heygen-com/hyperframes/commit/08d48ab7539e3a21facbe005c0610f2dbc8bf5a5">08d48ab75</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3974">#3974</a>).</li>
+<li><strong>Engine:</strong> Tone-map HDR sources before frame extraction on forced <code>--sdr</code> renders, fixing the cool color cast versus the Studio preview (<a href="https://github.com/heygen-com/hyperframes/commit/ef48485b919c69735659a09dc01aa21aa73a4f51">ef48485b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3981">#3981</a>).</li>
+<li><strong>CLI:</strong> Report HDR auto-promotion in <code>check --json</code> with the triggering asset and resulting output pipeline, and print one render warning when it fires (<a href="https://github.com/heygen-com/hyperframes/commit/5d2478c6fae413f28c6106ca4359b952e7434a50">5d2478c6f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3985">#3985</a>).</li>
+<li><strong>Studio Server:</strong> Serve render downloads and file responses for non-Latin-1 filenames using RFC 6266 <code>Content-Disposition</code> headers (<a href="https://github.com/heygen-com/hyperframes/commit/b599f031a929f55ade71246a7b3c5701b311aa46">b599f031a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3984">#3984</a>).</li>
+<li><strong>Studio Server:</strong> Fix a Studio preview server crash for compositions whose file path contains non-Latin-1 characters by hashing sub-composition paths into ASCII-safe ETags (<a href="https://github.com/heygen-com/hyperframes/commit/edb6e87ba7fa8fa49039dc4ccbe5733cf58afdae">edb6e87ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3982">#3982</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Cover held tails in HDR preflight (<a href="https://github.com/heygen-com/hyperframes/commit/ae18e3a327e66e18747cdcc7b4a16b20ea75f97a">ae18e3a32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3963">#3963</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.41...v0.8.42">https://github.com/heygen-com/hyperframes/compare/v0.8.41...v0.8.42</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.42</h1>
+<p>Released on 2026-09-16.</p>
+<p>Studio preview and render downloads now work for compositions and files with non-Latin-1 names. Forced <code>--sdr</code> renders tone-map HDR sources so colors match the Studio preview. HDR auto-promotion now shows up in <code>check --json</code>, and render workers no longer survive as orphans after Ctrl-C or a parent exit.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Stop render and preview worker processes from surviving as orphans after Ctrl-C, parent exit, or a stopped Windows wrapper. Carry cancellation through final artifact promotion so a cancelled render never replaces an existing output. Set <code>HYPERFRAMES_RENDER_DETACHED=1</code> for intentionally detached renders (<a href="https://github.com/heygen-com/hyperframes/commit/08d48ab7539e3a21facbe005c0610f2dbc8bf5a5">08d48ab75</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3974">#3974</a>).</li>
+<li><strong>Engine:</strong> Tone-map HDR sources before frame extraction on forced <code>--sdr</code> renders, fixing the cool color cast versus the Studio preview (<a href="https://github.com/heygen-com/hyperframes/commit/ef48485b919c69735659a09dc01aa21aa73a4f51">ef48485b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3981">#3981</a>).</li>
+<li><strong>CLI:</strong> Report HDR auto-promotion in <code>check --json</code> with the triggering asset and resulting output pipeline, and print one render warning when it fires (<a href="https://github.com/heygen-com/hyperframes/commit/5d2478c6fae413f28c6106ca4359b952e7434a50">5d2478c6f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3985">#3985</a>).</li>
+<li><strong>Studio Server:</strong> Serve render downloads and file responses for non-Latin-1 filenames using RFC 6266 <code>Content-Disposition</code> headers (<a href="https://github.com/heygen-com/hyperframes/commit/b599f031a929f55ade71246a7b3c5701b311aa46">b599f031a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3984">#3984</a>).</li>
+<li><strong>Studio Server:</strong> Fix a Studio preview server crash for compositions whose file path contains non-Latin-1 characters by hashing sub-composition paths into ASCII-safe ETags (<a href="https://github.com/heygen-com/hyperframes/commit/edb6e87ba7fa8fa49039dc4ccbe5733cf58afdae">edb6e87ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3982">#3982</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Cover held tails in HDR preflight (<a href="https://github.com/heygen-com/hyperframes/commit/ae18e3a327e66e18747cdcc7b4a16b20ea75f97a">ae18e3a32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3963">#3963</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.41...v0.8.42">https://github.com/heygen-com/hyperframes/compare/v0.8.41...v0.8.42</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.41]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.41</link>
@@ -2621,34 +2663,6 @@ This patch release includes the Plan v2-by-default behavior. Use <a href="https:
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.104...v0.7.105">https://github.com/heygen-com/hyperframes/compare/v0.7.104...v0.7.105</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.104]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.104</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.104</guid>
-            <pubDate>Mon, 10 Aug 2026 00:24:38 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.104</h1>
-<p>Released on 2026-08-10.</p>
-<p>Selecting and moving elements in Studio&#39;s canvas now behaves the way it looks. Multi-selection sticks, a dragged group lands where you dropped it, a resized element keeps its size, and editing no longer flashes the preview.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Canvas selection, drag and resize correctness (<a href="https://github.com/heygen-com/hyperframes/commit/17ac986bfe0fffbbc8aac2a68b9e9814f561b562">17ac986bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3146">#3146</a>).</li>
-<li><strong>Studio:</strong> Stop a Studio edit from reloading the preview (<a href="https://github.com/heygen-com/hyperframes/commit/bea32b8aae5bd9008c5fbe453a17a8a4588365ba">bea32b8aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3137">#3137</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104">https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.104</h1>
-<p>Released on 2026-08-10.</p>
-<p>Selecting and moving elements in Studio&#39;s canvas now behaves the way it looks. Multi-selection sticks, a dragged group lands where you dropped it, a resized element keeps its size, and editing no longer flashes the preview.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Canvas selection, drag and resize correctness (<a href="https://github.com/heygen-com/hyperframes/commit/17ac986bfe0fffbbc8aac2a68b9e9814f561b562">17ac986bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3146">#3146</a>).</li>
-<li><strong>Studio:</strong> Stop a Studio edit from reloading the preview (<a href="https://github.com/heygen-com/hyperframes/commit/bea32b8aae5bd9008c5fbe453a17a8a4588365ba">bea32b8aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3137">#3137</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104">https://github.com/heygen-com/hyperframes/compare/v0.7.103...v0.7.104</a></p>
 ]]></content:encoded>
         </item>
     </channel>
