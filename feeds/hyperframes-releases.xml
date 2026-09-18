@@ -4,11 +4,57 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 17 Sep 2026 05:52:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2026 08:15:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.47]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.47</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.47</guid>
+            <pubDate>Fri, 18 Sep 2026 08:15:54 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.47</h1>
+<p>Released on 2026-09-18.</p>
+<p>Studio now saves edits through the <code>@hyperframes/sdk</code> by default instead of the older server handlers. Every edit family is covered. The GSAP script writer is now acorn as well. Both can be turned off with an environment variable.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Every edit now persists through the SDK by default. The path previously shipped dark, so the engine was tested but never exercised by real sessions. Turning it on puts one code path behind Studio, the AI Studio host, and agents, instead of each consumer maintaining its own. An edit that cannot be expressed as an SDK operation still falls back to the server path, and now records why (<a href="https://github.com/heygen-com/hyperframes/commit/26ea8a0740a986383ce4aa7d2b399b992c838350">26ea8a074</a>).</li>
+<li><strong>Studio:</strong> GSAP script writes use the acorn writer by default, replacing recast. Both produce the same result, and the old writer stays available for one release as a fallback before it is removed (<a href="https://github.com/heygen-com/hyperframes/commit/407cacf0aef3c498e79dc7eaa46b3f4bbfa52035">407cacf0a</a>).</li>
+<li><strong>Studio:</strong> Telemetry now records every fallback and its reason, including the case where an element exists but could not be resolved for an edit (<a href="https://github.com/heygen-com/hyperframes/commit/9ef37e5163d861248ac3c158a5d612a3143a682f">9ef37e516</a>, <a href="https://github.com/heygen-com/hyperframes/commit/9f3a778fd11b86186636729df8e4b5d964824789">9f3a778fd</a>). This is what makes it possible to tell whether the SDK is really handling edits or quietly handing them back.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Player:</strong> The interactive playback clock absorbs a main-thread stall instead of skipping past it (<a href="https://github.com/heygen-com/hyperframes/commit/2de3ca5f86da3b8bb2fdc3e62dd181c4ca565f55">2de3ca5f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4053">#4053</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Blur every transform driver, and ship the reference case as shutter-slam (<a href="https://github.com/heygen-com/hyperframes/commit/82f49262ec557a4160773df831dc5b228ac48a66">82f49262e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4038">#4038</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47">https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.47</h1>
+<p>Released on 2026-09-18.</p>
+<p>Studio now saves edits through the <code>@hyperframes/sdk</code> by default instead of the older server handlers. Every edit family is covered. The GSAP script writer is now acorn as well. Both can be turned off with an environment variable.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Every edit now persists through the SDK by default. The path previously shipped dark, so the engine was tested but never exercised by real sessions. Turning it on puts one code path behind Studio, the AI Studio host, and agents, instead of each consumer maintaining its own. An edit that cannot be expressed as an SDK operation still falls back to the server path, and now records why (<a href="https://github.com/heygen-com/hyperframes/commit/26ea8a0740a986383ce4aa7d2b399b992c838350">26ea8a074</a>).</li>
+<li><strong>Studio:</strong> GSAP script writes use the acorn writer by default, replacing recast. Both produce the same result, and the old writer stays available for one release as a fallback before it is removed (<a href="https://github.com/heygen-com/hyperframes/commit/407cacf0aef3c498e79dc7eaa46b3f4bbfa52035">407cacf0a</a>).</li>
+<li><strong>Studio:</strong> Telemetry now records every fallback and its reason, including the case where an element exists but could not be resolved for an edit (<a href="https://github.com/heygen-com/hyperframes/commit/9ef37e5163d861248ac3c158a5d612a3143a682f">9ef37e516</a>, <a href="https://github.com/heygen-com/hyperframes/commit/9f3a778fd11b86186636729df8e4b5d964824789">9f3a778fd</a>). This is what makes it possible to tell whether the SDK is really handling edits or quietly handing them back.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Player:</strong> The interactive playback clock absorbs a main-thread stall instead of skipping past it (<a href="https://github.com/heygen-com/hyperframes/commit/2de3ca5f86da3b8bb2fdc3e62dd181c4ca565f55">2de3ca5f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4053">#4053</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Blur every transform driver, and ship the reference case as shutter-slam (<a href="https://github.com/heygen-com/hyperframes/commit/82f49262ec557a4160773df831dc5b228ac48a66">82f49262e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4038">#4038</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47">https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.46]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.46</link>
@@ -2465,42 +2511,6 @@ This patch release includes the Plan v2-by-default behavior. Use <a href="https:
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.109...v0.7.110">https://github.com/heygen-com/hyperframes/compare/v0.7.109...v0.7.110</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.109]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.109</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.109</guid>
-            <pubDate>Fri, 14 Aug 2026 14:25:48 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.109</h1>
-<p>Released on 2026-08-14.</p>
-<p>Audio and video clips now continue from the correct source position after a split. Renders also honor mixer settings and carry diagnostic metadata.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> Add invisible, unsigned renderer and version metadata to encoded files for diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/f7d2260f9d8edb33e708138067a0eaf393c1f214">f7d2260f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3264">#3264</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Honor configured FFmpeg timeouts and master gain during audio mixing (<a href="https://github.com/heygen-com/hyperframes/commit/c32b8041dbd157178220b7a364071fe8e3cb783a">c32b8041d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3239">#3239</a>).</li>
-<li><strong>Studio:</strong> Keep audio and video at the correct source position after splitting a clip (<a href="https://github.com/heygen-com/hyperframes/commit/b1b368d0f0967506db02224ce1503f88b36b6487">b1b368d0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3272">#3272</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.108...v0.7.109">https://github.com/heygen-com/hyperframes/compare/v0.7.108...v0.7.109</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.109</h1>
-<p>Released on 2026-08-14.</p>
-<p>Audio and video clips now continue from the correct source position after a split. Renders also honor mixer settings and carry diagnostic metadata.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> Add invisible, unsigned renderer and version metadata to encoded files for diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/f7d2260f9d8edb33e708138067a0eaf393c1f214">f7d2260f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3264">#3264</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Honor configured FFmpeg timeouts and master gain during audio mixing (<a href="https://github.com/heygen-com/hyperframes/commit/c32b8041dbd157178220b7a364071fe8e3cb783a">c32b8041d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3239">#3239</a>).</li>
-<li><strong>Studio:</strong> Keep audio and video at the correct source position after splitting a clip (<a href="https://github.com/heygen-com/hyperframes/commit/b1b368d0f0967506db02224ce1503f88b36b6487">b1b368d0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3272">#3272</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.108...v0.7.109">https://github.com/heygen-com/hyperframes/compare/v0.7.108...v0.7.109</a></p>
 ]]></content:encoded>
         </item>
     </channel>
