@@ -4,11 +4,75 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 18 Sep 2026 15:16:11 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2026 21:48:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.49]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.49</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.49</guid>
+            <pubDate>Fri, 18 Sep 2026 21:48:46 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.49</h1>
+<p>Released on 2026-09-18.</p>
+<p>Films embedded from another origin now wait for their images and media before the first frame plays, and dropping a clip onto an empty main track starts it at 0. The rest is render-ready and catalog fixes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> The first clip on an empty main track now starts at 0 (<a href="https://github.com/heygen-com/hyperframes/commit/707f9a44c352cead071f2ca6e67ee61ef676c484">707f9a44c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4099">#4099</a>).</li>
+<li><strong>Studio:</strong> The editor now reports the real reason an edit was declined, one of four causes, instead of one generic one (<a href="https://github.com/heygen-com/hyperframes/commit/61db4531337f6586cff80c130fb459e8d0bc6360">61db45313</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Player:</strong> A composition embedded from another origin waits for its assets before playing, so viewers no longer see a half-loaded first frame (<a href="https://github.com/heygen-com/hyperframes/commit/a7282dcd0eb888ab496dcbd41a1e35ac2a3bb1c7">a7282dcd0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4103">#4103</a>).</li>
+<li><strong>Producer:</strong> Renders look up Google Fonts CSS once per process instead of on every use (<a href="https://github.com/heygen-com/hyperframes/commit/a7ec66b1248ddf704656676717005bdfd2aee946">a7ec66b12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4097">#4097</a>).</li>
+<li><strong>Core:</strong> A media file that already failed to load no longer holds the readiness gate for the full 8 second timeout (<a href="https://github.com/heygen-com/hyperframes/commit/15460ec541a89d35e9080b78c2c54a3b288c1735">15460ec54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4096">#4096</a>).</li>
+<li><strong>Studio:</strong> Selecting several clips checks their network probes in parallel, so the preview syncs faster (<a href="https://github.com/heygen-com/hyperframes/commit/cc36905c29851545f95feabc86f62722b673807c">cc36905c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4088">#4088</a>).</li>
+<li><strong>Studio:</strong> After you drop a clip on the timeline it is selected and scrolled into view (<a href="https://github.com/heygen-com/hyperframes/commit/42f947f4c3360c55a28546b9abc93624615eb0a1">42f947f4c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4067">#4067</a>).</li>
+<li><strong>Core:</strong> Selector arrays like querySelectorAll results stay inside their own composition (<a href="https://github.com/heygen-com/hyperframes/commit/27303658c1dc230cd16acdfbcb45606a7eb42a95">27303658c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4035">#4035</a>).</li>
+<li><strong>Core:</strong> Renders wait for a composition&#39;s declared compute to finish, not only for adapter loaders (<a href="https://github.com/heygen-com/hyperframes/commit/e36a53d6b6bd0a5d3da13c0f2f18fc9af255e747">e36a53d6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4065">#4065</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> The catalog is now a live grid you browse, not a static index (<a href="https://github.com/heygen-com/hyperframes/commit/9bb4f5cd571dcf2910078a99efcb65a5d616f917">9bb4f5cd5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4051">#4051</a>).</li>
+<li><strong>Catalog:</strong> Catalog items fall back to a recorded video when their directory is over the size budget (<a href="https://github.com/heygen-com/hyperframes/commit/a0e7c43921e138a891bc604c8b109230143608f1">a0e7c4392</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4084">#4084</a>).</li>
+<li><strong>Registry:</strong> The 12 VS Code theme blocks have their own root id and the right asset path (<a href="https://github.com/heygen-com/hyperframes/commit/d6a0c407d7ab41ae171b85f4bd97b79cbf4b1f3e">d6a0c407d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4094">#4094</a>).</li>
+<li><strong>Registry:</strong> Four blocks that build their timeline asynchronously register it only once it exists (<a href="https://github.com/heygen-com/hyperframes/commit/22793339900986e153c22747d4c148a8a500f0fd">227933399</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4086">#4086</a>).</li>
+<li><strong>Registry:</strong> The iPhone device block no longer waits on requestAnimationFrame to show its screens (<a href="https://github.com/heygen-com/hyperframes/commit/81ca5f41878559d1d2604514409c23caa5d0a11c">81ca5f418</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4083">#4083</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.48...v0.8.49">https://github.com/heygen-com/hyperframes/compare/v0.8.48...v0.8.49</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.49</h1>
+<p>Released on 2026-09-18.</p>
+<p>Films embedded from another origin now wait for their images and media before the first frame plays, and dropping a clip onto an empty main track starts it at 0. The rest is render-ready and catalog fixes.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> The first clip on an empty main track now starts at 0 (<a href="https://github.com/heygen-com/hyperframes/commit/707f9a44c352cead071f2ca6e67ee61ef676c484">707f9a44c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4099">#4099</a>).</li>
+<li><strong>Studio:</strong> The editor now reports the real reason an edit was declined, one of four causes, instead of one generic one (<a href="https://github.com/heygen-com/hyperframes/commit/61db4531337f6586cff80c130fb459e8d0bc6360">61db45313</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Player:</strong> A composition embedded from another origin waits for its assets before playing, so viewers no longer see a half-loaded first frame (<a href="https://github.com/heygen-com/hyperframes/commit/a7282dcd0eb888ab496dcbd41a1e35ac2a3bb1c7">a7282dcd0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4103">#4103</a>).</li>
+<li><strong>Producer:</strong> Renders look up Google Fonts CSS once per process instead of on every use (<a href="https://github.com/heygen-com/hyperframes/commit/a7ec66b1248ddf704656676717005bdfd2aee946">a7ec66b12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4097">#4097</a>).</li>
+<li><strong>Core:</strong> A media file that already failed to load no longer holds the readiness gate for the full 8 second timeout (<a href="https://github.com/heygen-com/hyperframes/commit/15460ec541a89d35e9080b78c2c54a3b288c1735">15460ec54</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4096">#4096</a>).</li>
+<li><strong>Studio:</strong> Selecting several clips checks their network probes in parallel, so the preview syncs faster (<a href="https://github.com/heygen-com/hyperframes/commit/cc36905c29851545f95feabc86f62722b673807c">cc36905c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4088">#4088</a>).</li>
+<li><strong>Studio:</strong> After you drop a clip on the timeline it is selected and scrolled into view (<a href="https://github.com/heygen-com/hyperframes/commit/42f947f4c3360c55a28546b9abc93624615eb0a1">42f947f4c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4067">#4067</a>).</li>
+<li><strong>Core:</strong> Selector arrays like querySelectorAll results stay inside their own composition (<a href="https://github.com/heygen-com/hyperframes/commit/27303658c1dc230cd16acdfbcb45606a7eb42a95">27303658c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4035">#4035</a>).</li>
+<li><strong>Core:</strong> Renders wait for a composition&#39;s declared compute to finish, not only for adapter loaders (<a href="https://github.com/heygen-com/hyperframes/commit/e36a53d6b6bd0a5d3da13c0f2f18fc9af255e747">e36a53d6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4065">#4065</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> The catalog is now a live grid you browse, not a static index (<a href="https://github.com/heygen-com/hyperframes/commit/9bb4f5cd571dcf2910078a99efcb65a5d616f917">9bb4f5cd5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4051">#4051</a>).</li>
+<li><strong>Catalog:</strong> Catalog items fall back to a recorded video when their directory is over the size budget (<a href="https://github.com/heygen-com/hyperframes/commit/a0e7c43921e138a891bc604c8b109230143608f1">a0e7c4392</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4084">#4084</a>).</li>
+<li><strong>Registry:</strong> The 12 VS Code theme blocks have their own root id and the right asset path (<a href="https://github.com/heygen-com/hyperframes/commit/d6a0c407d7ab41ae171b85f4bd97b79cbf4b1f3e">d6a0c407d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4094">#4094</a>).</li>
+<li><strong>Registry:</strong> Four blocks that build their timeline asynchronously register it only once it exists (<a href="https://github.com/heygen-com/hyperframes/commit/22793339900986e153c22747d4c148a8a500f0fd">227933399</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4086">#4086</a>).</li>
+<li><strong>Registry:</strong> The iPhone device block no longer waits on requestAnimationFrame to show its screens (<a href="https://github.com/heygen-com/hyperframes/commit/81ca5f41878559d1d2604514409c23caa5d0a11c">81ca5f418</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4083">#4083</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.48...v0.8.49">https://github.com/heygen-com/hyperframes/compare/v0.8.48...v0.8.49</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.48]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.48</link>
@@ -2477,60 +2541,6 @@ Creator skills also add copyable recipes for cuts, trims, zooms, masks, transiti
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.111...v0.8.0">https://github.com/heygen-com/hyperframes/compare/v0.7.111...v0.8.0</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.111]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.111</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.111</guid>
-            <pubDate>Mon, 17 Aug 2026 21:39:31 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.111</h1>
-<blockquote>
-<p>[!IMPORTANT]
-This patch release includes the Plan v2-by-default behavior. Use <a href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.0">v0.8.0</a> as the supported migration boundary. Redeploy AWS Lambda or GCP Cloud Run infrastructure from the same package version before upgrading SDK callers; until then, keep the prior SDK or pass <code>planProtocol: &quot;v1&quot;</code> explicitly.</p>
-</blockquote>
-<p>Released on 2026-08-17.</p>
-<p>Distributed cloud renders now use the content-addressed Plan v2 transport by default, with explicit Plan v1 compatibility during upgrades.</p>
-<p>Catalog search now ranks names and rarer words more accurately, while new text-measurement hooks give custom tools better layout data.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Cloud:</strong> Default distributed plans to v2 (<a href="https://github.com/heygen-com/hyperframes/commit/17a2a00ed5248bfc1b5f4efee1267610b0610727">17a2a00ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3311">#3311</a>).</li>
-<li><strong>Core:</strong> Expose pretext text measurement on window.__hyperframes (<a href="https://github.com/heygen-com/hyperframes/commit/0285a711e926a592bd189d647474b50de474581c">0285a711e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3302">#3302</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Rank on where a word appears and how rare it is (<a href="https://github.com/heygen-com/hyperframes/commit/6b17c24f980f9514345c8c882b00477328dbc3e6">6b17c24f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3312">#3312</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Split the two files over the 600-line cap (<a href="https://github.com/heygen-com/hyperframes/commit/35eb6d290698fd6aac90a63fd03b70a8cd2f2b07">35eb6d290</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3313">#3313</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.110...v0.7.111">https://github.com/heygen-com/hyperframes/compare/v0.7.110...v0.7.111</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.111</h1>
-<blockquote>
-<p>[!IMPORTANT]
-This patch release includes the Plan v2-by-default behavior. Use <a href="https://github.com/heygen-com/hyperframes/releases/tag/v0.8.0">v0.8.0</a> as the supported migration boundary. Redeploy AWS Lambda or GCP Cloud Run infrastructure from the same package version before upgrading SDK callers; until then, keep the prior SDK or pass <code>planProtocol: &quot;v1&quot;</code> explicitly.</p>
-</blockquote>
-<p>Released on 2026-08-17.</p>
-<p>Distributed cloud renders now use the content-addressed Plan v2 transport by default, with explicit Plan v1 compatibility during upgrades.</p>
-<p>Catalog search now ranks names and rarer words more accurately, while new text-measurement hooks give custom tools better layout data.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Cloud:</strong> Default distributed plans to v2 (<a href="https://github.com/heygen-com/hyperframes/commit/17a2a00ed5248bfc1b5f4efee1267610b0610727">17a2a00ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3311">#3311</a>).</li>
-<li><strong>Core:</strong> Expose pretext text measurement on window.__hyperframes (<a href="https://github.com/heygen-com/hyperframes/commit/0285a711e926a592bd189d647474b50de474581c">0285a711e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3302">#3302</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Rank on where a word appears and how rare it is (<a href="https://github.com/heygen-com/hyperframes/commit/6b17c24f980f9514345c8c882b00477328dbc3e6">6b17c24f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3312">#3312</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Split the two files over the 600-line cap (<a href="https://github.com/heygen-com/hyperframes/commit/35eb6d290698fd6aac90a63fd03b70a8cd2f2b07">35eb6d290</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3313">#3313</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.110...v0.7.111">https://github.com/heygen-com/hyperframes/compare/v0.7.110...v0.7.111</a></p>
 ]]></content:encoded>
         </item>
     </channel>
