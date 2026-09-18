@@ -4,11 +4,85 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 18 Sep 2026 08:15:54 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2026 15:16:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.48]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.48</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.48</guid>
+            <pubDate>Fri, 18 Sep 2026 15:16:11 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.48</h1>
+<p>Released on 2026-09-18.</p>
+<p>Studio&#39;s main track now snaps clips together and closes gaps on delete, and host apps can open the ask-agent flow straight from a picked element. The rest is CLI and editor stability fixes, plus one catalog timing tweak.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Operators get a magnetic main track that closes gaps on delete (<a href="https://github.com/heygen-com/hyperframes/commit/8fe480c0a0a4796ebc4b12f05f45ac1329707bb9">8fe480c0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4069">#4069</a>).</li>
+<li><strong>Studio:</strong> The segment ease control is discoverable at rest (<a href="https://github.com/heygen-com/hyperframes/commit/5ef5419a9e9be11855f76f7dc4b6b947fdccd6f2">5ef5419a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4074">#4074</a>).</li>
+<li><strong>Studio:</strong> Host apps can open the ask-agent flow from a picked element (<a href="https://github.com/heygen-com/hyperframes/commit/e174b1715b6ef0897693a0d278c72343d11f2a1d">e174b1715</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4075">#4075</a>).</li>
+<li><strong>Studio:</strong> Open a project&#39;s root composition automatically on load (<a href="https://github.com/heygen-com/hyperframes/commit/b0e4316a2042f22f7df757d50840997edbf4bb55">b0e4316a2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4057">#4057</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Stop the cancellable-process test reading a pid file mid-write (<a href="https://github.com/heygen-com/hyperframes/commit/2a9912ec995d84efdd48f78c10ce4b02c4afc6cd">2a9912ec9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4080">#4080</a>).</li>
+<li><strong>Studio:</strong> Keep the volume slider editable while automation owns the level (<a href="https://github.com/heygen-com/hyperframes/commit/3306dbcdc0201d636d3fa4b5715c76907540e932">3306dbcdc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4066">#4066</a>).</li>
+<li><strong>CLI:</strong> Stop the preflight cancel test reading a pid file mid-write (<a href="https://github.com/heygen-com/hyperframes/commit/a7cc1d2cffc9bd31fcb0f19c4b30e95dadacf55d">a7cc1d2cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4077">#4077</a>).</li>
+<li><strong>CLI:</strong> Detect a missing or stale studio build before it crashes (<a href="https://github.com/heygen-com/hyperframes/commit/de9206e0f8512ea6fca539c981c1688db6771045">de9206e0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4076">#4076</a>).</li>
+<li><strong>Studio:</strong> Keep clips on their row through group, ungroup, and composition recovery (<a href="https://github.com/heygen-com/hyperframes/commit/a8d44b25963bb92ddb7f07da5e0fc30641922573">a8d44b259</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4068">#4068</a>).</li>
+<li><strong>CLI:</strong> Distinguish agent and execution harness telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/2a559714ee5b455e9dbd21a399f01afb178d9265">2a559714e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4071">#4071</a>).</li>
+<li><strong>Studio:</strong> Dropped timeline assets land where you drop them (<a href="https://github.com/heygen-com/hyperframes/commit/bf39a727876eb4529584c836e66a0c7cd571c399">bf39a7278</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4062">#4062</a>).</li>
+<li><strong>CLI:</strong> Collapse startup lint output to a one-line summary (<a href="https://github.com/heygen-com/hyperframes/commit/096459e76d74d61e8ad7340d5e57672ef493b085">096459e76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4052">#4052</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Corner brackets fade in on cue in north-korea-locked-down (<a href="https://github.com/heygen-com/hyperframes/commit/2679ebdd0d2c896273be333ec4504b0ea57ceaf1">2679ebdd0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4081">#4081</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Time the bun --eval spawn in resolveHeadlessShellPath tests (<a href="https://github.com/heygen-com/hyperframes/commit/856ac34c53d381ca8202c5918096e5ce0892383f">856ac34c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4078">#4078</a>).</li>
+<li><strong>Studio:</strong> Extract hotkey dispatch out of useAppHotkeys (<a href="https://github.com/heygen-com/hyperframes/commit/700b94834de9689cd68ed10703d1143cc636de3f">700b94834</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4079">#4079</a>).</li>
+<li><strong>CLI:</strong> Time each native Sharp call in the flaky Windows contact-sheet test (<a href="https://github.com/heygen-com/hyperframes/commit/3867d8da5d10804bb886bf50a9e9f4db3eecdaf9">3867d8da5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4070">#4070</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.47...v0.8.48">https://github.com/heygen-com/hyperframes/compare/v0.8.47...v0.8.48</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.48</h1>
+<p>Released on 2026-09-18.</p>
+<p>Studio&#39;s main track now snaps clips together and closes gaps on delete, and host apps can open the ask-agent flow straight from a picked element. The rest is CLI and editor stability fixes, plus one catalog timing tweak.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Operators get a magnetic main track that closes gaps on delete (<a href="https://github.com/heygen-com/hyperframes/commit/8fe480c0a0a4796ebc4b12f05f45ac1329707bb9">8fe480c0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4069">#4069</a>).</li>
+<li><strong>Studio:</strong> The segment ease control is discoverable at rest (<a href="https://github.com/heygen-com/hyperframes/commit/5ef5419a9e9be11855f76f7dc4b6b947fdccd6f2">5ef5419a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4074">#4074</a>).</li>
+<li><strong>Studio:</strong> Host apps can open the ask-agent flow from a picked element (<a href="https://github.com/heygen-com/hyperframes/commit/e174b1715b6ef0897693a0d278c72343d11f2a1d">e174b1715</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4075">#4075</a>).</li>
+<li><strong>Studio:</strong> Open a project&#39;s root composition automatically on load (<a href="https://github.com/heygen-com/hyperframes/commit/b0e4316a2042f22f7df757d50840997edbf4bb55">b0e4316a2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4057">#4057</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Stop the cancellable-process test reading a pid file mid-write (<a href="https://github.com/heygen-com/hyperframes/commit/2a9912ec995d84efdd48f78c10ce4b02c4afc6cd">2a9912ec9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4080">#4080</a>).</li>
+<li><strong>Studio:</strong> Keep the volume slider editable while automation owns the level (<a href="https://github.com/heygen-com/hyperframes/commit/3306dbcdc0201d636d3fa4b5715c76907540e932">3306dbcdc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4066">#4066</a>).</li>
+<li><strong>CLI:</strong> Stop the preflight cancel test reading a pid file mid-write (<a href="https://github.com/heygen-com/hyperframes/commit/a7cc1d2cffc9bd31fcb0f19c4b30e95dadacf55d">a7cc1d2cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4077">#4077</a>).</li>
+<li><strong>CLI:</strong> Detect a missing or stale studio build before it crashes (<a href="https://github.com/heygen-com/hyperframes/commit/de9206e0f8512ea6fca539c981c1688db6771045">de9206e0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4076">#4076</a>).</li>
+<li><strong>Studio:</strong> Keep clips on their row through group, ungroup, and composition recovery (<a href="https://github.com/heygen-com/hyperframes/commit/a8d44b25963bb92ddb7f07da5e0fc30641922573">a8d44b259</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4068">#4068</a>).</li>
+<li><strong>CLI:</strong> Distinguish agent and execution harness telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/2a559714ee5b455e9dbd21a399f01afb178d9265">2a559714e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4071">#4071</a>).</li>
+<li><strong>Studio:</strong> Dropped timeline assets land where you drop them (<a href="https://github.com/heygen-com/hyperframes/commit/bf39a727876eb4529584c836e66a0c7cd571c399">bf39a7278</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4062">#4062</a>).</li>
+<li><strong>CLI:</strong> Collapse startup lint output to a one-line summary (<a href="https://github.com/heygen-com/hyperframes/commit/096459e76d74d61e8ad7340d5e57672ef493b085">096459e76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4052">#4052</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Corner brackets fade in on cue in north-korea-locked-down (<a href="https://github.com/heygen-com/hyperframes/commit/2679ebdd0d2c896273be333ec4504b0ea57ceaf1">2679ebdd0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4081">#4081</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Time the bun --eval spawn in resolveHeadlessShellPath tests (<a href="https://github.com/heygen-com/hyperframes/commit/856ac34c53d381ca8202c5918096e5ce0892383f">856ac34c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4078">#4078</a>).</li>
+<li><strong>Studio:</strong> Extract hotkey dispatch out of useAppHotkeys (<a href="https://github.com/heygen-com/hyperframes/commit/700b94834de9689cd68ed10703d1143cc636de3f">700b94834</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4079">#4079</a>).</li>
+<li><strong>CLI:</strong> Time each native Sharp call in the flaky Windows contact-sheet test (<a href="https://github.com/heygen-com/hyperframes/commit/3867d8da5d10804bb886bf50a9e9f4db3eecdaf9">3867d8da5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4070">#4070</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.47...v0.8.48">https://github.com/heygen-com/hyperframes/compare/v0.8.47...v0.8.48</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.47]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.47</link>
@@ -2457,60 +2531,6 @@ This patch release includes the Plan v2-by-default behavior. Use <a href="https:
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.110...v0.7.111">https://github.com/heygen-com/hyperframes/compare/v0.7.110...v0.7.111</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.7.110]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.110</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.7.110</guid>
-            <pubDate>Mon, 17 Aug 2026 19:16:00 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.7.110</h1>
-<p>Released on 2026-08-17.</p>
-<p>A registry the CLI cannot reach no longer empties the catalog. Search and browse now fall back to the last copy on disk, so one network timeout cannot send you off to hand-write a move you already have. When a search finds nothing that fits, the CLI hands you the command to report the gap.</p>
-<p>Studio also gains a preview volume control.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Add a preview volume control (<a href="https://github.com/heygen-com/hyperframes/commit/fecaf72d1f6de66224b3857efb78a2f2c44c41bc">fecaf72d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3282">#3282</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li>Create temp dirs with mkdtemp, not a name built from Date.now() (<a href="https://github.com/heygen-com/hyperframes/commit/de4062a93300cbe1826edfbd8d71fbc44be25cb7">de4062a93</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3241">#3241</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Fix anime.js v3 syntax in v4 adapter guidance (<a href="https://github.com/heygen-com/hyperframes/commit/67edb01bf4aa2f5931e838e46e14e0f51a5809ee">67edb01bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3064">#3064</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Survive an unreachable registry, and ask for the gap (<a href="https://github.com/heygen-com/hyperframes/commit/37f8c48449d6c846788a76edf055bf2a888b7be5">37f8c4844</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3299">#3299</a>).</li>
-<li><strong>Registry:</strong> Add avatar promo and Slack notification templates (<a href="https://github.com/heygen-com/hyperframes/commit/b9a4dfcbe56de5141b9a379ff30605cf23984d1e">b9a4dfcbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3279">#3279</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.109...v0.7.110">https://github.com/heygen-com/hyperframes/compare/v0.7.109...v0.7.110</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.7.110</h1>
-<p>Released on 2026-08-17.</p>
-<p>A registry the CLI cannot reach no longer empties the catalog. Search and browse now fall back to the last copy on disk, so one network timeout cannot send you off to hand-write a move you already have. When a search finds nothing that fits, the CLI hands you the command to report the gap.</p>
-<p>Studio also gains a preview volume control.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Add a preview volume control (<a href="https://github.com/heygen-com/hyperframes/commit/fecaf72d1f6de66224b3857efb78a2f2c44c41bc">fecaf72d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3282">#3282</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li>Create temp dirs with mkdtemp, not a name built from Date.now() (<a href="https://github.com/heygen-com/hyperframes/commit/de4062a93300cbe1826edfbd8d71fbc44be25cb7">de4062a93</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3241">#3241</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Fix anime.js v3 syntax in v4 adapter guidance (<a href="https://github.com/heygen-com/hyperframes/commit/67edb01bf4aa2f5931e838e46e14e0f51a5809ee">67edb01bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3064">#3064</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Survive an unreachable registry, and ask for the gap (<a href="https://github.com/heygen-com/hyperframes/commit/37f8c48449d6c846788a76edf055bf2a888b7be5">37f8c4844</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3299">#3299</a>).</li>
-<li><strong>Registry:</strong> Add avatar promo and Slack notification templates (<a href="https://github.com/heygen-com/hyperframes/commit/b9a4dfcbe56de5141b9a379ff30605cf23984d1e">b9a4dfcbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3279">#3279</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.109...v0.7.110">https://github.com/heygen-com/hyperframes/compare/v0.7.109...v0.7.110</a></p>
 ]]></content:encoded>
         </item>
     </channel>
