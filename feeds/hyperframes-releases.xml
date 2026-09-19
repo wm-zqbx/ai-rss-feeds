@@ -4,11 +4,81 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 18 Sep 2026 21:48:46 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 03:00:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.50]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.50</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.50</guid>
+            <pubDate>Sat, 19 Sep 2026 03:00:42 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.50</h1>
+<p>Released on 2026-09-19.</p>
+<p>Compositions that use a <code>&lt;canvas&gt;</code> — Three.js, shaders, charts — no longer lose their Studio editing session. The timeline also moves to one row per top-level element, and gains copy, paste and duplicate for clip groups.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> The timeline shows one row per top-level element and no child rows (<a href="https://github.com/heygen-com/hyperframes/commit/7797c5ead4c0ecd41745b3be9b8f5a266762e603">7797c5ead</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4132">#4132</a>).</li>
+<li><strong>Studio:</strong> Preview ruler and safe-margin toggles (<a href="https://github.com/heygen-com/hyperframes/commit/898d27869ea16aeb6e58d7f6fe0ef1267ccbfe30">898d27869</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4127">#4127</a>).</li>
+<li><strong>Studio:</strong> Add per-project UI preference scoping (<a href="https://github.com/heygen-com/hyperframes/commit/a192701adb118e510d6c4f284108e99f2e37ed85">a192701ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4093">#4093</a>).</li>
+<li><strong>Studio:</strong> The agent sees every timeline clip, audio included (<a href="https://github.com/heygen-com/hyperframes/commit/6995a4c2f7a5ce5df9553920f82e8fbadebe928d">6995a4c2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4123">#4123</a>).</li>
+<li><strong>Parsers:</strong> Share top-level timeline element and track kind definitions (<a href="https://github.com/heygen-com/hyperframes/commit/02c415dd8b531783130aa5b66c1c0df94f6b29ba">02c415dd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4124">#4124</a>).</li>
+<li><strong>Studio:</strong> Copy, paste and duplicate clip groups on the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/0b6d1039ed0a799fd088fd7af8a4b9440208e23a">0b6d1039e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4064">#4064</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Show where a dragged file will land instead of a drop-to-add box (<a href="https://github.com/heygen-com/hyperframes/commit/63d0ea4d28f75f93fb5512dad46b91cd75dd780e">63d0ea4d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4142">#4142</a>).</li>
+<li><strong>Skills:</strong> Teach and ship the remotion translation as sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/ae0e8fcae1f7de04c084d3e974a955255ff23e39">ae0e8fcae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4141">#4141</a>).</li>
+<li><strong>Player:</strong> Perf harness waits for assets-ready before play instead of a fixed 5s (<a href="https://github.com/heygen-com/hyperframes/commit/4bbcf650ae6ca09c17cb6d3ca2f05c76ab1d3e4b">4bbcf650a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4137">#4137</a>).</li>
+<li><strong>Skills:</strong> Mount music-to-video motion primitives as sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/f2976536deb7a06fc16a818a8b08717d4118e5b9">f2976536d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4136">#4136</a>).</li>
+<li><strong>Studio:</strong> A composition containing a <code>&lt;canvas&gt;</code> element kept its edits on the older server path instead of the SDK, because building the editing session for it threw. Canvas-heavy work — Three.js, shaders, particle effects, charts — was affected, and nothing surfaced it until v0.8.47 added the telemetry that caught it (<a href="https://github.com/heygen-com/hyperframes/commit/d5e1de92018cd8dd9b5d3d02e8c946640b1e12e7">d5e1de920</a>, <a href="https://github.com/heygen-com/hyperframes/commit/db78b4fe68c91397a9a93453d91058c05c488a45">db78b4fe6</a>).</li>
+<li><strong>Core:</strong> Script coalescing no longer moves an inline script past a src script (<a href="https://github.com/heygen-com/hyperframes/commit/14e5f576701ae51fd9a18e3e710553b3784ebefd">14e5f5767</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4133">#4133</a>).</li>
+<li><strong>Studio:</strong> Hovering or selecting a timeline clip no longer swaps its filmstrip (<a href="https://github.com/heygen-com/hyperframes/commit/c80ae95084e255fc12f6a558c8851bc1508dc5a5">c80ae9508</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4130">#4130</a>).</li>
+<li><strong>CLI:</strong> Stop the workspace build check test from depending on wall-clock mtimes (<a href="https://github.com/heygen-com/hyperframes/commit/93921dccc85109f4a541edb440f88d7989aac18b">93921dccc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4098">#4098</a>).</li>
+<li><strong>Capture:</strong> Never silently render a webgpu composition blank (<a href="https://github.com/heygen-com/hyperframes/commit/9981d9afb74e1280bf7136cd0043d895cb570b24">9981d9afb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4091">#4091</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Ci:</strong> Run check-docs-catalog in the Lint job (<a href="https://github.com/heygen-com/hyperframes/commit/8dd697ab8fb9bf42ee6125dcc9f6405d39631208">8dd697ab8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4102">#4102</a>).</li>
+<li><strong>Registry:</strong> Stop gsap tweens from clobbering baked-in css transforms (<a href="https://github.com/heygen-com/hyperframes/commit/a2a5af8e199f524beb691788dd7be4f62a22d318">a2a5af8e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4090">#4090</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.49...v0.8.50">https://github.com/heygen-com/hyperframes/compare/v0.8.49...v0.8.50</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.50</h1>
+<p>Released on 2026-09-19.</p>
+<p>Compositions that use a <code>&lt;canvas&gt;</code> — Three.js, shaders, charts — no longer lose their Studio editing session. The timeline also moves to one row per top-level element, and gains copy, paste and duplicate for clip groups.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> The timeline shows one row per top-level element and no child rows (<a href="https://github.com/heygen-com/hyperframes/commit/7797c5ead4c0ecd41745b3be9b8f5a266762e603">7797c5ead</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4132">#4132</a>).</li>
+<li><strong>Studio:</strong> Preview ruler and safe-margin toggles (<a href="https://github.com/heygen-com/hyperframes/commit/898d27869ea16aeb6e58d7f6fe0ef1267ccbfe30">898d27869</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4127">#4127</a>).</li>
+<li><strong>Studio:</strong> Add per-project UI preference scoping (<a href="https://github.com/heygen-com/hyperframes/commit/a192701adb118e510d6c4f284108e99f2e37ed85">a192701ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4093">#4093</a>).</li>
+<li><strong>Studio:</strong> The agent sees every timeline clip, audio included (<a href="https://github.com/heygen-com/hyperframes/commit/6995a4c2f7a5ce5df9553920f82e8fbadebe928d">6995a4c2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4123">#4123</a>).</li>
+<li><strong>Parsers:</strong> Share top-level timeline element and track kind definitions (<a href="https://github.com/heygen-com/hyperframes/commit/02c415dd8b531783130aa5b66c1c0df94f6b29ba">02c415dd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4124">#4124</a>).</li>
+<li><strong>Studio:</strong> Copy, paste and duplicate clip groups on the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/0b6d1039ed0a799fd088fd7af8a4b9440208e23a">0b6d1039e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4064">#4064</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Show where a dragged file will land instead of a drop-to-add box (<a href="https://github.com/heygen-com/hyperframes/commit/63d0ea4d28f75f93fb5512dad46b91cd75dd780e">63d0ea4d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4142">#4142</a>).</li>
+<li><strong>Skills:</strong> Teach and ship the remotion translation as sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/ae0e8fcae1f7de04c084d3e974a955255ff23e39">ae0e8fcae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4141">#4141</a>).</li>
+<li><strong>Player:</strong> Perf harness waits for assets-ready before play instead of a fixed 5s (<a href="https://github.com/heygen-com/hyperframes/commit/4bbcf650ae6ca09c17cb6d3ca2f05c76ab1d3e4b">4bbcf650a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4137">#4137</a>).</li>
+<li><strong>Skills:</strong> Mount music-to-video motion primitives as sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/f2976536deb7a06fc16a818a8b08717d4118e5b9">f2976536d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4136">#4136</a>).</li>
+<li><strong>Studio:</strong> A composition containing a <code>&lt;canvas&gt;</code> element kept its edits on the older server path instead of the SDK, because building the editing session for it threw. Canvas-heavy work — Three.js, shaders, particle effects, charts — was affected, and nothing surfaced it until v0.8.47 added the telemetry that caught it (<a href="https://github.com/heygen-com/hyperframes/commit/d5e1de92018cd8dd9b5d3d02e8c946640b1e12e7">d5e1de920</a>, <a href="https://github.com/heygen-com/hyperframes/commit/db78b4fe68c91397a9a93453d91058c05c488a45">db78b4fe6</a>).</li>
+<li><strong>Core:</strong> Script coalescing no longer moves an inline script past a src script (<a href="https://github.com/heygen-com/hyperframes/commit/14e5f576701ae51fd9a18e3e710553b3784ebefd">14e5f5767</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4133">#4133</a>).</li>
+<li><strong>Studio:</strong> Hovering or selecting a timeline clip no longer swaps its filmstrip (<a href="https://github.com/heygen-com/hyperframes/commit/c80ae95084e255fc12f6a558c8851bc1508dc5a5">c80ae9508</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4130">#4130</a>).</li>
+<li><strong>CLI:</strong> Stop the workspace build check test from depending on wall-clock mtimes (<a href="https://github.com/heygen-com/hyperframes/commit/93921dccc85109f4a541edb440f88d7989aac18b">93921dccc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4098">#4098</a>).</li>
+<li><strong>Capture:</strong> Never silently render a webgpu composition blank (<a href="https://github.com/heygen-com/hyperframes/commit/9981d9afb74e1280bf7136cd0043d895cb570b24">9981d9afb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4091">#4091</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Ci:</strong> Run check-docs-catalog in the Lint job (<a href="https://github.com/heygen-com/hyperframes/commit/8dd697ab8fb9bf42ee6125dcc9f6405d39631208">8dd697ab8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4102">#4102</a>).</li>
+<li><strong>Registry:</strong> Stop gsap tweens from clobbering baked-in css transforms (<a href="https://github.com/heygen-com/hyperframes/commit/a2a5af8e199f524beb691788dd7be4f62a22d318">a2a5af8e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4090">#4090</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.49...v0.8.50">https://github.com/heygen-com/hyperframes/compare/v0.8.49...v0.8.50</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.49]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.49</link>
@@ -2499,48 +2569,6 @@ Creator skills also add copyable recipes for cuts, trims, zooms, masks, transiti
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.0...v0.8.1">https://github.com/heygen-com/hyperframes/compare/v0.8.0...v0.8.1</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.0]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.0</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.0</guid>
-            <pubDate>Tue, 18 Aug 2026 00:10:51 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.0</h1>
-<p>Released on 2026-08-17.</p>
-<p>HyperFrames 0.8 establishes the supported version boundary for Plan v2 as the default distributed cloud transport.</p>
-<p>Version 0.7.111 already contained this behavior. Version 0.8.0 adds no further cloud runtime changes beyond that release.</p>
-<h2>Migration</h2>
-<ul>
-<li>Redeploy AWS Lambda, SAM, or CDK infrastructure from version 0.8.0 before upgrading SDK callers to 0.8.0.</li>
-<li>Redeploy GCP Cloud Run services and workflows from version 0.8.0 before upgrading SDK callers to 0.8.0.</li>
-<li>Omitting <code>planProtocol</code> selects Plan v2. Explicit <code>&quot;v1&quot;</code> remains available for compatibility while older work drains.</li>
-<li>Keep the producer, SDK, and cloud adapter packages on the same version during the upgrade.</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Remove two AI UI items (<a href="https://github.com/heygen-com/hyperframes/commit/ed18f1ea9aae00c26fdb712b231ac123e9170086">ed18f1ea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3317">#3317</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.111...v0.8.0">https://github.com/heygen-com/hyperframes/compare/v0.7.111...v0.8.0</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.0</h1>
-<p>Released on 2026-08-17.</p>
-<p>HyperFrames 0.8 establishes the supported version boundary for Plan v2 as the default distributed cloud transport.</p>
-<p>Version 0.7.111 already contained this behavior. Version 0.8.0 adds no further cloud runtime changes beyond that release.</p>
-<h2>Migration</h2>
-<ul>
-<li>Redeploy AWS Lambda, SAM, or CDK infrastructure from version 0.8.0 before upgrading SDK callers to 0.8.0.</li>
-<li>Redeploy GCP Cloud Run services and workflows from version 0.8.0 before upgrading SDK callers to 0.8.0.</li>
-<li>Omitting <code>planProtocol</code> selects Plan v2. Explicit <code>&quot;v1&quot;</code> remains available for compatibility while older work drains.</li>
-<li>Keep the producer, SDK, and cloud adapter packages on the same version during the upgrade.</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Remove two AI UI items (<a href="https://github.com/heygen-com/hyperframes/commit/ed18f1ea9aae00c26fdb712b231ac123e9170086">ed18f1ea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3317">#3317</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.7.111...v0.8.0">https://github.com/heygen-com/hyperframes/compare/v0.7.111...v0.8.0</a></p>
 ]]></content:encoded>
         </item>
     </channel>
