@@ -4,11 +4,237 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 19 Sep 2026 03:00:42 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 15:54:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.51]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.51</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.51</guid>
+            <pubDate>Sat, 19 Sep 2026 15:54:59 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.51</h1>
+<p>Released on 2026-09-19.</p>
+<p>Speed ramps land end to end: a rate lane in <code>data-automation</code> that renders with the same source-time mapping as the preview. A composition with no authored length now takes it from its clips, and <code>hyperframes timeline</code> prints a project&#39;s tracks and clips from the CLI.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Studio now records why a composition could not be opened for editing, so the remaining cases can be diagnosed (<a href="https://github.com/heygen-com/hyperframes/commit/ff078accda05ed2a48abad2cfd23d375d824037e">ff078accd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4161">#4161</a>).</li>
+<li><strong>Core:</strong> A composition with no authored length takes it from its clips (<a href="https://github.com/heygen-com/hyperframes/commit/fa44d7621d3aa664761731322a6cda62b1444b58">fa44d7621</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4174">#4174</a>).</li>
+<li><strong>Studio:</strong> Dock engine for a movable Studio layout, not yet wired in (<a href="https://github.com/heygen-com/hyperframes/commit/dc94692441d6aaf4ed56531ba1f88ac4c48b76b0">dc9469244</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4165">#4165</a>).</li>
+<li><strong>Core:</strong> Video, audio and image length come from one shared resolver (<a href="https://github.com/heygen-com/hyperframes/commit/09aadd86a5b87805bb4917604199e4367627d8d7">09aadd86a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4166">#4166</a>).</li>
+<li><strong>Engine:</strong> Render speed ramps with the same source-time mapping as the preview (<a href="https://github.com/heygen-com/hyperframes/commit/bdecae066a1a9a1f270b29378975b5a1830de4b0">bdecae066</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4143">#4143</a>).</li>
+<li><strong>Core:</strong> Speed ramps as a rate lane in data-automation (<a href="https://github.com/heygen-com/hyperframes/commit/7f452ad27656f14e58403069190c1856b1a91a0b">7f452ad27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4129">#4129</a>).</li>
+<li><strong>Studio:</strong> Trimming a clip shows the snap guide and the frame at the dragged edge (<a href="https://github.com/heygen-com/hyperframes/commit/86667203ce14adc398326fe75bd5af81a1dd6436">86667203c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4163">#4163</a>).</li>
+<li><strong>Studio:</strong> Move every design value into one theme file (<a href="https://github.com/heygen-com/hyperframes/commit/339dc76026b90828d29700ff13edcb3e364852c3">339dc7602</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3621">#3621</a>).</li>
+<li><strong>Studio:</strong> The Lint badge pulses while an error finding exists (<a href="https://github.com/heygen-com/hyperframes/commit/f50df37671b9a43c2e0c5cdb915c23ed5560787c">f50df3767</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4152">#4152</a>).</li>
+<li><strong>CLI:</strong> Hyperframes timeline prints a project&#39;s tracks and clips (<a href="https://github.com/heygen-com/hyperframes/commit/0a5c235173ddcc1118e68eb6d84d0b01b6895aa6">0a5c23517</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4138">#4138</a>).</li>
+<li><strong>Studio:</strong> Upgrade Studio to Tailwind CSS v4 (<a href="https://github.com/heygen-com/hyperframes/commit/68b61675ed4debabe1cbd453b9b926cf76451b5f">68b61675e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3618">#3618</a>).</li>
+<li><strong>Parsers:</strong> Detect where the gsap timeline disagrees with timing attributes (<a href="https://github.com/heygen-com/hyperframes/commit/144e8023c661377a10f7f0022d955b42c1962d70">144e8023c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4147">#4147</a>).</li>
+<li><strong>Producer:</strong> One router predicate for segmented capture, multi-worker allowed (<a href="https://github.com/heygen-com/hyperframes/commit/f78c3cb8d4f73e06dc336e0f9b4e7caf56124725">f78c3cb8d</a>).</li>
+<li><strong>Producer:</strong> Capture segments with N parallel workers off a shared queue (<a href="https://github.com/heygen-com/hyperframes/commit/4e4cfe7ee50a2d6b7fb6dfe2060a8a59a2ab72c3">4e4cfe7ee</a>).</li>
+<li><strong>Producer:</strong> Wire the segment browser-recycle cadence and retry telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/c87b4d1b47999433ce41159b9624c94543df4bc5">c87b4d1b4</a>).</li>
+<li><strong>Producer:</strong> Recycle the browser between segments and retry target loss once (<a href="https://github.com/heygen-com/hyperframes/commit/7d214e96ece9a8ec8ff3733a9fbdfecf92ef66cb">7d214e96e</a>).</li>
+<li><strong>Producer:</strong> Target-loss classifier and browser recycle cadence (<a href="https://github.com/heygen-com/hyperframes/commit/61223223d40f58772595854d29e71eff9b62aa91">61223223d</a>).</li>
+<li><strong>Render:</strong> --resume and --keep-segments for segmented capture (<a href="https://github.com/heygen-com/hyperframes/commit/a560f498cd5cff01935e2ef5f89d0ca57c5fda68">a560f498c</a>).</li>
+<li><strong>Producer:</strong> Segmented stage skips validated segments and reports completions (<a href="https://github.com/heygen-com/hyperframes/commit/8c14169efd2810324c1a90775c6278485c878729">8c14169ef</a>).</li>
+<li><strong>Producer:</strong> Segment manifest with content-addressed plan hash (<a href="https://github.com/heygen-com/hyperframes/commit/5daaae849877174d750670d09000ecc746388d0f">5daaae849</a>).</li>
+<li><strong>Producer:</strong> Route long renders to segmented capture behind HF_SEGMENTED_CAPTURE (<a href="https://github.com/heygen-com/hyperframes/commit/4b54b5d26f4e3f0600c82fbdbca0335ac5637610">4b54b5d26</a>).</li>
+<li><strong>Producer:</strong> Sequential segmented capture stage (<a href="https://github.com/heygen-com/hyperframes/commit/8391abd672809c0891600aab834167f4add9d1ea">8391abd67</a>).</li>
+<li><strong>Producer:</strong> Sdr_segmented capture plan kind (<a href="https://github.com/heygen-com/hyperframes/commit/d7398517bd013588168b312670377ee1c7e655da">d7398517b</a>).</li>
+<li><strong>Producer:</strong> Segment planner for long-form capture (<a href="https://github.com/heygen-com/hyperframes/commit/9c3cff4960baf8eb19f55fc5ca195de3d9d7f01e">9c3cff496</a>).</li>
+<li><strong>Producer:</strong> Stream multi-worker BeginFrame renders by default (<a href="https://github.com/heygen-com/hyperframes/commit/1ae359ca004f889fba243c188c79301ab38606b1">1ae359ca0</a>).</li>
+<li><strong>CLI:</strong> Emit Chrome memory, capture path and segment fields on render events (<a href="https://github.com/heygen-com/hyperframes/commit/ddbc9a8a98a3f79d2304fb3e6a2c3d85e0548fcb">ddbc9a8a9</a>).</li>
+<li><strong>Producer:</strong> Carry Chrome memory and capture path on observability and perf summary (<a href="https://github.com/heygen-com/hyperframes/commit/119dafc005f8817a79973d688b1a236bb412928b">119dafc00</a>).</li>
+<li><strong>Engine:</strong> Sample Chrome process memory per capture session (<a href="https://github.com/heygen-com/hyperframes/commit/428922162d48fb50321328c98faea921d9ce7731">428922162</a>).</li>
+<li><strong>Engine:</strong> Chrome memory sampler with live onMemorySample capture option (<a href="https://github.com/heygen-com/hyperframes/commit/53403a589608446cab82ac5b385b5002c4e24e95">53403a589</a>).</li>
+<li><strong>Engine:</strong> Zero-dependency per-pid RSS sampler (ps / tasklist) (<a href="https://github.com/heygen-com/hyperframes/commit/bc70156f0073ca08c59bc7a701971ce2e44cda93">bc70156f0</a>).</li>
+<li><strong>Lint:</strong> Flag nested structure, missing timing and caption tracks on the root composition (<a href="https://github.com/heygen-com/hyperframes/commit/b44f1f85dcf08a3a4d75171328d224c29451905f">b44f1f85d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4146">#4146</a>).</li>
+<li><strong>Producer:</strong> Stream long single-worker renders; name the streaming gate reason (<a href="https://github.com/heygen-com/hyperframes/commit/c8b21c965bd0fd0579f530468efbf183d6e6ef58">c8b21c965</a>).</li>
+<li><strong>Engine:</strong> Add streamingEncodeDurationCapEnabled config flag, default off (<a href="https://github.com/heygen-com/hyperframes/commit/68a605c8261265b270e459b78f1e46e722c919f2">68a605c82</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Timeline lists every clip of a kind in one flat list, nested ones included (<a href="https://github.com/heygen-com/hyperframes/commit/ac0d8ced2a19f2ef9700e57f5b2d2297992cb9e9">ac0d8ced2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4173">#4173</a>).</li>
+<li><strong>Runtime:</strong> A finished film rests on its last frame instead of a blank one (<a href="https://github.com/heygen-com/hyperframes/commit/f4e00ce2b52591bd901d937debb1922b321cb0d7">f4e00ce2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4158">#4158</a>).</li>
+<li><strong>Engine:</strong> Audio source-not-found names the file and shares one src resolver with lint (<a href="https://github.com/heygen-com/hyperframes/commit/3f3f3b7f10a68a1a0ce2aa54eb745b1776525930">3f3f3b7f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4172">#4172</a>).</li>
+<li><strong>CLI:</strong> Timeline reports real media durations instead of unauthored (<a href="https://github.com/heygen-com/hyperframes/commit/7597b80c950f22ab61dcc5fec4bb59e37f05fe64">7597b80c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4169">#4169</a>).</li>
+<li><strong>CLI:</strong> A failed docker render names the container&#39;s last error (<a href="https://github.com/heygen-com/hyperframes/commit/45f92e55725364003718b7e3c36e05179dcbf43a">45f92e557</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4168">#4168</a>).</li>
+<li><strong>Producer:</strong> Stop disk capture early when frames cannot fit on disk (<a href="https://github.com/heygen-com/hyperframes/commit/35a4fe1da7e6564693fbc96996eeaa96836a2ca5">35a4fe1da</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4164">#4164</a>).</li>
+<li><strong>Studio:</strong> Dropping an asset between or above timeline rows opens a new row (<a href="https://github.com/heygen-com/hyperframes/commit/c2ca2291cab668d8ffca15021e3843494c8bdd9f">c2ca2291c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4160">#4160</a>).</li>
+<li><strong>CLI:</strong> Install onnxruntime-node and google-genai on first use (<a href="https://github.com/heygen-com/hyperframes/commit/e8fdfd0d65a0fdf2fb4d574b00d66bc5025c9cfa">e8fdfd0d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4156">#4156</a>).</li>
+<li><strong>Lint:</strong> Video and audio take their length from the file, only an img needs data-duration (<a href="https://github.com/heygen-com/hyperframes/commit/17b0c268963d45487b7d3d51e622f292d6808abe">17b0c2689</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4154">#4154</a>).</li>
+<li><strong>Producer:</strong> Retry a dead browser tab once on the single-worker capture path (<a href="https://github.com/heygen-com/hyperframes/commit/73f39862f2019a13d9a36f635c808e5cba7fc57e">73f39862f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4162">#4162</a>).</li>
+<li><strong>Studio:</strong> Button children lay out with the consumer&#39;s gap (<a href="https://github.com/heygen-com/hyperframes/commit/0915affe979797430cb4add359b4a92edc0b7ce4">0915affe9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4159">#4159</a>).</li>
+<li><strong>Engine:</strong> Make urlDownloader retry tests independent of wall-clock time (<a href="https://github.com/heygen-com/hyperframes/commit/607775bb3aa4475873e2e62587ca136c15823d86">607775bb3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4155">#4155</a>).</li>
+<li><strong>Parsers:</strong> Unroll keeps tween order and label positions the parser read (<a href="https://github.com/heygen-com/hyperframes/commit/559e57d2959f72cb35724013f1517cdc3c0b65d2">559e57d29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4157">#4157</a>).</li>
+<li><strong>Producer:</strong> Concat directly on a full segmented resume and document the retry surface (<a href="https://github.com/heygen-com/hyperframes/commit/7b65cb98e7c5b5ed0579415ddb1656e58574119a">7b65cb98e</a>).</li>
+<li><strong>Producer:</strong> Record the manual interleave opt-in on the plan so its retry drops to one worker (<a href="https://github.com/heygen-com/hyperframes/commit/bcb2544e7af460b57a238fa49a3be90e9ab196e1">bcb2544e7</a>).</li>
+<li><strong>Engine:</strong> Pin the pool&#39;s worker-failure contract and survive a throwing hook (<a href="https://github.com/heygen-com/hyperframes/commit/439bdbd7744325d4c55179089ad26e0a0d939e70">439bdbd77</a>).</li>
+<li><strong>Producer:</strong> Label a non-Linux multi-worker trace as screenshot, not beginframe (<a href="https://github.com/heygen-com/hyperframes/commit/0d4560748b035a53780165f36c1ea37eed70aa9a">0d4560748</a>).</li>
+<li><strong>Producer:</strong> Retry parallel stalls and mid-stream encoder death on default routing (<a href="https://github.com/heygen-com/hyperframes/commit/b05072342a279ed45dd84906d3e7ae5824224bfa">b05072342</a>).</li>
+<li><strong>Producer:</strong> Retry an interleaved parallel-stream plan at one worker, never N contiguous (<a href="https://github.com/heygen-com/hyperframes/commit/9d72e7fa2359ff05be5791a93bb291984bf48a77">9d72e7fa2</a>).</li>
+<li><strong>Producer:</strong> Type the parallel stall, arm its watchdog after init, propagate worker death (<a href="https://github.com/heygen-com/hyperframes/commit/9acf96d036b0337e316f7f95b06c5f4121c17778">9acf96d03</a>).</li>
+<li><strong>Engine:</strong> A worker death is pool-fatal on the streaming path (<a href="https://github.com/heygen-com/hyperframes/commit/52735545164adf966e032bb1ae0e659b5dcb160d">527355451</a>).</li>
+<li><strong>Engine:</strong> Classify a broken encoder pipe as io, not authoring (<a href="https://github.com/heygen-com/hyperframes/commit/95cbf566347b93f3e61487cfdee0f645e0df0a10">95cbf5663</a>).</li>
+<li><strong>Engine:</strong> Keep ffmpeg&#39;s exit reason when it dies under a parked write (<a href="https://github.com/heygen-com/hyperframes/commit/69024e17d193dc6af714ff9b8baab225eafd033b">69024e17d</a>).</li>
+<li><strong>Producer:</strong> Call closeCaptureSession through its live binding in segmented defaults (<a href="https://github.com/heygen-com/hyperframes/commit/763ea8f97f5a6ade110d53f938ba1275cf3e5b47">763ea8f97</a>).</li>
+<li><strong>Producer,cli:</strong> Hash every byte-affecting segment input; pin the resume-flag plumbing (<a href="https://github.com/heygen-com/hyperframes/commit/e7c4eb52b9d2154f7db210905d087667e21a5928">e7c4eb52b</a>).</li>
+<li><strong>CLI:</strong> Pass the segmented resume flags from the plan into render options (<a href="https://github.com/heygen-com/hyperframes/commit/ae6aedf1cac0af6f3934ead40f746e4f48ce993a">ae6aedf1c</a>).</li>
+<li><strong>Producer:</strong> Drop the closed probe reference when segmented capture falls back to streaming (<a href="https://github.com/heygen-com/hyperframes/commit/cb289421104aabefc1e3fa3b617787cdee1f6350">cb2894211</a>).</li>
+<li><strong>Producer:</strong> Disk preflight names only causes that reach it; refresh the router field&#39;s docstring (<a href="https://github.com/heygen-com/hyperframes/commit/5f373894d097ae4140add2e6e99981188a30533f">5f373894d</a>).</li>
+<li><strong>Engine:</strong> Read Chrome process info from the browser target, not the page (<a href="https://github.com/heygen-com/hyperframes/commit/2cf8024a7c2568782ed5972f5ca4630eb65b3580">2cf8024a7</a>).</li>
+<li><strong>Engine:</strong> SampleOnce() joins an in-flight sample instead of skipping it (<a href="https://github.com/heygen-com/hyperframes/commit/a35168edddabe97860fb9164ea53ea27c9600154">a35168edd</a>).</li>
+<li><strong>Engine:</strong> Read <code>/proc/&lt;pid&gt;/status</code> for RSS on linux instead of shelling out to ps (<a href="https://github.com/heygen-com/hyperframes/commit/3cee3b94f7b8b6053b63d6c6bea383af7a6d5af3">3cee3b94f</a>).</li>
+<li><strong>Producer:</strong> Point the disk-capture preflight at routes that actually stream (<a href="https://github.com/heygen-com/hyperframes/commit/457687e77c4fd75300acbafcfb5c30e72287c218">457687e77</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> An agent adds media with the duration Studio gives a dropped file (<a href="https://github.com/heygen-com/hyperframes/commit/2f245733950db623903ec16f3e3bbea8d2bd2f95">2f2457339</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4144">#4144</a>).</li>
+<li><strong>Skills:</strong> The agent presents a tailor-made storyboard instead of a Studio board (<a href="https://github.com/heygen-com/hyperframes/commit/1a9668b6d65d3223430de570016e0028ab89a6c0">1a9668b6d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4150">#4150</a>).</li>
+<li><strong>Long Form:</strong> Point the fixture README at the ticket, not a plans path (<a href="https://github.com/heygen-com/hyperframes/commit/072750168d2373d2e06752053c810d9902725c72">072750168</a>).</li>
+<li><strong>Long Form:</strong> Fault-injection validation of the R3 retry paths (<a href="https://github.com/heygen-com/hyperframes/commit/17cf030b93467605aebd899d6a708aaf1fcec1f2">17cf030b9</a>).</li>
+<li><strong>Long Form:</strong> Record the adversarial review outcome and the retry target per routing (<a href="https://github.com/heygen-com/hyperframes/commit/ee3d6418f7e8ba42e0a3985cb9ff8efc1d5ce3cf">ee3d6418f</a>).</li>
+<li><strong>Long Form:</strong> Gate the R3 route on the PRINFRA-694 fixture, record the hardening (<a href="https://github.com/heygen-com/hyperframes/commit/77dd1da8da031ee124ffaba49bbad8e6b0f8d9bd">77dd1da8d</a>).</li>
+<li><strong>CLI:</strong> Document segmented capture and record the Phase 2d gate (<a href="https://github.com/heygen-com/hyperframes/commit/c4ccd9d6a2090739bbf4d6daa33c26bbcc87f4f9">c4ccd9d6a</a>).</li>
+<li><strong>CLI:</strong> Document the parallel-stream router and its capture-mode split (<a href="https://github.com/heygen-com/hyperframes/commit/bc2a8b5e0d6e7189f75dbcd99098c8be9526ba88">bc2a8b5e0</a>).</li>
+<li><strong>Skills:</strong> One owner doc for everyday edits and a hyperframes-studio skill (<a href="https://github.com/heygen-com/hyperframes/commit/2db126d4c8c5506cc6679a7332645fa6cfb0dde8">2db126d4c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4125">#4125</a>).</li>
+<li><strong>CLI:</strong> The streaming duration cap is off by default; document the flag (<a href="https://github.com/heygen-com/hyperframes/commit/c038b087e1d9dc03c737537a856c8acedaf4f4c0">c038b087e</a>).</li>
+<li><strong>Engine,producer:</strong> Describe the opt-in duration cap where the gate&#39;s callers read it (<a href="https://github.com/heygen-com/hyperframes/commit/172cac433d46610378e46e607951c868968a0af8">172cac433</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Blur an element by marking it, not by calling a function (<a href="https://github.com/heygen-com/hyperframes/commit/752b55278986089636aaf3b2eb113d1da2f037d7">752b55278</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4045">#4045</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Require before and after captures on studio and player PRs (<a href="https://github.com/heygen-com/hyperframes/commit/a94466256ee0d59ac33b0866b74320b8460fb93c">a94466256</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4131">#4131</a>).</li>
+<li><strong>Windows:</strong> A run superseded by a newer push no longer reports a failed aggregator (<a href="https://github.com/heygen-com/hyperframes/commit/e3bf76af6736968bdc26879695609460ae8d60be">e3bf76af6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4149">#4149</a>).</li>
+<li><strong>Producer:</strong> Drop the unused worker count from the segmented router predicate (<a href="https://github.com/heygen-com/hyperframes/commit/80d12f8c9e4e36c922d25de4bf8680bb2ef7bd63">80d12f8c9</a>).</li>
+<li><strong>Producer:</strong> Record the Phase 2c gate result (<a href="https://github.com/heygen-com/hyperframes/commit/79a4b02d78b722e47e26ae5c2d736c0176a329e1">79a4b02d7</a>).</li>
+<li><strong>Producer:</strong> Record the Phase 2a gate result and its real pass criteria (<a href="https://github.com/heygen-com/hyperframes/commit/7000e3294250003592ea2cf4aa4f15ef92b0d01a">7000e3294</a>).</li>
+<li><strong>Engine:</strong> Extract concatVideoFiles from the chunked encoder (<a href="https://github.com/heygen-com/hyperframes/commit/46d852cc9338f835be1c47b51b30562edeef6712">46d852cc9</a>).</li>
+<li><strong>Engine:</strong> Pin the unref&#39;d sampler interval via a cast-free timer seam (<a href="https://github.com/heygen-com/hyperframes/commit/7cf57fa42e558c4fbf9a9d225630d084be14f21e">7cf57fa42</a>).</li>
+<li><strong>Engine:</strong> Fix readonly array type in the pid-filter test (<a href="https://github.com/heygen-com/hyperframes/commit/1862c34399e9b7b62d7c52fc0cb4e7f8d6fc6939">1862c3439</a>).</li>
+<li><strong>Engine:</strong> Pin the pid filter, dedup and tasklist memory guard in sampleProcessRss (<a href="https://github.com/heygen-com/hyperframes/commit/645cbdce4eac2a3cc08738e9d6b30ed7afcbc8a5">645cbdce4</a>).</li>
+<li><strong>Studio:</strong> Remove the storyboard view and its Storyboard/Preview switch (<a href="https://github.com/heygen-com/hyperframes/commit/a25da94b771cad984c028f609b6c5303c43b5d3e">a25da94b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4140">#4140</a>).</li>
+<li><strong>Producer:</strong> Add long-form render fixture generator and manual gate notes (<a href="https://github.com/heygen-com/hyperframes/commit/ac946ef11bb08461e88eb5ab8390d62d89db7dff">ac946ef11</a>).</li>
+<li><strong>Producer:</strong> Reject non-boolean streamingEncodeDurationCapEnabled snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/bf26044104849b226b82bc3c36cc06d19a2314a0">bf2604410</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.50...v0.8.51">https://github.com/heygen-com/hyperframes/compare/v0.8.50...v0.8.51</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.51</h1>
+<p>Released on 2026-09-19.</p>
+<p>Speed ramps land end to end: a rate lane in <code>data-automation</code> that renders with the same source-time mapping as the preview. A composition with no authored length now takes it from its clips, and <code>hyperframes timeline</code> prints a project&#39;s tracks and clips from the CLI.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Studio now records why a composition could not be opened for editing, so the remaining cases can be diagnosed (<a href="https://github.com/heygen-com/hyperframes/commit/ff078accda05ed2a48abad2cfd23d375d824037e">ff078accd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4161">#4161</a>).</li>
+<li><strong>Core:</strong> A composition with no authored length takes it from its clips (<a href="https://github.com/heygen-com/hyperframes/commit/fa44d7621d3aa664761731322a6cda62b1444b58">fa44d7621</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4174">#4174</a>).</li>
+<li><strong>Studio:</strong> Dock engine for a movable Studio layout, not yet wired in (<a href="https://github.com/heygen-com/hyperframes/commit/dc94692441d6aaf4ed56531ba1f88ac4c48b76b0">dc9469244</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4165">#4165</a>).</li>
+<li><strong>Core:</strong> Video, audio and image length come from one shared resolver (<a href="https://github.com/heygen-com/hyperframes/commit/09aadd86a5b87805bb4917604199e4367627d8d7">09aadd86a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4166">#4166</a>).</li>
+<li><strong>Engine:</strong> Render speed ramps with the same source-time mapping as the preview (<a href="https://github.com/heygen-com/hyperframes/commit/bdecae066a1a9a1f270b29378975b5a1830de4b0">bdecae066</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4143">#4143</a>).</li>
+<li><strong>Core:</strong> Speed ramps as a rate lane in data-automation (<a href="https://github.com/heygen-com/hyperframes/commit/7f452ad27656f14e58403069190c1856b1a91a0b">7f452ad27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4129">#4129</a>).</li>
+<li><strong>Studio:</strong> Trimming a clip shows the snap guide and the frame at the dragged edge (<a href="https://github.com/heygen-com/hyperframes/commit/86667203ce14adc398326fe75bd5af81a1dd6436">86667203c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4163">#4163</a>).</li>
+<li><strong>Studio:</strong> Move every design value into one theme file (<a href="https://github.com/heygen-com/hyperframes/commit/339dc76026b90828d29700ff13edcb3e364852c3">339dc7602</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3621">#3621</a>).</li>
+<li><strong>Studio:</strong> The Lint badge pulses while an error finding exists (<a href="https://github.com/heygen-com/hyperframes/commit/f50df37671b9a43c2e0c5cdb915c23ed5560787c">f50df3767</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4152">#4152</a>).</li>
+<li><strong>CLI:</strong> Hyperframes timeline prints a project&#39;s tracks and clips (<a href="https://github.com/heygen-com/hyperframes/commit/0a5c235173ddcc1118e68eb6d84d0b01b6895aa6">0a5c23517</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4138">#4138</a>).</li>
+<li><strong>Studio:</strong> Upgrade Studio to Tailwind CSS v4 (<a href="https://github.com/heygen-com/hyperframes/commit/68b61675ed4debabe1cbd453b9b926cf76451b5f">68b61675e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3618">#3618</a>).</li>
+<li><strong>Parsers:</strong> Detect where the gsap timeline disagrees with timing attributes (<a href="https://github.com/heygen-com/hyperframes/commit/144e8023c661377a10f7f0022d955b42c1962d70">144e8023c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4147">#4147</a>).</li>
+<li><strong>Producer:</strong> One router predicate for segmented capture, multi-worker allowed (<a href="https://github.com/heygen-com/hyperframes/commit/f78c3cb8d4f73e06dc336e0f9b4e7caf56124725">f78c3cb8d</a>).</li>
+<li><strong>Producer:</strong> Capture segments with N parallel workers off a shared queue (<a href="https://github.com/heygen-com/hyperframes/commit/4e4cfe7ee50a2d6b7fb6dfe2060a8a59a2ab72c3">4e4cfe7ee</a>).</li>
+<li><strong>Producer:</strong> Wire the segment browser-recycle cadence and retry telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/c87b4d1b47999433ce41159b9624c94543df4bc5">c87b4d1b4</a>).</li>
+<li><strong>Producer:</strong> Recycle the browser between segments and retry target loss once (<a href="https://github.com/heygen-com/hyperframes/commit/7d214e96ece9a8ec8ff3733a9fbdfecf92ef66cb">7d214e96e</a>).</li>
+<li><strong>Producer:</strong> Target-loss classifier and browser recycle cadence (<a href="https://github.com/heygen-com/hyperframes/commit/61223223d40f58772595854d29e71eff9b62aa91">61223223d</a>).</li>
+<li><strong>Render:</strong> --resume and --keep-segments for segmented capture (<a href="https://github.com/heygen-com/hyperframes/commit/a560f498cd5cff01935e2ef5f89d0ca57c5fda68">a560f498c</a>).</li>
+<li><strong>Producer:</strong> Segmented stage skips validated segments and reports completions (<a href="https://github.com/heygen-com/hyperframes/commit/8c14169efd2810324c1a90775c6278485c878729">8c14169ef</a>).</li>
+<li><strong>Producer:</strong> Segment manifest with content-addressed plan hash (<a href="https://github.com/heygen-com/hyperframes/commit/5daaae849877174d750670d09000ecc746388d0f">5daaae849</a>).</li>
+<li><strong>Producer:</strong> Route long renders to segmented capture behind HF_SEGMENTED_CAPTURE (<a href="https://github.com/heygen-com/hyperframes/commit/4b54b5d26f4e3f0600c82fbdbca0335ac5637610">4b54b5d26</a>).</li>
+<li><strong>Producer:</strong> Sequential segmented capture stage (<a href="https://github.com/heygen-com/hyperframes/commit/8391abd672809c0891600aab834167f4add9d1ea">8391abd67</a>).</li>
+<li><strong>Producer:</strong> Sdr_segmented capture plan kind (<a href="https://github.com/heygen-com/hyperframes/commit/d7398517bd013588168b312670377ee1c7e655da">d7398517b</a>).</li>
+<li><strong>Producer:</strong> Segment planner for long-form capture (<a href="https://github.com/heygen-com/hyperframes/commit/9c3cff4960baf8eb19f55fc5ca195de3d9d7f01e">9c3cff496</a>).</li>
+<li><strong>Producer:</strong> Stream multi-worker BeginFrame renders by default (<a href="https://github.com/heygen-com/hyperframes/commit/1ae359ca004f889fba243c188c79301ab38606b1">1ae359ca0</a>).</li>
+<li><strong>CLI:</strong> Emit Chrome memory, capture path and segment fields on render events (<a href="https://github.com/heygen-com/hyperframes/commit/ddbc9a8a98a3f79d2304fb3e6a2c3d85e0548fcb">ddbc9a8a9</a>).</li>
+<li><strong>Producer:</strong> Carry Chrome memory and capture path on observability and perf summary (<a href="https://github.com/heygen-com/hyperframes/commit/119dafc005f8817a79973d688b1a236bb412928b">119dafc00</a>).</li>
+<li><strong>Engine:</strong> Sample Chrome process memory per capture session (<a href="https://github.com/heygen-com/hyperframes/commit/428922162d48fb50321328c98faea921d9ce7731">428922162</a>).</li>
+<li><strong>Engine:</strong> Chrome memory sampler with live onMemorySample capture option (<a href="https://github.com/heygen-com/hyperframes/commit/53403a589608446cab82ac5b385b5002c4e24e95">53403a589</a>).</li>
+<li><strong>Engine:</strong> Zero-dependency per-pid RSS sampler (ps / tasklist) (<a href="https://github.com/heygen-com/hyperframes/commit/bc70156f0073ca08c59bc7a701971ce2e44cda93">bc70156f0</a>).</li>
+<li><strong>Lint:</strong> Flag nested structure, missing timing and caption tracks on the root composition (<a href="https://github.com/heygen-com/hyperframes/commit/b44f1f85dcf08a3a4d75171328d224c29451905f">b44f1f85d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4146">#4146</a>).</li>
+<li><strong>Producer:</strong> Stream long single-worker renders; name the streaming gate reason (<a href="https://github.com/heygen-com/hyperframes/commit/c8b21c965bd0fd0579f530468efbf183d6e6ef58">c8b21c965</a>).</li>
+<li><strong>Engine:</strong> Add streamingEncodeDurationCapEnabled config flag, default off (<a href="https://github.com/heygen-com/hyperframes/commit/68a605c8261265b270e459b78f1e46e722c919f2">68a605c82</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Timeline lists every clip of a kind in one flat list, nested ones included (<a href="https://github.com/heygen-com/hyperframes/commit/ac0d8ced2a19f2ef9700e57f5b2d2297992cb9e9">ac0d8ced2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4173">#4173</a>).</li>
+<li><strong>Runtime:</strong> A finished film rests on its last frame instead of a blank one (<a href="https://github.com/heygen-com/hyperframes/commit/f4e00ce2b52591bd901d937debb1922b321cb0d7">f4e00ce2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4158">#4158</a>).</li>
+<li><strong>Engine:</strong> Audio source-not-found names the file and shares one src resolver with lint (<a href="https://github.com/heygen-com/hyperframes/commit/3f3f3b7f10a68a1a0ce2aa54eb745b1776525930">3f3f3b7f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4172">#4172</a>).</li>
+<li><strong>CLI:</strong> Timeline reports real media durations instead of unauthored (<a href="https://github.com/heygen-com/hyperframes/commit/7597b80c950f22ab61dcc5fec4bb59e37f05fe64">7597b80c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4169">#4169</a>).</li>
+<li><strong>CLI:</strong> A failed docker render names the container&#39;s last error (<a href="https://github.com/heygen-com/hyperframes/commit/45f92e55725364003718b7e3c36e05179dcbf43a">45f92e557</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4168">#4168</a>).</li>
+<li><strong>Producer:</strong> Stop disk capture early when frames cannot fit on disk (<a href="https://github.com/heygen-com/hyperframes/commit/35a4fe1da7e6564693fbc96996eeaa96836a2ca5">35a4fe1da</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4164">#4164</a>).</li>
+<li><strong>Studio:</strong> Dropping an asset between or above timeline rows opens a new row (<a href="https://github.com/heygen-com/hyperframes/commit/c2ca2291cab668d8ffca15021e3843494c8bdd9f">c2ca2291c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4160">#4160</a>).</li>
+<li><strong>CLI:</strong> Install onnxruntime-node and google-genai on first use (<a href="https://github.com/heygen-com/hyperframes/commit/e8fdfd0d65a0fdf2fb4d574b00d66bc5025c9cfa">e8fdfd0d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4156">#4156</a>).</li>
+<li><strong>Lint:</strong> Video and audio take their length from the file, only an img needs data-duration (<a href="https://github.com/heygen-com/hyperframes/commit/17b0c268963d45487b7d3d51e622f292d6808abe">17b0c2689</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4154">#4154</a>).</li>
+<li><strong>Producer:</strong> Retry a dead browser tab once on the single-worker capture path (<a href="https://github.com/heygen-com/hyperframes/commit/73f39862f2019a13d9a36f635c808e5cba7fc57e">73f39862f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4162">#4162</a>).</li>
+<li><strong>Studio:</strong> Button children lay out with the consumer&#39;s gap (<a href="https://github.com/heygen-com/hyperframes/commit/0915affe979797430cb4add359b4a92edc0b7ce4">0915affe9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4159">#4159</a>).</li>
+<li><strong>Engine:</strong> Make urlDownloader retry tests independent of wall-clock time (<a href="https://github.com/heygen-com/hyperframes/commit/607775bb3aa4475873e2e62587ca136c15823d86">607775bb3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4155">#4155</a>).</li>
+<li><strong>Parsers:</strong> Unroll keeps tween order and label positions the parser read (<a href="https://github.com/heygen-com/hyperframes/commit/559e57d2959f72cb35724013f1517cdc3c0b65d2">559e57d29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4157">#4157</a>).</li>
+<li><strong>Producer:</strong> Concat directly on a full segmented resume and document the retry surface (<a href="https://github.com/heygen-com/hyperframes/commit/7b65cb98e7c5b5ed0579415ddb1656e58574119a">7b65cb98e</a>).</li>
+<li><strong>Producer:</strong> Record the manual interleave opt-in on the plan so its retry drops to one worker (<a href="https://github.com/heygen-com/hyperframes/commit/bcb2544e7af460b57a238fa49a3be90e9ab196e1">bcb2544e7</a>).</li>
+<li><strong>Engine:</strong> Pin the pool&#39;s worker-failure contract and survive a throwing hook (<a href="https://github.com/heygen-com/hyperframes/commit/439bdbd7744325d4c55179089ad26e0a0d939e70">439bdbd77</a>).</li>
+<li><strong>Producer:</strong> Label a non-Linux multi-worker trace as screenshot, not beginframe (<a href="https://github.com/heygen-com/hyperframes/commit/0d4560748b035a53780165f36c1ea37eed70aa9a">0d4560748</a>).</li>
+<li><strong>Producer:</strong> Retry parallel stalls and mid-stream encoder death on default routing (<a href="https://github.com/heygen-com/hyperframes/commit/b05072342a279ed45dd84906d3e7ae5824224bfa">b05072342</a>).</li>
+<li><strong>Producer:</strong> Retry an interleaved parallel-stream plan at one worker, never N contiguous (<a href="https://github.com/heygen-com/hyperframes/commit/9d72e7fa2359ff05be5791a93bb291984bf48a77">9d72e7fa2</a>).</li>
+<li><strong>Producer:</strong> Type the parallel stall, arm its watchdog after init, propagate worker death (<a href="https://github.com/heygen-com/hyperframes/commit/9acf96d036b0337e316f7f95b06c5f4121c17778">9acf96d03</a>).</li>
+<li><strong>Engine:</strong> A worker death is pool-fatal on the streaming path (<a href="https://github.com/heygen-com/hyperframes/commit/52735545164adf966e032bb1ae0e659b5dcb160d">527355451</a>).</li>
+<li><strong>Engine:</strong> Classify a broken encoder pipe as io, not authoring (<a href="https://github.com/heygen-com/hyperframes/commit/95cbf566347b93f3e61487cfdee0f645e0df0a10">95cbf5663</a>).</li>
+<li><strong>Engine:</strong> Keep ffmpeg&#39;s exit reason when it dies under a parked write (<a href="https://github.com/heygen-com/hyperframes/commit/69024e17d193dc6af714ff9b8baab225eafd033b">69024e17d</a>).</li>
+<li><strong>Producer:</strong> Call closeCaptureSession through its live binding in segmented defaults (<a href="https://github.com/heygen-com/hyperframes/commit/763ea8f97f5a6ade110d53f938ba1275cf3e5b47">763ea8f97</a>).</li>
+<li><strong>Producer,cli:</strong> Hash every byte-affecting segment input; pin the resume-flag plumbing (<a href="https://github.com/heygen-com/hyperframes/commit/e7c4eb52b9d2154f7db210905d087667e21a5928">e7c4eb52b</a>).</li>
+<li><strong>CLI:</strong> Pass the segmented resume flags from the plan into render options (<a href="https://github.com/heygen-com/hyperframes/commit/ae6aedf1cac0af6f3934ead40f746e4f48ce993a">ae6aedf1c</a>).</li>
+<li><strong>Producer:</strong> Drop the closed probe reference when segmented capture falls back to streaming (<a href="https://github.com/heygen-com/hyperframes/commit/cb289421104aabefc1e3fa3b617787cdee1f6350">cb2894211</a>).</li>
+<li><strong>Producer:</strong> Disk preflight names only causes that reach it; refresh the router field&#39;s docstring (<a href="https://github.com/heygen-com/hyperframes/commit/5f373894d097ae4140add2e6e99981188a30533f">5f373894d</a>).</li>
+<li><strong>Engine:</strong> Read Chrome process info from the browser target, not the page (<a href="https://github.com/heygen-com/hyperframes/commit/2cf8024a7c2568782ed5972f5ca4630eb65b3580">2cf8024a7</a>).</li>
+<li><strong>Engine:</strong> SampleOnce() joins an in-flight sample instead of skipping it (<a href="https://github.com/heygen-com/hyperframes/commit/a35168edddabe97860fb9164ea53ea27c9600154">a35168edd</a>).</li>
+<li><strong>Engine:</strong> Read <code>/proc/&lt;pid&gt;/status</code> for RSS on linux instead of shelling out to ps (<a href="https://github.com/heygen-com/hyperframes/commit/3cee3b94f7b8b6053b63d6c6bea383af7a6d5af3">3cee3b94f</a>).</li>
+<li><strong>Producer:</strong> Point the disk-capture preflight at routes that actually stream (<a href="https://github.com/heygen-com/hyperframes/commit/457687e77c4fd75300acbafcfb5c30e72287c218">457687e77</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> An agent adds media with the duration Studio gives a dropped file (<a href="https://github.com/heygen-com/hyperframes/commit/2f245733950db623903ec16f3e3bbea8d2bd2f95">2f2457339</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4144">#4144</a>).</li>
+<li><strong>Skills:</strong> The agent presents a tailor-made storyboard instead of a Studio board (<a href="https://github.com/heygen-com/hyperframes/commit/1a9668b6d65d3223430de570016e0028ab89a6c0">1a9668b6d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4150">#4150</a>).</li>
+<li><strong>Long Form:</strong> Point the fixture README at the ticket, not a plans path (<a href="https://github.com/heygen-com/hyperframes/commit/072750168d2373d2e06752053c810d9902725c72">072750168</a>).</li>
+<li><strong>Long Form:</strong> Fault-injection validation of the R3 retry paths (<a href="https://github.com/heygen-com/hyperframes/commit/17cf030b93467605aebd899d6a708aaf1fcec1f2">17cf030b9</a>).</li>
+<li><strong>Long Form:</strong> Record the adversarial review outcome and the retry target per routing (<a href="https://github.com/heygen-com/hyperframes/commit/ee3d6418f7e8ba42e0a3985cb9ff8efc1d5ce3cf">ee3d6418f</a>).</li>
+<li><strong>Long Form:</strong> Gate the R3 route on the PRINFRA-694 fixture, record the hardening (<a href="https://github.com/heygen-com/hyperframes/commit/77dd1da8da031ee124ffaba49bbad8e6b0f8d9bd">77dd1da8d</a>).</li>
+<li><strong>CLI:</strong> Document segmented capture and record the Phase 2d gate (<a href="https://github.com/heygen-com/hyperframes/commit/c4ccd9d6a2090739bbf4d6daa33c26bbcc87f4f9">c4ccd9d6a</a>).</li>
+<li><strong>CLI:</strong> Document the parallel-stream router and its capture-mode split (<a href="https://github.com/heygen-com/hyperframes/commit/bc2a8b5e0d6e7189f75dbcd99098c8be9526ba88">bc2a8b5e0</a>).</li>
+<li><strong>Skills:</strong> One owner doc for everyday edits and a hyperframes-studio skill (<a href="https://github.com/heygen-com/hyperframes/commit/2db126d4c8c5506cc6679a7332645fa6cfb0dde8">2db126d4c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4125">#4125</a>).</li>
+<li><strong>CLI:</strong> The streaming duration cap is off by default; document the flag (<a href="https://github.com/heygen-com/hyperframes/commit/c038b087e1d9dc03c737537a856c8acedaf4f4c0">c038b087e</a>).</li>
+<li><strong>Engine,producer:</strong> Describe the opt-in duration cap where the gate&#39;s callers read it (<a href="https://github.com/heygen-com/hyperframes/commit/172cac433d46610378e46e607951c868968a0af8">172cac433</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Blur an element by marking it, not by calling a function (<a href="https://github.com/heygen-com/hyperframes/commit/752b55278986089636aaf3b2eb113d1da2f037d7">752b55278</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4045">#4045</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Require before and after captures on studio and player PRs (<a href="https://github.com/heygen-com/hyperframes/commit/a94466256ee0d59ac33b0866b74320b8460fb93c">a94466256</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4131">#4131</a>).</li>
+<li><strong>Windows:</strong> A run superseded by a newer push no longer reports a failed aggregator (<a href="https://github.com/heygen-com/hyperframes/commit/e3bf76af6736968bdc26879695609460ae8d60be">e3bf76af6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4149">#4149</a>).</li>
+<li><strong>Producer:</strong> Drop the unused worker count from the segmented router predicate (<a href="https://github.com/heygen-com/hyperframes/commit/80d12f8c9e4e36c922d25de4bf8680bb2ef7bd63">80d12f8c9</a>).</li>
+<li><strong>Producer:</strong> Record the Phase 2c gate result (<a href="https://github.com/heygen-com/hyperframes/commit/79a4b02d78b722e47e26ae5c2d736c0176a329e1">79a4b02d7</a>).</li>
+<li><strong>Producer:</strong> Record the Phase 2a gate result and its real pass criteria (<a href="https://github.com/heygen-com/hyperframes/commit/7000e3294250003592ea2cf4aa4f15ef92b0d01a">7000e3294</a>).</li>
+<li><strong>Engine:</strong> Extract concatVideoFiles from the chunked encoder (<a href="https://github.com/heygen-com/hyperframes/commit/46d852cc9338f835be1c47b51b30562edeef6712">46d852cc9</a>).</li>
+<li><strong>Engine:</strong> Pin the unref&#39;d sampler interval via a cast-free timer seam (<a href="https://github.com/heygen-com/hyperframes/commit/7cf57fa42e558c4fbf9a9d225630d084be14f21e">7cf57fa42</a>).</li>
+<li><strong>Engine:</strong> Fix readonly array type in the pid-filter test (<a href="https://github.com/heygen-com/hyperframes/commit/1862c34399e9b7b62d7c52fc0cb4e7f8d6fc6939">1862c3439</a>).</li>
+<li><strong>Engine:</strong> Pin the pid filter, dedup and tasklist memory guard in sampleProcessRss (<a href="https://github.com/heygen-com/hyperframes/commit/645cbdce4eac2a3cc08738e9d6b30ed7afcbc8a5">645cbdce4</a>).</li>
+<li><strong>Studio:</strong> Remove the storyboard view and its Storyboard/Preview switch (<a href="https://github.com/heygen-com/hyperframes/commit/a25da94b771cad984c028f609b6c5303c43b5d3e">a25da94b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4140">#4140</a>).</li>
+<li><strong>Producer:</strong> Add long-form render fixture generator and manual gate notes (<a href="https://github.com/heygen-com/hyperframes/commit/ac946ef11bb08461e88eb5ab8390d62d89db7dff">ac946ef11</a>).</li>
+<li><strong>Producer:</strong> Reject non-boolean streamingEncodeDurationCapEnabled snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/bf26044104849b226b82bc3c36cc06d19a2314a0">bf2604410</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.50...v0.8.51">https://github.com/heygen-com/hyperframes/compare/v0.8.50...v0.8.51</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.50]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.50</link>
@@ -2533,42 +2759,6 @@ Creator skills also add copyable recipes for cuts, trims, zooms, masks, transiti
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.1...v0.8.2">https://github.com/heygen-com/hyperframes/compare/v0.8.1...v0.8.2</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.1]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.1</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.1</guid>
-            <pubDate>Tue, 18 Aug 2026 01:20:24 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.1</h1>
-<p>Released on 2026-08-18.</p>
-<p>Variables you pass to <code>hyperframes add</code> now reach the file it installs, instead of being dropped without a word. Studio also asks for FFmpeg before an export starts, rather than after one fails.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Prompt to install FFmpeg before Export, not after (<a href="https://github.com/heygen-com/hyperframes/commit/5058236eda13cc31536e39bd37cf7eb4f9a99025">5058236ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3314">#3314</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Docs:</strong> Load the player from latest, not a pinned minor (<a href="https://github.com/heygen-com/hyperframes/commit/d7688f9943814b44ab20b7d4b079ab50f7ca36df">d7688f994</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3320">#3320</a>).</li>
-<li><strong>Add:</strong> Make chosen variables actually take effect, in the CLI and the preview (<a href="https://github.com/heygen-com/hyperframes/commit/ea7c48f37249aff26211913562c74e29b85e8ddb">ea7c48f37</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3316">#3316</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.0...v0.8.1">https://github.com/heygen-com/hyperframes/compare/v0.8.0...v0.8.1</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.1</h1>
-<p>Released on 2026-08-18.</p>
-<p>Variables you pass to <code>hyperframes add</code> now reach the file it installs, instead of being dropped without a word. Studio also asks for FFmpeg before an export starts, rather than after one fails.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Prompt to install FFmpeg before Export, not after (<a href="https://github.com/heygen-com/hyperframes/commit/5058236eda13cc31536e39bd37cf7eb4f9a99025">5058236ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3314">#3314</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Docs:</strong> Load the player from latest, not a pinned minor (<a href="https://github.com/heygen-com/hyperframes/commit/d7688f9943814b44ab20b7d4b079ab50f7ca36df">d7688f994</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3320">#3320</a>).</li>
-<li><strong>Add:</strong> Make chosen variables actually take effect, in the CLI and the preview (<a href="https://github.com/heygen-com/hyperframes/commit/ea7c48f37249aff26211913562c74e29b85e8ddb">ea7c48f37</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3316">#3316</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.0...v0.8.1">https://github.com/heygen-com/hyperframes/compare/v0.8.0...v0.8.1</a></p>
 ]]></content:encoded>
         </item>
     </channel>
