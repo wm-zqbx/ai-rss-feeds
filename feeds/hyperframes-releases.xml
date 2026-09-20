@@ -4,11 +4,85 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 19 Sep 2026 15:54:59 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Sep 2026 22:55:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.52]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.52</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.52</guid>
+            <pubDate>Sat, 19 Sep 2026 22:55:09 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.52</h1>
+<p>Released on 2026-09-19.</p>
+<p>Studio&#39;s interface now runs on one shared set of buttons, tabs, menus and popovers, so controls look and behave the same everywhere. Undo and redo move into the timeline toolbar, and a dead project id in the URL no longer blocks editing for the rest of the tab.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Move undo and redo into the timeline toolbar (<a href="https://github.com/heygen-com/hyperframes/commit/f9fc55218880ff62bb580d8a2340cfe4bf323282">f9fc55218</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4196">#4196</a>).</li>
+<li><strong>Studio:</strong> Host apps can place overlays on the preview and restyle its stage (<a href="https://github.com/heygen-com/hyperframes/commit/ef64323174c94b58550cb32e59a6819daf1a5e41">ef6432317</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4187">#4187</a>).</li>
+<li><strong>Studio:</strong> Header and inspector tabs on the shared primitives (<a href="https://github.com/heygen-com/hyperframes/commit/9bec64a293f77dfbbcdafa29a17616f027034f18">9bec64a29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3624">#3624</a>).</li>
+<li><strong>Studio:</strong> Shared menu, popover and value-control primitives (<a href="https://github.com/heygen-com/hyperframes/commit/3ec26b5e27d0e935c8c30ecceed73ee4ef2599d4">3ec26b5e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4191">#4191</a>).</li>
+<li><strong>Studio:</strong> Dock dividers and tabs work from the keyboard and side columns fit narrow windows (<a href="https://github.com/heygen-com/hyperframes/commit/e505dcc5c5b507c45b5010baa31b836b934dab29">e505dcc5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4186">#4186</a>).</li>
+<li><strong>Studio:</strong> Shared Button, IconButton, Tooltip and Tabs primitives (<a href="https://github.com/heygen-com/hyperframes/commit/01aa446edf6a4282a6ac1fc080a002478f91434b">01aa446ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3622">#3622</a>).</li>
+<li><strong>Studio:</strong> Host apps can import the render queue from the package (<a href="https://github.com/heygen-com/hyperframes/commit/fd020ca27cfd6a3a78524e22d69339a3dcdf1740">fd020ca27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4184">#4184</a>).</li>
+<li><strong>Scripts:</strong> Fail a PR whose After capture is a Before capture (<a href="https://github.com/heygen-com/hyperframes/commit/8d0722115646000dca99bb3657e9ec938a0f1758">8d0722115</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4177">#4177</a>).</li>
+<li><strong>CLI:</strong> Render events carry the browser&#39;s build and install-path shape (<a href="https://github.com/heygen-com/hyperframes/commit/aa05278b7815bd56cd284e9aa6fc1bec5dbb1752">aa05278b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4180">#4180</a>).</li>
+<li><strong>Studio:</strong> Fail the suite on a class that resolves to nothing (<a href="https://github.com/heygen-com/hyperframes/commit/93ff9a994d5f6f7770035a80bf3609d09f15f8c0">93ff9a994</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3623">#3623</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A stale project id in the URL no longer blocks editing for the tab (<a href="https://github.com/heygen-com/hyperframes/commit/3685b76a07283a5076bc185f5f0c19bad48d359c">3685b76a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4188">#4188</a>).</li>
+<li><strong>CLI:</strong> The contact sheet png test no longer waits on a Windows font cache build (<a href="https://github.com/heygen-com/hyperframes/commit/c610d8491cdf85d97543764fc1a783000ab3b0eb">c610d8491</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4181">#4181</a>).</li>
+<li><strong>CLI:</strong> A Studio render refuses with the browser check&#39;s own message (<a href="https://github.com/heygen-com/hyperframes/commit/2d8d44151ab6b7d47d531706f968d4fd3f07dde2">2d8d44151</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4176">#4176</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Add the seven 3D-motion pieces as installable registry blocks (<a href="https://github.com/heygen-com/hyperframes/commit/f24ff838347390796ddab771fa1ae024b5dba2bc">f24ff8383</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4056">#4056</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Preview consumers follow the live iframe from one shared owner (<a href="https://github.com/heygen-com/hyperframes/commit/b09619faa895e2317bc36c12cdaeb6e2946f8f9c">b09619faa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4182">#4182</a>).</li>
+<li><strong>Studio:</strong> One hook owns file undo and redo (<a href="https://github.com/heygen-com/hyperframes/commit/fd6049f356150075e11ff0f86fed741c2770b6b5">fd6049f35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4189">#4189</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.51...v0.8.52">https://github.com/heygen-com/hyperframes/compare/v0.8.51...v0.8.52</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.52</h1>
+<p>Released on 2026-09-19.</p>
+<p>Studio&#39;s interface now runs on one shared set of buttons, tabs, menus and popovers, so controls look and behave the same everywhere. Undo and redo move into the timeline toolbar, and a dead project id in the URL no longer blocks editing for the rest of the tab.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Move undo and redo into the timeline toolbar (<a href="https://github.com/heygen-com/hyperframes/commit/f9fc55218880ff62bb580d8a2340cfe4bf323282">f9fc55218</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4196">#4196</a>).</li>
+<li><strong>Studio:</strong> Host apps can place overlays on the preview and restyle its stage (<a href="https://github.com/heygen-com/hyperframes/commit/ef64323174c94b58550cb32e59a6819daf1a5e41">ef6432317</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4187">#4187</a>).</li>
+<li><strong>Studio:</strong> Header and inspector tabs on the shared primitives (<a href="https://github.com/heygen-com/hyperframes/commit/9bec64a293f77dfbbcdafa29a17616f027034f18">9bec64a29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3624">#3624</a>).</li>
+<li><strong>Studio:</strong> Shared menu, popover and value-control primitives (<a href="https://github.com/heygen-com/hyperframes/commit/3ec26b5e27d0e935c8c30ecceed73ee4ef2599d4">3ec26b5e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4191">#4191</a>).</li>
+<li><strong>Studio:</strong> Dock dividers and tabs work from the keyboard and side columns fit narrow windows (<a href="https://github.com/heygen-com/hyperframes/commit/e505dcc5c5b507c45b5010baa31b836b934dab29">e505dcc5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4186">#4186</a>).</li>
+<li><strong>Studio:</strong> Shared Button, IconButton, Tooltip and Tabs primitives (<a href="https://github.com/heygen-com/hyperframes/commit/01aa446edf6a4282a6ac1fc080a002478f91434b">01aa446ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3622">#3622</a>).</li>
+<li><strong>Studio:</strong> Host apps can import the render queue from the package (<a href="https://github.com/heygen-com/hyperframes/commit/fd020ca27cfd6a3a78524e22d69339a3dcdf1740">fd020ca27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4184">#4184</a>).</li>
+<li><strong>Scripts:</strong> Fail a PR whose After capture is a Before capture (<a href="https://github.com/heygen-com/hyperframes/commit/8d0722115646000dca99bb3657e9ec938a0f1758">8d0722115</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4177">#4177</a>).</li>
+<li><strong>CLI:</strong> Render events carry the browser&#39;s build and install-path shape (<a href="https://github.com/heygen-com/hyperframes/commit/aa05278b7815bd56cd284e9aa6fc1bec5dbb1752">aa05278b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4180">#4180</a>).</li>
+<li><strong>Studio:</strong> Fail the suite on a class that resolves to nothing (<a href="https://github.com/heygen-com/hyperframes/commit/93ff9a994d5f6f7770035a80bf3609d09f15f8c0">93ff9a994</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3623">#3623</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A stale project id in the URL no longer blocks editing for the tab (<a href="https://github.com/heygen-com/hyperframes/commit/3685b76a07283a5076bc185f5f0c19bad48d359c">3685b76a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4188">#4188</a>).</li>
+<li><strong>CLI:</strong> The contact sheet png test no longer waits on a Windows font cache build (<a href="https://github.com/heygen-com/hyperframes/commit/c610d8491cdf85d97543764fc1a783000ab3b0eb">c610d8491</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4181">#4181</a>).</li>
+<li><strong>CLI:</strong> A Studio render refuses with the browser check&#39;s own message (<a href="https://github.com/heygen-com/hyperframes/commit/2d8d44151ab6b7d47d531706f968d4fd3f07dde2">2d8d44151</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4176">#4176</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Add the seven 3D-motion pieces as installable registry blocks (<a href="https://github.com/heygen-com/hyperframes/commit/f24ff838347390796ddab771fa1ae024b5dba2bc">f24ff8383</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4056">#4056</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Preview consumers follow the live iframe from one shared owner (<a href="https://github.com/heygen-com/hyperframes/commit/b09619faa895e2317bc36c12cdaeb6e2946f8f9c">b09619faa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4182">#4182</a>).</li>
+<li><strong>Studio:</strong> One hook owns file undo and redo (<a href="https://github.com/heygen-com/hyperframes/commit/fd6049f356150075e11ff0f86fed741c2770b6b5">fd6049f35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4189">#4189</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.51...v0.8.52">https://github.com/heygen-com/hyperframes/compare/v0.8.51...v0.8.52</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.51]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.51</link>
@@ -2685,42 +2759,6 @@ Previews keep running in the background in every launch mode, and pressing Delet
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.3...v0.8.4">https://github.com/heygen-com/hyperframes/compare/v0.8.3...v0.8.4</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.3]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.3</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.3</guid>
-            <pubDate>Tue, 18 Aug 2026 15:20:52 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.3</h1>
-<p>Released on 2026-08-18.</p>
-<p>Studio now keeps voices natural at every preview speed and applies authored track gain and user volume exactly once.
-Creator skills also add copyable recipes for cuts, trims, zooms, masks, transitions, and placed audio.</p>
-<h2>Features</h2>
-<ul>
-<li>Make creator media edits render-safe (<a href="https://github.com/heygen-com/hyperframes/commit/afafca4b9670cad60afd66475207ef6a016a759b">afafca4b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3322">#3322</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li>Separate Studio author and user audio gain (<a href="https://github.com/heygen-com/hyperframes/commit/995c9e346e5b1bfff015db3979896ec576cff12c">995c9e346</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3328">#3328</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.2...v0.8.3">https://github.com/heygen-com/hyperframes/compare/v0.8.2...v0.8.3</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.3</h1>
-<p>Released on 2026-08-18.</p>
-<p>Studio now keeps voices natural at every preview speed and applies authored track gain and user volume exactly once.
-Creator skills also add copyable recipes for cuts, trims, zooms, masks, transitions, and placed audio.</p>
-<h2>Features</h2>
-<ul>
-<li>Make creator media edits render-safe (<a href="https://github.com/heygen-com/hyperframes/commit/afafca4b9670cad60afd66475207ef6a016a759b">afafca4b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3322">#3322</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li>Separate Studio author and user audio gain (<a href="https://github.com/heygen-com/hyperframes/commit/995c9e346e5b1bfff015db3979896ec576cff12c">995c9e346</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3328">#3328</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.2...v0.8.3">https://github.com/heygen-com/hyperframes/compare/v0.8.2...v0.8.3</a></p>
 ]]></content:encoded>
         </item>
     </channel>
