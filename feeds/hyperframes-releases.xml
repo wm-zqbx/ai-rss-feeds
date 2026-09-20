@@ -4,11 +4,63 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 20 Sep 2026 15:02:16 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Sep 2026 21:17:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.57]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.57</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.57</guid>
+            <pubDate>Sun, 20 Sep 2026 21:17:35 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.57</h1>
+<p>Released on 2026-09-20.</p>
+<p>Studio now says which project it is actually serving when a link points at one it cannot open, instead of failing quietly. Links to a project that was renamed or deleted are caught as you navigate, and the address bar is corrected.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Say which project this Studio is serving when a read 404s (<a href="https://github.com/heygen-com/hyperframes/commit/f476e78cc83d7fe4b5c28a769157e59eeba80812">f476e78cc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4228">#4228</a>).</li>
+<li><strong>Studio:</strong> A per-page tab id, and the hash-validation verdict (<a href="https://github.com/heygen-com/hyperframes/commit/7abbe49638ce2f210ffb812d171146ff312dbb4b">7abbe4963</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4224">#4224</a>).</li>
+<li><strong>Studio:</strong> Compose preview overlay guides (<a href="https://github.com/heygen-com/hyperframes/commit/243ecd1d1080e96d38c17e1189688aba64885312">243ecd1d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4220">#4220</a>).</li>
+<li><strong>Studio:</strong> Edit a clip&#39;s speed ramp with a rate lane and presets (<a href="https://github.com/heygen-com/hyperframes/commit/0c158be165068cbbce55d0613750e7474d3c486a">0c158be16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4153">#4153</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Validate the hash on hashchange, and stop pushing dead ids (<a href="https://github.com/heygen-com/hyperframes/commit/74af8b4279e01d2250cd0625c1ce65214e54e0e9">74af8b427</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4225">#4225</a>).</li>
+<li><strong>Studio:</strong> Swap the preview via a shadow iframe instead of blanking on reload (<a href="https://github.com/heygen-com/hyperframes/commit/85a1a8f7897b58ff20dbd1b90b33997c062fb7cd">85a1a8f78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4207">#4207</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Compose timeline parts through TimelineProvider (<a href="https://github.com/heygen-com/hyperframes/commit/ab6cbb383e9072a121714bd594cfba6a5a5ecbe7">ab6cbb383</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4222">#4222</a>).</li>
+<li><strong>Studio:</strong> Move playback adapter resolution into its own module (<a href="https://github.com/heygen-com/hyperframes/commit/fa699b7d9bad220217cd59faee00b22e9a6c1691">fa699b7d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4199">#4199</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.56...v0.8.57">https://github.com/heygen-com/hyperframes/compare/v0.8.56...v0.8.57</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.57</h1>
+<p>Released on 2026-09-20.</p>
+<p>Studio now says which project it is actually serving when a link points at one it cannot open, instead of failing quietly. Links to a project that was renamed or deleted are caught as you navigate, and the address bar is corrected.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Say which project this Studio is serving when a read 404s (<a href="https://github.com/heygen-com/hyperframes/commit/f476e78cc83d7fe4b5c28a769157e59eeba80812">f476e78cc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4228">#4228</a>).</li>
+<li><strong>Studio:</strong> A per-page tab id, and the hash-validation verdict (<a href="https://github.com/heygen-com/hyperframes/commit/7abbe49638ce2f210ffb812d171146ff312dbb4b">7abbe4963</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4224">#4224</a>).</li>
+<li><strong>Studio:</strong> Compose preview overlay guides (<a href="https://github.com/heygen-com/hyperframes/commit/243ecd1d1080e96d38c17e1189688aba64885312">243ecd1d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4220">#4220</a>).</li>
+<li><strong>Studio:</strong> Edit a clip&#39;s speed ramp with a rate lane and presets (<a href="https://github.com/heygen-com/hyperframes/commit/0c158be165068cbbce55d0613750e7474d3c486a">0c158be16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4153">#4153</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Validate the hash on hashchange, and stop pushing dead ids (<a href="https://github.com/heygen-com/hyperframes/commit/74af8b4279e01d2250cd0625c1ce65214e54e0e9">74af8b427</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4225">#4225</a>).</li>
+<li><strong>Studio:</strong> Swap the preview via a shadow iframe instead of blanking on reload (<a href="https://github.com/heygen-com/hyperframes/commit/85a1a8f7897b58ff20dbd1b90b33997c062fb7cd">85a1a8f78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4207">#4207</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Compose timeline parts through TimelineProvider (<a href="https://github.com/heygen-com/hyperframes/commit/ab6cbb383e9072a121714bd594cfba6a5a5ecbe7">ab6cbb383</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4222">#4222</a>).</li>
+<li><strong>Studio:</strong> Move playback adapter resolution into its own module (<a href="https://github.com/heygen-com/hyperframes/commit/fa699b7d9bad220217cd59faee00b22e9a6c1691">fa699b7d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4199">#4199</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.56...v0.8.57">https://github.com/heygen-com/hyperframes/compare/v0.8.56...v0.8.57</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.56]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.56</link>
@@ -2557,60 +2609,6 @@ preset, and attribute (<a href="https://github.com/heygen-com/hyperframes/commit
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.8...v0.8.9">https://github.com/heygen-com/hyperframes/compare/v0.8.8...v0.8.9</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.8]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.8</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.8</guid>
-            <pubDate>Sat, 22 Aug 2026 02:08:30 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.8</h1>
-<p>Released on 2026-08-22.</p>
-<p>The audio effects rack, track groups, mute and solo are on for everyone.
-They shipped across twelve releases behind a flag at zero percent, so this is
-the first release where you can reach them.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Audio:</strong> Open the audio FX, group and mute features to everyone (<a href="https://github.com/heygen-com/hyperframes/commit/0e9a4f371d4cff4e853640ea87caf76814af5278">0e9a4f371</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3401">#3401</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Stop a caught post-render throw reporting a valid render as failed (<a href="https://github.com/heygen-com/hyperframes/commit/ea95b7d44e6de95a514931026d6c01be7f9c01a0">ea95b7d44</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3409">#3409</a>).</li>
-<li><strong>Lint:</strong> Surface unloadable media variable defaults, stop reading data-var-src ids as paths (<a href="https://github.com/heygen-com/hyperframes/commit/41edbfb2ce5a8beb1c9d9de2a3eb09195a369a4b">41edbfb2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3406">#3406</a>).</li>
-<li><strong>Studio:</strong> Invalidate the preview signature off the watcher that sees project writes (<a href="https://github.com/heygen-com/hyperframes/commit/5842dd8df4c7fca3ed895e4bc047299c9274ed14">5842dd8df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3364">#3364</a>).</li>
-<li><strong>Lint:</strong> Stop duplicate_composition_id firing on repeated sub-composition mounts (<a href="https://github.com/heygen-com/hyperframes/commit/09a5ef70925f8a67276df0166ff1e1a6eca5db6f">09a5ef709</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3404">#3404</a>).</li>
-<li><strong>Producer:</strong> Anchor local-font embedding to its url() occurrence (<a href="https://github.com/heygen-com/hyperframes/commit/e1191edba6d8ec44e3d79624cc92ef32fe99805d">e1191edba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3405">#3405</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> Give the audio grouping mixes room, and make a stall say why (<a href="https://github.com/heygen-com/hyperframes/commit/9c73e64a07635fe02922ec2f0f3bc0b37ef6483d">9c73e64a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3408">#3408</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.7...v0.8.8">https://github.com/heygen-com/hyperframes/compare/v0.8.7...v0.8.8</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.8</h1>
-<p>Released on 2026-08-22.</p>
-<p>The audio effects rack, track groups, mute and solo are on for everyone.
-They shipped across twelve releases behind a flag at zero percent, so this is
-the first release where you can reach them.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Audio:</strong> Open the audio FX, group and mute features to everyone (<a href="https://github.com/heygen-com/hyperframes/commit/0e9a4f371d4cff4e853640ea87caf76814af5278">0e9a4f371</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3401">#3401</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Stop a caught post-render throw reporting a valid render as failed (<a href="https://github.com/heygen-com/hyperframes/commit/ea95b7d44e6de95a514931026d6c01be7f9c01a0">ea95b7d44</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3409">#3409</a>).</li>
-<li><strong>Lint:</strong> Surface unloadable media variable defaults, stop reading data-var-src ids as paths (<a href="https://github.com/heygen-com/hyperframes/commit/41edbfb2ce5a8beb1c9d9de2a3eb09195a369a4b">41edbfb2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3406">#3406</a>).</li>
-<li><strong>Studio:</strong> Invalidate the preview signature off the watcher that sees project writes (<a href="https://github.com/heygen-com/hyperframes/commit/5842dd8df4c7fca3ed895e4bc047299c9274ed14">5842dd8df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3364">#3364</a>).</li>
-<li><strong>Lint:</strong> Stop duplicate_composition_id firing on repeated sub-composition mounts (<a href="https://github.com/heygen-com/hyperframes/commit/09a5ef70925f8a67276df0166ff1e1a6eca5db6f">09a5ef709</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3404">#3404</a>).</li>
-<li><strong>Producer:</strong> Anchor local-font embedding to its url() occurrence (<a href="https://github.com/heygen-com/hyperframes/commit/e1191edba6d8ec44e3d79624cc92ef32fe99805d">e1191edba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3405">#3405</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> Give the audio grouping mixes room, and make a stall say why (<a href="https://github.com/heygen-com/hyperframes/commit/9c73e64a07635fe02922ec2f0f3bc0b37ef6483d">9c73e64a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3408">#3408</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.7...v0.8.8">https://github.com/heygen-com/hyperframes/compare/v0.8.7...v0.8.8</a></p>
 ]]></content:encoded>
         </item>
     </channel>
