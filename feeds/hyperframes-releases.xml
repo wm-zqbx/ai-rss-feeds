@@ -4,11 +4,77 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 19 Sep 2026 22:55:09 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Sep 2026 04:27:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.54]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.54</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.54</guid>
+            <pubDate>Sun, 20 Sep 2026 04:27:07 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.54</h1>
+<p>Released on 2026-09-20.</p>
+<p>Studio can now edit timelines when hosted outside the main editor shell. Host apps can reuse this editing flow without wrapping it in the full editor.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export timeline editing for a host outside EditorShell (<a href="https://github.com/heygen-com/hyperframes/commit/5262062e7be20b26a7c1a4ce4be2ec3831f151d6">5262062e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4201">#4201</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.53...v0.8.54">https://github.com/heygen-com/hyperframes/compare/v0.8.53...v0.8.54</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.54</h1>
+<p>Released on 2026-09-20.</p>
+<p>Studio can now edit timelines when hosted outside the main editor shell. Host apps can reuse this editing flow without wrapping it in the full editor.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export timeline editing for a host outside EditorShell (<a href="https://github.com/heygen-com/hyperframes/commit/5262062e7be20b26a7c1a4ce4be2ec3831f151d6">5262062e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4201">#4201</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.53...v0.8.54">https://github.com/heygen-com/hyperframes/compare/v0.8.53...v0.8.54</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.53]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.53</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.53</guid>
+            <pubDate>Sun, 20 Sep 2026 03:34:41 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.53</h1>
+<p>Released on 2026-09-20.</p>
+<p>Every Studio panel now lives on the dockable layout, and the arrangement is remembered between sessions. Host apps can import the header logo, button sizes and a stable stylesheet. Studio also stops reporting cancelled thumbnail loads as errors, which had been burying real problems in telemetry.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export the header logo, button sizes and a stable styles.css subpath (<a href="https://github.com/heygen-com/hyperframes/commit/2d84937e1f28ee60dd7dc23bdedfd324793e10d0">2d84937e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4197">#4197</a>).</li>
+<li><strong>Studio:</strong> All panels move onto the dockable, persisted layout (<a href="https://github.com/heygen-com/hyperframes/commit/98e8372a0aaaefd498a558db96ed2d2feac3a275">98e8372a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4192">#4192</a>).</li>
+<li><strong>Studio:</strong> The Renders panel on the shared primitives (<a href="https://github.com/heygen-com/hyperframes/commit/12d8c4244011632d1459ac95ed8de56e6d72e071">12d8c4244</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3772">#3772</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Stop counting extension-leaked AbortError rejections as errors (<a href="https://github.com/heygen-com/hyperframes/commit/83624d193e6b5924a974be16bdd383987a20f2f5">83624d193</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4209">#4209</a>).</li>
+<li><strong>Release:</strong> A stale local tag can no longer silently widen the changelog (<a href="https://github.com/heygen-com/hyperframes/commit/90e67ff5a8e0a488720827a27120f1a990ed0664">90e67ff5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4208">#4208</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.52...v0.8.53">https://github.com/heygen-com/hyperframes/compare/v0.8.52...v0.8.53</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.53</h1>
+<p>Released on 2026-09-20.</p>
+<p>Every Studio panel now lives on the dockable layout, and the arrangement is remembered between sessions. Host apps can import the header logo, button sizes and a stable stylesheet. Studio also stops reporting cancelled thumbnail loads as errors, which had been burying real problems in telemetry.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export the header logo, button sizes and a stable styles.css subpath (<a href="https://github.com/heygen-com/hyperframes/commit/2d84937e1f28ee60dd7dc23bdedfd324793e10d0">2d84937e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4197">#4197</a>).</li>
+<li><strong>Studio:</strong> All panels move onto the dockable, persisted layout (<a href="https://github.com/heygen-com/hyperframes/commit/98e8372a0aaaefd498a558db96ed2d2feac3a275">98e8372a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4192">#4192</a>).</li>
+<li><strong>Studio:</strong> The Renders panel on the shared primitives (<a href="https://github.com/heygen-com/hyperframes/commit/12d8c4244011632d1459ac95ed8de56e6d72e071">12d8c4244</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3772">#3772</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Stop counting extension-leaked AbortError rejections as errors (<a href="https://github.com/heygen-com/hyperframes/commit/83624d193e6b5924a974be16bdd383987a20f2f5">83624d193</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4209">#4209</a>).</li>
+<li><strong>Release:</strong> A stale local tag can no longer silently widen the changelog (<a href="https://github.com/heygen-com/hyperframes/commit/90e67ff5a8e0a488720827a27120f1a990ed0664">90e67ff5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4208">#4208</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.52...v0.8.53">https://github.com/heygen-com/hyperframes/compare/v0.8.52...v0.8.53</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.52]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.52</link>
@@ -2639,126 +2705,6 @@ Studio keeps nested timelines open, skill updates require confirmation, and a br
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.5...v0.8.6">https://github.com/heygen-com/hyperframes/compare/v0.8.5...v0.8.6</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.5]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.5</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.5</guid>
-            <pubDate>Thu, 20 Aug 2026 23:07:50 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.5</h1>
-<p>Released on 2026-08-20.</p>
-<p>Lint is quieter and more accurate. Seven rules that fired on correct compositions are gone, so you waste fewer edits chasing errors that were never real.
-The clip example in the docs also stopped failing its own linter.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Telemetry:</strong> Measure which lint rules fire, cost, and fail to converge (<a href="https://github.com/heygen-com/hyperframes/commit/f822200fb8f437b73985f43837c195f5e7312289">f822200fb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3367">#3367</a>).</li>
-<li><strong>Skills:</strong> Anchored-connector rule + source-traceable visuals doctrine (<a href="https://github.com/heygen-com/hyperframes/commit/a6a9e2f89e509424a64a1dcd976aabfd54b60d02">a6a9e2f89e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3354">#3354</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Capture storyboard tiles at review density (<a href="https://github.com/heygen-com/hyperframes/commit/b4d5abd7b2cdc419906153ca75d99bd813adf614">b4d5abd7b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3371">#3371</a>).</li>
-<li><strong>Lint:</strong> Stop erroring on the documented canonical clip block (<a href="https://github.com/heygen-com/hyperframes/commit/2be5a03b800e0b17ee36e99167c99edc383065ce">2be5a03b80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3374">#3374</a>).</li>
-<li><strong>Skills:</strong> Resolve the blueprint id from a qualified <code>blueprint:</code> field (<a href="https://github.com/heygen-com/hyperframes/commit/d1482b012926d7118fa39e53ef8974328e84cc9e">d1482b0129</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3337">#3337</a>).</li>
-<li><strong>Skills:</strong> Stage SVGs that capture wrote into capture/assets/svgs/ (<a href="https://github.com/heygen-com/hyperframes/commit/c66c9a4c76ff0681cadc8007a8e02744bbcdab10">c66c9a4c76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3336">#3336</a>).</li>
-<li><strong>Core:</strong> Keep authored gain above unity off el.volume in the sandbox bridge (<a href="https://github.com/heygen-com/hyperframes/commit/9140c0eaa1b332de7ca061af040611f5b1c64419">9140c0eaa1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3349">#3349</a>).</li>
-<li><strong>Producer:</strong> Seek once per step when discovering video visibility (<a href="https://github.com/heygen-com/hyperframes/commit/d09145faabfd3078c29969fbcf293067d50275ac">d09145faab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3233">#3233</a>).</li>
-<li><strong>Studio:</strong> Capture the storyboard frame hero at full resolution (<a href="https://github.com/heygen-com/hyperframes/commit/f0e637375f2c43b22192f1ad8c3aef1b5d010e8a">f0e637375f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3338">#3338</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Lint:</strong> Drop seven rules that fire on correct compositions (<a href="https://github.com/heygen-com/hyperframes/commit/83ceaeb902f07ffc4bed976ca3bdd501eb60aa55">83ceaeb902</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3366">#3366</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.4...v0.8.5">https://github.com/heygen-com/hyperframes/compare/v0.8.4...v0.8.5</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.5</h1>
-<p>Released on 2026-08-20.</p>
-<p>Lint is quieter and more accurate. Seven rules that fired on correct compositions are gone, so you waste fewer edits chasing errors that were never real.
-The clip example in the docs also stopped failing its own linter.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Telemetry:</strong> Measure which lint rules fire, cost, and fail to converge (<a href="https://github.com/heygen-com/hyperframes/commit/f822200fb8f437b73985f43837c195f5e7312289">f822200fb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3367">#3367</a>).</li>
-<li><strong>Skills:</strong> Anchored-connector rule + source-traceable visuals doctrine (<a href="https://github.com/heygen-com/hyperframes/commit/a6a9e2f89e509424a64a1dcd976aabfd54b60d02">a6a9e2f89e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3354">#3354</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Capture storyboard tiles at review density (<a href="https://github.com/heygen-com/hyperframes/commit/b4d5abd7b2cdc419906153ca75d99bd813adf614">b4d5abd7b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3371">#3371</a>).</li>
-<li><strong>Lint:</strong> Stop erroring on the documented canonical clip block (<a href="https://github.com/heygen-com/hyperframes/commit/2be5a03b800e0b17ee36e99167c99edc383065ce">2be5a03b80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3374">#3374</a>).</li>
-<li><strong>Skills:</strong> Resolve the blueprint id from a qualified <code>blueprint:</code> field (<a href="https://github.com/heygen-com/hyperframes/commit/d1482b012926d7118fa39e53ef8974328e84cc9e">d1482b0129</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3337">#3337</a>).</li>
-<li><strong>Skills:</strong> Stage SVGs that capture wrote into capture/assets/svgs/ (<a href="https://github.com/heygen-com/hyperframes/commit/c66c9a4c76ff0681cadc8007a8e02744bbcdab10">c66c9a4c76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3336">#3336</a>).</li>
-<li><strong>Core:</strong> Keep authored gain above unity off el.volume in the sandbox bridge (<a href="https://github.com/heygen-com/hyperframes/commit/9140c0eaa1b332de7ca061af040611f5b1c64419">9140c0eaa1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3349">#3349</a>).</li>
-<li><strong>Producer:</strong> Seek once per step when discovering video visibility (<a href="https://github.com/heygen-com/hyperframes/commit/d09145faabfd3078c29969fbcf293067d50275ac">d09145faab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3233">#3233</a>).</li>
-<li><strong>Studio:</strong> Capture the storyboard frame hero at full resolution (<a href="https://github.com/heygen-com/hyperframes/commit/f0e637375f2c43b22192f1ad8c3aef1b5d010e8a">f0e637375f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3338">#3338</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Lint:</strong> Drop seven rules that fire on correct compositions (<a href="https://github.com/heygen-com/hyperframes/commit/83ceaeb902f07ffc4bed976ca3bdd501eb60aa55">83ceaeb902</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3366">#3366</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.4...v0.8.5">https://github.com/heygen-com/hyperframes/compare/v0.8.4...v0.8.5</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.4]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.4</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.4</guid>
-            <pubDate>Wed, 19 Aug 2026 23:32:38 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.4</h1>
-<p>Released on 2026-08-19.</p>
-<p>A new <code>normalize-audio</code> command matches one clip&#39;s loudness to another, and the volume fader now tells the truth about the gain it writes.
-Previews keep running in the background in every launch mode, and pressing Delete in Studio now removes the whole selection.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Add normalize-audio to match one clip&#39;s loudness to another (<a href="https://github.com/heygen-com/hyperframes/commit/b3c43e24804e632ef2437e2ebd6789094ced2569">b3c43e248</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3306">#3306</a>).</li>
-<li><strong>CLI:</strong> Run a managed background preview in every launch mode (<a href="https://github.com/heygen-com/hyperframes/commit/9da422fd7f75b0d5fe7f7f2defd889239bb82fe6">9da422fd7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3310">#3310</a>).</li>
-<li><strong>CLI:</strong> Give every preview lifecycle op one JSON document (<a href="https://github.com/heygen-com/hyperframes/commit/0e3c5f6bef4760d863309e997619bb1db99f5530">0e3c5f6be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3309">#3309</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Zip the publish archive to the same bytes every time (<a href="https://github.com/heygen-com/hyperframes/commit/d464f60b9600485cd97c537338e25b7f77f9ca90">d464f60b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3358">#3358</a>).</li>
-<li><strong>Studio:</strong> Make the volume fader tell the truth about the gain it writes (<a href="https://github.com/heygen-com/hyperframes/commit/228eabd43fa6164dc1296e4615bae33dcca98696">228eabd43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3305">#3305</a>).</li>
-<li><strong>Producer:</strong> Give inlined media a document-unique render id (<a href="https://github.com/heygen-com/hyperframes/commit/634df5a5af7aad3e529035d62d324aca1512df35">634df5a5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3342">#3342</a>).</li>
-<li><strong>Studio:</strong> Make Delete remove the whole canvas selection (<a href="https://github.com/heygen-com/hyperframes/commit/ec0b23f3cec98ea9bb4b61d54ad18bb48ee1c721">ec0b23f3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3339">#3339</a>).</li>
-<li><strong>Audio:</strong> Raise the authoring gain ceiling and carry it through the probes (<a href="https://github.com/heygen-com/hyperframes/commit/e282ff15cc8b8ef519d514c7741e6b27cfd92aae">e282ff15c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3333">#3333</a>).</li>
-<li><strong>CLI:</strong> Keep a live preview&#39;s ownership record and stop past a bad one (<a href="https://github.com/heygen-com/hyperframes/commit/74149e249ac5a2e7a88d15f241d12ec58db01283">74149e249</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3308">#3308</a>).</li>
-<li><strong>Producer:</strong> Clamp embedded video/audio windows to the scene (<a href="https://github.com/heygen-com/hyperframes/commit/b31dde35b13a3c23c677ba3b648d01a7d735f5be">b31dde35b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3332">#3332</a>).</li>
-<li><strong>CLI:</strong> Signal only processes the OS says own the port (<a href="https://github.com/heygen-com/hyperframes/commit/c1c70f44bd9d43e22e80449d1b084d6e4d8ae034">c1c70f44b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3307">#3307</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Bound the ffmpeg apt fetch so a stalled mirror costs a retry, not the job (<a href="https://github.com/heygen-com/hyperframes/commit/7e96e60fe228548fe4813aa5e9917bbde9a50feb">7e96e60fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3356">#3356</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.3...v0.8.4">https://github.com/heygen-com/hyperframes/compare/v0.8.3...v0.8.4</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.4</h1>
-<p>Released on 2026-08-19.</p>
-<p>A new <code>normalize-audio</code> command matches one clip&#39;s loudness to another, and the volume fader now tells the truth about the gain it writes.
-Previews keep running in the background in every launch mode, and pressing Delete in Studio now removes the whole selection.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Add normalize-audio to match one clip&#39;s loudness to another (<a href="https://github.com/heygen-com/hyperframes/commit/b3c43e24804e632ef2437e2ebd6789094ced2569">b3c43e248</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3306">#3306</a>).</li>
-<li><strong>CLI:</strong> Run a managed background preview in every launch mode (<a href="https://github.com/heygen-com/hyperframes/commit/9da422fd7f75b0d5fe7f7f2defd889239bb82fe6">9da422fd7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3310">#3310</a>).</li>
-<li><strong>CLI:</strong> Give every preview lifecycle op one JSON document (<a href="https://github.com/heygen-com/hyperframes/commit/0e3c5f6bef4760d863309e997619bb1db99f5530">0e3c5f6be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3309">#3309</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Zip the publish archive to the same bytes every time (<a href="https://github.com/heygen-com/hyperframes/commit/d464f60b9600485cd97c537338e25b7f77f9ca90">d464f60b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3358">#3358</a>).</li>
-<li><strong>Studio:</strong> Make the volume fader tell the truth about the gain it writes (<a href="https://github.com/heygen-com/hyperframes/commit/228eabd43fa6164dc1296e4615bae33dcca98696">228eabd43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3305">#3305</a>).</li>
-<li><strong>Producer:</strong> Give inlined media a document-unique render id (<a href="https://github.com/heygen-com/hyperframes/commit/634df5a5af7aad3e529035d62d324aca1512df35">634df5a5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3342">#3342</a>).</li>
-<li><strong>Studio:</strong> Make Delete remove the whole canvas selection (<a href="https://github.com/heygen-com/hyperframes/commit/ec0b23f3cec98ea9bb4b61d54ad18bb48ee1c721">ec0b23f3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3339">#3339</a>).</li>
-<li><strong>Audio:</strong> Raise the authoring gain ceiling and carry it through the probes (<a href="https://github.com/heygen-com/hyperframes/commit/e282ff15cc8b8ef519d514c7741e6b27cfd92aae">e282ff15c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3333">#3333</a>).</li>
-<li><strong>CLI:</strong> Keep a live preview&#39;s ownership record and stop past a bad one (<a href="https://github.com/heygen-com/hyperframes/commit/74149e249ac5a2e7a88d15f241d12ec58db01283">74149e249</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3308">#3308</a>).</li>
-<li><strong>Producer:</strong> Clamp embedded video/audio windows to the scene (<a href="https://github.com/heygen-com/hyperframes/commit/b31dde35b13a3c23c677ba3b648d01a7d735f5be">b31dde35b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3332">#3332</a>).</li>
-<li><strong>CLI:</strong> Signal only processes the OS says own the port (<a href="https://github.com/heygen-com/hyperframes/commit/c1c70f44bd9d43e22e80449d1b084d6e4d8ae034">c1c70f44b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3307">#3307</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Bound the ffmpeg apt fetch so a stalled mirror costs a retry, not the job (<a href="https://github.com/heygen-com/hyperframes/commit/7e96e60fe228548fe4813aa5e9917bbde9a50feb">7e96e60fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3356">#3356</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.3...v0.8.4">https://github.com/heygen-com/hyperframes/compare/v0.8.3...v0.8.4</a></p>
 ]]></content:encoded>
         </item>
     </channel>
