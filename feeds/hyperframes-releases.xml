@@ -4,11 +4,65 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 21 Sep 2026 23:14:58 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 07:50:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.60]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.60</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.60</guid>
+            <pubDate>Tue, 22 Sep 2026 07:50:15 GMT</pubDate>
+            <description><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.8.60 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>feat(studio): audio meter faders for groups and master by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4203">https://github.com/heygen-com/hyperframes/pull/4203</a></li>
+<li>fix(studio): timeline colours all resolve from tokens by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4249">https://github.com/heygen-com/hyperframes/pull/4249</a></li>
+<li>feat(studio): draw the audio meters toggle as a level meter by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4254">https://github.com/heygen-com/hyperframes/pull/4254</a></li>
+<li>fix(cli): require non-empty feedback repro commands by @heygengenesis[bot] in <a href="https://github.com/heygen-com/hyperframes/pull/4263">https://github.com/heygen-com/hyperframes/pull/4263</a></li>
+<li>fix(studio): keep timeline selection ring inside clip by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4251">https://github.com/heygen-com/hyperframes/pull/4251</a></li>
+<li>feat(studio): draw icons that say what the feature does by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4262">https://github.com/heygen-com/hyperframes/pull/4262</a></li>
+<li>ci: ratchet test reachability across workflow filters by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4253">https://github.com/heygen-com/hyperframes/pull/4253</a></li>
+<li>ci(studio): ratchet colour contrast of timeline tokens by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4257">https://github.com/heygen-com/hyperframes/pull/4257</a></li>
+<li>ci: run media-use tests when media-use changes by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4259">https://github.com/heygen-com/hyperframes/pull/4259</a></li>
+<li>feat(registry): week in merges leaderboard block by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4264">https://github.com/heygen-com/hyperframes/pull/4264</a></li>
+<li>fix(engine): read extensible PCM and float WAV headers by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4267">https://github.com/heygen-com/hyperframes/pull/4267</a></li>
+<li>ci: select the remaining orphan tests in their owning runners by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4260">https://github.com/heygen-com/hyperframes/pull/4260</a></li>
+<li>feat(studio): menus and popovers paint instantly by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4268">https://github.com/heygen-com/hyperframes/pull/4268</a></li>
+<li>ci: require zero orphan tests without a baseline by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4271">https://github.com/heygen-com/hyperframes/pull/4271</a></li>
+<li>feat(studio): timeline clips take the designed material by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4270">https://github.com/heygen-com/hyperframes/pull/4270</a></li>
+<li>chore: release v0.8.60 by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4279">https://github.com/heygen-com/hyperframes/pull/4279</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.8.59...v0.8.60">https://github.com/heygen-com/hyperframes/compare/v0.8.59...v0.8.60</a></p>
+]]></description>
+            <content:encoded><![CDATA[<!-- Release notes generated using configuration in .github/release.yml at v0.8.60 -->
+
+<h2>What&#39;s Changed</h2>
+<h3>Other Changes</h3>
+<ul>
+<li>feat(studio): audio meter faders for groups and master by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4203">https://github.com/heygen-com/hyperframes/pull/4203</a></li>
+<li>fix(studio): timeline colours all resolve from tokens by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4249">https://github.com/heygen-com/hyperframes/pull/4249</a></li>
+<li>feat(studio): draw the audio meters toggle as a level meter by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4254">https://github.com/heygen-com/hyperframes/pull/4254</a></li>
+<li>fix(cli): require non-empty feedback repro commands by @heygengenesis[bot] in <a href="https://github.com/heygen-com/hyperframes/pull/4263">https://github.com/heygen-com/hyperframes/pull/4263</a></li>
+<li>fix(studio): keep timeline selection ring inside clip by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4251">https://github.com/heygen-com/hyperframes/pull/4251</a></li>
+<li>feat(studio): draw icons that say what the feature does by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4262">https://github.com/heygen-com/hyperframes/pull/4262</a></li>
+<li>ci: ratchet test reachability across workflow filters by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4253">https://github.com/heygen-com/hyperframes/pull/4253</a></li>
+<li>ci(studio): ratchet colour contrast of timeline tokens by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4257">https://github.com/heygen-com/hyperframes/pull/4257</a></li>
+<li>ci: run media-use tests when media-use changes by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4259">https://github.com/heygen-com/hyperframes/pull/4259</a></li>
+<li>feat(registry): week in merges leaderboard block by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4264">https://github.com/heygen-com/hyperframes/pull/4264</a></li>
+<li>fix(engine): read extensible PCM and float WAV headers by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4267">https://github.com/heygen-com/hyperframes/pull/4267</a></li>
+<li>ci: select the remaining orphan tests in their owning runners by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4260">https://github.com/heygen-com/hyperframes/pull/4260</a></li>
+<li>feat(studio): menus and popovers paint instantly by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4268">https://github.com/heygen-com/hyperframes/pull/4268</a></li>
+<li>ci: require zero orphan tests without a baseline by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4271">https://github.com/heygen-com/hyperframes/pull/4271</a></li>
+<li>feat(studio): timeline clips take the designed material by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4270">https://github.com/heygen-com/hyperframes/pull/4270</a></li>
+<li>chore: release v0.8.60 by @miguel-heygen in <a href="https://github.com/heygen-com/hyperframes/pull/4279">https://github.com/heygen-com/hyperframes/pull/4279</a></li>
+</ul>
+<p><strong>Full Changelog</strong>: <a href="https://github.com/heygen-com/hyperframes/compare/v0.8.59...v0.8.60">https://github.com/heygen-com/hyperframes/compare/v0.8.59...v0.8.60</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.59]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.59</link>
@@ -2571,42 +2625,6 @@ Repeated failures are grouped, and write tracking now works in more secure brows
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.11...v0.8.12">https://github.com/heygen-com/hyperframes/compare/v0.8.11...v0.8.12</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.11]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.11</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.11</guid>
-            <pubDate>Sun, 23 Aug 2026 18:53:40 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.11</h1>
-<p>Released on 2026-08-23.</p>
-<p>Caption-heavy transparent renders can now reuse unchanged frames without missing mounted clip boundaries. Studio&#39;s grouping dialog also stays within the window on short screens.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Keep static-frame dedup active across dense caption changes while preserving mounted clip boundaries and safe verification fallbacks (<a href="https://github.com/heygen-com/hyperframes/commit/65b2299db284ece3232de26ed7afbe0360e097bd">65b2299db</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3438">#3438</a>).</li>
-<li><strong>Studio:</strong> Stop the grouping dialog opening off the bottom of the window (<a href="https://github.com/heygen-com/hyperframes/commit/dd0626a55a0d0f24cae1b00bd2c95c0ebfa7a573">dd0626a55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3421">#3421</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Sdk:</strong> Render-faithfulness test for serialize() bake contract (WS-F) (<a href="https://github.com/heygen-com/hyperframes/commit/f11b60854a3ab1490bee8aef14086c8b245a3376">f11b60854</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1575">#1575</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.10...v0.8.11">https://github.com/heygen-com/hyperframes/compare/v0.8.10...v0.8.11</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.11</h1>
-<p>Released on 2026-08-23.</p>
-<p>Caption-heavy transparent renders can now reuse unchanged frames without missing mounted clip boundaries. Studio&#39;s grouping dialog also stays within the window on short screens.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Keep static-frame dedup active across dense caption changes while preserving mounted clip boundaries and safe verification fallbacks (<a href="https://github.com/heygen-com/hyperframes/commit/65b2299db284ece3232de26ed7afbe0360e097bd">65b2299db</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3438">#3438</a>).</li>
-<li><strong>Studio:</strong> Stop the grouping dialog opening off the bottom of the window (<a href="https://github.com/heygen-com/hyperframes/commit/dd0626a55a0d0f24cae1b00bd2c95c0ebfa7a573">dd0626a55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3421">#3421</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Sdk:</strong> Render-faithfulness test for serialize() bake contract (WS-F) (<a href="https://github.com/heygen-com/hyperframes/commit/f11b60854a3ab1490bee8aef14086c8b245a3376">f11b60854</a>, <a href="https://github.com/heygen-com/hyperframes/pull/1575">#1575</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.10...v0.8.11">https://github.com/heygen-com/hyperframes/compare/v0.8.10...v0.8.11</a></p>
 ]]></content:encoded>
         </item>
     </channel>
