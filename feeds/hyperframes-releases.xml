@@ -4,11 +4,45 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 22 Sep 2026 15:47:33 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 20:17:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.62]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.62</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.62</guid>
+            <pubDate>Tue, 22 Sep 2026 20:17:36 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.62</h1>
+<p>Released on 2026-09-22.</p>
+<p>Studio no longer drops an edit&#39;s preview while its tab is in the background, and the catalog gains a text match cut.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Don&#39;t fail a shadow reload while the tab is hidden (<a href="https://github.com/heygen-com/hyperframes/commit/16959deeac55c65a730d18b3a4ef7c366b0e0223">16959deea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4292">#4292</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Text-match-cut (<a href="https://github.com/heygen-com/hyperframes/commit/0945de83c7f51ba0c20c7c0a56421f066a378ee8">0945de83c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4288">#4288</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.61...v0.8.62">https://github.com/heygen-com/hyperframes/compare/v0.8.61...v0.8.62</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.62</h1>
+<p>Released on 2026-09-22.</p>
+<p>Studio no longer drops an edit&#39;s preview while its tab is in the background, and the catalog gains a text match cut.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Don&#39;t fail a shadow reload while the tab is hidden (<a href="https://github.com/heygen-com/hyperframes/commit/16959deeac55c65a730d18b3a4ef7c366b0e0223">16959deea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4292">#4292</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Text-match-cut (<a href="https://github.com/heygen-com/hyperframes/commit/0945de83c7f51ba0c20c7c0a56421f066a378ee8">0945de83c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4288">#4288</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.61...v0.8.62">https://github.com/heygen-com/hyperframes/compare/v0.8.61...v0.8.62</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.61]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.61</link>
@@ -2577,54 +2611,6 @@ Repeated failures are grouped, and write tracking now works in more secure brows
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14">https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.13]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.13</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.13</guid>
-            <pubDate>Mon, 24 Aug 2026 20:13:03 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.13</h1>
-<p>Released on 2026-08-24.</p>
-<p>Automation is easier to shape in Studio: drag a segment to move both endpoints, and click lanes to reveal their controls. Audio bus selection now reliably clears clip selection, while CLI and skill fixes keep validation scoped and project previews attached.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Drag between automation points to move both endpoints together. Segments thicken on hover and preserve their shape within lane bounds (<a href="https://github.com/heygen-com/hyperframes/commit/7caf4b887192d90e53fe08460b1e79554b8fe37e">7caf4b887</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3465">#3465</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keep audio bus selection authoritative, even when an earlier clip selection resolves late. Group automation labels now reveal the exact rack control (<a href="https://github.com/heygen-com/hyperframes/commit/7caf4b887192d90e53fe08460b1e79554b8fe37e">7caf4b887</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3465">#3465</a>).</li>
-<li><strong>Skills:</strong> Keep seam-gate project previews attached, preventing false early-exit failures and leaked preview servers (<a href="https://github.com/heygen-com/hyperframes/commit/ac00560d7d9778b7e7a1f29701b66a83e39248af">ac00560d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3463">#3463</a>).</li>
-<li><strong>CLI:</strong> Restrict overlap waivers to marked text so parent markers cannot hide descendant collisions or caption-zone intrusions (<a href="https://github.com/heygen-com/hyperframes/commit/e5a5e6b151aaf0dd489456c2681da6d664983de4">e5a5e6b15</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3464">#3464</a>).</li>
-<li><strong>Skills:</strong> Avoid duplicate Pi skill discovery by skipping per-agent mirrors when the agent already reads the universal skill store (<a href="https://github.com/heygen-com/hyperframes/commit/95e1ac9f041ded5cd5c2a034de1dbd16c499bd04">95e1ac9f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3325">#3325</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Changelog:</strong> Weekly digest 2026-08-17–2026-08-24 (<a href="https://github.com/heygen-com/hyperframes/commit/21dc4aed0cef3cdaf328cb3f84a8d8029bf6d6d6">21dc4aed0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3462">#3462</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.12...v0.8.13">https://github.com/heygen-com/hyperframes/compare/v0.8.12...v0.8.13</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.13</h1>
-<p>Released on 2026-08-24.</p>
-<p>Automation is easier to shape in Studio: drag a segment to move both endpoints, and click lanes to reveal their controls. Audio bus selection now reliably clears clip selection, while CLI and skill fixes keep validation scoped and project previews attached.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Drag between automation points to move both endpoints together. Segments thicken on hover and preserve their shape within lane bounds (<a href="https://github.com/heygen-com/hyperframes/commit/7caf4b887192d90e53fe08460b1e79554b8fe37e">7caf4b887</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3465">#3465</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keep audio bus selection authoritative, even when an earlier clip selection resolves late. Group automation labels now reveal the exact rack control (<a href="https://github.com/heygen-com/hyperframes/commit/7caf4b887192d90e53fe08460b1e79554b8fe37e">7caf4b887</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3465">#3465</a>).</li>
-<li><strong>Skills:</strong> Keep seam-gate project previews attached, preventing false early-exit failures and leaked preview servers (<a href="https://github.com/heygen-com/hyperframes/commit/ac00560d7d9778b7e7a1f29701b66a83e39248af">ac00560d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3463">#3463</a>).</li>
-<li><strong>CLI:</strong> Restrict overlap waivers to marked text so parent markers cannot hide descendant collisions or caption-zone intrusions (<a href="https://github.com/heygen-com/hyperframes/commit/e5a5e6b151aaf0dd489456c2681da6d664983de4">e5a5e6b15</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3464">#3464</a>).</li>
-<li><strong>Skills:</strong> Avoid duplicate Pi skill discovery by skipping per-agent mirrors when the agent already reads the universal skill store (<a href="https://github.com/heygen-com/hyperframes/commit/95e1ac9f041ded5cd5c2a034de1dbd16c499bd04">95e1ac9f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3325">#3325</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Changelog:</strong> Weekly digest 2026-08-17–2026-08-24 (<a href="https://github.com/heygen-com/hyperframes/commit/21dc4aed0cef3cdaf328cb3f84a8d8029bf6d6d6">21dc4aed0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3462">#3462</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.12...v0.8.13">https://github.com/heygen-com/hyperframes/compare/v0.8.12...v0.8.13</a></p>
 ]]></content:encoded>
         </item>
     </channel>
