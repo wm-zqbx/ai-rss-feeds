@@ -4,11 +4,73 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 22 Sep 2026 07:50:15 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Sep 2026 15:47:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.61]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.61</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.61</guid>
+            <pubDate>Tue, 22 Sep 2026 15:47:33 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.61</h1>
+<p>Released on 2026-09-22.</p>
+<p>Studio&#39;s transition seams pick up a soft blur and a label, audio pills show real peaks, and video filmstrips render at their true size. Thumbnails load from Chrome&#39;s own cache, served files write atomically, and low-use catalog items are gone.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Transition seams blur and carry a badge (<a href="https://github.com/heygen-com/hyperframes/commit/e5a03707272936777abbe3d08e4097fec4937fd2">e5a037072</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4280">#4280</a>).</li>
+<li><strong>Studio:</strong> Audio pills show real peaks and loudness (<a href="https://github.com/heygen-com/hyperframes/commit/94609daf445bb956888872af5faa8d6b635d40e2">94609daf4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4282">#4282</a>).</li>
+<li><strong>Studio:</strong> Render geometry-sized video filmstrips (<a href="https://github.com/heygen-com/hyperframes/commit/5ca2e78383a1db3ed632a2eb5db9233db125afb3">5ca2e7838</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4234">#4234</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Prefer Puppeteer&#39;s cached Chrome for thumbnails (<a href="https://github.com/heygen-com/hyperframes/commit/189bead8cbe2096af9a49ed43234a722dbd9221a">189bead8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4272">#4272</a>).</li>
+<li><strong>Studio Server:</strong> Write served files atomically (<a href="https://github.com/heygen-com/hyperframes/commit/9f19d9d32521ff3375e1c0bce11e9c234933d253">9f19d9d32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4285">#4285</a>).</li>
+<li><strong>Studio:</strong> Cutover gate classification, SSE cross-project bleed, benign races (<a href="https://github.com/heygen-com/hyperframes/commit/24c3e197ef075e9d53fb30a8dcb308fcb79e71b5">24c3e197e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4269">#4269</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Remove low-use catalog items and variant tails (<a href="https://github.com/heygen-com/hyperframes/commit/05d09a7452a5b099e527a7119fd1227b56376c4e">05d09a745</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4274">#4274</a>).</li>
+<li><strong>Registry:</strong> Examples show the most-installed blocks (<a href="https://github.com/heygen-com/hyperframes/commit/53153d4a5470913586633738855a23caa8e0ca5f">53153d4a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4284">#4284</a>).</li>
+<li><strong>Registry:</strong> Colorama-wipe (<a href="https://github.com/heygen-com/hyperframes/commit/01734fae3c41b1f0c62779afece54133b1892f03">01734fae3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4277">#4277</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Shard the Test job by package group (<a href="https://github.com/heygen-com/hyperframes/commit/658d9afa30a7d09516f8abea89fb9376d16f2709">658d9afa3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4286">#4286</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.60...v0.8.61">https://github.com/heygen-com/hyperframes/compare/v0.8.60...v0.8.61</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.61</h1>
+<p>Released on 2026-09-22.</p>
+<p>Studio&#39;s transition seams pick up a soft blur and a label, audio pills show real peaks, and video filmstrips render at their true size. Thumbnails load from Chrome&#39;s own cache, served files write atomically, and low-use catalog items are gone.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Transition seams blur and carry a badge (<a href="https://github.com/heygen-com/hyperframes/commit/e5a03707272936777abbe3d08e4097fec4937fd2">e5a037072</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4280">#4280</a>).</li>
+<li><strong>Studio:</strong> Audio pills show real peaks and loudness (<a href="https://github.com/heygen-com/hyperframes/commit/94609daf445bb956888872af5faa8d6b635d40e2">94609daf4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4282">#4282</a>).</li>
+<li><strong>Studio:</strong> Render geometry-sized video filmstrips (<a href="https://github.com/heygen-com/hyperframes/commit/5ca2e78383a1db3ed632a2eb5db9233db125afb3">5ca2e7838</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4234">#4234</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Prefer Puppeteer&#39;s cached Chrome for thumbnails (<a href="https://github.com/heygen-com/hyperframes/commit/189bead8cbe2096af9a49ed43234a722dbd9221a">189bead8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4272">#4272</a>).</li>
+<li><strong>Studio Server:</strong> Write served files atomically (<a href="https://github.com/heygen-com/hyperframes/commit/9f19d9d32521ff3375e1c0bce11e9c234933d253">9f19d9d32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4285">#4285</a>).</li>
+<li><strong>Studio:</strong> Cutover gate classification, SSE cross-project bleed, benign races (<a href="https://github.com/heygen-com/hyperframes/commit/24c3e197ef075e9d53fb30a8dcb308fcb79e71b5">24c3e197e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4269">#4269</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Remove low-use catalog items and variant tails (<a href="https://github.com/heygen-com/hyperframes/commit/05d09a7452a5b099e527a7119fd1227b56376c4e">05d09a745</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4274">#4274</a>).</li>
+<li><strong>Registry:</strong> Examples show the most-installed blocks (<a href="https://github.com/heygen-com/hyperframes/commit/53153d4a5470913586633738855a23caa8e0ca5f">53153d4a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4284">#4284</a>).</li>
+<li><strong>Registry:</strong> Colorama-wipe (<a href="https://github.com/heygen-com/hyperframes/commit/01734fae3c41b1f0c62779afece54133b1892f03">01734fae3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4277">#4277</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Shard the Test job by package group (<a href="https://github.com/heygen-com/hyperframes/commit/658d9afa30a7d09516f8abea89fb9376d16f2709">658d9afa3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4286">#4286</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.60...v0.8.61">https://github.com/heygen-com/hyperframes/compare/v0.8.60...v0.8.61</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.60]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.60</link>
@@ -2563,68 +2625,6 @@ Repeated failures are grouped, and write tracking now works in more secure brows
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.12...v0.8.13">https://github.com/heygen-com/hyperframes/compare/v0.8.12...v0.8.13</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.12]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.12</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.12</guid>
-            <pubDate>Mon, 24 Aug 2026 02:59:01 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.12</h1>
-<p>Released on 2026-08-24.</p>
-<p>Grouped audio now stays consistent from Studio preview through export, with safer edits, carve analysis, and validation. This release also removes the unfinished solo and group meter controls.</p>
-<h2>Breaking Changes</h2>
-<ul>
-<li><strong>Studio:</strong> Remove the session-only “Hear only this” control and live group meter. Existing compositions need no migration because neither wrote project data (<a href="https://github.com/heygen-com/hyperframes/commit/05affaae2175a6dde0e2eafa5e702b67863d721c">05affaae2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3454">#3454</a>).</li>
-<li><strong>Core:</strong> Remove <code>window.__hf.setAudioSolo</code>. Custom Studio integrations must stop calling this preview bridge (<a href="https://github.com/heygen-com/hyperframes/commit/05affaae2175a6dde0e2eafa5e702b67863d721c">05affaae2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3454">#3454</a>).</li>
-</ul>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> Report invalid group timing, misplaced carve settings, and membership problems without rejecting valid cross-file groups (<a href="https://github.com/heygen-com/hyperframes/commit/54091b5015aa0d45ca61275e75567701daf6e2b2">54091b501</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3447">#3447</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core, Engine:</strong> Keep group identity, mute state, gain, automation, and FX routing consistent across inlined previews and FFmpeg exports (<a href="https://github.com/heygen-com/hyperframes/pull/3444">#3444</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3445">#3445</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3446">#3446</a>).</li>
-<li><strong>Engine:</strong> Preserve bus headroom and clean temporary files when grouped mixes fail. Render errors now retain structured context (<a href="https://github.com/heygen-com/hyperframes/commit/1aec3b4a09ea99e35b8d082b329fd3152d088e78">1aec3b4a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3446">#3446</a>).</li>
-<li><strong>Studio:</strong> Apply group creation and edits as one transaction across source files, live DOM state, undo, and expanded sub-compositions (<a href="https://github.com/heygen-com/hyperframes/pull/3448">#3448</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3449">#3449</a>).</li>
-<li><strong>Studio:</strong> Keep preview hydration, selection, reveal requests, group state, and property-panel controls synchronized through HMR and remounts (<a href="https://github.com/heygen-com/hyperframes/pull/3450">#3450</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3453">#3453</a>).</li>
-<li><strong>Studio:</strong> Prevent self-carve, reciprocal carve, and duplicate analysis. Repeated FX reveal requests now reopen the intended control (<a href="https://github.com/heygen-com/hyperframes/commit/f575bdadcbc9461df038a9fa84092ba22da9b18a">f575bdadc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3452">#3452</a>).</li>
-<li><strong>Studio:</strong> Align group rows, track headers, and automation lanes. Audition starts where selected audio is actually playing (<a href="https://github.com/heygen-com/hyperframes/commit/4ea018a4a7ccdfee4e77538c336c37d366876779">4ea018a4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3451">#3451</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Audio:</strong> Document submix buses, group attributes, routing rules, and carve guardrails in the HyperFrames skills and contributor guidance (<a href="https://github.com/heygen-com/hyperframes/commit/2685c8f2231e39da31871f25b2e4609551a78c76">2685c8f22</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3455">#3455</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.11...v0.8.12">https://github.com/heygen-com/hyperframes/compare/v0.8.11...v0.8.12</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.12</h1>
-<p>Released on 2026-08-24.</p>
-<p>Grouped audio now stays consistent from Studio preview through export, with safer edits, carve analysis, and validation. This release also removes the unfinished solo and group meter controls.</p>
-<h2>Breaking Changes</h2>
-<ul>
-<li><strong>Studio:</strong> Remove the session-only “Hear only this” control and live group meter. Existing compositions need no migration because neither wrote project data (<a href="https://github.com/heygen-com/hyperframes/commit/05affaae2175a6dde0e2eafa5e702b67863d721c">05affaae2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3454">#3454</a>).</li>
-<li><strong>Core:</strong> Remove <code>window.__hf.setAudioSolo</code>. Custom Studio integrations must stop calling this preview bridge (<a href="https://github.com/heygen-com/hyperframes/commit/05affaae2175a6dde0e2eafa5e702b67863d721c">05affaae2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3454">#3454</a>).</li>
-</ul>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> Report invalid group timing, misplaced carve settings, and membership problems without rejecting valid cross-file groups (<a href="https://github.com/heygen-com/hyperframes/commit/54091b5015aa0d45ca61275e75567701daf6e2b2">54091b501</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3447">#3447</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core, Engine:</strong> Keep group identity, mute state, gain, automation, and FX routing consistent across inlined previews and FFmpeg exports (<a href="https://github.com/heygen-com/hyperframes/pull/3444">#3444</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3445">#3445</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3446">#3446</a>).</li>
-<li><strong>Engine:</strong> Preserve bus headroom and clean temporary files when grouped mixes fail. Render errors now retain structured context (<a href="https://github.com/heygen-com/hyperframes/commit/1aec3b4a09ea99e35b8d082b329fd3152d088e78">1aec3b4a0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3446">#3446</a>).</li>
-<li><strong>Studio:</strong> Apply group creation and edits as one transaction across source files, live DOM state, undo, and expanded sub-compositions (<a href="https://github.com/heygen-com/hyperframes/pull/3448">#3448</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3449">#3449</a>).</li>
-<li><strong>Studio:</strong> Keep preview hydration, selection, reveal requests, group state, and property-panel controls synchronized through HMR and remounts (<a href="https://github.com/heygen-com/hyperframes/pull/3450">#3450</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3453">#3453</a>).</li>
-<li><strong>Studio:</strong> Prevent self-carve, reciprocal carve, and duplicate analysis. Repeated FX reveal requests now reopen the intended control (<a href="https://github.com/heygen-com/hyperframes/commit/f575bdadcbc9461df038a9fa84092ba22da9b18a">f575bdadc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3452">#3452</a>).</li>
-<li><strong>Studio:</strong> Align group rows, track headers, and automation lanes. Audition starts where selected audio is actually playing (<a href="https://github.com/heygen-com/hyperframes/commit/4ea018a4a7ccdfee4e77538c336c37d366876779">4ea018a4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3451">#3451</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Audio:</strong> Document submix buses, group attributes, routing rules, and carve guardrails in the HyperFrames skills and contributor guidance (<a href="https://github.com/heygen-com/hyperframes/commit/2685c8f2231e39da31871f25b2e4609551a78c76">2685c8f22</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3455">#3455</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.11...v0.8.12">https://github.com/heygen-com/hyperframes/compare/v0.8.11...v0.8.12</a></p>
 ]]></content:encoded>
         </item>
     </channel>
