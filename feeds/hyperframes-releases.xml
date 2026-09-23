@@ -4,11 +4,77 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 23 Sep 2026 17:35:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 21:20:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.68]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.68</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.68</guid>
+            <pubDate>Wed, 23 Sep 2026 21:20:58 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.68</h1>
+<p>Released on 2026-09-23.</p>
+<p>Lint findings now point to the offending JavaScript token, CSS declaration or supported GSAP call in the original source file, including subcompositions. Positions survive HTML comment removal and template wrappers. Ambiguous aggregate findings remain file-level.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> Use client-side Acorn parsing and original-source mappings for exact JS, CSS and supported GSAP positions. External stylesheets retain their own filenames (<a href="https://github.com/heygen-com/hyperframes/pull/4360">#4360</a>).</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Media-use:</strong> Resolve brand logos from a pinned theSVG catalog, with GitHub avatar and favicon fallbacks. Harden SVG sanitization for downloaded logos and Figma imports (<a href="https://github.com/heygen-com/hyperframes/pull/4291">#4291</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.67...v0.8.68">https://github.com/heygen-com/hyperframes/compare/v0.8.67...v0.8.68</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.68</h1>
+<p>Released on 2026-09-23.</p>
+<p>Lint findings now point to the offending JavaScript token, CSS declaration or supported GSAP call in the original source file, including subcompositions. Positions survive HTML comment removal and template wrappers. Ambiguous aggregate findings remain file-level.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> Use client-side Acorn parsing and original-source mappings for exact JS, CSS and supported GSAP positions. External stylesheets retain their own filenames (<a href="https://github.com/heygen-com/hyperframes/pull/4360">#4360</a>).</li>
+</ul>
+<h2>Improvements</h2>
+<ul>
+<li><strong>Media-use:</strong> Resolve brand logos from a pinned theSVG catalog, with GitHub avatar and favicon fallbacks. Harden SVG sanitization for downloaded logos and Figma imports (<a href="https://github.com/heygen-com/hyperframes/pull/4291">#4291</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.67...v0.8.68">https://github.com/heygen-com/hyperframes/compare/v0.8.67...v0.8.68</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.67]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.67</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.67</guid>
+            <pubDate>Wed, 23 Sep 2026 20:18:39 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.67</h1>
+<p>Released on 2026-09-23.</p>
+<p>Lint findings now include one-based source line and column locations when they can be identified unambiguously. CLI output shows <code>file:line:column</code>, and JSON includes <code>line</code> and <code>column</code>.</p>
+<h2>Changes</h2>
+<ul>
+<li>Add source locations to lint findings (<a href="https://github.com/heygen-com/hyperframes/pull/4353">#4353</a>).</li>
+<li>Keep live reload working after atomic saves on Linux (<a href="https://github.com/heygen-com/hyperframes/pull/4346">#4346</a>).</li>
+<li>Update Studio panel tabs (<a href="https://github.com/heygen-com/hyperframes/pull/4266">#4266</a>).</li>
+<li>Scope catalog dispatch and fail closed on detection errors (<a href="https://github.com/heygen-com/hyperframes/pull/4347">#4347</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.66...v0.8.67">https://github.com/heygen-com/hyperframes/compare/v0.8.66...v0.8.67</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.67</h1>
+<p>Released on 2026-09-23.</p>
+<p>Lint findings now include one-based source line and column locations when they can be identified unambiguously. CLI output shows <code>file:line:column</code>, and JSON includes <code>line</code> and <code>column</code>.</p>
+<h2>Changes</h2>
+<ul>
+<li>Add source locations to lint findings (<a href="https://github.com/heygen-com/hyperframes/pull/4353">#4353</a>).</li>
+<li>Keep live reload working after atomic saves on Linux (<a href="https://github.com/heygen-com/hyperframes/pull/4346">#4346</a>).</li>
+<li>Update Studio panel tabs (<a href="https://github.com/heygen-com/hyperframes/pull/4266">#4266</a>).</li>
+<li>Scope catalog dispatch and fail closed on detection errors (<a href="https://github.com/heygen-com/hyperframes/pull/4347">#4347</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.66...v0.8.67">https://github.com/heygen-com/hyperframes/compare/v0.8.66...v0.8.67</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.66]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.66</link>
@@ -2555,66 +2621,6 @@ Repeated failures are grouped, and write tracking now works in more secure brows
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.19...v0.8.20">https://github.com/heygen-com/hyperframes/compare/v0.8.19...v0.8.20</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.19]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.19</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.19</guid>
-            <pubDate>Sat, 29 Aug 2026 18:02:59 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.19</h1>
-<p>Released on 2026-08-29.</p>
-<p>Export in Studio now renders the composition you have selected, not the project&#39;s root file. Multi-part projects can finally be exported without dropping to the CLI.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Export the composition the user has selected (<a href="https://github.com/heygen-com/hyperframes/commit/b71f45981c376d3b2b4ae8e07a0837f63a091a8c">b71f45981</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3550">#3550</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.18...v0.8.19">https://github.com/heygen-com/hyperframes/compare/v0.8.18...v0.8.19</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.19</h1>
-<p>Released on 2026-08-29.</p>
-<p>Export in Studio now renders the composition you have selected, not the project&#39;s root file. Multi-part projects can finally be exported without dropping to the CLI.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Export the composition the user has selected (<a href="https://github.com/heygen-com/hyperframes/commit/b71f45981c376d3b2b4ae8e07a0837f63a091a8c">b71f45981</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3550">#3550</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.18...v0.8.19">https://github.com/heygen-com/hyperframes/compare/v0.8.18...v0.8.19</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.18]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.18</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.18</guid>
-            <pubDate>Sat, 29 Aug 2026 16:02:38 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.18</h1>
-<p>Released on 2026-08-29.</p>
-<p>Studio now switches the canvas and timeline for compositions stored anywhere in a project. Snapshots now preserve playback rate, nested-media timing, static compositions, and source files.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Switch the canvas and timeline for compositions stored outside <code>compositions/</code> (<a href="https://github.com/heygen-com/hyperframes/commit/adf9b0cceeb561fd5424e8cad73b781f5383a9ef">adf9b0cce</a>).</li>
-<li><strong>Core:</strong> Keep long nested videos visible when their local start precedes the host window (<a href="https://github.com/heygen-com/hyperframes/commit/3dc18562323c9dd7dfa1f9416d90708677f3652b">3dc185623</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3535">#3535</a>).</li>
-<li><strong>CLI:</strong> Capture the correct source frame for trimmed or accelerated videos (<a href="https://github.com/heygen-com/hyperframes/commit/d99eeef0b27460683831664b4ac68f5cf4f700cd">d99eeef0b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3536">#3536</a>).</li>
-<li><strong>CLI:</strong> Reject keyframe-shot outputs that would overwrite the active composition source (<a href="https://github.com/heygen-com/hyperframes/commit/e4dabf830c6cf377734de043d5f5345bcefe7b02">e4dabf830</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3534">#3534</a>).</li>
-<li><strong>CLI:</strong> Allow intentional <code>data-no-timeline</code> compositions without false frozen-sweep errors (<a href="https://github.com/heygen-com/hyperframes/commit/b28747df0f2db9c5e7148e188a6ce6b99bcdda85">b28747df0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3533">#3533</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.17...v0.8.18">https://github.com/heygen-com/hyperframes/compare/v0.8.17...v0.8.18</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.18</h1>
-<p>Released on 2026-08-29.</p>
-<p>Studio now switches the canvas and timeline for compositions stored anywhere in a project. Snapshots now preserve playback rate, nested-media timing, static compositions, and source files.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Switch the canvas and timeline for compositions stored outside <code>compositions/</code> (<a href="https://github.com/heygen-com/hyperframes/commit/adf9b0cceeb561fd5424e8cad73b781f5383a9ef">adf9b0cce</a>).</li>
-<li><strong>Core:</strong> Keep long nested videos visible when their local start precedes the host window (<a href="https://github.com/heygen-com/hyperframes/commit/3dc18562323c9dd7dfa1f9416d90708677f3652b">3dc185623</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3535">#3535</a>).</li>
-<li><strong>CLI:</strong> Capture the correct source frame for trimmed or accelerated videos (<a href="https://github.com/heygen-com/hyperframes/commit/d99eeef0b27460683831664b4ac68f5cf4f700cd">d99eeef0b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3536">#3536</a>).</li>
-<li><strong>CLI:</strong> Reject keyframe-shot outputs that would overwrite the active composition source (<a href="https://github.com/heygen-com/hyperframes/commit/e4dabf830c6cf377734de043d5f5345bcefe7b02">e4dabf830</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3534">#3534</a>).</li>
-<li><strong>CLI:</strong> Allow intentional <code>data-no-timeline</code> compositions without false frozen-sweep errors (<a href="https://github.com/heygen-com/hyperframes/commit/b28747df0f2db9c5e7148e188a6ce6b99bcdda85">b28747df0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3533">#3533</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.17...v0.8.18">https://github.com/heygen-com/hyperframes/compare/v0.8.17...v0.8.18</a></p>
 ]]></content:encoded>
         </item>
     </channel>
