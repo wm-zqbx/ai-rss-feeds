@@ -4,11 +4,113 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 22 Sep 2026 20:17:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 11:07:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.64]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.64</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.64</guid>
+            <pubDate>Wed, 23 Sep 2026 11:07:53 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.64</h1>
+<p>Released on 2026-09-23.</p>
+<p>HyperFrames adds <code>data-vfx-chain</code>, a per-pixel effect element that paints GPU shader chains such as fractal noise, wave warp and displacement map. Every frame is computed from the seek time alone, so renders and previews match exactly. Chains that read their own content rely on Chrome&#39;s HTML-in-Canvas capture, and the runtime reports when that is unavailable instead of painting a blank.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Runtime:</strong> Add <code>data-vfx-chain</code>, a seek-deterministic per-pixel effect element (<a href="https://github.com/heygen-com/hyperframes/commit/b32b9a7dabf71e97049d1fa91a818817191414fc">b32b9a7da</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4306">#4306</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.63...v0.8.64">https://github.com/heygen-com/hyperframes/compare/v0.8.63...v0.8.64</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.64</h1>
+<p>Released on 2026-09-23.</p>
+<p>HyperFrames adds <code>data-vfx-chain</code>, a per-pixel effect element that paints GPU shader chains such as fractal noise, wave warp and displacement map. Every frame is computed from the seek time alone, so renders and previews match exactly. Chains that read their own content rely on Chrome&#39;s HTML-in-Canvas capture, and the runtime reports when that is unavailable instead of painting a blank.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Runtime:</strong> Add <code>data-vfx-chain</code>, a seek-deterministic per-pixel effect element (<a href="https://github.com/heygen-com/hyperframes/commit/b32b9a7dabf71e97049d1fa91a818817191414fc">b32b9a7da</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4306">#4306</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.63...v0.8.64">https://github.com/heygen-com/hyperframes/compare/v0.8.63...v0.8.64</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.63]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.63</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.63</guid>
+            <pubDate>Wed, 23 Sep 2026 09:53:31 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.63</h1>
+<p>Released on 2026-09-23.</p>
+<p>HyperFrames adds IBM Bob as a supported coding agent, and Studio stops a thumbnail error loop that could hang the timeline. Studio also fixes a seam and faded look where two clips touch. Static file requests now stay inside their served folders, closing a path traversal gap.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export AudioWaveform, ImageThumbnail, useRenderClipContent (<a href="https://github.com/heygen-com/hyperframes/commit/b9fe13ad8cfcbf1c8c0a95cf19cce7cf2918944d">b9fe13ad8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4301">#4301</a>).</li>
+<li><strong>CLI:</strong> Add IBM Bob runtime support (<a href="https://github.com/heygen-com/hyperframes/commit/105984cac4d8a52d99075cc06ed25ab2f12451e2">105984cac4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3930">#3930</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Clip pictures at full strength and a seam where touching clips meet (<a href="https://github.com/heygen-com/hyperframes/commit/06340f656ef2f70e41d2f4cafc85b78f184a24cd">06340f656e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4309">#4309</a>).</li>
+<li><strong>Engine:</strong> Classify a single-keyframe video as problematic, not healthy (<a href="https://github.com/heygen-com/hyperframes/commit/29378b6c7f08bf62635e7e80286021c2af57de9a">29378b6c7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3998">#3998</a>).</li>
+<li><strong>CLI:</strong> Replace pre-planted links when writing capture files (<a href="https://github.com/heygen-com/hyperframes/commit/42eb6e9ad2ca75fe1d5ac79794935f3ee523b979">42eb6e9ad2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4298">#4298</a>).</li>
+<li><strong>Producer:</strong> Bound nested media by a host&#39;s data-duration when it has no data-end (<a href="https://github.com/heygen-com/hyperframes/commit/1d6a0d5141d0c71b0af94ac993590966d53f4aff">1d6a0d5141</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3975">#3975</a>).</li>
+<li><strong>Studio:</strong> Stop VideoFrameThumbnail error→cleanup infinite loop (<a href="https://github.com/heygen-com/hyperframes/commit/e5eeeef972f264b3989e004ec0de6862db31709a">e5eeeef972</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4037">#4037</a>).</li>
+<li><strong>CLI:</strong> Stopping the preview server no longer leaves a Chrome running (<a href="https://github.com/heygen-com/hyperframes/commit/1b8f8a43d43bc2456075215b066b23e11d821435">1b8f8a43d4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4183">#4183</a>).</li>
+<li><strong>Server:</strong> Contain static file requests within their served roots (<a href="https://github.com/heygen-com/hyperframes/commit/cc19b8c8121d938aa589c50363f3c099e8dec8e7">cc19b8c812</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4217">#4217</a>).</li>
+<li><strong>Media Use:</strong> Remove clicks and ~25ms gaps at every transcript-cut splice (<a href="https://github.com/heygen-com/hyperframes/commit/dd97478175584cca0e071ed2e3ba686fd57c48db">dd97478175</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4179">#4179</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Alphabetize supported coding agents (<a href="https://github.com/heygen-com/hyperframes/commit/ec3bc93b90e482141da324568124ce7cf094eafe">ec3bc93b90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4297">#4297</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Regenerating the texture-mask page no longer duplicates its section (<a href="https://github.com/heygen-com/hyperframes/commit/bc1c60ae5b6e599a3caa482052547a5775a52261">bc1c60ae5b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4302">#4302</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Remove unreachable expanded-child timeline code (<a href="https://github.com/heygen-com/hyperframes/commit/b73df3549eb52744fe54dac2728a2f9d0fb6a9c7">b73df3549e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4219">#4219</a>).</li>
+<li>Compare test reachability against the merge ref&#39;s base parent (<a href="https://github.com/heygen-com/hyperframes/commit/8027c758d1d5fb5a43439ecdd7e0e12ead80de41">8027c758d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4303">#4303</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.62...v0.8.63">https://github.com/heygen-com/hyperframes/compare/v0.8.62...v0.8.63</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.63</h1>
+<p>Released on 2026-09-23.</p>
+<p>HyperFrames adds IBM Bob as a supported coding agent, and Studio stops a thumbnail error loop that could hang the timeline. Studio also fixes a seam and faded look where two clips touch. Static file requests now stay inside their served folders, closing a path traversal gap.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export AudioWaveform, ImageThumbnail, useRenderClipContent (<a href="https://github.com/heygen-com/hyperframes/commit/b9fe13ad8cfcbf1c8c0a95cf19cce7cf2918944d">b9fe13ad8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4301">#4301</a>).</li>
+<li><strong>CLI:</strong> Add IBM Bob runtime support (<a href="https://github.com/heygen-com/hyperframes/commit/105984cac4d8a52d99075cc06ed25ab2f12451e2">105984cac4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3930">#3930</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Clip pictures at full strength and a seam where touching clips meet (<a href="https://github.com/heygen-com/hyperframes/commit/06340f656ef2f70e41d2f4cafc85b78f184a24cd">06340f656e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4309">#4309</a>).</li>
+<li><strong>Engine:</strong> Classify a single-keyframe video as problematic, not healthy (<a href="https://github.com/heygen-com/hyperframes/commit/29378b6c7f08bf62635e7e80286021c2af57de9a">29378b6c7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3998">#3998</a>).</li>
+<li><strong>CLI:</strong> Replace pre-planted links when writing capture files (<a href="https://github.com/heygen-com/hyperframes/commit/42eb6e9ad2ca75fe1d5ac79794935f3ee523b979">42eb6e9ad2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4298">#4298</a>).</li>
+<li><strong>Producer:</strong> Bound nested media by a host&#39;s data-duration when it has no data-end (<a href="https://github.com/heygen-com/hyperframes/commit/1d6a0d5141d0c71b0af94ac993590966d53f4aff">1d6a0d5141</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3975">#3975</a>).</li>
+<li><strong>Studio:</strong> Stop VideoFrameThumbnail error→cleanup infinite loop (<a href="https://github.com/heygen-com/hyperframes/commit/e5eeeef972f264b3989e004ec0de6862db31709a">e5eeeef972</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4037">#4037</a>).</li>
+<li><strong>CLI:</strong> Stopping the preview server no longer leaves a Chrome running (<a href="https://github.com/heygen-com/hyperframes/commit/1b8f8a43d43bc2456075215b066b23e11d821435">1b8f8a43d4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4183">#4183</a>).</li>
+<li><strong>Server:</strong> Contain static file requests within their served roots (<a href="https://github.com/heygen-com/hyperframes/commit/cc19b8c8121d938aa589c50363f3c099e8dec8e7">cc19b8c812</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4217">#4217</a>).</li>
+<li><strong>Media Use:</strong> Remove clicks and ~25ms gaps at every transcript-cut splice (<a href="https://github.com/heygen-com/hyperframes/commit/dd97478175584cca0e071ed2e3ba686fd57c48db">dd97478175</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4179">#4179</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Alphabetize supported coding agents (<a href="https://github.com/heygen-com/hyperframes/commit/ec3bc93b90e482141da324568124ce7cf094eafe">ec3bc93b90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4297">#4297</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Regenerating the texture-mask page no longer duplicates its section (<a href="https://github.com/heygen-com/hyperframes/commit/bc1c60ae5b6e599a3caa482052547a5775a52261">bc1c60ae5b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4302">#4302</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Remove unreachable expanded-child timeline code (<a href="https://github.com/heygen-com/hyperframes/commit/b73df3549eb52744fe54dac2728a2f9d0fb6a9c7">b73df3549e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4219">#4219</a>).</li>
+<li>Compare test reachability against the merge ref&#39;s base parent (<a href="https://github.com/heygen-com/hyperframes/commit/8027c758d1d5fb5a43439ecdd7e0e12ead80de41">8027c758d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4303">#4303</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.62...v0.8.63">https://github.com/heygen-com/hyperframes/compare/v0.8.62...v0.8.63</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.62]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.62</link>
@@ -2527,90 +2629,6 @@ Repeated failures are grouped, and write tracking now works in more secure brows
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.15...v0.8.16">https://github.com/heygen-com/hyperframes/compare/v0.8.15...v0.8.16</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.15]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.15</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.15</guid>
-            <pubDate>Wed, 26 Aug 2026 03:28:36 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.15</h1>
-<p>Released on 2026-08-26.</p>
-<p>Preview publishers can now use the same deterministic font resolver as final renders, preventing CSS case transforms from changing typography between preview and export. Rendering now exits stalled parallel capture paths, while template editing and JSON attribute linting handle promoted media and encoded values more safely.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Stamp font compiler version in localized HTML (<a href="https://github.com/heygen-com/hyperframes/commit/d6de083411d76a0819768b21d30a305500a92048">d6de08341</a>).</li>
-<li><strong>CLI:</strong> Expose deterministic font localization (<a href="https://github.com/heygen-com/hyperframes/commit/38f8f9250a3f2a551a2e0a5f685ac4f64109e218">38f8f9250</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Fonts:</strong> Harden localizer release diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/7c40efbc62bd7bd70bcfdb80cd55aef4bafb39d6">7c40efbc6</a>).</li>
-<li><strong>CLI:</strong> Keep font localizer process ownership explicit (<a href="https://github.com/heygen-com/hyperframes/commit/ec68d40cc617272943069123383e7a9f6e463e93">ec68d40cc</a>).</li>
-<li><strong>Fonts:</strong> Cover rendered case variants in subsets (<a href="https://github.com/heygen-com/hyperframes/commit/744146eb6e71f3c108091fe981a7d63859a6287b">744146eb6</a>).</li>
-<li><strong>Producer:</strong> Trip DE parallel-router circuit breaker on stalls and hangs (<a href="https://github.com/heygen-com/hyperframes/commit/3202f3fb87e0f7babfdfe0a9d62703b293abfd80">3202f3fb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3479">#3479</a>).</li>
-<li><strong>Lint:</strong> Decode JSON attribute entities (<a href="https://github.com/heygen-com/hyperframes/commit/3cacac5bdc405b808e74df3da14e6c1595357325">3cacac5bd</a>).</li>
-<li>Document safe template default editing (<a href="https://github.com/heygen-com/hyperframes/commit/71e8e92ae940584a2be5a82c5a3d102187043dea">71e8e92ae</a>).</li>
-<li>Expose promoted template media slots (<a href="https://github.com/heygen-com/hyperframes/commit/1e11608d443d0cadeb64b5b005d72763f1a6dccd">1e11608d4</a>).</li>
-<li><strong>Scripts:</strong> Stop the large-file guard firing on text (<a href="https://github.com/heygen-com/hyperframes/commit/a562946e11538a87ac2a0766fdad7833b2798696">a562946e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3475">#3475</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.14...v0.8.15">https://github.com/heygen-com/hyperframes/compare/v0.8.14...v0.8.15</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.15</h1>
-<p>Released on 2026-08-26.</p>
-<p>Preview publishers can now use the same deterministic font resolver as final renders, preventing CSS case transforms from changing typography between preview and export. Rendering now exits stalled parallel capture paths, while template editing and JSON attribute linting handle promoted media and encoded values more safely.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Stamp font compiler version in localized HTML (<a href="https://github.com/heygen-com/hyperframes/commit/d6de083411d76a0819768b21d30a305500a92048">d6de08341</a>).</li>
-<li><strong>CLI:</strong> Expose deterministic font localization (<a href="https://github.com/heygen-com/hyperframes/commit/38f8f9250a3f2a551a2e0a5f685ac4f64109e218">38f8f9250</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Fonts:</strong> Harden localizer release diagnostics (<a href="https://github.com/heygen-com/hyperframes/commit/7c40efbc62bd7bd70bcfdb80cd55aef4bafb39d6">7c40efbc6</a>).</li>
-<li><strong>CLI:</strong> Keep font localizer process ownership explicit (<a href="https://github.com/heygen-com/hyperframes/commit/ec68d40cc617272943069123383e7a9f6e463e93">ec68d40cc</a>).</li>
-<li><strong>Fonts:</strong> Cover rendered case variants in subsets (<a href="https://github.com/heygen-com/hyperframes/commit/744146eb6e71f3c108091fe981a7d63859a6287b">744146eb6</a>).</li>
-<li><strong>Producer:</strong> Trip DE parallel-router circuit breaker on stalls and hangs (<a href="https://github.com/heygen-com/hyperframes/commit/3202f3fb87e0f7babfdfe0a9d62703b293abfd80">3202f3fb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3479">#3479</a>).</li>
-<li><strong>Lint:</strong> Decode JSON attribute entities (<a href="https://github.com/heygen-com/hyperframes/commit/3cacac5bdc405b808e74df3da14e6c1595357325">3cacac5bd</a>).</li>
-<li>Document safe template default editing (<a href="https://github.com/heygen-com/hyperframes/commit/71e8e92ae940584a2be5a82c5a3d102187043dea">71e8e92ae</a>).</li>
-<li>Expose promoted template media slots (<a href="https://github.com/heygen-com/hyperframes/commit/1e11608d443d0cadeb64b5b005d72763f1a6dccd">1e11608d4</a>).</li>
-<li><strong>Scripts:</strong> Stop the large-file guard firing on text (<a href="https://github.com/heygen-com/hyperframes/commit/a562946e11538a87ac2a0766fdad7833b2798696">a562946e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3475">#3475</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.14...v0.8.15">https://github.com/heygen-com/hyperframes/compare/v0.8.14...v0.8.15</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.14]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.14</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.14</guid>
-            <pubDate>Tue, 25 Aug 2026 00:07:08 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.14</h1>
-<p>Released on 2026-08-24.</p>
-<p>Agent skills no longer teach composition rules the renderer does not enforce, four of which used to make a render fail outright. <code>hyperframes add</code> now records what it installed in <code>hyperframes.json</code>, so a render can report which catalog blocks the video used.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Skills,lint:</strong> Correct composition-contract claims the code contradicts (<a href="https://github.com/heygen-com/hyperframes/commit/b2fc18b2df60fd9049cb694c97c45104ee5b4e0d">b2fc18b2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3468">#3468</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Report which catalog items a render actually used (<a href="https://github.com/heygen-com/hyperframes/commit/045b3a4fd7df71b46f4432c114f70fb25d13b551">045b3a4fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3470">#3470</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14">https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.14</h1>
-<p>Released on 2026-08-24.</p>
-<p>Agent skills no longer teach composition rules the renderer does not enforce, four of which used to make a render fail outright. <code>hyperframes add</code> now records what it installed in <code>hyperframes.json</code>, so a render can report which catalog blocks the video used.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Skills,lint:</strong> Correct composition-contract claims the code contradicts (<a href="https://github.com/heygen-com/hyperframes/commit/b2fc18b2df60fd9049cb694c97c45104ee5b4e0d">b2fc18b2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3468">#3468</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Report which catalog items a render actually used (<a href="https://github.com/heygen-com/hyperframes/commit/045b3a4fd7df71b46f4432c114f70fb25d13b551">045b3a4fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3470">#3470</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14">https://github.com/heygen-com/hyperframes/compare/v0.8.13...v0.8.14</a></p>
 ]]></content:encoded>
         </item>
     </channel>
