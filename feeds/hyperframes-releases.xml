@@ -4,11 +4,47 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 24 Sep 2026 06:37:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Sep 2026 12:24:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.72]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.72</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.72</guid>
+            <pubDate>Thu, 24 Sep 2026 12:24:21 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.72</h1>
+<p>Released on 2026-09-24.</p>
+<p>Clicking an element inside a section now selects that element, even when the section&#39;s root sets pointer-events to none. A frame grabbed right after the first seek on a fresh preview now shows the video at the time you asked for. Apps that embed Studio&#39;s preview can now draw the film edge to edge in its box.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Let an embedder draw the preview edge to edge with fillBox (<a href="https://github.com/heygen-com/hyperframes/commit/326df8def036e708d25a0ca0e069f91172767b0e">326df8def</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4408">#4408</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Frame captures wait for a seeking video to land its frame (<a href="https://github.com/heygen-com/hyperframes/commit/261af22c1684d79ed30cc72f7f328f698fea2adb">261af22c1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4406">#4406</a>).</li>
+<li><strong>Core:</strong> A section whose root sets pointer-events:none stays pickable (<a href="https://github.com/heygen-com/hyperframes/commit/115332f4f6114c078ba4f6d3b252387545c96c03">115332f4f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4399">#4399</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.71...v0.8.72">https://github.com/heygen-com/hyperframes/compare/v0.8.71...v0.8.72</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.72</h1>
+<p>Released on 2026-09-24.</p>
+<p>Clicking an element inside a section now selects that element, even when the section&#39;s root sets pointer-events to none. A frame grabbed right after the first seek on a fresh preview now shows the video at the time you asked for. Apps that embed Studio&#39;s preview can now draw the film edge to edge in its box.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Let an embedder draw the preview edge to edge with fillBox (<a href="https://github.com/heygen-com/hyperframes/commit/326df8def036e708d25a0ca0e069f91172767b0e">326df8def</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4408">#4408</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Frame captures wait for a seeking video to land its frame (<a href="https://github.com/heygen-com/hyperframes/commit/261af22c1684d79ed30cc72f7f328f698fea2adb">261af22c1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4406">#4406</a>).</li>
+<li><strong>Core:</strong> A section whose root sets pointer-events:none stays pickable (<a href="https://github.com/heygen-com/hyperframes/commit/115332f4f6114c078ba4f6d3b252387545c96c03">115332f4f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4399">#4399</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.71...v0.8.72">https://github.com/heygen-com/hyperframes/compare/v0.8.71...v0.8.72</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.71]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.71</link>
@@ -2583,54 +2619,6 @@ Catalog tabs also stay aligned with their active indicator.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.23...v0.8.24">https://github.com/heygen-com/hyperframes/compare/v0.8.23...v0.8.24</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.23]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.23</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.23</guid>
-            <pubDate>Tue, 01 Sep 2026 18:11:08 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.23</h1>
-<p>Released on 2026-09-01.</p>
-<p>Server deployments can now caption captured assets with Vertex credentials, and promoted templates identify the brand each slot represents.
-Caption-zone checks catch overlapping text, while safer timeline lint prevents a class of broken template playback.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Capture:</strong> Authenticate vision captioning with Vertex service accounts and keep SVG rasterization safe (<a href="https://github.com/heygen-com/hyperframes/commit/8eea3c913f1584b769cc38e8a91bd70f600f352a">8eea3c913</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3561">#3561</a>).</li>
-<li><strong>CLI:</strong> Flag text whenever its DOM box overlaps the reserved caption zone (<a href="https://github.com/heygen-com/hyperframes/commit/45cc3435254c44abe7b21bc8e996bbef32365fe6">45cc34352</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3580">#3580</a>).</li>
-<li><strong>Lint:</strong> Reject timeline return values used as child tweens before they can detach template playback (<a href="https://github.com/heygen-com/hyperframes/commit/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590">254fe4bd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3562">#3562</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Mark identity-bearing slots across eight promoted templates and keep long prompts visible in exchange composers (<a href="https://github.com/heygen-com/hyperframes/commit/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590">254fe4bd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3562">#3562</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Optimize Windows test lanes (<a href="https://github.com/heygen-com/hyperframes/commit/f42b5ce86c23268a533217e012cd228434c84e02">f42b5ce86</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3579">#3579</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23">https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.23</h1>
-<p>Released on 2026-09-01.</p>
-<p>Server deployments can now caption captured assets with Vertex credentials, and promoted templates identify the brand each slot represents.
-Caption-zone checks catch overlapping text, while safer timeline lint prevents a class of broken template playback.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Capture:</strong> Authenticate vision captioning with Vertex service accounts and keep SVG rasterization safe (<a href="https://github.com/heygen-com/hyperframes/commit/8eea3c913f1584b769cc38e8a91bd70f600f352a">8eea3c913</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3561">#3561</a>).</li>
-<li><strong>CLI:</strong> Flag text whenever its DOM box overlaps the reserved caption zone (<a href="https://github.com/heygen-com/hyperframes/commit/45cc3435254c44abe7b21bc8e996bbef32365fe6">45cc34352</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3580">#3580</a>).</li>
-<li><strong>Lint:</strong> Reject timeline return values used as child tweens before they can detach template playback (<a href="https://github.com/heygen-com/hyperframes/commit/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590">254fe4bd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3562">#3562</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Mark identity-bearing slots across eight promoted templates and keep long prompts visible in exchange composers (<a href="https://github.com/heygen-com/hyperframes/commit/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590">254fe4bd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3562">#3562</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Optimize Windows test lanes (<a href="https://github.com/heygen-com/hyperframes/commit/f42b5ce86c23268a533217e012cd228434c84e02">f42b5ce86</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3579">#3579</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23">https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23</a></p>
 ]]></content:encoded>
         </item>
     </channel>
