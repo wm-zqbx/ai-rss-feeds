@@ -4,11 +4,55 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 24 Sep 2026 02:15:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Sep 2026 06:37:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.71]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.71</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.71</guid>
+            <pubDate>Thu, 24 Sep 2026 06:37:30 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.71</h1>
+<p>Released on 2026-09-24.</p>
+<p>Apps that embed Studio&#39;s timeline can now import its component styles on their own, so clips and their labels look the same as in Studio. Studio also refreshes its file tree when files change outside it, and video probing handles files that report no stream duration. Effects chains gain a backdrop capture for adjustment-layer effects and two new two-source kernels, luma matte and noise.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Runtime:</strong> Data-vfx-chain backdrop capture and two-source kernels (luma-matte, noise) (<a href="https://github.com/heygen-com/hyperframes/commit/84e36fc16afcc9d5979f92b50b230bf0b8c29bb9">84e36fc16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4330">#4330</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Ship component styles as their own stylesheet for embedders (<a href="https://github.com/heygen-com/hyperframes/commit/d1048cf98fc8ee8415f6ce02902ad51ae71cb09e">d1048cf98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4393">#4393</a>).</li>
+<li><strong>Scripts:</strong> Retry a fresh GitHub attachment&#39;s transient 404 in the captures gate (<a href="https://github.com/heygen-com/hyperframes/commit/8d8ea810b66c7bed58f0e8724e28f91dae28b91b">8d8ea810b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4362">#4362</a>).</li>
+<li><strong>Studio Server:</strong> Stop mislabeling two more read-route failure shapes (<a href="https://github.com/heygen-com/hyperframes/commit/add6783775d567562180bdf5bb0cf77396b8f690">add678377</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4363">#4363</a>).</li>
+<li><strong>Studio:</strong> Refresh the file tree on external change, and say when a composition is gone (<a href="https://github.com/heygen-com/hyperframes/commit/c59326d72eae2eaf3503e44be0e722568e19b210">c59326d72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4370">#4370</a>).</li>
+<li><strong>Skills:</strong> Push transitions reveal the incoming scene on every seek path (<a href="https://github.com/heygen-com/hyperframes/commit/ff884845a844dc27d192cf83f697b14d3f48b80c">ff884845a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4314">#4314</a>).</li>
+<li><strong>Engine:</strong> Cross-check nb_frames when video stream duration is absent (<a href="https://github.com/heygen-com/hyperframes/commit/ee4c00db6a9bbb88c02ca6842d095fcff64d92ee">ee4c00db6</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.70...v0.8.71">https://github.com/heygen-com/hyperframes/compare/v0.8.70...v0.8.71</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.71</h1>
+<p>Released on 2026-09-24.</p>
+<p>Apps that embed Studio&#39;s timeline can now import its component styles on their own, so clips and their labels look the same as in Studio. Studio also refreshes its file tree when files change outside it, and video probing handles files that report no stream duration. Effects chains gain a backdrop capture for adjustment-layer effects and two new two-source kernels, luma matte and noise.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Runtime:</strong> Data-vfx-chain backdrop capture and two-source kernels (luma-matte, noise) (<a href="https://github.com/heygen-com/hyperframes/commit/84e36fc16afcc9d5979f92b50b230bf0b8c29bb9">84e36fc16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4330">#4330</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Ship component styles as their own stylesheet for embedders (<a href="https://github.com/heygen-com/hyperframes/commit/d1048cf98fc8ee8415f6ce02902ad51ae71cb09e">d1048cf98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4393">#4393</a>).</li>
+<li><strong>Scripts:</strong> Retry a fresh GitHub attachment&#39;s transient 404 in the captures gate (<a href="https://github.com/heygen-com/hyperframes/commit/8d8ea810b66c7bed58f0e8724e28f91dae28b91b">8d8ea810b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4362">#4362</a>).</li>
+<li><strong>Studio Server:</strong> Stop mislabeling two more read-route failure shapes (<a href="https://github.com/heygen-com/hyperframes/commit/add6783775d567562180bdf5bb0cf77396b8f690">add678377</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4363">#4363</a>).</li>
+<li><strong>Studio:</strong> Refresh the file tree on external change, and say when a composition is gone (<a href="https://github.com/heygen-com/hyperframes/commit/c59326d72eae2eaf3503e44be0e722568e19b210">c59326d72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4370">#4370</a>).</li>
+<li><strong>Skills:</strong> Push transitions reveal the incoming scene on every seek path (<a href="https://github.com/heygen-com/hyperframes/commit/ff884845a844dc27d192cf83f697b14d3f48b80c">ff884845a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4314">#4314</a>).</li>
+<li><strong>Engine:</strong> Cross-check nb_frames when video stream duration is absent (<a href="https://github.com/heygen-com/hyperframes/commit/ee4c00db6a9bbb88c02ca6842d095fcff64d92ee">ee4c00db6</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.70...v0.8.71">https://github.com/heygen-com/hyperframes/compare/v0.8.70...v0.8.71</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.70]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.70</link>
@@ -2587,38 +2631,6 @@ Caption-zone checks catch overlapping text, while safer timeline lint prevents a
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23">https://github.com/heygen-com/hyperframes/compare/v0.8.22...v0.8.23</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.22]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.22</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.22</guid>
-            <pubDate>Tue, 01 Sep 2026 02:58:12 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.22</h1>
-<p>Released on 2026-09-01.</p>
-<p>HyperFrames now reports host-interrupted FFmpeg work as retryable instead of a terminal render failure.
-Windows CLI commands also stay quiet, and process cleanup handles already-exited PIDs.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Rendering:</strong> Report verified host-interrupted FFmpeg work as retryable across encode, audio, extraction, and distributed assembly (<a href="https://github.com/heygen-com/hyperframes/commit/0f7eebd7e41fb8270fedec12b58ad0860ee30a24">0f7eebd7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3578">#3578</a>).</li>
-<li><strong>CLI:</strong> Hide Windows child process consoles (<a href="https://github.com/heygen-com/hyperframes/commit/9097d539b14260f4e23e0598ece57c9eb3ec6a2c">9097d539b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3529">#3529</a>).</li>
-<li><strong>CLI:</strong> Guard PowerShell process queries against exited PIDs (<a href="https://github.com/heygen-com/hyperframes/commit/73aa71c9ec35ce117df3ec42a324db5bc1a76e43">73aa71c9e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3571">#3571</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.21...v0.8.22">https://github.com/heygen-com/hyperframes/compare/v0.8.21...v0.8.22</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.22</h1>
-<p>Released on 2026-09-01.</p>
-<p>HyperFrames now reports host-interrupted FFmpeg work as retryable instead of a terminal render failure.
-Windows CLI commands also stay quiet, and process cleanup handles already-exited PIDs.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Rendering:</strong> Report verified host-interrupted FFmpeg work as retryable across encode, audio, extraction, and distributed assembly (<a href="https://github.com/heygen-com/hyperframes/commit/0f7eebd7e41fb8270fedec12b58ad0860ee30a24">0f7eebd7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3578">#3578</a>).</li>
-<li><strong>CLI:</strong> Hide Windows child process consoles (<a href="https://github.com/heygen-com/hyperframes/commit/9097d539b14260f4e23e0598ece57c9eb3ec6a2c">9097d539b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3529">#3529</a>).</li>
-<li><strong>CLI:</strong> Guard PowerShell process queries against exited PIDs (<a href="https://github.com/heygen-com/hyperframes/commit/73aa71c9ec35ce117df3ec42a324db5bc1a76e43">73aa71c9e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3571">#3571</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.21...v0.8.22">https://github.com/heygen-com/hyperframes/compare/v0.8.21...v0.8.22</a></p>
 ]]></content:encoded>
         </item>
     </channel>
