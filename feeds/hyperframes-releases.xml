@@ -4,11 +4,71 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 24 Sep 2026 21:23:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 25 Sep 2026 02:37:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.75]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.75</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.75</guid>
+            <pubDate>Fri, 25 Sep 2026 02:37:38 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.75</h1>
+<p>Released on 2026-09-25.</p>
+<p>A composition&#39;s scripts can now load their own files, and preview keeps a history of every project change. In Studio, a reload keeps a playing film playing, deleted clips leave the timeline at once, and <code>catalog --json</code> now includes preview videos.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> A composition&#39;s script can load its own files with __hyperframes.assetUrl (<a href="https://github.com/heygen-com/hyperframes/commit/b8dd023a97bf6e960601258db154ca3ab1fc7437">b8dd023a97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4434">#4434</a>).</li>
+<li><strong>CLI:</strong> Preview keeps project history, and Studio can claim its own edits (<a href="https://github.com/heygen-com/hyperframes/commit/177464b4c148a5091ccd745ca16d69d9bedd53f6">177464b4c1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4437">#4437</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A playhead scrolled off to the left no longer draws over the track names (<a href="https://github.com/heygen-com/hyperframes/commit/225c22b6b981ba2688efbd5e4b03e4d9623b81bf">225c22b6b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4436">#4436</a>).</li>
+<li><strong>Studio:</strong> A deleted clip leaves the timeline as soon as the file drops it (<a href="https://github.com/heygen-com/hyperframes/commit/65a266b29d475336b1c928499229b814e4d003e9">65a266b29d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4447">#4447</a>).</li>
+<li><strong>Studio:</strong> A preview reload keeps a playing film playing where it was (<a href="https://github.com/heygen-com/hyperframes/commit/2fe37e3406fa079a02f6e3d1e5119bedb9ef584c">2fe37e3406</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4438">#4438</a>).</li>
+<li><strong>CLI:</strong> The block snippet from add carries the block&#39;s own composition id (<a href="https://github.com/heygen-com/hyperframes/commit/359106aa3af028382d08f2ef40bce58b4ea4a209">359106aa3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4432">#4432</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Catalog --json carries each item&#39;s preview video and poster (<a href="https://github.com/heygen-com/hyperframes/commit/8af615a48e713ca4dba7ef792ccffe2afd13fc78">8af615a48e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4443">#4443</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Skip Windows runs for player and Studio UI-only changes (<a href="https://github.com/heygen-com/hyperframes/commit/1f0cfa7c3ebecb90486ec5b9edea575ab3c8b258">1f0cfa7c3e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4442">#4442</a>).</li>
+<li>Grade the comments each PR touches (<a href="https://github.com/heygen-com/hyperframes/commit/3194c2ae8725a729a3a4a90b7d2e254df4aef7d8">3194c2ae87</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4444">#4444</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.74...v0.8.75">https://github.com/heygen-com/hyperframes/compare/v0.8.74...v0.8.75</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.75</h1>
+<p>Released on 2026-09-25.</p>
+<p>A composition&#39;s scripts can now load their own files, and preview keeps a history of every project change. In Studio, a reload keeps a playing film playing, deleted clips leave the timeline at once, and <code>catalog --json</code> now includes preview videos.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> A composition&#39;s script can load its own files with __hyperframes.assetUrl (<a href="https://github.com/heygen-com/hyperframes/commit/b8dd023a97bf6e960601258db154ca3ab1fc7437">b8dd023a97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4434">#4434</a>).</li>
+<li><strong>CLI:</strong> Preview keeps project history, and Studio can claim its own edits (<a href="https://github.com/heygen-com/hyperframes/commit/177464b4c148a5091ccd745ca16d69d9bedd53f6">177464b4c1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4437">#4437</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A playhead scrolled off to the left no longer draws over the track names (<a href="https://github.com/heygen-com/hyperframes/commit/225c22b6b981ba2688efbd5e4b03e4d9623b81bf">225c22b6b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4436">#4436</a>).</li>
+<li><strong>Studio:</strong> A deleted clip leaves the timeline as soon as the file drops it (<a href="https://github.com/heygen-com/hyperframes/commit/65a266b29d475336b1c928499229b814e4d003e9">65a266b29d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4447">#4447</a>).</li>
+<li><strong>Studio:</strong> A preview reload keeps a playing film playing where it was (<a href="https://github.com/heygen-com/hyperframes/commit/2fe37e3406fa079a02f6e3d1e5119bedb9ef584c">2fe37e3406</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4438">#4438</a>).</li>
+<li><strong>CLI:</strong> The block snippet from add carries the block&#39;s own composition id (<a href="https://github.com/heygen-com/hyperframes/commit/359106aa3af028382d08f2ef40bce58b4ea4a209">359106aa3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4432">#4432</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Catalog --json carries each item&#39;s preview video and poster (<a href="https://github.com/heygen-com/hyperframes/commit/8af615a48e713ca4dba7ef792ccffe2afd13fc78">8af615a48e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4443">#4443</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Skip Windows runs for player and Studio UI-only changes (<a href="https://github.com/heygen-com/hyperframes/commit/1f0cfa7c3ebecb90486ec5b9edea575ab3c8b258">1f0cfa7c3e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4442">#4442</a>).</li>
+<li>Grade the comments each PR touches (<a href="https://github.com/heygen-com/hyperframes/commit/3194c2ae8725a729a3a4a90b7d2e254df4aef7d8">3194c2ae87</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4444">#4444</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.74...v0.8.75">https://github.com/heygen-com/hyperframes/compare/v0.8.74...v0.8.75</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.74]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.74</link>
@@ -2635,32 +2695,6 @@ Snapshot comparisons and stricter media lint make regressions easier to spot bef
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.26...v0.8.27">https://github.com/heygen-com/hyperframes/compare/v0.8.26...v0.8.27</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.26]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.26</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.26</guid>
-            <pubDate>Wed, 02 Sep 2026 14:40:43 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.26</h1>
-<p>Released on 2026-09-02.</p>
-<p>Paused Studio previews now rebind immediately after live edits, so timed layers no longer cover the intended frame until a scrub or reload.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Rebind paused preview after live edits (<a href="https://github.com/heygen-com/hyperframes/commit/81f1a903e1fded20bf32bd565aad5a29f2b5935b">81f1a903e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3596">#3596</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.25...v0.8.26">https://github.com/heygen-com/hyperframes/compare/v0.8.25...v0.8.26</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.26</h1>
-<p>Released on 2026-09-02.</p>
-<p>Paused Studio previews now rebind immediately after live edits, so timed layers no longer cover the intended frame until a scrub or reload.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Rebind paused preview after live edits (<a href="https://github.com/heygen-com/hyperframes/commit/81f1a903e1fded20bf32bd565aad5a29f2b5935b">81f1a903e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3596">#3596</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.25...v0.8.26">https://github.com/heygen-com/hyperframes/compare/v0.8.25...v0.8.26</a></p>
 ]]></content:encoded>
         </item>
     </channel>
