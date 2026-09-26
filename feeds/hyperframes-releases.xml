@@ -4,11 +4,73 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 25 Sep 2026 13:09:21 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Sep 2026 03:03:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.78]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.78</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.78</guid>
+            <pubDate>Sat, 26 Sep 2026 03:03:19 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.78</h1>
+<p>Released on 2026-09-26.</p>
+<p>The player now reports its picture size and can turn off click-to-play, and <code>hyperframes history</code> lists, undoes and restores a project&#39;s changes. The CLI uses a pinned onnxruntime-node installed next to it, and renders with shader transitions now match the preview.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Player:</strong> Expose picture size, durationchange and a click-to-play opt-out (<a href="https://github.com/heygen-com/hyperframes/commit/4ef2fc3f1e3cc44b883124725d15df1c2d3720ee">4ef2fc3f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4505">#4505</a>).</li>
+<li><strong>Shader Transitions:</strong> Add playSeamTransitionLoop to preview a seam on a loop (<a href="https://github.com/heygen-com/hyperframes/commit/0f528ff2e8cdc44febedc93f7e68a07a49395936">0f528ff2e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4307">#4307</a>).</li>
+<li><strong>CLI:</strong> The <code>hyperframes history</code> command lists, undoes and restores a project&#39;s recorded changes (<a href="https://github.com/heygen-com/hyperframes/commit/2734ee2c02ef858f3c877c18b56ebcfbb846cb4c">2734ee2c0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4449">#4449</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Use onnxruntime-node installed beside the CLI when it is the pinned version (<a href="https://github.com/heygen-com/hyperframes/commit/2be82f00999569e2e2d462a9f3eab57bd36d371e">2be82f009</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4507">#4507</a>).</li>
+<li><strong>Shader Transitions:</strong> The render leaves scene visibility to the runtime (<a href="https://github.com/heygen-com/hyperframes/commit/5145a136a00169f900c1dc4bb6dfbfab1398c131">5145a136a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4509">#4509</a>).</li>
+<li><strong>Telemetry:</strong> Honor CLI opt-out in Studio and render CI (<a href="https://github.com/heygen-com/hyperframes/commit/edb3747c4c987f2a20738ad67d2b7f8622f7bf56">edb3747c4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4500">#4500</a>).</li>
+<li><strong>Core:</strong> Report one composition size in stage-size and timeline messages (<a href="https://github.com/heygen-com/hyperframes/commit/77b2260f2be5693b6d0d941f13e8628fbb576eb1">77b2260f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4496">#4496</a>).</li>
+<li><strong>Core:</strong> A clip gets its own inline display back when the runtime shows it (<a href="https://github.com/heygen-com/hyperframes/commit/02147b8d152ffaccc5357a48f1f87e4569792f70">02147b8d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4498">#4498</a>).</li>
+<li><strong>CLI:</strong> Timeline ids never writes over a save that lands while it stamps (<a href="https://github.com/heygen-com/hyperframes/commit/3746c9821af66dde5a28a2738bb2b778b156c5dd">3746c9821</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4494">#4494</a>).</li>
+<li><strong>Core:</strong> A clip that starts later keeps the place and size its CSS gives it (<a href="https://github.com/heygen-com/hyperframes/commit/aadeaf9ddd28822ff88ef002dcd0c465fffe714f">aadeaf9dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4495">#4495</a>).</li>
+<li><strong>Studio Server:</strong> Stamping ids at open never reverts a write that lands meanwhile (<a href="https://github.com/heygen-com/hyperframes/commit/b2a449df8e21e3b6dea650569d9464b537aa8035">b2a449df8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4491">#4491</a>).</li>
+<li><strong>Core:</strong> A frame capture keeps waiting for a video between its range requests (<a href="https://github.com/heygen-com/hyperframes/commit/e266ad5e5c42e71871c2e02345e2e93ea26d2251">e266ad5e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4490">#4490</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Stop running CodeQL on merge queue groups, where its upload races the merge (<a href="https://github.com/heygen-com/hyperframes/commit/fbaa9f9205fca0107d3451a740556d97aa4bdf8d">fbaa9f920</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4492">#4492</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.77...v0.8.78">https://github.com/heygen-com/hyperframes/compare/v0.8.77...v0.8.78</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.78</h1>
+<p>Released on 2026-09-26.</p>
+<p>The player now reports its picture size and can turn off click-to-play, and <code>hyperframes history</code> lists, undoes and restores a project&#39;s changes. The CLI uses a pinned onnxruntime-node installed next to it, and renders with shader transitions now match the preview.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Player:</strong> Expose picture size, durationchange and a click-to-play opt-out (<a href="https://github.com/heygen-com/hyperframes/commit/4ef2fc3f1e3cc44b883124725d15df1c2d3720ee">4ef2fc3f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4505">#4505</a>).</li>
+<li><strong>Shader Transitions:</strong> Add playSeamTransitionLoop to preview a seam on a loop (<a href="https://github.com/heygen-com/hyperframes/commit/0f528ff2e8cdc44febedc93f7e68a07a49395936">0f528ff2e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4307">#4307</a>).</li>
+<li><strong>CLI:</strong> The <code>hyperframes history</code> command lists, undoes and restores a project&#39;s recorded changes (<a href="https://github.com/heygen-com/hyperframes/commit/2734ee2c02ef858f3c877c18b56ebcfbb846cb4c">2734ee2c0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4449">#4449</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Use onnxruntime-node installed beside the CLI when it is the pinned version (<a href="https://github.com/heygen-com/hyperframes/commit/2be82f00999569e2e2d462a9f3eab57bd36d371e">2be82f009</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4507">#4507</a>).</li>
+<li><strong>Shader Transitions:</strong> The render leaves scene visibility to the runtime (<a href="https://github.com/heygen-com/hyperframes/commit/5145a136a00169f900c1dc4bb6dfbfab1398c131">5145a136a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4509">#4509</a>).</li>
+<li><strong>Telemetry:</strong> Honor CLI opt-out in Studio and render CI (<a href="https://github.com/heygen-com/hyperframes/commit/edb3747c4c987f2a20738ad67d2b7f8622f7bf56">edb3747c4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4500">#4500</a>).</li>
+<li><strong>Core:</strong> Report one composition size in stage-size and timeline messages (<a href="https://github.com/heygen-com/hyperframes/commit/77b2260f2be5693b6d0d941f13e8628fbb576eb1">77b2260f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4496">#4496</a>).</li>
+<li><strong>Core:</strong> A clip gets its own inline display back when the runtime shows it (<a href="https://github.com/heygen-com/hyperframes/commit/02147b8d152ffaccc5357a48f1f87e4569792f70">02147b8d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4498">#4498</a>).</li>
+<li><strong>CLI:</strong> Timeline ids never writes over a save that lands while it stamps (<a href="https://github.com/heygen-com/hyperframes/commit/3746c9821af66dde5a28a2738bb2b778b156c5dd">3746c9821</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4494">#4494</a>).</li>
+<li><strong>Core:</strong> A clip that starts later keeps the place and size its CSS gives it (<a href="https://github.com/heygen-com/hyperframes/commit/aadeaf9ddd28822ff88ef002dcd0c465fffe714f">aadeaf9dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4495">#4495</a>).</li>
+<li><strong>Studio Server:</strong> Stamping ids at open never reverts a write that lands meanwhile (<a href="https://github.com/heygen-com/hyperframes/commit/b2a449df8e21e3b6dea650569d9464b537aa8035">b2a449df8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4491">#4491</a>).</li>
+<li><strong>Core:</strong> A frame capture keeps waiting for a video between its range requests (<a href="https://github.com/heygen-com/hyperframes/commit/e266ad5e5c42e71871c2e02345e2e93ea26d2251">e266ad5e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4490">#4490</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Stop running CodeQL on merge queue groups, where its upload races the merge (<a href="https://github.com/heygen-com/hyperframes/commit/fbaa9f9205fca0107d3451a740556d97aa4bdf8d">fbaa9f920</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4492">#4492</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.77...v0.8.78">https://github.com/heygen-com/hyperframes/compare/v0.8.77...v0.8.78</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.77]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.77</link>
@@ -2641,32 +2703,6 @@ load in three, with nothing in the console to explain it.</p>
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.29...v0.8.30">https://github.com/heygen-com/hyperframes/compare/v0.8.29...v0.8.30</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.29]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.29</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.29</guid>
-            <pubDate>Sat, 05 Sep 2026 01:56:17 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.29</h1>
-<p>Released on 2026-09-05.</p>
-<p>Studio no longer freezes when external tools write project files in rapid bursts. An SSE listener leak and a drain-starvation race are both fixed.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Prevent preview hang on burst external file rewrites (<a href="https://github.com/heygen-com/hyperframes/commit/00c575d23b15d1da39eb37355a4760562270b4d0">00c575d23</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3648">#3648</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.28...v0.8.29">https://github.com/heygen-com/hyperframes/compare/v0.8.28...v0.8.29</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.29</h1>
-<p>Released on 2026-09-05.</p>
-<p>Studio no longer freezes when external tools write project files in rapid bursts. An SSE listener leak and a drain-starvation race are both fixed.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Prevent preview hang on burst external file rewrites (<a href="https://github.com/heygen-com/hyperframes/commit/00c575d23b15d1da39eb37355a4760562270b4d0">00c575d23</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3648">#3648</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.28...v0.8.29">https://github.com/heygen-com/hyperframes/compare/v0.8.28...v0.8.29</a></p>
 ]]></content:encoded>
         </item>
     </channel>
