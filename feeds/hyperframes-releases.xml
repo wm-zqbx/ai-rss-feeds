@@ -4,11 +4,55 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 28 Sep 2026 17:57:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Sep 2026 20:43:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.86]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.86</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.86</guid>
+            <pubDate>Mon, 28 Sep 2026 20:43:09 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.86</h1>
+<p>Released on 2026-09-28.</p>
+<p>Timeline Fit now fills the width with the film, and its button is an icon. The playhead stays put when an audio clip starts, and Studio refuses huge or binary files instead of reading them as text.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Player:</strong> Play video files that declare a type such as video/mp4 (<a href="https://github.com/heygen-com/hyperframes/commit/326bd0c9a198f00769f8e0b64f51b1d1125f335f">326bd0c9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4673">#4673</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Timeline Fit fills the width with the film, Fit is an icon, and a host can hide keyframe controls (<a href="https://github.com/heygen-com/hyperframes/commit/a3b6eec97e7de4a074f07a769224a03279b9b6fb">a3b6eec97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4680">#4680</a>).</li>
+<li><strong>Studio:</strong> Back to the master after a nested drill restores the master playhead (<a href="https://github.com/heygen-com/hyperframes/commit/73d26a5187c2b24c7613e9ec58abfc97b4d5c954">73d26a518</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4678">#4678</a>).</li>
+<li><strong>Studio Server:</strong> Refuse huge or binary files with a clear error instead of reading them as text (<a href="https://github.com/heygen-com/hyperframes/commit/52154bddb5d493c3813a9d1634868fcf6ca4c7f4">52154bddb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4677">#4677</a>).</li>
+<li><strong>Fonts:</strong> Resolve declared family names with missing spaces (<a href="https://github.com/heygen-com/hyperframes/commit/46eedd4dfb6f0ec2b6edab270742d13f730a14ce">46eedd4df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4670">#4670</a>).</li>
+<li><strong>Core:</strong> The playhead no longer jumps back when an audio clip starts (<a href="https://github.com/heygen-com/hyperframes/commit/fdbc5dcaf717455fb4e42b2f5e1146dc21dafff8">fdbc5dcaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4679">#4679</a>).</li>
+<li><strong>Docs:</strong> Restore examples with the HyperFrames Player (<a href="https://github.com/heygen-com/hyperframes/commit/a31738f115d12e662c279dd3af39c7c816afeec5">a31738f11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4675">#4675</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.85...v0.8.86">https://github.com/heygen-com/hyperframes/compare/v0.8.85...v0.8.86</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.86</h1>
+<p>Released on 2026-09-28.</p>
+<p>Timeline Fit now fills the width with the film, and its button is an icon. The playhead stays put when an audio clip starts, and Studio refuses huge or binary files instead of reading them as text.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Player:</strong> Play video files that declare a type such as video/mp4 (<a href="https://github.com/heygen-com/hyperframes/commit/326bd0c9a198f00769f8e0b64f51b1d1125f335f">326bd0c9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4673">#4673</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Timeline Fit fills the width with the film, Fit is an icon, and a host can hide keyframe controls (<a href="https://github.com/heygen-com/hyperframes/commit/a3b6eec97e7de4a074f07a769224a03279b9b6fb">a3b6eec97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4680">#4680</a>).</li>
+<li><strong>Studio:</strong> Back to the master after a nested drill restores the master playhead (<a href="https://github.com/heygen-com/hyperframes/commit/73d26a5187c2b24c7613e9ec58abfc97b4d5c954">73d26a518</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4678">#4678</a>).</li>
+<li><strong>Studio Server:</strong> Refuse huge or binary files with a clear error instead of reading them as text (<a href="https://github.com/heygen-com/hyperframes/commit/52154bddb5d493c3813a9d1634868fcf6ca4c7f4">52154bddb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4677">#4677</a>).</li>
+<li><strong>Fonts:</strong> Resolve declared family names with missing spaces (<a href="https://github.com/heygen-com/hyperframes/commit/46eedd4dfb6f0ec2b6edab270742d13f730a14ce">46eedd4df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4670">#4670</a>).</li>
+<li><strong>Core:</strong> The playhead no longer jumps back when an audio clip starts (<a href="https://github.com/heygen-com/hyperframes/commit/fdbc5dcaf717455fb4e42b2f5e1146dc21dafff8">fdbc5dcaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4679">#4679</a>).</li>
+<li><strong>Docs:</strong> Restore examples with the HyperFrames Player (<a href="https://github.com/heygen-com/hyperframes/commit/a31738f115d12e662c279dd3af39c7c816afeec5">a31738f11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4675">#4675</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.85...v0.8.86">https://github.com/heygen-com/hyperframes/compare/v0.8.85...v0.8.86</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.85]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.85</link>
@@ -2691,48 +2735,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.37...v0.8.38">https://github.com/heygen-com/hyperframes/compare/v0.8.37...v0.8.38</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.37]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.37</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.37</guid>
-            <pubDate>Sun, 13 Sep 2026 17:13:47 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.37</h1>
-<p>Released on 2026-09-13.</p>
-<p>Bundled HTML now embeds supported fonts and images up to 2 MiB each, so they remain available without the project folder. This release also fixes missing clips, shifting video layouts, render recovery on low disk space, and AAC audio peak correction.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Bundling:</strong> Embed supported local fonts and raster images up to 2 MiB each in bundled HTML. Larger assets warn and remain external, as do audio and video (<a href="https://github.com/heygen-com/hyperframes/commit/cd975d8c2805acc78542a68433271f771352de23">cd975d8c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3590">#3590</a>).</li>
-<li><strong>Rendering:</strong> When capture verification fails, use the available streaming fallback if saving frames to disk would exceed available storage (<a href="https://github.com/heygen-com/hyperframes/commit/4c26ffe8ce910ae1b3a41479192f613a6a4bd75b">4c26ffe8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3703">#3703</a>).</li>
-<li><strong>Video layout:</strong> Keep inactive nested videos out of the layout so neighboring videos do not shift during rendering (<a href="https://github.com/heygen-com/hyperframes/commit/fdf9ffac953d9d18329907d6956faa58c73ad489">fdf9ffac9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3639">#3639</a>).</li>
-<li><strong>Clip visibility:</strong> Show later root-level clips when their start time arrives, even if the runtime previously hid them (<a href="https://github.com/heygen-com/hyperframes/commit/1acc65dbf813d5750c241c7e6e15b48329271ffb">1acc65dbf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3893">#3893</a>).</li>
-<li><strong>Audio:</strong> Leave extra headroom when correcting AAC peaks so re-encoding is less likely to push them back above the delivery limit. Failed corrections now report measurements (<a href="https://github.com/heygen-com/hyperframes/commit/58707afaa04371b1d2cd7b5ff9154804add7f652">58707afaa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3693">#3693</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Fix links to examples, transitions, and shared guidance in the video creation skills (<a href="https://github.com/heygen-com/hyperframes/commit/4aa6e17b762e9478d2bfd35e1ac6cc6f011a5d0c">4aa6e17b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3920">#3920</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.36...v0.8.37">https://github.com/heygen-com/hyperframes/compare/v0.8.36...v0.8.37</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.37</h1>
-<p>Released on 2026-09-13.</p>
-<p>Bundled HTML now embeds supported fonts and images up to 2 MiB each, so they remain available without the project folder. This release also fixes missing clips, shifting video layouts, render recovery on low disk space, and AAC audio peak correction.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Bundling:</strong> Embed supported local fonts and raster images up to 2 MiB each in bundled HTML. Larger assets warn and remain external, as do audio and video (<a href="https://github.com/heygen-com/hyperframes/commit/cd975d8c2805acc78542a68433271f771352de23">cd975d8c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3590">#3590</a>).</li>
-<li><strong>Rendering:</strong> When capture verification fails, use the available streaming fallback if saving frames to disk would exceed available storage (<a href="https://github.com/heygen-com/hyperframes/commit/4c26ffe8ce910ae1b3a41479192f613a6a4bd75b">4c26ffe8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3703">#3703</a>).</li>
-<li><strong>Video layout:</strong> Keep inactive nested videos out of the layout so neighboring videos do not shift during rendering (<a href="https://github.com/heygen-com/hyperframes/commit/fdf9ffac953d9d18329907d6956faa58c73ad489">fdf9ffac9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3639">#3639</a>).</li>
-<li><strong>Clip visibility:</strong> Show later root-level clips when their start time arrives, even if the runtime previously hid them (<a href="https://github.com/heygen-com/hyperframes/commit/1acc65dbf813d5750c241c7e6e15b48329271ffb">1acc65dbf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3893">#3893</a>).</li>
-<li><strong>Audio:</strong> Leave extra headroom when correcting AAC peaks so re-encoding is less likely to push them back above the delivery limit. Failed corrections now report measurements (<a href="https://github.com/heygen-com/hyperframes/commit/58707afaa04371b1d2cd7b5ff9154804add7f652">58707afaa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3693">#3693</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Fix links to examples, transitions, and shared guidance in the video creation skills (<a href="https://github.com/heygen-com/hyperframes/commit/4aa6e17b762e9478d2bfd35e1ac6cc6f011a5d0c">4aa6e17b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3920">#3920</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.36...v0.8.37">https://github.com/heygen-com/hyperframes/compare/v0.8.36...v0.8.37</a></p>
 ]]></content:encoded>
         </item>
     </channel>
