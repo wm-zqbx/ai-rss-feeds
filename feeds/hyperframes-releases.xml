@@ -4,11 +4,43 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 29 Sep 2026 06:50:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Sep 2026 16:06:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.92]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.92</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.92</guid>
+            <pubDate>Tue, 29 Sep 2026 16:06:20 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.92</h1>
+<p>Released on 2026-09-29.</p>
+<p>A clip you drop on a row now stays on that row, and hidden keyframes no longer widen the timeline. Rendering a folder source names the folder instead of crashing.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A clip dropped on a row stays on that row at the nearest free time (<a href="https://github.com/heygen-com/hyperframes/commit/65d66cb2c3494e498780897eb4a371ee05e27735">65d66cb2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4663">#4663</a>).</li>
+<li>Render names a folder composition source instead of crashing (<a href="https://github.com/heygen-com/hyperframes/commit/481dae1ed92ff5e65156a0fe18705ea4e7b32517">481dae1ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4613">#4613</a>).</li>
+<li><strong>Core:</strong> Bundling and rendering keep print-only, titled and non-CSS styles conditional (<a href="https://github.com/heygen-com/hyperframes/commit/c5a69727ffddc960dea6e940ab1d1a916854bc7e">c5a69727f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4664">#4664</a>).</li>
+<li><strong>Studio:</strong> With keyframes hidden, a keyframed clip no longer opens the track-name column (<a href="https://github.com/heygen-com/hyperframes/commit/ca714f10b55c0bf10e35f412e6c53c0ca8126e9e">ca714f10b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4725">#4725</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92">https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.92</h1>
+<p>Released on 2026-09-29.</p>
+<p>A clip you drop on a row now stays on that row, and hidden keyframes no longer widen the timeline. Rendering a folder source names the folder instead of crashing.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A clip dropped on a row stays on that row at the nearest free time (<a href="https://github.com/heygen-com/hyperframes/commit/65d66cb2c3494e498780897eb4a371ee05e27735">65d66cb2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4663">#4663</a>).</li>
+<li>Render names a folder composition source instead of crashing (<a href="https://github.com/heygen-com/hyperframes/commit/481dae1ed92ff5e65156a0fe18705ea4e7b32517">481dae1ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4613">#4613</a>).</li>
+<li><strong>Core:</strong> Bundling and rendering keep print-only, titled and non-CSS styles conditional (<a href="https://github.com/heygen-com/hyperframes/commit/c5a69727ffddc960dea6e940ab1d1a916854bc7e">c5a69727f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4664">#4664</a>).</li>
+<li><strong>Studio:</strong> With keyframes hidden, a keyframed clip no longer opens the track-name column (<a href="https://github.com/heygen-com/hyperframes/commit/ca714f10b55c0bf10e35f412e6c53c0ca8126e9e">ca714f10b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4725">#4725</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92">https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.91]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.91</link>
@@ -2753,44 +2785,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.43...v0.8.44">https://github.com/heygen-com/hyperframes/compare/v0.8.43...v0.8.44</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.43]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.43</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.43</guid>
-            <pubDate>Wed, 16 Sep 2026 18:09:52 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.43</h1>
-<p>Released on 2026-09-16.</p>
-<p>Portrait compositions no longer render clipped when the project was scaffolded at a different size, and <code>hyperframes lint</code> now warns before you render when the scaffold&#39;s <code>html, body</code> size drifts from the root. Render telemetry gains per-tag and failure-type detail, and docs search shows catalog source file names correctly.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Size <code>html</code> and <code>body</code> to the composition root at runtime. A portrait composition (for example 1080x1920) in a project scaffolded landscape used to render only its top 1080px, with the page background below. It now renders the full frame. Fixes <a href="https://github.com/heygen-com/hyperframes/issues/4001">#4001</a> (<a href="https://github.com/heygen-com/hyperframes/commit/eb0957a497208e72fda82952410d14dcb03cce77">eb0957a49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4005">#4005</a>).</li>
-<li><strong>Lint:</strong> New <code>root_dimensions_mismatch</code> warning. It fires when the root&#39;s <code>data-width</code>/<code>data-height</code> disagree with the <code>html, body</code> CSS size or the viewport meta, so the drift shows up in <code>lint</code> and <code>check</code> before a render. Sub-compositions saved as full HTML documents can trigger this warning even though the parent composition sizes them; it does not affect renders, and a fix follows in the next patch (<a href="https://github.com/heygen-com/hyperframes/commit/eb0957a497208e72fda82952410d14dcb03cce77">eb0957a49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4005">#4005</a>).</li>
-<li><strong>Docs:</strong> Catalog page &quot;Source&quot; section titles are now plain strings, so docs search shows the file name instead of <code>[object Object]</code> (<a href="https://github.com/heygen-com/hyperframes/commit/7b5fdb1ad28347272d235edea7aa6a9c762d5e1c">7b5fdb1ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4006">#4006</a>).</li>
-</ul>
-<h2>Features</h2>
-<ul>
-<li><strong>Telemetry:</strong> <code>render_complete</code> events now include <code>composition_element_tags</code> (a count per element tag), <code>aroll_video_count</code>, and <code>heygen_video_count</code>. <code>render_error</code> events add <code>error_name</code> and <code>failed_stage_code</code>, so failures can be grouped by error type and pipeline stage (<a href="https://github.com/heygen-com/hyperframes/commit/3704863d966aa2bbee305e69b4f8dbfa0b93090b">3704863d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4004">#4004</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.42...v0.8.43">https://github.com/heygen-com/hyperframes/compare/v0.8.42...v0.8.43</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.43</h1>
-<p>Released on 2026-09-16.</p>
-<p>Portrait compositions no longer render clipped when the project was scaffolded at a different size, and <code>hyperframes lint</code> now warns before you render when the scaffold&#39;s <code>html, body</code> size drifts from the root. Render telemetry gains per-tag and failure-type detail, and docs search shows catalog source file names correctly.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Size <code>html</code> and <code>body</code> to the composition root at runtime. A portrait composition (for example 1080x1920) in a project scaffolded landscape used to render only its top 1080px, with the page background below. It now renders the full frame. Fixes <a href="https://github.com/heygen-com/hyperframes/issues/4001">#4001</a> (<a href="https://github.com/heygen-com/hyperframes/commit/eb0957a497208e72fda82952410d14dcb03cce77">eb0957a49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4005">#4005</a>).</li>
-<li><strong>Lint:</strong> New <code>root_dimensions_mismatch</code> warning. It fires when the root&#39;s <code>data-width</code>/<code>data-height</code> disagree with the <code>html, body</code> CSS size or the viewport meta, so the drift shows up in <code>lint</code> and <code>check</code> before a render. Sub-compositions saved as full HTML documents can trigger this warning even though the parent composition sizes them; it does not affect renders, and a fix follows in the next patch (<a href="https://github.com/heygen-com/hyperframes/commit/eb0957a497208e72fda82952410d14dcb03cce77">eb0957a49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4005">#4005</a>).</li>
-<li><strong>Docs:</strong> Catalog page &quot;Source&quot; section titles are now plain strings, so docs search shows the file name instead of <code>[object Object]</code> (<a href="https://github.com/heygen-com/hyperframes/commit/7b5fdb1ad28347272d235edea7aa6a9c762d5e1c">7b5fdb1ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4006">#4006</a>).</li>
-</ul>
-<h2>Features</h2>
-<ul>
-<li><strong>Telemetry:</strong> <code>render_complete</code> events now include <code>composition_element_tags</code> (a count per element tag), <code>aroll_video_count</code>, and <code>heygen_video_count</code>. <code>render_error</code> events add <code>error_name</code> and <code>failed_stage_code</code>, so failures can be grouped by error type and pipeline stage (<a href="https://github.com/heygen-com/hyperframes/commit/3704863d966aa2bbee305e69b4f8dbfa0b93090b">3704863d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4004">#4004</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.42...v0.8.43">https://github.com/heygen-com/hyperframes/compare/v0.8.42...v0.8.43</a></p>
 ]]></content:encoded>
         </item>
     </channel>
