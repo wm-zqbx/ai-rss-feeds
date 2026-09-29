@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 29 Sep 2026 16:06:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Sep 2026 21:52:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.93]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.93</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.93</guid>
+            <pubDate>Tue, 29 Sep 2026 21:52:07 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.93</h1>
+<p>Released on 2026-09-29.</p>
+<p>A film with many video clips now opens several times faster in the Studio preview. It loads only the clips near the playhead, so the first frame and the timeline filmstrips appear sooner.</p>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> The preview loads only the media near the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/5a77dbcea12bcc11f8480b2fc1242afca16e4135">5a77dbcea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4682">#4682</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.92...v0.8.93">https://github.com/heygen-com/hyperframes/compare/v0.8.92...v0.8.93</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.93</h1>
+<p>Released on 2026-09-29.</p>
+<p>A film with many video clips now opens several times faster in the Studio preview. It loads only the clips near the playhead, so the first frame and the timeline filmstrips appear sooner.</p>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> The preview loads only the media near the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/5a77dbcea12bcc11f8480b2fc1242afca16e4135">5a77dbcea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4682">#4682</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.92...v0.8.93">https://github.com/heygen-com/hyperframes/compare/v0.8.92...v0.8.93</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.92]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.92</link>
@@ -2751,40 +2777,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.44...v0.8.45">https://github.com/heygen-com/hyperframes/compare/v0.8.44...v0.8.45</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.44]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.44</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.44</guid>
-            <pubDate>Wed, 16 Sep 2026 23:19:01 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.44</h1>
-<p>Released on 2026-09-16.</p>
-<p>The <code>root_dimensions_mismatch</code> false positive from v0.8.43 is fixed, so <code>lint</code> and <code>check --strict</code> stop flagging sub-compositions. The streaming encoder gains an opt-in locked keyframe interval, which no existing render turns on.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> The streaming encoder accepts <code>lockGopForChunkConcat</code> and <code>gopSize</code>, which force a keyframe at a fixed interval so encoded output can be cut and joined without re-encoding. It already existed on the disk encoder and now emits identical arguments on both paths. The flag defaults to off and an existing render produces the same FFmpeg arguments as before (<a href="https://github.com/heygen-com/hyperframes/commit/b4f1929cf0a7f7450185f36b29be69d2a952bc6f">b4f1929cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3973">#3973</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> <code>root_dimensions_mismatch</code> no longer fires for sub-compositions. A sub-composition&#39;s own <code>&lt;meta viewport&gt;</code> and <code>html, body</code> CSS never reach the live rendering document, because the runtime mounts only its matched subtree, so the warning was drift that could not clip anything. v0.8.43 shipped the warning with this known false positive and this is the promised follow-up. A top-level mismatch is still reported, and a viewport-meta-only mismatch now says so in its own words rather than warning about clipping (<a href="https://github.com/heygen-com/hyperframes/commit/2229d0d6a6eaca5822cc5bfdfa0dc02812667db1">2229d0d6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4012">#4012</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.43...v0.8.44">https://github.com/heygen-com/hyperframes/compare/v0.8.43...v0.8.44</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.44</h1>
-<p>Released on 2026-09-16.</p>
-<p>The <code>root_dimensions_mismatch</code> false positive from v0.8.43 is fixed, so <code>lint</code> and <code>check --strict</code> stop flagging sub-compositions. The streaming encoder gains an opt-in locked keyframe interval, which no existing render turns on.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> The streaming encoder accepts <code>lockGopForChunkConcat</code> and <code>gopSize</code>, which force a keyframe at a fixed interval so encoded output can be cut and joined without re-encoding. It already existed on the disk encoder and now emits identical arguments on both paths. The flag defaults to off and an existing render produces the same FFmpeg arguments as before (<a href="https://github.com/heygen-com/hyperframes/commit/b4f1929cf0a7f7450185f36b29be69d2a952bc6f">b4f1929cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3973">#3973</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> <code>root_dimensions_mismatch</code> no longer fires for sub-compositions. A sub-composition&#39;s own <code>&lt;meta viewport&gt;</code> and <code>html, body</code> CSS never reach the live rendering document, because the runtime mounts only its matched subtree, so the warning was drift that could not clip anything. v0.8.43 shipped the warning with this known false positive and this is the promised follow-up. A top-level mismatch is still reported, and a viewport-meta-only mismatch now says so in its own words rather than warning about clipping (<a href="https://github.com/heygen-com/hyperframes/commit/2229d0d6a6eaca5822cc5bfdfa0dc02812667db1">2229d0d6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4012">#4012</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.43...v0.8.44">https://github.com/heygen-com/hyperframes/compare/v0.8.43...v0.8.44</a></p>
 ]]></content:encoded>
         </item>
     </channel>
