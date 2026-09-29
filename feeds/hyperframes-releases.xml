@@ -4,11 +4,63 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 29 Sep 2026 02:36:02 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Sep 2026 06:50:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.91]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.91</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.91</guid>
+            <pubDate>Tue, 29 Sep 2026 06:50:49 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.91</h1>
+<p>Released on 2026-09-29.</p>
+<p>An app that embeds the timeline can now map a ruler click to the right time, even when the track-name column is open. Clips inside nested compositions sit at their master time, and moving one word moves only that word.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> The timeline publishes where it draws 0 s, so an embedding app can map a click to a time (<a href="https://github.com/heygen-com/hyperframes/commit/b171ee57169604f425082d48307ad9d0de18be5c">b171ee571</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4724">#4724</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Clips inside nested compositions sit at their master time (<a href="https://github.com/heygen-com/hyperframes/commit/3dc3a9ca1a48d6937f5e47e11c44c40b3b2f0ac2">3dc3a9ca1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4681">#4681</a>).</li>
+<li><strong>Studio:</strong> Moving one word moves only that word, not every word sharing its animation (<a href="https://github.com/heygen-com/hyperframes/commit/5606b31020e14bcab3a031fc6db561441c980149">5606b3102</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4705">#4705</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Adopters:</strong> Add Skyflo (<a href="https://github.com/heygen-com/hyperframes/commit/c6b5edc967b64ce7c838fe1525c41feae0b6c634">c6b5edc96</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4655">#4655</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li>Resync the generated cloud client (<a href="https://github.com/heygen-com/hyperframes/commit/f361ee4bc4bbdf51f2ee31d3e093c062829140f9">f361ee4bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4716">#4716</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91">https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.91</h1>
+<p>Released on 2026-09-29.</p>
+<p>An app that embeds the timeline can now map a ruler click to the right time, even when the track-name column is open. Clips inside nested compositions sit at their master time, and moving one word moves only that word.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> The timeline publishes where it draws 0 s, so an embedding app can map a click to a time (<a href="https://github.com/heygen-com/hyperframes/commit/b171ee57169604f425082d48307ad9d0de18be5c">b171ee571</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4724">#4724</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Clips inside nested compositions sit at their master time (<a href="https://github.com/heygen-com/hyperframes/commit/3dc3a9ca1a48d6937f5e47e11c44c40b3b2f0ac2">3dc3a9ca1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4681">#4681</a>).</li>
+<li><strong>Studio:</strong> Moving one word moves only that word, not every word sharing its animation (<a href="https://github.com/heygen-com/hyperframes/commit/5606b31020e14bcab3a031fc6db561441c980149">5606b3102</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4705">#4705</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Adopters:</strong> Add Skyflo (<a href="https://github.com/heygen-com/hyperframes/commit/c6b5edc967b64ce7c838fe1525c41feae0b6c634">c6b5edc96</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4655">#4655</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li>Resync the generated cloud client (<a href="https://github.com/heygen-com/hyperframes/commit/f361ee4bc4bbdf51f2ee31d3e093c062829140f9">f361ee4bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4716">#4716</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91">https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.90]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.90</link>
@@ -2739,48 +2791,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.42...v0.8.43">https://github.com/heygen-com/hyperframes/compare/v0.8.42...v0.8.43</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.42]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.42</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.42</guid>
-            <pubDate>Wed, 16 Sep 2026 13:44:23 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.42</h1>
-<p>Released on 2026-09-16.</p>
-<p>Studio preview and render downloads now work for compositions and files with non-Latin-1 names. Forced <code>--sdr</code> renders tone-map HDR sources so colors match the Studio preview. HDR auto-promotion now shows up in <code>check --json</code>, and render workers no longer survive as orphans after Ctrl-C or a parent exit.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Stop render and preview worker processes from surviving as orphans after Ctrl-C, parent exit, or a stopped Windows wrapper. Carry cancellation through final artifact promotion so a cancelled render never replaces an existing output. Set <code>HYPERFRAMES_RENDER_DETACHED=1</code> for intentionally detached renders (<a href="https://github.com/heygen-com/hyperframes/commit/08d48ab7539e3a21facbe005c0610f2dbc8bf5a5">08d48ab75</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3974">#3974</a>).</li>
-<li><strong>Engine:</strong> Tone-map HDR sources before frame extraction on forced <code>--sdr</code> renders, fixing the cool color cast versus the Studio preview (<a href="https://github.com/heygen-com/hyperframes/commit/ef48485b919c69735659a09dc01aa21aa73a4f51">ef48485b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3981">#3981</a>).</li>
-<li><strong>CLI:</strong> Report HDR auto-promotion in <code>check --json</code> with the triggering asset and resulting output pipeline, and print one render warning when it fires (<a href="https://github.com/heygen-com/hyperframes/commit/5d2478c6fae413f28c6106ca4359b952e7434a50">5d2478c6f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3985">#3985</a>).</li>
-<li><strong>Studio Server:</strong> Serve render downloads and file responses for non-Latin-1 filenames using RFC 6266 <code>Content-Disposition</code> headers (<a href="https://github.com/heygen-com/hyperframes/commit/b599f031a929f55ade71246a7b3c5701b311aa46">b599f031a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3984">#3984</a>).</li>
-<li><strong>Studio Server:</strong> Fix a Studio preview server crash for compositions whose file path contains non-Latin-1 characters by hashing sub-composition paths into ASCII-safe ETags (<a href="https://github.com/heygen-com/hyperframes/commit/edb6e87ba7fa8fa49039dc4ccbe5733cf58afdae">edb6e87ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3982">#3982</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> Cover held tails in HDR preflight (<a href="https://github.com/heygen-com/hyperframes/commit/ae18e3a327e66e18747cdcc7b4a16b20ea75f97a">ae18e3a32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3963">#3963</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.41...v0.8.42">https://github.com/heygen-com/hyperframes/compare/v0.8.41...v0.8.42</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.42</h1>
-<p>Released on 2026-09-16.</p>
-<p>Studio preview and render downloads now work for compositions and files with non-Latin-1 names. Forced <code>--sdr</code> renders tone-map HDR sources so colors match the Studio preview. HDR auto-promotion now shows up in <code>check --json</code>, and render workers no longer survive as orphans after Ctrl-C or a parent exit.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Stop render and preview worker processes from surviving as orphans after Ctrl-C, parent exit, or a stopped Windows wrapper. Carry cancellation through final artifact promotion so a cancelled render never replaces an existing output. Set <code>HYPERFRAMES_RENDER_DETACHED=1</code> for intentionally detached renders (<a href="https://github.com/heygen-com/hyperframes/commit/08d48ab7539e3a21facbe005c0610f2dbc8bf5a5">08d48ab75</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3974">#3974</a>).</li>
-<li><strong>Engine:</strong> Tone-map HDR sources before frame extraction on forced <code>--sdr</code> renders, fixing the cool color cast versus the Studio preview (<a href="https://github.com/heygen-com/hyperframes/commit/ef48485b919c69735659a09dc01aa21aa73a4f51">ef48485b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3981">#3981</a>).</li>
-<li><strong>CLI:</strong> Report HDR auto-promotion in <code>check --json</code> with the triggering asset and resulting output pipeline, and print one render warning when it fires (<a href="https://github.com/heygen-com/hyperframes/commit/5d2478c6fae413f28c6106ca4359b952e7434a50">5d2478c6f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3985">#3985</a>).</li>
-<li><strong>Studio Server:</strong> Serve render downloads and file responses for non-Latin-1 filenames using RFC 6266 <code>Content-Disposition</code> headers (<a href="https://github.com/heygen-com/hyperframes/commit/b599f031a929f55ade71246a7b3c5701b311aa46">b599f031a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3984">#3984</a>).</li>
-<li><strong>Studio Server:</strong> Fix a Studio preview server crash for compositions whose file path contains non-Latin-1 characters by hashing sub-composition paths into ASCII-safe ETags (<a href="https://github.com/heygen-com/hyperframes/commit/edb6e87ba7fa8fa49039dc4ccbe5733cf58afdae">edb6e87ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3982">#3982</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> Cover held tails in HDR preflight (<a href="https://github.com/heygen-com/hyperframes/commit/ae18e3a327e66e18747cdcc7b4a16b20ea75f97a">ae18e3a32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3963">#3963</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.41...v0.8.42">https://github.com/heygen-com/hyperframes/compare/v0.8.41...v0.8.42</a></p>
 ]]></content:encoded>
         </item>
     </channel>
