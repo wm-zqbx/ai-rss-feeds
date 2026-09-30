@@ -4,11 +4,93 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 29 Sep 2026 21:52:07 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 04:16:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.95]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.95</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.95</guid>
+            <pubDate>Wed, 30 Sep 2026 04:16:26 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.95</h1>
+<p>Released on 2026-09-30.</p>
+<p>The Studio timeline now shows an empty lane below the last track where you can drop media. Video clips can play louder than 100% in the preview, and undo puts a resized, rotated or moved element back where it was.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Draw the empty lane below the last track as a drop target and tighten the top gap (<a href="https://github.com/heygen-com/hyperframes/commit/c3f7066bf33f9b5b826d5de933a414ddc59bd6df">c3f7066bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4741">#4741</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> A video&#39;s sound plays at its boosted volume in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/2fc5a37fcebaaa1ed9b2dd7f2f6dd4b2983efe30">2fc5a37fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4746">#4746</a>).</li>
+<li><strong>Studio:</strong> Undo puts a resized, rotated or moved element back on screen (<a href="https://github.com/heygen-com/hyperframes/commit/efd3c51ac9b7ce89e8c8fb72b60c96918f012f5d">efd3c51ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4740">#4740</a>).</li>
+<li><strong>Studio:</strong> A timeline scrubs when its host omits sessionEpoch (<a href="https://github.com/heygen-com/hyperframes/commit/7a1869d9218caf8bf3e95ef4eaea27d57b80f724">7a1869d92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4742">#4742</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.94...v0.8.95">https://github.com/heygen-com/hyperframes/compare/v0.8.94...v0.8.95</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.95</h1>
+<p>Released on 2026-09-30.</p>
+<p>The Studio timeline now shows an empty lane below the last track where you can drop media. Video clips can play louder than 100% in the preview, and undo puts a resized, rotated or moved element back where it was.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Draw the empty lane below the last track as a drop target and tighten the top gap (<a href="https://github.com/heygen-com/hyperframes/commit/c3f7066bf33f9b5b826d5de933a414ddc59bd6df">c3f7066bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4741">#4741</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> A video&#39;s sound plays at its boosted volume in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/2fc5a37fcebaaa1ed9b2dd7f2f6dd4b2983efe30">2fc5a37fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4746">#4746</a>).</li>
+<li><strong>Studio:</strong> Undo puts a resized, rotated or moved element back on screen (<a href="https://github.com/heygen-com/hyperframes/commit/efd3c51ac9b7ce89e8c8fb72b60c96918f012f5d">efd3c51ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4740">#4740</a>).</li>
+<li><strong>Studio:</strong> A timeline scrubs when its host omits sessionEpoch (<a href="https://github.com/heygen-com/hyperframes/commit/7a1869d9218caf8bf3e95ef4eaea27d57b80f724">7a1869d92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4742">#4742</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.94...v0.8.95">https://github.com/heygen-com/hyperframes/compare/v0.8.94...v0.8.95</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.94]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.94</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.94</guid>
+            <pubDate>Wed, 30 Sep 2026 00:48:00 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.94</h1>
+<p>Released on 2026-09-30.</p>
+<p>Editing in Studio now does what you expect more often. Corner drags on small elements resize them, text selection keeps the edit open, and resizing a moving element no longer adds keyframes. Apps that embed Studio can also turn off body drags and choose how the timeline looks.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> A host can turn off body drags and keep the resize, rotate and crop handles (<a href="https://github.com/heygen-com/hyperframes/commit/ac754b25d0c05a5de042d4fcacb6969629c7701c">ac754b25d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4732">#4732</a>).</li>
+<li><strong>Studio:</strong> Let a host hide timeline history, place the shortcuts button and set track padding (<a href="https://github.com/heygen-com/hyperframes/commit/26db3070161c4b6d98fb9cbb15db4f9d9a7644c1">26db30701</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4739">#4739</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Selecting words while editing text keeps the edit open (<a href="https://github.com/heygen-com/hyperframes/commit/5470d5dea1053ab80777c3f5c72830b4786f2672">5470d5dea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4738">#4738</a>).</li>
+<li><strong>Studio:</strong> A corner drag on a small element resizes it instead of starting a crop (<a href="https://github.com/heygen-com/hyperframes/commit/3e4ccd956700ba11f4490247fa0a84c77c493ee7">3e4ccd956</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4730">#4730</a>).</li>
+<li><strong>Studio:</strong> Resizing a faded or moving element writes a plain size, not keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/d2851aa304e15b8b4a6cdc8ba6dd0a6ddaf365cf">d2851aa30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4737">#4737</a>).</li>
+<li><strong>Core:</strong> Namespace SVG ids during composition inline to prevent cross-scene collisions (<a href="https://github.com/heygen-com/hyperframes/commit/bd873ec35c58140e66c811c6e9ba3a55a954d985">bd873ec35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3494">#3494</a>).</li>
+<li><strong>Producer:</strong> Keep clip playback rate in distributed video metadata (<a href="https://github.com/heygen-com/hyperframes/commit/3631ee3da0e7cd3ca7e3047dbb13a55c4f638276">3631ee3da</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4736">#4736</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.93...v0.8.94">https://github.com/heygen-com/hyperframes/compare/v0.8.93...v0.8.94</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.94</h1>
+<p>Released on 2026-09-30.</p>
+<p>Editing in Studio now does what you expect more often. Corner drags on small elements resize them, text selection keeps the edit open, and resizing a moving element no longer adds keyframes. Apps that embed Studio can also turn off body drags and choose how the timeline looks.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> A host can turn off body drags and keep the resize, rotate and crop handles (<a href="https://github.com/heygen-com/hyperframes/commit/ac754b25d0c05a5de042d4fcacb6969629c7701c">ac754b25d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4732">#4732</a>).</li>
+<li><strong>Studio:</strong> Let a host hide timeline history, place the shortcuts button and set track padding (<a href="https://github.com/heygen-com/hyperframes/commit/26db3070161c4b6d98fb9cbb15db4f9d9a7644c1">26db30701</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4739">#4739</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Selecting words while editing text keeps the edit open (<a href="https://github.com/heygen-com/hyperframes/commit/5470d5dea1053ab80777c3f5c72830b4786f2672">5470d5dea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4738">#4738</a>).</li>
+<li><strong>Studio:</strong> A corner drag on a small element resizes it instead of starting a crop (<a href="https://github.com/heygen-com/hyperframes/commit/3e4ccd956700ba11f4490247fa0a84c77c493ee7">3e4ccd956</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4730">#4730</a>).</li>
+<li><strong>Studio:</strong> Resizing a faded or moving element writes a plain size, not keyframes (<a href="https://github.com/heygen-com/hyperframes/commit/d2851aa304e15b8b4a6cdc8ba6dd0a6ddaf365cf">d2851aa30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4737">#4737</a>).</li>
+<li><strong>Core:</strong> Namespace SVG ids during composition inline to prevent cross-scene collisions (<a href="https://github.com/heygen-com/hyperframes/commit/bd873ec35c58140e66c811c6e9ba3a55a954d985">bd873ec35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3494">#3494</a>).</li>
+<li><strong>Producer:</strong> Keep clip playback rate in distributed video metadata (<a href="https://github.com/heygen-com/hyperframes/commit/3631ee3da0e7cd3ca7e3047dbb13a55c4f638276">3631ee3da</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4736">#4736</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.93...v0.8.94">https://github.com/heygen-com/hyperframes/compare/v0.8.93...v0.8.94</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.93]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.93</link>
@@ -2673,110 +2755,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47">https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.46]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.46</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.46</guid>
-            <pubDate>Thu, 17 Sep 2026 05:52:44 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.46</h1>
-<p>Released on 2026-09-17.</p>
-<p>Engine motion blur picks its own sample count per frame now, instead of one fixed count for a whole render.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> The sub-frame motion blur added in v0.8.45 used a fixed sample count for every frame of a render (16 by default). That undersamples fast or hard-edged motion and oversamples content that barely moves. The engine now measures how much a frame actually moved before choosing how many samples it gets, between 16 and 64, so quality goes up where it was undersampled instead of being spent evenly on every frame. Frames that need the extra accuracy cost more to render; a frame whose only change is a fade or a colour shift skips the measurement step and stays at the old cost. Nothing changes if <code>samplesPerFrame</code> is set explicitly (<a href="https://github.com/heygen-com/hyperframes/commit/2ab7b8686870cb435674e20d48b4100db2fa2052">2ab7b8686</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4031">#4031</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.45...v0.8.46">https://github.com/heygen-com/hyperframes/compare/v0.8.45...v0.8.46</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.46</h1>
-<p>Released on 2026-09-17.</p>
-<p>Engine motion blur picks its own sample count per frame now, instead of one fixed count for a whole render.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> The sub-frame motion blur added in v0.8.45 used a fixed sample count for every frame of a render (16 by default). That undersamples fast or hard-edged motion and oversamples content that barely moves. The engine now measures how much a frame actually moved before choosing how many samples it gets, between 16 and 64, so quality goes up where it was undersampled instead of being spent evenly on every frame. Frames that need the extra accuracy cost more to render; a frame whose only change is a fade or a colour shift skips the measurement step and stays at the old cost. Nothing changes if <code>samplesPerFrame</code> is set explicitly (<a href="https://github.com/heygen-com/hyperframes/commit/2ab7b8686870cb435674e20d48b4100db2fa2052">2ab7b8686</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4031">#4031</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.45...v0.8.46">https://github.com/heygen-com/hyperframes/compare/v0.8.45...v0.8.46</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.45]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.45</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.45</guid>
-            <pubDate>Thu, 17 Sep 2026 03:00:38 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.45</h1>
-<p>Released on 2026-09-17.</p>
-<p>Motion blur arrives twice in this release, as two separate mechanisms for two different jobs. The catalog component reproduces the After Effects look, while the render engine computes the real shutter integral.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> <code>motionBlur</code> on a render configuration turns on sub-frame multi-sample blur. An empty object takes the defaults: 16 samples per frame, a 180 degree shutter angle and a shutter phase of -90. <code>samplesPerFrame</code> accepts up to 64. Setting it forces PNG frame capture, because the samples are averaged pixel by pixel and JPEG samples would be averaged after a lossy step. Whether a render captures lossless frames now has one owner instead of being decided in three places from a different fact (<a href="https://github.com/heygen-com/hyperframes/commit/b64a7a3a67ae1f5c22915a88938853169eb3cea2">b64a7a3a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4020">#4020</a>).</li>
-<li><strong>Engine:</strong> Each output frame can be the average of several captures taken across the shutter window. Because each sample re-renders the page, this integrates whatever the composition actually does inside the window: rotation, scale, opacity, filters and child animation, not translation alone. It is off unless asked for, and a static frame still costs one capture (<a href="https://github.com/heygen-com/hyperframes/commit/0a1c6f5a457ca1345d6b8ccede04769a0e009719">0a1c6f5a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4019">#4019</a>).</li>
-<li><strong>Producer and CLI:</strong> A render can output an HLS VOD package. It is the same H.264 and AAC encode as MP4, copied into MPEG-TS segments with playlists, and every segment starts on a keyframe (<a href="https://github.com/heygen-com/hyperframes/commit/462f9db73dc0951a112a057416d03effb2fcf1a0">462f9db73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4014">#4014</a>, <a href="https://github.com/heygen-com/hyperframes/commit/e4b1832fadd4c063bcf9a19cd351684815fbc23e">e4b1832fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4022">#4022</a>).</li>
-<li><strong>Telemetry:</strong> <code>render_complete</code> and <code>render_error</code> carry more about the render they describe: the requested output shape, which deterministic adapters the composition exercised, counts of audio, image, sub-composition, audio group and color grading elements, whether a LUT is present, and the browser and FFmpeg major versions. Every value comes from work the render already did, so nothing new runs. A Docker render reports no tool versions, because its preflight happens inside the container (<a href="https://github.com/heygen-com/hyperframes/commit/71bb88719e10ab7002dafd61478d2c84c255ba42">71bb88719</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4017">#4017</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> A frame that repeats its predecessor is reused instead of re-rendered, and with motion blur on that check ignored the shutter window. A still frame next to a moving one reused a buffer carrying none of that motion. The reuse now requires the whole window to be still. The guard&#39;s contract comes from <a href="https://github.com/heygen-com/hyperframes/pull/4013">#4013</a> by Dante-dan (<a href="https://github.com/heygen-com/hyperframes/commit/9117b364710444432504b98bfbb5543e381d956d">9117b3647</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4025">#4025</a>).</li>
-<li><strong>Producer:</strong> Asking for motion blur on the layered compositor route returned frames with no blur and no error. It now fails with a named error that says which route refused and why, instead of a render that looks finished and is not. The route is taken for HDR content and for shader transitions, and the message names both rather than blaming HDR for a composition that has none. &quot;Does this capture route support motion blur&quot; has one owner, keyed to the capture plan&#39;s own kind, so a new route cannot inherit silence. The explicit unsupported-mode error is the design in <a href="https://github.com/heygen-com/hyperframes/pull/4013">#4013</a> by Dante-dan (<a href="https://github.com/heygen-com/hyperframes/commit/77a45f6080daedd12ab67a3d1c9d165b8ae003b3">77a45f608</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4026">#4026</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> The <code>motion-blur</code> component now follows the After Effects shutter model instead of a row of hard copies. Measured against a real After Effects export over 72 frames, the match improved from 24.19 dB to 32.51 dB on average, and the worst frame from 17.07 dB to 27.57 dB (<a href="https://github.com/heygen-com/hyperframes/commit/9aa60a844fa645ef92949cf6025ddbb634a97e63">9aa60a844</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4008">#4008</a>).</li>
-</ul>
-<h2>Choosing a motion blur, and what each one costs</h2>
-<p>The catalog component and the engine path do different things. Applying both blurs the same motion twice.</p>
-<ul>
-<li>The catalog component is cheap, blurs translation only, and deliberately reproduces the After Effects look, which composites a sharp copy over the smear.</li>
-<li>The engine path blurs any animated property and computes the shutter integral, which is what a real camera shutter does. Peak opacity therefore drops during fast motion rather than staying anchored to a sharp core. That is the correct answer for a shutter and a different picture from the component.</li>
-<li>The engine path costs one capture per sample. At 16 samples a 1080p frame spends roughly 600 ms in the blend on top of the 16 captures, so a slow render is expected rather than stuck.</li>
-</ul>
-<h2>Known limits of the engine path</h2>
-<ul>
-<li>A video&#39;s own motion does not blur. Injected video frames are extracted once per output frame, so a sub-frame seek does not move them. A render that injects video frames refuses rather than pretending.</li>
-<li>Capture modes other than screenshot are refused with a named error, as is the layered compositor route.</li>
-<li>Frames are captured as PNG for the whole render.</li>
-<li>A shutter that is both wide and not centered, meaning <code>shutterPhase + shutterAngle</code> above 360, seeks past the end of the composition on the last frames. No default or documented configuration reaches it and the behaviour there is unproven.</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.44...v0.8.45">https://github.com/heygen-com/hyperframes/compare/v0.8.44...v0.8.45</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.45</h1>
-<p>Released on 2026-09-17.</p>
-<p>Motion blur arrives twice in this release, as two separate mechanisms for two different jobs. The catalog component reproduces the After Effects look, while the render engine computes the real shutter integral.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> <code>motionBlur</code> on a render configuration turns on sub-frame multi-sample blur. An empty object takes the defaults: 16 samples per frame, a 180 degree shutter angle and a shutter phase of -90. <code>samplesPerFrame</code> accepts up to 64. Setting it forces PNG frame capture, because the samples are averaged pixel by pixel and JPEG samples would be averaged after a lossy step. Whether a render captures lossless frames now has one owner instead of being decided in three places from a different fact (<a href="https://github.com/heygen-com/hyperframes/commit/b64a7a3a67ae1f5c22915a88938853169eb3cea2">b64a7a3a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4020">#4020</a>).</li>
-<li><strong>Engine:</strong> Each output frame can be the average of several captures taken across the shutter window. Because each sample re-renders the page, this integrates whatever the composition actually does inside the window: rotation, scale, opacity, filters and child animation, not translation alone. It is off unless asked for, and a static frame still costs one capture (<a href="https://github.com/heygen-com/hyperframes/commit/0a1c6f5a457ca1345d6b8ccede04769a0e009719">0a1c6f5a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4019">#4019</a>).</li>
-<li><strong>Producer and CLI:</strong> A render can output an HLS VOD package. It is the same H.264 and AAC encode as MP4, copied into MPEG-TS segments with playlists, and every segment starts on a keyframe (<a href="https://github.com/heygen-com/hyperframes/commit/462f9db73dc0951a112a057416d03effb2fcf1a0">462f9db73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4014">#4014</a>, <a href="https://github.com/heygen-com/hyperframes/commit/e4b1832fadd4c063bcf9a19cd351684815fbc23e">e4b1832fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4022">#4022</a>).</li>
-<li><strong>Telemetry:</strong> <code>render_complete</code> and <code>render_error</code> carry more about the render they describe: the requested output shape, which deterministic adapters the composition exercised, counts of audio, image, sub-composition, audio group and color grading elements, whether a LUT is present, and the browser and FFmpeg major versions. Every value comes from work the render already did, so nothing new runs. A Docker render reports no tool versions, because its preflight happens inside the container (<a href="https://github.com/heygen-com/hyperframes/commit/71bb88719e10ab7002dafd61478d2c84c255ba42">71bb88719</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4017">#4017</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> A frame that repeats its predecessor is reused instead of re-rendered, and with motion blur on that check ignored the shutter window. A still frame next to a moving one reused a buffer carrying none of that motion. The reuse now requires the whole window to be still. The guard&#39;s contract comes from <a href="https://github.com/heygen-com/hyperframes/pull/4013">#4013</a> by Dante-dan (<a href="https://github.com/heygen-com/hyperframes/commit/9117b364710444432504b98bfbb5543e381d956d">9117b3647</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4025">#4025</a>).</li>
-<li><strong>Producer:</strong> Asking for motion blur on the layered compositor route returned frames with no blur and no error. It now fails with a named error that says which route refused and why, instead of a render that looks finished and is not. The route is taken for HDR content and for shader transitions, and the message names both rather than blaming HDR for a composition that has none. &quot;Does this capture route support motion blur&quot; has one owner, keyed to the capture plan&#39;s own kind, so a new route cannot inherit silence. The explicit unsupported-mode error is the design in <a href="https://github.com/heygen-com/hyperframes/pull/4013">#4013</a> by Dante-dan (<a href="https://github.com/heygen-com/hyperframes/commit/77a45f6080daedd12ab67a3d1c9d165b8ae003b3">77a45f608</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4026">#4026</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> The <code>motion-blur</code> component now follows the After Effects shutter model instead of a row of hard copies. Measured against a real After Effects export over 72 frames, the match improved from 24.19 dB to 32.51 dB on average, and the worst frame from 17.07 dB to 27.57 dB (<a href="https://github.com/heygen-com/hyperframes/commit/9aa60a844fa645ef92949cf6025ddbb634a97e63">9aa60a844</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4008">#4008</a>).</li>
-</ul>
-<h2>Choosing a motion blur, and what each one costs</h2>
-<p>The catalog component and the engine path do different things. Applying both blurs the same motion twice.</p>
-<ul>
-<li>The catalog component is cheap, blurs translation only, and deliberately reproduces the After Effects look, which composites a sharp copy over the smear.</li>
-<li>The engine path blurs any animated property and computes the shutter integral, which is what a real camera shutter does. Peak opacity therefore drops during fast motion rather than staying anchored to a sharp core. That is the correct answer for a shutter and a different picture from the component.</li>
-<li>The engine path costs one capture per sample. At 16 samples a 1080p frame spends roughly 600 ms in the blend on top of the 16 captures, so a slow render is expected rather than stuck.</li>
-</ul>
-<h2>Known limits of the engine path</h2>
-<ul>
-<li>A video&#39;s own motion does not blur. Injected video frames are extracted once per output frame, so a sub-frame seek does not move them. A render that injects video frames refuses rather than pretending.</li>
-<li>Capture modes other than screenshot are refused with a named error, as is the layered compositor route.</li>
-<li>Frames are captured as PNG for the whole render.</li>
-<li>A shutter that is both wide and not centered, meaning <code>shutterPhase + shutterAngle</code> above 360, seeks past the end of the composition on the last frames. No default or documented configuration reaches it and the behaviour there is unproven.</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.44...v0.8.45">https://github.com/heygen-com/hyperframes/compare/v0.8.44...v0.8.45</a></p>
 ]]></content:encoded>
         </item>
     </channel>
