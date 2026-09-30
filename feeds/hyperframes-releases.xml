@@ -4,11 +4,39 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 30 Sep 2026 04:16:26 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 05:36:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.96]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.96</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.96</guid>
+            <pubDate>Wed, 30 Sep 2026 05:36:28 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.96</h1>
+<p>Released on 2026-09-30.</p>
+<p>Two Studio editing fixes. An element placed with a stylesheet translate no longer jumps when you move or resize it, and a crop drag that ends where it started no longer adds an undo step.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A crop drag that ends where it started saves nothing (<a href="https://github.com/heygen-com/hyperframes/commit/67327a8b25a4502b7c29571505be9c575c675ea2">67327a8b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4745">#4745</a>).</li>
+<li><strong>Studio:</strong> An element placed by a stylesheet translate stays put after a move or resize (<a href="https://github.com/heygen-com/hyperframes/commit/4825f792949282d561cdfe32cdcc7fce1cf2605d">4825f7929</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4734">#4734</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96">https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.96</h1>
+<p>Released on 2026-09-30.</p>
+<p>Two Studio editing fixes. An element placed with a stylesheet translate no longer jumps when you move or resize it, and a crop drag that ends where it started no longer adds an undo step.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A crop drag that ends where it started saves nothing (<a href="https://github.com/heygen-com/hyperframes/commit/67327a8b25a4502b7c29571505be9c575c675ea2">67327a8b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4745">#4745</a>).</li>
+<li><strong>Studio:</strong> An element placed by a stylesheet translate stays put after a move or resize (<a href="https://github.com/heygen-com/hyperframes/commit/4825f792949282d561cdfe32cdcc7fce1cf2605d">4825f7929</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4734">#4734</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96">https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.95]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.95</link>
@@ -2709,52 +2737,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.47...v0.8.48">https://github.com/heygen-com/hyperframes/compare/v0.8.47...v0.8.48</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.47]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.47</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.47</guid>
-            <pubDate>Fri, 18 Sep 2026 08:15:54 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.47</h1>
-<p>Released on 2026-09-18.</p>
-<p>Studio now saves edits through the <code>@hyperframes/sdk</code> by default instead of the older server handlers. Every edit family is covered. The GSAP script writer is now acorn as well. Both can be turned off with an environment variable.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Every edit now persists through the SDK by default. The path previously shipped dark, so the engine was tested but never exercised by real sessions. Turning it on puts one code path behind Studio, the AI Studio host, and agents, instead of each consumer maintaining its own. An edit that cannot be expressed as an SDK operation still falls back to the server path, and now records why (<a href="https://github.com/heygen-com/hyperframes/commit/26ea8a0740a986383ce4aa7d2b399b992c838350">26ea8a074</a>).</li>
-<li><strong>Studio:</strong> GSAP script writes use the acorn writer by default, replacing recast. Both produce the same result, and the old writer stays available for one release as a fallback before it is removed (<a href="https://github.com/heygen-com/hyperframes/commit/407cacf0aef3c498e79dc7eaa46b3f4bbfa52035">407cacf0a</a>).</li>
-<li><strong>Studio:</strong> Telemetry now records every fallback and its reason, including the case where an element exists but could not be resolved for an edit (<a href="https://github.com/heygen-com/hyperframes/commit/9ef37e5163d861248ac3c158a5d612a3143a682f">9ef37e516</a>, <a href="https://github.com/heygen-com/hyperframes/commit/9f3a778fd11b86186636729df8e4b5d964824789">9f3a778fd</a>). This is what makes it possible to tell whether the SDK is really handling edits or quietly handing them back.</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Player:</strong> The interactive playback clock absorbs a main-thread stall instead of skipping past it (<a href="https://github.com/heygen-com/hyperframes/commit/2de3ca5f86da3b8bb2fdc3e62dd181c4ca565f55">2de3ca5f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4053">#4053</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Blur every transform driver, and ship the reference case as shutter-slam (<a href="https://github.com/heygen-com/hyperframes/commit/82f49262ec557a4160773df831dc5b228ac48a66">82f49262e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4038">#4038</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47">https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.47</h1>
-<p>Released on 2026-09-18.</p>
-<p>Studio now saves edits through the <code>@hyperframes/sdk</code> by default instead of the older server handlers. Every edit family is covered. The GSAP script writer is now acorn as well. Both can be turned off with an environment variable.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Every edit now persists through the SDK by default. The path previously shipped dark, so the engine was tested but never exercised by real sessions. Turning it on puts one code path behind Studio, the AI Studio host, and agents, instead of each consumer maintaining its own. An edit that cannot be expressed as an SDK operation still falls back to the server path, and now records why (<a href="https://github.com/heygen-com/hyperframes/commit/26ea8a0740a986383ce4aa7d2b399b992c838350">26ea8a074</a>).</li>
-<li><strong>Studio:</strong> GSAP script writes use the acorn writer by default, replacing recast. Both produce the same result, and the old writer stays available for one release as a fallback before it is removed (<a href="https://github.com/heygen-com/hyperframes/commit/407cacf0aef3c498e79dc7eaa46b3f4bbfa52035">407cacf0a</a>).</li>
-<li><strong>Studio:</strong> Telemetry now records every fallback and its reason, including the case where an element exists but could not be resolved for an edit (<a href="https://github.com/heygen-com/hyperframes/commit/9ef37e5163d861248ac3c158a5d612a3143a682f">9ef37e516</a>, <a href="https://github.com/heygen-com/hyperframes/commit/9f3a778fd11b86186636729df8e4b5d964824789">9f3a778fd</a>). This is what makes it possible to tell whether the SDK is really handling edits or quietly handing them back.</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Player:</strong> The interactive playback clock absorbs a main-thread stall instead of skipping past it (<a href="https://github.com/heygen-com/hyperframes/commit/2de3ca5f86da3b8bb2fdc3e62dd181c4ca565f55">2de3ca5f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4053">#4053</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Blur every transform driver, and ship the reference case as shutter-slam (<a href="https://github.com/heygen-com/hyperframes/commit/82f49262ec557a4160773df831dc5b228ac48a66">82f49262e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4038">#4038</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47">https://github.com/heygen-com/hyperframes/compare/v0.8.46...v0.8.47</a></p>
 ]]></content:encoded>
         </item>
     </channel>
