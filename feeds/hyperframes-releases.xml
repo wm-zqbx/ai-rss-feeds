@@ -4,11 +4,55 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 30 Sep 2026 19:02:11 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 23:00:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.99]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.99</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.99</guid>
+            <pubDate>Wed, 30 Sep 2026 23:00:31 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.99</h1>
+<p>Released on 2026-09-30.</p>
+<p>Manual editing in Studio is more exact. Dragged and rotated elements follow the pointer and land where you drop them. Resizing a cropped element keeps the same part in view, and moving a clip on the timeline moves its animations too.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A dragged or rotated element follows the pointer exactly and keeps its sub-pixel spot on drop (<a href="https://github.com/heygen-com/hyperframes/commit/ca3a3f6e0b37c993ec25a5280bd74fbfc828c0db">ca3a3f6e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4766">#4766</a>).</li>
+<li><strong>Core:</strong> Pair a staged scene copy&#39;s video with its own render frame (<a href="https://github.com/heygen-com/hyperframes/commit/7b0ec697040083a9b92c0b4fb87abdb5f6774bc7">7b0ec6970</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4791">#4791</a>).</li>
+<li><strong>Parsers:</strong> Moving a clip on the timeline moves its inner animations too (<a href="https://github.com/heygen-com/hyperframes/commit/f1c1f1d69cfe3a6b1c2d80bc88043e26fd52b907">f1c1f1d69</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4761">#4761</a>).</li>
+<li>Readers never see an empty or half-written project file (<a href="https://github.com/heygen-com/hyperframes/commit/567525a8c2e420c8590f7858d522bd13a20c0783">567525a8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4777">#4777</a>).</li>
+<li><strong>Studio:</strong> Resizing a cropped element keeps the same part of it in view (<a href="https://github.com/heygen-com/hyperframes/commit/76c634dfa5f9d0119342e0eda80325aee518dff4">76c634dfa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4743">#4743</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Measure render drift against a producer frame in the edit accuracy bench (<a href="https://github.com/heygen-com/hyperframes/commit/ca5463146499dc17f0d7b0350e8325640edba580">ca5463146</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4764">#4764</a>).</li>
+<li><strong>Tests:</strong> Stop two merge-queue flakes in the history prune and timeline tests (<a href="https://github.com/heygen-com/hyperframes/commit/299670e210c2dfb5c3f51b0fb9ed5ab748b0a513">299670e21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4786">#4786</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99">https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.99</h1>
+<p>Released on 2026-09-30.</p>
+<p>Manual editing in Studio is more exact. Dragged and rotated elements follow the pointer and land where you drop them. Resizing a cropped element keeps the same part in view, and moving a clip on the timeline moves its animations too.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A dragged or rotated element follows the pointer exactly and keeps its sub-pixel spot on drop (<a href="https://github.com/heygen-com/hyperframes/commit/ca3a3f6e0b37c993ec25a5280bd74fbfc828c0db">ca3a3f6e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4766">#4766</a>).</li>
+<li><strong>Core:</strong> Pair a staged scene copy&#39;s video with its own render frame (<a href="https://github.com/heygen-com/hyperframes/commit/7b0ec697040083a9b92c0b4fb87abdb5f6774bc7">7b0ec6970</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4791">#4791</a>).</li>
+<li><strong>Parsers:</strong> Moving a clip on the timeline moves its inner animations too (<a href="https://github.com/heygen-com/hyperframes/commit/f1c1f1d69cfe3a6b1c2d80bc88043e26fd52b907">f1c1f1d69</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4761">#4761</a>).</li>
+<li>Readers never see an empty or half-written project file (<a href="https://github.com/heygen-com/hyperframes/commit/567525a8c2e420c8590f7858d522bd13a20c0783">567525a8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4777">#4777</a>).</li>
+<li><strong>Studio:</strong> Resizing a cropped element keeps the same part of it in view (<a href="https://github.com/heygen-com/hyperframes/commit/76c634dfa5f9d0119342e0eda80325aee518dff4">76c634dfa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4743">#4743</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Measure render drift against a producer frame in the edit accuracy bench (<a href="https://github.com/heygen-com/hyperframes/commit/ca5463146499dc17f0d7b0350e8325640edba580">ca5463146</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4764">#4764</a>).</li>
+<li><strong>Tests:</strong> Stop two merge-queue flakes in the history prune and timeline tests (<a href="https://github.com/heygen-com/hyperframes/commit/299670e210c2dfb5c3f51b0fb9ed5ab748b0a513">299670e21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4786">#4786</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99">https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.98]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.98</link>
@@ -2629,76 +2673,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.50...v0.8.51">https://github.com/heygen-com/hyperframes/compare/v0.8.50...v0.8.51</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.50]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.50</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.50</guid>
-            <pubDate>Sat, 19 Sep 2026 03:00:42 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.50</h1>
-<p>Released on 2026-09-19.</p>
-<p>Compositions that use a <code>&lt;canvas&gt;</code> — Three.js, shaders, charts — no longer lose their Studio editing session. The timeline also moves to one row per top-level element, and gains copy, paste and duplicate for clip groups.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> The timeline shows one row per top-level element and no child rows (<a href="https://github.com/heygen-com/hyperframes/commit/7797c5ead4c0ecd41745b3be9b8f5a266762e603">7797c5ead</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4132">#4132</a>).</li>
-<li><strong>Studio:</strong> Preview ruler and safe-margin toggles (<a href="https://github.com/heygen-com/hyperframes/commit/898d27869ea16aeb6e58d7f6fe0ef1267ccbfe30">898d27869</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4127">#4127</a>).</li>
-<li><strong>Studio:</strong> Add per-project UI preference scoping (<a href="https://github.com/heygen-com/hyperframes/commit/a192701adb118e510d6c4f284108e99f2e37ed85">a192701ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4093">#4093</a>).</li>
-<li><strong>Studio:</strong> The agent sees every timeline clip, audio included (<a href="https://github.com/heygen-com/hyperframes/commit/6995a4c2f7a5ce5df9553920f82e8fbadebe928d">6995a4c2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4123">#4123</a>).</li>
-<li><strong>Parsers:</strong> Share top-level timeline element and track kind definitions (<a href="https://github.com/heygen-com/hyperframes/commit/02c415dd8b531783130aa5b66c1c0df94f6b29ba">02c415dd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4124">#4124</a>).</li>
-<li><strong>Studio:</strong> Copy, paste and duplicate clip groups on the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/0b6d1039ed0a799fd088fd7af8a4b9440208e23a">0b6d1039e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4064">#4064</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Show where a dragged file will land instead of a drop-to-add box (<a href="https://github.com/heygen-com/hyperframes/commit/63d0ea4d28f75f93fb5512dad46b91cd75dd780e">63d0ea4d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4142">#4142</a>).</li>
-<li><strong>Skills:</strong> Teach and ship the remotion translation as sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/ae0e8fcae1f7de04c084d3e974a955255ff23e39">ae0e8fcae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4141">#4141</a>).</li>
-<li><strong>Player:</strong> Perf harness waits for assets-ready before play instead of a fixed 5s (<a href="https://github.com/heygen-com/hyperframes/commit/4bbcf650ae6ca09c17cb6d3ca2f05c76ab1d3e4b">4bbcf650a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4137">#4137</a>).</li>
-<li><strong>Skills:</strong> Mount music-to-video motion primitives as sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/f2976536deb7a06fc16a818a8b08717d4118e5b9">f2976536d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4136">#4136</a>).</li>
-<li><strong>Studio:</strong> A composition containing a <code>&lt;canvas&gt;</code> element kept its edits on the older server path instead of the SDK, because building the editing session for it threw. Canvas-heavy work — Three.js, shaders, particle effects, charts — was affected, and nothing surfaced it until v0.8.47 added the telemetry that caught it (<a href="https://github.com/heygen-com/hyperframes/commit/d5e1de92018cd8dd9b5d3d02e8c946640b1e12e7">d5e1de920</a>, <a href="https://github.com/heygen-com/hyperframes/commit/db78b4fe68c91397a9a93453d91058c05c488a45">db78b4fe6</a>).</li>
-<li><strong>Core:</strong> Script coalescing no longer moves an inline script past a src script (<a href="https://github.com/heygen-com/hyperframes/commit/14e5f576701ae51fd9a18e3e710553b3784ebefd">14e5f5767</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4133">#4133</a>).</li>
-<li><strong>Studio:</strong> Hovering or selecting a timeline clip no longer swaps its filmstrip (<a href="https://github.com/heygen-com/hyperframes/commit/c80ae95084e255fc12f6a558c8851bc1508dc5a5">c80ae9508</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4130">#4130</a>).</li>
-<li><strong>CLI:</strong> Stop the workspace build check test from depending on wall-clock mtimes (<a href="https://github.com/heygen-com/hyperframes/commit/93921dccc85109f4a541edb440f88d7989aac18b">93921dccc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4098">#4098</a>).</li>
-<li><strong>Capture:</strong> Never silently render a webgpu composition blank (<a href="https://github.com/heygen-com/hyperframes/commit/9981d9afb74e1280bf7136cd0043d895cb570b24">9981d9afb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4091">#4091</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Ci:</strong> Run check-docs-catalog in the Lint job (<a href="https://github.com/heygen-com/hyperframes/commit/8dd697ab8fb9bf42ee6125dcc9f6405d39631208">8dd697ab8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4102">#4102</a>).</li>
-<li><strong>Registry:</strong> Stop gsap tweens from clobbering baked-in css transforms (<a href="https://github.com/heygen-com/hyperframes/commit/a2a5af8e199f524beb691788dd7be4f62a22d318">a2a5af8e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4090">#4090</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.49...v0.8.50">https://github.com/heygen-com/hyperframes/compare/v0.8.49...v0.8.50</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.50</h1>
-<p>Released on 2026-09-19.</p>
-<p>Compositions that use a <code>&lt;canvas&gt;</code> — Three.js, shaders, charts — no longer lose their Studio editing session. The timeline also moves to one row per top-level element, and gains copy, paste and duplicate for clip groups.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> The timeline shows one row per top-level element and no child rows (<a href="https://github.com/heygen-com/hyperframes/commit/7797c5ead4c0ecd41745b3be9b8f5a266762e603">7797c5ead</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4132">#4132</a>).</li>
-<li><strong>Studio:</strong> Preview ruler and safe-margin toggles (<a href="https://github.com/heygen-com/hyperframes/commit/898d27869ea16aeb6e58d7f6fe0ef1267ccbfe30">898d27869</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4127">#4127</a>).</li>
-<li><strong>Studio:</strong> Add per-project UI preference scoping (<a href="https://github.com/heygen-com/hyperframes/commit/a192701adb118e510d6c4f284108e99f2e37ed85">a192701ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4093">#4093</a>).</li>
-<li><strong>Studio:</strong> The agent sees every timeline clip, audio included (<a href="https://github.com/heygen-com/hyperframes/commit/6995a4c2f7a5ce5df9553920f82e8fbadebe928d">6995a4c2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4123">#4123</a>).</li>
-<li><strong>Parsers:</strong> Share top-level timeline element and track kind definitions (<a href="https://github.com/heygen-com/hyperframes/commit/02c415dd8b531783130aa5b66c1c0df94f6b29ba">02c415dd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4124">#4124</a>).</li>
-<li><strong>Studio:</strong> Copy, paste and duplicate clip groups on the timeline (<a href="https://github.com/heygen-com/hyperframes/commit/0b6d1039ed0a799fd088fd7af8a4b9440208e23a">0b6d1039e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4064">#4064</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Show where a dragged file will land instead of a drop-to-add box (<a href="https://github.com/heygen-com/hyperframes/commit/63d0ea4d28f75f93fb5512dad46b91cd75dd780e">63d0ea4d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4142">#4142</a>).</li>
-<li><strong>Skills:</strong> Teach and ship the remotion translation as sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/ae0e8fcae1f7de04c084d3e974a955255ff23e39">ae0e8fcae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4141">#4141</a>).</li>
-<li><strong>Player:</strong> Perf harness waits for assets-ready before play instead of a fixed 5s (<a href="https://github.com/heygen-com/hyperframes/commit/4bbcf650ae6ca09c17cb6d3ca2f05c76ab1d3e4b">4bbcf650a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4137">#4137</a>).</li>
-<li><strong>Skills:</strong> Mount music-to-video motion primitives as sub-compositions (<a href="https://github.com/heygen-com/hyperframes/commit/f2976536deb7a06fc16a818a8b08717d4118e5b9">f2976536d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4136">#4136</a>).</li>
-<li><strong>Studio:</strong> A composition containing a <code>&lt;canvas&gt;</code> element kept its edits on the older server path instead of the SDK, because building the editing session for it threw. Canvas-heavy work — Three.js, shaders, particle effects, charts — was affected, and nothing surfaced it until v0.8.47 added the telemetry that caught it (<a href="https://github.com/heygen-com/hyperframes/commit/d5e1de92018cd8dd9b5d3d02e8c946640b1e12e7">d5e1de920</a>, <a href="https://github.com/heygen-com/hyperframes/commit/db78b4fe68c91397a9a93453d91058c05c488a45">db78b4fe6</a>).</li>
-<li><strong>Core:</strong> Script coalescing no longer moves an inline script past a src script (<a href="https://github.com/heygen-com/hyperframes/commit/14e5f576701ae51fd9a18e3e710553b3784ebefd">14e5f5767</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4133">#4133</a>).</li>
-<li><strong>Studio:</strong> Hovering or selecting a timeline clip no longer swaps its filmstrip (<a href="https://github.com/heygen-com/hyperframes/commit/c80ae95084e255fc12f6a558c8851bc1508dc5a5">c80ae9508</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4130">#4130</a>).</li>
-<li><strong>CLI:</strong> Stop the workspace build check test from depending on wall-clock mtimes (<a href="https://github.com/heygen-com/hyperframes/commit/93921dccc85109f4a541edb440f88d7989aac18b">93921dccc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4098">#4098</a>).</li>
-<li><strong>Capture:</strong> Never silently render a webgpu composition blank (<a href="https://github.com/heygen-com/hyperframes/commit/9981d9afb74e1280bf7136cd0043d895cb570b24">9981d9afb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4091">#4091</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Ci:</strong> Run check-docs-catalog in the Lint job (<a href="https://github.com/heygen-com/hyperframes/commit/8dd697ab8fb9bf42ee6125dcc9f6405d39631208">8dd697ab8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4102">#4102</a>).</li>
-<li><strong>Registry:</strong> Stop gsap tweens from clobbering baked-in css transforms (<a href="https://github.com/heygen-com/hyperframes/commit/a2a5af8e199f524beb691788dd7be4f62a22d318">a2a5af8e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4090">#4090</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.49...v0.8.50">https://github.com/heygen-com/hyperframes/compare/v0.8.49...v0.8.50</a></p>
 ]]></content:encoded>
         </item>
     </channel>
