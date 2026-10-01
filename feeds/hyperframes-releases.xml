@@ -4,11 +4,77 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 01 Oct 2026 14:38:48 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Oct 2026 18:53:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.106]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.106</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.106</guid>
+            <pubDate>Thu, 01 Oct 2026 18:53:24 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.106</h1>
+<p>Released on 2026-10-01.</p>
+<p>Studio gets a theme toggle that remembers your choice, and the code editor follows it. Hand edits and undo stay correct after a preview reload, and drags drop fewer frames.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio Server:</strong> A write receipt names the version the write replaced (<a href="https://github.com/heygen-com/hyperframes/commit/59bbe7f098238598bcfdbbac843da2f71c21d6a8">59bbe7f09</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4864">#4864</a>).</li>
+<li><strong>Studio:</strong> Paste and duplicate can keep a clip at its own time (<a href="https://github.com/heygen-com/hyperframes/commit/ce76be50c7d90e3d91575b8de1e388af9ebc4adc">ce76be50c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4859">#4859</a>).</li>
+<li><strong>Studio:</strong> The code editor follows studio&#39;s light and dark theme (<a href="https://github.com/heygen-com/hyperframes/commit/e666a8a2a37ea77e4774f50ca832cd5766ba6fec">e666a8a2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4862">#4862</a>).</li>
+<li><strong>Studio:</strong> A light and dark theme toggle in the header that remembers the choice (<a href="https://github.com/heygen-com/hyperframes/commit/9f4d9e64b228c29833da478d6c8c50f2549179c1">9f4d9e64b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4839">#4839</a>).</li>
+<li><strong>Studio:</strong> Fade handles ride the fade&#39;s end and the waveform shows the fade (<a href="https://github.com/heygen-com/hyperframes/commit/07af05c8169dd77c23d7129231330d5662059fa2">07af05c81</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4844">#4844</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A hand edit after a preview reload draws on the element now on screen (<a href="https://github.com/heygen-com/hyperframes/commit/57da627e76712e53031c820950fc2512bc1bf69d">57da627e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4856">#4856</a>).</li>
+<li><strong>Studio:</strong> The preview serves a same-size edit written right after the last one (<a href="https://github.com/heygen-com/hyperframes/commit/a9929b60ee2ee47a2b1f09f220708466ffb0863b">a9929b60e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4792">#4792</a>).</li>
+<li><strong>Studio:</strong> Undo that reloads the preview keeps the timeline clips on screen (<a href="https://github.com/heygen-com/hyperframes/commit/d4176c4ce6eee611ae5e47a45644e843101272e8">d4176c4ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4790">#4790</a>).</li>
+<li><strong>Studio Server:</strong> A folder rename past an unreadable folder or file answers ok (<a href="https://github.com/heygen-com/hyperframes/commit/b6c879c4e919290b6c7b2c6ac1dd212a95a17ac2">b6c879c4e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4860">#4860</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Track the motion path only while a path or create ring is drawn (<a href="https://github.com/heygen-com/hyperframes/commit/44138931ce129af626ab30e1a68494c1621cfeda">44138931c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4795">#4795</a>).</li>
+<li><strong>Studio:</strong> Stop font list work from landing in drag frames (<a href="https://github.com/heygen-com/hyperframes/commit/8593b01a6d0df887aa111a1d0871c42c5343fab1">8593b01a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4794">#4794</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Catch teleports and multi-step edit bugs in the edit accuracy bench (<a href="https://github.com/heygen-com/hyperframes/commit/9c19327e38ef44e3d8b6c25e707a8f25d8b95aba">9c19327e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4801">#4801</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.105...v0.8.106">https://github.com/heygen-com/hyperframes/compare/v0.8.105...v0.8.106</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.106</h1>
+<p>Released on 2026-10-01.</p>
+<p>Studio gets a theme toggle that remembers your choice, and the code editor follows it. Hand edits and undo stay correct after a preview reload, and drags drop fewer frames.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio Server:</strong> A write receipt names the version the write replaced (<a href="https://github.com/heygen-com/hyperframes/commit/59bbe7f098238598bcfdbbac843da2f71c21d6a8">59bbe7f09</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4864">#4864</a>).</li>
+<li><strong>Studio:</strong> Paste and duplicate can keep a clip at its own time (<a href="https://github.com/heygen-com/hyperframes/commit/ce76be50c7d90e3d91575b8de1e388af9ebc4adc">ce76be50c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4859">#4859</a>).</li>
+<li><strong>Studio:</strong> The code editor follows studio&#39;s light and dark theme (<a href="https://github.com/heygen-com/hyperframes/commit/e666a8a2a37ea77e4774f50ca832cd5766ba6fec">e666a8a2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4862">#4862</a>).</li>
+<li><strong>Studio:</strong> A light and dark theme toggle in the header that remembers the choice (<a href="https://github.com/heygen-com/hyperframes/commit/9f4d9e64b228c29833da478d6c8c50f2549179c1">9f4d9e64b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4839">#4839</a>).</li>
+<li><strong>Studio:</strong> Fade handles ride the fade&#39;s end and the waveform shows the fade (<a href="https://github.com/heygen-com/hyperframes/commit/07af05c8169dd77c23d7129231330d5662059fa2">07af05c81</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4844">#4844</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A hand edit after a preview reload draws on the element now on screen (<a href="https://github.com/heygen-com/hyperframes/commit/57da627e76712e53031c820950fc2512bc1bf69d">57da627e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4856">#4856</a>).</li>
+<li><strong>Studio:</strong> The preview serves a same-size edit written right after the last one (<a href="https://github.com/heygen-com/hyperframes/commit/a9929b60ee2ee47a2b1f09f220708466ffb0863b">a9929b60e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4792">#4792</a>).</li>
+<li><strong>Studio:</strong> Undo that reloads the preview keeps the timeline clips on screen (<a href="https://github.com/heygen-com/hyperframes/commit/d4176c4ce6eee611ae5e47a45644e843101272e8">d4176c4ce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4790">#4790</a>).</li>
+<li><strong>Studio Server:</strong> A folder rename past an unreadable folder or file answers ok (<a href="https://github.com/heygen-com/hyperframes/commit/b6c879c4e919290b6c7b2c6ac1dd212a95a17ac2">b6c879c4e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4860">#4860</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Track the motion path only while a path or create ring is drawn (<a href="https://github.com/heygen-com/hyperframes/commit/44138931ce129af626ab30e1a68494c1621cfeda">44138931c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4795">#4795</a>).</li>
+<li><strong>Studio:</strong> Stop font list work from landing in drag frames (<a href="https://github.com/heygen-com/hyperframes/commit/8593b01a6d0df887aa111a1d0871c42c5343fab1">8593b01a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4794">#4794</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Catch teleports and multi-step edit bugs in the edit accuracy bench (<a href="https://github.com/heygen-com/hyperframes/commit/9c19327e38ef44e3d8b6c25e707a8f25d8b95aba">9c19327e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4801">#4801</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.105...v0.8.106">https://github.com/heygen-com/hyperframes/compare/v0.8.105...v0.8.106</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.105]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.105</link>
@@ -2471,42 +2537,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.56...v0.8.57">https://github.com/heygen-com/hyperframes/compare/v0.8.56...v0.8.57</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.56]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.56</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.56</guid>
-            <pubDate>Sun, 20 Sep 2026 15:02:16 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.56</h1>
-<p>Released on 2026-09-20.</p>
-<p>Host apps can now make the Studio preview read-only and restyle the timeline through CSS tokens. A host that embeds Studio no longer needs its own colour overrides or a second guard against edits.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> A host can make the preview read-only (<a href="https://github.com/heygen-com/hyperframes/commit/84e65316683c5636e83720d7d4a8cd612275df9d">84e653166</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4200">#4200</a>).</li>
-<li><strong>Studio:</strong> Theme timeline colours with CSS tokens (<a href="https://github.com/heygen-com/hyperframes/commit/9bd6da848fb39513ed4e21911c574315aab477e5">9bd6da848</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4211">#4211</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Make timeline rows use manifest elements (<a href="https://github.com/heygen-com/hyperframes/commit/41b7202bca7e3d50eb698c1722ed76c9aeaca98d">41b7202bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4213">#4213</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.55...v0.8.56">https://github.com/heygen-com/hyperframes/compare/v0.8.55...v0.8.56</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.56</h1>
-<p>Released on 2026-09-20.</p>
-<p>Host apps can now make the Studio preview read-only and restyle the timeline through CSS tokens. A host that embeds Studio no longer needs its own colour overrides or a second guard against edits.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> A host can make the preview read-only (<a href="https://github.com/heygen-com/hyperframes/commit/84e65316683c5636e83720d7d4a8cd612275df9d">84e653166</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4200">#4200</a>).</li>
-<li><strong>Studio:</strong> Theme timeline colours with CSS tokens (<a href="https://github.com/heygen-com/hyperframes/commit/9bd6da848fb39513ed4e21911c574315aab477e5">9bd6da848</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4211">#4211</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Make timeline rows use manifest elements (<a href="https://github.com/heygen-com/hyperframes/commit/41b7202bca7e3d50eb698c1722ed76c9aeaca98d">41b7202bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4213">#4213</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.55...v0.8.56">https://github.com/heygen-com/hyperframes/compare/v0.8.55...v0.8.56</a></p>
 ]]></content:encoded>
         </item>
     </channel>
