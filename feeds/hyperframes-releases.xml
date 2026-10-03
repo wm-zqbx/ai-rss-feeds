@@ -4,11 +4,83 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 03 Oct 2026 00:18:57 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Oct 2026 16:39:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.115]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.115</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.115</guid>
+            <pubDate>Sat, 03 Oct 2026 16:39:10 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.115</h1>
+<p>Released on 2026-10-03.</p>
+<p>Music now plays straight through video cuts in the Studio preview. Stopping the CLI closes every browser it opened, and timeline bulk actions stay under a second.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Expose harness subscription usage to agents (<a href="https://github.com/heygen-com/hyperframes/commit/73489331114b89f42b5bc843765e610525188bcb">73489331114b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4919">#4919</a>).</li>
+<li><strong>Studio:</strong> Track completed preview editing gestures (<a href="https://github.com/heygen-com/hyperframes/commit/852782bbb0e19a4947b4dc2f74fb5ccc7f441247">852782bbb0e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4916">#4916</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Close every browser on SIGTERM and SIGINT via one launch owner (<a href="https://github.com/heygen-com/hyperframes/commit/8c81efb7c2d78727114cd2cddc2cf87929ace312">8c81efb7c2d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4910">#4910</a>).</li>
+<li><strong>Studio:</strong> A hovered menu row fills its row, and a host can hide the clip menu tools (<a href="https://github.com/heygen-com/hyperframes/commit/ce08f2042e701269345b29c32d632f8dbf1c4915">ce08f2042e70</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4921">#4921</a>).</li>
+<li><strong>Core:</strong> A GSAP call added after the first seek fires once, not twice (<a href="https://github.com/heygen-com/hyperframes/commit/afe020ae59fb27bbbf1e90f8bddc634c4f2c0d81">afe020ae59fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4948">#4948</a>).</li>
+<li><strong>Core:</strong> Music keeps playing smoothly across video cuts in preview (<a href="https://github.com/heygen-com/hyperframes/commit/b3c52078272d54a3e3c411391dc5cc5ad270c2d9">b3c52078272d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4939">#4939</a>).</li>
+<li><strong>Media Use:</strong> Forward TTS speed to Kokoro (<a href="https://github.com/heygen-com/hyperframes/commit/835e0c16ec62681008682934c4751e630d9d5d7b">835e0c16ec62</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4930">#4930</a>).</li>
+<li><strong>Studio Server:</strong> Time history idle limits on one clock so a slow machine cannot flip them (<a href="https://github.com/heygen-com/hyperframes/commit/9123628d947f4902d4d45de82dbf233f60b8bb6f">9123628d947f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4924">#4924</a>).</li>
+<li><strong>Studio:</strong> Show each timeline row its own layer instead of a flat bar (<a href="https://github.com/heygen-com/hyperframes/commit/ada4e0d28957d1065c5d0079a29bdaffc4308413">ada4e0d28957</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4917">#4917</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Keep timeline bulk actions under a second, hand-move at most 3 clips (<a href="https://github.com/heygen-com/hyperframes/commit/70dde41b5c836c1a5631e3e6073db1cbeb060ad1">70dde41b5c83</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4932">#4932</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Show agents where Studio edits go and how tests build, and let docs skip captures (<a href="https://github.com/heygen-com/hyperframes/commit/5632356c093e71a295d4a9c7d34c1600ab63e489">5632356c093e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4936">#4936</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Print PASS for edit accuracy cases that pass every metric (<a href="https://github.com/heygen-com/hyperframes/commit/703d0e6621361a4844d58fcaf8de7b61778d0675">703d0e662136</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4925">#4925</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.114...v0.8.115">https://github.com/heygen-com/hyperframes/compare/v0.8.114...v0.8.115</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.115</h1>
+<p>Released on 2026-10-03.</p>
+<p>Music now plays straight through video cuts in the Studio preview. Stopping the CLI closes every browser it opened, and timeline bulk actions stay under a second.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Expose harness subscription usage to agents (<a href="https://github.com/heygen-com/hyperframes/commit/73489331114b89f42b5bc843765e610525188bcb">73489331114b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4919">#4919</a>).</li>
+<li><strong>Studio:</strong> Track completed preview editing gestures (<a href="https://github.com/heygen-com/hyperframes/commit/852782bbb0e19a4947b4dc2f74fb5ccc7f441247">852782bbb0e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4916">#4916</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Close every browser on SIGTERM and SIGINT via one launch owner (<a href="https://github.com/heygen-com/hyperframes/commit/8c81efb7c2d78727114cd2cddc2cf87929ace312">8c81efb7c2d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4910">#4910</a>).</li>
+<li><strong>Studio:</strong> A hovered menu row fills its row, and a host can hide the clip menu tools (<a href="https://github.com/heygen-com/hyperframes/commit/ce08f2042e701269345b29c32d632f8dbf1c4915">ce08f2042e70</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4921">#4921</a>).</li>
+<li><strong>Core:</strong> A GSAP call added after the first seek fires once, not twice (<a href="https://github.com/heygen-com/hyperframes/commit/afe020ae59fb27bbbf1e90f8bddc634c4f2c0d81">afe020ae59fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4948">#4948</a>).</li>
+<li><strong>Core:</strong> Music keeps playing smoothly across video cuts in preview (<a href="https://github.com/heygen-com/hyperframes/commit/b3c52078272d54a3e3c411391dc5cc5ad270c2d9">b3c52078272d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4939">#4939</a>).</li>
+<li><strong>Media Use:</strong> Forward TTS speed to Kokoro (<a href="https://github.com/heygen-com/hyperframes/commit/835e0c16ec62681008682934c4751e630d9d5d7b">835e0c16ec62</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4930">#4930</a>).</li>
+<li><strong>Studio Server:</strong> Time history idle limits on one clock so a slow machine cannot flip them (<a href="https://github.com/heygen-com/hyperframes/commit/9123628d947f4902d4d45de82dbf233f60b8bb6f">9123628d947f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4924">#4924</a>).</li>
+<li><strong>Studio:</strong> Show each timeline row its own layer instead of a flat bar (<a href="https://github.com/heygen-com/hyperframes/commit/ada4e0d28957d1065c5d0079a29bdaffc4308413">ada4e0d28957</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4917">#4917</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Keep timeline bulk actions under a second, hand-move at most 3 clips (<a href="https://github.com/heygen-com/hyperframes/commit/70dde41b5c836c1a5631e3e6073db1cbeb060ad1">70dde41b5c83</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4932">#4932</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Show agents where Studio edits go and how tests build, and let docs skip captures (<a href="https://github.com/heygen-com/hyperframes/commit/5632356c093e71a295d4a9c7d34c1600ab63e489">5632356c093e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4936">#4936</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Print PASS for edit accuracy cases that pass every metric (<a href="https://github.com/heygen-com/hyperframes/commit/703d0e6621361a4844d58fcaf8de7b61778d0675">703d0e662136</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4925">#4925</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.114...v0.8.115">https://github.com/heygen-com/hyperframes/compare/v0.8.114...v0.8.115</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.114]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.114</link>
@@ -2505,52 +2577,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.65...v0.8.66">https://github.com/heygen-com/hyperframes/compare/v0.8.65...v0.8.66</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.65]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.65</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.65</guid>
-            <pubDate>Wed, 23 Sep 2026 15:09:55 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.65</h1>
-<p>Released on 2026-09-23.</p>
-<p>Studio edits feel lighter: changing one scene only redraws that scene&#39;s thumbnails, and timeline clips keep their pictures while you scroll instead of blanking out. The player no longer shows a stray &quot;transition&quot; label while assets load, and looping Lottie animations in the catalog play smoothly from the start.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Timeline clips keep their pictures while you scroll (<a href="https://github.com/heygen-com/hyperframes/commit/2c70e657842dffb50b4987f65015e8287ba963d6">2c70e65784</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4305">#4305</a>).</li>
-<li><strong>Player:</strong> Drop the empty transition label from the Loading assets card (<a href="https://github.com/heygen-com/hyperframes/commit/8f7e902f5cba113d06e1cfff7d10d56664b98470">8f7e902f5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4327">#4327</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Re-render only the edited scene&#39;s thumbnails after an edit (<a href="https://github.com/heygen-com/hyperframes/commit/8cb7d06db66faf567c425e972bb75057bc669322">8cb7d06db6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4315">#4315</a>).</li>
-<li><strong>Studio:</strong> Find timeline transition seams once per track, not once per row (<a href="https://github.com/heygen-com/hyperframes/commit/e02120fd0edfcae6c9c7edc6ad6bf46d3000da72">e02120fd0e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4324">#4324</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> A Lottie character walk-in, and looping Lottie that keeps playing (<a href="https://github.com/heygen-com/hyperframes/commit/805596174007bff93dc1b5fe25c887e401f2d6d3">8055961740</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4316">#4316</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.64...v0.8.65">https://github.com/heygen-com/hyperframes/compare/v0.8.64...v0.8.65</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.65</h1>
-<p>Released on 2026-09-23.</p>
-<p>Studio edits feel lighter: changing one scene only redraws that scene&#39;s thumbnails, and timeline clips keep their pictures while you scroll instead of blanking out. The player no longer shows a stray &quot;transition&quot; label while assets load, and looping Lottie animations in the catalog play smoothly from the start.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Timeline clips keep their pictures while you scroll (<a href="https://github.com/heygen-com/hyperframes/commit/2c70e657842dffb50b4987f65015e8287ba963d6">2c70e65784</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4305">#4305</a>).</li>
-<li><strong>Player:</strong> Drop the empty transition label from the Loading assets card (<a href="https://github.com/heygen-com/hyperframes/commit/8f7e902f5cba113d06e1cfff7d10d56664b98470">8f7e902f5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4327">#4327</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Re-render only the edited scene&#39;s thumbnails after an edit (<a href="https://github.com/heygen-com/hyperframes/commit/8cb7d06db66faf567c425e972bb75057bc669322">8cb7d06db6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4315">#4315</a>).</li>
-<li><strong>Studio:</strong> Find timeline transition seams once per track, not once per row (<a href="https://github.com/heygen-com/hyperframes/commit/e02120fd0edfcae6c9c7edc6ad6bf46d3000da72">e02120fd0e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4324">#4324</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> A Lottie character walk-in, and looping Lottie that keeps playing (<a href="https://github.com/heygen-com/hyperframes/commit/805596174007bff93dc1b5fe25c887e401f2d6d3">8055961740</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4316">#4316</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.64...v0.8.65">https://github.com/heygen-com/hyperframes/compare/v0.8.64...v0.8.65</a></p>
 ]]></content:encoded>
         </item>
     </channel>
