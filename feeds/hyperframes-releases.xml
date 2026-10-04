@@ -4,11 +4,129 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 04 Oct 2026 05:01:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Oct 2026 11:08:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.122]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.122</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.122</guid>
+            <pubDate>Sun, 04 Oct 2026 11:08:29 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.122</h1>
+<p>Released on 2026-10-04.</p>
+<p>Studio trims keep the playhead still and clips snap to the ruler, and a host can show its own Split key. Renders wait for web fonts, so text-sized layouts repeat exactly. Media Use gives clearer credential errors and no longer leaves empty assets after a slow download.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> Say to fix an unreadable credentials path, not to log in again (<a href="https://github.com/heygen-com/hyperframes/commit/981bcf455332a18e951e323c78395d30df32ea66">981bcf455332</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4998">#4998</a>).</li>
+<li><strong>Core:</strong> Composition scripts start after web fonts are ready, so renders repeat (<a href="https://github.com/heygen-com/hyperframes/commit/44b5836250953fd34fa1d85b4843db34efd2232c">44b583625095</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4980">#4980</a>).</li>
+<li><strong>Studio:</strong> Trimming keeps the playhead still; clips snap to the ruler grid (<a href="https://github.com/heygen-com/hyperframes/commit/7859c0f0037a1e07988e6f5fba31a2c8bc6f9456">7859c0f0037a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4986">#4986</a>).</li>
+<li><strong>Studio:</strong> The host can name Split&#39;s key on the toolbar and bind the clip menu&#39;s link keys (<a href="https://github.com/heygen-com/hyperframes/commit/b04081b376a3c2c549b7df71c8be0afb22001b03">b04081b376a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4994">#4994</a>).</li>
+<li><strong>Media Use:</strong> A slow download no longer leaves an empty asset that undo brings back (<a href="https://github.com/heygen-com/hyperframes/commit/18a922f43342a3afb6e03e80ab7174d78552da95">18a922f43342</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4989">#4989</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The edit bench render serves GSAP from the repo, never the CDN (<a href="https://github.com/heygen-com/hyperframes/commit/7f3464921c7dad4ed66930661147b12225f23440">7f3464921c7d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4996">#4996</a>).</li>
+<li><strong>Core:</strong> Pin three composition-length rules that no test covered (<a href="https://github.com/heygen-com/hyperframes/commit/351d389c0bcc60dcabcd8e7aaf4592923efde179">351d389c0bcc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5000">#5000</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.121...v0.8.122">https://github.com/heygen-com/hyperframes/compare/v0.8.121...v0.8.122</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.122</h1>
+<p>Released on 2026-10-04.</p>
+<p>Studio trims keep the playhead still and clips snap to the ruler, and a host can show its own Split key. Renders wait for web fonts, so text-sized layouts repeat exactly. Media Use gives clearer credential errors and no longer leaves empty assets after a slow download.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> Say to fix an unreadable credentials path, not to log in again (<a href="https://github.com/heygen-com/hyperframes/commit/981bcf455332a18e951e323c78395d30df32ea66">981bcf455332</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4998">#4998</a>).</li>
+<li><strong>Core:</strong> Composition scripts start after web fonts are ready, so renders repeat (<a href="https://github.com/heygen-com/hyperframes/commit/44b5836250953fd34fa1d85b4843db34efd2232c">44b583625095</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4980">#4980</a>).</li>
+<li><strong>Studio:</strong> Trimming keeps the playhead still; clips snap to the ruler grid (<a href="https://github.com/heygen-com/hyperframes/commit/7859c0f0037a1e07988e6f5fba31a2c8bc6f9456">7859c0f0037a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4986">#4986</a>).</li>
+<li><strong>Studio:</strong> The host can name Split&#39;s key on the toolbar and bind the clip menu&#39;s link keys (<a href="https://github.com/heygen-com/hyperframes/commit/b04081b376a3c2c549b7df71c8be0afb22001b03">b04081b376a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4994">#4994</a>).</li>
+<li><strong>Media Use:</strong> A slow download no longer leaves an empty asset that undo brings back (<a href="https://github.com/heygen-com/hyperframes/commit/18a922f43342a3afb6e03e80ab7174d78552da95">18a922f43342</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4989">#4989</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The edit bench render serves GSAP from the repo, never the CDN (<a href="https://github.com/heygen-com/hyperframes/commit/7f3464921c7dad4ed66930661147b12225f23440">7f3464921c7d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4996">#4996</a>).</li>
+<li><strong>Core:</strong> Pin three composition-length rules that no test covered (<a href="https://github.com/heygen-com/hyperframes/commit/351d389c0bcc60dcabcd8e7aaf4592923efde179">351d389c0bcc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5000">#5000</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.121...v0.8.122">https://github.com/heygen-com/hyperframes/compare/v0.8.121...v0.8.122</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.121]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.121</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.121</guid>
+            <pubDate>Sun, 04 Oct 2026 08:51:40 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.121</h1>
+<p>Released on 2026-10-04.</p>
+<p>Media Use no longer crashes when a HeyGen credentials path is a folder. Video length and size now come from one place in the core runtime.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> A credentials folder means no HeyGen credential, not a crash (<a href="https://github.com/heygen-com/hyperframes/commit/32d2bc6fe03007c7c8417268522516e3db7a2e87">32d2bc6fe030</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4995">#4995</a>).</li>
+<li><strong>Media Use:</strong> Skip a .env folder when loading HeyGen credentials (<a href="https://github.com/heygen-com/hyperframes/commit/5f3191bdc59312b6d6cba231e50207919e22b7cf">5f3191bdc593</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4988">#4988</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> One pure owner for composition length and root size (<a href="https://github.com/heygen-com/hyperframes/commit/34ff5ca1dea155ad0a29b26b6cb456b12b18b1d5">34ff5ca1dea1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4990">#4990</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.120...v0.8.121">https://github.com/heygen-com/hyperframes/compare/v0.8.120...v0.8.121</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.121</h1>
+<p>Released on 2026-10-04.</p>
+<p>Media Use no longer crashes when a HeyGen credentials path is a folder. Video length and size now come from one place in the core runtime.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> A credentials folder means no HeyGen credential, not a crash (<a href="https://github.com/heygen-com/hyperframes/commit/32d2bc6fe03007c7c8417268522516e3db7a2e87">32d2bc6fe030</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4995">#4995</a>).</li>
+<li><strong>Media Use:</strong> Skip a .env folder when loading HeyGen credentials (<a href="https://github.com/heygen-com/hyperframes/commit/5f3191bdc59312b6d6cba231e50207919e22b7cf">5f3191bdc593</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4988">#4988</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> One pure owner for composition length and root size (<a href="https://github.com/heygen-com/hyperframes/commit/34ff5ca1dea155ad0a29b26b6cb456b12b18b1d5">34ff5ca1dea1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4990">#4990</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.120...v0.8.121">https://github.com/heygen-com/hyperframes/compare/v0.8.120...v0.8.121</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.120]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.120</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.120</guid>
+            <pubDate>Sun, 04 Oct 2026 07:11:22 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.120</h1>
+<p>Released on 2026-10-04.</p>
+<p>Publishing from the CLI now handles expired or changed logins safely, and feedback can say whether a person or an agent wrote it. Studio picks element ids that never clash across files.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Feedback says whether a person or an agent wrote it, with the email an app attaches (<a href="https://github.com/heygen-com/hyperframes/commit/0ca69472d93cf088c836bed3dc7df252247e2101">0ca69472d93c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4984">#4984</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> The host can name the Split key shown in the clip menu (<a href="https://github.com/heygen-com/hyperframes/commit/dda0e757b11c486990e483636bdc80115aa8ef6c">dda0e757b11c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4985">#4985</a>).</li>
+<li><strong>Studio:</strong> The server picks an added effect&#39;s element id; one client for patch and gsap writes (<a href="https://github.com/heygen-com/hyperframes/commit/48308e370826380a3053ff1e38fc84899dc05eb1">48308e370826</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4962">#4962</a>).</li>
+<li><strong>CLI:</strong> Publish with a refused login refreshes or asks you to log in again (<a href="https://github.com/heygen-com/hyperframes/commit/de9bf487d4219f9021f8e659e13f3935c8b29744">de9bf487d421</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4964">#4964</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.119...v0.8.120">https://github.com/heygen-com/hyperframes/compare/v0.8.119...v0.8.120</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.120</h1>
+<p>Released on 2026-10-04.</p>
+<p>Publishing from the CLI now handles expired or changed logins safely, and feedback can say whether a person or an agent wrote it. Studio picks element ids that never clash across files.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Feedback says whether a person or an agent wrote it, with the email an app attaches (<a href="https://github.com/heygen-com/hyperframes/commit/0ca69472d93cf088c836bed3dc7df252247e2101">0ca69472d93c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4984">#4984</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> The host can name the Split key shown in the clip menu (<a href="https://github.com/heygen-com/hyperframes/commit/dda0e757b11c486990e483636bdc80115aa8ef6c">dda0e757b11c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4985">#4985</a>).</li>
+<li><strong>Studio:</strong> The server picks an added effect&#39;s element id; one client for patch and gsap writes (<a href="https://github.com/heygen-com/hyperframes/commit/48308e370826380a3053ff1e38fc84899dc05eb1">48308e370826</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4962">#4962</a>).</li>
+<li><strong>CLI:</strong> Publish with a refused login refreshes or asks you to log in again (<a href="https://github.com/heygen-com/hyperframes/commit/de9bf487d4219f9021f8e659e13f3935c8b29744">de9bf487d421</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4964">#4964</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.119...v0.8.120">https://github.com/heygen-com/hyperframes/compare/v0.8.119...v0.8.120</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.119]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.119</link>
@@ -2469,132 +2587,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.72...v0.8.73">https://github.com/heygen-com/hyperframes/compare/v0.8.72...v0.8.73</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.72]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.72</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.72</guid>
-            <pubDate>Thu, 24 Sep 2026 12:24:21 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.72</h1>
-<p>Released on 2026-09-24.</p>
-<p>Clicking an element inside a section now selects that element, even when the section&#39;s root sets pointer-events to none. A frame grabbed right after the first seek on a fresh preview now shows the video at the time you asked for. Apps that embed Studio&#39;s preview can now draw the film edge to edge in its box.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Let an embedder draw the preview edge to edge with fillBox (<a href="https://github.com/heygen-com/hyperframes/commit/326df8def036e708d25a0ca0e069f91172767b0e">326df8def</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4408">#4408</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Frame captures wait for a seeking video to land its frame (<a href="https://github.com/heygen-com/hyperframes/commit/261af22c1684d79ed30cc72f7f328f698fea2adb">261af22c1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4406">#4406</a>).</li>
-<li><strong>Core:</strong> A section whose root sets pointer-events:none stays pickable (<a href="https://github.com/heygen-com/hyperframes/commit/115332f4f6114c078ba4f6d3b252387545c96c03">115332f4f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4399">#4399</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.71...v0.8.72">https://github.com/heygen-com/hyperframes/compare/v0.8.71...v0.8.72</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.72</h1>
-<p>Released on 2026-09-24.</p>
-<p>Clicking an element inside a section now selects that element, even when the section&#39;s root sets pointer-events to none. A frame grabbed right after the first seek on a fresh preview now shows the video at the time you asked for. Apps that embed Studio&#39;s preview can now draw the film edge to edge in its box.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Let an embedder draw the preview edge to edge with fillBox (<a href="https://github.com/heygen-com/hyperframes/commit/326df8def036e708d25a0ca0e069f91172767b0e">326df8def</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4408">#4408</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Frame captures wait for a seeking video to land its frame (<a href="https://github.com/heygen-com/hyperframes/commit/261af22c1684d79ed30cc72f7f328f698fea2adb">261af22c1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4406">#4406</a>).</li>
-<li><strong>Core:</strong> A section whose root sets pointer-events:none stays pickable (<a href="https://github.com/heygen-com/hyperframes/commit/115332f4f6114c078ba4f6d3b252387545c96c03">115332f4f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4399">#4399</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.71...v0.8.72">https://github.com/heygen-com/hyperframes/compare/v0.8.71...v0.8.72</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.71]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.71</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.71</guid>
-            <pubDate>Thu, 24 Sep 2026 06:37:30 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.71</h1>
-<p>Released on 2026-09-24.</p>
-<p>Apps that embed Studio&#39;s timeline can now import its component styles on their own, so clips and their labels look the same as in Studio. Studio also refreshes its file tree when files change outside it, and video probing handles files that report no stream duration. Effects chains gain a backdrop capture for adjustment-layer effects and two new two-source kernels, luma matte and noise.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Runtime:</strong> Data-vfx-chain backdrop capture and two-source kernels (luma-matte, noise) (<a href="https://github.com/heygen-com/hyperframes/commit/84e36fc16afcc9d5979f92b50b230bf0b8c29bb9">84e36fc16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4330">#4330</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Ship component styles as their own stylesheet for embedders (<a href="https://github.com/heygen-com/hyperframes/commit/d1048cf98fc8ee8415f6ce02902ad51ae71cb09e">d1048cf98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4393">#4393</a>).</li>
-<li><strong>Scripts:</strong> Retry a fresh GitHub attachment&#39;s transient 404 in the captures gate (<a href="https://github.com/heygen-com/hyperframes/commit/8d8ea810b66c7bed58f0e8724e28f91dae28b91b">8d8ea810b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4362">#4362</a>).</li>
-<li><strong>Studio Server:</strong> Stop mislabeling two more read-route failure shapes (<a href="https://github.com/heygen-com/hyperframes/commit/add6783775d567562180bdf5bb0cf77396b8f690">add678377</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4363">#4363</a>).</li>
-<li><strong>Studio:</strong> Refresh the file tree on external change, and say when a composition is gone (<a href="https://github.com/heygen-com/hyperframes/commit/c59326d72eae2eaf3503e44be0e722568e19b210">c59326d72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4370">#4370</a>).</li>
-<li><strong>Skills:</strong> Push transitions reveal the incoming scene on every seek path (<a href="https://github.com/heygen-com/hyperframes/commit/ff884845a844dc27d192cf83f697b14d3f48b80c">ff884845a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4314">#4314</a>).</li>
-<li><strong>Engine:</strong> Cross-check nb_frames when video stream duration is absent (<a href="https://github.com/heygen-com/hyperframes/commit/ee4c00db6a9bbb88c02ca6842d095fcff64d92ee">ee4c00db6</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.70...v0.8.71">https://github.com/heygen-com/hyperframes/compare/v0.8.70...v0.8.71</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.71</h1>
-<p>Released on 2026-09-24.</p>
-<p>Apps that embed Studio&#39;s timeline can now import its component styles on their own, so clips and their labels look the same as in Studio. Studio also refreshes its file tree when files change outside it, and video probing handles files that report no stream duration. Effects chains gain a backdrop capture for adjustment-layer effects and two new two-source kernels, luma matte and noise.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Runtime:</strong> Data-vfx-chain backdrop capture and two-source kernels (luma-matte, noise) (<a href="https://github.com/heygen-com/hyperframes/commit/84e36fc16afcc9d5979f92b50b230bf0b8c29bb9">84e36fc16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4330">#4330</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Ship component styles as their own stylesheet for embedders (<a href="https://github.com/heygen-com/hyperframes/commit/d1048cf98fc8ee8415f6ce02902ad51ae71cb09e">d1048cf98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4393">#4393</a>).</li>
-<li><strong>Scripts:</strong> Retry a fresh GitHub attachment&#39;s transient 404 in the captures gate (<a href="https://github.com/heygen-com/hyperframes/commit/8d8ea810b66c7bed58f0e8724e28f91dae28b91b">8d8ea810b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4362">#4362</a>).</li>
-<li><strong>Studio Server:</strong> Stop mislabeling two more read-route failure shapes (<a href="https://github.com/heygen-com/hyperframes/commit/add6783775d567562180bdf5bb0cf77396b8f690">add678377</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4363">#4363</a>).</li>
-<li><strong>Studio:</strong> Refresh the file tree on external change, and say when a composition is gone (<a href="https://github.com/heygen-com/hyperframes/commit/c59326d72eae2eaf3503e44be0e722568e19b210">c59326d72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4370">#4370</a>).</li>
-<li><strong>Skills:</strong> Push transitions reveal the incoming scene on every seek path (<a href="https://github.com/heygen-com/hyperframes/commit/ff884845a844dc27d192cf83f697b14d3f48b80c">ff884845a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4314">#4314</a>).</li>
-<li><strong>Engine:</strong> Cross-check nb_frames when video stream duration is absent (<a href="https://github.com/heygen-com/hyperframes/commit/ee4c00db6a9bbb88c02ca6842d095fcff64d92ee">ee4c00db6</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.70...v0.8.71">https://github.com/heygen-com/hyperframes/compare/v0.8.70...v0.8.71</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.70]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.70</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.70</guid>
-            <pubDate>Thu, 24 Sep 2026 02:15:33 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.70</h1>
-<p>Released on 2026-09-24.</p>
-<p>Films whose animations run past the narration now report their real length, so players show the right total. Media skills gain Gemini voices, layout checks catch more hidden text, and Studio shows a film&#39;s first frame sooner.</p>
-<h2>Features</h2>
-<ul>
-<li>Add Gemini TTS models and service-account auth to media skills (<a href="https://github.com/heygen-com/hyperframes/commit/01601d110569967adbfe998e81f77bdeec4b1f2d">01601d110</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4377">#4377</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Layout:</strong> Flag nowrap text that still sticks out of a container that does not clip (<a href="https://github.com/heygen-com/hyperframes/commit/549a2f51bb268b6af3e56e2f3f9ab305185bd3b5">549a2f51b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4379">#4379</a>).</li>
-<li><strong>Layout:</strong> Keep covered text flagged when the occlusion waiver is on a wrapper (<a href="https://github.com/heygen-com/hyperframes/commit/625bdd66fa0b017dc93de0c2098d0f2d0e1cf1bf">625bdd66f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4380">#4380</a>).</li>
-<li><strong>Core:</strong> The runtime never reports a film&#39;s length as Infinity (<a href="https://github.com/heygen-com/hyperframes/commit/c6913aabe26c985111769716539c6b9a8508d831">c6913aabe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4372">#4372</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Show a film&#39;s first frame sooner by loading preview assets by URL (<a href="https://github.com/heygen-com/hyperframes/commit/86fa10ced4297bfd9f4fe67b6767afae7a07fd3c">86fa10ced</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4357">#4357</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.69...v0.8.70">https://github.com/heygen-com/hyperframes/compare/v0.8.69...v0.8.70</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.70</h1>
-<p>Released on 2026-09-24.</p>
-<p>Films whose animations run past the narration now report their real length, so players show the right total. Media skills gain Gemini voices, layout checks catch more hidden text, and Studio shows a film&#39;s first frame sooner.</p>
-<h2>Features</h2>
-<ul>
-<li>Add Gemini TTS models and service-account auth to media skills (<a href="https://github.com/heygen-com/hyperframes/commit/01601d110569967adbfe998e81f77bdeec4b1f2d">01601d110</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4377">#4377</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Layout:</strong> Flag nowrap text that still sticks out of a container that does not clip (<a href="https://github.com/heygen-com/hyperframes/commit/549a2f51bb268b6af3e56e2f3f9ab305185bd3b5">549a2f51b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4379">#4379</a>).</li>
-<li><strong>Layout:</strong> Keep covered text flagged when the occlusion waiver is on a wrapper (<a href="https://github.com/heygen-com/hyperframes/commit/625bdd66fa0b017dc93de0c2098d0f2d0e1cf1bf">625bdd66f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4380">#4380</a>).</li>
-<li><strong>Core:</strong> The runtime never reports a film&#39;s length as Infinity (<a href="https://github.com/heygen-com/hyperframes/commit/c6913aabe26c985111769716539c6b9a8508d831">c6913aabe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4372">#4372</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Show a film&#39;s first frame sooner by loading preview assets by URL (<a href="https://github.com/heygen-com/hyperframes/commit/86fa10ced4297bfd9f4fe67b6767afae7a07fd3c">86fa10ced</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4357">#4357</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.69...v0.8.70">https://github.com/heygen-com/hyperframes/compare/v0.8.69...v0.8.70</a></p>
 ]]></content:encoded>
         </item>
     </channel>
