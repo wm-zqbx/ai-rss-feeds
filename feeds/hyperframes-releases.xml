@@ -4,11 +4,139 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 03 Oct 2026 20:37:34 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 04 Oct 2026 05:01:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.119]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.119</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.119</guid>
+            <pubDate>Sun, 04 Oct 2026 05:01:31 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.119</h1>
+<p>Released on 2026-10-04.</p>
+<p>Undoing a freeze frame now removes its still even when extraction is slow. A GSAP call on the playhead fires once when the preview redraws.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Freeze still appears whole, so a slow extraction cannot break its undo (<a href="https://github.com/heygen-com/hyperframes/commit/4e118824b301cd18b773c28864c2f36ca642ff34">4e118824b301</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4982">#4982</a>).</li>
+<li><strong>Core:</strong> A call on the playhead fires once when the preview redraws it (<a href="https://github.com/heygen-com/hyperframes/commit/a8dcdd109a883f43cadaae26bc1b626335d94ec8">a8dcdd109a88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4981">#4981</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119">https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.119</h1>
+<p>Released on 2026-10-04.</p>
+<p>Undoing a freeze frame now removes its still even when extraction is slow. A GSAP call on the playhead fires once when the preview redraws.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Freeze still appears whole, so a slow extraction cannot break its undo (<a href="https://github.com/heygen-com/hyperframes/commit/4e118824b301cd18b773c28864c2f36ca642ff34">4e118824b301</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4982">#4982</a>).</li>
+<li><strong>Core:</strong> A call on the playhead fires once when the preview redraws it (<a href="https://github.com/heygen-com/hyperframes/commit/a8dcdd109a883f43cadaae26bc1b626335d94ec8">a8dcdd109a88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4981">#4981</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119">https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.118]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.118</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.118</guid>
+            <pubDate>Sun, 04 Oct 2026 04:03:50 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.118</h1>
+<p>Released on 2026-10-04.</p>
+<p>Eight ad templates now play a video preview in the catalog. Studio uses one gsap source everywhere, so motion paths line up with your composition.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> A host can put its own controls before the timeline&#39;s thumbnails toggle (<a href="https://github.com/heygen-com/hyperframes/commit/239ea1aecd8ae6e67e0e7958e33c217410c86549">239ea1aecd8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4973">#4973</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> One owner for gsap CDN URLs, so MotionPathPlugin matches the composition&#39;s gsap (<a href="https://github.com/heygen-com/hyperframes/commit/cd1a34ceca7fd8f31f827dce61d16aa722118534">cd1a34ceca7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4976">#4976</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Eight ad templates show their video preview in the catalog (<a href="https://github.com/heygen-com/hyperframes/commit/d2398d686a7fa45b7789e8ad273e64610607b062">d2398d686a7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4979">#4979</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118">https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.118</h1>
+<p>Released on 2026-10-04.</p>
+<p>Eight ad templates now play a video preview in the catalog. Studio uses one gsap source everywhere, so motion paths line up with your composition.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> A host can put its own controls before the timeline&#39;s thumbnails toggle (<a href="https://github.com/heygen-com/hyperframes/commit/239ea1aecd8ae6e67e0e7958e33c217410c86549">239ea1aecd8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4973">#4973</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> One owner for gsap CDN URLs, so MotionPathPlugin matches the composition&#39;s gsap (<a href="https://github.com/heygen-com/hyperframes/commit/cd1a34ceca7fd8f31f827dce61d16aa722118534">cd1a34ceca7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4976">#4976</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Eight ad templates show their video preview in the catalog (<a href="https://github.com/heygen-com/hyperframes/commit/d2398d686a7fa45b7789e8ad273e64610607b062">d2398d686a7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4979">#4979</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118">https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.117]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.117</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.117</guid>
+            <pubDate>Sun, 04 Oct 2026 00:35:34 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.117</h1>
+<p>Released on 2026-10-04.</p>
+<p>Edits in Studio now stay where you put them: resizes, rotations, undo and drops on animated layers all save and redraw correctly. A render with a broken video frame now fails loudly instead of hiding a blank frame.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Undoing a freeze frame removes the still it made (<a href="https://github.com/heygen-com/hyperframes/commit/237a984bb8d97f8dff7a5464c78851d633747f54">237a984bb8d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4971">#4971</a>).</li>
+<li><strong>Engine:</strong> Fail the render when an injected video frame cannot decode (<a href="https://github.com/heygen-com/hyperframes/commit/8e457d4224c513a8cdcb11b7d63aa204f5af7e0c">8e457d4224c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4974">#4974</a>).</li>
+<li><strong>Parsers:</strong> A keyframe edit no longer overrides an earlier tween at the start (<a href="https://github.com/heygen-com/hyperframes/commit/b71aa9338be16edd77ac78392dc95045ac1b4f70">b71aa9338be1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4935">#4935</a>).</li>
+<li><strong>Studio:</strong> A rotation saves through its press route; a host hook reloads only the host&#39;s way (<a href="https://github.com/heygen-com/hyperframes/commit/9106772593648367ef5a595171f6cfe570ef99d5">910677259364</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4961">#4961</a>).</li>
+<li><strong>Skills:</strong> Load shared creative guides for motion graphics (<a href="https://github.com/heygen-com/hyperframes/commit/9031a02cb53d6c1eff7b4ed83b81ed4ee2325508">9031a02cb53d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4970">#4970</a>).</li>
+<li><strong>Studio:</strong> An undo or drop on an animated layer keeps it where it was (<a href="https://github.com/heygen-com/hyperframes/commit/2cfbe3d2570cee5a7499323c9e9c2cadaa160bb2">2cfbe3d2570c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4934">#4934</a>).</li>
+<li><strong>Studio:</strong> A resize saves through the route its press chose, as a move does (<a href="https://github.com/heygen-com/hyperframes/commit/e27cae02619037cc01299fe86877ade974c1b3bb">e27cae026190</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4943">#4943</a>).</li>
+<li><strong>Studio:</strong> The preview reloads when any write a commit saved is not patched on screen (<a href="https://github.com/heygen-com/hyperframes/commit/da17c03c051286f06ac3ed6c495ca6b3c25f86ea">da17c03c0512</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4920">#4920</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> A paused Studio drag lets the preview loop sleep until the drag ends (<a href="https://github.com/heygen-com/hyperframes/commit/96bc879b5bba459e366c65e84e73973beb9d37a9">96bc879b5bba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4938">#4938</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Serve the edit bench GSAP from the repo, never the network (<a href="https://github.com/heygen-com/hyperframes/commit/2f14008b3cc20562390682e98646b4e48535f3c7">2f14008b3cc2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4968">#4968</a>).</li>
+<li><strong>Studio:</strong> Pin what the one DOM edit writer saves, records and reloads (<a href="https://github.com/heygen-com/hyperframes/commit/248ee7c00a27d2dcce83aac366d24ffb9206a939">248ee7c00a27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4947">#4947</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.116...v0.8.117">https://github.com/heygen-com/hyperframes/compare/v0.8.116...v0.8.117</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.117</h1>
+<p>Released on 2026-10-04.</p>
+<p>Edits in Studio now stay where you put them: resizes, rotations, undo and drops on animated layers all save and redraw correctly. A render with a broken video frame now fails loudly instead of hiding a blank frame.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Undoing a freeze frame removes the still it made (<a href="https://github.com/heygen-com/hyperframes/commit/237a984bb8d97f8dff7a5464c78851d633747f54">237a984bb8d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4971">#4971</a>).</li>
+<li><strong>Engine:</strong> Fail the render when an injected video frame cannot decode (<a href="https://github.com/heygen-com/hyperframes/commit/8e457d4224c513a8cdcb11b7d63aa204f5af7e0c">8e457d4224c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4974">#4974</a>).</li>
+<li><strong>Parsers:</strong> A keyframe edit no longer overrides an earlier tween at the start (<a href="https://github.com/heygen-com/hyperframes/commit/b71aa9338be16edd77ac78392dc95045ac1b4f70">b71aa9338be1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4935">#4935</a>).</li>
+<li><strong>Studio:</strong> A rotation saves through its press route; a host hook reloads only the host&#39;s way (<a href="https://github.com/heygen-com/hyperframes/commit/9106772593648367ef5a595171f6cfe570ef99d5">910677259364</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4961">#4961</a>).</li>
+<li><strong>Skills:</strong> Load shared creative guides for motion graphics (<a href="https://github.com/heygen-com/hyperframes/commit/9031a02cb53d6c1eff7b4ed83b81ed4ee2325508">9031a02cb53d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4970">#4970</a>).</li>
+<li><strong>Studio:</strong> An undo or drop on an animated layer keeps it where it was (<a href="https://github.com/heygen-com/hyperframes/commit/2cfbe3d2570cee5a7499323c9e9c2cadaa160bb2">2cfbe3d2570c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4934">#4934</a>).</li>
+<li><strong>Studio:</strong> A resize saves through the route its press chose, as a move does (<a href="https://github.com/heygen-com/hyperframes/commit/e27cae02619037cc01299fe86877ade974c1b3bb">e27cae026190</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4943">#4943</a>).</li>
+<li><strong>Studio:</strong> The preview reloads when any write a commit saved is not patched on screen (<a href="https://github.com/heygen-com/hyperframes/commit/da17c03c051286f06ac3ed6c495ca6b3c25f86ea">da17c03c0512</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4920">#4920</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> A paused Studio drag lets the preview loop sleep until the drag ends (<a href="https://github.com/heygen-com/hyperframes/commit/96bc879b5bba459e366c65e84e73973beb9d37a9">96bc879b5bba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4938">#4938</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Serve the edit bench GSAP from the repo, never the network (<a href="https://github.com/heygen-com/hyperframes/commit/2f14008b3cc20562390682e98646b4e48535f3c7">2f14008b3cc2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4968">#4968</a>).</li>
+<li><strong>Studio:</strong> Pin what the one DOM edit writer saves, records and reloads (<a href="https://github.com/heygen-com/hyperframes/commit/248ee7c00a27d2dcce83aac366d24ffb9206a939">248ee7c00a27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4947">#4947</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.116...v0.8.117">https://github.com/heygen-com/hyperframes/compare/v0.8.116...v0.8.117</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.116]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.116</link>
@@ -2467,116 +2595,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.69...v0.8.70">https://github.com/heygen-com/hyperframes/compare/v0.8.69...v0.8.70</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.69]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.69</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.69</guid>
-            <pubDate>Thu, 24 Sep 2026 00:18:11 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.69</h1>
-<p>Released on 2026-09-23.</p>
-<p>Large compositions lint faster, and previews respond sooner to file edits. This release also fixes font handling, installed skill imports, variable validation, and video duration after frame extraction.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Locate findings in linear time on large compositions (<a href="https://github.com/heygen-com/hyperframes/commit/54cb982ea24c97e3805de38b728f2ec9700a8839">54cb982ea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4373">#4373</a>).</li>
-<li><strong>CLI:</strong> Add --vars refuses a value of the wrong type instead of writing it (<a href="https://github.com/heygen-com/hyperframes/commit/0aa3cb82aad00fcd91cfbad4e1d0d36520c12c83">0aa3cb82a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4369">#4369</a>).</li>
-<li><strong>Skills:</strong> Keep script imports inside installed skill directories (<a href="https://github.com/heygen-com/hyperframes/commit/29fc95395debf2e8809f27b2a9943ccc973235d0">29fc95395</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4356">#4356</a>).</li>
-<li><strong>Engine:</strong> Reconcile metadata duration after extraction delivers fewer frames (<a href="https://github.com/heygen-com/hyperframes/commit/b021cb77be16811ddaeddb5ab61b776e72be3159">b021cb77b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4371">#4371</a>).</li>
-<li><strong>Producer:</strong> Deterministic font faces win over later font stylesheets (<a href="https://github.com/heygen-com/hyperframes/commit/00ea884d8f29dc446765860816913ed9428df2a6">00ea884d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4359">#4359</a>).</li>
-<li><strong>Skills:</strong> Preserve captured font subsets (<a href="https://github.com/heygen-com/hyperframes/commit/922be55e55b2553ad0f0c9feee11968c20ba6b56">922be55e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4358">#4358</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CLI:</strong> Tell the preview about a file edit 30 ms after it lands, not 300 (<a href="https://github.com/heygen-com/hyperframes/commit/5c3f02c855f90be25699c39fd915223256c323cb">5c3f02c85</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4348">#4348</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.68...v0.8.69">https://github.com/heygen-com/hyperframes/compare/v0.8.68...v0.8.69</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.69</h1>
-<p>Released on 2026-09-23.</p>
-<p>Large compositions lint faster, and previews respond sooner to file edits. This release also fixes font handling, installed skill imports, variable validation, and video duration after frame extraction.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Locate findings in linear time on large compositions (<a href="https://github.com/heygen-com/hyperframes/commit/54cb982ea24c97e3805de38b728f2ec9700a8839">54cb982ea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4373">#4373</a>).</li>
-<li><strong>CLI:</strong> Add --vars refuses a value of the wrong type instead of writing it (<a href="https://github.com/heygen-com/hyperframes/commit/0aa3cb82aad00fcd91cfbad4e1d0d36520c12c83">0aa3cb82a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4369">#4369</a>).</li>
-<li><strong>Skills:</strong> Keep script imports inside installed skill directories (<a href="https://github.com/heygen-com/hyperframes/commit/29fc95395debf2e8809f27b2a9943ccc973235d0">29fc95395</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4356">#4356</a>).</li>
-<li><strong>Engine:</strong> Reconcile metadata duration after extraction delivers fewer frames (<a href="https://github.com/heygen-com/hyperframes/commit/b021cb77be16811ddaeddb5ab61b776e72be3159">b021cb77b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4371">#4371</a>).</li>
-<li><strong>Producer:</strong> Deterministic font faces win over later font stylesheets (<a href="https://github.com/heygen-com/hyperframes/commit/00ea884d8f29dc446765860816913ed9428df2a6">00ea884d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4359">#4359</a>).</li>
-<li><strong>Skills:</strong> Preserve captured font subsets (<a href="https://github.com/heygen-com/hyperframes/commit/922be55e55b2553ad0f0c9feee11968c20ba6b56">922be55e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4358">#4358</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CLI:</strong> Tell the preview about a file edit 30 ms after it lands, not 300 (<a href="https://github.com/heygen-com/hyperframes/commit/5c3f02c855f90be25699c39fd915223256c323cb">5c3f02c85</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4348">#4348</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.68...v0.8.69">https://github.com/heygen-com/hyperframes/compare/v0.8.68...v0.8.69</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.68]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.68</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.68</guid>
-            <pubDate>Wed, 23 Sep 2026 21:20:58 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.68</h1>
-<p>Released on 2026-09-23.</p>
-<p>Lint findings now point to the offending JavaScript token, CSS declaration or supported GSAP call in the original source file, including subcompositions. Positions survive HTML comment removal and template wrappers. Ambiguous aggregate findings remain file-level.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Use client-side Acorn parsing and original-source mappings for exact JS, CSS and supported GSAP positions. External stylesheets retain their own filenames (<a href="https://github.com/heygen-com/hyperframes/pull/4360">#4360</a>).</li>
-</ul>
-<h2>Improvements</h2>
-<ul>
-<li><strong>Media-use:</strong> Resolve brand logos from a pinned theSVG catalog, with GitHub avatar and favicon fallbacks. Harden SVG sanitization for downloaded logos and Figma imports (<a href="https://github.com/heygen-com/hyperframes/pull/4291">#4291</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.67...v0.8.68">https://github.com/heygen-com/hyperframes/compare/v0.8.67...v0.8.68</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.68</h1>
-<p>Released on 2026-09-23.</p>
-<p>Lint findings now point to the offending JavaScript token, CSS declaration or supported GSAP call in the original source file, including subcompositions. Positions survive HTML comment removal and template wrappers. Ambiguous aggregate findings remain file-level.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Use client-side Acorn parsing and original-source mappings for exact JS, CSS and supported GSAP positions. External stylesheets retain their own filenames (<a href="https://github.com/heygen-com/hyperframes/pull/4360">#4360</a>).</li>
-</ul>
-<h2>Improvements</h2>
-<ul>
-<li><strong>Media-use:</strong> Resolve brand logos from a pinned theSVG catalog, with GitHub avatar and favicon fallbacks. Harden SVG sanitization for downloaded logos and Figma imports (<a href="https://github.com/heygen-com/hyperframes/pull/4291">#4291</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.67...v0.8.68">https://github.com/heygen-com/hyperframes/compare/v0.8.67...v0.8.68</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.67]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.67</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.67</guid>
-            <pubDate>Wed, 23 Sep 2026 20:18:39 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.67</h1>
-<p>Released on 2026-09-23.</p>
-<p>Lint findings now include one-based source line and column locations when they can be identified unambiguously. CLI output shows <code>file:line:column</code>, and JSON includes <code>line</code> and <code>column</code>.</p>
-<h2>Changes</h2>
-<ul>
-<li>Add source locations to lint findings (<a href="https://github.com/heygen-com/hyperframes/pull/4353">#4353</a>).</li>
-<li>Keep live reload working after atomic saves on Linux (<a href="https://github.com/heygen-com/hyperframes/pull/4346">#4346</a>).</li>
-<li>Update Studio panel tabs (<a href="https://github.com/heygen-com/hyperframes/pull/4266">#4266</a>).</li>
-<li>Scope catalog dispatch and fail closed on detection errors (<a href="https://github.com/heygen-com/hyperframes/pull/4347">#4347</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.66...v0.8.67">https://github.com/heygen-com/hyperframes/compare/v0.8.66...v0.8.67</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.67</h1>
-<p>Released on 2026-09-23.</p>
-<p>Lint findings now include one-based source line and column locations when they can be identified unambiguously. CLI output shows <code>file:line:column</code>, and JSON includes <code>line</code> and <code>column</code>.</p>
-<h2>Changes</h2>
-<ul>
-<li>Add source locations to lint findings (<a href="https://github.com/heygen-com/hyperframes/pull/4353">#4353</a>).</li>
-<li>Keep live reload working after atomic saves on Linux (<a href="https://github.com/heygen-com/hyperframes/pull/4346">#4346</a>).</li>
-<li>Update Studio panel tabs (<a href="https://github.com/heygen-com/hyperframes/pull/4266">#4266</a>).</li>
-<li>Scope catalog dispatch and fail closed on detection errors (<a href="https://github.com/heygen-com/hyperframes/pull/4347">#4347</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.66...v0.8.67">https://github.com/heygen-com/hyperframes/compare/v0.8.66...v0.8.67</a></p>
 ]]></content:encoded>
         </item>
     </channel>
