@@ -4,11 +4,53 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 04 Oct 2026 23:20:18 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 01:10:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.127]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.127</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.127</guid>
+            <pubDate>Mon, 05 Oct 2026 01:10:56 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.127</h1>
+<p>Released on 2026-10-05.</p>
+<p>Long clips on the timeline now mount only the picture tiles in view, so a ten-minute clip scrolls and zooms smoothly, and dragging a keyframe&#39;s path node moves only that keyframe while the others stay put.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Dragging a keyframe&#39;s path node keeps the other keyframes where they were (<a href="https://github.com/heygen-com/hyperframes/commit/cd0d04e4e983a71b5720a8248176a0cd2c7d3518">cd0d04e4e983</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4946">#4946</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Long clips mount only the picture tiles in view (<a href="https://github.com/heygen-com/hyperframes/commit/1bdb5edd93bb7fe58cbb5ec81133a23deb075ad2">1bdb5edd93bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4993">#4993</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> The HTML scanner&#39;s linear-work checks count work instead of timing it (<a href="https://github.com/heygen-com/hyperframes/commit/e703c39cdd7bfcc8ba92750610e6662d193c39f3">e703c39cdd7b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5037">#5037</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.126...v0.8.127">https://github.com/heygen-com/hyperframes/compare/v0.8.126...v0.8.127</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.127</h1>
+<p>Released on 2026-10-05.</p>
+<p>Long clips on the timeline now mount only the picture tiles in view, so a ten-minute clip scrolls and zooms smoothly, and dragging a keyframe&#39;s path node moves only that keyframe while the others stay put.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Dragging a keyframe&#39;s path node keeps the other keyframes where they were (<a href="https://github.com/heygen-com/hyperframes/commit/cd0d04e4e983a71b5720a8248176a0cd2c7d3518">cd0d04e4e983</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4946">#4946</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Long clips mount only the picture tiles in view (<a href="https://github.com/heygen-com/hyperframes/commit/1bdb5edd93bb7fe58cbb5ec81133a23deb075ad2">1bdb5edd93bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4993">#4993</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> The HTML scanner&#39;s linear-work checks count work instead of timing it (<a href="https://github.com/heygen-com/hyperframes/commit/e703c39cdd7bfcc8ba92750610e6662d193c39f3">e703c39cdd7b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5037">#5037</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.126...v0.8.127">https://github.com/heygen-com/hyperframes/compare/v0.8.126...v0.8.127</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.126]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.126</link>
@@ -2427,48 +2469,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.77...v0.8.78">https://github.com/heygen-com/hyperframes/compare/v0.8.77...v0.8.78</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.77]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.77</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.77</guid>
-            <pubDate>Fri, 25 Sep 2026 13:09:21 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.77</h1>
-<p>Released on 2026-09-25.</p>
-<p>A captured frame, such as a preview poster, now waits for a video that is still loading instead of leaving it out. Studio opens every project&#39;s preview at Fit and finds the right element when an id repeats.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Inject page tags at the document&#39;s own head and body, not inside a script (<a href="https://github.com/heygen-com/hyperframes/commit/f1f370e96c211fd1c7bf28a14cba7e809e9102c3">f1f370e96c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4484">#4484</a>).</li>
-<li><strong>Core:</strong> A frame capture waits for a video that is still loading its first data (<a href="https://github.com/heygen-com/hyperframes/commit/a486c0f8d906efab5fcec4388ba7a28ddf754468">a486c0f8d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4487">#4487</a>).</li>
-<li><strong>Studio Server:</strong> One process at a time keeps a project&#39;s history open (<a href="https://github.com/heygen-com/hyperframes/commit/31441701fc6b3f3537a178ac0f6b22e509a54805">31441701fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4448">#4448</a>).</li>
-<li><strong>Studio:</strong> Preview lookups use the right element when an id repeats across files (<a href="https://github.com/heygen-com/hyperframes/commit/4dc1bee9c239e36b086c4449d1f587d03d372c47">4dc1bee9c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4486">#4486</a>).</li>
-<li><strong>Studio:</strong> Every project opens its preview at Fit, and a zoom says so (<a href="https://github.com/heygen-com/hyperframes/commit/224388ad292167f0291da00bacea0bdd95cdd7de">224388ad29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4473">#4473</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Release:</strong> List the three changes v0.8.76 also shipped (<a href="https://github.com/heygen-com/hyperframes/commit/5f95787cceb29cc52e09d8d31edb2c0947ff544f">5f95787cce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4488">#4488</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.76...v0.8.77">https://github.com/heygen-com/hyperframes/compare/v0.8.76...v0.8.77</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.77</h1>
-<p>Released on 2026-09-25.</p>
-<p>A captured frame, such as a preview poster, now waits for a video that is still loading instead of leaving it out. Studio opens every project&#39;s preview at Fit and finds the right element when an id repeats.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Inject page tags at the document&#39;s own head and body, not inside a script (<a href="https://github.com/heygen-com/hyperframes/commit/f1f370e96c211fd1c7bf28a14cba7e809e9102c3">f1f370e96c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4484">#4484</a>).</li>
-<li><strong>Core:</strong> A frame capture waits for a video that is still loading its first data (<a href="https://github.com/heygen-com/hyperframes/commit/a486c0f8d906efab5fcec4388ba7a28ddf754468">a486c0f8d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4487">#4487</a>).</li>
-<li><strong>Studio Server:</strong> One process at a time keeps a project&#39;s history open (<a href="https://github.com/heygen-com/hyperframes/commit/31441701fc6b3f3537a178ac0f6b22e509a54805">31441701fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4448">#4448</a>).</li>
-<li><strong>Studio:</strong> Preview lookups use the right element when an id repeats across files (<a href="https://github.com/heygen-com/hyperframes/commit/4dc1bee9c239e36b086c4449d1f587d03d372c47">4dc1bee9c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4486">#4486</a>).</li>
-<li><strong>Studio:</strong> Every project opens its preview at Fit, and a zoom says so (<a href="https://github.com/heygen-com/hyperframes/commit/224388ad292167f0291da00bacea0bdd95cdd7de">224388ad29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4473">#4473</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Release:</strong> List the three changes v0.8.76 also shipped (<a href="https://github.com/heygen-com/hyperframes/commit/5f95787cceb29cc52e09d8d31edb2c0947ff544f">5f95787cce</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4488">#4488</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.76...v0.8.77">https://github.com/heygen-com/hyperframes/compare/v0.8.76...v0.8.77</a></p>
 ]]></content:encoded>
         </item>
     </channel>
