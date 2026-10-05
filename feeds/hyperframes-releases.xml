@@ -4,11 +4,45 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 05 Oct 2026 12:43:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 Oct 2026 16:20:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.134]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.134</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.134</guid>
+            <pubDate>Mon, 05 Oct 2026 16:20:36 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.134</h1>
+<p>Released on 2026-10-05.</p>
+<p>A plain element now keeps its place and size when you add keyframes to it, and a resize with auto-record on keys its size at the playhead.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Plain elements keep their place and size when keyframed (<a href="https://github.com/heygen-com/hyperframes/commit/5c7f11ab6d8a881eb3b6ddaa5905fa8d6af9db44">5c7f11ab6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5045">#5045</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Add Studio app pages for Mac and Linux (<a href="https://github.com/heygen-com/hyperframes/commit/061a5c0265202538352a9888518064ae4fbb191c">061a5c026</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5063">#5063</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.133...v0.8.134">https://github.com/heygen-com/hyperframes/compare/v0.8.133...v0.8.134</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.134</h1>
+<p>Released on 2026-10-05.</p>
+<p>A plain element now keeps its place and size when you add keyframes to it, and a resize with auto-record on keys its size at the playhead.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Plain elements keep their place and size when keyframed (<a href="https://github.com/heygen-com/hyperframes/commit/5c7f11ab6d8a881eb3b6ddaa5905fa8d6af9db44">5c7f11ab6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5045">#5045</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Add Studio app pages for Mac and Linux (<a href="https://github.com/heygen-com/hyperframes/commit/061a5c0265202538352a9888518064ae4fbb191c">061a5c026</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5063">#5063</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.133...v0.8.134">https://github.com/heygen-com/hyperframes/compare/v0.8.133...v0.8.134</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.133]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.133</link>
@@ -2121,44 +2155,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.84...v0.8.85">https://github.com/heygen-com/hyperframes/compare/v0.8.84...v0.8.85</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.84]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.84</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.84</guid>
-            <pubDate>Mon, 28 Sep 2026 17:06:01 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.84</h1>
-<p>Released on 2026-09-28.</p>
-<p>Studio keeps the words you typed when the editor closes mid-edit, and HEVC clips no longer stall it while their preview copies are made. Host apps can import id stamping, file walking and history without the server.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Words typed mid-edit are saved when the editor closes, as they are when you click away (<a href="https://github.com/heygen-com/hyperframes/commit/42f6a3a27e57d6bb6373d11169d5e7a4cd5bfbe5">42f6a3a27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4651">#4651</a>).</li>
-<li><strong>Studio:</strong> The timeline reads clip speed with the same limits as playback (<a href="https://github.com/heygen-com/hyperframes/commit/523685985b4aaa4e4e017486b287d9500627f3ef">523685985</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4667">#4667</a>).</li>
-<li><strong>Studio Server:</strong> HEVC clips no longer stall Studio while their preview copies are made (<a href="https://github.com/heygen-com/hyperframes/commit/cbcadbfbd089de11fe30f1054fdcf54956aad780">cbcadbfbd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4580">#4580</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio Server:</strong> A host can import id stamping, file walking and history without the server (<a href="https://github.com/heygen-com/hyperframes/commit/e251d4c1de05e9ae47273b3ebba2127273d0cc69">e251d4c1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4644">#4644</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.83...v0.8.84">https://github.com/heygen-com/hyperframes/compare/v0.8.83...v0.8.84</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.84</h1>
-<p>Released on 2026-09-28.</p>
-<p>Studio keeps the words you typed when the editor closes mid-edit, and HEVC clips no longer stall it while their preview copies are made. Host apps can import id stamping, file walking and history without the server.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Words typed mid-edit are saved when the editor closes, as they are when you click away (<a href="https://github.com/heygen-com/hyperframes/commit/42f6a3a27e57d6bb6373d11169d5e7a4cd5bfbe5">42f6a3a27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4651">#4651</a>).</li>
-<li><strong>Studio:</strong> The timeline reads clip speed with the same limits as playback (<a href="https://github.com/heygen-com/hyperframes/commit/523685985b4aaa4e4e017486b287d9500627f3ef">523685985</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4667">#4667</a>).</li>
-<li><strong>Studio Server:</strong> HEVC clips no longer stall Studio while their preview copies are made (<a href="https://github.com/heygen-com/hyperframes/commit/cbcadbfbd089de11fe30f1054fdcf54956aad780">cbcadbfbd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4580">#4580</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio Server:</strong> A host can import id stamping, file walking and history without the server (<a href="https://github.com/heygen-com/hyperframes/commit/e251d4c1de05e9ae47273b3ebba2127273d0cc69">e251d4c1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4644">#4644</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.83...v0.8.84">https://github.com/heygen-com/hyperframes/compare/v0.8.83...v0.8.84</a></p>
 ]]></content:encoded>
         </item>
     </channel>
