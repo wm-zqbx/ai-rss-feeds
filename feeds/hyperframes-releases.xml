@@ -4,11 +4,41 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 06 Oct 2026 02:33:11 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 06 Oct 2026 05:47:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.137]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137</guid>
+            <pubDate>Tue, 06 Oct 2026 05:47:19 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.137</h1>
+<p>Released on 2026-10-06.</p>
+<p>Compositions with large inline images or scripts use far less memory while they load for preview. Whisper transcription detects the spoken language and can report progress.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Audio clips that reach the export ceiling now say “Too loud”, with the exact peak on hover or keyboard focus (<a href="https://github.com/heygen-com/hyperframes/commit/4905b4dbca74ddff8e9302a0fe00fa74ddd7d056">4905b4dbc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5099">#5099</a>).</li>
+<li><strong>Core:</strong> Large inline images and scripts use far less memory while a composition loads (<a href="https://github.com/heygen-com/hyperframes/commit/00342fc2be0a9905dd67cc218d713aeca19b5e3f">00342fc2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5098">#5098</a>).</li>
+<li><strong>CLI:</strong> With Whisper, <code>transcribe</code> detects the spoken language instead of assuming English, and <code>--json</code> reports download and transcription progress. The new <code>--no-runtime-install</code> flag stops it installing the Whisper runtime (<a href="https://github.com/heygen-com/hyperframes/commit/1db44c659565a5a70a39fbe836c497afe9a84d6d">1db44c659</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5103">#5103</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.136...v0.8.137">https://github.com/heygen-com/hyperframes/compare/v0.8.136...v0.8.137</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.137</h1>
+<p>Released on 2026-10-06.</p>
+<p>Compositions with large inline images or scripts use far less memory while they load for preview. Whisper transcription detects the spoken language and can report progress.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Audio clips that reach the export ceiling now say “Too loud”, with the exact peak on hover or keyboard focus (<a href="https://github.com/heygen-com/hyperframes/commit/4905b4dbca74ddff8e9302a0fe00fa74ddd7d056">4905b4dbc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5099">#5099</a>).</li>
+<li><strong>Core:</strong> Large inline images and scripts use far less memory while a composition loads (<a href="https://github.com/heygen-com/hyperframes/commit/00342fc2be0a9905dd67cc218d713aeca19b5e3f">00342fc2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5098">#5098</a>).</li>
+<li><strong>CLI:</strong> With Whisper, <code>transcribe</code> detects the spoken language instead of assuming English, and <code>--json</code> reports download and transcription progress. The new <code>--no-runtime-install</code> flag stops it installing the Whisper runtime (<a href="https://github.com/heygen-com/hyperframes/commit/1db44c659565a5a70a39fbe836c497afe9a84d6d">1db44c659</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5103">#5103</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.136...v0.8.137">https://github.com/heygen-com/hyperframes/compare/v0.8.136...v0.8.137</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.136]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.136</link>
@@ -2081,90 +2111,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.87...v0.8.88">https://github.com/heygen-com/hyperframes/compare/v0.8.87...v0.8.88</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.87]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.87</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.87</guid>
-            <pubDate>Tue, 29 Sep 2026 01:08:03 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.87</h1>
-<p>Released on 2026-09-29.</p>
-<p>An app that embeds Studio can now mount its canvas handles, save style edits and hide the audio effects controls. The player can loop a range of a film, <code>hyperframes clean</code> frees disk space, and sound effects start on time.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> <code>hyperframes clean</code> finds and removes what HyperFrames left on disk (<a href="https://github.com/heygen-com/hyperframes/commit/663b02297d58b56d7153bb156451ebb2b830941b">663b02297</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4701">#4701</a>).</li>
-<li><strong>Studio:</strong> An embedding app can mount Studio&#39;s move, resize and rotate handles over its own preview (<a href="https://github.com/heygen-com/hyperframes/commit/cc792d4a8a9e79cca0678f1be68b54a51ae59d81">cc792d4a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4708">#4708</a>).</li>
-<li><strong>Player:</strong> Play and loop a range of a film with range-start and range-end (<a href="https://github.com/heygen-com/hyperframes/commit/840f657028b9cf7f20a1a2efb9d436e52aa42d71">840f65702</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4688">#4688</a>).</li>
-<li><strong>Studio:</strong> An embedding app can hide the timeline&#39;s audio effects controls (<a href="https://github.com/heygen-com/hyperframes/commit/dc61ce105bc5ead8d4c0262298bc2aff5031c233">dc61ce105</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4704">#4704</a>).</li>
-<li><strong>Studio:</strong> An embedding app can save style edits on a selection through Studio&#39;s own style save (<a href="https://github.com/heygen-com/hyperframes/commit/0af671c6df8f8f740f2e982247ae3eab67dd0514">0af671c6d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4698">#4698</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Media Use:</strong> Record agent-made voice, music and sound effects in the media manifest (<a href="https://github.com/heygen-com/hyperframes/commit/e25bc3a80625af41ca576d80224f1dc1a621eb42">e25bc3a80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4648">#4648</a>).</li>
-<li><strong>Studio Server:</strong> The server loads where sharp&#39;s native binary is missing (<a href="https://github.com/heygen-com/hyperframes/commit/498643bea46b15ab717769c44bf0ef333381b4b0">498643bea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4654">#4654</a>).</li>
-<li><strong>Studio Server:</strong> Undo keeps an outside change even when Studio&#39;s history claim arrives late (<a href="https://github.com/heygen-com/hyperframes/commit/381fb0fd9a24b0c49713452bb61314eccce0aaae">381fb0fd9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4631">#4631</a>).</li>
-<li><strong>Studio:</strong> Studio hides the handles for edits it would refuse to save (<a href="https://github.com/heygen-com/hyperframes/commit/7e0711505a1af0a767c6b6538d81583599859b18">7e0711505</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4666">#4666</a>).</li>
-<li><strong>Studio:</strong> Escape cancels a marquee band on the preview and goes no further (<a href="https://github.com/heygen-com/hyperframes/commit/a519927436a75b48d8564c75206a8d9624fc0251">a51992743</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4703">#4703</a>).</li>
-<li><strong>Studio:</strong> Escape cancels a marquee band on the timeline and goes no further (<a href="https://github.com/heygen-com/hyperframes/commit/f7207247de18c616dd03b063c29a00f3e5000068">f7207247d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4700">#4700</a>).</li>
-<li><strong>Producer:</strong> Renders leave no captured frames behind when interrupted (<a href="https://github.com/heygen-com/hyperframes/commit/f7ef18dca80c791a2991a90280638b32c109d227">f7ef18dca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4694">#4694</a>).</li>
-<li><strong>Core:</strong> A sound effect starts on its time instead of a frame late (<a href="https://github.com/heygen-com/hyperframes/commit/e0b940aa302efb011009395af54d4023ae08baf1">e0b940aa3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4696">#4696</a>).</li>
-<li><strong>Studio:</strong> Drilling in opens the composition&#39;s full project path (<a href="https://github.com/heygen-com/hyperframes/commit/a0c72ad64a3a68b115495f544e4aa675a41dd74e">a0c72ad64</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4689">#4689</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CLI:</strong> Load each command&#39;s code only when that command runs (<a href="https://github.com/heygen-com/hyperframes/commit/e07ea1fc70335c6898c7fd1abaa31145c79c287a">e07ea1fc7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4656">#4656</a>).</li>
-<li><strong>Studio:</strong> Swap an edited scene into the live preview instead of reloading (<a href="https://github.com/heygen-com/hyperframes/commit/303c8e922f89f657557ad304557101e36fbd7750">303c8e922</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4499">#4499</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Studio agents answer questions before editing and plan new films like the launch films (<a href="https://github.com/heygen-com/hyperframes/commit/0c2c4248e6a79654fe54e5a65c1f000fcde4dd34">0c2c4248e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4699">#4699</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Add 3D objects, cursors, snow, starfield and paper transitions (<a href="https://github.com/heygen-com/hyperframes/commit/590c192498ed738941380da7b3a2f6211966ba94">590c19249</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4349">#4349</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.86...v0.8.87">https://github.com/heygen-com/hyperframes/compare/v0.8.86...v0.8.87</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.87</h1>
-<p>Released on 2026-09-29.</p>
-<p>An app that embeds Studio can now mount its canvas handles, save style edits and hide the audio effects controls. The player can loop a range of a film, <code>hyperframes clean</code> frees disk space, and sound effects start on time.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> <code>hyperframes clean</code> finds and removes what HyperFrames left on disk (<a href="https://github.com/heygen-com/hyperframes/commit/663b02297d58b56d7153bb156451ebb2b830941b">663b02297</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4701">#4701</a>).</li>
-<li><strong>Studio:</strong> An embedding app can mount Studio&#39;s move, resize and rotate handles over its own preview (<a href="https://github.com/heygen-com/hyperframes/commit/cc792d4a8a9e79cca0678f1be68b54a51ae59d81">cc792d4a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4708">#4708</a>).</li>
-<li><strong>Player:</strong> Play and loop a range of a film with range-start and range-end (<a href="https://github.com/heygen-com/hyperframes/commit/840f657028b9cf7f20a1a2efb9d436e52aa42d71">840f65702</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4688">#4688</a>).</li>
-<li><strong>Studio:</strong> An embedding app can hide the timeline&#39;s audio effects controls (<a href="https://github.com/heygen-com/hyperframes/commit/dc61ce105bc5ead8d4c0262298bc2aff5031c233">dc61ce105</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4704">#4704</a>).</li>
-<li><strong>Studio:</strong> An embedding app can save style edits on a selection through Studio&#39;s own style save (<a href="https://github.com/heygen-com/hyperframes/commit/0af671c6df8f8f740f2e982247ae3eab67dd0514">0af671c6d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4698">#4698</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Media Use:</strong> Record agent-made voice, music and sound effects in the media manifest (<a href="https://github.com/heygen-com/hyperframes/commit/e25bc3a80625af41ca576d80224f1dc1a621eb42">e25bc3a80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4648">#4648</a>).</li>
-<li><strong>Studio Server:</strong> The server loads where sharp&#39;s native binary is missing (<a href="https://github.com/heygen-com/hyperframes/commit/498643bea46b15ab717769c44bf0ef333381b4b0">498643bea</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4654">#4654</a>).</li>
-<li><strong>Studio Server:</strong> Undo keeps an outside change even when Studio&#39;s history claim arrives late (<a href="https://github.com/heygen-com/hyperframes/commit/381fb0fd9a24b0c49713452bb61314eccce0aaae">381fb0fd9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4631">#4631</a>).</li>
-<li><strong>Studio:</strong> Studio hides the handles for edits it would refuse to save (<a href="https://github.com/heygen-com/hyperframes/commit/7e0711505a1af0a767c6b6538d81583599859b18">7e0711505</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4666">#4666</a>).</li>
-<li><strong>Studio:</strong> Escape cancels a marquee band on the preview and goes no further (<a href="https://github.com/heygen-com/hyperframes/commit/a519927436a75b48d8564c75206a8d9624fc0251">a51992743</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4703">#4703</a>).</li>
-<li><strong>Studio:</strong> Escape cancels a marquee band on the timeline and goes no further (<a href="https://github.com/heygen-com/hyperframes/commit/f7207247de18c616dd03b063c29a00f3e5000068">f7207247d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4700">#4700</a>).</li>
-<li><strong>Producer:</strong> Renders leave no captured frames behind when interrupted (<a href="https://github.com/heygen-com/hyperframes/commit/f7ef18dca80c791a2991a90280638b32c109d227">f7ef18dca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4694">#4694</a>).</li>
-<li><strong>Core:</strong> A sound effect starts on its time instead of a frame late (<a href="https://github.com/heygen-com/hyperframes/commit/e0b940aa302efb011009395af54d4023ae08baf1">e0b940aa3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4696">#4696</a>).</li>
-<li><strong>Studio:</strong> Drilling in opens the composition&#39;s full project path (<a href="https://github.com/heygen-com/hyperframes/commit/a0c72ad64a3a68b115495f544e4aa675a41dd74e">a0c72ad64</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4689">#4689</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CLI:</strong> Load each command&#39;s code only when that command runs (<a href="https://github.com/heygen-com/hyperframes/commit/e07ea1fc70335c6898c7fd1abaa31145c79c287a">e07ea1fc7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4656">#4656</a>).</li>
-<li><strong>Studio:</strong> Swap an edited scene into the live preview instead of reloading (<a href="https://github.com/heygen-com/hyperframes/commit/303c8e922f89f657557ad304557101e36fbd7750">303c8e922</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4499">#4499</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Studio agents answer questions before editing and plan new films like the launch films (<a href="https://github.com/heygen-com/hyperframes/commit/0c2c4248e6a79654fe54e5a65c1f000fcde4dd34">0c2c4248e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4699">#4699</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Add 3D objects, cursors, snow, starfield and paper transitions (<a href="https://github.com/heygen-com/hyperframes/commit/590c192498ed738941380da7b3a2f6211966ba94">590c19249</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4349">#4349</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.86...v0.8.87">https://github.com/heygen-com/hyperframes/compare/v0.8.86...v0.8.87</a></p>
 ]]></content:encoded>
         </item>
     </channel>
