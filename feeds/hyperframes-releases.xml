@@ -4,11 +4,87 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 07 Oct 2026 00:28:05 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Oct 2026 10:29:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.140]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.140</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.140</guid>
+            <pubDate>Wed, 07 Oct 2026 10:29:36 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.140</h1>
+<p>Released on 2026-10-07.</p>
+<p>Motion blur now works over video, and rendering reports encoding and assembly progress. Studio previews, image replacement, and long-timeline zoom are more reliable.</p>
+<h2>Changes</h2>
+<ul>
+<li>Composition hosts can show the hover outline and set the stage’s starting size. (<a href="https://github.com/heygen-com/hyperframes/pull/5116">#5116</a>).</li>
+<li>Replacing an image fill now changes the displayed picture. (<a href="https://github.com/heygen-com/hyperframes/pull/5170">#5170</a>).</li>
+<li>Rebound root timelines keep advancing with the playback clock. (<a href="https://github.com/heygen-com/hyperframes/pull/5165">#5165</a>).</li>
+<li>Slow documents wait for their own frame cadence before capture. (<a href="https://github.com/heygen-com/hyperframes/pull/5168">#5168</a>).</li>
+<li>Fresh timeline updates from a host are preserved. (<a href="https://github.com/heygen-com/hyperframes/pull/5159">#5159</a>).</li>
+<li>Transcription keeps words spoken before the detected speech onset. (<a href="https://github.com/heygen-com/hyperframes/pull/5164">#5164</a>).</li>
+<li>Zooming long timelines does less image decoding and drawing. (<a href="https://github.com/heygen-com/hyperframes/pull/5142">#5142</a>).</li>
+<li>The preview catches up after missed file changes. (<a href="https://github.com/heygen-com/hyperframes/pull/5126">#5126</a>).</li>
+<li>Music requests use the host app’s music tools, with a clear error when the required CLI is missing. (<a href="https://github.com/heygen-com/hyperframes/pull/5154">#5154</a>).</li>
+<li>Feedback can report missing features and host-app friction without a rating. (<a href="https://github.com/heygen-com/hyperframes/pull/5140">#5140</a>).</li>
+<li>Automatic render worker counts respect the available memory budget. (<a href="https://github.com/heygen-com/hyperframes/pull/5149">#5149</a>).</li>
+<li>CLI startup loads reporting code without loading the full rendering engine, and history tests no longer race. (<a href="https://github.com/heygen-com/hyperframes/pull/5153">#5153</a>).</li>
+<li>Motion blur renders correctly over video by keeping the video frame steady across samples. (<a href="https://github.com/heygen-com/hyperframes/pull/5150">#5150</a>).</li>
+<li>Checks avoid false static-motion and text-overlap warnings on valid compositions. (<a href="https://github.com/heygen-com/hyperframes/pull/5147">#5147</a>).</li>
+<li>Imported scenes stay within their source time ranges. (<a href="https://github.com/heygen-com/hyperframes/pull/5132">#5132</a>).</li>
+<li>Rendering shows progress while encoding and assembling the output. (<a href="https://github.com/heygen-com/hyperframes/pull/5137">#5137</a>).</li>
+<li>Imported film HTML can use native capture while preserving its structure. (<a href="https://github.com/heygen-com/hyperframes/pull/5131">#5131</a>).</li>
+<li>Catalog previews run block scripts inline, and six shader blocks have dedicated documentation pages. (<a href="https://github.com/heygen-com/hyperframes/pull/5139">#5139</a>).</li>
+<li>The catalog adds six WebGPU shader backgrounds. (<a href="https://github.com/heygen-com/hyperframes/pull/5138">#5138</a>).</li>
+<li>Asynchronous frame sources can render repeatable frames. (<a href="https://github.com/heygen-com/hyperframes/pull/5130">#5130</a>).</li>
+<li>Skill publishing verifies that the latest creative guidance is available. (<a href="https://github.com/heygen-com/hyperframes/pull/5081">#5081</a>).</li>
+<li>WebGPU compositions can render with software graphics through an opt-in setting. (<a href="https://github.com/heygen-com/hyperframes/pull/5133">#5133</a>).</li>
+<li>Producer unit tests run without reaching the network. (<a href="https://github.com/heygen-com/hyperframes/pull/5135">#5135</a>).</li>
+<li>Timeline zoom stays smoother on long projects. (<a href="https://github.com/heygen-com/hyperframes/pull/5109">#5109</a>).</li>
+<li>Browser tests use a consistent launch path and a bounded time budget. (<a href="https://github.com/heygen-com/hyperframes/pull/5134">#5134</a>).</li>
+<li>The preview preloads upcoming scene images, and checks handle image swaps correctly. (<a href="https://github.com/heygen-com/hyperframes/pull/5128">#5128</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.139...v0.8.140">https://github.com/heygen-com/hyperframes/compare/v0.8.139...v0.8.140</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.140</h1>
+<p>Released on 2026-10-07.</p>
+<p>Motion blur now works over video, and rendering reports encoding and assembly progress. Studio previews, image replacement, and long-timeline zoom are more reliable.</p>
+<h2>Changes</h2>
+<ul>
+<li>Composition hosts can show the hover outline and set the stage’s starting size. (<a href="https://github.com/heygen-com/hyperframes/pull/5116">#5116</a>).</li>
+<li>Replacing an image fill now changes the displayed picture. (<a href="https://github.com/heygen-com/hyperframes/pull/5170">#5170</a>).</li>
+<li>Rebound root timelines keep advancing with the playback clock. (<a href="https://github.com/heygen-com/hyperframes/pull/5165">#5165</a>).</li>
+<li>Slow documents wait for their own frame cadence before capture. (<a href="https://github.com/heygen-com/hyperframes/pull/5168">#5168</a>).</li>
+<li>Fresh timeline updates from a host are preserved. (<a href="https://github.com/heygen-com/hyperframes/pull/5159">#5159</a>).</li>
+<li>Transcription keeps words spoken before the detected speech onset. (<a href="https://github.com/heygen-com/hyperframes/pull/5164">#5164</a>).</li>
+<li>Zooming long timelines does less image decoding and drawing. (<a href="https://github.com/heygen-com/hyperframes/pull/5142">#5142</a>).</li>
+<li>The preview catches up after missed file changes. (<a href="https://github.com/heygen-com/hyperframes/pull/5126">#5126</a>).</li>
+<li>Music requests use the host app’s music tools, with a clear error when the required CLI is missing. (<a href="https://github.com/heygen-com/hyperframes/pull/5154">#5154</a>).</li>
+<li>Feedback can report missing features and host-app friction without a rating. (<a href="https://github.com/heygen-com/hyperframes/pull/5140">#5140</a>).</li>
+<li>Automatic render worker counts respect the available memory budget. (<a href="https://github.com/heygen-com/hyperframes/pull/5149">#5149</a>).</li>
+<li>CLI startup loads reporting code without loading the full rendering engine, and history tests no longer race. (<a href="https://github.com/heygen-com/hyperframes/pull/5153">#5153</a>).</li>
+<li>Motion blur renders correctly over video by keeping the video frame steady across samples. (<a href="https://github.com/heygen-com/hyperframes/pull/5150">#5150</a>).</li>
+<li>Checks avoid false static-motion and text-overlap warnings on valid compositions. (<a href="https://github.com/heygen-com/hyperframes/pull/5147">#5147</a>).</li>
+<li>Imported scenes stay within their source time ranges. (<a href="https://github.com/heygen-com/hyperframes/pull/5132">#5132</a>).</li>
+<li>Rendering shows progress while encoding and assembling the output. (<a href="https://github.com/heygen-com/hyperframes/pull/5137">#5137</a>).</li>
+<li>Imported film HTML can use native capture while preserving its structure. (<a href="https://github.com/heygen-com/hyperframes/pull/5131">#5131</a>).</li>
+<li>Catalog previews run block scripts inline, and six shader blocks have dedicated documentation pages. (<a href="https://github.com/heygen-com/hyperframes/pull/5139">#5139</a>).</li>
+<li>The catalog adds six WebGPU shader backgrounds. (<a href="https://github.com/heygen-com/hyperframes/pull/5138">#5138</a>).</li>
+<li>Asynchronous frame sources can render repeatable frames. (<a href="https://github.com/heygen-com/hyperframes/pull/5130">#5130</a>).</li>
+<li>Skill publishing verifies that the latest creative guidance is available. (<a href="https://github.com/heygen-com/hyperframes/pull/5081">#5081</a>).</li>
+<li>WebGPU compositions can render with software graphics through an opt-in setting. (<a href="https://github.com/heygen-com/hyperframes/pull/5133">#5133</a>).</li>
+<li>Producer unit tests run without reaching the network. (<a href="https://github.com/heygen-com/hyperframes/pull/5135">#5135</a>).</li>
+<li>Timeline zoom stays smoother on long projects. (<a href="https://github.com/heygen-com/hyperframes/pull/5109">#5109</a>).</li>
+<li>Browser tests use a consistent launch path and a bounded time budget. (<a href="https://github.com/heygen-com/hyperframes/pull/5134">#5134</a>).</li>
+<li>The preview preloads upcoming scene images, and checks handle image swaps correctly. (<a href="https://github.com/heygen-com/hyperframes/pull/5128">#5128</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.139...v0.8.140">https://github.com/heygen-com/hyperframes/compare/v0.8.139...v0.8.140</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.139]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.139</link>
@@ -2133,40 +2209,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91">https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.90]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.90</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.90</guid>
-            <pubDate>Tue, 29 Sep 2026 02:36:02 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.90</h1>
-<p>Released on 2026-09-29.</p>
-<p>Undo and redo in Studio update the preview in place instead of reloading it. Clicking an element in the preview selects it faster, without restyling the whole film.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Undo and redo update the preview in place instead of reloading it (<a href="https://github.com/heygen-com/hyperframes/commit/9e1dbca7a2c2ea7486852efe737b606f86dd4e32">9e1dbca7a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4718">#4718</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Clicking an element in the preview selects it without restyling the whole film (<a href="https://github.com/heygen-com/hyperframes/commit/1bede4742a502cf8f6dfaccfafa3f7ef01f12299">1bede4742</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4707">#4707</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.89...v0.8.90">https://github.com/heygen-com/hyperframes/compare/v0.8.89...v0.8.90</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.90</h1>
-<p>Released on 2026-09-29.</p>
-<p>Undo and redo in Studio update the preview in place instead of reloading it. Clicking an element in the preview selects it faster, without restyling the whole film.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Undo and redo update the preview in place instead of reloading it (<a href="https://github.com/heygen-com/hyperframes/commit/9e1dbca7a2c2ea7486852efe737b606f86dd4e32">9e1dbca7a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4718">#4718</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Clicking an element in the preview selects it without restyling the whole film (<a href="https://github.com/heygen-com/hyperframes/commit/1bede4742a502cf8f6dfaccfafa3f7ef01f12299">1bede4742</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4707">#4707</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.89...v0.8.90">https://github.com/heygen-com/hyperframes/compare/v0.8.89...v0.8.90</a></p>
 ]]></content:encoded>
         </item>
     </channel>
