@@ -4,11 +4,71 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 06 Oct 2026 18:19:06 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Oct 2026 00:28:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.139]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.139</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.139</guid>
+            <pubDate>Wed, 07 Oct 2026 00:28:05 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.139</h1>
+<p>Released on 2026-10-06.</p>
+<p>Built-in transcription now runs inside the HyperFrames desktop app. <code>transcribe --json</code> streams words as they are heard, except with parakeet-mlx. Studio drags after a resize, undo or reload land where they were pressed.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Stream heard words on the transcribe --json progress stream (<a href="https://github.com/heygen-com/hyperframes/commit/156e87766c77c8b9c680b7dc107f94b4ee734f17">156e87766</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5127">#5127</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Read the WAV in JS so Built-in transcription runs inside Electron (<a href="https://github.com/heygen-com/hyperframes/commit/f7bba2288dfcbfbf0c93c8c63caee1893a442b9d">f7bba2288</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5129">#5129</a>).</li>
+<li><strong>Core:</strong> Keep nested scenes in place during a drag when the root has no timeline (<a href="https://github.com/heygen-com/hyperframes/commit/d94708e5312df021e1fdcac421f00ed3015f11bd">d94708e53</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5115">#5115</a>).</li>
+<li><strong>Core:</strong> Renders keep a fromTo&#39;s from-only values from the frame it starts on (<a href="https://github.com/heygen-com/hyperframes/commit/755ab7d1657ff2c2b6e2bd712ffbfcab97a617f5">755ab7d16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5125">#5125</a>).</li>
+<li><strong>Studio:</strong> Drags after a resize, undo or reload land where they were pressed (<a href="https://github.com/heygen-com/hyperframes/commit/dc244d765c3e825e12d06311ad6d4f09b77be3f3">dc244d765</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5088">#5088</a>).</li>
+<li><strong>CLI:</strong> Let parakeet-mlx detect the language and name the Parakeet install under auto (<a href="https://github.com/heygen-com/hyperframes/commit/34552a21d20e688cfa7a62925c53dee9a2634eff">34552a21d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5124">#5124</a>).</li>
+<li><strong>Studio:</strong> A timeline jump no longer starts thumbnail loads it is about to cancel (<a href="https://github.com/heygen-com/hyperframes/commit/b9e511a7687a5b035a140325f2db3ddcb455cb5f">b9e511a76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5085">#5085</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Parse saved HTML once when syncing timeline length (<a href="https://github.com/heygen-com/hyperframes/commit/e8cfd6b73eaa792d5ebe8e3f0a8ef4d99c348d7e">e8cfd6b73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5092">#5092</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Gooey split block with metaball goo and directional motion blur (<a href="https://github.com/heygen-com/hyperframes/commit/b50dead1da595786c4de5772332885781b288791">b50dead1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5123">#5123</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.138...v0.8.139">https://github.com/heygen-com/hyperframes/compare/v0.8.138...v0.8.139</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.139</h1>
+<p>Released on 2026-10-06.</p>
+<p>Built-in transcription now runs inside the HyperFrames desktop app. <code>transcribe --json</code> streams words as they are heard, except with parakeet-mlx. Studio drags after a resize, undo or reload land where they were pressed.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Stream heard words on the transcribe --json progress stream (<a href="https://github.com/heygen-com/hyperframes/commit/156e87766c77c8b9c680b7dc107f94b4ee734f17">156e87766</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5127">#5127</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Read the WAV in JS so Built-in transcription runs inside Electron (<a href="https://github.com/heygen-com/hyperframes/commit/f7bba2288dfcbfbf0c93c8c63caee1893a442b9d">f7bba2288</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5129">#5129</a>).</li>
+<li><strong>Core:</strong> Keep nested scenes in place during a drag when the root has no timeline (<a href="https://github.com/heygen-com/hyperframes/commit/d94708e5312df021e1fdcac421f00ed3015f11bd">d94708e53</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5115">#5115</a>).</li>
+<li><strong>Core:</strong> Renders keep a fromTo&#39;s from-only values from the frame it starts on (<a href="https://github.com/heygen-com/hyperframes/commit/755ab7d1657ff2c2b6e2bd712ffbfcab97a617f5">755ab7d16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5125">#5125</a>).</li>
+<li><strong>Studio:</strong> Drags after a resize, undo or reload land where they were pressed (<a href="https://github.com/heygen-com/hyperframes/commit/dc244d765c3e825e12d06311ad6d4f09b77be3f3">dc244d765</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5088">#5088</a>).</li>
+<li><strong>CLI:</strong> Let parakeet-mlx detect the language and name the Parakeet install under auto (<a href="https://github.com/heygen-com/hyperframes/commit/34552a21d20e688cfa7a62925c53dee9a2634eff">34552a21d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5124">#5124</a>).</li>
+<li><strong>Studio:</strong> A timeline jump no longer starts thumbnail loads it is about to cancel (<a href="https://github.com/heygen-com/hyperframes/commit/b9e511a7687a5b035a140325f2db3ddcb455cb5f">b9e511a76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5085">#5085</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> Parse saved HTML once when syncing timeline length (<a href="https://github.com/heygen-com/hyperframes/commit/e8cfd6b73eaa792d5ebe8e3f0a8ef4d99c348d7e">e8cfd6b73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5092">#5092</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Gooey split block with metaball goo and directional motion blur (<a href="https://github.com/heygen-com/hyperframes/commit/b50dead1da595786c4de5772332885781b288791">b50dead1d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5123">#5123</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.138...v0.8.139">https://github.com/heygen-com/hyperframes/compare/v0.8.138...v0.8.139</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.138]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.138</link>
@@ -2107,40 +2167,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.89...v0.8.90">https://github.com/heygen-com/hyperframes/compare/v0.8.89...v0.8.90</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.89]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.89</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.89</guid>
-            <pubDate>Tue, 29 Sep 2026 02:16:20 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.89</h1>
-<p>Released on 2026-09-29.</p>
-<p>An app that embeds Studio can now save the moves, resizes and rotations made with Studio&#39;s handles. Media tools never replace a voice, music or sound file you put in the project.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> An embedding app can save canvas moves, resizes and rotations made with Studio&#39;s handles (<a href="https://github.com/heygen-com/hyperframes/commit/001d001c589f43d47076219cc4ac6a1c71a9d7bf">001d001c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4709">#4709</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Media Use:</strong> Never replace a voice, music or sound file the person put in the project (<a href="https://github.com/heygen-com/hyperframes/commit/2195db5e1d05f72d966e880e4d258a2e779fa143">2195db5e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4665">#4665</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.88...v0.8.89">https://github.com/heygen-com/hyperframes/compare/v0.8.88...v0.8.89</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.89</h1>
-<p>Released on 2026-09-29.</p>
-<p>An app that embeds Studio can now save the moves, resizes and rotations made with Studio&#39;s handles. Media tools never replace a voice, music or sound file you put in the project.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> An embedding app can save canvas moves, resizes and rotations made with Studio&#39;s handles (<a href="https://github.com/heygen-com/hyperframes/commit/001d001c589f43d47076219cc4ac6a1c71a9d7bf">001d001c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4709">#4709</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Media Use:</strong> Never replace a voice, music or sound file the person put in the project (<a href="https://github.com/heygen-com/hyperframes/commit/2195db5e1d05f72d966e880e4d258a2e779fa143">2195db5e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4665">#4665</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.88...v0.8.89">https://github.com/heygen-com/hyperframes/compare/v0.8.88...v0.8.89</a></p>
 ]]></content:encoded>
         </item>
     </channel>
