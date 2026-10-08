@@ -4,11 +4,49 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 08 Oct 2026 06:23:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 17:00:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.142]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.142</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.142</guid>
+            <pubDate>Thu, 08 Oct 2026 17:00:07 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.142</h1>
+<p>Released on 2026-10-08.</p>
+<p>The CLI now accepts a HeyGen access token handed over by a host app, so the app can sign it in without saving credentials. If your shell already exports <code>HEYGEN_ACCESS_TOKEN</code>, the CLI now uses it ahead of <code>~/.heygen/credentials</code>.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Accept host-managed HeyGen access tokens (<a href="https://github.com/heygen-com/hyperframes/commit/cf1b04bb71662b20a236bb8d0e80499d541cae8f">cf1b04bb7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5177">#5177</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Group sampled check findings by element and rule (<a href="https://github.com/heygen-com/hyperframes/commit/188475aaf2cc94d05a5a641341cab3020c131f16">188475aaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5174">#5174</a>).</li>
+<li><strong>Studio:</strong> Update unreferenced generated media names on replace (<a href="https://github.com/heygen-com/hyperframes/commit/de4b31a262b4f4599b4705996d2a906c6fac26e8">de4b31a26</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5169">#5169</a>).</li>
+<li><strong>Studio:</strong> Restore overscan and publish the zoom viewport (<a href="https://github.com/heygen-com/hyperframes/commit/042ec2ebd07f296477f80658e391365b38749c22">042ec2ebd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5151">#5151</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.141...v0.8.142">https://github.com/heygen-com/hyperframes/compare/v0.8.141...v0.8.142</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.142</h1>
+<p>Released on 2026-10-08.</p>
+<p>The CLI now accepts a HeyGen access token handed over by a host app, so the app can sign it in without saving credentials. If your shell already exports <code>HEYGEN_ACCESS_TOKEN</code>, the CLI now uses it ahead of <code>~/.heygen/credentials</code>.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Accept host-managed HeyGen access tokens (<a href="https://github.com/heygen-com/hyperframes/commit/cf1b04bb71662b20a236bb8d0e80499d541cae8f">cf1b04bb7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5177">#5177</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Group sampled check findings by element and rule (<a href="https://github.com/heygen-com/hyperframes/commit/188475aaf2cc94d05a5a641341cab3020c131f16">188475aaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5174">#5174</a>).</li>
+<li><strong>Studio:</strong> Update unreferenced generated media names on replace (<a href="https://github.com/heygen-com/hyperframes/commit/de4b31a262b4f4599b4705996d2a906c6fac26e8">de4b31a26</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5169">#5169</a>).</li>
+<li><strong>Studio:</strong> Restore overscan and publish the zoom viewport (<a href="https://github.com/heygen-com/hyperframes/commit/042ec2ebd07f296477f80658e391365b38749c22">042ec2ebd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5151">#5151</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.141...v0.8.142">https://github.com/heygen-com/hyperframes/compare/v0.8.141...v0.8.142</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.141]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.141</link>
@@ -2159,38 +2197,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.92...v0.8.93">https://github.com/heygen-com/hyperframes/compare/v0.8.92...v0.8.93</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.92]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.92</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.92</guid>
-            <pubDate>Tue, 29 Sep 2026 16:06:20 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.92</h1>
-<p>Released on 2026-09-29.</p>
-<p>A clip you drop on a row now stays on that row, and hidden keyframes no longer widen the timeline. Rendering a folder source names the folder instead of crashing.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A clip dropped on a row stays on that row at the nearest free time (<a href="https://github.com/heygen-com/hyperframes/commit/65d66cb2c3494e498780897eb4a371ee05e27735">65d66cb2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4663">#4663</a>).</li>
-<li>Render names a folder composition source instead of crashing (<a href="https://github.com/heygen-com/hyperframes/commit/481dae1ed92ff5e65156a0fe18705ea4e7b32517">481dae1ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4613">#4613</a>).</li>
-<li><strong>Core:</strong> Bundling and rendering keep print-only, titled and non-CSS styles conditional (<a href="https://github.com/heygen-com/hyperframes/commit/c5a69727ffddc960dea6e940ab1d1a916854bc7e">c5a69727f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4664">#4664</a>).</li>
-<li><strong>Studio:</strong> With keyframes hidden, a keyframed clip no longer opens the track-name column (<a href="https://github.com/heygen-com/hyperframes/commit/ca714f10b55c0bf10e35f412e6c53c0ca8126e9e">ca714f10b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4725">#4725</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92">https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.92</h1>
-<p>Released on 2026-09-29.</p>
-<p>A clip you drop on a row now stays on that row, and hidden keyframes no longer widen the timeline. Rendering a folder source names the folder instead of crashing.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A clip dropped on a row stays on that row at the nearest free time (<a href="https://github.com/heygen-com/hyperframes/commit/65d66cb2c3494e498780897eb4a371ee05e27735">65d66cb2c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4663">#4663</a>).</li>
-<li>Render names a folder composition source instead of crashing (<a href="https://github.com/heygen-com/hyperframes/commit/481dae1ed92ff5e65156a0fe18705ea4e7b32517">481dae1ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4613">#4613</a>).</li>
-<li><strong>Core:</strong> Bundling and rendering keep print-only, titled and non-CSS styles conditional (<a href="https://github.com/heygen-com/hyperframes/commit/c5a69727ffddc960dea6e940ab1d1a916854bc7e">c5a69727f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4664">#4664</a>).</li>
-<li><strong>Studio:</strong> With keyframes hidden, a keyframed clip no longer opens the track-name column (<a href="https://github.com/heygen-com/hyperframes/commit/ca714f10b55c0bf10e35f412e6c53c0ca8126e9e">ca714f10b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4725">#4725</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92">https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92</a></p>
 ]]></content:encoded>
         </item>
     </channel>
