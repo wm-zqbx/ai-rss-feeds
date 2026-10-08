@@ -4,11 +4,45 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 07 Oct 2026 10:29:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 Oct 2026 06:23:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.141]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.141</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.141</guid>
+            <pubDate>Thu, 08 Oct 2026 06:23:54 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.141</h1>
+<p>Released on 2026-10-08.</p>
+<p>Renders no longer fail when a page links a Google font with axis values the family lacks. Studio previews of hard-to-play videos decode at their on-screen size.</p>
+<h2>Changes</h2>
+<ul>
+<li>A font whose Google Fonts link returns no usable faces now falls back to the standard weight request, so renders keep the font instead of failing. (<a href="https://github.com/heygen-com/hyperframes/pull/5186">#5186</a>).</li>
+<li>Unresolved-font errors carry structured diagnostics about which resolver step failed, without font names, URLs or page text. (<a href="https://github.com/heygen-com/hyperframes/pull/5189">#5189</a>).</li>
+<li>The player loads compositions using the document&#39;s own duration and reports the first author error. (<a href="https://github.com/heygen-com/hyperframes/pull/5176">#5176</a>).</li>
+<li>Studio decodes HEVC and ProRes previews at the size they appear on screen, so back-to-back 4K clips no longer flash the background. (<a href="https://github.com/heygen-com/hyperframes/pull/5184">#5184</a>).</li>
+<li>media-use can reach HeyGen through a host app&#39;s gateway with <code>HEYGEN_API_BASE</code>. (<a href="https://github.com/heygen-com/hyperframes/pull/5181">#5181</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.140...v0.8.141">https://github.com/heygen-com/hyperframes/compare/v0.8.140...v0.8.141</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.141</h1>
+<p>Released on 2026-10-08.</p>
+<p>Renders no longer fail when a page links a Google font with axis values the family lacks. Studio previews of hard-to-play videos decode at their on-screen size.</p>
+<h2>Changes</h2>
+<ul>
+<li>A font whose Google Fonts link returns no usable faces now falls back to the standard weight request, so renders keep the font instead of failing. (<a href="https://github.com/heygen-com/hyperframes/pull/5186">#5186</a>).</li>
+<li>Unresolved-font errors carry structured diagnostics about which resolver step failed, without font names, URLs or page text. (<a href="https://github.com/heygen-com/hyperframes/pull/5189">#5189</a>).</li>
+<li>The player loads compositions using the document&#39;s own duration and reports the first author error. (<a href="https://github.com/heygen-com/hyperframes/pull/5176">#5176</a>).</li>
+<li>Studio decodes HEVC and ProRes previews at the size they appear on screen, so back-to-back 4K clips no longer flash the background. (<a href="https://github.com/heygen-com/hyperframes/pull/5184">#5184</a>).</li>
+<li>media-use can reach HeyGen through a host app&#39;s gateway with <code>HEYGEN_API_BASE</code>. (<a href="https://github.com/heygen-com/hyperframes/pull/5181">#5181</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.140...v0.8.141">https://github.com/heygen-com/hyperframes/compare/v0.8.140...v0.8.141</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.140]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.140</link>
@@ -2157,58 +2191,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92">https://github.com/heygen-com/hyperframes/compare/v0.8.91...v0.8.92</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.91]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.91</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.91</guid>
-            <pubDate>Tue, 29 Sep 2026 06:50:49 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.91</h1>
-<p>Released on 2026-09-29.</p>
-<p>An app that embeds the timeline can now map a ruler click to the right time, even when the track-name column is open. Clips inside nested compositions sit at their master time, and moving one word moves only that word.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> The timeline publishes where it draws 0 s, so an embedding app can map a click to a time (<a href="https://github.com/heygen-com/hyperframes/commit/b171ee57169604f425082d48307ad9d0de18be5c">b171ee571</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4724">#4724</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Clips inside nested compositions sit at their master time (<a href="https://github.com/heygen-com/hyperframes/commit/3dc3a9ca1a48d6937f5e47e11c44c40b3b2f0ac2">3dc3a9ca1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4681">#4681</a>).</li>
-<li><strong>Studio:</strong> Moving one word moves only that word, not every word sharing its animation (<a href="https://github.com/heygen-com/hyperframes/commit/5606b31020e14bcab3a031fc6db561441c980149">5606b3102</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4705">#4705</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Adopters:</strong> Add Skyflo (<a href="https://github.com/heygen-com/hyperframes/commit/c6b5edc967b64ce7c838fe1525c41feae0b6c634">c6b5edc96</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4655">#4655</a>).</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li>Resync the generated cloud client (<a href="https://github.com/heygen-com/hyperframes/commit/f361ee4bc4bbdf51f2ee31d3e093c062829140f9">f361ee4bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4716">#4716</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91">https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.91</h1>
-<p>Released on 2026-09-29.</p>
-<p>An app that embeds the timeline can now map a ruler click to the right time, even when the track-name column is open. Clips inside nested compositions sit at their master time, and moving one word moves only that word.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> The timeline publishes where it draws 0 s, so an embedding app can map a click to a time (<a href="https://github.com/heygen-com/hyperframes/commit/b171ee57169604f425082d48307ad9d0de18be5c">b171ee571</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4724">#4724</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Clips inside nested compositions sit at their master time (<a href="https://github.com/heygen-com/hyperframes/commit/3dc3a9ca1a48d6937f5e47e11c44c40b3b2f0ac2">3dc3a9ca1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4681">#4681</a>).</li>
-<li><strong>Studio:</strong> Moving one word moves only that word, not every word sharing its animation (<a href="https://github.com/heygen-com/hyperframes/commit/5606b31020e14bcab3a031fc6db561441c980149">5606b3102</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4705">#4705</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Adopters:</strong> Add Skyflo (<a href="https://github.com/heygen-com/hyperframes/commit/c6b5edc967b64ce7c838fe1525c41feae0b6c634">c6b5edc96</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4655">#4655</a>).</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li>Resync the generated cloud client (<a href="https://github.com/heygen-com/hyperframes/commit/f361ee4bc4bbdf51f2ee31d3e093c062829140f9">f361ee4bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4716">#4716</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91">https://github.com/heygen-com/hyperframes/compare/v0.8.90...v0.8.91</a></p>
 ]]></content:encoded>
         </item>
     </channel>
