@@ -4,11 +4,63 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 10 Oct 2026 01:10:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Oct 2026 08:28:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.145]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.145</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.145</guid>
+            <pubDate>Sat, 10 Oct 2026 08:28:04 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.145</h1>
+<p>Released on 2026-10-10.</p>
+<p>Studio can export on the GPU, and the producer package on npm is a fraction of its old size. Long exports no longer stall at 90%, and previews recover from a stalled font or asset.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export can encode on the GPU, like render --gpu (<a href="https://github.com/heygen-com/hyperframes/commit/91f9c9eb04619bfe5c43ccee1c87cad2f8a2f65a">91f9c9eb0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5397">#5397</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> The npm package ships only its own code and no source maps (<a href="https://github.com/heygen-com/hyperframes/commit/affa4d53cf86334c18d0476955fce3f4f73f6a06">affa4d53c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5398">#5398</a>).</li>
+<li><strong>Examples:</strong> The k8s chunk-runner image installs and loads the producer again (<a href="https://github.com/heygen-com/hyperframes/commit/6f3f86a9c9824c8ad5b7bf760375e243466e5ee0">6f3f86a9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5373">#5373</a>).</li>
+<li><strong>Studio Server:</strong> The public proxy cache path names boxed preview copies too (<a href="https://github.com/heygen-com/hyperframes/commit/e158c73a9eb1215616b6498474968ac8f813f8d9">e158c73a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5407">#5407</a>).</li>
+<li><strong>CLI:</strong> Keyframes --shot on a compositions/ file mounts the scene in its project (<a href="https://github.com/heygen-com/hyperframes/commit/4225fba3a4fee7f41fc8e8e4219e9e40e39f5915">4225fba3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5401">#5401</a>).</li>
+<li><strong>Skills:</strong> Skill scripts run through a symlinked skills dir and agents keep long renders alive (<a href="https://github.com/heygen-com/hyperframes/commit/f46033d048983e914e98d9ed834b51b0c448bb16">f46033d04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5396">#5396</a>).</li>
+<li><strong>Runtime:</strong> Graded pictures stay graded in sandboxed players (<a href="https://github.com/heygen-com/hyperframes/commit/684c038483cdf9f6f25ea518b7fd446596fb4fab">684c03848</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5383">#5383</a>).</li>
+<li><strong>Engine:</strong> Audio duration probe reads to the end on Windows; cli tests skip bun&#39;s disk cache (<a href="https://github.com/heygen-com/hyperframes/commit/3d6de0581ed9161fb8578222b3ec270413aebbab">3d6de0581</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5395">#5395</a>).</li>
+<li><strong>Engine:</strong> Long exports with many clips no longer stall at 90% or hide a timeout (<a href="https://github.com/heygen-com/hyperframes/commit/4b68f73fe76b14934d38504b55735070807f5927">4b68f73fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5375">#5375</a>).</li>
+<li><strong>Studio:</strong> A stalled font or asset no longer leaves the preview empty or drops reloads (<a href="https://github.com/heygen-com/hyperframes/commit/d93b7697635ca5327fbceb67325c578a70c5b7fc">d93b76976</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5370">#5370</a>).</li>
+<li><strong>Studio Server:</strong> A failed save reports its real error when a later file was never written (<a href="https://github.com/heygen-com/hyperframes/commit/063c2f8d61b4e989274b6526b370edc588b37e4a">063c2f8d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5364">#5364</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.144...v0.8.145">https://github.com/heygen-com/hyperframes/compare/v0.8.144...v0.8.145</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.145</h1>
+<p>Released on 2026-10-10.</p>
+<p>Studio can export on the GPU, and the producer package on npm is a fraction of its old size. Long exports no longer stall at 90%, and previews recover from a stalled font or asset.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export can encode on the GPU, like render --gpu (<a href="https://github.com/heygen-com/hyperframes/commit/91f9c9eb04619bfe5c43ccee1c87cad2f8a2f65a">91f9c9eb0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5397">#5397</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> The npm package ships only its own code and no source maps (<a href="https://github.com/heygen-com/hyperframes/commit/affa4d53cf86334c18d0476955fce3f4f73f6a06">affa4d53c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5398">#5398</a>).</li>
+<li><strong>Examples:</strong> The k8s chunk-runner image installs and loads the producer again (<a href="https://github.com/heygen-com/hyperframes/commit/6f3f86a9c9824c8ad5b7bf760375e243466e5ee0">6f3f86a9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5373">#5373</a>).</li>
+<li><strong>Studio Server:</strong> The public proxy cache path names boxed preview copies too (<a href="https://github.com/heygen-com/hyperframes/commit/e158c73a9eb1215616b6498474968ac8f813f8d9">e158c73a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5407">#5407</a>).</li>
+<li><strong>CLI:</strong> Keyframes --shot on a compositions/ file mounts the scene in its project (<a href="https://github.com/heygen-com/hyperframes/commit/4225fba3a4fee7f41fc8e8e4219e9e40e39f5915">4225fba3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5401">#5401</a>).</li>
+<li><strong>Skills:</strong> Skill scripts run through a symlinked skills dir and agents keep long renders alive (<a href="https://github.com/heygen-com/hyperframes/commit/f46033d048983e914e98d9ed834b51b0c448bb16">f46033d04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5396">#5396</a>).</li>
+<li><strong>Runtime:</strong> Graded pictures stay graded in sandboxed players (<a href="https://github.com/heygen-com/hyperframes/commit/684c038483cdf9f6f25ea518b7fd446596fb4fab">684c03848</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5383">#5383</a>).</li>
+<li><strong>Engine:</strong> Audio duration probe reads to the end on Windows; cli tests skip bun&#39;s disk cache (<a href="https://github.com/heygen-com/hyperframes/commit/3d6de0581ed9161fb8578222b3ec270413aebbab">3d6de0581</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5395">#5395</a>).</li>
+<li><strong>Engine:</strong> Long exports with many clips no longer stall at 90% or hide a timeout (<a href="https://github.com/heygen-com/hyperframes/commit/4b68f73fe76b14934d38504b55735070807f5927">4b68f73fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5375">#5375</a>).</li>
+<li><strong>Studio:</strong> A stalled font or asset no longer leaves the preview empty or drops reloads (<a href="https://github.com/heygen-com/hyperframes/commit/d93b7697635ca5327fbceb67325c578a70c5b7fc">d93b76976</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5370">#5370</a>).</li>
+<li><strong>Studio Server:</strong> A failed save reports its real error when a later file was never written (<a href="https://github.com/heygen-com/hyperframes/commit/063c2f8d61b4e989274b6526b370edc588b37e4a">063c2f8d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5364">#5364</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.144...v0.8.145">https://github.com/heygen-com/hyperframes/compare/v0.8.144...v0.8.145</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.144]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.144</link>
@@ -2341,44 +2393,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96">https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.95]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.95</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.95</guid>
-            <pubDate>Wed, 30 Sep 2026 04:16:26 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.95</h1>
-<p>Released on 2026-09-30.</p>
-<p>The Studio timeline now shows an empty lane below the last track where you can drop media. Video clips can play louder than 100% in the preview, and undo puts a resized, rotated or moved element back where it was.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Draw the empty lane below the last track as a drop target and tighten the top gap (<a href="https://github.com/heygen-com/hyperframes/commit/c3f7066bf33f9b5b826d5de933a414ddc59bd6df">c3f7066bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4741">#4741</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A video&#39;s sound plays at its boosted volume in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/2fc5a37fcebaaa1ed9b2dd7f2f6dd4b2983efe30">2fc5a37fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4746">#4746</a>).</li>
-<li><strong>Studio:</strong> Undo puts a resized, rotated or moved element back on screen (<a href="https://github.com/heygen-com/hyperframes/commit/efd3c51ac9b7ce89e8c8fb72b60c96918f012f5d">efd3c51ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4740">#4740</a>).</li>
-<li><strong>Studio:</strong> A timeline scrubs when its host omits sessionEpoch (<a href="https://github.com/heygen-com/hyperframes/commit/7a1869d9218caf8bf3e95ef4eaea27d57b80f724">7a1869d92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4742">#4742</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.94...v0.8.95">https://github.com/heygen-com/hyperframes/compare/v0.8.94...v0.8.95</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.95</h1>
-<p>Released on 2026-09-30.</p>
-<p>The Studio timeline now shows an empty lane below the last track where you can drop media. Video clips can play louder than 100% in the preview, and undo puts a resized, rotated or moved element back where it was.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Draw the empty lane below the last track as a drop target and tighten the top gap (<a href="https://github.com/heygen-com/hyperframes/commit/c3f7066bf33f9b5b826d5de933a414ddc59bd6df">c3f7066bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4741">#4741</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A video&#39;s sound plays at its boosted volume in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/2fc5a37fcebaaa1ed9b2dd7f2f6dd4b2983efe30">2fc5a37fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4746">#4746</a>).</li>
-<li><strong>Studio:</strong> Undo puts a resized, rotated or moved element back on screen (<a href="https://github.com/heygen-com/hyperframes/commit/efd3c51ac9b7ce89e8c8fb72b60c96918f012f5d">efd3c51ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4740">#4740</a>).</li>
-<li><strong>Studio:</strong> A timeline scrubs when its host omits sessionEpoch (<a href="https://github.com/heygen-com/hyperframes/commit/7a1869d9218caf8bf3e95ef4eaea27d57b80f724">7a1869d92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4742">#4742</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.94...v0.8.95">https://github.com/heygen-com/hyperframes/compare/v0.8.94...v0.8.95</a></p>
 ]]></content:encoded>
         </item>
     </channel>
