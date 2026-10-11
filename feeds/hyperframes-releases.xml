@@ -4,11 +4,93 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 10 Oct 2026 08:28:04 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2026 04:48:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.146]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.146</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.146</guid>
+            <pubDate>Sun, 11 Oct 2026 04:48:23 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.146</h1>
+<p>Released on 2026-10-11.</p>
+<p>A split sub-composition now plays from its in-point in preview and on the timeline. FFmpeg installed while a preview runs is found without a restart, and exports no longer fail on a clip past the composition&#39;s end.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Truepeak, a lookahead true-peak limiter FX (<a href="https://github.com/heygen-com/hyperframes/commit/3746703ea77fa93eb9f8a8312058cf233b56776e">3746703ea77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5419">#5419</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> The browser download unpacks on machines without an unzip command (<a href="https://github.com/heygen-com/hyperframes/commit/9e9b613ccf867f98838617f7424967e056e63de2">9e9b613ccf8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5433">#5433</a>).</li>
+<li><strong>CLI:</strong> Check warns when a video&#39;s browser-playable copy cannot be made (<a href="https://github.com/heygen-com/hyperframes/commit/bf7f6deae932b4793065c74c20d9184f099fc386">bf7f6deae93</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5441">#5441</a>).</li>
+<li><strong>CLI:</strong> History reads answer while another app has the project open (<a href="https://github.com/heygen-com/hyperframes/commit/489036c8439408f38cecafded273ddf5752b9162">489036c8439</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5445">#5445</a>).</li>
+<li><strong>Core:</strong> A split sub-composition plays its videos from its in-point in preview and timeline (<a href="https://github.com/heygen-com/hyperframes/commit/480807ec4be4c28a6ac190f863354bf8d6b7d4c7">480807ec4be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5413">#5413</a>).</li>
+<li><strong>Parsers:</strong> Find ffmpeg installed after a long-running preview started (<a href="https://github.com/heygen-com/hyperframes/commit/64c47cf3d1b00aa6dd76a3d40256f235654eacb1">64c47cf3d1b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5439">#5439</a>).</li>
+<li><strong>Core:</strong> A runtime failure just before start-up is named too (<a href="https://github.com/heygen-com/hyperframes/commit/721ebeafaa30acefbf8c169e2afc4b7d3e87ef23">721ebeafaa3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5444">#5444</a>).</li>
+<li><strong>Core:</strong> Slow clips stay on the playhead at reduced preview speeds (<a href="https://github.com/heygen-com/hyperframes/commit/7d958fea0ba01c80a023e366adfe8cb2f3d14a17">7d958fea0ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5440">#5440</a>).</li>
+<li><strong>Producer:</strong> Exports no longer fail on a video clip outside the composition&#39;s length (<a href="https://github.com/heygen-com/hyperframes/commit/81f60dbc9850110273a4d0df9cfb32803476f13a">81f60dbc985</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5431">#5431</a>).</li>
+<li><strong>Parsers:</strong> Find FFmpeg and FFprobe installed by the project&#39;s npm installer packages (<a href="https://github.com/heygen-com/hyperframes/commit/748cda9069768ad5b1711379162fc22f1b1076a8">748cda90697</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5434">#5434</a>).</li>
+<li><strong>Core:</strong> A runtime that fails to start names its real error instead of a half-built page (<a href="https://github.com/heygen-com/hyperframes/commit/3aba29ce056a76d81a9eb7b9d07f228a4d886903">3aba29ce056</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5406">#5406</a>).</li>
+<li><strong>CLI:</strong> Preview --background reports a preview that cannot start instead of waiting it out (<a href="https://github.com/heygen-com/hyperframes/commit/6c96ea5344341c1648ec5df565eff2c1ba070519">6c96ea53443</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5437">#5437</a>).</li>
+<li><strong>Lint:</strong> A double-quoted media src with an apostrophe is read whole, not reported missing (<a href="https://github.com/heygen-com/hyperframes/commit/a9823f719df9a18e1ed004bede9a138c8a9adfc5">a9823f719df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5411">#5411</a>).</li>
+<li><strong>Studio:</strong> Studio&#39;s own text reads without em or en dashes (<a href="https://github.com/heygen-com/hyperframes/commit/9825614d91de5ce9a8433aa09bc761e0d2cf369d">9825614d91d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5414">#5414</a>).</li>
+<li><strong>Engine:</strong> Copy border-width/style/color onto the replacement video frame (<a href="https://github.com/heygen-com/hyperframes/commit/e23b3a3e31d830ca432c98cc7b8c4a5ce067dcfb">e23b3a3e31d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3993">#3993</a>).</li>
+<li><strong>CLI:</strong> Timeline split keeps a sub-composition&#39;s place in both halves (<a href="https://github.com/heygen-com/hyperframes/commit/165be85132813b941987387d1cbaf870d1bd8653">165be851328</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5410">#5410</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Packages:</strong> Ship npm packages without source maps and guard their size in CI (<a href="https://github.com/heygen-com/hyperframes/commit/bb9e507e8408d7098aefc1b8bad418b5e8e12c92">bb9e507e840</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5403">#5403</a>).</li>
+<li><strong>Engine:</strong> Re-renders reuse the extracted frames of remote videos (<a href="https://github.com/heygen-com/hyperframes/commit/b6467d91315e800f6dd62641c2d98e5b8a9e8801">b6467d91315</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5408">#5408</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Publish generated catalog (<a href="https://github.com/heygen-com/hyperframes/commit/faa4913c9ef791733837eae4de1a579f2049b251">faa4913c9ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4340">#4340</a>).</li>
+<li><strong>Ci:</strong> Let the catalog republish remove its stale simulated-cursor page and superseded fonts (<a href="https://github.com/heygen-com/hyperframes/commit/f2b81b241516531c09ee90da6472beda3d6b4d46">f2b81b24151</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5432">#5432</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.145...v0.8.146">https://github.com/heygen-com/hyperframes/compare/v0.8.145...v0.8.146</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.146</h1>
+<p>Released on 2026-10-11.</p>
+<p>A split sub-composition now plays from its in-point in preview and on the timeline. FFmpeg installed while a preview runs is found without a restart, and exports no longer fail on a clip past the composition&#39;s end.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Truepeak, a lookahead true-peak limiter FX (<a href="https://github.com/heygen-com/hyperframes/commit/3746703ea77fa93eb9f8a8312058cf233b56776e">3746703ea77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5419">#5419</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> The browser download unpacks on machines without an unzip command (<a href="https://github.com/heygen-com/hyperframes/commit/9e9b613ccf867f98838617f7424967e056e63de2">9e9b613ccf8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5433">#5433</a>).</li>
+<li><strong>CLI:</strong> Check warns when a video&#39;s browser-playable copy cannot be made (<a href="https://github.com/heygen-com/hyperframes/commit/bf7f6deae932b4793065c74c20d9184f099fc386">bf7f6deae93</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5441">#5441</a>).</li>
+<li><strong>CLI:</strong> History reads answer while another app has the project open (<a href="https://github.com/heygen-com/hyperframes/commit/489036c8439408f38cecafded273ddf5752b9162">489036c8439</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5445">#5445</a>).</li>
+<li><strong>Core:</strong> A split sub-composition plays its videos from its in-point in preview and timeline (<a href="https://github.com/heygen-com/hyperframes/commit/480807ec4be4c28a6ac190f863354bf8d6b7d4c7">480807ec4be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5413">#5413</a>).</li>
+<li><strong>Parsers:</strong> Find ffmpeg installed after a long-running preview started (<a href="https://github.com/heygen-com/hyperframes/commit/64c47cf3d1b00aa6dd76a3d40256f235654eacb1">64c47cf3d1b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5439">#5439</a>).</li>
+<li><strong>Core:</strong> A runtime failure just before start-up is named too (<a href="https://github.com/heygen-com/hyperframes/commit/721ebeafaa30acefbf8c169e2afc4b7d3e87ef23">721ebeafaa3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5444">#5444</a>).</li>
+<li><strong>Core:</strong> Slow clips stay on the playhead at reduced preview speeds (<a href="https://github.com/heygen-com/hyperframes/commit/7d958fea0ba01c80a023e366adfe8cb2f3d14a17">7d958fea0ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5440">#5440</a>).</li>
+<li><strong>Producer:</strong> Exports no longer fail on a video clip outside the composition&#39;s length (<a href="https://github.com/heygen-com/hyperframes/commit/81f60dbc9850110273a4d0df9cfb32803476f13a">81f60dbc985</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5431">#5431</a>).</li>
+<li><strong>Parsers:</strong> Find FFmpeg and FFprobe installed by the project&#39;s npm installer packages (<a href="https://github.com/heygen-com/hyperframes/commit/748cda9069768ad5b1711379162fc22f1b1076a8">748cda90697</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5434">#5434</a>).</li>
+<li><strong>Core:</strong> A runtime that fails to start names its real error instead of a half-built page (<a href="https://github.com/heygen-com/hyperframes/commit/3aba29ce056a76d81a9eb7b9d07f228a4d886903">3aba29ce056</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5406">#5406</a>).</li>
+<li><strong>CLI:</strong> Preview --background reports a preview that cannot start instead of waiting it out (<a href="https://github.com/heygen-com/hyperframes/commit/6c96ea5344341c1648ec5df565eff2c1ba070519">6c96ea53443</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5437">#5437</a>).</li>
+<li><strong>Lint:</strong> A double-quoted media src with an apostrophe is read whole, not reported missing (<a href="https://github.com/heygen-com/hyperframes/commit/a9823f719df9a18e1ed004bede9a138c8a9adfc5">a9823f719df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5411">#5411</a>).</li>
+<li><strong>Studio:</strong> Studio&#39;s own text reads without em or en dashes (<a href="https://github.com/heygen-com/hyperframes/commit/9825614d91de5ce9a8433aa09bc761e0d2cf369d">9825614d91d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5414">#5414</a>).</li>
+<li><strong>Engine:</strong> Copy border-width/style/color onto the replacement video frame (<a href="https://github.com/heygen-com/hyperframes/commit/e23b3a3e31d830ca432c98cc7b8c4a5ce067dcfb">e23b3a3e31d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3993">#3993</a>).</li>
+<li><strong>CLI:</strong> Timeline split keeps a sub-composition&#39;s place in both halves (<a href="https://github.com/heygen-com/hyperframes/commit/165be85132813b941987387d1cbaf870d1bd8653">165be851328</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5410">#5410</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Packages:</strong> Ship npm packages without source maps and guard their size in CI (<a href="https://github.com/heygen-com/hyperframes/commit/bb9e507e8408d7098aefc1b8bad418b5e8e12c92">bb9e507e840</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5403">#5403</a>).</li>
+<li><strong>Engine:</strong> Re-renders reuse the extracted frames of remote videos (<a href="https://github.com/heygen-com/hyperframes/commit/b6467d91315e800f6dd62641c2d98e5b8a9e8801">b6467d91315</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5408">#5408</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> Publish generated catalog (<a href="https://github.com/heygen-com/hyperframes/commit/faa4913c9ef791733837eae4de1a579f2049b251">faa4913c9ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4340">#4340</a>).</li>
+<li><strong>Ci:</strong> Let the catalog republish remove its stale simulated-cursor page and superseded fonts (<a href="https://github.com/heygen-com/hyperframes/commit/f2b81b241516531c09ee90da6472beda3d6b4d46">f2b81b24151</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5432">#5432</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.145...v0.8.146">https://github.com/heygen-com/hyperframes/compare/v0.8.145...v0.8.146</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.145]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.145</link>
@@ -2365,34 +2447,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.96...v0.8.97">https://github.com/heygen-com/hyperframes/compare/v0.8.96...v0.8.97</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.96]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.96</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.96</guid>
-            <pubDate>Wed, 30 Sep 2026 05:36:28 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.96</h1>
-<p>Released on 2026-09-30.</p>
-<p>Two Studio editing fixes. An element placed with a stylesheet translate no longer jumps when you move or resize it, and a crop drag that ends where it started no longer adds an undo step.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A crop drag that ends where it started saves nothing (<a href="https://github.com/heygen-com/hyperframes/commit/67327a8b25a4502b7c29571505be9c575c675ea2">67327a8b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4745">#4745</a>).</li>
-<li><strong>Studio:</strong> An element placed by a stylesheet translate stays put after a move or resize (<a href="https://github.com/heygen-com/hyperframes/commit/4825f792949282d561cdfe32cdcc7fce1cf2605d">4825f7929</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4734">#4734</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96">https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.96</h1>
-<p>Released on 2026-09-30.</p>
-<p>Two Studio editing fixes. An element placed with a stylesheet translate no longer jumps when you move or resize it, and a crop drag that ends where it started no longer adds an undo step.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A crop drag that ends where it started saves nothing (<a href="https://github.com/heygen-com/hyperframes/commit/67327a8b25a4502b7c29571505be9c575c675ea2">67327a8b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4745">#4745</a>).</li>
-<li><strong>Studio:</strong> An element placed by a stylesheet translate stays put after a move or resize (<a href="https://github.com/heygen-com/hyperframes/commit/4825f792949282d561cdfe32cdcc7fce1cf2605d">4825f7929</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4734">#4734</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96">https://github.com/heygen-com/hyperframes/compare/v0.8.95...v0.8.96</a></p>
 ]]></content:encoded>
         </item>
     </channel>
