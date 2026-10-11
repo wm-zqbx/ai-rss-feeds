@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 11 Oct 2026 04:48:23 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2026 09:19:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.147]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.147</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.147</guid>
+            <pubDate>Sun, 11 Oct 2026 09:19:25 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.147</h1>
+<p>Released on 2026-10-11.</p>
+<p>A render that stalls now says which step Chrome hung in. It also says what to do, such as letting another heavy GPU or CPU job finish first.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> A render stall names the step Chrome hung in and says what to do (<a href="https://github.com/heygen-com/hyperframes/commit/bb34e301ec3c5f7b9edad07932356bd02a9f7934">bb34e301e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5450">#5450</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.146...v0.8.147">https://github.com/heygen-com/hyperframes/compare/v0.8.146...v0.8.147</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.147</h1>
+<p>Released on 2026-10-11.</p>
+<p>A render that stalls now says which step Chrome hung in. It also says what to do, such as letting another heavy GPU or CPU job finish first.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> A render stall names the step Chrome hung in and says what to do (<a href="https://github.com/heygen-com/hyperframes/commit/bb34e301ec3c5f7b9edad07932356bd02a9f7934">bb34e301e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5450">#5450</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.146...v0.8.147">https://github.com/heygen-com/hyperframes/compare/v0.8.146...v0.8.147</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.146]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.146</link>
@@ -2401,52 +2427,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.97...v0.8.98">https://github.com/heygen-com/hyperframes/compare/v0.8.97...v0.8.98</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.97]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.97</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.97</guid>
-            <pubDate>Wed, 30 Sep 2026 14:27:08 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.97</h1>
-<p>Released on 2026-09-30.</p>
-<p>Copied and duplicated clips in Studio keep their look and names, and undo, group selection and saved font weights now behave as expected. Hosts can also trim the timeline tool menu and point popovers at their triggers.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Select rightward takes crossing clips, and a host can keep only Select and Split (<a href="https://github.com/heygen-com/hyperframes/commit/9a27b9f9349b43b9fd194a95ace830d7cbe38b42">9a27b9f93</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4755">#4755</a>).</li>
-<li><strong>Studio:</strong> A popover can point at its trigger with an optional arrow (<a href="https://github.com/heygen-com/hyperframes/commit/18a1b226c5e67e12308ee82afd7a5be5834df39a">18a1b226c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4758">#4758</a>).</li>
-<li><strong>Studio:</strong> Let a host make the timeline read-only while seek, scroll and zoom stay live (<a href="https://github.com/heygen-com/hyperframes/commit/ae914334f279ee53b3aebd0437ef7a9c4d20f8b0">ae914334f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4749">#4749</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A copied clip keeps its look and motion, and a duplicated section keeps its name (<a href="https://github.com/heygen-com/hyperframes/commit/7734697872e552c286dca576ee006da96d7d1dc4">773469787</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4756">#4756</a>).</li>
-<li><strong>Studio:</strong> Name a repeated section by its authored id in the Design panel (<a href="https://github.com/heygen-com/hyperframes/commit/14e87005d93e9fe49078c0e854e93557dbef7553">14e87005d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4768">#4768</a>).</li>
-<li><strong>Studio:</strong> Undoing an agent&#39;s build takes its sections off the timeline too (<a href="https://github.com/heygen-com/hyperframes/commit/ae8d1780ff70bc1a5207cff46bbd9ce3395243f9">ae8d1780f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4757">#4757</a>).</li>
-<li><strong>Studio:</strong> Font faces a host saves keep their own weight and style (<a href="https://github.com/heygen-com/hyperframes/commit/be5beaee61de0d3f7a9927eb49dcaa957d66af75">be5beaee6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4753">#4753</a>).</li>
-<li><strong>Studio:</strong> Shift+click on a group member removes it for good (<a href="https://github.com/heygen-com/hyperframes/commit/84811c43297c4487fb5d472bee131ff0c37bc31e">84811c432</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4754">#4754</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.96...v0.8.97">https://github.com/heygen-com/hyperframes/compare/v0.8.96...v0.8.97</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.97</h1>
-<p>Released on 2026-09-30.</p>
-<p>Copied and duplicated clips in Studio keep their look and names, and undo, group selection and saved font weights now behave as expected. Hosts can also trim the timeline tool menu and point popovers at their triggers.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Select rightward takes crossing clips, and a host can keep only Select and Split (<a href="https://github.com/heygen-com/hyperframes/commit/9a27b9f9349b43b9fd194a95ace830d7cbe38b42">9a27b9f93</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4755">#4755</a>).</li>
-<li><strong>Studio:</strong> A popover can point at its trigger with an optional arrow (<a href="https://github.com/heygen-com/hyperframes/commit/18a1b226c5e67e12308ee82afd7a5be5834df39a">18a1b226c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4758">#4758</a>).</li>
-<li><strong>Studio:</strong> Let a host make the timeline read-only while seek, scroll and zoom stay live (<a href="https://github.com/heygen-com/hyperframes/commit/ae914334f279ee53b3aebd0437ef7a9c4d20f8b0">ae914334f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4749">#4749</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A copied clip keeps its look and motion, and a duplicated section keeps its name (<a href="https://github.com/heygen-com/hyperframes/commit/7734697872e552c286dca576ee006da96d7d1dc4">773469787</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4756">#4756</a>).</li>
-<li><strong>Studio:</strong> Name a repeated section by its authored id in the Design panel (<a href="https://github.com/heygen-com/hyperframes/commit/14e87005d93e9fe49078c0e854e93557dbef7553">14e87005d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4768">#4768</a>).</li>
-<li><strong>Studio:</strong> Undoing an agent&#39;s build takes its sections off the timeline too (<a href="https://github.com/heygen-com/hyperframes/commit/ae8d1780ff70bc1a5207cff46bbd9ce3395243f9">ae8d1780f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4757">#4757</a>).</li>
-<li><strong>Studio:</strong> Font faces a host saves keep their own weight and style (<a href="https://github.com/heygen-com/hyperframes/commit/be5beaee61de0d3f7a9927eb49dcaa957d66af75">be5beaee6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4753">#4753</a>).</li>
-<li><strong>Studio:</strong> Shift+click on a group member removes it for good (<a href="https://github.com/heygen-com/hyperframes/commit/84811c43297c4487fb5d472bee131ff0c37bc31e">84811c432</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4754">#4754</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.96...v0.8.97">https://github.com/heygen-com/hyperframes/compare/v0.8.96...v0.8.97</a></p>
 ]]></content:encoded>
         </item>
     </channel>
