@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 11 Oct 2026 17:57:55 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2026 19:16:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.149]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.149</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.149</guid>
+            <pubDate>Sun, 11 Oct 2026 19:16:59 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.149</h1>
+<p>Released on 2026-10-11.</p>
+<p>Apps can now import <code>transcribe</code> and <code>removeBackground</code> from <code>hyperframes/api</code> and call them as plain functions. They return typed results and throw typed errors, so tools like HyperFrames Desktop no longer need to run the CLI as a child process.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> New <code>hyperframes/api</code> entry that exports <code>transcribe</code> and <code>removeBackground</code> as importable functions (<a href="https://github.com/heygen-com/hyperframes/commit/943b6512b43b106c79839a977f3bfa4aa115a11d">943b6512b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5453">#5453</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.148...v0.8.149">https://github.com/heygen-com/hyperframes/compare/v0.8.148...v0.8.149</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.149</h1>
+<p>Released on 2026-10-11.</p>
+<p>Apps can now import <code>transcribe</code> and <code>removeBackground</code> from <code>hyperframes/api</code> and call them as plain functions. They return typed results and throw typed errors, so tools like HyperFrames Desktop no longer need to run the CLI as a child process.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> New <code>hyperframes/api</code> entry that exports <code>transcribe</code> and <code>removeBackground</code> as importable functions (<a href="https://github.com/heygen-com/hyperframes/commit/943b6512b43b106c79839a977f3bfa4aa115a11d">943b6512b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5453">#5453</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.148...v0.8.149">https://github.com/heygen-com/hyperframes/compare/v0.8.148...v0.8.149</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.148]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.148</link>
@@ -2359,50 +2385,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.99...v0.8.100">https://github.com/heygen-com/hyperframes/compare/v0.8.99...v0.8.100</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.99]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.99</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.99</guid>
-            <pubDate>Wed, 30 Sep 2026 23:00:31 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.99</h1>
-<p>Released on 2026-09-30.</p>
-<p>Manual editing in Studio is more exact. Dragged and rotated elements follow the pointer and land where you drop them. Resizing a cropped element keeps the same part in view, and moving a clip on the timeline moves its animations too.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A dragged or rotated element follows the pointer exactly and keeps its sub-pixel spot on drop (<a href="https://github.com/heygen-com/hyperframes/commit/ca3a3f6e0b37c993ec25a5280bd74fbfc828c0db">ca3a3f6e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4766">#4766</a>).</li>
-<li><strong>Core:</strong> Pair a staged scene copy&#39;s video with its own render frame (<a href="https://github.com/heygen-com/hyperframes/commit/7b0ec697040083a9b92c0b4fb87abdb5f6774bc7">7b0ec6970</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4791">#4791</a>).</li>
-<li><strong>Parsers:</strong> Moving a clip on the timeline moves its inner animations too (<a href="https://github.com/heygen-com/hyperframes/commit/f1c1f1d69cfe3a6b1c2d80bc88043e26fd52b907">f1c1f1d69</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4761">#4761</a>).</li>
-<li>Readers never see an empty or half-written project file (<a href="https://github.com/heygen-com/hyperframes/commit/567525a8c2e420c8590f7858d522bd13a20c0783">567525a8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4777">#4777</a>).</li>
-<li><strong>Studio:</strong> Resizing a cropped element keeps the same part of it in view (<a href="https://github.com/heygen-com/hyperframes/commit/76c634dfa5f9d0119342e0eda80325aee518dff4">76c634dfa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4743">#4743</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Measure render drift against a producer frame in the edit accuracy bench (<a href="https://github.com/heygen-com/hyperframes/commit/ca5463146499dc17f0d7b0350e8325640edba580">ca5463146</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4764">#4764</a>).</li>
-<li><strong>Tests:</strong> Stop two merge-queue flakes in the history prune and timeline tests (<a href="https://github.com/heygen-com/hyperframes/commit/299670e210c2dfb5c3f51b0fb9ed5ab748b0a513">299670e21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4786">#4786</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99">https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.99</h1>
-<p>Released on 2026-09-30.</p>
-<p>Manual editing in Studio is more exact. Dragged and rotated elements follow the pointer and land where you drop them. Resizing a cropped element keeps the same part in view, and moving a clip on the timeline moves its animations too.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A dragged or rotated element follows the pointer exactly and keeps its sub-pixel spot on drop (<a href="https://github.com/heygen-com/hyperframes/commit/ca3a3f6e0b37c993ec25a5280bd74fbfc828c0db">ca3a3f6e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4766">#4766</a>).</li>
-<li><strong>Core:</strong> Pair a staged scene copy&#39;s video with its own render frame (<a href="https://github.com/heygen-com/hyperframes/commit/7b0ec697040083a9b92c0b4fb87abdb5f6774bc7">7b0ec6970</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4791">#4791</a>).</li>
-<li><strong>Parsers:</strong> Moving a clip on the timeline moves its inner animations too (<a href="https://github.com/heygen-com/hyperframes/commit/f1c1f1d69cfe3a6b1c2d80bc88043e26fd52b907">f1c1f1d69</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4761">#4761</a>).</li>
-<li>Readers never see an empty or half-written project file (<a href="https://github.com/heygen-com/hyperframes/commit/567525a8c2e420c8590f7858d522bd13a20c0783">567525a8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4777">#4777</a>).</li>
-<li><strong>Studio:</strong> Resizing a cropped element keeps the same part of it in view (<a href="https://github.com/heygen-com/hyperframes/commit/76c634dfa5f9d0119342e0eda80325aee518dff4">76c634dfa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4743">#4743</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Measure render drift against a producer frame in the edit accuracy bench (<a href="https://github.com/heygen-com/hyperframes/commit/ca5463146499dc17f0d7b0350e8325640edba580">ca5463146</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4764">#4764</a>).</li>
-<li><strong>Tests:</strong> Stop two merge-queue flakes in the history prune and timeline tests (<a href="https://github.com/heygen-com/hyperframes/commit/299670e210c2dfb5c3f51b0fb9ed5ab748b0a513">299670e21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4786">#4786</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99">https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99</a></p>
 ]]></content:encoded>
         </item>
     </channel>
