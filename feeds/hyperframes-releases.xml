@@ -4,11 +4,41 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 11 Oct 2026 09:19:25 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Oct 2026 17:57:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.148]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.148</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.148</guid>
+            <pubDate>Sun, 11 Oct 2026 17:57:55 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.148</h1>
+<p>Released on 2026-10-11.</p>
+<p>A video in Studio preview no longer goes black while playing when the project script hides a layer above it. Exports keep sound and picture in sync when a file starts its streams apart, and the shortcuts panel stays above the player controls.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> An element its script hides stays hidden while studio preview plays (<a href="https://github.com/heygen-com/hyperframes/commit/2fbaef6abb5207b6f9ef3ba0d94320a6b082fc95">2fbaef6ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5458">#5458</a>).</li>
+<li><strong>Engine:</strong> MP4, MOV and TS exports keep sound and picture in sync when streams start apart (<a href="https://github.com/heygen-com/hyperframes/commit/b211fc7cb845c6838cbdb1860506c2fda2804787">b211fc7cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5455">#5455</a>).</li>
+<li><strong>Studio:</strong> Keep the shortcuts panel above the player controls and inside the window (<a href="https://github.com/heygen-com/hyperframes/commit/ba08acb1f506b06757bd77a7e7f491d412647fbd">ba08acb1f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5457">#5457</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.147...v0.8.148">https://github.com/heygen-com/hyperframes/compare/v0.8.147...v0.8.148</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.148</h1>
+<p>Released on 2026-10-11.</p>
+<p>A video in Studio preview no longer goes black while playing when the project script hides a layer above it. Exports keep sound and picture in sync when a file starts its streams apart, and the shortcuts panel stays above the player controls.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> An element its script hides stays hidden while studio preview plays (<a href="https://github.com/heygen-com/hyperframes/commit/2fbaef6abb5207b6f9ef3ba0d94320a6b082fc95">2fbaef6ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5458">#5458</a>).</li>
+<li><strong>Engine:</strong> MP4, MOV and TS exports keep sound and picture in sync when streams start apart (<a href="https://github.com/heygen-com/hyperframes/commit/b211fc7cb845c6838cbdb1860506c2fda2804787">b211fc7cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5455">#5455</a>).</li>
+<li><strong>Studio:</strong> Keep the shortcuts panel above the player controls and inside the window (<a href="https://github.com/heygen-com/hyperframes/commit/ba08acb1f506b06757bd77a7e7f491d412647fbd">ba08acb1f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5457">#5457</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.147...v0.8.148">https://github.com/heygen-com/hyperframes/compare/v0.8.147...v0.8.148</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.147]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.147</link>
@@ -2373,60 +2403,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99">https://github.com/heygen-com/hyperframes/compare/v0.8.98...v0.8.99</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.98]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.98</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.98</guid>
-            <pubDate>Wed, 30 Sep 2026 19:02:11 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.98</h1>
-<p>Released on 2026-09-30.</p>
-<p>Manual editing in Studio is steadier. A click after an empty-canvas press now selects on the first try, and drags no longer stall on the font list. Moves in files without GSAP save right away, and hosts can add their own items to a clip’s right-click menu.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Hosts can add their own items to the clip right-click menu (<a href="https://github.com/heygen-com/hyperframes/commit/5b79038ca4b2213f0089ec43404dc5927ec0d561">5b79038ca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4784">#4784</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Save moves in GSAP-free files without a 2 s wait for a warm parse (<a href="https://github.com/heygen-com/hyperframes/commit/8d537dea9f7ce01b8c4f97b96dbeb42fcb23e70d">8d537dea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4770">#4770</a>).</li>
-<li><strong>Studio:</strong> A click after an empty-canvas press selects on the first try (<a href="https://github.com/heygen-com/hyperframes/commit/d1a5a05609a1c53996cb96c1ae2c9a57d09313aa">d1a5a0560</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4759">#4759</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Stop sorting the font list while the font picker is closed (<a href="https://github.com/heygen-com/hyperframes/commit/0f390167df97928eb82cdbb03d1116890d732282">0f390167d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4769">#4769</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> An edit accuracy benchmark for manual editing (<a href="https://github.com/heygen-com/hyperframes/commit/0c6f5fd80edcdf8286d463c4f3dc886ac0d07e70">0c6f5fd80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4760">#4760</a>).</li>
-<li>Install a pinned static ffmpeg on linux instead of apt (<a href="https://github.com/heygen-com/hyperframes/commit/d572fe3baf099a260d28ad92a9ac3f1faf4baeb4">d572fe3ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4782">#4782</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.97...v0.8.98">https://github.com/heygen-com/hyperframes/compare/v0.8.97...v0.8.98</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.98</h1>
-<p>Released on 2026-09-30.</p>
-<p>Manual editing in Studio is steadier. A click after an empty-canvas press now selects on the first try, and drags no longer stall on the font list. Moves in files without GSAP save right away, and hosts can add their own items to a clip’s right-click menu.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Hosts can add their own items to the clip right-click menu (<a href="https://github.com/heygen-com/hyperframes/commit/5b79038ca4b2213f0089ec43404dc5927ec0d561">5b79038ca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4784">#4784</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Save moves in GSAP-free files without a 2 s wait for a warm parse (<a href="https://github.com/heygen-com/hyperframes/commit/8d537dea9f7ce01b8c4f97b96dbeb42fcb23e70d">8d537dea9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4770">#4770</a>).</li>
-<li><strong>Studio:</strong> A click after an empty-canvas press selects on the first try (<a href="https://github.com/heygen-com/hyperframes/commit/d1a5a05609a1c53996cb96c1ae2c9a57d09313aa">d1a5a0560</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4759">#4759</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Stop sorting the font list while the font picker is closed (<a href="https://github.com/heygen-com/hyperframes/commit/0f390167df97928eb82cdbb03d1116890d732282">0f390167d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4769">#4769</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> An edit accuracy benchmark for manual editing (<a href="https://github.com/heygen-com/hyperframes/commit/0c6f5fd80edcdf8286d463c4f3dc886ac0d07e70">0c6f5fd80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4760">#4760</a>).</li>
-<li>Install a pinned static ffmpeg on linux instead of apt (<a href="https://github.com/heygen-com/hyperframes/commit/d572fe3baf099a260d28ad92a9ac3f1faf4baeb4">d572fe3ba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4782">#4782</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.97...v0.8.98">https://github.com/heygen-com/hyperframes/compare/v0.8.97...v0.8.98</a></p>
 ]]></content:encoded>
         </item>
     </channel>
