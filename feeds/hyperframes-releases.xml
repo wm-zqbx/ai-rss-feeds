@@ -4,11 +4,79 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 11 Oct 2026 19:16:59 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 Oct 2026 14:18:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.150]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.150</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.150</guid>
+            <pubDate>Mon, 12 Oct 2026 14:18:15 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.150</h1>
+<p>Released on 2026-10-12.</p>
+<p>Video frame injection now releases replaced image resources, keeping render memory from growing with every frame. Composition-wide audio effects and scene export fixes also ship in this release.</p>
+<h2>Compatibility notes</h2>
+<ul>
+<li>A top-level composition root&#39;s <code>data-fx-chain</code> now processes the whole audio mix. Remove a previously unused root chain if you want unchanged audio. <a href="https://github.com/heygen-com/hyperframes/pull/5420">#5420</a></li>
+<li>For engine API users, <code>injectVideoFramesBatch</code> assigns temporary image URLs that expire after decoding. Use the original frame source when serializing or reloading the DOM. <a href="https://github.com/heygen-com/hyperframes/pull/5494">#5494</a></li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li>Apply one audio effects chain across the whole composition, after clip and group effects. Set <code>data-fx-chain</code> on the top-level root. <a href="https://github.com/heygen-com/hyperframes/pull/5420">#5420</a></li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>Exported video and audio now respect split scenes&#39; in-points and inline scenes&#39; start times, matching their placement in preview. <a href="https://github.com/heygen-com/hyperframes/pull/5454">#5454</a></li>
+<li>A scene previewed or rendered alone uses its own master audio chain. <a href="https://github.com/heygen-com/hyperframes/pull/5474">#5474</a></li>
+<li>Pitch-shifted exports keep the end of the clip and its effect tail. Bitcrush preview no longer starts with a silent hold after seeking. <a href="https://github.com/heygen-com/hyperframes/pull/5478">#5478</a></li>
+<li>Studio history diagnostics include the server status and reason when an edit cannot be recorded as an undo step. <a href="https://github.com/heygen-com/hyperframes/pull/5489">#5489</a></li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li>Replaced video frames no longer accumulate cached image resources during capture. Engine-owned capture pages also retain less response data for DevTools inspection. <a href="https://github.com/heygen-com/hyperframes/pull/5494">#5494</a></li>
+<li>Large audio effects mixes render in windows instead of loading the full mix into the browser. Parameter automation above 2 GiB remains unsupported. <a href="https://github.com/heygen-com/hyperframes/pull/5474">#5474</a></li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li>The <code>product-promo</code> example no longer fails lint on conflicting CSS and GSAP transforms, allowing its browser audits to run. <a href="https://github.com/heygen-com/hyperframes/pull/5481">#5481</a></li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.149...v0.8.150">https://github.com/heygen-com/hyperframes/compare/v0.8.149...v0.8.150</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.150</h1>
+<p>Released on 2026-10-12.</p>
+<p>Video frame injection now releases replaced image resources, keeping render memory from growing with every frame. Composition-wide audio effects and scene export fixes also ship in this release.</p>
+<h2>Compatibility notes</h2>
+<ul>
+<li>A top-level composition root&#39;s <code>data-fx-chain</code> now processes the whole audio mix. Remove a previously unused root chain if you want unchanged audio. <a href="https://github.com/heygen-com/hyperframes/pull/5420">#5420</a></li>
+<li>For engine API users, <code>injectVideoFramesBatch</code> assigns temporary image URLs that expire after decoding. Use the original frame source when serializing or reloading the DOM. <a href="https://github.com/heygen-com/hyperframes/pull/5494">#5494</a></li>
+</ul>
+<h2>Features</h2>
+<ul>
+<li>Apply one audio effects chain across the whole composition, after clip and group effects. Set <code>data-fx-chain</code> on the top-level root. <a href="https://github.com/heygen-com/hyperframes/pull/5420">#5420</a></li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>Exported video and audio now respect split scenes&#39; in-points and inline scenes&#39; start times, matching their placement in preview. <a href="https://github.com/heygen-com/hyperframes/pull/5454">#5454</a></li>
+<li>A scene previewed or rendered alone uses its own master audio chain. <a href="https://github.com/heygen-com/hyperframes/pull/5474">#5474</a></li>
+<li>Pitch-shifted exports keep the end of the clip and its effect tail. Bitcrush preview no longer starts with a silent hold after seeking. <a href="https://github.com/heygen-com/hyperframes/pull/5478">#5478</a></li>
+<li>Studio history diagnostics include the server status and reason when an edit cannot be recorded as an undo step. <a href="https://github.com/heygen-com/hyperframes/pull/5489">#5489</a></li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li>Replaced video frames no longer accumulate cached image resources during capture. Engine-owned capture pages also retain less response data for DevTools inspection. <a href="https://github.com/heygen-com/hyperframes/pull/5494">#5494</a></li>
+<li>Large audio effects mixes render in windows instead of loading the full mix into the browser. Parameter automation above 2 GiB remains unsupported. <a href="https://github.com/heygen-com/hyperframes/pull/5474">#5474</a></li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li>The <code>product-promo</code> example no longer fails lint on conflicting CSS and GSAP transforms, allowing its browser audits to run. <a href="https://github.com/heygen-com/hyperframes/pull/5481">#5481</a></li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.149...v0.8.150">https://github.com/heygen-com/hyperframes/compare/v0.8.149...v0.8.150</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.149]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.149</link>
@@ -2349,42 +2417,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.100...v0.8.101">https://github.com/heygen-com/hyperframes/compare/v0.8.100...v0.8.101</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.100]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.100</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.100</guid>
-            <pubDate>Thu, 01 Oct 2026 03:30:35 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.100</h1>
-<p>Released on 2026-10-01.</p>
-<p>Moving or nudging an element in Studio is exact when it has no GSAP animation. It lands where you drop it and is saved as plain CSS, with no GSAP script added. A text edit saves to the element you edited, or tells you why it could not.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A moved or nudged element without GSAP animation lands exactly where you drop it, saved as plain CSS (no GSAP script added) (<a href="https://github.com/heygen-com/hyperframes/commit/c8f848f98482362efcba337ceb35b240f89e1d7f">c8f848f98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4799">#4799</a>).</li>
-<li><strong>Studio:</strong> A text edit saves to the element that was edited, or says why it could not (<a href="https://github.com/heygen-com/hyperframes/commit/c777f36d47d7fb914c7b3be4a9536ff343c4075f">c777f36d4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4803">#4803</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Gate edit accuracy in CI against the base branch baseline (<a href="https://github.com/heygen-com/hyperframes/commit/097250e11c0d891e201399016f79c484043aa800">097250e11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4765">#4765</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.99...v0.8.100">https://github.com/heygen-com/hyperframes/compare/v0.8.99...v0.8.100</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.100</h1>
-<p>Released on 2026-10-01.</p>
-<p>Moving or nudging an element in Studio is exact when it has no GSAP animation. It lands where you drop it and is saved as plain CSS, with no GSAP script added. A text edit saves to the element you edited, or tells you why it could not.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A moved or nudged element without GSAP animation lands exactly where you drop it, saved as plain CSS (no GSAP script added) (<a href="https://github.com/heygen-com/hyperframes/commit/c8f848f98482362efcba337ceb35b240f89e1d7f">c8f848f98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4799">#4799</a>).</li>
-<li><strong>Studio:</strong> A text edit saves to the element that was edited, or says why it could not (<a href="https://github.com/heygen-com/hyperframes/commit/c777f36d47d7fb914c7b3be4a9536ff343c4075f">c777f36d4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4803">#4803</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Gate edit accuracy in CI against the base branch baseline (<a href="https://github.com/heygen-com/hyperframes/commit/097250e11c0d891e201399016f79c484043aa800">097250e11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4765">#4765</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.99...v0.8.100">https://github.com/heygen-com/hyperframes/compare/v0.8.99...v0.8.100</a></p>
 ]]></content:encoded>
         </item>
     </channel>
