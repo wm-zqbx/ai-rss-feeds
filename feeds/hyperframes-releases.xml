@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 13 Oct 2026 15:44:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 19:52:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.154]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.154</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.154</guid>
+            <pubDate>Tue, 13 Oct 2026 19:52:40 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.154</h1>
+<p>Released on 2026-10-13.</p>
+<p>Live inspection keeps answering after a composition with audio is opened. Studio&#39;s waveform and thumbnail caches no longer make every question report a stale preview.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Inspector:</strong> Stop audio waveform caches from making every live question stale (<a href="https://github.com/heygen-com/hyperframes/commit/6f76b306751fdab465d9c6702228b119edd8ce30">6f76b3067</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5536">#5536</a>). Live inspection now ignores the same cache folders Studio&#39;s preview reload ignores.</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.153...v0.8.154">https://github.com/heygen-com/hyperframes/compare/v0.8.153...v0.8.154</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.154</h1>
+<p>Released on 2026-10-13.</p>
+<p>Live inspection keeps answering after a composition with audio is opened. Studio&#39;s waveform and thumbnail caches no longer make every question report a stale preview.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Inspector:</strong> Stop audio waveform caches from making every live question stale (<a href="https://github.com/heygen-com/hyperframes/commit/6f76b306751fdab465d9c6702228b119edd8ce30">6f76b3067</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5536">#5536</a>). Live inspection now ignores the same cache folders Studio&#39;s preview reload ignores.</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.153...v0.8.154">https://github.com/heygen-com/hyperframes/compare/v0.8.153...v0.8.154</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.153]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.153</link>
@@ -2473,42 +2499,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.104...v0.8.105">https://github.com/heygen-com/hyperframes/compare/v0.8.104...v0.8.105</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.104]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.104</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.104</guid>
-            <pubDate>Thu, 01 Oct 2026 10:59:43 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.104</h1>
-<p>Released on 2026-10-01.</p>
-<!-- TODO: write a 1-2 sentence release summary here. -->
-<!-- Style bar: keep sentences under 25 words. Use everyday words. Avoid semicolons. Say what changed for the user, then why it matters. -->
-
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A rotate without GSAP saves where you let go, nested too (<a href="https://github.com/heygen-com/hyperframes/commit/74f5013210e382ed9f7867e1636abf80975a55ed">74f501321</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4802">#4802</a>).</li>
-<li><strong>Studio:</strong> Escape keeps the text you typed in an in-place edit (<a href="https://github.com/heygen-com/hyperframes/commit/bb0d076c1492f69a9a43ae9a5bebb39abc0c576e">bb0d076c1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4841">#4841</a>).</li>
-<li><strong>Studio:</strong> A move keeps the route it chose at press through drop and save (<a href="https://github.com/heygen-com/hyperframes/commit/2eb19191032c88949604541d7a2b3593eb1c7bd7">2eb191910</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4834">#4834</a>).</li>
-<li><strong>Studio:</strong> Resize an element without GSAP by its own width, height and translate (<a href="https://github.com/heygen-com/hyperframes/commit/3e011b7e5f4dca52c4558dacea45ad4e213a3b5f">3e011b7e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4805">#4805</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.103...v0.8.104">https://github.com/heygen-com/hyperframes/compare/v0.8.103...v0.8.104</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.104</h1>
-<p>Released on 2026-10-01.</p>
-<!-- TODO: write a 1-2 sentence release summary here. -->
-<!-- Style bar: keep sentences under 25 words. Use everyday words. Avoid semicolons. Say what changed for the user, then why it matters. -->
-
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A rotate without GSAP saves where you let go, nested too (<a href="https://github.com/heygen-com/hyperframes/commit/74f5013210e382ed9f7867e1636abf80975a55ed">74f501321</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4802">#4802</a>).</li>
-<li><strong>Studio:</strong> Escape keeps the text you typed in an in-place edit (<a href="https://github.com/heygen-com/hyperframes/commit/bb0d076c1492f69a9a43ae9a5bebb39abc0c576e">bb0d076c1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4841">#4841</a>).</li>
-<li><strong>Studio:</strong> A move keeps the route it chose at press through drop and save (<a href="https://github.com/heygen-com/hyperframes/commit/2eb19191032c88949604541d7a2b3593eb1c7bd7">2eb191910</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4834">#4834</a>).</li>
-<li><strong>Studio:</strong> Resize an element without GSAP by its own width, height and translate (<a href="https://github.com/heygen-com/hyperframes/commit/3e011b7e5f4dca52c4558dacea45ad4e213a3b5f">3e011b7e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4805">#4805</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.103...v0.8.104">https://github.com/heygen-com/hyperframes/compare/v0.8.103...v0.8.104</a></p>
 ]]></content:encoded>
         </item>
     </channel>
