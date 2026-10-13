@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 13 Oct 2026 08:03:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 15:44:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.153]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.153</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.153</guid>
+            <pubDate>Tue, 13 Oct 2026 15:44:53 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.153</h1>
+<p>Released on 2026-10-13.</p>
+<p><code>hyperframes check</code> now stops instead of running forever when a composition script gets stuck. If this happens during startup, the error names the file.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Stop stuck checks and report the file to fix (<a href="https://github.com/heygen-com/hyperframes/commit/c96099d39a12332d5d87bd922b0d7c1b277b9f22">c96099d39a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5537">#5537</a>). Browser downloads and first launch no longer use up the check&#39;s time limit.</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.152...v0.8.153">https://github.com/heygen-com/hyperframes/compare/v0.8.152...v0.8.153</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.153</h1>
+<p>Released on 2026-10-13.</p>
+<p><code>hyperframes check</code> now stops instead of running forever when a composition script gets stuck. If this happens during startup, the error names the file.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Stop stuck checks and report the file to fix (<a href="https://github.com/heygen-com/hyperframes/commit/c96099d39a12332d5d87bd922b0d7c1b277b9f22">c96099d39a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5537">#5537</a>). Browser downloads and first launch no longer use up the check&#39;s time limit.</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.152...v0.8.153">https://github.com/heygen-com/hyperframes/compare/v0.8.152...v0.8.153</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.152]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.152</link>
@@ -2483,36 +2509,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.103...v0.8.104">https://github.com/heygen-com/hyperframes/compare/v0.8.103...v0.8.104</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.103]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.103</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.103</guid>
-            <pubDate>Thu, 01 Oct 2026 07:21:09 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.103</h1>
-<p>Released on 2026-10-01.</p>
-<p>Fade handles in Studio are easier to grab and show a real tooltip. Layers positioned with min(), max() or clamp() move from where they really are, and projects named with a colon or # open correctly.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Fade handles show a real tooltip and a 24 px target (<a href="https://github.com/heygen-com/hyperframes/commit/e3ac225a9ce63a5dd54447d616878e3989a32701">e3ac225a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4819">#4819</a>).</li>
-<li><strong>Studio:</strong> A layer with a min(), max() or clamp() translate moves from where it really is (<a href="https://github.com/heygen-com/hyperframes/commit/7880d41bc412672c908b14da8c77e40eddb508a7">7880d41bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4832">#4832</a>).</li>
-<li><strong>Studio:</strong> Open projects named with a colon and keep preview assets for names with # (<a href="https://github.com/heygen-com/hyperframes/commit/a369708fa5ddd02dd538b676daa86c72b278c4eb">a369708fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4829">#4829</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.102...v0.8.103">https://github.com/heygen-com/hyperframes/compare/v0.8.102...v0.8.103</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.103</h1>
-<p>Released on 2026-10-01.</p>
-<p>Fade handles in Studio are easier to grab and show a real tooltip. Layers positioned with min(), max() or clamp() move from where they really are, and projects named with a colon or # open correctly.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Fade handles show a real tooltip and a 24 px target (<a href="https://github.com/heygen-com/hyperframes/commit/e3ac225a9ce63a5dd54447d616878e3989a32701">e3ac225a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4819">#4819</a>).</li>
-<li><strong>Studio:</strong> A layer with a min(), max() or clamp() translate moves from where it really is (<a href="https://github.com/heygen-com/hyperframes/commit/7880d41bc412672c908b14da8c77e40eddb508a7">7880d41bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4832">#4832</a>).</li>
-<li><strong>Studio:</strong> Open projects named with a colon and keep preview assets for names with # (<a href="https://github.com/heygen-com/hyperframes/commit/a369708fa5ddd02dd538b676daa86c72b278c4eb">a369708fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4829">#4829</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.102...v0.8.103">https://github.com/heygen-com/hyperframes/compare/v0.8.102...v0.8.103</a></p>
 ]]></content:encoded>
         </item>
     </channel>
