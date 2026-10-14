@@ -4,11 +4,49 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 13 Oct 2026 19:52:40 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Oct 2026 23:33:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.155]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.155</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.155</guid>
+            <pubDate>Tue, 13 Oct 2026 23:33:42 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.155</h1>
+<p>Released on 2026-10-13.</p>
+<p>MP4 renders at widths like 1000, 1080 or 1112 no longer get a black strip down the right edge on newer FFmpeg. Both the Studio render route and the producer render server now take encoder settings such as CRF, and distributed renders keep the CRF you ask for.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> The render server&#39;s <code>/render</code> and <code>/render/stream</code> accept <code>crf</code>, <code>videoBitrate</code> and <code>videoFrameFormat</code> (<a href="https://github.com/heygen-com/hyperframes/commit/5de2712ad587ae3fe06e4087e30650fdbe34c909">5de2712ad5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5550">#5550</a>). A bad <code>videoFrameFormat</code> now returns a 400 instead of being ignored.</li>
+<li><strong>Studio Server:</strong> Accept <code>crf</code>, <code>videoBitrate</code>, <code>videoFrameFormat</code> and <code>hdrMode</code> on the render route (<a href="https://github.com/heygen-com/hyperframes/commit/ab8a4da53f31653350632980fa63cb07e957f0f6">ab8a4da53f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5549">#5549</a>). Out-of-range values return a 400, and <code>crf</code> with <code>videoBitrate</code> together is rejected.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Keep the rightmost 8 columns of SDR MP4 at widths like 1080 (<a href="https://github.com/heygen-com/hyperframes/commit/401354cd8f685d9ec9011b41d2c4269289d29598">401354cd8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5559">#5559</a>). FFmpeg 7.1 and 8.0 dropped the last 8 pixel columns to black when the width was 8 more than a multiple of 16.</li>
+<li><strong>Producer:</strong> Keep the requested CRF in the distributed constant-frame-rate re-encode (<a href="https://github.com/heygen-com/hyperframes/commit/bf4cf860fbd26a7d51938c5f11987c335d4e848a">bf4cf860fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5557">#5557</a>). It used to fall back to the quality preset.</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155">https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.155</h1>
+<p>Released on 2026-10-13.</p>
+<p>MP4 renders at widths like 1000, 1080 or 1112 no longer get a black strip down the right edge on newer FFmpeg. Both the Studio render route and the producer render server now take encoder settings such as CRF, and distributed renders keep the CRF you ask for.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> The render server&#39;s <code>/render</code> and <code>/render/stream</code> accept <code>crf</code>, <code>videoBitrate</code> and <code>videoFrameFormat</code> (<a href="https://github.com/heygen-com/hyperframes/commit/5de2712ad587ae3fe06e4087e30650fdbe34c909">5de2712ad5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5550">#5550</a>). A bad <code>videoFrameFormat</code> now returns a 400 instead of being ignored.</li>
+<li><strong>Studio Server:</strong> Accept <code>crf</code>, <code>videoBitrate</code>, <code>videoFrameFormat</code> and <code>hdrMode</code> on the render route (<a href="https://github.com/heygen-com/hyperframes/commit/ab8a4da53f31653350632980fa63cb07e957f0f6">ab8a4da53f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5549">#5549</a>). Out-of-range values return a 400, and <code>crf</code> with <code>videoBitrate</code> together is rejected.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Keep the rightmost 8 columns of SDR MP4 at widths like 1080 (<a href="https://github.com/heygen-com/hyperframes/commit/401354cd8f685d9ec9011b41d2c4269289d29598">401354cd8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5559">#5559</a>). FFmpeg 7.1 and 8.0 dropped the last 8 pixel columns to black when the width was 8 more than a multiple of 16.</li>
+<li><strong>Producer:</strong> Keep the requested CRF in the distributed constant-frame-rate re-encode (<a href="https://github.com/heygen-com/hyperframes/commit/bf4cf860fbd26a7d51938c5f11987c335d4e848a">bf4cf860fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5557">#5557</a>). It used to fall back to the quality preset.</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155">https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.154]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.154</link>
@@ -2447,58 +2485,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.105...v0.8.106">https://github.com/heygen-com/hyperframes/compare/v0.8.105...v0.8.106</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.105]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.105</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.105</guid>
-            <pubDate>Thu, 01 Oct 2026 14:38:48 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.105</h1>
-<p>Released on 2026-10-01.</p>
-<!-- TODO: write a 1-2 sentence release summary here. -->
-<!-- Style bar: keep sentences under 25 words. Use everyday words. Avoid semicolons. Say what changed for the user, then why it matters. -->
-
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Graphite colour system with a light theme that passes contrast (<a href="https://github.com/heygen-com/hyperframes/commit/658f22bb7f5d1cb3a5d8115c4cd316ff2a5a711f">658f22bb7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4836">#4836</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A pasted element keeps the look its id gave the original (<a href="https://github.com/heygen-com/hyperframes/commit/3d8325e7a4d04f101924608de2809bdbd680180d">3d8325e7a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4852">#4852</a>).</li>
-<li><strong>Studio:</strong> The timeline viewport gate judges p95 over every measured scroll step (<a href="https://github.com/heygen-com/hyperframes/commit/c20934a7205b6bd2d24a1f8b3098bababcefb921">c20934a72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4847">#4847</a>).</li>
-<li><strong>Studio:</strong> A moved layer holds through seeks and Reset puts back its authored translate (<a href="https://github.com/heygen-com/hyperframes/commit/e90b1a0200c1ac5fc9e18ecf9035199ed7cbe6f5">e90b1a020</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4840">#4840</a>).</li>
-<li><strong>Studio:</strong> Undo and redo are no longer held behind thumbnail renders (<a href="https://github.com/heygen-com/hyperframes/commit/d0404b450cb6f1f0392bbd458ff87131b2bc8cea">d0404b450</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4842">#4842</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Delete the move writer no Studio path calls (<a href="https://github.com/heygen-com/hyperframes/commit/0b417cb57a4c1ac0abbd08c18fd6cd4b0f666421">0b417cb57</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4837">#4837</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.104...v0.8.105">https://github.com/heygen-com/hyperframes/compare/v0.8.104...v0.8.105</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.105</h1>
-<p>Released on 2026-10-01.</p>
-<!-- TODO: write a 1-2 sentence release summary here. -->
-<!-- Style bar: keep sentences under 25 words. Use everyday words. Avoid semicolons. Say what changed for the user, then why it matters. -->
-
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Graphite colour system with a light theme that passes contrast (<a href="https://github.com/heygen-com/hyperframes/commit/658f22bb7f5d1cb3a5d8115c4cd316ff2a5a711f">658f22bb7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4836">#4836</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A pasted element keeps the look its id gave the original (<a href="https://github.com/heygen-com/hyperframes/commit/3d8325e7a4d04f101924608de2809bdbd680180d">3d8325e7a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4852">#4852</a>).</li>
-<li><strong>Studio:</strong> The timeline viewport gate judges p95 over every measured scroll step (<a href="https://github.com/heygen-com/hyperframes/commit/c20934a7205b6bd2d24a1f8b3098bababcefb921">c20934a72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4847">#4847</a>).</li>
-<li><strong>Studio:</strong> A moved layer holds through seeks and Reset puts back its authored translate (<a href="https://github.com/heygen-com/hyperframes/commit/e90b1a0200c1ac5fc9e18ecf9035199ed7cbe6f5">e90b1a020</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4840">#4840</a>).</li>
-<li><strong>Studio:</strong> Undo and redo are no longer held behind thumbnail renders (<a href="https://github.com/heygen-com/hyperframes/commit/d0404b450cb6f1f0392bbd458ff87131b2bc8cea">d0404b450</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4842">#4842</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Delete the move writer no Studio path calls (<a href="https://github.com/heygen-com/hyperframes/commit/0b417cb57a4c1ac0abbd08c18fd6cd4b0f666421">0b417cb57</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4837">#4837</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.104...v0.8.105">https://github.com/heygen-com/hyperframes/compare/v0.8.104...v0.8.105</a></p>
 ]]></content:encoded>
         </item>
     </channel>
