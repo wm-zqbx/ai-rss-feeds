@@ -4,11 +4,87 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 15 Oct 2026 00:56:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 09:12:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.161]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.161</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.161</guid>
+            <pubDate>Thu, 15 Oct 2026 09:12:23 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.161</h1>
+<p>Released on 2026-10-15.</p>
+<p>Find music beats without launching Chrome. TypeScript projects using NodeNext can now resolve the published package declarations.</p>
+<h2>Features</h2>
+<ul>
+<li><code>hyperframes beats</code> uses the TypeScript beat tracker through FFmpeg decoding, without Chrome. Studio shares the tracker; low-confidence audio returns no beat grid. The saved beat-file format is unchanged. (<a href="https://github.com/heygen-com/hyperframes/pull/5634">#5634</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>Resolve published TypeScript declarations with NodeNext module resolution across packages. (<a href="https://github.com/heygen-com/hyperframes/pull/5532">#5532</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/ec97816a921649fb0c0f43959e0db23d2fc039e2...v0.8.161">https://github.com/heygen-com/hyperframes/compare/ec97816a921649fb0c0f43959e0db23d2fc039e2...v0.8.161</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.161</h1>
+<p>Released on 2026-10-15.</p>
+<p>Find music beats without launching Chrome. TypeScript projects using NodeNext can now resolve the published package declarations.</p>
+<h2>Features</h2>
+<ul>
+<li><code>hyperframes beats</code> uses the TypeScript beat tracker through FFmpeg decoding, without Chrome. Studio shares the tracker; low-confidence audio returns no beat grid. The saved beat-file format is unchanged. (<a href="https://github.com/heygen-com/hyperframes/pull/5634">#5634</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>Resolve published TypeScript declarations with NodeNext module resolution across packages. (<a href="https://github.com/heygen-com/hyperframes/pull/5532">#5532</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/ec97816a921649fb0c0f43959e0db23d2fc039e2...v0.8.161">https://github.com/heygen-com/hyperframes/compare/ec97816a921649fb0c0f43959e0db23d2fc039e2...v0.8.161</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.160]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.160</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.160</guid>
+            <pubDate>Thu, 15 Oct 2026 06:07:13 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.160</h1>
+<p>Released on 2026-10-15.</p>
+<p>Measure sound timing with the new audio command. This release also improves trimmed-video previews, Windows rendering, Claude usage reporting, history saves, and element picking.</p>
+<h2>Features</h2>
+<ul>
+<li>Measure audio onsets, peaks, pauses, and loudness with <code>hyperframes audio</code>. Project queries report film time, including clip trims and playback rates. Timeline rows now expose <code>mediaStart</code> for consumers that map file timestamps into the film. (<a href="https://github.com/heygen-com/hyperframes/pull/5602">#5602</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>Prepare trimmed video frames before preview cuts, reducing flashes of the wrong frame. (<a href="https://github.com/heygen-com/hyperframes/pull/5633">#5633</a>)</li>
+<li>Keep history saves moving when a file changes while it is being copied. (<a href="https://github.com/heygen-com/hyperframes/pull/5627">#5627</a>)</li>
+<li>Show Claude plan spending even when the usage response has no rate windows. (<a href="https://github.com/heygen-com/hyperframes/pull/5629">#5629</a>)</li>
+<li>Let the first Windows render wait for newly installed browser and FFmpeg files to become accessible. (<a href="https://github.com/heygen-com/hyperframes/pull/5625">#5625</a>)</li>
+<li>Select content beneath faint SVG grain and keep page-wide CSS resets out of an element&#39;s inspected styles. (<a href="https://github.com/heygen-com/hyperframes/pull/5628">#5628</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.159...v0.8.160">https://github.com/heygen-com/hyperframes/compare/v0.8.159...v0.8.160</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.160</h1>
+<p>Released on 2026-10-15.</p>
+<p>Measure sound timing with the new audio command. This release also improves trimmed-video previews, Windows rendering, Claude usage reporting, history saves, and element picking.</p>
+<h2>Features</h2>
+<ul>
+<li>Measure audio onsets, peaks, pauses, and loudness with <code>hyperframes audio</code>. Project queries report film time, including clip trims and playback rates. Timeline rows now expose <code>mediaStart</code> for consumers that map file timestamps into the film. (<a href="https://github.com/heygen-com/hyperframes/pull/5602">#5602</a>)</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>Prepare trimmed video frames before preview cuts, reducing flashes of the wrong frame. (<a href="https://github.com/heygen-com/hyperframes/pull/5633">#5633</a>)</li>
+<li>Keep history saves moving when a file changes while it is being copied. (<a href="https://github.com/heygen-com/hyperframes/pull/5627">#5627</a>)</li>
+<li>Show Claude plan spending even when the usage response has no rate windows. (<a href="https://github.com/heygen-com/hyperframes/pull/5629">#5629</a>)</li>
+<li>Let the first Windows render wait for newly installed browser and FFmpeg files to become accessible. (<a href="https://github.com/heygen-com/hyperframes/pull/5625">#5625</a>)</li>
+<li>Select content beneath faint SVG grain and keep page-wide CSS resets out of an element&#39;s inspected styles. (<a href="https://github.com/heygen-com/hyperframes/pull/5628">#5628</a>)</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.159...v0.8.160">https://github.com/heygen-com/hyperframes/compare/v0.8.159...v0.8.160</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.159]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.159</link>
@@ -2395,66 +2471,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.111...v0.8.112">https://github.com/heygen-com/hyperframes/compare/v0.8.111...v0.8.112</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.111]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.111</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.111</guid>
-            <pubDate>Fri, 02 Oct 2026 08:38:21 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.111</h1>
-<p>Released on 2026-10-02.</p>
-<p>Apps that embed Studio can now repaint a still-saving move instantly when the user presses their own undo key.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> A host undo key paints a still-saving move back at once (<a href="https://github.com/heygen-com/hyperframes/commit/de13693179f53c3f625b7b501f1f5fc7b083b6c9">de13693179f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4894">#4894</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.110...v0.8.111">https://github.com/heygen-com/hyperframes/compare/v0.8.110...v0.8.111</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.111</h1>
-<p>Released on 2026-10-02.</p>
-<p>Apps that embed Studio can now repaint a still-saving move instantly when the user presses their own undo key.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> A host undo key paints a still-saving move back at once (<a href="https://github.com/heygen-com/hyperframes/commit/de13693179f53c3f625b7b501f1f5fc7b083b6c9">de13693179f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4894">#4894</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.110...v0.8.111">https://github.com/heygen-com/hyperframes/compare/v0.8.110...v0.8.111</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.110]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.110</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.110</guid>
-            <pubDate>Fri, 02 Oct 2026 08:02:26 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.110</h1>
-<p>Released on 2026-10-02.</p>
-<p>Studio finishes the audio and video separation work: press G to set a clip&#39;s gain, and clip names show their speed. A hand drag now moves only with its own pointer pressed.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Audio gain on G, speed in clip names, additive selection and partner clamp (8/8) (<a href="https://github.com/heygen-com/hyperframes/commit/70900216f0dab460fc16256b0d43a973fd5e519b">70900216f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4821">#4821</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A hand drag moves only with its own pointer pressed (<a href="https://github.com/heygen-com/hyperframes/commit/6388845ac9aa7b2403863cc754a32765536233dc">6388845ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4880">#4880</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.109...v0.8.110">https://github.com/heygen-com/hyperframes/compare/v0.8.109...v0.8.110</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.110</h1>
-<p>Released on 2026-10-02.</p>
-<p>Studio finishes the audio and video separation work: press G to set a clip&#39;s gain, and clip names show their speed. A hand drag now moves only with its own pointer pressed.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Audio gain on G, speed in clip names, additive selection and partner clamp (8/8) (<a href="https://github.com/heygen-com/hyperframes/commit/70900216f0dab460fc16256b0d43a973fd5e519b">70900216f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4821">#4821</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A hand drag moves only with its own pointer pressed (<a href="https://github.com/heygen-com/hyperframes/commit/6388845ac9aa7b2403863cc754a32765536233dc">6388845ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4880">#4880</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.109...v0.8.110">https://github.com/heygen-com/hyperframes/compare/v0.8.109...v0.8.110</a></p>
 ]]></content:encoded>
         </item>
     </channel>

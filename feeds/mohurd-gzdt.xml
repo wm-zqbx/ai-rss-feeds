@@ -4,11 +4,18 @@
         <title>住房城乡建设部建设要闻</title>
         <link>https://www.mohurd.gov.cn/xinwen/gzdt/index.html</link>
         <description>中华人民共和国住房和城乡建设部建设要闻</description>
-        <lastBuildDate>Fri, 09 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>zh-CN</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/mohurd-gzdt.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[关于中央第一生态环境保护督察组作风纪律监督举报方式的公告]]></title>
+            <link>https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_8714b765d9fe4b7181b8c765894273c9.html</link>
+            <guid>https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_8714b765d9fe4b7181b8c765894273c9.html</guid>
+            <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[关于中央第一生态环境保护督察组作风纪律监督举报方式的公告]]></description>
+        </item>
         <item>
             <title><![CDATA[城市生命线工程是城市治理“必答题”——专访清华大学安全科学学院院长袁宏永]]></title>
             <link>https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_37ae357a6d7b4e468c929c36cc761ab1.html</link>
@@ -141,13 +148,6 @@
             <guid>https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_a2d5e96c87f249e1a07fc0e13002a0e0.html</guid>
             <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[以数字化与制度协同推动住房公积金融入全国统一大市场]]></description>
-        </item>
-        <item>
-            <title><![CDATA[住房城乡建设部召开全系统安全生产调度视频会议]]></title>
-            <link>https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_fb17d88e17344d189c541c080441a94e.html</link>
-            <guid>https://www.mohurd.gov.cn/xinwen/gzdt/art/2026/art_fb17d88e17344d189c541c080441a94e.html</guid>
-            <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-            <description><![CDATA[住房城乡建设部召开全系统安全生产调度视频会议]]></description>
         </item>
     </channel>
 </rss>
