@@ -4,11 +4,63 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 14 Oct 2026 19:46:32 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Oct 2026 00:56:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.159]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.159</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.159</guid>
+            <pubDate>Thu, 15 Oct 2026 00:56:09 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.159</h1>
+<p>Released on 2026-10-14.</p>
+<p><code>check</code> and <code>snapshot</code> now work in sandboxes that refuse to listen on localhost. <code>snapshot --keep</code> lets you redo one still without losing the others.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> <code>snapshot --keep</code> redoes one still and leaves the others (<a href="https://github.com/heygen-com/hyperframes/commit/c0636d017f68073522ab8eeb6cc24a2d3993b656">c0636d017f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5605">#5605</a>). It adds to the output folder instead of clearing it and names each still for its time, such as <code>at-1.5s.png</code>.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> A render&#39;s first frame shows each scene&#39;s starting state (<a href="https://github.com/heygen-com/hyperframes/commit/8c00ebad80c634f607e3a5283f8a0aa73e35f1dd">8c00ebad80c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5614">#5614</a>).</li>
+<li><strong>Core:</strong> A hidden scene&#39;s contents stay hidden when a child is set visible (<a href="https://github.com/heygen-com/hyperframes/commit/24a9b781715d0c59f06e4540831529d99c63ae75">24a9b781715</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5619">#5619</a>). Before, a nested scene&#39;s card could paint before its host started. The <code>static-volume-future-set</code> regression baseline changes for this reason.</li>
+<li><strong>CLI:</strong> <code>check</code> and <code>snapshot</code> run where a sandbox refuses to listen on localhost (<a href="https://github.com/heygen-com/hyperframes/commit/71595dd82012314f353d1237f50da0fad7639817">71595dd8201</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5618">#5618</a>).</li>
+<li><strong>CLI:</strong> The GPU check uses the same pipe as the render, so a sandboxed <code>check</code> no longer waits 120 s (<a href="https://github.com/heygen-com/hyperframes/commit/6c89decb0ddbac7c30a7dca6d947f945ebd58c0e">6c89decb0dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5622">#5622</a>).</li>
+<li><strong>CLI:</strong> A long video conversion in <code>init</code> never stalls on ffmpeg&#39;s own log (<a href="https://github.com/heygen-com/hyperframes/commit/b14a45647166e60e2e51dc018ccb1bb7331003a2">b14a4564716</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5616">#5616</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> The <code>var()</code> font fallback test uses an offline fetch stub instead of Google Fonts (<a href="https://github.com/heygen-com/hyperframes/commit/8f0bcadcd32893d3ad5231f33b210c410096281f">8f0bcadcd32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5623">#5623</a>).</li>
+<li>A stalled history fetch in change detection is retried instead of failing the run (<a href="https://github.com/heygen-com/hyperframes/commit/cd87cf11106985c6222723f5b391723882691d6c">cd87cf11106</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5615">#5615</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.158...v0.8.159">https://github.com/heygen-com/hyperframes/compare/v0.8.158...v0.8.159</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.159</h1>
+<p>Released on 2026-10-14.</p>
+<p><code>check</code> and <code>snapshot</code> now work in sandboxes that refuse to listen on localhost. <code>snapshot --keep</code> lets you redo one still without losing the others.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> <code>snapshot --keep</code> redoes one still and leaves the others (<a href="https://github.com/heygen-com/hyperframes/commit/c0636d017f68073522ab8eeb6cc24a2d3993b656">c0636d017f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5605">#5605</a>). It adds to the output folder instead of clearing it and names each still for its time, such as <code>at-1.5s.png</code>.</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> A render&#39;s first frame shows each scene&#39;s starting state (<a href="https://github.com/heygen-com/hyperframes/commit/8c00ebad80c634f607e3a5283f8a0aa73e35f1dd">8c00ebad80c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5614">#5614</a>).</li>
+<li><strong>Core:</strong> A hidden scene&#39;s contents stay hidden when a child is set visible (<a href="https://github.com/heygen-com/hyperframes/commit/24a9b781715d0c59f06e4540831529d99c63ae75">24a9b781715</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5619">#5619</a>). Before, a nested scene&#39;s card could paint before its host started. The <code>static-volume-future-set</code> regression baseline changes for this reason.</li>
+<li><strong>CLI:</strong> <code>check</code> and <code>snapshot</code> run where a sandbox refuses to listen on localhost (<a href="https://github.com/heygen-com/hyperframes/commit/71595dd82012314f353d1237f50da0fad7639817">71595dd8201</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5618">#5618</a>).</li>
+<li><strong>CLI:</strong> The GPU check uses the same pipe as the render, so a sandboxed <code>check</code> no longer waits 120 s (<a href="https://github.com/heygen-com/hyperframes/commit/6c89decb0ddbac7c30a7dca6d947f945ebd58c0e">6c89decb0dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5622">#5622</a>).</li>
+<li><strong>CLI:</strong> A long video conversion in <code>init</code> never stalls on ffmpeg&#39;s own log (<a href="https://github.com/heygen-com/hyperframes/commit/b14a45647166e60e2e51dc018ccb1bb7331003a2">b14a4564716</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5616">#5616</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> The <code>var()</code> font fallback test uses an offline fetch stub instead of Google Fonts (<a href="https://github.com/heygen-com/hyperframes/commit/8f0bcadcd32893d3ad5231f33b210c410096281f">8f0bcadcd32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5623">#5623</a>).</li>
+<li>A stalled history fetch in change detection is retried instead of failing the run (<a href="https://github.com/heygen-com/hyperframes/commit/cd87cf11106985c6222723f5b391723882691d6c">cd87cf11106</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5615">#5615</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.158...v0.8.159">https://github.com/heygen-com/hyperframes/compare/v0.8.158...v0.8.159</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.158]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.158</link>
@@ -2403,46 +2455,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.109...v0.8.110">https://github.com/heygen-com/hyperframes/compare/v0.8.109...v0.8.110</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.109]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.109</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.109</guid>
-            <pubDate>Fri, 02 Oct 2026 07:10:33 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.109</h1>
-<p>Released on 2026-10-02.</p>
-<p>Renders dropdown options take a mouse click again, a text edited in place shows its caret in a scaled preview, and soft reloads now match the saved files. Studio also links a video to its audio and can repair clips that drift out of sync.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Sync origin, out-of-sync repair, linked selection toggle and grouped clip menu (7/8) (<a href="https://github.com/heygen-com/hyperframes/commit/45b8e171e2792c89cc63b4d136de41eae6194b25">45b8e171e27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4820">#4820</a>).</li>
-<li><strong>Studio:</strong> Link a video and its audio with data-link (6/8) (<a href="https://github.com/heygen-com/hyperframes/commit/0559be0b1398fc5240746e8668a9cf6d3bf1a5c1">0559be0b139</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4818">#4818</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Soft reloads restore what GSAP wrote and holds from the saved files (<a href="https://github.com/heygen-com/hyperframes/commit/b5e3ffa6a727b726b239e6bebbbcc23e6172df81">b5e3ffa6a72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4871">#4871</a>).</li>
-<li><strong>Studio:</strong> Renders dropdown options take a mouse click again (<a href="https://github.com/heygen-com/hyperframes/commit/6dcc300fd2f9302ee90df345bbc1748c09c3210a">6dcc300fd2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4890">#4890</a>).</li>
-<li><strong>Studio:</strong> A text edited in place shows its caret in a scaled preview (<a href="https://github.com/heygen-com/hyperframes/commit/e205207583df27baf708867260a437ff8829205c">e205207583d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4875">#4875</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.108...v0.8.109">https://github.com/heygen-com/hyperframes/compare/v0.8.108...v0.8.109</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.109</h1>
-<p>Released on 2026-10-02.</p>
-<p>Renders dropdown options take a mouse click again, a text edited in place shows its caret in a scaled preview, and soft reloads now match the saved files. Studio also links a video to its audio and can repair clips that drift out of sync.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Sync origin, out-of-sync repair, linked selection toggle and grouped clip menu (7/8) (<a href="https://github.com/heygen-com/hyperframes/commit/45b8e171e2792c89cc63b4d136de41eae6194b25">45b8e171e27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4820">#4820</a>).</li>
-<li><strong>Studio:</strong> Link a video and its audio with data-link (6/8) (<a href="https://github.com/heygen-com/hyperframes/commit/0559be0b1398fc5240746e8668a9cf6d3bf1a5c1">0559be0b139</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4818">#4818</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Soft reloads restore what GSAP wrote and holds from the saved files (<a href="https://github.com/heygen-com/hyperframes/commit/b5e3ffa6a727b726b239e6bebbbcc23e6172df81">b5e3ffa6a72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4871">#4871</a>).</li>
-<li><strong>Studio:</strong> Renders dropdown options take a mouse click again (<a href="https://github.com/heygen-com/hyperframes/commit/6dcc300fd2f9302ee90df345bbc1748c09c3210a">6dcc300fd2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4890">#4890</a>).</li>
-<li><strong>Studio:</strong> A text edited in place shows its caret in a scaled preview (<a href="https://github.com/heygen-com/hyperframes/commit/e205207583df27baf708867260a437ff8829205c">e205207583d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4875">#4875</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.108...v0.8.109">https://github.com/heygen-com/hyperframes/compare/v0.8.108...v0.8.109</a></p>
 ]]></content:encoded>
         </item>
     </channel>
