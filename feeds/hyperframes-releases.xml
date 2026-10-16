@@ -4,11 +4,61 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 15 Oct 2026 12:19:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Oct 2026 02:18:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.163]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.163</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.163</guid>
+            <pubDate>Fri, 16 Oct 2026 02:18:42 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.163</h1>
+<p>Released on 2026-10-16.</p>
+<p>Website captures keep inline SVG logos whole, and timed SVG clips hide outside their window. Publishing now asks you to log in when it needs an account.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Judge text behind a transparent video by its decoded alpha in check (<a href="https://github.com/heygen-com/hyperframes/commit/cea8aa8a7dee9d669e47e4b488213008bbe305cd">cea8aa8a7de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5657">#5657</a>).</li>
+<li><strong>CLI:</strong> Render telemetry reports how busy the machine&#39;s CPU was (<a href="https://github.com/heygen-com/hyperframes/commit/0e9f380c2e2295db4b88945a77cfa81001ac5c27">0e9f380c2e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5646">#5646</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Ask to log in when publishing needs an account (<a href="https://github.com/heygen-com/hyperframes/commit/917ee5d31342f8c8a4a14659679762489cafe665">917ee5d3134</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5670">#5670</a>).</li>
+<li><strong>Core:</strong> Timed svg clips hide outside their window (<a href="https://github.com/heygen-com/hyperframes/commit/1ee6754f7106335cc5533f7205bd3b7949ddb887">1ee6754f710</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5661">#5661</a>).</li>
+<li><strong>CLI:</strong> Capture writes inline SVG logos whole and parakeet takes long audio (<a href="https://github.com/heygen-com/hyperframes/commit/0d6bdd453bbcfae2280cf2b66f0b6b5afccc10ba">0d6bdd453bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5662">#5662</a>).</li>
+<li><strong>CLI:</strong> Skip runtime by-products when fingerprinting a skill bundle (<a href="https://github.com/heygen-com/hyperframes/commit/08ee1bd5ad59987a7f2525222683e24ca30971f9">08ee1bd5ad5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5654">#5654</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Re-run an edit accuracy shard on a fresh runner when its runner is too slow (<a href="https://github.com/heygen-com/hyperframes/commit/a403ea1e8b283c6bdcbe21b5cab2a2a50b5f35f3">a403ea1e8b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5659">#5659</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.162...v0.8.163">https://github.com/heygen-com/hyperframes/compare/v0.8.162...v0.8.163</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.163</h1>
+<p>Released on 2026-10-16.</p>
+<p>Website captures keep inline SVG logos whole, and timed SVG clips hide outside their window. Publishing now asks you to log in when it needs an account.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Judge text behind a transparent video by its decoded alpha in check (<a href="https://github.com/heygen-com/hyperframes/commit/cea8aa8a7dee9d669e47e4b488213008bbe305cd">cea8aa8a7de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5657">#5657</a>).</li>
+<li><strong>CLI:</strong> Render telemetry reports how busy the machine&#39;s CPU was (<a href="https://github.com/heygen-com/hyperframes/commit/0e9f380c2e2295db4b88945a77cfa81001ac5c27">0e9f380c2e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5646">#5646</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Ask to log in when publishing needs an account (<a href="https://github.com/heygen-com/hyperframes/commit/917ee5d31342f8c8a4a14659679762489cafe665">917ee5d3134</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5670">#5670</a>).</li>
+<li><strong>Core:</strong> Timed svg clips hide outside their window (<a href="https://github.com/heygen-com/hyperframes/commit/1ee6754f7106335cc5533f7205bd3b7949ddb887">1ee6754f710</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5661">#5661</a>).</li>
+<li><strong>CLI:</strong> Capture writes inline SVG logos whole and parakeet takes long audio (<a href="https://github.com/heygen-com/hyperframes/commit/0d6bdd453bbcfae2280cf2b66f0b6b5afccc10ba">0d6bdd453bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5662">#5662</a>).</li>
+<li><strong>CLI:</strong> Skip runtime by-products when fingerprinting a skill bundle (<a href="https://github.com/heygen-com/hyperframes/commit/08ee1bd5ad59987a7f2525222683e24ca30971f9">08ee1bd5ad5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5654">#5654</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> Re-run an edit accuracy shard on a fresh runner when its runner is too slow (<a href="https://github.com/heygen-com/hyperframes/commit/a403ea1e8b283c6bdcbe21b5cab2a2a50b5f35f3">a403ea1e8b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5659">#5659</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.162...v0.8.163">https://github.com/heygen-com/hyperframes/compare/v0.8.162...v0.8.163</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.162]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.162</link>
@@ -2331,50 +2381,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.113...v0.8.114">https://github.com/heygen-com/hyperframes/compare/v0.8.113...v0.8.114</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.113]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.113</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.113</guid>
-            <pubDate>Fri, 02 Oct 2026 19:19:57 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.113</h1>
-<p>Released on 2026-10-02.</p>
-<p>Exported videos no longer blink layers on animation steps, and an intro set at frame 0 still shows. CLI commands now reject stray extra words, and background previews keep the port you ask for.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Render GSAP set steps on the frame they land on (<a href="https://github.com/heygen-com/hyperframes/commit/02775c716fe7de72a7e384823373f9e7a8040c16">02775c716</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4911">#4911</a>).</li>
-<li><strong>CLI:</strong> Reject extra positional arguments on every command (<a href="https://github.com/heygen-com/hyperframes/commit/4178a8f95d3d3439ddde6b5d20a317ef01c97d61">4178a8f95</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4905">#4905</a>).</li>
-<li><strong>CLI:</strong> Honor an explicit --port for background preview reuse and launch (<a href="https://github.com/heygen-com/hyperframes/commit/fcc637068c1e22b48efcead0c1b41362fc2dc1af">fcc637068</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3915">#3915</a>).</li>
-<li><strong>Lint:</strong> Flag digit-leading ids used by toArray and ScrollTrigger selectors (<a href="https://github.com/heygen-com/hyperframes/commit/fc53908742066f8f1e3c4e37204181afd7117cd6">fc5390874</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4908">#4908</a>).</li>
-<li><strong>CLI:</strong> Hide console windows on Windows for background/detached spawns (<a href="https://github.com/heygen-com/hyperframes/commit/821e8c8ad03aa070b65a195443e9cf1926864d5a">821e8c8ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3996">#3996</a>).</li>
-<li><strong>CLI:</strong> Stop browser --force from deleting chrome under running renders (<a href="https://github.com/heygen-com/hyperframes/commit/f16e509832d4fa02bbc9a5f81b59ff78f9d466af">f16e50983</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4901">#4901</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Add 4 community components (<a href="https://github.com/heygen-com/hyperframes/commit/04acbb4d9eaac198421ba1ef007dc3ce6a72ef9c">04acbb4d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4906">#4906</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.112...v0.8.113">https://github.com/heygen-com/hyperframes/compare/v0.8.112...v0.8.113</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.113</h1>
-<p>Released on 2026-10-02.</p>
-<p>Exported videos no longer blink layers on animation steps, and an intro set at frame 0 still shows. CLI commands now reject stray extra words, and background previews keep the port you ask for.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Render GSAP set steps on the frame they land on (<a href="https://github.com/heygen-com/hyperframes/commit/02775c716fe7de72a7e384823373f9e7a8040c16">02775c716</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4911">#4911</a>).</li>
-<li><strong>CLI:</strong> Reject extra positional arguments on every command (<a href="https://github.com/heygen-com/hyperframes/commit/4178a8f95d3d3439ddde6b5d20a317ef01c97d61">4178a8f95</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4905">#4905</a>).</li>
-<li><strong>CLI:</strong> Honor an explicit --port for background preview reuse and launch (<a href="https://github.com/heygen-com/hyperframes/commit/fcc637068c1e22b48efcead0c1b41362fc2dc1af">fcc637068</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3915">#3915</a>).</li>
-<li><strong>Lint:</strong> Flag digit-leading ids used by toArray and ScrollTrigger selectors (<a href="https://github.com/heygen-com/hyperframes/commit/fc53908742066f8f1e3c4e37204181afd7117cd6">fc5390874</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4908">#4908</a>).</li>
-<li><strong>CLI:</strong> Hide console windows on Windows for background/detached spawns (<a href="https://github.com/heygen-com/hyperframes/commit/821e8c8ad03aa070b65a195443e9cf1926864d5a">821e8c8ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3996">#3996</a>).</li>
-<li><strong>CLI:</strong> Stop browser --force from deleting chrome under running renders (<a href="https://github.com/heygen-com/hyperframes/commit/f16e509832d4fa02bbc9a5f81b59ff78f9d466af">f16e50983</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4901">#4901</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Add 4 community components (<a href="https://github.com/heygen-com/hyperframes/commit/04acbb4d9eaac198421ba1ef007dc3ce6a72ef9c">04acbb4d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4906">#4906</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.112...v0.8.113">https://github.com/heygen-com/hyperframes/compare/v0.8.112...v0.8.113</a></p>
 ]]></content:encoded>
         </item>
     </channel>
