@@ -4,11 +4,41 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 16 Oct 2026 02:18:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Oct 2026 09:04:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.164]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.164</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.164</guid>
+            <pubDate>Fri, 16 Oct 2026 09:04:50 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.164</h1>
+<p>Released on 2026-10-16.</p>
+<p>Website capture only connects to public addresses, including after a redirect. Audio tracks keep the mix order you wrote, and ffmpeg failures keep the line that explains why.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Pin website capture connections to public peers (<a href="https://github.com/heygen-com/hyperframes/commit/8be76fc86cda5b2a77d0ee23b65f582e85376042">8be76fc86cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5668">#5668</a>).</li>
+<li><strong>Producer:</strong> An ffmpeg failure names how ffmpeg ended and keeps its last line (<a href="https://github.com/heygen-com/hyperframes/commit/c03532b285b00ce2e82900bc80a10cd1fb4c470b">c03532b285b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5678">#5678</a>).</li>
+<li><strong>Engine:</strong> Preserve authored audio mix order (<a href="https://github.com/heygen-com/hyperframes/commit/8e17ee9300f0142d7c01f5a670c5ed3950ceed1e">8e17ee9300f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5672">#5672</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.163...v0.8.164">https://github.com/heygen-com/hyperframes/compare/v0.8.163...v0.8.164</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.164</h1>
+<p>Released on 2026-10-16.</p>
+<p>Website capture only connects to public addresses, including after a redirect. Audio tracks keep the mix order you wrote, and ffmpeg failures keep the line that explains why.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Pin website capture connections to public peers (<a href="https://github.com/heygen-com/hyperframes/commit/8be76fc86cda5b2a77d0ee23b65f582e85376042">8be76fc86cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5668">#5668</a>).</li>
+<li><strong>Producer:</strong> An ffmpeg failure names how ffmpeg ended and keeps its last line (<a href="https://github.com/heygen-com/hyperframes/commit/c03532b285b00ce2e82900bc80a10cd1fb4c470b">c03532b285b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5678">#5678</a>).</li>
+<li><strong>Engine:</strong> Preserve authored audio mix order (<a href="https://github.com/heygen-com/hyperframes/commit/8e17ee9300f0142d7c01f5a670c5ed3950ceed1e">8e17ee9300f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5672">#5672</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.163...v0.8.164">https://github.com/heygen-com/hyperframes/compare/v0.8.163...v0.8.164</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.163]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.163</link>
@@ -2329,58 +2359,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.114...v0.8.115">https://github.com/heygen-com/hyperframes/compare/v0.8.114...v0.8.115</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.114]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.114</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.114</guid>
-            <pubDate>Sat, 03 Oct 2026 00:18:57 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.114</h1>
-<p>Released on 2026-10-02.</p>
-<p>Renaming a file in Studio now rewrites only the references that point at it, and keyframe edits no longer copy other animations&#39; values. Manual edits also stay under 8 ms per frame, and Studio reads modern CSS colors.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> A rename rewrites only references that name the renamed path (<a href="https://github.com/heygen-com/hyperframes/commit/1168bb740d336f366849c91308a3c2bbb850c570">1168bb740d33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4915">#4915</a>).</li>
-<li><strong>Studio:</strong> Parse modern CSS colors without a new dependency (<a href="https://github.com/heygen-com/hyperframes/commit/5c52f72399e21f8dcf3ede2bf2d24978c6522a94">5c52f72399e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3931">#3931</a>).</li>
-<li><strong>Studio:</strong> Keep a keyframe edit from copying other tweens&#39; channels (<a href="https://github.com/heygen-com/hyperframes/commit/dc9c38efd8f6eadefb654d73f55e6e8671a1c8f4">dc9c38efd8f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4918">#4918</a>).</li>
-<li><strong>CLI:</strong> Select containing source frames in snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/0d3d423200153fa96d82ca5bc5b91565b87e5f29">0d3d42320015</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4809">#4809</a>).</li>
-<li><strong>Studio:</strong> One GSAP-writes check that sees every keyframe form (<a href="https://github.com/heygen-com/hyperframes/commit/00b61b8b7611f68e3c52f29314015b00cd241bf6">00b61b8b7611</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4781">#4781</a>).</li>
-<li><strong>CLI:</strong> A background preview launch keeps only the server its own child started (<a href="https://github.com/heygen-com/hyperframes/commit/fd2f90c7d81d4c2a57848bb21e225cbccc66ec4f">fd2f90c7d81d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4914">#4914</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Manual edits stay under 8 ms per frame (<a href="https://github.com/heygen-com/hyperframes/commit/438ea9d59fd5c1e720cc55311150dd3b25fab3db">438ea9d59fd5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4898">#4898</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Give the real-Chrome undo test a time budget Windows can meet (<a href="https://github.com/heygen-com/hyperframes/commit/d5b56426c2a65eddce404e74b04992fff2c2b87d">d5b56426c2a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4912">#4912</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.113...v0.8.114">https://github.com/heygen-com/hyperframes/compare/v0.8.113...v0.8.114</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.114</h1>
-<p>Released on 2026-10-02.</p>
-<p>Renaming a file in Studio now rewrites only the references that point at it, and keyframe edits no longer copy other animations&#39; values. Manual edits also stay under 8 ms per frame, and Studio reads modern CSS colors.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> A rename rewrites only references that name the renamed path (<a href="https://github.com/heygen-com/hyperframes/commit/1168bb740d336f366849c91308a3c2bbb850c570">1168bb740d33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4915">#4915</a>).</li>
-<li><strong>Studio:</strong> Parse modern CSS colors without a new dependency (<a href="https://github.com/heygen-com/hyperframes/commit/5c52f72399e21f8dcf3ede2bf2d24978c6522a94">5c52f72399e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3931">#3931</a>).</li>
-<li><strong>Studio:</strong> Keep a keyframe edit from copying other tweens&#39; channels (<a href="https://github.com/heygen-com/hyperframes/commit/dc9c38efd8f6eadefb654d73f55e6e8671a1c8f4">dc9c38efd8f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4918">#4918</a>).</li>
-<li><strong>CLI:</strong> Select containing source frames in snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/0d3d423200153fa96d82ca5bc5b91565b87e5f29">0d3d42320015</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4809">#4809</a>).</li>
-<li><strong>Studio:</strong> One GSAP-writes check that sees every keyframe form (<a href="https://github.com/heygen-com/hyperframes/commit/00b61b8b7611f68e3c52f29314015b00cd241bf6">00b61b8b7611</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4781">#4781</a>).</li>
-<li><strong>CLI:</strong> A background preview launch keeps only the server its own child started (<a href="https://github.com/heygen-com/hyperframes/commit/fd2f90c7d81d4c2a57848bb21e225cbccc66ec4f">fd2f90c7d81d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4914">#4914</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Manual edits stay under 8 ms per frame (<a href="https://github.com/heygen-com/hyperframes/commit/438ea9d59fd5c1e720cc55311150dd3b25fab3db">438ea9d59fd5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4898">#4898</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Give the real-Chrome undo test a time budget Windows can meet (<a href="https://github.com/heygen-com/hyperframes/commit/d5b56426c2a65eddce404e74b04992fff2c2b87d">d5b56426c2a6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4912">#4912</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.113...v0.8.114">https://github.com/heygen-com/hyperframes/compare/v0.8.113...v0.8.114</a></p>
 ]]></content:encoded>
         </item>
     </channel>
