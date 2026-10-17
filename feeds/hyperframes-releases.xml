@@ -4,11 +4,83 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 17 Oct 2026 01:11:04 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Oct 2026 10:22:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.168]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.168</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.168</guid>
+            <pubDate>Sat, 17 Oct 2026 10:22:29 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.168</h1>
+<p>Released on 2026-10-17.</p>
+<p>Scrubbing back across a scene in the preview now shows its content instead of an empty frame. Cloud renders size their chunks to the worker limit and assemble in one pass, so long videos finish faster.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> Distributed renders accept 25 fps (<a href="https://github.com/heygen-com/hyperframes/commit/cc9e1bb33a430b878af6dcb257ce5c9a70f9f180">cc9e1bb33a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5423">#5423</a>).</li>
+<li><strong>Producer:</strong> Render at 720p and 480p from a larger composition (<a href="https://github.com/heygen-com/hyperframes/commit/09c0307c3fd0318a7ea77e6b41df4e5d30a1902b">09c0307c3fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5724">#5724</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Scrubbing back across a scene no longer leaves its content hidden (<a href="https://github.com/heygen-com/hyperframes/commit/4cf0e3a0e599c73a9a96efcee8f62099323a08cf">4cf0e3a0e59</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5766">#5766</a>).</li>
+<li><strong>Engine:</strong> Local renders lay out width-only videos like the browser (<a href="https://github.com/heygen-com/hyperframes/commit/fc41fa277a5649eb4879b524192dd6bee39d7465">fc41fa277a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5771">#5771</a>).</li>
+<li><strong>CLI:</strong> A browser a sandbox refuses says to rerun the command with escalation (<a href="https://github.com/heygen-com/hyperframes/commit/fa9366915620ea9baa1d03b0eb44caaca013dc21">fa936691562</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5734">#5734</a>).</li>
+<li><strong>CLI:</strong> Check&#39;s dense overlap pass takes at most 240 samples, at clip windows first (<a href="https://github.com/heygen-com/hyperframes/commit/caea3863b075f5f79d1c77dd084d05ea05aa0529">caea3863b07</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5764">#5764</a>).</li>
+<li><strong>Lint:</strong> Stop flagging dir on <html>; a render test now guards RTL export (<a href="https://github.com/heygen-com/hyperframes/commit/e6ce73379620fb2abf73e0ab681e85fd7f938725">e6ce7337962</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5744">#5744</a>).</li>
+<li><strong>Skills:</strong> Regenerate manifest after HyperFrames guidance update (<a href="https://github.com/heygen-com/hyperframes/commit/40c64255e8c0a3d11a0d6e8229b7a88877c84401">40c64255e8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5747">#5747</a>).</li>
+<li><strong>CLI:</strong> Honour HYPERFRAMES_SKIP_SKILLS in skills update and bare skills (<a href="https://github.com/heygen-com/hyperframes/commit/6dba67a0c3a0a51247ab85bbc245f1cf3effa0dc">6dba67a0c3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5743">#5743</a>).</li>
+<li><strong>CLI:</strong> Timeline lists clips nested in a timed element and lint flags ones that never show (<a href="https://github.com/heygen-com/hyperframes/commit/eab6ca15b1af7ec7bca0bbeb4cd0330e677467a5">eab6ca15b1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5732">#5732</a>).</li>
+<li><strong>Engine:</strong> A WebGPU block mounted as a sub-composition gets WebGPU like a root one (<a href="https://github.com/heygen-com/hyperframes/commit/4e6ee6d2300290b638042ec88ef5afb7a0c27408">4e6ee6d2300</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5735">#5735</a>).</li>
+<li><strong>Core:</strong> A composition mounted twice keeps each mount&#39;s own timeline (<a href="https://github.com/heygen-com/hyperframes/commit/c38e9f350b4dbe6b09a6a35d5db0d437b9464220">c38e9f350b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5729">#5729</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> Assemble in one pass and keep its disk use under one output copy (<a href="https://github.com/heygen-com/hyperframes/commit/a498cf2032c6b22492dedb475ad6196a8d6c6797">a498cf2032c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5768">#5768</a>).</li>
+<li><strong>Producer:</strong> Size distributed chunks to the worker limit and concurrency (<a href="https://github.com/heygen-com/hyperframes/commit/c69fd2c6ecadedff88cdc09d37854a658bffb733">c69fd2c6eca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5765">#5765</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> One owner for the distributed fps set (<a href="https://github.com/heygen-com/hyperframes/commit/d5162beb50a402a69423df106647347bd0f8763e">d5162beb50a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5756">#5756</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.167...v0.8.168">https://github.com/heygen-com/hyperframes/compare/v0.8.167...v0.8.168</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.168</h1>
+<p>Released on 2026-10-17.</p>
+<p>Scrubbing back across a scene in the preview now shows its content instead of an empty frame. Cloud renders size their chunks to the worker limit and assemble in one pass, so long videos finish faster.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> Distributed renders accept 25 fps (<a href="https://github.com/heygen-com/hyperframes/commit/cc9e1bb33a430b878af6dcb257ce5c9a70f9f180">cc9e1bb33a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5423">#5423</a>).</li>
+<li><strong>Producer:</strong> Render at 720p and 480p from a larger composition (<a href="https://github.com/heygen-com/hyperframes/commit/09c0307c3fd0318a7ea77e6b41df4e5d30a1902b">09c0307c3fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5724">#5724</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Scrubbing back across a scene no longer leaves its content hidden (<a href="https://github.com/heygen-com/hyperframes/commit/4cf0e3a0e599c73a9a96efcee8f62099323a08cf">4cf0e3a0e59</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5766">#5766</a>).</li>
+<li><strong>Engine:</strong> Local renders lay out width-only videos like the browser (<a href="https://github.com/heygen-com/hyperframes/commit/fc41fa277a5649eb4879b524192dd6bee39d7465">fc41fa277a5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5771">#5771</a>).</li>
+<li><strong>CLI:</strong> A browser a sandbox refuses says to rerun the command with escalation (<a href="https://github.com/heygen-com/hyperframes/commit/fa9366915620ea9baa1d03b0eb44caaca013dc21">fa936691562</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5734">#5734</a>).</li>
+<li><strong>CLI:</strong> Check&#39;s dense overlap pass takes at most 240 samples, at clip windows first (<a href="https://github.com/heygen-com/hyperframes/commit/caea3863b075f5f79d1c77dd084d05ea05aa0529">caea3863b07</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5764">#5764</a>).</li>
+<li><strong>Lint:</strong> Stop flagging dir on <html>; a render test now guards RTL export (<a href="https://github.com/heygen-com/hyperframes/commit/e6ce73379620fb2abf73e0ab681e85fd7f938725">e6ce7337962</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5744">#5744</a>).</li>
+<li><strong>Skills:</strong> Regenerate manifest after HyperFrames guidance update (<a href="https://github.com/heygen-com/hyperframes/commit/40c64255e8c0a3d11a0d6e8229b7a88877c84401">40c64255e8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5747">#5747</a>).</li>
+<li><strong>CLI:</strong> Honour HYPERFRAMES_SKIP_SKILLS in skills update and bare skills (<a href="https://github.com/heygen-com/hyperframes/commit/6dba67a0c3a0a51247ab85bbc245f1cf3effa0dc">6dba67a0c3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5743">#5743</a>).</li>
+<li><strong>CLI:</strong> Timeline lists clips nested in a timed element and lint flags ones that never show (<a href="https://github.com/heygen-com/hyperframes/commit/eab6ca15b1af7ec7bca0bbeb4cd0330e677467a5">eab6ca15b1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5732">#5732</a>).</li>
+<li><strong>Engine:</strong> A WebGPU block mounted as a sub-composition gets WebGPU like a root one (<a href="https://github.com/heygen-com/hyperframes/commit/4e6ee6d2300290b638042ec88ef5afb7a0c27408">4e6ee6d2300</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5735">#5735</a>).</li>
+<li><strong>Core:</strong> A composition mounted twice keeps each mount&#39;s own timeline (<a href="https://github.com/heygen-com/hyperframes/commit/c38e9f350b4dbe6b09a6a35d5db0d437b9464220">c38e9f350b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5729">#5729</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> Assemble in one pass and keep its disk use under one output copy (<a href="https://github.com/heygen-com/hyperframes/commit/a498cf2032c6b22492dedb475ad6196a8d6c6797">a498cf2032c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5768">#5768</a>).</li>
+<li><strong>Producer:</strong> Size distributed chunks to the worker limit and concurrency (<a href="https://github.com/heygen-com/hyperframes/commit/c69fd2c6ecadedff88cdc09d37854a658bffb733">c69fd2c6eca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5765">#5765</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Core:</strong> One owner for the distributed fps set (<a href="https://github.com/heygen-com/hyperframes/commit/d5162beb50a402a69423df106647347bd0f8763e">d5162beb50a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5756">#5756</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.167...v0.8.168">https://github.com/heygen-com/hyperframes/compare/v0.8.167...v0.8.168</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.167]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.167</link>
@@ -2247,48 +2319,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119">https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.118]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.118</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.118</guid>
-            <pubDate>Sun, 04 Oct 2026 04:03:50 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.118</h1>
-<p>Released on 2026-10-04.</p>
-<p>Eight ad templates now play a video preview in the catalog. Studio uses one gsap source everywhere, so motion paths line up with your composition.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> A host can put its own controls before the timeline&#39;s thumbnails toggle (<a href="https://github.com/heygen-com/hyperframes/commit/239ea1aecd8ae6e67e0e7958e33c217410c86549">239ea1aecd8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4973">#4973</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> One owner for gsap CDN URLs, so MotionPathPlugin matches the composition&#39;s gsap (<a href="https://github.com/heygen-com/hyperframes/commit/cd1a34ceca7fd8f31f827dce61d16aa722118534">cd1a34ceca7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4976">#4976</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Eight ad templates show their video preview in the catalog (<a href="https://github.com/heygen-com/hyperframes/commit/d2398d686a7fa45b7789e8ad273e64610607b062">d2398d686a7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4979">#4979</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118">https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.118</h1>
-<p>Released on 2026-10-04.</p>
-<p>Eight ad templates now play a video preview in the catalog. Studio uses one gsap source everywhere, so motion paths line up with your composition.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> A host can put its own controls before the timeline&#39;s thumbnails toggle (<a href="https://github.com/heygen-com/hyperframes/commit/239ea1aecd8ae6e67e0e7958e33c217410c86549">239ea1aecd8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4973">#4973</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> One owner for gsap CDN URLs, so MotionPathPlugin matches the composition&#39;s gsap (<a href="https://github.com/heygen-com/hyperframes/commit/cd1a34ceca7fd8f31f827dce61d16aa722118534">cd1a34ceca7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4976">#4976</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Registry:</strong> Eight ad templates show their video preview in the catalog (<a href="https://github.com/heygen-com/hyperframes/commit/d2398d686a7fa45b7789e8ad273e64610607b062">d2398d686a7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4979">#4979</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118">https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118</a></p>
 ]]></content:encoded>
         </item>
     </channel>
