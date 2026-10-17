@@ -4,11 +4,61 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 16 Oct 2026 18:43:17 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Oct 2026 01:11:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.167]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.167</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.167</guid>
+            <pubDate>Sat, 17 Oct 2026 01:11:04 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.167</h1>
+<p>Released on 2026-10-16.</p>
+<p>Long projects preview more smoothly: the preview&#39;s work now follows what is playing, not the total clip count. Bundling a project also stops freezing the app that runs it.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Bundling a project no longer blocks the host&#39;s thread on esbuild (<a href="https://github.com/heygen-com/hyperframes/commit/b1cf6e3c517e227d1dca1b212e7637c19e502a64">b1cf6e3c517</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5714">#5714</a>).</li>
+<li><strong>CLI:</strong> Page loads stop timing out while a busy machine&#39;s Chrome warms up (<a href="https://github.com/heygen-com/hyperframes/commit/41486b9725ab2aae4f457d75dcd625931d103bb3">41486b9725a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5705">#5705</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> Hold a clip at 0 inside a later scene until it is due (<a href="https://github.com/heygen-com/hyperframes/commit/13ea8349597bbcb874402d1771aea65766fd7ffc">13ea8349597</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5716">#5716</a>).</li>
+<li><strong>Core:</strong> A preview&#39;s composition scripts give the page a turn every 50 ms, not one long task (<a href="https://github.com/heygen-com/hyperframes/commit/12d8df37f4db8ccf019da32c97cc1352f8db9652">12d8df37f4d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5713">#5713</a>).</li>
+<li><strong>Lint:</strong> Strip stylesheet comments once per canvas zoom scan (<a href="https://github.com/heygen-com/hyperframes/commit/0bff8342c389c1841d3b8d858168700f13627e48">0bff8342c38</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5712">#5712</a>).</li>
+<li><strong>Core:</strong> Preview runtime scales with what plays, not with the film&#39;s clip count (<a href="https://github.com/heygen-com/hyperframes/commit/d05bc4215d5757da86956217f4a8a4b2ab11b1fd">d05bc4215d5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5674">#5674</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Caption image test checks the close itself, not a reusable file number (<a href="https://github.com/heygen-com/hyperframes/commit/eace3d28b6cb721ec1f9a96d7d2ea76bf215551a">eace3d28b6c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5707">#5707</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.166...v0.8.167">https://github.com/heygen-com/hyperframes/compare/v0.8.166...v0.8.167</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.167</h1>
+<p>Released on 2026-10-16.</p>
+<p>Long projects preview more smoothly: the preview&#39;s work now follows what is playing, not the total clip count. Bundling a project also stops freezing the app that runs it.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Bundling a project no longer blocks the host&#39;s thread on esbuild (<a href="https://github.com/heygen-com/hyperframes/commit/b1cf6e3c517e227d1dca1b212e7637c19e502a64">b1cf6e3c517</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5714">#5714</a>).</li>
+<li><strong>CLI:</strong> Page loads stop timing out while a busy machine&#39;s Chrome warms up (<a href="https://github.com/heygen-com/hyperframes/commit/41486b9725ab2aae4f457d75dcd625931d103bb3">41486b9725a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5705">#5705</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> Hold a clip at 0 inside a later scene until it is due (<a href="https://github.com/heygen-com/hyperframes/commit/13ea8349597bbcb874402d1771aea65766fd7ffc">13ea8349597</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5716">#5716</a>).</li>
+<li><strong>Core:</strong> A preview&#39;s composition scripts give the page a turn every 50 ms, not one long task (<a href="https://github.com/heygen-com/hyperframes/commit/12d8df37f4db8ccf019da32c97cc1352f8db9652">12d8df37f4d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5713">#5713</a>).</li>
+<li><strong>Lint:</strong> Strip stylesheet comments once per canvas zoom scan (<a href="https://github.com/heygen-com/hyperframes/commit/0bff8342c389c1841d3b8d858168700f13627e48">0bff8342c38</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5712">#5712</a>).</li>
+<li><strong>Core:</strong> Preview runtime scales with what plays, not with the film&#39;s clip count (<a href="https://github.com/heygen-com/hyperframes/commit/d05bc4215d5757da86956217f4a8a4b2ab11b1fd">d05bc4215d5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5674">#5674</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Caption image test checks the close itself, not a reusable file number (<a href="https://github.com/heygen-com/hyperframes/commit/eace3d28b6cb721ec1f9a96d7d2ea76bf215551a">eace3d28b6c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5707">#5707</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.166...v0.8.167">https://github.com/heygen-com/hyperframes/compare/v0.8.166...v0.8.167</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.166]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.166</link>
@@ -2239,64 +2289,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118">https://github.com/heygen-com/hyperframes/compare/v0.8.117...v0.8.118</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.117]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.117</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.117</guid>
-            <pubDate>Sun, 04 Oct 2026 00:35:34 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.117</h1>
-<p>Released on 2026-10-04.</p>
-<p>Edits in Studio now stay where you put them: resizes, rotations, undo and drops on animated layers all save and redraw correctly. A render with a broken video frame now fails loudly instead of hiding a blank frame.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Undoing a freeze frame removes the still it made (<a href="https://github.com/heygen-com/hyperframes/commit/237a984bb8d97f8dff7a5464c78851d633747f54">237a984bb8d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4971">#4971</a>).</li>
-<li><strong>Engine:</strong> Fail the render when an injected video frame cannot decode (<a href="https://github.com/heygen-com/hyperframes/commit/8e457d4224c513a8cdcb11b7d63aa204f5af7e0c">8e457d4224c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4974">#4974</a>).</li>
-<li><strong>Parsers:</strong> A keyframe edit no longer overrides an earlier tween at the start (<a href="https://github.com/heygen-com/hyperframes/commit/b71aa9338be16edd77ac78392dc95045ac1b4f70">b71aa9338be1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4935">#4935</a>).</li>
-<li><strong>Studio:</strong> A rotation saves through its press route; a host hook reloads only the host&#39;s way (<a href="https://github.com/heygen-com/hyperframes/commit/9106772593648367ef5a595171f6cfe570ef99d5">910677259364</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4961">#4961</a>).</li>
-<li><strong>Skills:</strong> Load shared creative guides for motion graphics (<a href="https://github.com/heygen-com/hyperframes/commit/9031a02cb53d6c1eff7b4ed83b81ed4ee2325508">9031a02cb53d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4970">#4970</a>).</li>
-<li><strong>Studio:</strong> An undo or drop on an animated layer keeps it where it was (<a href="https://github.com/heygen-com/hyperframes/commit/2cfbe3d2570cee5a7499323c9e9c2cadaa160bb2">2cfbe3d2570c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4934">#4934</a>).</li>
-<li><strong>Studio:</strong> A resize saves through the route its press chose, as a move does (<a href="https://github.com/heygen-com/hyperframes/commit/e27cae02619037cc01299fe86877ade974c1b3bb">e27cae026190</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4943">#4943</a>).</li>
-<li><strong>Studio:</strong> The preview reloads when any write a commit saved is not patched on screen (<a href="https://github.com/heygen-com/hyperframes/commit/da17c03c051286f06ac3ed6c495ca6b3c25f86ea">da17c03c0512</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4920">#4920</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Core:</strong> A paused Studio drag lets the preview loop sleep until the drag ends (<a href="https://github.com/heygen-com/hyperframes/commit/96bc879b5bba459e366c65e84e73973beb9d37a9">96bc879b5bba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4938">#4938</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Serve the edit bench GSAP from the repo, never the network (<a href="https://github.com/heygen-com/hyperframes/commit/2f14008b3cc20562390682e98646b4e48535f3c7">2f14008b3cc2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4968">#4968</a>).</li>
-<li><strong>Studio:</strong> Pin what the one DOM edit writer saves, records and reloads (<a href="https://github.com/heygen-com/hyperframes/commit/248ee7c00a27d2dcce83aac366d24ffb9206a939">248ee7c00a27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4947">#4947</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.116...v0.8.117">https://github.com/heygen-com/hyperframes/compare/v0.8.116...v0.8.117</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.117</h1>
-<p>Released on 2026-10-04.</p>
-<p>Edits in Studio now stay where you put them: resizes, rotations, undo and drops on animated layers all save and redraw correctly. A render with a broken video frame now fails loudly instead of hiding a blank frame.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Undoing a freeze frame removes the still it made (<a href="https://github.com/heygen-com/hyperframes/commit/237a984bb8d97f8dff7a5464c78851d633747f54">237a984bb8d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4971">#4971</a>).</li>
-<li><strong>Engine:</strong> Fail the render when an injected video frame cannot decode (<a href="https://github.com/heygen-com/hyperframes/commit/8e457d4224c513a8cdcb11b7d63aa204f5af7e0c">8e457d4224c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4974">#4974</a>).</li>
-<li><strong>Parsers:</strong> A keyframe edit no longer overrides an earlier tween at the start (<a href="https://github.com/heygen-com/hyperframes/commit/b71aa9338be16edd77ac78392dc95045ac1b4f70">b71aa9338be1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4935">#4935</a>).</li>
-<li><strong>Studio:</strong> A rotation saves through its press route; a host hook reloads only the host&#39;s way (<a href="https://github.com/heygen-com/hyperframes/commit/9106772593648367ef5a595171f6cfe570ef99d5">910677259364</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4961">#4961</a>).</li>
-<li><strong>Skills:</strong> Load shared creative guides for motion graphics (<a href="https://github.com/heygen-com/hyperframes/commit/9031a02cb53d6c1eff7b4ed83b81ed4ee2325508">9031a02cb53d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4970">#4970</a>).</li>
-<li><strong>Studio:</strong> An undo or drop on an animated layer keeps it where it was (<a href="https://github.com/heygen-com/hyperframes/commit/2cfbe3d2570cee5a7499323c9e9c2cadaa160bb2">2cfbe3d2570c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4934">#4934</a>).</li>
-<li><strong>Studio:</strong> A resize saves through the route its press chose, as a move does (<a href="https://github.com/heygen-com/hyperframes/commit/e27cae02619037cc01299fe86877ade974c1b3bb">e27cae026190</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4943">#4943</a>).</li>
-<li><strong>Studio:</strong> The preview reloads when any write a commit saved is not patched on screen (<a href="https://github.com/heygen-com/hyperframes/commit/da17c03c051286f06ac3ed6c495ca6b3c25f86ea">da17c03c0512</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4920">#4920</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Core:</strong> A paused Studio drag lets the preview loop sleep until the drag ends (<a href="https://github.com/heygen-com/hyperframes/commit/96bc879b5bba459e366c65e84e73973beb9d37a9">96bc879b5bba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4938">#4938</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Serve the edit bench GSAP from the repo, never the network (<a href="https://github.com/heygen-com/hyperframes/commit/2f14008b3cc20562390682e98646b4e48535f3c7">2f14008b3cc2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4968">#4968</a>).</li>
-<li><strong>Studio:</strong> Pin what the one DOM edit writer saves, records and reloads (<a href="https://github.com/heygen-com/hyperframes/commit/248ee7c00a27d2dcce83aac366d24ffb9206a939">248ee7c00a27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4947">#4947</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.116...v0.8.117">https://github.com/heygen-com/hyperframes/compare/v0.8.116...v0.8.117</a></p>
 ]]></content:encoded>
         </item>
     </channel>
