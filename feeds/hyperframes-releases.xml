@@ -4,11 +4,47 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 17 Oct 2026 10:22:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 17 Oct 2026 17:22:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.169]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.169</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.169</guid>
+            <pubDate>Sat, 17 Oct 2026 17:22:31 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.169</h1>
+<p>Released on 2026-10-17.</p>
+<p>Rendering from inside an agent&#39;s macOS sandbox now works, because Chrome starts as one process instead of several that the sandbox blocks.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Chrome starts inside an agent&#39;s macOS sandbox as one process over a pipe (<a href="https://github.com/heygen-com/hyperframes/commit/5e7ba0be944b076d514fc082c25a0b7e35eeb42f">5e7ba0be944</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5781">#5781</a>).</li>
+<li><strong>Gcp Cloud Run:</strong> The BeginFrame contract image resolves the engine&#39;s core import (<a href="https://github.com/heygen-com/hyperframes/commit/b18b3e958aa199529fa5fa06728e81b97d520021">b18b3e958aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5785">#5785</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The edit accuracy bench starts one server when node is a Volta shim (<a href="https://github.com/heygen-com/hyperframes/commit/c71513997694f6f56e230d768b6f5c9ed7a73fab">c7151399769</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5779">#5779</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.168...v0.8.169">https://github.com/heygen-com/hyperframes/compare/v0.8.168...v0.8.169</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.169</h1>
+<p>Released on 2026-10-17.</p>
+<p>Rendering from inside an agent&#39;s macOS sandbox now works, because Chrome starts as one process instead of several that the sandbox blocks.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Chrome starts inside an agent&#39;s macOS sandbox as one process over a pipe (<a href="https://github.com/heygen-com/hyperframes/commit/5e7ba0be944b076d514fc082c25a0b7e35eeb42f">5e7ba0be944</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5781">#5781</a>).</li>
+<li><strong>Gcp Cloud Run:</strong> The BeginFrame contract image resolves the engine&#39;s core import (<a href="https://github.com/heygen-com/hyperframes/commit/b18b3e958aa199529fa5fa06728e81b97d520021">b18b3e958aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5785">#5785</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The edit accuracy bench starts one server when node is a Volta shim (<a href="https://github.com/heygen-com/hyperframes/commit/c71513997694f6f56e230d768b6f5c9ed7a73fab">c7151399769</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5779">#5779</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.168...v0.8.169">https://github.com/heygen-com/hyperframes/compare/v0.8.168...v0.8.169</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.168]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.168</link>
@@ -2291,34 +2327,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.119...v0.8.120">https://github.com/heygen-com/hyperframes/compare/v0.8.119...v0.8.120</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.119]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.119</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.119</guid>
-            <pubDate>Sun, 04 Oct 2026 05:01:31 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.119</h1>
-<p>Released on 2026-10-04.</p>
-<p>Undoing a freeze frame now removes its still even when extraction is slow. A GSAP call on the playhead fires once when the preview redraws.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Freeze still appears whole, so a slow extraction cannot break its undo (<a href="https://github.com/heygen-com/hyperframes/commit/4e118824b301cd18b773c28864c2f36ca642ff34">4e118824b301</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4982">#4982</a>).</li>
-<li><strong>Core:</strong> A call on the playhead fires once when the preview redraws it (<a href="https://github.com/heygen-com/hyperframes/commit/a8dcdd109a883f43cadaae26bc1b626335d94ec8">a8dcdd109a88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4981">#4981</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119">https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.119</h1>
-<p>Released on 2026-10-04.</p>
-<p>Undoing a freeze frame now removes its still even when extraction is slow. A GSAP call on the playhead fires once when the preview redraws.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Freeze still appears whole, so a slow extraction cannot break its undo (<a href="https://github.com/heygen-com/hyperframes/commit/4e118824b301cd18b773c28864c2f36ca642ff34">4e118824b301</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4982">#4982</a>).</li>
-<li><strong>Core:</strong> A call on the playhead fires once when the preview redraws it (<a href="https://github.com/heygen-com/hyperframes/commit/a8dcdd109a883f43cadaae26bc1b626335d94ec8">a8dcdd109a88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4981">#4981</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119">https://github.com/heygen-com/hyperframes/compare/v0.8.118...v0.8.119</a></p>
 ]]></content:encoded>
         </item>
     </channel>
