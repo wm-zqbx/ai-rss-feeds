@@ -4,11 +4,51 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 18 Oct 2026 05:52:20 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Oct 2026 13:58:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.171]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.171</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.171</guid>
+            <pubDate>Sun, 18 Oct 2026 13:58:21 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.171</h1>
+<p>Released on 2026-10-18.</p>
+<p>Check no longer hangs inside an agent&#39;s macOS sandbox and finishes on Three.js scenes. Catalog search also stays fast on slow connections.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Check never hangs inside an agent&#39;s macOS sandbox (<a href="https://github.com/heygen-com/hyperframes/commit/834e90a779ee3b558cbcfef277e0ddb0fca02338">834e90a779e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5836">#5836</a>).</li>
+<li><strong>CLI:</strong> Check skips WebGL draws on its box-only seeks so Three.js scenes finish (<a href="https://github.com/heygen-com/hyperframes/commit/e9181d02f5f446999528f6034733f416397cb6b1">e9181d02f5f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5825">#5825</a>).</li>
+<li><strong>Studio Server:</strong> Send Studio&#39;s history edits to the process that owns the project&#39;s history (<a href="https://github.com/heygen-com/hyperframes/commit/cadd7af2b55273b478cad492ced88c4563176d1d">cadd7af2b55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5826">#5826</a>).</li>
+<li><strong>Studio:</strong> Keep a preview reload waiting while a slow project boots (<a href="https://github.com/heygen-com/hyperframes/commit/2b9009ab520a31fa7f23cbad44583733a6602abc">2b9009ab520</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5823">#5823</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Catalog loads registry items a few at a time so a slow link no longer times them out (<a href="https://github.com/heygen-com/hyperframes/commit/95a686c23d794ebd6af9eef713472f1cf3f6821a">95a686c23d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5829">#5829</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.170...v0.8.171">https://github.com/heygen-com/hyperframes/compare/v0.8.170...v0.8.171</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.171</h1>
+<p>Released on 2026-10-18.</p>
+<p>Check no longer hangs inside an agent&#39;s macOS sandbox and finishes on Three.js scenes. Catalog search also stays fast on slow connections.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Check never hangs inside an agent&#39;s macOS sandbox (<a href="https://github.com/heygen-com/hyperframes/commit/834e90a779ee3b558cbcfef277e0ddb0fca02338">834e90a779e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5836">#5836</a>).</li>
+<li><strong>CLI:</strong> Check skips WebGL draws on its box-only seeks so Three.js scenes finish (<a href="https://github.com/heygen-com/hyperframes/commit/e9181d02f5f446999528f6034733f416397cb6b1">e9181d02f5f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5825">#5825</a>).</li>
+<li><strong>Studio Server:</strong> Send Studio&#39;s history edits to the process that owns the project&#39;s history (<a href="https://github.com/heygen-com/hyperframes/commit/cadd7af2b55273b478cad492ced88c4563176d1d">cadd7af2b55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5826">#5826</a>).</li>
+<li><strong>Studio:</strong> Keep a preview reload waiting while a slow project boots (<a href="https://github.com/heygen-com/hyperframes/commit/2b9009ab520a31fa7f23cbad44583733a6602abc">2b9009ab520</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5823">#5823</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Catalog loads registry items a few at a time so a slow link no longer times them out (<a href="https://github.com/heygen-com/hyperframes/commit/95a686c23d794ebd6af9eef713472f1cf3f6821a">95a686c23d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5829">#5829</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.170...v0.8.171">https://github.com/heygen-com/hyperframes/compare/v0.8.170...v0.8.171</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.170]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.170</link>
@@ -2319,42 +2359,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.121...v0.8.122">https://github.com/heygen-com/hyperframes/compare/v0.8.121...v0.8.122</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.121]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.121</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.121</guid>
-            <pubDate>Sun, 04 Oct 2026 08:51:40 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.121</h1>
-<p>Released on 2026-10-04.</p>
-<p>Media Use no longer crashes when a HeyGen credentials path is a folder. Video length and size now come from one place in the core runtime.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Media Use:</strong> A credentials folder means no HeyGen credential, not a crash (<a href="https://github.com/heygen-com/hyperframes/commit/32d2bc6fe03007c7c8417268522516e3db7a2e87">32d2bc6fe030</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4995">#4995</a>).</li>
-<li><strong>Media Use:</strong> Skip a .env folder when loading HeyGen credentials (<a href="https://github.com/heygen-com/hyperframes/commit/5f3191bdc59312b6d6cba231e50207919e22b7cf">5f3191bdc593</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4988">#4988</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Core:</strong> One pure owner for composition length and root size (<a href="https://github.com/heygen-com/hyperframes/commit/34ff5ca1dea155ad0a29b26b6cb456b12b18b1d5">34ff5ca1dea1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4990">#4990</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.120...v0.8.121">https://github.com/heygen-com/hyperframes/compare/v0.8.120...v0.8.121</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.121</h1>
-<p>Released on 2026-10-04.</p>
-<p>Media Use no longer crashes when a HeyGen credentials path is a folder. Video length and size now come from one place in the core runtime.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Media Use:</strong> A credentials folder means no HeyGen credential, not a crash (<a href="https://github.com/heygen-com/hyperframes/commit/32d2bc6fe03007c7c8417268522516e3db7a2e87">32d2bc6fe030</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4995">#4995</a>).</li>
-<li><strong>Media Use:</strong> Skip a .env folder when loading HeyGen credentials (<a href="https://github.com/heygen-com/hyperframes/commit/5f3191bdc59312b6d6cba231e50207919e22b7cf">5f3191bdc593</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4988">#4988</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Core:</strong> One pure owner for composition length and root size (<a href="https://github.com/heygen-com/hyperframes/commit/34ff5ca1dea155ad0a29b26b6cb456b12b18b1d5">34ff5ca1dea1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4990">#4990</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.120...v0.8.121">https://github.com/heygen-com/hyperframes/compare/v0.8.120...v0.8.121</a></p>
 ]]></content:encoded>
         </item>
     </channel>
