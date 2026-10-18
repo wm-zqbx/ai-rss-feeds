@@ -4,11 +4,57 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 18 Oct 2026 16:20:03 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Oct 2026 21:43:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.173]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.173</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.173</guid>
+            <pubDate>Sun, 18 Oct 2026 21:43:08 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.173</h1>
+<p>Released on 2026-10-18.</p>
+<p>Studio&#39;s install button now walks you through download, install and open in one card, and never dead-ends. Camera clips shot at 29.97 fps export smoothly at 30 fps, and check waits for slow CDN scripts the way render does.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> The desktop-app button says Install the desktop app and never dead-ends (<a href="https://github.com/heygen-com/hyperframes/commit/5975dd7579bfaaeff3db2e1b94549a0bfe296ece">5975dd7579b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5854">#5854</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> A 29.97 fps camera clip exports smoothly at 30 fps (<a href="https://github.com/heygen-com/hyperframes/commit/b46ebedeae959d3060ca4ece244ea6861d0f2352">b46ebedeae9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5849">#5849</a>).</li>
+<li><strong>CLI:</strong> Check and snapshot wait for a slow CDN script as long as render does (<a href="https://github.com/heygen-com/hyperframes/commit/18fc3901c79e05409ffc8521be7c903a1873533d">18fc3901c79</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5847">#5847</a>).</li>
+<li><strong>CLI:</strong> Agents can apply a color correction from media-treatment&#39;s capabilities (<a href="https://github.com/heygen-com/hyperframes/commit/e31838159d90484818d68b985cc2f11971e82797">e31838159d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5850">#5850</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Lint:</strong> Shader lint tests pass on macOS, where the temp folder is a symlink (<a href="https://github.com/heygen-com/hyperframes/commit/a971c2bb257cf3f11feddab36c2b888b0e08a1cc">a971c2bb257</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5851">#5851</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.172...v0.8.173">https://github.com/heygen-com/hyperframes/compare/v0.8.172...v0.8.173</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.173</h1>
+<p>Released on 2026-10-18.</p>
+<p>Studio&#39;s install button now walks you through download, install and open in one card, and never dead-ends. Camera clips shot at 29.97 fps export smoothly at 30 fps, and check waits for slow CDN scripts the way render does.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> The desktop-app button says Install the desktop app and never dead-ends (<a href="https://github.com/heygen-com/hyperframes/commit/5975dd7579bfaaeff3db2e1b94549a0bfe296ece">5975dd7579b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5854">#5854</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> A 29.97 fps camera clip exports smoothly at 30 fps (<a href="https://github.com/heygen-com/hyperframes/commit/b46ebedeae959d3060ca4ece244ea6861d0f2352">b46ebedeae9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5849">#5849</a>).</li>
+<li><strong>CLI:</strong> Check and snapshot wait for a slow CDN script as long as render does (<a href="https://github.com/heygen-com/hyperframes/commit/18fc3901c79e05409ffc8521be7c903a1873533d">18fc3901c79</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5847">#5847</a>).</li>
+<li><strong>CLI:</strong> Agents can apply a color correction from media-treatment&#39;s capabilities (<a href="https://github.com/heygen-com/hyperframes/commit/e31838159d90484818d68b985cc2f11971e82797">e31838159d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5850">#5850</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Lint:</strong> Shader lint tests pass on macOS, where the temp folder is a symlink (<a href="https://github.com/heygen-com/hyperframes/commit/a971c2bb257cf3f11feddab36c2b888b0e08a1cc">a971c2bb257</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5851">#5851</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.172...v0.8.173">https://github.com/heygen-com/hyperframes/compare/v0.8.172...v0.8.173</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.172]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.172</link>
@@ -2309,44 +2355,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.123...v0.8.124">https://github.com/heygen-com/hyperframes/compare/v0.8.123...v0.8.124</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.123]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.123</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.123</guid>
-            <pubDate>Sun, 04 Oct 2026 12:24:10 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.123</h1>
-<p>Released on 2026-10-04.</p>
-<p>Studio gets an Edit with Framey button, and <code>hyperframes open</code> opens HyperFrames Studio. Dragging a keyframed layer and redrawing the preview now keep animations where you left them.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio,cli:</strong> Add an Edit with Framey button and <code>hyperframes open</code> for HyperFrames Studio (<a href="https://github.com/heygen-com/hyperframes/commit/bd0dc8c3aeb08868f15a95631e5aab7790cce926">bd0dc8c3aeb0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4951">#4951</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> History never files a hidden file as a change (<a href="https://github.com/heygen-com/hyperframes/commit/cad3db47d2d38b3c083a7340140e0fd59a864c98">cad3db47d2d3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4966">#4966</a>).</li>
-<li><strong>Core:</strong> The preview redraw leaves animations after the playhead as the seek drew them (<a href="https://github.com/heygen-com/hyperframes/commit/805cf60b036b5357e0dfaba9e91135063a6c2b21">805cf60b036b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4997">#4997</a>).</li>
-<li><strong>Studio:</strong> Dragging a keyframed layer from its middle moves the layer, not a path node (<a href="https://github.com/heygen-com/hyperframes/commit/7faf2cc6c31ff473f5f52748f2f103c39fcc4aea">7faf2cc6c31f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4941">#4941</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.122...v0.8.123">https://github.com/heygen-com/hyperframes/compare/v0.8.122...v0.8.123</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.123</h1>
-<p>Released on 2026-10-04.</p>
-<p>Studio gets an Edit with Framey button, and <code>hyperframes open</code> opens HyperFrames Studio. Dragging a keyframed layer and redrawing the preview now keep animations where you left them.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio,cli:</strong> Add an Edit with Framey button and <code>hyperframes open</code> for HyperFrames Studio (<a href="https://github.com/heygen-com/hyperframes/commit/bd0dc8c3aeb08868f15a95631e5aab7790cce926">bd0dc8c3aeb0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4951">#4951</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> History never files a hidden file as a change (<a href="https://github.com/heygen-com/hyperframes/commit/cad3db47d2d38b3c083a7340140e0fd59a864c98">cad3db47d2d3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4966">#4966</a>).</li>
-<li><strong>Core:</strong> The preview redraw leaves animations after the playhead as the seek drew them (<a href="https://github.com/heygen-com/hyperframes/commit/805cf60b036b5357e0dfaba9e91135063a6c2b21">805cf60b036b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4997">#4997</a>).</li>
-<li><strong>Studio:</strong> Dragging a keyframed layer from its middle moves the layer, not a path node (<a href="https://github.com/heygen-com/hyperframes/commit/7faf2cc6c31ff473f5f52748f2f103c39fcc4aea">7faf2cc6c31f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4941">#4941</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.122...v0.8.123">https://github.com/heygen-com/hyperframes/compare/v0.8.122...v0.8.123</a></p>
 ]]></content:encoded>
         </item>
     </channel>
