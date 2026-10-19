@@ -4,11 +4,85 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 18 Oct 2026 21:43:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 02:28:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.174]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.174</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.174</guid>
+            <pubDate>Mon, 19 Oct 2026 02:28:14 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.174</h1>
+<p>Released on 2026-10-19.</p>
+<p>Deleting a time range from a timeline clip now removes only that range, not the whole clip. Cloud renders download faster, and Lambda renders assemble in seconds and scale to your account&#39;s limits.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Timeline delete --start/--end removes only that range (<a href="https://github.com/heygen-com/hyperframes/commit/d2b8ea764431d739d5dd3ffed1df74470fa01fae">d2b8ea76443</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5867">#5867</a>).</li>
+<li><strong>Core:</strong> Color grading applies to canvas compositions (<a href="https://github.com/heygen-com/hyperframes/commit/5658f700650bb10c000229da9374df02b2f6b5ee">5658f700650</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5860">#5860</a>).</li>
+<li><strong>Core:</strong> Format generated artifacts without spawning bun from PATH (<a href="https://github.com/heygen-com/hyperframes/commit/d369159305c9471213a5e291b40ac3707a9f64a1">d369159305c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5859">#5859</a>).</li>
+<li><strong>CLI:</strong> A page-load timeout names the script or stylesheet the page was waiting on (<a href="https://github.com/heygen-com/hyperframes/commit/adb7a6c994bf1d825a77b0aa9a2bd59418f8f97f">adb7a6c994b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5727">#5727</a>).</li>
+<li><strong>CLI:</strong> Capture keeps other screenshots when Chrome refuses one (<a href="https://github.com/heygen-com/hyperframes/commit/a91903035658ddb0a6c3eda27b188eb58116135c">a9190303565</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5739">#5739</a>).</li>
+<li><strong>Engine:</strong> Exports carry full colour tags with every encoder, SDR and HDR (<a href="https://github.com/heygen-com/hyperframes/commit/ea742c501880cdcce141d8c10ea711a0e3ff7208">ea742c50188</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5742">#5742</a>).</li>
+<li><strong>Lint:</strong> Back-to-back audio clips no longer count as overlapping after float rounding (<a href="https://github.com/heygen-com/hyperframes/commit/d1123299f8ade96e40f882d990d80de71ccaaefd">d1123299f8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5837">#5837</a>).</li>
+<li><strong>CLI:</strong> Preview inside a host app&#39;s agent run no longer outlives the run (<a href="https://github.com/heygen-com/hyperframes/commit/bf24fda8dab026fddfdb11922b8b0508f469d62d">bf24fda8dab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5852">#5852</a>).</li>
+<li><strong>CLI:</strong> Init writes the project into a folder with a non-ASCII name on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/d58d3edd39b05e7b4a3c7e90a78637471cd34c30">d58d3edd39b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5833">#5833</a>).</li>
+<li><strong>CLI:</strong> A render no FFmpeg encoder can finish stops before capture, not after it (<a href="https://github.com/heygen-com/hyperframes/commit/9fd5e4ae2df6dbee3cb15e045435dc7dc077b340">9fd5e4ae2df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5831">#5831</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>AWS Lambda:</strong> Size distributed renders from account concurrency limits (<a href="https://github.com/heygen-com/hyperframes/commit/2a14cbc924ab6bd08b1e5ee97eadb5da3374acff">2a14cbc924a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5813">#5813</a>).</li>
+<li><strong>Cloud:</strong> Assemble chunk output with a single faststart index (<a href="https://github.com/heygen-com/hyperframes/commit/70fbe32f8d9ac9f214ad6f10b5be7301a64f4e85">70fbe32f8d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5812">#5812</a>).</li>
+<li><strong>CLI:</strong> Cloud render downloads the finished video over parallel connections (<a href="https://github.com/heygen-com/hyperframes/commit/cddb34feacf50f9637bf84893b5bd36a140385c9">cddb34feacf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5864">#5864</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>CLI:</strong> Say capture needs direct internet and ignores HTTPS_PROXY (<a href="https://github.com/heygen-com/hyperframes/commit/26d7dbca360b25b3ab48a0ee372fbbbc965de5cd">26d7dbca360</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5752">#5752</a>).</li>
+<li><strong>Skills:</strong> Make reference guides directly discoverable (<a href="https://github.com/heygen-com/hyperframes/commit/388011b2147bcfec910e09b9a865c80638f271f9">388011b2147</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5858">#5858</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Process tracker tests spawn node, not shell tools, so Windows runs stop timing out (<a href="https://github.com/heygen-com/hyperframes/commit/b98a1ac6e031ee491fee456deb31c012f553c783">b98a1ac6e03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5832">#5832</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.173...v0.8.174">https://github.com/heygen-com/hyperframes/compare/v0.8.173...v0.8.174</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.174</h1>
+<p>Released on 2026-10-19.</p>
+<p>Deleting a time range from a timeline clip now removes only that range, not the whole clip. Cloud renders download faster, and Lambda renders assemble in seconds and scale to your account&#39;s limits.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Timeline delete --start/--end removes only that range (<a href="https://github.com/heygen-com/hyperframes/commit/d2b8ea764431d739d5dd3ffed1df74470fa01fae">d2b8ea76443</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5867">#5867</a>).</li>
+<li><strong>Core:</strong> Color grading applies to canvas compositions (<a href="https://github.com/heygen-com/hyperframes/commit/5658f700650bb10c000229da9374df02b2f6b5ee">5658f700650</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5860">#5860</a>).</li>
+<li><strong>Core:</strong> Format generated artifacts without spawning bun from PATH (<a href="https://github.com/heygen-com/hyperframes/commit/d369159305c9471213a5e291b40ac3707a9f64a1">d369159305c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5859">#5859</a>).</li>
+<li><strong>CLI:</strong> A page-load timeout names the script or stylesheet the page was waiting on (<a href="https://github.com/heygen-com/hyperframes/commit/adb7a6c994bf1d825a77b0aa9a2bd59418f8f97f">adb7a6c994b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5727">#5727</a>).</li>
+<li><strong>CLI:</strong> Capture keeps other screenshots when Chrome refuses one (<a href="https://github.com/heygen-com/hyperframes/commit/a91903035658ddb0a6c3eda27b188eb58116135c">a9190303565</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5739">#5739</a>).</li>
+<li><strong>Engine:</strong> Exports carry full colour tags with every encoder, SDR and HDR (<a href="https://github.com/heygen-com/hyperframes/commit/ea742c501880cdcce141d8c10ea711a0e3ff7208">ea742c50188</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5742">#5742</a>).</li>
+<li><strong>Lint:</strong> Back-to-back audio clips no longer count as overlapping after float rounding (<a href="https://github.com/heygen-com/hyperframes/commit/d1123299f8ade96e40f882d990d80de71ccaaefd">d1123299f8a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5837">#5837</a>).</li>
+<li><strong>CLI:</strong> Preview inside a host app&#39;s agent run no longer outlives the run (<a href="https://github.com/heygen-com/hyperframes/commit/bf24fda8dab026fddfdb11922b8b0508f469d62d">bf24fda8dab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5852">#5852</a>).</li>
+<li><strong>CLI:</strong> Init writes the project into a folder with a non-ASCII name on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/d58d3edd39b05e7b4a3c7e90a78637471cd34c30">d58d3edd39b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5833">#5833</a>).</li>
+<li><strong>CLI:</strong> A render no FFmpeg encoder can finish stops before capture, not after it (<a href="https://github.com/heygen-com/hyperframes/commit/9fd5e4ae2df6dbee3cb15e045435dc7dc077b340">9fd5e4ae2df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5831">#5831</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>AWS Lambda:</strong> Size distributed renders from account concurrency limits (<a href="https://github.com/heygen-com/hyperframes/commit/2a14cbc924ab6bd08b1e5ee97eadb5da3374acff">2a14cbc924a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5813">#5813</a>).</li>
+<li><strong>Cloud:</strong> Assemble chunk output with a single faststart index (<a href="https://github.com/heygen-com/hyperframes/commit/70fbe32f8d9ac9f214ad6f10b5be7301a64f4e85">70fbe32f8d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5812">#5812</a>).</li>
+<li><strong>CLI:</strong> Cloud render downloads the finished video over parallel connections (<a href="https://github.com/heygen-com/hyperframes/commit/cddb34feacf50f9637bf84893b5bd36a140385c9">cddb34feacf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5864">#5864</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>CLI:</strong> Say capture needs direct internet and ignores HTTPS_PROXY (<a href="https://github.com/heygen-com/hyperframes/commit/26d7dbca360b25b3ab48a0ee372fbbbc965de5cd">26d7dbca360</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5752">#5752</a>).</li>
+<li><strong>Skills:</strong> Make reference guides directly discoverable (<a href="https://github.com/heygen-com/hyperframes/commit/388011b2147bcfec910e09b9a865c80638f271f9">388011b2147</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5858">#5858</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Process tracker tests spawn node, not shell tools, so Windows runs stop timing out (<a href="https://github.com/heygen-com/hyperframes/commit/b98a1ac6e031ee491fee456deb31c012f553c783">b98a1ac6e03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5832">#5832</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.173...v0.8.174">https://github.com/heygen-com/hyperframes/compare/v0.8.173...v0.8.174</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.173]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.173</link>
@@ -2303,58 +2377,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.124...v0.8.125">https://github.com/heygen-com/hyperframes/compare/v0.8.124...v0.8.125</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.124]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.124</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.124</guid>
-            <pubDate>Sun, 04 Oct 2026 17:30:39 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.124</h1>
-<p>Released on 2026-10-04.</p>
-<p>Undo in Studio now takes added media back with the file, snapping no longer moves a clip to a place it would not save, and motion paths animate when GSAP loads deferred. Media-use can clone, list and delete HeyGen voices.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Make edit with framey stand out in the header (<a href="https://github.com/heygen-com/hyperframes/commit/2b82e39cd6fde19a74ce4855d5bfc05ceb42b864">2b82e39cd6fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5019">#5019</a>).</li>
-<li><strong>Media Use:</strong> Clone, list and delete HeyGen voices, and accept a host OAuth token (<a href="https://github.com/heygen-com/hyperframes/commit/2497402b270a4f613cf57abc1c29cbc260fb8c07">2497402b270a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4992">#4992</a>).</li>
-<li><strong>Skills:</strong> Open Studio before every final render (<a href="https://github.com/heygen-com/hyperframes/commit/69a2169bde0c134f42979e1911755084b1c29962">69a2169bde0c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4952">#4952</a>).</li>
-<li><strong>Cli,studio:</strong> Hand off on macOS now, and open the app on Windows and Linux (<a href="https://github.com/heygen-com/hyperframes/commit/6a27a34f21ef178d3c5189ab8a4a9f6709c528da">6a27a34f21ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4999">#4999</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Undoing a change takes the media ledger back with the film (<a href="https://github.com/heygen-com/hyperframes/commit/a2f41608993e3fa74b81b5845d3000a7a0be698e">a2f41608993e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5016">#5016</a>).</li>
-<li><strong>CLI:</strong> A project .env cannot set the feedback email in another letter case (<a href="https://github.com/heygen-com/hyperframes/commit/dcc721062b51776049d9c8fb4a0bf7fade388888">dcc721062b51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5018">#5018</a>).</li>
-<li><strong>Studio:</strong> A video&#39;s sound reads on its clip like an audio row (<a href="https://github.com/heygen-com/hyperframes/commit/ed5c1000b1f17e9365e9600e9e8e3993ae7a74be">ed5c1000b1f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5015">#5015</a>).</li>
-<li><strong>Studio:</strong> A snap the saved clip would miss no longer moves it (<a href="https://github.com/heygen-com/hyperframes/commit/48bfe618030deb3ecedce23a5254d71e7cbd5426">48bfe618030d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5006">#5006</a>).</li>
-<li><strong>Studio Server:</strong> Motion paths animate when gsap has a query string or loads deferred (<a href="https://github.com/heygen-com/hyperframes/commit/5cee25efcb8d6d771e312908f9a54d7fe2a9b3ce">5cee25efcb8d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5007">#5007</a>).</li>
-<li><strong>Studio:</strong> An audio clip&#39;s name pill draws over its waveform (<a href="https://github.com/heygen-com/hyperframes/commit/4a5e38eed64bb361b078eeba9fc5d756d93aa9a2">4a5e38eed64b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5013">#5013</a>).</li>
-<li><strong>Studio:</strong> A first animation in a full-document sub-composition plays (<a href="https://github.com/heygen-com/hyperframes/commit/399f49104e24ff716e2ca51f024dd8863d9df61a">399f49104e24</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5008">#5008</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.123...v0.8.124">https://github.com/heygen-com/hyperframes/compare/v0.8.123...v0.8.124</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.124</h1>
-<p>Released on 2026-10-04.</p>
-<p>Undo in Studio now takes added media back with the file, snapping no longer moves a clip to a place it would not save, and motion paths animate when GSAP loads deferred. Media-use can clone, list and delete HeyGen voices.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Make edit with framey stand out in the header (<a href="https://github.com/heygen-com/hyperframes/commit/2b82e39cd6fde19a74ce4855d5bfc05ceb42b864">2b82e39cd6fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5019">#5019</a>).</li>
-<li><strong>Media Use:</strong> Clone, list and delete HeyGen voices, and accept a host OAuth token (<a href="https://github.com/heygen-com/hyperframes/commit/2497402b270a4f613cf57abc1c29cbc260fb8c07">2497402b270a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4992">#4992</a>).</li>
-<li><strong>Skills:</strong> Open Studio before every final render (<a href="https://github.com/heygen-com/hyperframes/commit/69a2169bde0c134f42979e1911755084b1c29962">69a2169bde0c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4952">#4952</a>).</li>
-<li><strong>Cli,studio:</strong> Hand off on macOS now, and open the app on Windows and Linux (<a href="https://github.com/heygen-com/hyperframes/commit/6a27a34f21ef178d3c5189ab8a4a9f6709c528da">6a27a34f21ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4999">#4999</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Undoing a change takes the media ledger back with the film (<a href="https://github.com/heygen-com/hyperframes/commit/a2f41608993e3fa74b81b5845d3000a7a0be698e">a2f41608993e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5016">#5016</a>).</li>
-<li><strong>CLI:</strong> A project .env cannot set the feedback email in another letter case (<a href="https://github.com/heygen-com/hyperframes/commit/dcc721062b51776049d9c8fb4a0bf7fade388888">dcc721062b51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5018">#5018</a>).</li>
-<li><strong>Studio:</strong> A video&#39;s sound reads on its clip like an audio row (<a href="https://github.com/heygen-com/hyperframes/commit/ed5c1000b1f17e9365e9600e9e8e3993ae7a74be">ed5c1000b1f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5015">#5015</a>).</li>
-<li><strong>Studio:</strong> A snap the saved clip would miss no longer moves it (<a href="https://github.com/heygen-com/hyperframes/commit/48bfe618030deb3ecedce23a5254d71e7cbd5426">48bfe618030d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5006">#5006</a>).</li>
-<li><strong>Studio Server:</strong> Motion paths animate when gsap has a query string or loads deferred (<a href="https://github.com/heygen-com/hyperframes/commit/5cee25efcb8d6d771e312908f9a54d7fe2a9b3ce">5cee25efcb8d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5007">#5007</a>).</li>
-<li><strong>Studio:</strong> An audio clip&#39;s name pill draws over its waveform (<a href="https://github.com/heygen-com/hyperframes/commit/4a5e38eed64bb361b078eeba9fc5d756d93aa9a2">4a5e38eed64b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5013">#5013</a>).</li>
-<li><strong>Studio:</strong> A first animation in a full-document sub-composition plays (<a href="https://github.com/heygen-com/hyperframes/commit/399f49104e24ff716e2ca51f024dd8863d9df61a">399f49104e24</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5008">#5008</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.123...v0.8.124">https://github.com/heygen-com/hyperframes/compare/v0.8.123...v0.8.124</a></p>
 ]]></content:encoded>
         </item>
     </channel>
