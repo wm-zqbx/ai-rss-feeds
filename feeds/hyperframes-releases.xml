@@ -4,11 +4,59 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 19 Oct 2026 02:28:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 14:58:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.175]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.175</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.175</guid>
+            <pubDate>Mon, 19 Oct 2026 14:58:04 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.175</h1>
+<p>Released on 2026-10-19.</p>
+<p>Long films now play smoothly deep into the timeline, because the preview only does work for what is on screen. Cloud downloads resume after a dropped connection, and check, inspect and renders get going faster.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> The preview keeps playing in time when its tab is hidden (<a href="https://github.com/heygen-com/hyperframes/commit/b168d0b4138cb578c07f21e12441c8302a217308">b168d0b41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5872">#5872</a>).</li>
+<li><strong>CLI:</strong> A cloud render download that loses its connection picks up where it stopped (<a href="https://github.com/heygen-com/hyperframes/commit/cea0bad7931122bd93680006978c0d9007daa3d4">cea0bad79</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5873">#5873</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> Long films keep their frame rate deep into the timeline: playback and jumps do only the work for what is on screen (<a href="https://github.com/heygen-com/hyperframes/commit/959dd3e584cc22ab9004926735ab9c3effc6d0cc">959dd3e58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5754">#5754</a>).</li>
+<li><strong>CLI:</strong> Check and inspect finish faster: they skip paint waits and screenshots nothing reads (<a href="https://github.com/heygen-com/hyperframes/commit/8434945784b5378358a1c661aa080e1894533578">843494578</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5868">#5868</a>).</li>
+<li><strong>Producer:</strong> Renders embed a project&#39;s local fonts as they are, so setup is faster (<a href="https://github.com/heygen-com/hyperframes/commit/2b57809d79176b34ce60f4206361e99fac618ccf">2b57809d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5865">#5865</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Stop the fallow audit hook from piling up base snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/aa63a8c70d8549d55533efdc7ed6d6559331b38c">aa63a8c70</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5882">#5882</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.174...v0.8.175">https://github.com/heygen-com/hyperframes/compare/v0.8.174...v0.8.175</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.175</h1>
+<p>Released on 2026-10-19.</p>
+<p>Long films now play smoothly deep into the timeline, because the preview only does work for what is on screen. Cloud downloads resume after a dropped connection, and check, inspect and renders get going faster.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> The preview keeps playing in time when its tab is hidden (<a href="https://github.com/heygen-com/hyperframes/commit/b168d0b4138cb578c07f21e12441c8302a217308">b168d0b41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5872">#5872</a>).</li>
+<li><strong>CLI:</strong> A cloud render download that loses its connection picks up where it stopped (<a href="https://github.com/heygen-com/hyperframes/commit/cea0bad7931122bd93680006978c0d9007daa3d4">cea0bad79</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5873">#5873</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> Long films keep their frame rate deep into the timeline: playback and jumps do only the work for what is on screen (<a href="https://github.com/heygen-com/hyperframes/commit/959dd3e584cc22ab9004926735ab9c3effc6d0cc">959dd3e58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5754">#5754</a>).</li>
+<li><strong>CLI:</strong> Check and inspect finish faster: they skip paint waits and screenshots nothing reads (<a href="https://github.com/heygen-com/hyperframes/commit/8434945784b5378358a1c661aa080e1894533578">843494578</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5868">#5868</a>).</li>
+<li><strong>Producer:</strong> Renders embed a project&#39;s local fonts as they are, so setup is faster (<a href="https://github.com/heygen-com/hyperframes/commit/2b57809d79176b34ce60f4206361e99fac618ccf">2b57809d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5865">#5865</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Stop the fallow audit hook from piling up base snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/aa63a8c70d8549d55533efdc7ed6d6559331b38c">aa63a8c70</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5882">#5882</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.174...v0.8.175">https://github.com/heygen-com/hyperframes/compare/v0.8.174...v0.8.175</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.174]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.174</link>
@@ -2339,44 +2387,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.125...v0.8.126">https://github.com/heygen-com/hyperframes/compare/v0.8.125...v0.8.126</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.125]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.125</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.125</guid>
-            <pubDate>Sun, 04 Oct 2026 21:01:12 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.125</h1>
-<p>Released on 2026-10-04.</p>
-<p>A cropped layer&#39;s edge now stays exact while GSAP animates it, in preview and export, and undoing a resize, rotate or GSAP edit shows the change undone at once while it saves.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Undo shows a resize, rotate or GSAP edit undone at once while it saves (<a href="https://github.com/heygen-com/hyperframes/commit/49333a882d343cef768f16739a84643296e9da5d">49333a882d34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5022">#5022</a>).</li>
-<li><strong>Core:</strong> A cropped element&#39;s edge stays exact while GSAP tweens it (<a href="https://github.com/heygen-com/hyperframes/commit/99c389bce9fd893f3c0052c11f6e4844a5da33ab">99c389bce9fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5010">#5010</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Fix wrong facts and broken paths from the doctrine audit (<a href="https://github.com/heygen-com/hyperframes/commit/0c3e244269aae698149214379280377a9f7a2f2b">0c3e244269aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5026">#5026</a>).</li>
-<li><strong>Skills:</strong> Resolve cross-skill contradictions from the doctrine audit (<a href="https://github.com/heygen-com/hyperframes/commit/173103dfdec5738f85733e6796d56932ad2a7436">173103dfdec5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5028">#5028</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.124...v0.8.125">https://github.com/heygen-com/hyperframes/compare/v0.8.124...v0.8.125</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.125</h1>
-<p>Released on 2026-10-04.</p>
-<p>A cropped layer&#39;s edge now stays exact while GSAP animates it, in preview and export, and undoing a resize, rotate or GSAP edit shows the change undone at once while it saves.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Undo shows a resize, rotate or GSAP edit undone at once while it saves (<a href="https://github.com/heygen-com/hyperframes/commit/49333a882d343cef768f16739a84643296e9da5d">49333a882d34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5022">#5022</a>).</li>
-<li><strong>Core:</strong> A cropped element&#39;s edge stays exact while GSAP tweens it (<a href="https://github.com/heygen-com/hyperframes/commit/99c389bce9fd893f3c0052c11f6e4844a5da33ab">99c389bce9fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5010">#5010</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Fix wrong facts and broken paths from the doctrine audit (<a href="https://github.com/heygen-com/hyperframes/commit/0c3e244269aae698149214379280377a9f7a2f2b">0c3e244269aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5026">#5026</a>).</li>
-<li><strong>Skills:</strong> Resolve cross-skill contradictions from the doctrine audit (<a href="https://github.com/heygen-com/hyperframes/commit/173103dfdec5738f85733e6796d56932ad2a7436">173103dfdec5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5028">#5028</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.124...v0.8.125">https://github.com/heygen-com/hyperframes/compare/v0.8.124...v0.8.125</a></p>
 ]]></content:encoded>
         </item>
     </channel>
