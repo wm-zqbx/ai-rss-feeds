@@ -4,11 +4,129 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 19 Oct 2026 18:10:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2026 22:28:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.179]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.179</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.179</guid>
+            <pubDate>Mon, 19 Oct 2026 22:28:37 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.179</h1>
+<p>Released on 2026-10-19.</p>
+<p>Cloud renders on AWS Lambda now deploy straight from the npm install, and each render chunk downloads only its own slice of audio. Old stacks are refused before any upload, and Studio keeps a deselect made while an edit saves.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Lambda deploy works from the npm install, no repo checkout (<a href="https://github.com/heygen-com/hyperframes/commit/b501dc4e1b4c2e4273c6834c45024fb4115efc05">b501dc4e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5866">#5866</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>AWS Lambda:</strong> Old stacks are refused before any upload, and stale local copies never re-upload (<a href="https://github.com/heygen-com/hyperframes/commit/6fe20f764d1439b8702b833a76f46278c8074dac">6fe20f764</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5909">#5909</a>).</li>
+<li><strong>Inspector:</strong> Data-hf-id stamps alone do not make the live preview stale (<a href="https://github.com/heygen-com/hyperframes/commit/8af8e48ad99f696ead742c12f15e9d6a6b8a1950">8af8e48ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5870">#5870</a>).</li>
+<li><strong>Studio:</strong> A deselect made while an edit saves stays deselected (<a href="https://github.com/heygen-com/hyperframes/commit/4ff4284442049fe1dc313d35c771d5bfc072e473">4ff428444</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5907">#5907</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> Each distributed chunk downloads only its own slice of the plan audio (<a href="https://github.com/heygen-com/hyperframes/commit/52c5fae9a7606683e1660a8ea6037c123b1f38ef">52c5fae9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5881">#5881</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The late subresource capture test lands its assets well inside the settle cap (<a href="https://github.com/heygen-com/hyperframes/commit/7d47194e4a078b4382bf3e8597ca9520e278781c">7d47194e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5913">#5913</a>).</li>
+<li><strong>Repo:</strong> The packed consumer check stops failing on npm versions published minutes ago (<a href="https://github.com/heygen-com/hyperframes/commit/501b2d29c21485dac93748df81ec8898fe42de26">501b2d29c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5905">#5905</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.178...v0.8.179">https://github.com/heygen-com/hyperframes/compare/v0.8.178...v0.8.179</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.179</h1>
+<p>Released on 2026-10-19.</p>
+<p>Cloud renders on AWS Lambda now deploy straight from the npm install, and each render chunk downloads only its own slice of audio. Old stacks are refused before any upload, and Studio keeps a deselect made while an edit saves.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Lambda deploy works from the npm install, no repo checkout (<a href="https://github.com/heygen-com/hyperframes/commit/b501dc4e1b4c2e4273c6834c45024fb4115efc05">b501dc4e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5866">#5866</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>AWS Lambda:</strong> Old stacks are refused before any upload, and stale local copies never re-upload (<a href="https://github.com/heygen-com/hyperframes/commit/6fe20f764d1439b8702b833a76f46278c8074dac">6fe20f764</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5909">#5909</a>).</li>
+<li><strong>Inspector:</strong> Data-hf-id stamps alone do not make the live preview stale (<a href="https://github.com/heygen-com/hyperframes/commit/8af8e48ad99f696ead742c12f15e9d6a6b8a1950">8af8e48ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5870">#5870</a>).</li>
+<li><strong>Studio:</strong> A deselect made while an edit saves stays deselected (<a href="https://github.com/heygen-com/hyperframes/commit/4ff4284442049fe1dc313d35c771d5bfc072e473">4ff428444</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5907">#5907</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> Each distributed chunk downloads only its own slice of the plan audio (<a href="https://github.com/heygen-com/hyperframes/commit/52c5fae9a7606683e1660a8ea6037c123b1f38ef">52c5fae9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5881">#5881</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The late subresource capture test lands its assets well inside the settle cap (<a href="https://github.com/heygen-com/hyperframes/commit/7d47194e4a078b4382bf3e8597ca9520e278781c">7d47194e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5913">#5913</a>).</li>
+<li><strong>Repo:</strong> The packed consumer check stops failing on npm versions published minutes ago (<a href="https://github.com/heygen-com/hyperframes/commit/501b2d29c21485dac93748df81ec8898fe42de26">501b2d29c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5905">#5905</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.178...v0.8.179">https://github.com/heygen-com/hyperframes/compare/v0.8.178...v0.8.179</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.178]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.178</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.178</guid>
+            <pubDate>Mon, 19 Oct 2026 21:01:12 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.178</h1>
+<p>Released on 2026-10-19.</p>
+<p>Check, snapshot and renders always use the Chrome HyperFrames pinned, and Studio keeps render scratch files out of your project. Installing the CLI skips an unused code formatter, cloud renders move project files once, and colour grades compile faster.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Installing the CLI no longer downloads an unused code formatter (<a href="https://github.com/heygen-com/hyperframes/commit/b1fe8ddc1d71bc9d3d6352d037874ad71cfd2ffc">b1fe8ddc1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5906">#5906</a>).</li>
+<li>Check, snapshot and renders use the pinned Chrome, not an older one another tool cached (<a href="https://github.com/heygen-com/hyperframes/commit/50e7a59aef592e262238edfa2df2a6d96af2476f">50e7a59ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5900">#5900</a>).</li>
+<li><strong>Studio:</strong> Render scratch stays out of the project and error telemetry counts real failures only (<a href="https://github.com/heygen-com/hyperframes/commit/93c321285c79cc59f5a0ac5550170a7f5e945d33">93c321285</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5902">#5902</a>).</li>
+<li><strong>CLI:</strong> Snapshot --proxy exits once its frames are written, without waiting for copies (<a href="https://github.com/heygen-com/hyperframes/commit/35c03a509e0e7c7ac76ea0cffc6ae44a8d5a5a76">35c03a509</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5895">#5895</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Cloud:</strong> Move project bytes once through shared content storage (<a href="https://github.com/heygen-com/hyperframes/commit/992df8b2031341a647152414d06f946523b46f83">992df8b20</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5772">#5772</a>).</li>
+<li><strong>Core:</strong> A color grade compiles only the effects it turns on (<a href="https://github.com/heygen-com/hyperframes/commit/44bbc5885fdece9144d7c12cd35baea572c4ad56">44bbc5885</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5889">#5889</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-10-12-2026-10-19 (<a href="https://github.com/heygen-com/hyperframes/commit/563869f0f55495d643d5ab9ed25e0b64d2bfe8b9">563869f0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5894">#5894</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>The file size check fetches two commits, not the whole history, so it finishes in time (<a href="https://github.com/heygen-com/hyperframes/commit/68b873f0763361866d09b604d3f132ac47c6cbc5">68b873f07</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5903">#5903</a>).</li>
+<li><strong>Studio:</strong> The edit accuracy bench stops waiting on background lint and thumbnail images (<a href="https://github.com/heygen-com/hyperframes/commit/4c798f398dc36e2d2f7df9e48d3e1b9858e87628">4c798f398</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5899">#5899</a>).</li>
+<li><strong>Engine:</strong> Browser tests kill a Chrome whose close hangs instead of timing out (<a href="https://github.com/heygen-com/hyperframes/commit/0ce14d6443a43b595f7ed915f370791447f7d14e">0ce14d644</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5898">#5898</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.177...v0.8.178">https://github.com/heygen-com/hyperframes/compare/v0.8.177...v0.8.178</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.178</h1>
+<p>Released on 2026-10-19.</p>
+<p>Check, snapshot and renders always use the Chrome HyperFrames pinned, and Studio keeps render scratch files out of your project. Installing the CLI skips an unused code formatter, cloud renders move project files once, and colour grades compile faster.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Installing the CLI no longer downloads an unused code formatter (<a href="https://github.com/heygen-com/hyperframes/commit/b1fe8ddc1d71bc9d3d6352d037874ad71cfd2ffc">b1fe8ddc1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5906">#5906</a>).</li>
+<li>Check, snapshot and renders use the pinned Chrome, not an older one another tool cached (<a href="https://github.com/heygen-com/hyperframes/commit/50e7a59aef592e262238edfa2df2a6d96af2476f">50e7a59ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5900">#5900</a>).</li>
+<li><strong>Studio:</strong> Render scratch stays out of the project and error telemetry counts real failures only (<a href="https://github.com/heygen-com/hyperframes/commit/93c321285c79cc59f5a0ac5550170a7f5e945d33">93c321285</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5902">#5902</a>).</li>
+<li><strong>CLI:</strong> Snapshot --proxy exits once its frames are written, without waiting for copies (<a href="https://github.com/heygen-com/hyperframes/commit/35c03a509e0e7c7ac76ea0cffc6ae44a8d5a5a76">35c03a509</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5895">#5895</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Cloud:</strong> Move project bytes once through shared content storage (<a href="https://github.com/heygen-com/hyperframes/commit/992df8b2031341a647152414d06f946523b46f83">992df8b20</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5772">#5772</a>).</li>
+<li><strong>Core:</strong> A color grade compiles only the effects it turns on (<a href="https://github.com/heygen-com/hyperframes/commit/44bbc5885fdece9144d7c12cd35baea572c4ad56">44bbc5885</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5889">#5889</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-10-12-2026-10-19 (<a href="https://github.com/heygen-com/hyperframes/commit/563869f0f55495d643d5ab9ed25e0b64d2bfe8b9">563869f0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5894">#5894</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>The file size check fetches two commits, not the whole history, so it finishes in time (<a href="https://github.com/heygen-com/hyperframes/commit/68b873f0763361866d09b604d3f132ac47c6cbc5">68b873f07</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5903">#5903</a>).</li>
+<li><strong>Studio:</strong> The edit accuracy bench stops waiting on background lint and thumbnail images (<a href="https://github.com/heygen-com/hyperframes/commit/4c798f398dc36e2d2f7df9e48d3e1b9858e87628">4c798f398</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5899">#5899</a>).</li>
+<li><strong>Engine:</strong> Browser tests kill a Chrome whose close hangs instead of timing out (<a href="https://github.com/heygen-com/hyperframes/commit/0ce14d6443a43b595f7ed915f370791447f7d14e">0ce14d644</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5898">#5898</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.177...v0.8.178">https://github.com/heygen-com/hyperframes/compare/v0.8.177...v0.8.178</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.177]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.177</link>
@@ -2289,104 +2407,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.129...v0.8.130">https://github.com/heygen-com/hyperframes/compare/v0.8.129...v0.8.130</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.129]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.129</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.129</guid>
-            <pubDate>Mon, 05 Oct 2026 09:17:18 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.129</h1>
-<p>Released on 2026-10-05.</p>
-<p>Undo now takes back the first edit of a film whose media is still copying. Dropping a clip on the timeline moves its animations in place instead of re-running the film script.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Deps:</strong> Update aws-sdk-js-v3 monorepo to ^3.1146.0 (<a href="https://github.com/heygen-com/hyperframes/commit/ec09cb40bdbe2061e73f2160d81e1849fafeadab">ec09cb40b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5055">#5055</a>).</li>
-<li><strong>Studio:</strong> Undo takes back the first edit of a film whose media is still being copied (<a href="https://github.com/heygen-com/hyperframes/commit/c6478e404c668c848717555fe134562b11804a9c">c6478e404</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5043">#5043</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Move the live tweens in place after a timeline drop (<a href="https://github.com/heygen-com/hyperframes/commit/8661e8c9656586826558d802d66bfa6d096d9a8e">8661e8c96</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5042">#5042</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Deps:</strong> Update terraform google to &gt;= 5.45.2 (<a href="https://github.com/heygen-com/hyperframes/commit/aa7f2280599f74ec123a64ba1497d26cebd3a5c5">aa7f22805</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5052">#5052</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.128...v0.8.129">https://github.com/heygen-com/hyperframes/compare/v0.8.128...v0.8.129</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.129</h1>
-<p>Released on 2026-10-05.</p>
-<p>Undo now takes back the first edit of a film whose media is still copying. Dropping a clip on the timeline moves its animations in place instead of re-running the film script.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Deps:</strong> Update aws-sdk-js-v3 monorepo to ^3.1146.0 (<a href="https://github.com/heygen-com/hyperframes/commit/ec09cb40bdbe2061e73f2160d81e1849fafeadab">ec09cb40b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5055">#5055</a>).</li>
-<li><strong>Studio:</strong> Undo takes back the first edit of a film whose media is still being copied (<a href="https://github.com/heygen-com/hyperframes/commit/c6478e404c668c848717555fe134562b11804a9c">c6478e404</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5043">#5043</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Move the live tweens in place after a timeline drop (<a href="https://github.com/heygen-com/hyperframes/commit/8661e8c9656586826558d802d66bfa6d096d9a8e">8661e8c96</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5042">#5042</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Deps:</strong> Update terraform google to &gt;= 5.45.2 (<a href="https://github.com/heygen-com/hyperframes/commit/aa7f2280599f74ec123a64ba1497d26cebd3a5c5">aa7f22805</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5052">#5052</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.128...v0.8.129">https://github.com/heygen-com/hyperframes/compare/v0.8.128...v0.8.129</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.128]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.128</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.128</guid>
-            <pubDate>Mon, 05 Oct 2026 08:11:48 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.128</h1>
-<p>Released on 2026-10-05.</p>
-<p>Splitting, converting or editing a tween no longer deletes keyframes Studio cannot read. Dragging or resizing many selected clips now saves in one write per file.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Core:</strong> The renderer&#39;s font pipeline is importable from @hyperframes/core/fonts/embed (<a href="https://github.com/heygen-com/hyperframes/commit/b3d2b82fe95542af84a856e3d6f4ac7b333b044b">b3d2b82fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5041">#5041</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Parsers:</strong> Splitting a clip keeps keyframes the parser cannot read (<a href="https://github.com/heygen-com/hyperframes/commit/8c7672f105a90a684cee44caf4ebb5340730ae2f">8c7672f10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5044">#5044</a>).</li>
-<li><strong>Studio:</strong> Place GSAP step lists and duration-less tweens where GSAP plays them (<a href="https://github.com/heygen-com/hyperframes/commit/db12b3e022ef343d1d2318e9722f7668a1efc2c7">db12b3e02</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5024">#5024</a>).</li>
-<li><strong>Studio:</strong> Undo no longer snaps back a box you started dragging again (<a href="https://github.com/heygen-com/hyperframes/commit/2bee99f03074e13aba12cf60fbbe14d7fedb5b17">2bee99f03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5039">#5039</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Drag and resize any number of selected clips, saved in one write per file (<a href="https://github.com/heygen-com/hyperframes/commit/cd82ce044d9fc48c340100fe58585f398658717d">cd82ce044</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4937">#4937</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>README:</strong> Add Studio as the first link and show the HyperFrames app (<a href="https://github.com/heygen-com/hyperframes/commit/60575dc0d1f822151fbe620476acfbf21c654cab">60575dc0d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4975">#4975</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.127...v0.8.128">https://github.com/heygen-com/hyperframes/compare/v0.8.127...v0.8.128</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.128</h1>
-<p>Released on 2026-10-05.</p>
-<p>Splitting, converting or editing a tween no longer deletes keyframes Studio cannot read. Dragging or resizing many selected clips now saves in one write per file.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Core:</strong> The renderer&#39;s font pipeline is importable from @hyperframes/core/fonts/embed (<a href="https://github.com/heygen-com/hyperframes/commit/b3d2b82fe95542af84a856e3d6f4ac7b333b044b">b3d2b82fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5041">#5041</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Parsers:</strong> Splitting a clip keeps keyframes the parser cannot read (<a href="https://github.com/heygen-com/hyperframes/commit/8c7672f105a90a684cee44caf4ebb5340730ae2f">8c7672f10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5044">#5044</a>).</li>
-<li><strong>Studio:</strong> Place GSAP step lists and duration-less tweens where GSAP plays them (<a href="https://github.com/heygen-com/hyperframes/commit/db12b3e022ef343d1d2318e9722f7668a1efc2c7">db12b3e02</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5024">#5024</a>).</li>
-<li><strong>Studio:</strong> Undo no longer snaps back a box you started dragging again (<a href="https://github.com/heygen-com/hyperframes/commit/2bee99f03074e13aba12cf60fbbe14d7fedb5b17">2bee99f03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5039">#5039</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> Drag and resize any number of selected clips, saved in one write per file (<a href="https://github.com/heygen-com/hyperframes/commit/cd82ce044d9fc48c340100fe58585f398658717d">cd82ce044</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4937">#4937</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>README:</strong> Add Studio as the first link and show the HyperFrames app (<a href="https://github.com/heygen-com/hyperframes/commit/60575dc0d1f822151fbe620476acfbf21c654cab">60575dc0d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/4975">#4975</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.127...v0.8.128">https://github.com/heygen-com/hyperframes/compare/v0.8.127...v0.8.128</a></p>
 ]]></content:encoded>
         </item>
     </channel>
