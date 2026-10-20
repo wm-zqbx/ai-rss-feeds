@@ -4,11 +4,91 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 19 Oct 2026 22:28:37 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Oct 2026 03:37:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.181]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.181</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.181</guid>
+            <pubDate>Tue, 20 Oct 2026 03:37:05 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.181</h1>
+<p>Released on 2026-10-20.</p>
+<p>Long phone-video exports no longer time out or stall before the first frame, and the cloud render plan checks audio peaks faster. Studio keeps an edit preview waiting while its window draws no frames.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep an edit&#39;s preview waiting while the window draws no frames (<a href="https://github.com/heygen-com/hyperframes/commit/f5033879f763e532bc1b6be146ce0e7503f2a4f3">f5033879f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5926">#5926</a>).</li>
+<li><strong>Engine:</strong> Long phone-video exports neither time out nor stall before the first frame (<a href="https://github.com/heygen-com/hyperframes/commit/472ee43c3a26128ea6ac493e20709d65c0edb3c3">472ee43c3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5921">#5921</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> The plan&#39;s true-peak check runs in parallel segments (<a href="https://github.com/heygen-com/hyperframes/commit/c77061e3af548b84b3666a06400486cdea70e92b">c77061e3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5925">#5925</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.180...v0.8.181">https://github.com/heygen-com/hyperframes/compare/v0.8.180...v0.8.181</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.181</h1>
+<p>Released on 2026-10-20.</p>
+<p>Long phone-video exports no longer time out or stall before the first frame, and the cloud render plan checks audio peaks faster. Studio keeps an edit preview waiting while its window draws no frames.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Keep an edit&#39;s preview waiting while the window draws no frames (<a href="https://github.com/heygen-com/hyperframes/commit/f5033879f763e532bc1b6be146ce0e7503f2a4f3">f5033879f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5926">#5926</a>).</li>
+<li><strong>Engine:</strong> Long phone-video exports neither time out nor stall before the first frame (<a href="https://github.com/heygen-com/hyperframes/commit/472ee43c3a26128ea6ac493e20709d65c0edb3c3">472ee43c3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5921">#5921</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Producer:</strong> The plan&#39;s true-peak check runs in parallel segments (<a href="https://github.com/heygen-com/hyperframes/commit/c77061e3af548b84b3666a06400486cdea70e92b">c77061e3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5925">#5925</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.180...v0.8.181">https://github.com/heygen-com/hyperframes/compare/v0.8.180...v0.8.181</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.180]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.180</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.180</guid>
+            <pubDate>Tue, 20 Oct 2026 01:29:50 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.180</h1>
+<p>Released on 2026-10-20.</p>
+<p>Renders with several workers no longer fail now and then on an empty frame. Distributed renders can render one chunk in smaller parts, previews put a reloaded video back at the playhead, and snapshots decode phone video faster.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> Render a distributed chunk as frame sub-ranges (<a href="https://github.com/heygen-com/hyperframes/commit/fcd93ce1843556be4b95e0e133929c319e549609">fcd93ce18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5916">#5916</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Renders with several workers no longer fail now and then on an empty frame (<a href="https://github.com/heygen-com/hyperframes/commit/50623ee60abc9166c0884f093e8f06eb90b8c282">50623ee60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5919">#5919</a>).</li>
+<li><strong>Core:</strong> A paused preview puts a reloaded video back at the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/44ac4c4bbbad1c8727a0cd77b9d664aadc8e18e9">44ac4c4bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5912">#5912</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>CLI:</strong> Snapshot decodes phone video frames at their on-screen size, several at once (<a href="https://github.com/heygen-com/hyperframes/commit/122489c34dabcdcb075b611717919f03de9a1157">122489c34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5917">#5917</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.179...v0.8.180">https://github.com/heygen-com/hyperframes/compare/v0.8.179...v0.8.180</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.180</h1>
+<p>Released on 2026-10-20.</p>
+<p>Renders with several workers no longer fail now and then on an empty frame. Distributed renders can render one chunk in smaller parts, previews put a reloaded video back at the playhead, and snapshots decode phone video faster.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> Render a distributed chunk as frame sub-ranges (<a href="https://github.com/heygen-com/hyperframes/commit/fcd93ce1843556be4b95e0e133929c319e549609">fcd93ce18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5916">#5916</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Renders with several workers no longer fail now and then on an empty frame (<a href="https://github.com/heygen-com/hyperframes/commit/50623ee60abc9166c0884f093e8f06eb90b8c282">50623ee60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5919">#5919</a>).</li>
+<li><strong>Core:</strong> A paused preview puts a reloaded video back at the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/44ac4c4bbbad1c8727a0cd77b9d664aadc8e18e9">44ac4c4bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5912">#5912</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>CLI:</strong> Snapshot decodes phone video frames at their on-screen size, several at once (<a href="https://github.com/heygen-com/hyperframes/commit/122489c34dabcdcb075b611717919f03de9a1157">122489c34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5917">#5917</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.179...v0.8.180">https://github.com/heygen-com/hyperframes/compare/v0.8.179...v0.8.180</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.179]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.179</link>
@@ -2355,58 +2435,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.131...v0.8.132">https://github.com/heygen-com/hyperframes/compare/v0.8.131...v0.8.132</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.131]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.131</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.131</guid>
-            <pubDate>Mon, 05 Oct 2026 11:23:49 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.131</h1>
-<p>Released on 2026-10-05.</p>
-<p>An app that embeds Studio can now file its own writes under the same history key Studio uses, so one undo takes back both.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A host can claim its writes under the key Studio&#39;s edit history uses (<a href="https://github.com/heygen-com/hyperframes/commit/72d4cc3ef4edd062ff97df499439f7ae8eb05e20">72d4cc3ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5064">#5064</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.130...v0.8.131">https://github.com/heygen-com/hyperframes/compare/v0.8.130...v0.8.131</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.131</h1>
-<p>Released on 2026-10-05.</p>
-<p>An app that embeds Studio can now file its own writes under the same history key Studio uses, so one undo takes back both.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> A host can claim its writes under the key Studio&#39;s edit history uses (<a href="https://github.com/heygen-com/hyperframes/commit/72d4cc3ef4edd062ff97df499439f7ae8eb05e20">72d4cc3ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5064">#5064</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.130...v0.8.131">https://github.com/heygen-com/hyperframes/compare/v0.8.130...v0.8.131</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.130]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.130</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.130</guid>
-            <pubDate>Mon, 05 Oct 2026 09:47:10 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.130</h1>
-<p>Released on 2026-10-05.</p>
-<p>An app that embeds Studio can now show the Layers panel in its own layout, and reordering layers there saves and undoes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> A host app can mount the Layers panel outside Studio (<a href="https://github.com/heygen-com/hyperframes/commit/618fd7684b3c53a0e6a589e96b78602c1b46d44e">618fd7684</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5049">#5049</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.129...v0.8.130">https://github.com/heygen-com/hyperframes/compare/v0.8.129...v0.8.130</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.130</h1>
-<p>Released on 2026-10-05.</p>
-<p>An app that embeds Studio can now show the Layers panel in its own layout, and reordering layers there saves and undoes.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> A host app can mount the Layers panel outside Studio (<a href="https://github.com/heygen-com/hyperframes/commit/618fd7684b3c53a0e6a589e96b78602c1b46d44e">618fd7684</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5049">#5049</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.129...v0.8.130">https://github.com/heygen-com/hyperframes/compare/v0.8.129...v0.8.130</a></p>
 ]]></content:encoded>
         </item>
     </channel>
