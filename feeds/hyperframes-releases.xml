@@ -4,11 +4,87 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 21 Oct 2026 19:44:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2026 17:28:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.186]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.186</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.186</guid>
+            <pubDate>Thu, 22 Oct 2026 17:28:33 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.186</h1>
+<p>Released on 2026-10-22.</p>
+<p>Capture motion blur now reaches renders and Studio, and it turns itself off, saying why, on pages it cannot blur safely. <code>hyperframes history</code> lists its entries even when it cannot write them, and <code>init --video</code> frames the project to the clip&#39;s shape.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Read a whole recording as voice, effect and music lines (<a href="https://github.com/heygen-com/hyperframes/commit/2c1d9d50d239d48862578f574c25de216be02746">2c1d9d50d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6056">#6056</a>).</li>
+<li><strong>CLI:</strong> Tell authors in check why motion blur is off (<a href="https://github.com/heygen-com/hyperframes/commit/4371981b740d92f70e520cfbec34db68a1c93434">4371981b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5992">#5992</a>).</li>
+<li><strong>Core,engine:</strong> Report why blur is off, and what each render session did (<a href="https://github.com/heygen-com/hyperframes/commit/38f6e01c2be3e29770df4b62f24cf734e385b707">38f6e01c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5991">#5991</a>).</li>
+<li><strong>Core,producer:</strong> Decide blur defects once per timeline, off on routes that cannot host it (<a href="https://github.com/heygen-com/hyperframes/commit/08c185d908d657f6142f3cc9ff118b9e29151616">08c185d90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5990">#5990</a>).</li>
+<li><strong>Core:</strong> Block capture motion blur on html-in-canvas defects (<a href="https://github.com/heygen-com/hyperframes/commit/536346c5d1e63a8a840bb0a8ba9423ffbab24502">536346c5d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5971">#5971</a>).</li>
+<li><strong>Core,engine:</strong> Track accelerated canvases before any page script runs (<a href="https://github.com/heygen-com/hyperframes/commit/0865b6f36d42a52247bf03de9db3ec9139ed8640">0865b6f36</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5970">#5970</a>).</li>
+<li><strong>Producer,studio:</strong> Wire capture motion blur into renders and Studio (<a href="https://github.com/heygen-com/hyperframes/commit/1f8ead7bde73a2acb9ff1c5b6327ad0153bd09b8">1f8ead7bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5969">#5969</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> History lists its entries even when this run cannot write the history (<a href="https://github.com/heygen-com/hyperframes/commit/934c88bac8cf6dc37db07cecf3bd0b58314c9921">934c88bac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6061">#6061</a>).</li>
+<li><strong>CLI:</strong> Init --video frames the project to the clip&#39;s shape, so nothing is cropped (<a href="https://github.com/heygen-com/hyperframes/commit/86b90bb424cd3f121419a15e930f17478afc0ea4">86b90bb42</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5984">#5984</a>).</li>
+<li><strong>Core:</strong> A clip&#39;s volume lane stays smooth in preview while the page is busy (<a href="https://github.com/heygen-com/hyperframes/commit/cfff4493dfc6ec2edb6f88295009fd89eebfd6c5">cfff4493d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6057">#6057</a>).</li>
+<li><strong>CLI:</strong> A check that runs out of time says which step it was in and how long each took (<a href="https://github.com/heygen-com/hyperframes/commit/2ef60f3f26fd51ecf86dc9baa081f7e2b9982a67">2ef60f3f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6060">#6060</a>).</li>
+<li><strong>Ci:</strong> Packed consumer installs keep same-day dependency bumps on every Bun release (<a href="https://github.com/heygen-com/hyperframes/commit/2faf660ac1298af0205ebb34028ff45ad5293145">2faf660ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6059">#6059</a>).</li>
+<li><strong>CLI:</strong> Keep whisper CJK tokens as separate timed words (<a href="https://github.com/heygen-com/hyperframes/commit/3a0caeeb2da8c6428612e67d634b5accaed94fe2">3a0caeeb2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6058">#6058</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Say background removal can drop objects a person holds (<a href="https://github.com/heygen-com/hyperframes/commit/8d6ceb73598206b2735827d22fcac545f293cd8d">8d6ceb735</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6002">#6002</a>).</li>
+<li>Rename the Workflows nav group to Make a video and drop retired workflow steps (<a href="https://github.com/heygen-com/hyperframes/commit/c4edac305621f27070e0fa12132fbb6a0ab51004">c4edac305</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5655">#5655</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Hide retired skills on ClawHub once the sync has run (<a href="https://github.com/heygen-com/hyperframes/commit/f5873b80892274cb4cfc063f680bbe539c396baf">f5873b808</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5656">#5656</a>).</li>
+<li><strong>Core:</strong> Raise the unpacked size budget for capture motion blur&#39;s defect checks (<a href="https://github.com/heygen-com/hyperframes/commit/14e4772b36cca08986aa791c49f1e1dcb26eddaa">14e4772b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6055">#6055</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.185...v0.8.186">https://github.com/heygen-com/hyperframes/compare/v0.8.185...v0.8.186</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.186</h1>
+<p>Released on 2026-10-22.</p>
+<p>Capture motion blur now reaches renders and Studio, and it turns itself off, saying why, on pages it cannot blur safely. <code>hyperframes history</code> lists its entries even when it cannot write them, and <code>init --video</code> frames the project to the clip&#39;s shape.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Read a whole recording as voice, effect and music lines (<a href="https://github.com/heygen-com/hyperframes/commit/2c1d9d50d239d48862578f574c25de216be02746">2c1d9d50d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6056">#6056</a>).</li>
+<li><strong>CLI:</strong> Tell authors in check why motion blur is off (<a href="https://github.com/heygen-com/hyperframes/commit/4371981b740d92f70e520cfbec34db68a1c93434">4371981b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5992">#5992</a>).</li>
+<li><strong>Core,engine:</strong> Report why blur is off, and what each render session did (<a href="https://github.com/heygen-com/hyperframes/commit/38f6e01c2be3e29770df4b62f24cf734e385b707">38f6e01c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5991">#5991</a>).</li>
+<li><strong>Core,producer:</strong> Decide blur defects once per timeline, off on routes that cannot host it (<a href="https://github.com/heygen-com/hyperframes/commit/08c185d908d657f6142f3cc9ff118b9e29151616">08c185d90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5990">#5990</a>).</li>
+<li><strong>Core:</strong> Block capture motion blur on html-in-canvas defects (<a href="https://github.com/heygen-com/hyperframes/commit/536346c5d1e63a8a840bb0a8ba9423ffbab24502">536346c5d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5971">#5971</a>).</li>
+<li><strong>Core,engine:</strong> Track accelerated canvases before any page script runs (<a href="https://github.com/heygen-com/hyperframes/commit/0865b6f36d42a52247bf03de9db3ec9139ed8640">0865b6f36</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5970">#5970</a>).</li>
+<li><strong>Producer,studio:</strong> Wire capture motion blur into renders and Studio (<a href="https://github.com/heygen-com/hyperframes/commit/1f8ead7bde73a2acb9ff1c5b6327ad0153bd09b8">1f8ead7bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5969">#5969</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> History lists its entries even when this run cannot write the history (<a href="https://github.com/heygen-com/hyperframes/commit/934c88bac8cf6dc37db07cecf3bd0b58314c9921">934c88bac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6061">#6061</a>).</li>
+<li><strong>CLI:</strong> Init --video frames the project to the clip&#39;s shape, so nothing is cropped (<a href="https://github.com/heygen-com/hyperframes/commit/86b90bb424cd3f121419a15e930f17478afc0ea4">86b90bb42</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5984">#5984</a>).</li>
+<li><strong>Core:</strong> A clip&#39;s volume lane stays smooth in preview while the page is busy (<a href="https://github.com/heygen-com/hyperframes/commit/cfff4493dfc6ec2edb6f88295009fd89eebfd6c5">cfff4493d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6057">#6057</a>).</li>
+<li><strong>CLI:</strong> A check that runs out of time says which step it was in and how long each took (<a href="https://github.com/heygen-com/hyperframes/commit/2ef60f3f26fd51ecf86dc9baa081f7e2b9982a67">2ef60f3f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6060">#6060</a>).</li>
+<li><strong>Ci:</strong> Packed consumer installs keep same-day dependency bumps on every Bun release (<a href="https://github.com/heygen-com/hyperframes/commit/2faf660ac1298af0205ebb34028ff45ad5293145">2faf660ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6059">#6059</a>).</li>
+<li><strong>CLI:</strong> Keep whisper CJK tokens as separate timed words (<a href="https://github.com/heygen-com/hyperframes/commit/3a0caeeb2da8c6428612e67d634b5accaed94fe2">3a0caeeb2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6058">#6058</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Say background removal can drop objects a person holds (<a href="https://github.com/heygen-com/hyperframes/commit/8d6ceb73598206b2735827d22fcac545f293cd8d">8d6ceb735</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6002">#6002</a>).</li>
+<li>Rename the Workflows nav group to Make a video and drop retired workflow steps (<a href="https://github.com/heygen-com/hyperframes/commit/c4edac305621f27070e0fa12132fbb6a0ab51004">c4edac305</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5655">#5655</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Hide retired skills on ClawHub once the sync has run (<a href="https://github.com/heygen-com/hyperframes/commit/f5873b80892274cb4cfc063f680bbe539c396baf">f5873b808</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5656">#5656</a>).</li>
+<li><strong>Core:</strong> Raise the unpacked size budget for capture motion blur&#39;s defect checks (<a href="https://github.com/heygen-com/hyperframes/commit/14e4772b36cca08986aa791c49f1e1dcb26eddaa">14e4772b3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6055">#6055</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.185...v0.8.186">https://github.com/heygen-com/hyperframes/compare/v0.8.185...v0.8.186</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.185]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.185</link>
@@ -2539,66 +2615,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.135...v0.8.136">https://github.com/heygen-com/hyperframes/compare/v0.8.135...v0.8.136</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.135]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.135</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.135</guid>
-            <pubDate>Tue, 06 Oct 2026 00:39:06 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.135</h1>
-<p>Released on 2026-10-05.</p>
-<p>Studio edits preserve animation easing and Undo restores the latest edit, while Layers icons and nested scenes behave more predictably. Catalog previews now load under the docs site&#39;s script policy, with safer script encoding.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keyframed animations keep their ease through every Studio edit (<a href="https://github.com/heygen-com/hyperframes/commit/0d5e395cd31d0f491e9b26d0da110da6e231c512">0d5e395cd3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5051">#5051</a>).</li>
-<li><strong>Studio:</strong> Undo takes back the last edit, even right after a resize or a nudge (<a href="https://github.com/heygen-com/hyperframes/commit/98fe011699999901affa2f6aa558568d17dc9e1a">98fe011699</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5048">#5048</a>).</li>
-<li><strong>Studio:</strong> Layers rows show a kind icon, and only a group row has a caret (<a href="https://github.com/heygen-com/hyperframes/commit/f7d6734761967860eaecd7466ba610ef9bef349b">f7d6734761</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5067">#5067</a>).</li>
-<li><strong>Engine:</strong> A render fails when a composition&#39;s own script throws before its timeline binds (<a href="https://github.com/heygen-com/hyperframes/commit/39a693c0a450467929ae850e750454b28b271297">39a693c0a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5033">#5033</a>).</li>
-<li><strong>Core:</strong> A sub-composition follows its host clip when the host moves without a reload (<a href="https://github.com/heygen-com/hyperframes/commit/5d19e23cb4352cde0065d966e3ef3b5e2b955e4b">5d19e23cb4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5058">#5058</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Teach shared cut constants and fill lights for Three.js scenes (<a href="https://github.com/heygen-com/hyperframes/commit/6c353d89c85c0f8a1a3548196e203ee1bd7eec10">6c353d89c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5077">#5077</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Encode module aliases before constructing script code (<a href="https://github.com/heygen-com/hyperframes/commit/1d9b3673fade7511dd13cde5c3776a0e45e47ca3">1d9b3673fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5093">#5093</a>).</li>
-<li><strong>Catalog:</strong> 3D previews load their scripts under the docs host&#39;s script policy (<a href="https://github.com/heygen-com/hyperframes/commit/f835f8316402dc75c51d4d4c355047457ca930b1">f835f83164</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5090">#5090</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Pin the guards that keep script-placed scenes and unparseable scripts out of the in-place move (<a href="https://github.com/heygen-com/hyperframes/commit/3c40f37938f8038c630235e2c1fb4afbba047607">3c40f37938</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5079">#5079</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.134...v0.8.135">https://github.com/heygen-com/hyperframes/compare/v0.8.134...v0.8.135</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.135</h1>
-<p>Released on 2026-10-05.</p>
-<p>Studio edits preserve animation easing and Undo restores the latest edit, while Layers icons and nested scenes behave more predictably. Catalog previews now load under the docs site&#39;s script policy, with safer script encoding.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Keyframed animations keep their ease through every Studio edit (<a href="https://github.com/heygen-com/hyperframes/commit/0d5e395cd31d0f491e9b26d0da110da6e231c512">0d5e395cd3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5051">#5051</a>).</li>
-<li><strong>Studio:</strong> Undo takes back the last edit, even right after a resize or a nudge (<a href="https://github.com/heygen-com/hyperframes/commit/98fe011699999901affa2f6aa558568d17dc9e1a">98fe011699</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5048">#5048</a>).</li>
-<li><strong>Studio:</strong> Layers rows show a kind icon, and only a group row has a caret (<a href="https://github.com/heygen-com/hyperframes/commit/f7d6734761967860eaecd7466ba610ef9bef349b">f7d6734761</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5067">#5067</a>).</li>
-<li><strong>Engine:</strong> A render fails when a composition&#39;s own script throws before its timeline binds (<a href="https://github.com/heygen-com/hyperframes/commit/39a693c0a450467929ae850e750454b28b271297">39a693c0a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5033">#5033</a>).</li>
-<li><strong>Core:</strong> A sub-composition follows its host clip when the host moves without a reload (<a href="https://github.com/heygen-com/hyperframes/commit/5d19e23cb4352cde0065d966e3ef3b5e2b955e4b">5d19e23cb4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5058">#5058</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Teach shared cut constants and fill lights for Three.js scenes (<a href="https://github.com/heygen-com/hyperframes/commit/6c353d89c85c0f8a1a3548196e203ee1bd7eec10">6c353d89c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5077">#5077</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>Catalog:</strong> Encode module aliases before constructing script code (<a href="https://github.com/heygen-com/hyperframes/commit/1d9b3673fade7511dd13cde5c3776a0e45e47ca3">1d9b3673fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5093">#5093</a>).</li>
-<li><strong>Catalog:</strong> 3D previews load their scripts under the docs host&#39;s script policy (<a href="https://github.com/heygen-com/hyperframes/commit/f835f8316402dc75c51d4d4c355047457ca930b1">f835f83164</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5090">#5090</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Pin the guards that keep script-placed scenes and unparseable scripts out of the in-place move (<a href="https://github.com/heygen-com/hyperframes/commit/3c40f37938f8038c630235e2c1fb4afbba047607">3c40f37938</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5079">#5079</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.134...v0.8.135">https://github.com/heygen-com/hyperframes/compare/v0.8.134...v0.8.135</a></p>
 ]]></content:encoded>
         </item>
     </channel>
