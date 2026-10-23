@@ -4,11 +4,69 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 23 Oct 2026 18:56:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 22:23:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.190]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.190</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.190</guid>
+            <pubDate>Fri, 23 Oct 2026 22:23:40 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.190</h1>
+<p>Released on 2026-10-23.</p>
+<p>Motion blur now picks a cheaper way to draw when it can, and renders use less memory. Studio gains a preview seek bar, and an idle editor stops waking the GPU.</p>
+<h2>Features</h2>
+<ul>
+<li>Automatic tier, 240°/32 defaults, check finding, and Studio stops opting out (<a href="https://github.com/heygen-com/hyperframes/commit/79b57ab12dfdd4e84536af7f227401f6fac24a60">79b57ab12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6108">#6108</a>).</li>
+<li><strong>Core:</strong> Capture blur falls back to per-element filters where capture cannot run (<a href="https://github.com/heygen-com/hyperframes/commit/4ed78133873540ca10366b1230d973dc31ae2ddf">4ed781338</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6107">#6107</a>).</li>
+<li><strong>Studio:</strong> Add a preview seek bar (<a href="https://github.com/heygen-com/hyperframes/commit/2512642d09d3d5a4703fd2e6af71930a52e6c7ca">2512642d0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6103">#6103</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> The BeginFrame start-up check waits for the first frame up to its deadline (<a href="https://github.com/heygen-com/hyperframes/commit/73718a251bbbd4a8a4f649f4fc007e3a726015c5">73718a251</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6149">#6149</a>).</li>
+<li><strong>Engine:</strong> A render no longer decodes the videos it replaces with extracted frames (<a href="https://github.com/heygen-com/hyperframes/commit/01a523bcf8d0cd827359ed35b28d9f0be0ad011e">01a523bcf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6142">#6142</a>).</li>
+<li><strong>CLI:</strong> Render -c takes an absolute entry inside the project, relative to the project (<a href="https://github.com/heygen-com/hyperframes/commit/9fe0511c2e10b3dddafe80393dfb618bd424072d">9fe0511c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6141">#6141</a>).</li>
+<li><strong>Engine:</strong> The video frame cache budget is shared by the capture workers (<a href="https://github.com/heygen-com/hyperframes/commit/f8ae1483c580fd4f5691f83f6c3cf93d20e3227e">f8ae1483c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6135">#6135</a>).</li>
+<li><strong>Studio:</strong> The thumbnail capture page loads media near the playhead like the preview (<a href="https://github.com/heygen-com/hyperframes/commit/28ac4d76b6af9c13c9a877fc2472207cc577a4d3">28ac4d76b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6146">#6146</a>).</li>
+<li><strong>Engine:</strong> A long audio mix prepares its clips a few at a time (<a href="https://github.com/heygen-com/hyperframes/commit/1dc97921cd0713ace6a579e861f0b967210509b8">1dc97921c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6132">#6132</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> An idle editor stops waking the GPU four times a second (<a href="https://github.com/heygen-com/hyperframes/commit/6ad7c82d2175d018a93a85e96883dc31231b9884">6ad7c82d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6109">#6109</a>).</li>
+<li><strong>AWS Lambda:</strong> Warm the audio function while the plan runs (<a href="https://github.com/heygen-com/hyperframes/commit/fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1">fb2f7c1a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6148">#6148</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190">https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.190</h1>
+<p>Released on 2026-10-23.</p>
+<p>Motion blur now picks a cheaper way to draw when it can, and renders use less memory. Studio gains a preview seek bar, and an idle editor stops waking the GPU.</p>
+<h2>Features</h2>
+<ul>
+<li>Automatic tier, 240°/32 defaults, check finding, and Studio stops opting out (<a href="https://github.com/heygen-com/hyperframes/commit/79b57ab12dfdd4e84536af7f227401f6fac24a60">79b57ab12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6108">#6108</a>).</li>
+<li><strong>Core:</strong> Capture blur falls back to per-element filters where capture cannot run (<a href="https://github.com/heygen-com/hyperframes/commit/4ed78133873540ca10366b1230d973dc31ae2ddf">4ed781338</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6107">#6107</a>).</li>
+<li><strong>Studio:</strong> Add a preview seek bar (<a href="https://github.com/heygen-com/hyperframes/commit/2512642d09d3d5a4703fd2e6af71930a52e6c7ca">2512642d0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6103">#6103</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> The BeginFrame start-up check waits for the first frame up to its deadline (<a href="https://github.com/heygen-com/hyperframes/commit/73718a251bbbd4a8a4f649f4fc007e3a726015c5">73718a251</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6149">#6149</a>).</li>
+<li><strong>Engine:</strong> A render no longer decodes the videos it replaces with extracted frames (<a href="https://github.com/heygen-com/hyperframes/commit/01a523bcf8d0cd827359ed35b28d9f0be0ad011e">01a523bcf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6142">#6142</a>).</li>
+<li><strong>CLI:</strong> Render -c takes an absolute entry inside the project, relative to the project (<a href="https://github.com/heygen-com/hyperframes/commit/9fe0511c2e10b3dddafe80393dfb618bd424072d">9fe0511c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6141">#6141</a>).</li>
+<li><strong>Engine:</strong> The video frame cache budget is shared by the capture workers (<a href="https://github.com/heygen-com/hyperframes/commit/f8ae1483c580fd4f5691f83f6c3cf93d20e3227e">f8ae1483c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6135">#6135</a>).</li>
+<li><strong>Studio:</strong> The thumbnail capture page loads media near the playhead like the preview (<a href="https://github.com/heygen-com/hyperframes/commit/28ac4d76b6af9c13c9a877fc2472207cc577a4d3">28ac4d76b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6146">#6146</a>).</li>
+<li><strong>Engine:</strong> A long audio mix prepares its clips a few at a time (<a href="https://github.com/heygen-com/hyperframes/commit/1dc97921cd0713ace6a579e861f0b967210509b8">1dc97921c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6132">#6132</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> An idle editor stops waking the GPU four times a second (<a href="https://github.com/heygen-com/hyperframes/commit/6ad7c82d2175d018a93a85e96883dc31231b9884">6ad7c82d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6109">#6109</a>).</li>
+<li><strong>AWS Lambda:</strong> Warm the audio function while the plan runs (<a href="https://github.com/heygen-com/hyperframes/commit/fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1">fb2f7c1a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6148">#6148</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190">https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.189]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.189</link>
@@ -2651,64 +2709,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.138...v0.8.139">https://github.com/heygen-com/hyperframes/compare/v0.8.138...v0.8.139</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.138]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.138</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.138</guid>
-            <pubDate>Tue, 06 Oct 2026 18:19:06 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.138</h1>
-<p>Released on 2026-10-06.</p>
-<p>Parakeet transcription now loads the Sherpa copy that ships with the CLI when the cached one is broken. Loaded compositions keep their SVG icons, and Studio says so when GSAP cannot load offline.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Catch up on what the desktop app did since a project was handed over (<a href="https://github.com/heygen-com/hyperframes/commit/6fe3c2ce94f5d2e926cc7fcf79d3e62f4e68dac7">6fe3c2ce9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5114">#5114</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> An offline preview says GSAP could not load instead of an unhandled Event (<a href="https://github.com/heygen-com/hyperframes/commit/5fad52f21d0cb4742245d0b13c012d53c952d7ef">5fad52f21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5111">#5111</a>).</li>
-<li><strong>Studio Server:</strong> Keep the desktop app&#39;s hand-off and chat history out of the file routes (<a href="https://github.com/heygen-com/hyperframes/commit/32516b5a3d7ad1845feaedaaea94334ca38b8853">32516b5a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5113">#5113</a>).</li>
-<li><strong>Studio:</strong> Clip #root so programmatic scrolls cannot push the header off-screen (<a href="https://github.com/heygen-com/hyperframes/commit/518694ac6689bf0e850e9647b1e426c89d43a051">518694ac6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5110">#5110</a>).</li>
-<li><strong>Core:</strong> Preserve SVG icons in loaded compositions (<a href="https://github.com/heygen-com/hyperframes/commit/eff786383d2383a85648779caa38521377647b1f">eff786383</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5096">#5096</a>).</li>
-<li><strong>Studio:</strong> Dragging a Layers row no longer highlights the row names (<a href="https://github.com/heygen-com/hyperframes/commit/8b5b012e5c0bddbdf1e063f8b2198cc18d68575d">8b5b012e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5104">#5104</a>).</li>
-<li><strong>CLI:</strong> Use a healthy pinned Sherpa copy beside the CLI (<a href="https://github.com/heygen-com/hyperframes/commit/f6e419eb29565bbab7840a3c474214eebcbbea7a">f6e419eb2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5095">#5095</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Bundle the real-Chrome undo test with esbuild so its setup fits on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/b9998dd5a823f70c40fc6978b18c0b63546d967d">b9998dd5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5080">#5080</a>).</li>
-<li><strong>Producer:</strong> Compiler parity test runs without the network (<a href="https://github.com/heygen-com/hyperframes/commit/f80614cde4f14654769753198647b32a98ed2a1e">f80614cde</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5087">#5087</a>).</li>
-<li><strong>Studio:</strong> Keep the undo socket gate&#39;s sockets pinned past Chrome&#39;s idle media suspend (<a href="https://github.com/heygen-com/hyperframes/commit/43d07781d8cb708a32e0a992200528f274778440">43d07781d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5108">#5108</a>).</li>
-<li>Remove committed design notes and ignore docs/contracts (<a href="https://github.com/heygen-com/hyperframes/commit/6308727b85726433e6a1e148b608d8cb11085114">6308727b8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5107">#5107</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.137...v0.8.138">https://github.com/heygen-com/hyperframes/compare/v0.8.137...v0.8.138</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.138</h1>
-<p>Released on 2026-10-06.</p>
-<p>Parakeet transcription now loads the Sherpa copy that ships with the CLI when the cached one is broken. Loaded compositions keep their SVG icons, and Studio says so when GSAP cannot load offline.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Catch up on what the desktop app did since a project was handed over (<a href="https://github.com/heygen-com/hyperframes/commit/6fe3c2ce94f5d2e926cc7fcf79d3e62f4e68dac7">6fe3c2ce9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5114">#5114</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> An offline preview says GSAP could not load instead of an unhandled Event (<a href="https://github.com/heygen-com/hyperframes/commit/5fad52f21d0cb4742245d0b13c012d53c952d7ef">5fad52f21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5111">#5111</a>).</li>
-<li><strong>Studio Server:</strong> Keep the desktop app&#39;s hand-off and chat history out of the file routes (<a href="https://github.com/heygen-com/hyperframes/commit/32516b5a3d7ad1845feaedaaea94334ca38b8853">32516b5a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5113">#5113</a>).</li>
-<li><strong>Studio:</strong> Clip #root so programmatic scrolls cannot push the header off-screen (<a href="https://github.com/heygen-com/hyperframes/commit/518694ac6689bf0e850e9647b1e426c89d43a051">518694ac6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5110">#5110</a>).</li>
-<li><strong>Core:</strong> Preserve SVG icons in loaded compositions (<a href="https://github.com/heygen-com/hyperframes/commit/eff786383d2383a85648779caa38521377647b1f">eff786383</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5096">#5096</a>).</li>
-<li><strong>Studio:</strong> Dragging a Layers row no longer highlights the row names (<a href="https://github.com/heygen-com/hyperframes/commit/8b5b012e5c0bddbdf1e063f8b2198cc18d68575d">8b5b012e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5104">#5104</a>).</li>
-<li><strong>CLI:</strong> Use a healthy pinned Sherpa copy beside the CLI (<a href="https://github.com/heygen-com/hyperframes/commit/f6e419eb29565bbab7840a3c474214eebcbbea7a">f6e419eb2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5095">#5095</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Bundle the real-Chrome undo test with esbuild so its setup fits on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/b9998dd5a823f70c40fc6978b18c0b63546d967d">b9998dd5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5080">#5080</a>).</li>
-<li><strong>Producer:</strong> Compiler parity test runs without the network (<a href="https://github.com/heygen-com/hyperframes/commit/f80614cde4f14654769753198647b32a98ed2a1e">f80614cde</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5087">#5087</a>).</li>
-<li><strong>Studio:</strong> Keep the undo socket gate&#39;s sockets pinned past Chrome&#39;s idle media suspend (<a href="https://github.com/heygen-com/hyperframes/commit/43d07781d8cb708a32e0a992200528f274778440">43d07781d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5108">#5108</a>).</li>
-<li>Remove committed design notes and ignore docs/contracts (<a href="https://github.com/heygen-com/hyperframes/commit/6308727b85726433e6a1e148b608d8cb11085114">6308727b8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5107">#5107</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.137...v0.8.138">https://github.com/heygen-com/hyperframes/compare/v0.8.137...v0.8.138</a></p>
 ]]></content:encoded>
         </item>
     </channel>
