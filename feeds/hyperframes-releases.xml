@@ -4,11 +4,43 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 23 Oct 2026 10:22:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Oct 2026 18:56:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.189]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.189</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.189</guid>
+            <pubDate>Fri, 23 Oct 2026 18:56:28 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.189</h1>
+<p>Released on 2026-10-23.</p>
+<p>Renders with many audio clips, opaque ProRes video and different host sizes now behave the same everywhere. Studio history also works on drives without hard links.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> An opaque ProRes clip extracts to jpg frames, only ProRes with alpha stays png (<a href="https://github.com/heygen-com/hyperframes/commit/bd4cae7e3582e2da9eee3903bc0780d9d03c98b2">bd4cae7e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6130">#6130</a>).</li>
+<li><strong>Engine:</strong> Encode with the same x264 and x265 thread count on any host size (<a href="https://github.com/heygen-com/hyperframes/commit/132a504b692bad71d55fa29dc1086f33c3e6aaf3">132a504b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6127">#6127</a>).</li>
+<li><strong>Studio Server:</strong> The history lock works on drives without hard links (<a href="https://github.com/heygen-com/hyperframes/commit/2ed882ccf22fdf070e21442e0437b3ae57253405">2ed882ccf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6125">#6125</a>).</li>
+<li><strong>Engine:</strong> Mix any number of audio clips by summing them in stages (<a href="https://github.com/heygen-com/hyperframes/commit/3cdae3804e5f155903adfce32ddf81db290c04b3">3cdae3804</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6120">#6120</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.188...v0.8.189">https://github.com/heygen-com/hyperframes/compare/v0.8.188...v0.8.189</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.189</h1>
+<p>Released on 2026-10-23.</p>
+<p>Renders with many audio clips, opaque ProRes video and different host sizes now behave the same everywhere. Studio history also works on drives without hard links.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> An opaque ProRes clip extracts to jpg frames, only ProRes with alpha stays png (<a href="https://github.com/heygen-com/hyperframes/commit/bd4cae7e3582e2da9eee3903bc0780d9d03c98b2">bd4cae7e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6130">#6130</a>).</li>
+<li><strong>Engine:</strong> Encode with the same x264 and x265 thread count on any host size (<a href="https://github.com/heygen-com/hyperframes/commit/132a504b692bad71d55fa29dc1086f33c3e6aaf3">132a504b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6127">#6127</a>).</li>
+<li><strong>Studio Server:</strong> The history lock works on drives without hard links (<a href="https://github.com/heygen-com/hyperframes/commit/2ed882ccf22fdf070e21442e0437b3ae57253405">2ed882ccf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6125">#6125</a>).</li>
+<li><strong>Engine:</strong> Mix any number of audio clips by summing them in stages (<a href="https://github.com/heygen-com/hyperframes/commit/3cdae3804e5f155903adfce32ddf81db290c04b3">3cdae3804</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6120">#6120</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.188...v0.8.189">https://github.com/heygen-com/hyperframes/compare/v0.8.188...v0.8.189</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.188]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.188</link>
@@ -2677,36 +2709,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.137...v0.8.138">https://github.com/heygen-com/hyperframes/compare/v0.8.137...v0.8.138</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.137]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.137</guid>
-            <pubDate>Tue, 06 Oct 2026 05:47:19 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.137</h1>
-<p>Released on 2026-10-06.</p>
-<p>Compositions with large inline images or scripts use far less memory while they load for preview. Whisper transcription detects the spoken language and can report progress.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Audio clips that reach the export ceiling now say “Too loud”, with the exact peak on hover or keyboard focus (<a href="https://github.com/heygen-com/hyperframes/commit/4905b4dbca74ddff8e9302a0fe00fa74ddd7d056">4905b4dbc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5099">#5099</a>).</li>
-<li><strong>Core:</strong> Large inline images and scripts use far less memory while a composition loads (<a href="https://github.com/heygen-com/hyperframes/commit/00342fc2be0a9905dd67cc218d713aeca19b5e3f">00342fc2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5098">#5098</a>).</li>
-<li><strong>CLI:</strong> With Whisper, <code>transcribe</code> detects the spoken language instead of assuming English, and <code>--json</code> reports download and transcription progress. The new <code>--no-runtime-install</code> flag stops it installing the Whisper runtime (<a href="https://github.com/heygen-com/hyperframes/commit/1db44c659565a5a70a39fbe836c497afe9a84d6d">1db44c659</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5103">#5103</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.136...v0.8.137">https://github.com/heygen-com/hyperframes/compare/v0.8.136...v0.8.137</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.137</h1>
-<p>Released on 2026-10-06.</p>
-<p>Compositions with large inline images or scripts use far less memory while they load for preview. Whisper transcription detects the spoken language and can report progress.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Audio clips that reach the export ceiling now say “Too loud”, with the exact peak on hover or keyboard focus (<a href="https://github.com/heygen-com/hyperframes/commit/4905b4dbca74ddff8e9302a0fe00fa74ddd7d056">4905b4dbc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5099">#5099</a>).</li>
-<li><strong>Core:</strong> Large inline images and scripts use far less memory while a composition loads (<a href="https://github.com/heygen-com/hyperframes/commit/00342fc2be0a9905dd67cc218d713aeca19b5e3f">00342fc2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5098">#5098</a>).</li>
-<li><strong>CLI:</strong> With Whisper, <code>transcribe</code> detects the spoken language instead of assuming English, and <code>--json</code> reports download and transcription progress. The new <code>--no-runtime-install</code> flag stops it installing the Whisper runtime (<a href="https://github.com/heygen-com/hyperframes/commit/1db44c659565a5a70a39fbe836c497afe9a84d6d">1db44c659</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5103">#5103</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.136...v0.8.137">https://github.com/heygen-com/hyperframes/compare/v0.8.136...v0.8.137</a></p>
 ]]></content:encoded>
         </item>
     </channel>
