@@ -4,11 +4,81 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 24 Oct 2026 10:50:16 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Oct 2026 16:49:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.193]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.193</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.193</guid>
+            <pubDate>Sat, 24 Oct 2026 16:49:30 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.193</h1>
+<p>Released on 2026-10-24.</p>
+<p>Cloud renders of long, cut-heavy edits finish several times faster at the same or lower cost. Audio renders work again on FFmpeg 4.4.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Audio encodes on FFmpeg 4.4, which has no setts duration option (<a href="https://github.com/heygen-com/hyperframes/commit/3d45d1b037860afd42439a2b4ca7e0dc762448c3">3d45d1b037860</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6219">#6219</a>).</li>
+<li><strong>CLI:</strong> Each start sweeps the running markers of CLIs that are gone (<a href="https://github.com/heygen-com/hyperframes/commit/24965372dbbec90391978e223616c75045b9a813">24965372dbbec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5790">#5790</a>).</li>
+<li><strong>CLI:</strong> Snapshot rejects a negative --at and builds its sheet from its own frames (<a href="https://github.com/heygen-com/hyperframes/commit/80be6ff039bb7bb9c4ad2160441cf25fc29faf26">80be6ff039bb7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6179">#6179</a>).</li>
+<li><strong>CLI:</strong> Snapshot seeks into a HEVC cut whose index lands a keyframe early (<a href="https://github.com/heygen-com/hyperframes/commit/3cbd98890e6f6f2c9544e753deedbd658486b569">3cbd98890e6f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6217">#6217</a>).</li>
+<li><strong>Studio Server:</strong> A history restore refuses to remove every tracked file (<a href="https://github.com/heygen-com/hyperframes/commit/0eae4946d33f3d874478fa7a292f3aae6a669ce1">0eae4946d33f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6175">#6175</a>).</li>
+<li><strong>Engine:</strong> Disable Dawn&#39;s DXC on Windows so WebGPU requestDevice succeeds (<a href="https://github.com/heygen-com/hyperframes/commit/3dc0b97bfdfe33cfb44c3655bd2849a4981e3842">3dc0b97bfdfe3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5830">#5830</a>).</li>
+<li><strong>Studio:</strong> A scene swap no longer keeps the previous preview window in memory (<a href="https://github.com/heygen-com/hyperframes/commit/291144e87ddfee93a3cd01764810311f0b5c5016">291144e87ddfe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6207">#6207</a>).</li>
+<li><strong>Core:</strong> Color grading builds a new WebGL context when a lost one is never restored (<a href="https://github.com/heygen-com/hyperframes/commit/700187b855de3cd35d9094e5006407dddd41a2ce">700187b855de3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6211">#6211</a>).</li>
+<li><strong>Producer:</strong> A render&#39;s page-error count includes what the capture workers saw (<a href="https://github.com/heygen-com/hyperframes/commit/1ab871fb117aa4a5172c9d28c4c3d4556cedebbc">1ab871fb117aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6196">#6196</a>).</li>
+<li><strong>Engine:</strong> Renames ride out Windows file locks instead of failing the render (<a href="https://github.com/heygen-com/hyperframes/commit/0a8a78edec413f04b127ac2454f071793bd83000">0a8a78edec413</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6210">#6210</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>AWS Lambda:</strong> Cloud renders plan without reading video bytes and start chunks sooner (<a href="https://github.com/heygen-com/hyperframes/commit/da4386f0d06955cbdd09bce5a6e837f4c657654f">da4386f0d0695</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6194">#6194</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Say which font faces are bundled and which are fetched (<a href="https://github.com/heygen-com/hyperframes/commit/8811f0bfbf3e7fb514e01c2eeb4244692fc4afd0">8811f0bfbf3e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6197">#6197</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The lifecycle suite lets background imports settle before it resets modules (<a href="https://github.com/heygen-com/hyperframes/commit/dd1cba49de4e1e610479d9e177a0c200f801da2a">dd1cba49de4e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6216">#6216</a>).</li>
+<li>The lifecycle and thumbnail suites load cold modules in a hook, not in their first test (<a href="https://github.com/heygen-com/hyperframes/commit/1a238171ec55896a9cb8452c33e4e0fe1063a60c">1a238171ec558</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6212">#6212</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.192...v0.8.193">https://github.com/heygen-com/hyperframes/compare/v0.8.192...v0.8.193</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.193</h1>
+<p>Released on 2026-10-24.</p>
+<p>Cloud renders of long, cut-heavy edits finish several times faster at the same or lower cost. Audio renders work again on FFmpeg 4.4.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Audio encodes on FFmpeg 4.4, which has no setts duration option (<a href="https://github.com/heygen-com/hyperframes/commit/3d45d1b037860afd42439a2b4ca7e0dc762448c3">3d45d1b037860</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6219">#6219</a>).</li>
+<li><strong>CLI:</strong> Each start sweeps the running markers of CLIs that are gone (<a href="https://github.com/heygen-com/hyperframes/commit/24965372dbbec90391978e223616c75045b9a813">24965372dbbec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5790">#5790</a>).</li>
+<li><strong>CLI:</strong> Snapshot rejects a negative --at and builds its sheet from its own frames (<a href="https://github.com/heygen-com/hyperframes/commit/80be6ff039bb7bb9c4ad2160441cf25fc29faf26">80be6ff039bb7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6179">#6179</a>).</li>
+<li><strong>CLI:</strong> Snapshot seeks into a HEVC cut whose index lands a keyframe early (<a href="https://github.com/heygen-com/hyperframes/commit/3cbd98890e6f6f2c9544e753deedbd658486b569">3cbd98890e6f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6217">#6217</a>).</li>
+<li><strong>Studio Server:</strong> A history restore refuses to remove every tracked file (<a href="https://github.com/heygen-com/hyperframes/commit/0eae4946d33f3d874478fa7a292f3aae6a669ce1">0eae4946d33f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6175">#6175</a>).</li>
+<li><strong>Engine:</strong> Disable Dawn&#39;s DXC on Windows so WebGPU requestDevice succeeds (<a href="https://github.com/heygen-com/hyperframes/commit/3dc0b97bfdfe33cfb44c3655bd2849a4981e3842">3dc0b97bfdfe3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5830">#5830</a>).</li>
+<li><strong>Studio:</strong> A scene swap no longer keeps the previous preview window in memory (<a href="https://github.com/heygen-com/hyperframes/commit/291144e87ddfee93a3cd01764810311f0b5c5016">291144e87ddfe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6207">#6207</a>).</li>
+<li><strong>Core:</strong> Color grading builds a new WebGL context when a lost one is never restored (<a href="https://github.com/heygen-com/hyperframes/commit/700187b855de3cd35d9094e5006407dddd41a2ce">700187b855de3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6211">#6211</a>).</li>
+<li><strong>Producer:</strong> A render&#39;s page-error count includes what the capture workers saw (<a href="https://github.com/heygen-com/hyperframes/commit/1ab871fb117aa4a5172c9d28c4c3d4556cedebbc">1ab871fb117aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6196">#6196</a>).</li>
+<li><strong>Engine:</strong> Renames ride out Windows file locks instead of failing the render (<a href="https://github.com/heygen-com/hyperframes/commit/0a8a78edec413f04b127ac2454f071793bd83000">0a8a78edec413</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6210">#6210</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>AWS Lambda:</strong> Cloud renders plan without reading video bytes and start chunks sooner (<a href="https://github.com/heygen-com/hyperframes/commit/da4386f0d06955cbdd09bce5a6e837f4c657654f">da4386f0d0695</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6194">#6194</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Say which font faces are bundled and which are fetched (<a href="https://github.com/heygen-com/hyperframes/commit/8811f0bfbf3e7fb514e01c2eeb4244692fc4afd0">8811f0bfbf3e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6197">#6197</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The lifecycle suite lets background imports settle before it resets modules (<a href="https://github.com/heygen-com/hyperframes/commit/dd1cba49de4e1e610479d9e177a0c200f801da2a">dd1cba49de4e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6216">#6216</a>).</li>
+<li>The lifecycle and thumbnail suites load cold modules in a hook, not in their first test (<a href="https://github.com/heygen-com/hyperframes/commit/1a238171ec55896a9cb8452c33e4e0fe1063a60c">1a238171ec558</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6212">#6212</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.192...v0.8.193">https://github.com/heygen-com/hyperframes/compare/v0.8.192...v0.8.193</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.192]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.192</link>
@@ -2737,40 +2807,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.141...v0.8.142">https://github.com/heygen-com/hyperframes/compare/v0.8.141...v0.8.142</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.141]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.141</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.141</guid>
-            <pubDate>Thu, 08 Oct 2026 06:23:54 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.141</h1>
-<p>Released on 2026-10-08.</p>
-<p>Renders no longer fail when a page links a Google font with axis values the family lacks. Studio previews of hard-to-play videos decode at their on-screen size.</p>
-<h2>Changes</h2>
-<ul>
-<li>A font whose Google Fonts link returns no usable faces now falls back to the standard weight request, so renders keep the font instead of failing. (<a href="https://github.com/heygen-com/hyperframes/pull/5186">#5186</a>).</li>
-<li>Unresolved-font errors carry structured diagnostics about which resolver step failed, without font names, URLs or page text. (<a href="https://github.com/heygen-com/hyperframes/pull/5189">#5189</a>).</li>
-<li>The player loads compositions using the document&#39;s own duration and reports the first author error. (<a href="https://github.com/heygen-com/hyperframes/pull/5176">#5176</a>).</li>
-<li>Studio decodes HEVC and ProRes previews at the size they appear on screen, so back-to-back 4K clips no longer flash the background. (<a href="https://github.com/heygen-com/hyperframes/pull/5184">#5184</a>).</li>
-<li>media-use can reach HeyGen through a host app&#39;s gateway with <code>HEYGEN_API_BASE</code>. (<a href="https://github.com/heygen-com/hyperframes/pull/5181">#5181</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.140...v0.8.141">https://github.com/heygen-com/hyperframes/compare/v0.8.140...v0.8.141</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.141</h1>
-<p>Released on 2026-10-08.</p>
-<p>Renders no longer fail when a page links a Google font with axis values the family lacks. Studio previews of hard-to-play videos decode at their on-screen size.</p>
-<h2>Changes</h2>
-<ul>
-<li>A font whose Google Fonts link returns no usable faces now falls back to the standard weight request, so renders keep the font instead of failing. (<a href="https://github.com/heygen-com/hyperframes/pull/5186">#5186</a>).</li>
-<li>Unresolved-font errors carry structured diagnostics about which resolver step failed, without font names, URLs or page text. (<a href="https://github.com/heygen-com/hyperframes/pull/5189">#5189</a>).</li>
-<li>The player loads compositions using the document&#39;s own duration and reports the first author error. (<a href="https://github.com/heygen-com/hyperframes/pull/5176">#5176</a>).</li>
-<li>Studio decodes HEVC and ProRes previews at the size they appear on screen, so back-to-back 4K clips no longer flash the background. (<a href="https://github.com/heygen-com/hyperframes/pull/5184">#5184</a>).</li>
-<li>media-use can reach HeyGen through a host app&#39;s gateway with <code>HEYGEN_API_BASE</code>. (<a href="https://github.com/heygen-com/hyperframes/pull/5181">#5181</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.140...v0.8.141">https://github.com/heygen-com/hyperframes/compare/v0.8.140...v0.8.141</a></p>
 ]]></content:encoded>
         </item>
     </channel>
