@@ -4,11 +4,49 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 25 Oct 2026 03:47:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 07:21:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.196]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.196</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.196</guid>
+            <pubDate>Sun, 25 Oct 2026 07:21:50 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.196</h1>
+<p>Released on 2026-10-25.</p>
+<p>Undoing a rename of a video or audio file works again: the file comes back under its old name. The CLI&#39;s add, check and archive commands get fixes too, and cache-busted images stay visible in bundles.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Undoing a video rename brings the file back under its old name (<a href="https://github.com/heygen-com/hyperframes/commit/7bc363c87c8524e547c5b759d2471d96183b67f3">7bc363c87c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6285">#6285</a>).</li>
+<li><strong>Deps:</strong> Update esbuild for the security advisory (<a href="https://github.com/heygen-com/hyperframes/commit/38afc0b0135f0c0a956d354e8a6f578da7bd8581">38afc0b013</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6277">#6277</a>).</li>
+<li><strong>CLI:</strong> Stop &#39;hyperframes add&#39; hanging when a desktop clipboard is available (<a href="https://github.com/heygen-com/hyperframes/commit/221f3671f28c95ea3c4bf9148faaaa6bc359e73e">221f3671f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6271">#6271</a>).</li>
+<li><strong>Core:</strong> Keep cache-busted images visible in bundles (<a href="https://github.com/heygen-com/hyperframes/commit/32d2d3cba0436ad46fdda3a49da91d8c3a4763e0">32d2d3cba0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6264">#6264</a>).</li>
+<li><strong>CLI:</strong> Include encoded external assets in archives (<a href="https://github.com/heygen-com/hyperframes/commit/c6c8d81ba33cdbfd9697751b3d1c52ab508bca19">c6c8d81ba3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6266">#6266</a>).</li>
+<li><strong>CLI:</strong> Remove stale briefs when re-freezing recipes (<a href="https://github.com/heygen-com/hyperframes/commit/f5e15b2f775588bea09795b4df2babe6a110ed6b">f5e15b2f77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5324">#5324</a>).</li>
+<li><strong>CLI:</strong> Check finishes on long projects with many video clips (<a href="https://github.com/heygen-com/hyperframes/commit/37f5f272908d9bb0e596e902f4a45e81fc7a73b0">37f5f27290</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6270">#6270</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.195...v0.8.196">https://github.com/heygen-com/hyperframes/compare/v0.8.195...v0.8.196</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.196</h1>
+<p>Released on 2026-10-25.</p>
+<p>Undoing a rename of a video or audio file works again: the file comes back under its old name. The CLI&#39;s add, check and archive commands get fixes too, and cache-busted images stay visible in bundles.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Undoing a video rename brings the file back under its old name (<a href="https://github.com/heygen-com/hyperframes/commit/7bc363c87c8524e547c5b759d2471d96183b67f3">7bc363c87c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6285">#6285</a>).</li>
+<li><strong>Deps:</strong> Update esbuild for the security advisory (<a href="https://github.com/heygen-com/hyperframes/commit/38afc0b0135f0c0a956d354e8a6f578da7bd8581">38afc0b013</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6277">#6277</a>).</li>
+<li><strong>CLI:</strong> Stop &#39;hyperframes add&#39; hanging when a desktop clipboard is available (<a href="https://github.com/heygen-com/hyperframes/commit/221f3671f28c95ea3c4bf9148faaaa6bc359e73e">221f3671f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6271">#6271</a>).</li>
+<li><strong>Core:</strong> Keep cache-busted images visible in bundles (<a href="https://github.com/heygen-com/hyperframes/commit/32d2d3cba0436ad46fdda3a49da91d8c3a4763e0">32d2d3cba0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6264">#6264</a>).</li>
+<li><strong>CLI:</strong> Include encoded external assets in archives (<a href="https://github.com/heygen-com/hyperframes/commit/c6c8d81ba33cdbfd9697751b3d1c52ab508bca19">c6c8d81ba3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6266">#6266</a>).</li>
+<li><strong>CLI:</strong> Remove stale briefs when re-freezing recipes (<a href="https://github.com/heygen-com/hyperframes/commit/f5e15b2f775588bea09795b4df2babe6a110ed6b">f5e15b2f77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5324">#5324</a>).</li>
+<li><strong>CLI:</strong> Check finishes on long projects with many video clips (<a href="https://github.com/heygen-com/hyperframes/commit/37f5f272908d9bb0e596e902f4a45e81fc7a73b0">37f5f27290</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6270">#6270</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.195...v0.8.196">https://github.com/heygen-com/hyperframes/compare/v0.8.195...v0.8.196</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.195]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.195</link>
@@ -2613,58 +2651,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.145...v0.8.146">https://github.com/heygen-com/hyperframes/compare/v0.8.145...v0.8.146</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.145]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.145</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.145</guid>
-            <pubDate>Sat, 10 Oct 2026 08:28:04 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.145</h1>
-<p>Released on 2026-10-10.</p>
-<p>Studio can export on the GPU, and the producer package on npm is a fraction of its old size. Long exports no longer stall at 90%, and previews recover from a stalled font or asset.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Export can encode on the GPU, like render --gpu (<a href="https://github.com/heygen-com/hyperframes/commit/91f9c9eb04619bfe5c43ccee1c87cad2f8a2f65a">91f9c9eb0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5397">#5397</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> The npm package ships only its own code and no source maps (<a href="https://github.com/heygen-com/hyperframes/commit/affa4d53cf86334c18d0476955fce3f4f73f6a06">affa4d53c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5398">#5398</a>).</li>
-<li><strong>Examples:</strong> The k8s chunk-runner image installs and loads the producer again (<a href="https://github.com/heygen-com/hyperframes/commit/6f3f86a9c9824c8ad5b7bf760375e243466e5ee0">6f3f86a9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5373">#5373</a>).</li>
-<li><strong>Studio Server:</strong> The public proxy cache path names boxed preview copies too (<a href="https://github.com/heygen-com/hyperframes/commit/e158c73a9eb1215616b6498474968ac8f813f8d9">e158c73a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5407">#5407</a>).</li>
-<li><strong>CLI:</strong> Keyframes --shot on a compositions/ file mounts the scene in its project (<a href="https://github.com/heygen-com/hyperframes/commit/4225fba3a4fee7f41fc8e8e4219e9e40e39f5915">4225fba3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5401">#5401</a>).</li>
-<li><strong>Skills:</strong> Skill scripts run through a symlinked skills dir and agents keep long renders alive (<a href="https://github.com/heygen-com/hyperframes/commit/f46033d048983e914e98d9ed834b51b0c448bb16">f46033d04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5396">#5396</a>).</li>
-<li><strong>Runtime:</strong> Graded pictures stay graded in sandboxed players (<a href="https://github.com/heygen-com/hyperframes/commit/684c038483cdf9f6f25ea518b7fd446596fb4fab">684c03848</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5383">#5383</a>).</li>
-<li><strong>Engine:</strong> Audio duration probe reads to the end on Windows; cli tests skip bun&#39;s disk cache (<a href="https://github.com/heygen-com/hyperframes/commit/3d6de0581ed9161fb8578222b3ec270413aebbab">3d6de0581</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5395">#5395</a>).</li>
-<li><strong>Engine:</strong> Long exports with many clips no longer stall at 90% or hide a timeout (<a href="https://github.com/heygen-com/hyperframes/commit/4b68f73fe76b14934d38504b55735070807f5927">4b68f73fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5375">#5375</a>).</li>
-<li><strong>Studio:</strong> A stalled font or asset no longer leaves the preview empty or drops reloads (<a href="https://github.com/heygen-com/hyperframes/commit/d93b7697635ca5327fbceb67325c578a70c5b7fc">d93b76976</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5370">#5370</a>).</li>
-<li><strong>Studio Server:</strong> A failed save reports its real error when a later file was never written (<a href="https://github.com/heygen-com/hyperframes/commit/063c2f8d61b4e989274b6526b370edc588b37e4a">063c2f8d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5364">#5364</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.144...v0.8.145">https://github.com/heygen-com/hyperframes/compare/v0.8.144...v0.8.145</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.145</h1>
-<p>Released on 2026-10-10.</p>
-<p>Studio can export on the GPU, and the producer package on npm is a fraction of its old size. Long exports no longer stall at 90%, and previews recover from a stalled font or asset.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Export can encode on the GPU, like render --gpu (<a href="https://github.com/heygen-com/hyperframes/commit/91f9c9eb04619bfe5c43ccee1c87cad2f8a2f65a">91f9c9eb0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5397">#5397</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> The npm package ships only its own code and no source maps (<a href="https://github.com/heygen-com/hyperframes/commit/affa4d53cf86334c18d0476955fce3f4f73f6a06">affa4d53c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5398">#5398</a>).</li>
-<li><strong>Examples:</strong> The k8s chunk-runner image installs and loads the producer again (<a href="https://github.com/heygen-com/hyperframes/commit/6f3f86a9c9824c8ad5b7bf760375e243466e5ee0">6f3f86a9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5373">#5373</a>).</li>
-<li><strong>Studio Server:</strong> The public proxy cache path names boxed preview copies too (<a href="https://github.com/heygen-com/hyperframes/commit/e158c73a9eb1215616b6498474968ac8f813f8d9">e158c73a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5407">#5407</a>).</li>
-<li><strong>CLI:</strong> Keyframes --shot on a compositions/ file mounts the scene in its project (<a href="https://github.com/heygen-com/hyperframes/commit/4225fba3a4fee7f41fc8e8e4219e9e40e39f5915">4225fba3a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5401">#5401</a>).</li>
-<li><strong>Skills:</strong> Skill scripts run through a symlinked skills dir and agents keep long renders alive (<a href="https://github.com/heygen-com/hyperframes/commit/f46033d048983e914e98d9ed834b51b0c448bb16">f46033d04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5396">#5396</a>).</li>
-<li><strong>Runtime:</strong> Graded pictures stay graded in sandboxed players (<a href="https://github.com/heygen-com/hyperframes/commit/684c038483cdf9f6f25ea518b7fd446596fb4fab">684c03848</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5383">#5383</a>).</li>
-<li><strong>Engine:</strong> Audio duration probe reads to the end on Windows; cli tests skip bun&#39;s disk cache (<a href="https://github.com/heygen-com/hyperframes/commit/3d6de0581ed9161fb8578222b3ec270413aebbab">3d6de0581</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5395">#5395</a>).</li>
-<li><strong>Engine:</strong> Long exports with many clips no longer stall at 90% or hide a timeout (<a href="https://github.com/heygen-com/hyperframes/commit/4b68f73fe76b14934d38504b55735070807f5927">4b68f73fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5375">#5375</a>).</li>
-<li><strong>Studio:</strong> A stalled font or asset no longer leaves the preview empty or drops reloads (<a href="https://github.com/heygen-com/hyperframes/commit/d93b7697635ca5327fbceb67325c578a70c5b7fc">d93b76976</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5370">#5370</a>).</li>
-<li><strong>Studio Server:</strong> A failed save reports its real error when a later file was never written (<a href="https://github.com/heygen-com/hyperframes/commit/063c2f8d61b4e989274b6526b370edc588b37e4a">063c2f8d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5364">#5364</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.144...v0.8.145">https://github.com/heygen-com/hyperframes/compare/v0.8.144...v0.8.145</a></p>
 ]]></content:encoded>
         </item>
     </channel>
