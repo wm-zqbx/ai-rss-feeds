@@ -4,11 +4,127 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 25 Oct 2026 13:12:03 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 21:18:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.200]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.200</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.200</guid>
+            <pubDate>Sun, 25 Oct 2026 21:18:54 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.200</h1>
+<p>Released on 2026-10-25.</p>
+<p>The preview draws only the scenes near the playhead, so long projects scrub faster. Renders size their capture browsers by frame cost and keep fast capture on for more frames.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> The audio peak correction sizes its cut from the PCM it re-encodes (<a href="https://github.com/heygen-com/hyperframes/commit/1a37db4aee9349e6c619313475159e90b49da083">1a37db4aee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6312">#6312</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> The preview mounts and draws only the scenes near the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/70187a13b59118cf056f3bcdcd0c0df8f453a9f8">70187a13b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6189">#6189</a>).</li>
+<li><strong>Engine:</strong> Fast capture stays on for frames a shadow, blur or clip effect does not touch (<a href="https://github.com/heygen-com/hyperframes/commit/c50918277ae69b45677c200e95575faec5fd1519">c50918277a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6318">#6318</a>).</li>
+<li><strong>Producer:</strong> Size a chunk&#39;s capture browsers by its frame cost, not its frame count (<a href="https://github.com/heygen-com/hyperframes/commit/69405a7736830f743dc2a8192c36f26dac99d4ae">69405a7736</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6319">#6319</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Run cli tests in their own job so runtime tests stop timing out (<a href="https://github.com/heygen-com/hyperframes/commit/8214cdcd295de9542a05b8484ccf1b48ed97937b">8214cdcd29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6326">#6326</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200">https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.200</h1>
+<p>Released on 2026-10-25.</p>
+<p>The preview draws only the scenes near the playhead, so long projects scrub faster. Renders size their capture browsers by frame cost and keep fast capture on for more frames.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> The audio peak correction sizes its cut from the PCM it re-encodes (<a href="https://github.com/heygen-com/hyperframes/commit/1a37db4aee9349e6c619313475159e90b49da083">1a37db4aee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6312">#6312</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> The preview mounts and draws only the scenes near the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/70187a13b59118cf056f3bcdcd0c0df8f453a9f8">70187a13b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6189">#6189</a>).</li>
+<li><strong>Engine:</strong> Fast capture stays on for frames a shadow, blur or clip effect does not touch (<a href="https://github.com/heygen-com/hyperframes/commit/c50918277ae69b45677c200e95575faec5fd1519">c50918277a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6318">#6318</a>).</li>
+<li><strong>Producer:</strong> Size a chunk&#39;s capture browsers by its frame cost, not its frame count (<a href="https://github.com/heygen-com/hyperframes/commit/69405a7736830f743dc2a8192c36f26dac99d4ae">69405a7736</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6319">#6319</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>Run cli tests in their own job so runtime tests stop timing out (<a href="https://github.com/heygen-com/hyperframes/commit/8214cdcd295de9542a05b8484ccf1b48ed97937b">8214cdcd29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6326">#6326</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200">https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.199]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.199</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.199</guid>
+            <pubDate>Sun, 25 Oct 2026 18:38:10 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.199</h1>
+<p>Released on 2026-10-25.</p>
+<p>Long HDR videos now render without filling the disk, and parallel capture stays on after one failed frame check. Lint warns when a scene&#39;s styles sit outside its template.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Lint:</strong> Warn when a scene&#39;s styles sit outside its template (<a href="https://github.com/heygen-com/hyperframes/commit/ad6771c435e6fb57c540f630820d2a1265c0c63d">ad6771c435</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6317">#6317</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> --workers N is a ceiling, drawElement renders keep their single worker (<a href="https://github.com/heygen-com/hyperframes/commit/26e3045e3b2805ae10b3090c3254a04de4f372e3">26e3045e3b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6314">#6314</a>).</li>
+<li><strong>CLI:</strong> A failed frame check no longer switches parallel capture off for good (<a href="https://github.com/heygen-com/hyperframes/commit/d3a7599c60f1fe7f0993ce25c890a232048633e2">d3a7599c60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6313">#6313</a>).</li>
+<li><strong>Producer:</strong> Extract HDR video frames a window at a time to bound scratch disk (<a href="https://github.com/heygen-com/hyperframes/commit/7569ec1be58082980a7493c893bca5b7fdc8ca31">7569ec1be5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6304">#6304</a>).</li>
+<li><strong>Studio:</strong> Scrubbing never auditions a track the music row did not name (<a href="https://github.com/heygen-com/hyperframes/commit/9763b68a33aca8c4cf29a6d3bda7cb887ba86332">9763b68a33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6310">#6310</a>).</li>
+<li><strong>Core:</strong> The decoded-audio cache keys a clip the same way everywhere (<a href="https://github.com/heygen-com/hyperframes/commit/80ba3f59ec601e16f43525310ebf5a2ea450704e">80ba3f59ec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6306">#6306</a>).</li>
+<li><strong>CLI:</strong> A long video copy reports progress, resumes in 15 s pieces and stops only when stalled (<a href="https://github.com/heygen-com/hyperframes/commit/ada9932d4e2f12831f96c08b0acc3fedc3c7cc24">ada9932d4e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6307">#6307</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> Mounting a scene no longer restyles it to look for raster hints (<a href="https://github.com/heygen-com/hyperframes/commit/89af2908080cb7da8013d7133d8bf3cbe86d12e4">89af290808</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6300">#6300</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Say a volume lane multiplies data-volume (<a href="https://github.com/heygen-com/hyperframes/commit/9b80c2d01efa48ae48cd702129def7ec4eb6faf4">9b80c2d01e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6308">#6308</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Check the browser that ran the hanging script, and that every browser it started is gone (<a href="https://github.com/heygen-com/hyperframes/commit/d4812a03937ecab8e572cb909004d84d35260066">d4812a0393</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6320">#6320</a>).</li>
+<li><strong>Engine:</strong> Count what the mixer read from a cloud file, not what the server buffered (<a href="https://github.com/heygen-com/hyperframes/commit/7b76377534a78b3d8d4cfe1614da3cf16280cca7">7b76377534</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6315">#6315</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.198...v0.8.199">https://github.com/heygen-com/hyperframes/compare/v0.8.198...v0.8.199</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.199</h1>
+<p>Released on 2026-10-25.</p>
+<p>Long HDR videos now render without filling the disk, and parallel capture stays on after one failed frame check. Lint warns when a scene&#39;s styles sit outside its template.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Lint:</strong> Warn when a scene&#39;s styles sit outside its template (<a href="https://github.com/heygen-com/hyperframes/commit/ad6771c435e6fb57c540f630820d2a1265c0c63d">ad6771c435</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6317">#6317</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> --workers N is a ceiling, drawElement renders keep their single worker (<a href="https://github.com/heygen-com/hyperframes/commit/26e3045e3b2805ae10b3090c3254a04de4f372e3">26e3045e3b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6314">#6314</a>).</li>
+<li><strong>CLI:</strong> A failed frame check no longer switches parallel capture off for good (<a href="https://github.com/heygen-com/hyperframes/commit/d3a7599c60f1fe7f0993ce25c890a232048633e2">d3a7599c60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6313">#6313</a>).</li>
+<li><strong>Producer:</strong> Extract HDR video frames a window at a time to bound scratch disk (<a href="https://github.com/heygen-com/hyperframes/commit/7569ec1be58082980a7493c893bca5b7fdc8ca31">7569ec1be5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6304">#6304</a>).</li>
+<li><strong>Studio:</strong> Scrubbing never auditions a track the music row did not name (<a href="https://github.com/heygen-com/hyperframes/commit/9763b68a33aca8c4cf29a6d3bda7cb887ba86332">9763b68a33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6310">#6310</a>).</li>
+<li><strong>Core:</strong> The decoded-audio cache keys a clip the same way everywhere (<a href="https://github.com/heygen-com/hyperframes/commit/80ba3f59ec601e16f43525310ebf5a2ea450704e">80ba3f59ec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6306">#6306</a>).</li>
+<li><strong>CLI:</strong> A long video copy reports progress, resumes in 15 s pieces and stops only when stalled (<a href="https://github.com/heygen-com/hyperframes/commit/ada9932d4e2f12831f96c08b0acc3fedc3c7cc24">ada9932d4e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6307">#6307</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> Mounting a scene no longer restyles it to look for raster hints (<a href="https://github.com/heygen-com/hyperframes/commit/89af2908080cb7da8013d7133d8bf3cbe86d12e4">89af290808</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6300">#6300</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Say a volume lane multiplies data-volume (<a href="https://github.com/heygen-com/hyperframes/commit/9b80c2d01efa48ae48cd702129def7ec4eb6faf4">9b80c2d01e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6308">#6308</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Check the browser that ran the hanging script, and that every browser it started is gone (<a href="https://github.com/heygen-com/hyperframes/commit/d4812a03937ecab8e572cb909004d84d35260066">d4812a0393</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6320">#6320</a>).</li>
+<li><strong>Engine:</strong> Count what the mixer read from a cloud file, not what the server buffered (<a href="https://github.com/heygen-com/hyperframes/commit/7b76377534a78b3d8d4cfe1614da3cf16280cca7">7b76377534</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6315">#6315</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.198...v0.8.199">https://github.com/heygen-com/hyperframes/compare/v0.8.198...v0.8.199</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.198]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.198</link>
@@ -2597,62 +2713,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.149...v0.8.150">https://github.com/heygen-com/hyperframes/compare/v0.8.149...v0.8.150</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.149]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.149</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.149</guid>
-            <pubDate>Sun, 11 Oct 2026 19:16:59 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.149</h1>
-<p>Released on 2026-10-11.</p>
-<p>Apps can now import <code>transcribe</code> and <code>removeBackground</code> from <code>hyperframes/api</code> and call them as plain functions. They return typed results and throw typed errors, so tools like HyperFrames Desktop no longer need to run the CLI as a child process.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> New <code>hyperframes/api</code> entry that exports <code>transcribe</code> and <code>removeBackground</code> as importable functions (<a href="https://github.com/heygen-com/hyperframes/commit/943b6512b43b106c79839a977f3bfa4aa115a11d">943b6512b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5453">#5453</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.148...v0.8.149">https://github.com/heygen-com/hyperframes/compare/v0.8.148...v0.8.149</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.149</h1>
-<p>Released on 2026-10-11.</p>
-<p>Apps can now import <code>transcribe</code> and <code>removeBackground</code> from <code>hyperframes/api</code> and call them as plain functions. They return typed results and throw typed errors, so tools like HyperFrames Desktop no longer need to run the CLI as a child process.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> New <code>hyperframes/api</code> entry that exports <code>transcribe</code> and <code>removeBackground</code> as importable functions (<a href="https://github.com/heygen-com/hyperframes/commit/943b6512b43b106c79839a977f3bfa4aa115a11d">943b6512b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5453">#5453</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.148...v0.8.149">https://github.com/heygen-com/hyperframes/compare/v0.8.148...v0.8.149</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.148]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.148</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.148</guid>
-            <pubDate>Sun, 11 Oct 2026 17:57:55 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.148</h1>
-<p>Released on 2026-10-11.</p>
-<p>A video in Studio preview no longer goes black while playing when the project script hides a layer above it. Exports keep sound and picture in sync when a file starts its streams apart, and the shortcuts panel stays above the player controls.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> An element its script hides stays hidden while studio preview plays (<a href="https://github.com/heygen-com/hyperframes/commit/2fbaef6abb5207b6f9ef3ba0d94320a6b082fc95">2fbaef6ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5458">#5458</a>).</li>
-<li><strong>Engine:</strong> MP4, MOV and TS exports keep sound and picture in sync when streams start apart (<a href="https://github.com/heygen-com/hyperframes/commit/b211fc7cb845c6838cbdb1860506c2fda2804787">b211fc7cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5455">#5455</a>).</li>
-<li><strong>Studio:</strong> Keep the shortcuts panel above the player controls and inside the window (<a href="https://github.com/heygen-com/hyperframes/commit/ba08acb1f506b06757bd77a7e7f491d412647fbd">ba08acb1f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5457">#5457</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.147...v0.8.148">https://github.com/heygen-com/hyperframes/compare/v0.8.147...v0.8.148</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.148</h1>
-<p>Released on 2026-10-11.</p>
-<p>A video in Studio preview no longer goes black while playing when the project script hides a layer above it. Exports keep sound and picture in sync when a file starts its streams apart, and the shortcuts panel stays above the player controls.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> An element its script hides stays hidden while studio preview plays (<a href="https://github.com/heygen-com/hyperframes/commit/2fbaef6abb5207b6f9ef3ba0d94320a6b082fc95">2fbaef6ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5458">#5458</a>).</li>
-<li><strong>Engine:</strong> MP4, MOV and TS exports keep sound and picture in sync when streams start apart (<a href="https://github.com/heygen-com/hyperframes/commit/b211fc7cb845c6838cbdb1860506c2fda2804787">b211fc7cb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5455">#5455</a>).</li>
-<li><strong>Studio:</strong> Keep the shortcuts panel above the player controls and inside the window (<a href="https://github.com/heygen-com/hyperframes/commit/ba08acb1f506b06757bd77a7e7f491d412647fbd">ba08acb1f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5457">#5457</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.147...v0.8.148">https://github.com/heygen-com/hyperframes/compare/v0.8.147...v0.8.148</a></p>
 ]]></content:encoded>
         </item>
     </channel>
