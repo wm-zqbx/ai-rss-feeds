@@ -4,11 +4,89 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 26 Oct 2026 17:01:33 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 19:10:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.206]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.206</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.206</guid>
+            <pubDate>Mon, 26 Oct 2026 19:10:47 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.206</h1>
+<p>Released on 2026-10-26.</p>
+<p>Scrubbing a long film in Studio costs less, and a composition with no timeline script no longer waits 45 seconds before it renders. Preview and render also agree on the video frame and on a PNG colours, and HEIC photos now work in compositions.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Check catches audio the render would lose or play as silence (<a href="https://github.com/heygen-com/hyperframes/commit/d83bf997b0b6bf073a3c764c701eb1d1819104df">d83bf997b0b6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6439">#6439</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Render:</strong> A PNG&#39;s colour tags no longer change its pixels in preview, check, snapshot or render (<a href="https://github.com/heygen-com/hyperframes/commit/3e16603d3769d6637ee315f50d4c2c431f57eb8e">3e16603d3769d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6453">#6453</a>).</li>
+<li><strong>Core:</strong> Paused preview and render show the same, correct video frame (<a href="https://github.com/heygen-com/hyperframes/commit/e3e93aa7fe14a8bfbc737069096369ed53409a27">e3e93aa7fe14a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6432">#6432</a>).</li>
+<li><strong>Producer:</strong> A composition with no timeline-registering script no longer waits 45 s at setup (<a href="https://github.com/heygen-com/hyperframes/commit/4a5ee736143aa33fb366260671c48ce597757836">4a5ee736143aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6436">#6436</a>).</li>
+<li><strong>CLI:</strong> A killed CLI no longer leaves its child processes running (<a href="https://github.com/heygen-com/hyperframes/commit/5148326fd6632a919d89649d3e7a81b8af742560">5148326fd6632</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6431">#6431</a>).</li>
+<li><strong>Snapshot:</strong> Video frames keep the colours render gives the same footage (<a href="https://github.com/heygen-com/hyperframes/commit/37f14fdcb12aeea8ec39cc6bce8c6a338ceca54f">37f14fdcb12ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6425">#6425</a>).</li>
+<li><strong>Producer:</strong> Convert HEIC images to JPEG at compile time (<a href="https://github.com/heygen-com/hyperframes/commit/ad4d3fad139490104f5bbeba66a2892c609e37fc">ad4d3fad13949</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6455">#6455</a>).</li>
+<li><strong>CLI:</strong> Hide the Windows console for the port lookup and clipboard (<a href="https://github.com/heygen-com/hyperframes/commit/37543d223a5356fff27f29a6d1c184adaa604baf">37543d223a535</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6449">#6449</a>).</li>
+<li><strong>Core:</strong> A composition behind a wrapper takes its host&#39;s start (<a href="https://github.com/heygen-com/hyperframes/commit/0979e32a8dd7cbf951829ce7fb6298528aba5c9a">0979e32a8dd7c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6435">#6435</a>).</li>
+<li><strong>CLI:</strong> Validate play and present ports (<a href="https://github.com/heygen-com/hyperframes/commit/0cc14ddb8ec1aee20c1d846c6435eefd8e9f2491">0cc14ddb8ec1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6402">#6402</a>).</li>
+<li><strong>Engine:</strong> Name the element a failing root composition script looked up (<a href="https://github.com/heygen-com/hyperframes/commit/83a29e9209df83937851f435989a0f7c251a169b">83a29e9209df8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6430">#6430</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> A scrub&#39;s state messages re-read the preview&#39;s compositions at most every 500 ms (<a href="https://github.com/heygen-com/hyperframes/commit/121bf20e99da6c514d7ae0a0fe166c4a12ae7209">121bf20e99da6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6429">#6429</a>).</li>
+<li><strong>Studio:</strong> The layer walk keeps its selector index, so scrubbing into new scenes is cheaper (<a href="https://github.com/heygen-com/hyperframes/commit/f1b5d89a1ea74f2c27b46808c8f416ed704d3998">f1b5d89a1ea74</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6427">#6427</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-10-19-2026-10-26 (<a href="https://github.com/heygen-com/hyperframes/commit/c9e86a3b01199e78b4907667e63b330e9d742004">c9e86a3b01199</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6447">#6447</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Lint:</strong> Cover three caption rules that had no tests (<a href="https://github.com/heygen-com/hyperframes/commit/95aba51e205efac1f4d739857a30fc9d2238c748">95aba51e205ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5436">#5436</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.205...v0.8.206">https://github.com/heygen-com/hyperframes/compare/v0.8.205...v0.8.206</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.206</h1>
+<p>Released on 2026-10-26.</p>
+<p>Scrubbing a long film in Studio costs less, and a composition with no timeline script no longer waits 45 seconds before it renders. Preview and render also agree on the video frame and on a PNG colours, and HEIC photos now work in compositions.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Check catches audio the render would lose or play as silence (<a href="https://github.com/heygen-com/hyperframes/commit/d83bf997b0b6bf073a3c764c701eb1d1819104df">d83bf997b0b6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6439">#6439</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Render:</strong> A PNG&#39;s colour tags no longer change its pixels in preview, check, snapshot or render (<a href="https://github.com/heygen-com/hyperframes/commit/3e16603d3769d6637ee315f50d4c2c431f57eb8e">3e16603d3769d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6453">#6453</a>).</li>
+<li><strong>Core:</strong> Paused preview and render show the same, correct video frame (<a href="https://github.com/heygen-com/hyperframes/commit/e3e93aa7fe14a8bfbc737069096369ed53409a27">e3e93aa7fe14a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6432">#6432</a>).</li>
+<li><strong>Producer:</strong> A composition with no timeline-registering script no longer waits 45 s at setup (<a href="https://github.com/heygen-com/hyperframes/commit/4a5ee736143aa33fb366260671c48ce597757836">4a5ee736143aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6436">#6436</a>).</li>
+<li><strong>CLI:</strong> A killed CLI no longer leaves its child processes running (<a href="https://github.com/heygen-com/hyperframes/commit/5148326fd6632a919d89649d3e7a81b8af742560">5148326fd6632</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6431">#6431</a>).</li>
+<li><strong>Snapshot:</strong> Video frames keep the colours render gives the same footage (<a href="https://github.com/heygen-com/hyperframes/commit/37f14fdcb12aeea8ec39cc6bce8c6a338ceca54f">37f14fdcb12ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6425">#6425</a>).</li>
+<li><strong>Producer:</strong> Convert HEIC images to JPEG at compile time (<a href="https://github.com/heygen-com/hyperframes/commit/ad4d3fad139490104f5bbeba66a2892c609e37fc">ad4d3fad13949</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6455">#6455</a>).</li>
+<li><strong>CLI:</strong> Hide the Windows console for the port lookup and clipboard (<a href="https://github.com/heygen-com/hyperframes/commit/37543d223a5356fff27f29a6d1c184adaa604baf">37543d223a535</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6449">#6449</a>).</li>
+<li><strong>Core:</strong> A composition behind a wrapper takes its host&#39;s start (<a href="https://github.com/heygen-com/hyperframes/commit/0979e32a8dd7cbf951829ce7fb6298528aba5c9a">0979e32a8dd7c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6435">#6435</a>).</li>
+<li><strong>CLI:</strong> Validate play and present ports (<a href="https://github.com/heygen-com/hyperframes/commit/0cc14ddb8ec1aee20c1d846c6435eefd8e9f2491">0cc14ddb8ec1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6402">#6402</a>).</li>
+<li><strong>Engine:</strong> Name the element a failing root composition script looked up (<a href="https://github.com/heygen-com/hyperframes/commit/83a29e9209df83937851f435989a0f7c251a169b">83a29e9209df8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6430">#6430</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> A scrub&#39;s state messages re-read the preview&#39;s compositions at most every 500 ms (<a href="https://github.com/heygen-com/hyperframes/commit/121bf20e99da6c514d7ae0a0fe166c4a12ae7209">121bf20e99da6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6429">#6429</a>).</li>
+<li><strong>Studio:</strong> The layer walk keeps its selector index, so scrubbing into new scenes is cheaper (<a href="https://github.com/heygen-com/hyperframes/commit/f1b5d89a1ea74f2c27b46808c8f416ed704d3998">f1b5d89a1ea74</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6427">#6427</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-10-19-2026-10-26 (<a href="https://github.com/heygen-com/hyperframes/commit/c9e86a3b01199e78b4907667e63b330e9d742004">c9e86a3b01199</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6447">#6447</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Lint:</strong> Cover three caption rules that had no tests (<a href="https://github.com/heygen-com/hyperframes/commit/95aba51e205efac1f4d739857a30fc9d2238c748">95aba51e205ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5436">#5436</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.205...v0.8.206">https://github.com/heygen-com/hyperframes/compare/v0.8.205...v0.8.206</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.205]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.205</link>
@@ -2765,44 +2843,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.155...v0.8.156">https://github.com/heygen-com/hyperframes/compare/v0.8.155...v0.8.156</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.155]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.155</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.155</guid>
-            <pubDate>Tue, 13 Oct 2026 23:33:42 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.155</h1>
-<p>Released on 2026-10-13.</p>
-<p>MP4 renders at widths like 1000, 1080 or 1112 no longer get a black strip down the right edge on newer FFmpeg. Both the Studio render route and the producer render server now take encoder settings such as CRF, and distributed renders keep the CRF you ask for.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> The render server&#39;s <code>/render</code> and <code>/render/stream</code> accept <code>crf</code>, <code>videoBitrate</code> and <code>videoFrameFormat</code> (<a href="https://github.com/heygen-com/hyperframes/commit/5de2712ad587ae3fe06e4087e30650fdbe34c909">5de2712ad5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5550">#5550</a>). A bad <code>videoFrameFormat</code> now returns a 400 instead of being ignored.</li>
-<li><strong>Studio Server:</strong> Accept <code>crf</code>, <code>videoBitrate</code>, <code>videoFrameFormat</code> and <code>hdrMode</code> on the render route (<a href="https://github.com/heygen-com/hyperframes/commit/ab8a4da53f31653350632980fa63cb07e957f0f6">ab8a4da53f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5549">#5549</a>). Out-of-range values return a 400, and <code>crf</code> with <code>videoBitrate</code> together is rejected.</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Keep the rightmost 8 columns of SDR MP4 at widths like 1080 (<a href="https://github.com/heygen-com/hyperframes/commit/401354cd8f685d9ec9011b41d2c4269289d29598">401354cd8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5559">#5559</a>). FFmpeg 7.1 and 8.0 dropped the last 8 pixel columns to black when the width was 8 more than a multiple of 16.</li>
-<li><strong>Producer:</strong> Keep the requested CRF in the distributed constant-frame-rate re-encode (<a href="https://github.com/heygen-com/hyperframes/commit/bf4cf860fbd26a7d51938c5f11987c335d4e848a">bf4cf860fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5557">#5557</a>). It used to fall back to the quality preset.</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155">https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.155</h1>
-<p>Released on 2026-10-13.</p>
-<p>MP4 renders at widths like 1000, 1080 or 1112 no longer get a black strip down the right edge on newer FFmpeg. Both the Studio render route and the producer render server now take encoder settings such as CRF, and distributed renders keep the CRF you ask for.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> The render server&#39;s <code>/render</code> and <code>/render/stream</code> accept <code>crf</code>, <code>videoBitrate</code> and <code>videoFrameFormat</code> (<a href="https://github.com/heygen-com/hyperframes/commit/5de2712ad587ae3fe06e4087e30650fdbe34c909">5de2712ad5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5550">#5550</a>). A bad <code>videoFrameFormat</code> now returns a 400 instead of being ignored.</li>
-<li><strong>Studio Server:</strong> Accept <code>crf</code>, <code>videoBitrate</code>, <code>videoFrameFormat</code> and <code>hdrMode</code> on the render route (<a href="https://github.com/heygen-com/hyperframes/commit/ab8a4da53f31653350632980fa63cb07e957f0f6">ab8a4da53f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5549">#5549</a>). Out-of-range values return a 400, and <code>crf</code> with <code>videoBitrate</code> together is rejected.</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Keep the rightmost 8 columns of SDR MP4 at widths like 1080 (<a href="https://github.com/heygen-com/hyperframes/commit/401354cd8f685d9ec9011b41d2c4269289d29598">401354cd8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5559">#5559</a>). FFmpeg 7.1 and 8.0 dropped the last 8 pixel columns to black when the width was 8 more than a multiple of 16.</li>
-<li><strong>Producer:</strong> Keep the requested CRF in the distributed constant-frame-rate re-encode (<a href="https://github.com/heygen-com/hyperframes/commit/bf4cf860fbd26a7d51938c5f11987c335d4e848a">bf4cf860fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5557">#5557</a>). It used to fall back to the quality preset.</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155">https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155</a></p>
 ]]></content:encoded>
         </item>
     </channel>
