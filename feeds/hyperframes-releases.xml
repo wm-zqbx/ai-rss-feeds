@@ -4,11 +4,131 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 26 Oct 2026 11:30:11 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Oct 2026 17:01:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.205]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.205</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.205</guid>
+            <pubDate>Mon, 26 Oct 2026 17:01:33 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.205</h1>
+<p>Released on 2026-10-26.</p>
+<p>On Windows, hyperframes now offers to download the HyperFrames app, and hyperframes followed by a folder opens that project in it. Studio can also export a GIF with a loop count.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Offer the HyperFrames app download on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/b76b529372480833a851101c24852054589ec8a4">b76b529372480</a>).</li>
+<li><strong>CLI:</strong> Hyperframes <dir> opens the project in the app (<a href="https://github.com/heygen-com/hyperframes/commit/324671829f40f719b445290594597086e1cd7798">324671829f40f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6426">#6426</a>).</li>
+<li><strong>Studio:</strong> Support GIF export with loop count (<a href="https://github.com/heygen-com/hyperframes/commit/2d695a8436e27a9bba0a989eb83e41efeb779e7c">2d695a8436e27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5593">#5593</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> A video held past its media end keeps following its animation (<a href="https://github.com/heygen-com/hyperframes/commit/d8398c9da77e4bb2d81e2fe17c7f3da97cb0760f">d8398c9da77e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6424">#6424</a>).</li>
+<li><strong>Producer:</strong> Deduplicate scene font faces before embedding (<a href="https://github.com/heygen-com/hyperframes/commit/9ecb13ed6980d6eda83e33feea88275f29b63979">9ecb13ed6980d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6395">#6395</a>).</li>
+<li><strong>Examples:</strong> Align K8s Chrome pin with managed version (<a href="https://github.com/heygen-com/hyperframes/commit/a07ab5087902942824c6a5753535b8ac943c1e58">a07ab50879029</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6363">#6363</a>).</li>
+<li><strong>CLI:</strong> Isolate benchmark render files (<a href="https://github.com/heygen-com/hyperframes/commit/803655a67e59c70bc967a7890184aff3d7f8aad1">803655a67e59c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6403">#6403</a>).</li>
+<li><strong>Producer:</strong> Honor disabled looping for finite-loop GIF inputs (<a href="https://github.com/heygen-com/hyperframes/commit/acd0bc361ffa238bda6d8cadbb97360b7fb9b1ab">acd0bc361ffa2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3943">#3943</a>).</li>
+<li><strong>Media Use:</strong> Serialize concurrent preference records (<a href="https://github.com/heygen-com/hyperframes/commit/dfb7e5a4de549da38792641f0c962c9610bc06ca">dfb7e5a4de549</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5366">#5366</a>).</li>
+<li><strong>CLI:</strong> Preserve UTF-8 across subprocess output chunks (<a href="https://github.com/heygen-com/hyperframes/commit/2be8bc2b9e8d6f9306a55b1c6af64c0049ce7c70">2be8bc2b9e8d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5273">#5273</a>).</li>
+<li><strong>CLI:</strong> Describe the restored skip-skills option (<a href="https://github.com/heygen-com/hyperframes/commit/d1b3471325bc7a9b080ef317afe7c462e54613c3">d1b3471325bc7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6245">#6245</a>).</li>
+<li><strong>Lint:</strong> Add fix hints to the variables-entry and CSS parse findings (<a href="https://github.com/heygen-com/hyperframes/commit/64cb6556efa5cdef3292b0c691a184c1ba291eeb">64cb6556efa5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5447">#5447</a>).</li>
+<li><strong>Core:</strong> The fonts gate starts loading declared faces no laid-out text uses yet (<a href="https://github.com/heygen-com/hyperframes/commit/36a24aeb851e57cb4ba177ebd2d5a3a22e06fec0">36a24aeb851e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6415">#6415</a>).</li>
+<li><strong>Player:</strong> Keep new controls in sync with playback (<a href="https://github.com/heygen-com/hyperframes/commit/d507323ef9c180a956cf538142e531ed6a4c8751">d507323ef9c18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6373">#6373</a>).</li>
+<li><strong>CLI:</strong> Keep audio timings when trimming long recordings (<a href="https://github.com/heygen-com/hyperframes/commit/ec866ed1c5b9f1f1f28b21dcbc554172c7f34776">ec866ed1c5b9f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6375">#6375</a>).</li>
+<li><strong>CLI:</strong> List the examples init --example accepts in docs examples (<a href="https://github.com/heygen-com/hyperframes/commit/85dcc193d560567c8d08e7f09c0f7fc9f2197c56">85dcc193d5605</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5446">#5446</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Connect product-film close-ups to the full workspace (<a href="https://github.com/heygen-com/hyperframes/commit/ecc2396e89ba9502f4fc5129bb655dec93406f66">ecc2396e89ba9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6209">#6209</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Player:</strong> Playbench measures first play, audio joins, automation, cuts and the autoplay fallback (<a href="https://github.com/heygen-com/hyperframes/commit/7d6c02f85ae59b5b1ebd647faf90a1b04c8e0017">7d6c02f85ae59</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6418">#6418</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.204...v0.8.205">https://github.com/heygen-com/hyperframes/compare/v0.8.204...v0.8.205</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.205</h1>
+<p>Released on 2026-10-26.</p>
+<p>On Windows, hyperframes now offers to download the HyperFrames app, and hyperframes followed by a folder opens that project in it. Studio can also export a GIF with a loop count.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Offer the HyperFrames app download on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/b76b529372480833a851101c24852054589ec8a4">b76b529372480</a>).</li>
+<li><strong>CLI:</strong> Hyperframes <dir> opens the project in the app (<a href="https://github.com/heygen-com/hyperframes/commit/324671829f40f719b445290594597086e1cd7798">324671829f40f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6426">#6426</a>).</li>
+<li><strong>Studio:</strong> Support GIF export with loop count (<a href="https://github.com/heygen-com/hyperframes/commit/2d695a8436e27a9bba0a989eb83e41efeb779e7c">2d695a8436e27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5593">#5593</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> A video held past its media end keeps following its animation (<a href="https://github.com/heygen-com/hyperframes/commit/d8398c9da77e4bb2d81e2fe17c7f3da97cb0760f">d8398c9da77e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6424">#6424</a>).</li>
+<li><strong>Producer:</strong> Deduplicate scene font faces before embedding (<a href="https://github.com/heygen-com/hyperframes/commit/9ecb13ed6980d6eda83e33feea88275f29b63979">9ecb13ed6980d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6395">#6395</a>).</li>
+<li><strong>Examples:</strong> Align K8s Chrome pin with managed version (<a href="https://github.com/heygen-com/hyperframes/commit/a07ab5087902942824c6a5753535b8ac943c1e58">a07ab50879029</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6363">#6363</a>).</li>
+<li><strong>CLI:</strong> Isolate benchmark render files (<a href="https://github.com/heygen-com/hyperframes/commit/803655a67e59c70bc967a7890184aff3d7f8aad1">803655a67e59c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6403">#6403</a>).</li>
+<li><strong>Producer:</strong> Honor disabled looping for finite-loop GIF inputs (<a href="https://github.com/heygen-com/hyperframes/commit/acd0bc361ffa238bda6d8cadbb97360b7fb9b1ab">acd0bc361ffa2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/3943">#3943</a>).</li>
+<li><strong>Media Use:</strong> Serialize concurrent preference records (<a href="https://github.com/heygen-com/hyperframes/commit/dfb7e5a4de549da38792641f0c962c9610bc06ca">dfb7e5a4de549</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5366">#5366</a>).</li>
+<li><strong>CLI:</strong> Preserve UTF-8 across subprocess output chunks (<a href="https://github.com/heygen-com/hyperframes/commit/2be8bc2b9e8d6f9306a55b1c6af64c0049ce7c70">2be8bc2b9e8d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5273">#5273</a>).</li>
+<li><strong>CLI:</strong> Describe the restored skip-skills option (<a href="https://github.com/heygen-com/hyperframes/commit/d1b3471325bc7a9b080ef317afe7c462e54613c3">d1b3471325bc7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6245">#6245</a>).</li>
+<li><strong>Lint:</strong> Add fix hints to the variables-entry and CSS parse findings (<a href="https://github.com/heygen-com/hyperframes/commit/64cb6556efa5cdef3292b0c691a184c1ba291eeb">64cb6556efa5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5447">#5447</a>).</li>
+<li><strong>Core:</strong> The fonts gate starts loading declared faces no laid-out text uses yet (<a href="https://github.com/heygen-com/hyperframes/commit/36a24aeb851e57cb4ba177ebd2d5a3a22e06fec0">36a24aeb851e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6415">#6415</a>).</li>
+<li><strong>Player:</strong> Keep new controls in sync with playback (<a href="https://github.com/heygen-com/hyperframes/commit/d507323ef9c180a956cf538142e531ed6a4c8751">d507323ef9c18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6373">#6373</a>).</li>
+<li><strong>CLI:</strong> Keep audio timings when trimming long recordings (<a href="https://github.com/heygen-com/hyperframes/commit/ec866ed1c5b9f1f1f28b21dcbc554172c7f34776">ec866ed1c5b9f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6375">#6375</a>).</li>
+<li><strong>CLI:</strong> List the examples init --example accepts in docs examples (<a href="https://github.com/heygen-com/hyperframes/commit/85dcc193d560567c8d08e7f09c0f7fc9f2197c56">85dcc193d5605</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5446">#5446</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Connect product-film close-ups to the full workspace (<a href="https://github.com/heygen-com/hyperframes/commit/ecc2396e89ba9502f4fc5129bb655dec93406f66">ecc2396e89ba9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6209">#6209</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Player:</strong> Playbench measures first play, audio joins, automation, cuts and the autoplay fallback (<a href="https://github.com/heygen-com/hyperframes/commit/7d6c02f85ae59b5b1ebd647faf90a1b04c8e0017">7d6c02f85ae59</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6418">#6418</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.204...v0.8.205">https://github.com/heygen-com/hyperframes/compare/v0.8.204...v0.8.205</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.204]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.204</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.204</guid>
+            <pubDate>Mon, 26 Oct 2026 14:26:38 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.204</h1>
+<p>Released on 2026-10-26.</p>
+<p>Scrubbing a long film in Studio stays smooth, because the layer walk now skips clips the runtime hid. A render whose capture stops advancing also fails within minutes.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> A render whose capture stops advancing fails within minutes (<a href="https://github.com/heygen-com/hyperframes/commit/575f68cf5bc4789e0f2b71c16333f5ef79586156">575f68cf5bc47</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6413">#6413</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> The layer walk skips clips the runtime hid, so scrubbing a long film stays smooth (<a href="https://github.com/heygen-com/hyperframes/commit/dc56b3d20af2dbb550ac749b7618ea976542e257">dc56b3d20af2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6416">#6416</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Studio app light palette, plus movable film rows and stacked remix shelves on Inspiration (<a href="https://github.com/heygen-com/hyperframes/commit/9652a6324ada60b27f91c413155740399a6c2d5d">9652a6324ada6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6414">#6414</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.203...v0.8.204">https://github.com/heygen-com/hyperframes/compare/v0.8.203...v0.8.204</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.204</h1>
+<p>Released on 2026-10-26.</p>
+<p>Scrubbing a long film in Studio stays smooth, because the layer walk now skips clips the runtime hid. A render whose capture stops advancing also fails within minutes.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> A render whose capture stops advancing fails within minutes (<a href="https://github.com/heygen-com/hyperframes/commit/575f68cf5bc4789e0f2b71c16333f5ef79586156">575f68cf5bc47</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6413">#6413</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> The layer walk skips clips the runtime hid, so scrubbing a long film stays smooth (<a href="https://github.com/heygen-com/hyperframes/commit/dc56b3d20af2dbb550ac749b7618ea976542e257">dc56b3d20af2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6416">#6416</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Studio app light palette, plus movable film rows and stacked remix shelves on Inspiration (<a href="https://github.com/heygen-com/hyperframes/commit/9652a6324ada60b27f91c413155740399a6c2d5d">9652a6324ada6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6414">#6414</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.203...v0.8.204">https://github.com/heygen-com/hyperframes/compare/v0.8.203...v0.8.204</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.203]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.203</link>
@@ -2683,58 +2803,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155">https://github.com/heygen-com/hyperframes/compare/v0.8.154...v0.8.155</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.154]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.154</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.154</guid>
-            <pubDate>Tue, 13 Oct 2026 19:52:40 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.154</h1>
-<p>Released on 2026-10-13.</p>
-<p>Live inspection keeps answering after a composition with audio is opened. Studio&#39;s waveform and thumbnail caches no longer make every question report a stale preview.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Inspector:</strong> Stop audio waveform caches from making every live question stale (<a href="https://github.com/heygen-com/hyperframes/commit/6f76b306751fdab465d9c6702228b119edd8ce30">6f76b3067</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5536">#5536</a>). Live inspection now ignores the same cache folders Studio&#39;s preview reload ignores.</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.153...v0.8.154">https://github.com/heygen-com/hyperframes/compare/v0.8.153...v0.8.154</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.154</h1>
-<p>Released on 2026-10-13.</p>
-<p>Live inspection keeps answering after a composition with audio is opened. Studio&#39;s waveform and thumbnail caches no longer make every question report a stale preview.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Inspector:</strong> Stop audio waveform caches from making every live question stale (<a href="https://github.com/heygen-com/hyperframes/commit/6f76b306751fdab465d9c6702228b119edd8ce30">6f76b3067</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5536">#5536</a>). Live inspection now ignores the same cache folders Studio&#39;s preview reload ignores.</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.153...v0.8.154">https://github.com/heygen-com/hyperframes/compare/v0.8.153...v0.8.154</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.153]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.153</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.153</guid>
-            <pubDate>Tue, 13 Oct 2026 15:44:53 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.153</h1>
-<p>Released on 2026-10-13.</p>
-<p><code>hyperframes check</code> now stops instead of running forever when a composition script gets stuck. If this happens during startup, the error names the file.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Stop stuck checks and report the file to fix (<a href="https://github.com/heygen-com/hyperframes/commit/c96099d39a12332d5d87bd922b0d7c1b277b9f22">c96099d39a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5537">#5537</a>). Browser downloads and first launch no longer use up the check&#39;s time limit.</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.152...v0.8.153">https://github.com/heygen-com/hyperframes/compare/v0.8.152...v0.8.153</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.153</h1>
-<p>Released on 2026-10-13.</p>
-<p><code>hyperframes check</code> now stops instead of running forever when a composition script gets stuck. If this happens during startup, the error names the file.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Stop stuck checks and report the file to fix (<a href="https://github.com/heygen-com/hyperframes/commit/c96099d39a12332d5d87bd922b0d7c1b277b9f22">c96099d39a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5537">#5537</a>). Browser downloads and first launch no longer use up the check&#39;s time limit.</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.152...v0.8.153">https://github.com/heygen-com/hyperframes/compare/v0.8.152...v0.8.153</a></p>
 ]]></content:encoded>
         </item>
     </channel>
