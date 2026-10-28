@@ -4,11 +4,99 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 27 Oct 2026 15:10:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Oct 2026 01:22:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.210]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.210</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.210</guid>
+            <pubDate>Wed, 28 Oct 2026 01:22:14 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.210</h1>
+<p>Released on 2026-10-27.</p>
+<p>MOV renders can now pick a ProRes profile, and HDR sources render correctly to formats that cannot carry HDR. A page whose renderer crashes now fails at once with a clear reason instead of hanging.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Render --prores-profile picks ProRes 4444, hq, 422, lt or proxy for MOV (<a href="https://github.com/heygen-com/hyperframes/commit/957df5c268c6622c94879a701c845d35d72d1762">957df5c268c66</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6581">#6581</a>).</li>
+<li><strong>CLI:</strong> Doctor names the tested ffmpeg build and says loudness is only comparable on it (<a href="https://github.com/heygen-com/hyperframes/commit/98e774384efdc785c7d49947948e796a8b8b4004">98e774384efdc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6566">#6566</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> A page whose renderer crashes fails at once, named as the crash (<a href="https://github.com/heygen-com/hyperframes/commit/439d6856780f0525d1b1e4a75708c43f8f868536">439d6856780f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6598">#6598</a>).</li>
+<li><strong>Producer:</strong> HDR sources are tone-mapped for formats that cannot carry HDR (<a href="https://github.com/heygen-com/hyperframes/commit/313792408d641f702ea7624fd6abda10c957aab3">313792408d641</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6597">#6597</a>).</li>
+<li><strong>Engine:</strong> Extraction waits out the decode up to a deep seek in a long-GOP video (<a href="https://github.com/heygen-com/hyperframes/commit/3b2058a2b7a2ebb36abd5887c35aa48f7398a389">3b2058a2b7a2e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6583">#6583</a>).</li>
+<li><strong>Preview:</strong> The proxy copy for the video at the playhead is made ahead of the rest (<a href="https://github.com/heygen-com/hyperframes/commit/bff39004b0312ed903fbe0882ec31c6d0b1a0a25">bff39004b0312</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6586">#6586</a>).</li>
+<li><strong>CLI:</strong> Hyperframes add keeps going when Windows holds the file it replaces (<a href="https://github.com/heygen-com/hyperframes/commit/e21fd123fd8f8f1e9231a08546a5bcd6a33b7227">e21fd123fd8f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6576">#6576</a>).</li>
+<li><strong>CLI:</strong> A killed remove-background run no longer leaves its CoreML temp files behind (<a href="https://github.com/heygen-com/hyperframes/commit/0a703edc6f119bbdb8d42d48e259bb745b6cb620">0a703edc6f119</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6582">#6582</a>).</li>
+<li><strong>Engine:</strong> Mux uppercase WebM exports with Opus audio (<a href="https://github.com/heygen-com/hyperframes/commit/1d4aadc1fb436daba83184ab8dd894df13513cef">1d4aadc1fb436</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6579">#6579</a>).</li>
+<li><strong>Producer:</strong> Stop HDR video windows after the first from repeating one frame (<a href="https://github.com/heygen-com/hyperframes/commit/07b0f2cda1cf7b51e0f12d0d05c304b37b4e881c">07b0f2cda1cf7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6575">#6575</a>).</li>
+<li><strong>CLI:</strong> Check fails a full-frame element that covers every other clip, naming it (<a href="https://github.com/heygen-com/hyperframes/commit/2a0fa7f4de9704ef5dd8f88b0e974383914e6c3f">2a0fa7f4de970</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6572">#6572</a>).</li>
+<li><strong>CLI:</strong> A failed --against reference no longer also says it has no frame (<a href="https://github.com/heygen-com/hyperframes/commit/696ca8f779cd36bfef53102658722c46e9c3e522">696ca8f779cd3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6574">#6574</a>).</li>
+<li><strong>AWS Lambda:</strong> A network blip no longer stops the release ffmpeg build (<a href="https://github.com/heygen-com/hyperframes/commit/8cd9c517c79be5ada1878ba58bdffeac6cfe39eb">8cd9c517c79be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6569">#6569</a>).</li>
+<li><strong>CLI:</strong> Capture waits for a mid-read navigation to settle and reads the page again once (<a href="https://github.com/heygen-com/hyperframes/commit/013fe4e18ad7c4aa43eb23967abd27ea4e16bf33">013fe4e18ad7c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6567">#6567</a>).</li>
+<li><strong>CLI:</strong> A capture DNS helper that dies silently says how it ended (<a href="https://github.com/heygen-com/hyperframes/commit/d571d77cae9d8ea7ffc1ec7262855fb4905ed859">d571d77cae9d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6570">#6570</a>).</li>
+<li><strong>Studio:</strong> Keep the canvas outline off the scaled preview iframe (<a href="https://github.com/heygen-com/hyperframes/commit/624c9becfde73dc8bc50de00e210807ad1f6d7bd">624c9becfde73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6452">#6452</a>).</li>
+<li><strong>CLI:</strong> A snapshot clip whose frame fails is named with ffmpeg&#39;s reason (<a href="https://github.com/heygen-com/hyperframes/commit/7a0c75bb69925205eacd109433fb45ff4385bcae">7a0c75bb69925</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6564">#6564</a>).</li>
+<li><strong>CLI:</strong> A nearer copy of another version no longer hides the host&#39;s pinned onnxruntime-node (<a href="https://github.com/heygen-com/hyperframes/commit/5561640809154089671bb3b0406ba8e48c99c6f2">5561640809154</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6563">#6563</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Link the free lessons from the docs (<a href="https://github.com/heygen-com/hyperframes/commit/0163ee11a75a3409b9146a642bab0f80c3bdad1b">0163ee11a75a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6588">#6588</a>).</li>
+<li>Links point at hyperframes.studio, the app&#39;s new home (<a href="https://github.com/heygen-com/hyperframes/commit/6ae7c7688cec29911b66936a24482b1cfb0f9589">6ae7c7688cec2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6585">#6585</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>No change-detection or reachability checkout can run into the one-minute limit (<a href="https://github.com/heygen-com/hyperframes/commit/7fea875ede12d4b5d38327520b259113aa21388d">7fea875ede12d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6577">#6577</a>).</li>
+<li><strong>Engine:</strong> The test Chrome warms its first page in beforeAll; browser hooks get 30 s (<a href="https://github.com/heygen-com/hyperframes/commit/c391b50163d0f4e2b1d7b564c4a39a1cc4193741">c391b50163d0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6568">#6568</a>).</li>
+<li><strong>CLI:</strong> Chrome-driving tests run in their own project after the rest (<a href="https://github.com/heygen-com/hyperframes/commit/9b9dd7665499a128310d3bb26c52b1536918f936">9b9dd7665499a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6560">#6560</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.209...v0.8.210">https://github.com/heygen-com/hyperframes/compare/v0.8.209...v0.8.210</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.210</h1>
+<p>Released on 2026-10-27.</p>
+<p>MOV renders can now pick a ProRes profile, and HDR sources render correctly to formats that cannot carry HDR. A page whose renderer crashes now fails at once with a clear reason instead of hanging.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Render --prores-profile picks ProRes 4444, hq, 422, lt or proxy for MOV (<a href="https://github.com/heygen-com/hyperframes/commit/957df5c268c6622c94879a701c845d35d72d1762">957df5c268c66</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6581">#6581</a>).</li>
+<li><strong>CLI:</strong> Doctor names the tested ffmpeg build and says loudness is only comparable on it (<a href="https://github.com/heygen-com/hyperframes/commit/98e774384efdc785c7d49947948e796a8b8b4004">98e774384efdc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6566">#6566</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> A page whose renderer crashes fails at once, named as the crash (<a href="https://github.com/heygen-com/hyperframes/commit/439d6856780f0525d1b1e4a75708c43f8f868536">439d6856780f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6598">#6598</a>).</li>
+<li><strong>Producer:</strong> HDR sources are tone-mapped for formats that cannot carry HDR (<a href="https://github.com/heygen-com/hyperframes/commit/313792408d641f702ea7624fd6abda10c957aab3">313792408d641</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6597">#6597</a>).</li>
+<li><strong>Engine:</strong> Extraction waits out the decode up to a deep seek in a long-GOP video (<a href="https://github.com/heygen-com/hyperframes/commit/3b2058a2b7a2ebb36abd5887c35aa48f7398a389">3b2058a2b7a2e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6583">#6583</a>).</li>
+<li><strong>Preview:</strong> The proxy copy for the video at the playhead is made ahead of the rest (<a href="https://github.com/heygen-com/hyperframes/commit/bff39004b0312ed903fbe0882ec31c6d0b1a0a25">bff39004b0312</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6586">#6586</a>).</li>
+<li><strong>CLI:</strong> Hyperframes add keeps going when Windows holds the file it replaces (<a href="https://github.com/heygen-com/hyperframes/commit/e21fd123fd8f8f1e9231a08546a5bcd6a33b7227">e21fd123fd8f8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6576">#6576</a>).</li>
+<li><strong>CLI:</strong> A killed remove-background run no longer leaves its CoreML temp files behind (<a href="https://github.com/heygen-com/hyperframes/commit/0a703edc6f119bbdb8d42d48e259bb745b6cb620">0a703edc6f119</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6582">#6582</a>).</li>
+<li><strong>Engine:</strong> Mux uppercase WebM exports with Opus audio (<a href="https://github.com/heygen-com/hyperframes/commit/1d4aadc1fb436daba83184ab8dd894df13513cef">1d4aadc1fb436</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6579">#6579</a>).</li>
+<li><strong>Producer:</strong> Stop HDR video windows after the first from repeating one frame (<a href="https://github.com/heygen-com/hyperframes/commit/07b0f2cda1cf7b51e0f12d0d05c304b37b4e881c">07b0f2cda1cf7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6575">#6575</a>).</li>
+<li><strong>CLI:</strong> Check fails a full-frame element that covers every other clip, naming it (<a href="https://github.com/heygen-com/hyperframes/commit/2a0fa7f4de9704ef5dd8f88b0e974383914e6c3f">2a0fa7f4de970</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6572">#6572</a>).</li>
+<li><strong>CLI:</strong> A failed --against reference no longer also says it has no frame (<a href="https://github.com/heygen-com/hyperframes/commit/696ca8f779cd36bfef53102658722c46e9c3e522">696ca8f779cd3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6574">#6574</a>).</li>
+<li><strong>AWS Lambda:</strong> A network blip no longer stops the release ffmpeg build (<a href="https://github.com/heygen-com/hyperframes/commit/8cd9c517c79be5ada1878ba58bdffeac6cfe39eb">8cd9c517c79be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6569">#6569</a>).</li>
+<li><strong>CLI:</strong> Capture waits for a mid-read navigation to settle and reads the page again once (<a href="https://github.com/heygen-com/hyperframes/commit/013fe4e18ad7c4aa43eb23967abd27ea4e16bf33">013fe4e18ad7c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6567">#6567</a>).</li>
+<li><strong>CLI:</strong> A capture DNS helper that dies silently says how it ended (<a href="https://github.com/heygen-com/hyperframes/commit/d571d77cae9d8ea7ffc1ec7262855fb4905ed859">d571d77cae9d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6570">#6570</a>).</li>
+<li><strong>Studio:</strong> Keep the canvas outline off the scaled preview iframe (<a href="https://github.com/heygen-com/hyperframes/commit/624c9becfde73dc8bc50de00e210807ad1f6d7bd">624c9becfde73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6452">#6452</a>).</li>
+<li><strong>CLI:</strong> A snapshot clip whose frame fails is named with ffmpeg&#39;s reason (<a href="https://github.com/heygen-com/hyperframes/commit/7a0c75bb69925205eacd109433fb45ff4385bcae">7a0c75bb69925</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6564">#6564</a>).</li>
+<li><strong>CLI:</strong> A nearer copy of another version no longer hides the host&#39;s pinned onnxruntime-node (<a href="https://github.com/heygen-com/hyperframes/commit/5561640809154089671bb3b0406ba8e48c99c6f2">5561640809154</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6563">#6563</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>Link the free lessons from the docs (<a href="https://github.com/heygen-com/hyperframes/commit/0163ee11a75a3409b9146a642bab0f80c3bdad1b">0163ee11a75a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6588">#6588</a>).</li>
+<li>Links point at hyperframes.studio, the app&#39;s new home (<a href="https://github.com/heygen-com/hyperframes/commit/6ae7c7688cec29911b66936a24482b1cfb0f9589">6ae7c7688cec2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6585">#6585</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li>No change-detection or reachability checkout can run into the one-minute limit (<a href="https://github.com/heygen-com/hyperframes/commit/7fea875ede12d4b5d38327520b259113aa21388d">7fea875ede12d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6577">#6577</a>).</li>
+<li><strong>Engine:</strong> The test Chrome warms its first page in beforeAll; browser hooks get 30 s (<a href="https://github.com/heygen-com/hyperframes/commit/c391b50163d0f4e2b1d7b564c4a39a1cc4193741">c391b50163d0f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6568">#6568</a>).</li>
+<li><strong>CLI:</strong> Chrome-driving tests run in their own project after the rest (<a href="https://github.com/heygen-com/hyperframes/commit/9b9dd7665499a128310d3bb26c52b1536918f936">9b9dd7665499a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6560">#6560</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.209...v0.8.210">https://github.com/heygen-com/hyperframes/compare/v0.8.209...v0.8.210</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.209]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.209</link>
@@ -2967,58 +3055,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.159...v0.8.160">https://github.com/heygen-com/hyperframes/compare/v0.8.159...v0.8.160</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.159]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.159</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.159</guid>
-            <pubDate>Thu, 15 Oct 2026 00:56:09 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.159</h1>
-<p>Released on 2026-10-14.</p>
-<p><code>check</code> and <code>snapshot</code> now work in sandboxes that refuse to listen on localhost. <code>snapshot --keep</code> lets you redo one still without losing the others.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> <code>snapshot --keep</code> redoes one still and leaves the others (<a href="https://github.com/heygen-com/hyperframes/commit/c0636d017f68073522ab8eeb6cc24a2d3993b656">c0636d017f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5605">#5605</a>). It adds to the output folder instead of clearing it and names each still for its time, such as <code>at-1.5s.png</code>.</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A render&#39;s first frame shows each scene&#39;s starting state (<a href="https://github.com/heygen-com/hyperframes/commit/8c00ebad80c634f607e3a5283f8a0aa73e35f1dd">8c00ebad80c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5614">#5614</a>).</li>
-<li><strong>Core:</strong> A hidden scene&#39;s contents stay hidden when a child is set visible (<a href="https://github.com/heygen-com/hyperframes/commit/24a9b781715d0c59f06e4540831529d99c63ae75">24a9b781715</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5619">#5619</a>). Before, a nested scene&#39;s card could paint before its host started. The <code>static-volume-future-set</code> regression baseline changes for this reason.</li>
-<li><strong>CLI:</strong> <code>check</code> and <code>snapshot</code> run where a sandbox refuses to listen on localhost (<a href="https://github.com/heygen-com/hyperframes/commit/71595dd82012314f353d1237f50da0fad7639817">71595dd8201</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5618">#5618</a>).</li>
-<li><strong>CLI:</strong> The GPU check uses the same pipe as the render, so a sandboxed <code>check</code> no longer waits 120 s (<a href="https://github.com/heygen-com/hyperframes/commit/6c89decb0ddbac7c30a7dca6d947f945ebd58c0e">6c89decb0dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5622">#5622</a>).</li>
-<li><strong>CLI:</strong> A long video conversion in <code>init</code> never stalls on ffmpeg&#39;s own log (<a href="https://github.com/heygen-com/hyperframes/commit/b14a45647166e60e2e51dc018ccb1bb7331003a2">b14a4564716</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5616">#5616</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Core:</strong> The <code>var()</code> font fallback test uses an offline fetch stub instead of Google Fonts (<a href="https://github.com/heygen-com/hyperframes/commit/8f0bcadcd32893d3ad5231f33b210c410096281f">8f0bcadcd32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5623">#5623</a>).</li>
-<li>A stalled history fetch in change detection is retried instead of failing the run (<a href="https://github.com/heygen-com/hyperframes/commit/cd87cf11106985c6222723f5b391723882691d6c">cd87cf11106</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5615">#5615</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.158...v0.8.159">https://github.com/heygen-com/hyperframes/compare/v0.8.158...v0.8.159</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.159</h1>
-<p>Released on 2026-10-14.</p>
-<p><code>check</code> and <code>snapshot</code> now work in sandboxes that refuse to listen on localhost. <code>snapshot --keep</code> lets you redo one still without losing the others.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> <code>snapshot --keep</code> redoes one still and leaves the others (<a href="https://github.com/heygen-com/hyperframes/commit/c0636d017f68073522ab8eeb6cc24a2d3993b656">c0636d017f6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5605">#5605</a>). It adds to the output folder instead of clearing it and names each still for its time, such as <code>at-1.5s.png</code>.</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A render&#39;s first frame shows each scene&#39;s starting state (<a href="https://github.com/heygen-com/hyperframes/commit/8c00ebad80c634f607e3a5283f8a0aa73e35f1dd">8c00ebad80c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5614">#5614</a>).</li>
-<li><strong>Core:</strong> A hidden scene&#39;s contents stay hidden when a child is set visible (<a href="https://github.com/heygen-com/hyperframes/commit/24a9b781715d0c59f06e4540831529d99c63ae75">24a9b781715</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5619">#5619</a>). Before, a nested scene&#39;s card could paint before its host started. The <code>static-volume-future-set</code> regression baseline changes for this reason.</li>
-<li><strong>CLI:</strong> <code>check</code> and <code>snapshot</code> run where a sandbox refuses to listen on localhost (<a href="https://github.com/heygen-com/hyperframes/commit/71595dd82012314f353d1237f50da0fad7639817">71595dd8201</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5618">#5618</a>).</li>
-<li><strong>CLI:</strong> The GPU check uses the same pipe as the render, so a sandboxed <code>check</code> no longer waits 120 s (<a href="https://github.com/heygen-com/hyperframes/commit/6c89decb0ddbac7c30a7dca6d947f945ebd58c0e">6c89decb0dd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5622">#5622</a>).</li>
-<li><strong>CLI:</strong> A long video conversion in <code>init</code> never stalls on ffmpeg&#39;s own log (<a href="https://github.com/heygen-com/hyperframes/commit/b14a45647166e60e2e51dc018ccb1bb7331003a2">b14a4564716</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5616">#5616</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Core:</strong> The <code>var()</code> font fallback test uses an offline fetch stub instead of Google Fonts (<a href="https://github.com/heygen-com/hyperframes/commit/8f0bcadcd32893d3ad5231f33b210c410096281f">8f0bcadcd32</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5623">#5623</a>).</li>
-<li>A stalled history fetch in change detection is retried instead of failing the run (<a href="https://github.com/heygen-com/hyperframes/commit/cd87cf11106985c6222723f5b391723882691d6c">cd87cf11106</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5615">#5615</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.158...v0.8.159">https://github.com/heygen-com/hyperframes/compare/v0.8.158...v0.8.159</a></p>
 ]]></content:encoded>
         </item>
     </channel>
