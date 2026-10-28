@@ -4,11 +4,101 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 28 Oct 2026 13:04:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Oct 2026 17:27:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.214]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.214</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.214</guid>
+            <pubDate>Wed, 28 Oct 2026 17:27:01 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.214</h1>
+<p>Released on 2026-10-28.</p>
+<p>A lane of clips can now share one colour grade, so grading a camera means editing one element. A grade can also be baked into a 3D LUT that matches the preview.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Grade groups grade a whole lane from one hf-color-group (<a href="https://github.com/heygen-com/hyperframes/commit/09b12904748b71ab1777d335f20026d45d6944ca">09b129047</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6678">#6678</a>).</li>
+<li><strong>Core:</strong> Bake a colour grade into a 3D LUT (.cube) (<a href="https://github.com/heygen-com/hyperframes/commit/c9017f45f4b8c38e11396a70a3d05d3432c58b48">c9017f45f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6679">#6679</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A tab&#39;s save keeps the newer video version another tab recorded (<a href="https://github.com/heygen-com/hyperframes/commit/348971c22285421a062ab5df45ad94bb4680bf9c">348971c22</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6682">#6682</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.213...v0.8.214">https://github.com/heygen-com/hyperframes/compare/v0.8.213...v0.8.214</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.214</h1>
+<p>Released on 2026-10-28.</p>
+<p>A lane of clips can now share one colour grade, so grading a camera means editing one element. A grade can also be baked into a 3D LUT that matches the preview.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Grade groups grade a whole lane from one hf-color-group (<a href="https://github.com/heygen-com/hyperframes/commit/09b12904748b71ab1777d335f20026d45d6944ca">09b129047</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6678">#6678</a>).</li>
+<li><strong>Core:</strong> Bake a colour grade into a 3D LUT (.cube) (<a href="https://github.com/heygen-com/hyperframes/commit/c9017f45f4b8c38e11396a70a3d05d3432c58b48">c9017f45f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6679">#6679</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A tab&#39;s save keeps the newer video version another tab recorded (<a href="https://github.com/heygen-com/hyperframes/commit/348971c22285421a062ab5df45ad94bb4680bf9c">348971c22</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6682">#6682</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.213...v0.8.214">https://github.com/heygen-com/hyperframes/compare/v0.8.213...v0.8.214</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.213]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.213</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.213</guid>
+            <pubDate>Wed, 28 Oct 2026 17:20:35 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.213</h1>
+<p>Released on 2026-10-28.</p>
+<p>Videos that start late in a clip now render every frame the preview shows. Fonts in a linked stylesheet are bundled, website capture stops on its own, and check and snapshot read each file once.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Bundled fonts in a linked stylesheet or a font shorthand are seen by the bundler (<a href="https://github.com/heygen-com/hyperframes/commit/67c7ec27d9978076137459d471be936a993e22df">67c7ec27d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6665">#6665</a>).</li>
+<li><strong>CLI:</strong> Website capture ends with what it has instead of running until it is killed (<a href="https://github.com/heygen-com/hyperframes/commit/5b5633fbbc2e77ee689dfe121c11c4adc4b31777">5b5633fbb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6662">#6662</a>).</li>
+<li><strong>Core:</strong> A preview media load that fails is reported, not swallowed (<a href="https://github.com/heygen-com/hyperframes/commit/cf627a86193808a7d9dcddf4ca903a898914ea8b">cf627a861</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6666">#6666</a>).</li>
+<li><strong>CLI:</strong> Snapshot decodes each video once for all the times it shows (<a href="https://github.com/heygen-com/hyperframes/commit/cd3b90d1edde62c3181800ee469b425edd32889f">cd3b90d1e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6667">#6667</a>).</li>
+<li><strong>CLI:</strong> Check treats text inside a closed details element as not rendered (<a href="https://github.com/heygen-com/hyperframes/commit/a1733f4e40e7e60025b6e481be18309d2b5bd87f">a1733f4e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6669">#6669</a>).</li>
+<li><strong>CLI:</strong> Check probes each audio file once, however many clips are cut from it (<a href="https://github.com/heygen-com/hyperframes/commit/8fe0ce660bd8be77d70adf4ac10d699c3782c4a1">8fe0ce660</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6654">#6654</a>).</li>
+<li><strong>Studio:</strong> A timeline edit on a clip the file lacks says how the clip was looked up (<a href="https://github.com/heygen-com/hyperframes/commit/40c28e10dbca440c9707ff8f66b0425cd78913af">40c28e10d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6661">#6661</a>).</li>
+<li><strong>CLI:</strong> A late teardown error no longer turns a finished command into exit 1 (<a href="https://github.com/heygen-com/hyperframes/commit/5a9fdd524b3303c23182176910a28201821819c9">5a9fdd524</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6659">#6659</a>).</li>
+<li><strong>Engine:</strong> Late-starting MP4 and WebM videos render every frame the preview shows (<a href="https://github.com/heygen-com/hyperframes/commit/437784038b10ef9dc1563a25865acae93cce3b2a">437784038</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6664">#6664</a>).</li>
+<li><strong>Audio:</strong> A sound is voice only with a voice-range pitch, judged on the whole clip (<a href="https://github.com/heygen-com/hyperframes/commit/1df31d8717578e31d4c80c194410bbc65783ff6f">1df31d871</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6653">#6653</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> Stall test no longer waits a real second for the progress flush (<a href="https://github.com/heygen-com/hyperframes/commit/6486d580218a57838b8bd37ab66e200c127acfe4">6486d5802</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6658">#6658</a>).</li>
+<li><strong>Engine:</strong> The multi-chunk encode test gets the 30 s the other ffmpeg tests have (<a href="https://github.com/heygen-com/hyperframes/commit/4db1214e7df8bb56328da5db75e60eac3f57020c">4db1214e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6663">#6663</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.212...v0.8.213">https://github.com/heygen-com/hyperframes/compare/v0.8.212...v0.8.213</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.213</h1>
+<p>Released on 2026-10-28.</p>
+<p>Videos that start late in a clip now render every frame the preview shows. Fonts in a linked stylesheet are bundled, website capture stops on its own, and check and snapshot read each file once.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Bundled fonts in a linked stylesheet or a font shorthand are seen by the bundler (<a href="https://github.com/heygen-com/hyperframes/commit/67c7ec27d9978076137459d471be936a993e22df">67c7ec27d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6665">#6665</a>).</li>
+<li><strong>CLI:</strong> Website capture ends with what it has instead of running until it is killed (<a href="https://github.com/heygen-com/hyperframes/commit/5b5633fbbc2e77ee689dfe121c11c4adc4b31777">5b5633fbb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6662">#6662</a>).</li>
+<li><strong>Core:</strong> A preview media load that fails is reported, not swallowed (<a href="https://github.com/heygen-com/hyperframes/commit/cf627a86193808a7d9dcddf4ca903a898914ea8b">cf627a861</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6666">#6666</a>).</li>
+<li><strong>CLI:</strong> Snapshot decodes each video once for all the times it shows (<a href="https://github.com/heygen-com/hyperframes/commit/cd3b90d1edde62c3181800ee469b425edd32889f">cd3b90d1e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6667">#6667</a>).</li>
+<li><strong>CLI:</strong> Check treats text inside a closed details element as not rendered (<a href="https://github.com/heygen-com/hyperframes/commit/a1733f4e40e7e60025b6e481be18309d2b5bd87f">a1733f4e4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6669">#6669</a>).</li>
+<li><strong>CLI:</strong> Check probes each audio file once, however many clips are cut from it (<a href="https://github.com/heygen-com/hyperframes/commit/8fe0ce660bd8be77d70adf4ac10d699c3782c4a1">8fe0ce660</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6654">#6654</a>).</li>
+<li><strong>Studio:</strong> A timeline edit on a clip the file lacks says how the clip was looked up (<a href="https://github.com/heygen-com/hyperframes/commit/40c28e10dbca440c9707ff8f66b0425cd78913af">40c28e10d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6661">#6661</a>).</li>
+<li><strong>CLI:</strong> A late teardown error no longer turns a finished command into exit 1 (<a href="https://github.com/heygen-com/hyperframes/commit/5a9fdd524b3303c23182176910a28201821819c9">5a9fdd524</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6659">#6659</a>).</li>
+<li><strong>Engine:</strong> Late-starting MP4 and WebM videos render every frame the preview shows (<a href="https://github.com/heygen-com/hyperframes/commit/437784038b10ef9dc1563a25865acae93cce3b2a">437784038</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6664">#6664</a>).</li>
+<li><strong>Audio:</strong> A sound is voice only with a voice-range pitch, judged on the whole clip (<a href="https://github.com/heygen-com/hyperframes/commit/1df31d8717578e31d4c80c194410bbc65783ff6f">1df31d871</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6653">#6653</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> Stall test no longer waits a real second for the progress flush (<a href="https://github.com/heygen-com/hyperframes/commit/6486d580218a57838b8bd37ab66e200c127acfe4">6486d5802</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6658">#6658</a>).</li>
+<li><strong>Engine:</strong> The multi-chunk encode test gets the 30 s the other ffmpeg tests have (<a href="https://github.com/heygen-com/hyperframes/commit/4db1214e7df8bb56328da5db75e60eac3f57020c">4db1214e7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6663">#6663</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.212...v0.8.213">https://github.com/heygen-com/hyperframes/compare/v0.8.212...v0.8.213</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.212]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.212</link>
@@ -3017,82 +3107,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.163...v0.8.164">https://github.com/heygen-com/hyperframes/compare/v0.8.163...v0.8.164</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.163]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.163</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.163</guid>
-            <pubDate>Fri, 16 Oct 2026 02:18:42 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.163</h1>
-<p>Released on 2026-10-16.</p>
-<p>Website captures keep inline SVG logos whole, and timed SVG clips hide outside their window. Publishing now asks you to log in when it needs an account.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Judge text behind a transparent video by its decoded alpha in check (<a href="https://github.com/heygen-com/hyperframes/commit/cea8aa8a7dee9d669e47e4b488213008bbe305cd">cea8aa8a7de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5657">#5657</a>).</li>
-<li><strong>CLI:</strong> Render telemetry reports how busy the machine&#39;s CPU was (<a href="https://github.com/heygen-com/hyperframes/commit/0e9f380c2e2295db4b88945a77cfa81001ac5c27">0e9f380c2e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5646">#5646</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Ask to log in when publishing needs an account (<a href="https://github.com/heygen-com/hyperframes/commit/917ee5d31342f8c8a4a14659679762489cafe665">917ee5d3134</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5670">#5670</a>).</li>
-<li><strong>Core:</strong> Timed svg clips hide outside their window (<a href="https://github.com/heygen-com/hyperframes/commit/1ee6754f7106335cc5533f7205bd3b7949ddb887">1ee6754f710</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5661">#5661</a>).</li>
-<li><strong>CLI:</strong> Capture writes inline SVG logos whole and parakeet takes long audio (<a href="https://github.com/heygen-com/hyperframes/commit/0d6bdd453bbcfae2280cf2b66f0b6b5afccc10ba">0d6bdd453bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5662">#5662</a>).</li>
-<li><strong>CLI:</strong> Skip runtime by-products when fingerprinting a skill bundle (<a href="https://github.com/heygen-com/hyperframes/commit/08ee1bd5ad59987a7f2525222683e24ca30971f9">08ee1bd5ad5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5654">#5654</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Re-run an edit accuracy shard on a fresh runner when its runner is too slow (<a href="https://github.com/heygen-com/hyperframes/commit/a403ea1e8b283c6bdcbe21b5cab2a2a50b5f35f3">a403ea1e8b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5659">#5659</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.162...v0.8.163">https://github.com/heygen-com/hyperframes/compare/v0.8.162...v0.8.163</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.163</h1>
-<p>Released on 2026-10-16.</p>
-<p>Website captures keep inline SVG logos whole, and timed SVG clips hide outside their window. Publishing now asks you to log in when it needs an account.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Judge text behind a transparent video by its decoded alpha in check (<a href="https://github.com/heygen-com/hyperframes/commit/cea8aa8a7dee9d669e47e4b488213008bbe305cd">cea8aa8a7de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5657">#5657</a>).</li>
-<li><strong>CLI:</strong> Render telemetry reports how busy the machine&#39;s CPU was (<a href="https://github.com/heygen-com/hyperframes/commit/0e9f380c2e2295db4b88945a77cfa81001ac5c27">0e9f380c2e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5646">#5646</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Ask to log in when publishing needs an account (<a href="https://github.com/heygen-com/hyperframes/commit/917ee5d31342f8c8a4a14659679762489cafe665">917ee5d3134</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5670">#5670</a>).</li>
-<li><strong>Core:</strong> Timed svg clips hide outside their window (<a href="https://github.com/heygen-com/hyperframes/commit/1ee6754f7106335cc5533f7205bd3b7949ddb887">1ee6754f710</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5661">#5661</a>).</li>
-<li><strong>CLI:</strong> Capture writes inline SVG logos whole and parakeet takes long audio (<a href="https://github.com/heygen-com/hyperframes/commit/0d6bdd453bbcfae2280cf2b66f0b6b5afccc10ba">0d6bdd453bb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5662">#5662</a>).</li>
-<li><strong>CLI:</strong> Skip runtime by-products when fingerprinting a skill bundle (<a href="https://github.com/heygen-com/hyperframes/commit/08ee1bd5ad59987a7f2525222683e24ca30971f9">08ee1bd5ad5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5654">#5654</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Re-run an edit accuracy shard on a fresh runner when its runner is too slow (<a href="https://github.com/heygen-com/hyperframes/commit/a403ea1e8b283c6bdcbe21b5cab2a2a50b5f35f3">a403ea1e8b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5659">#5659</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.162...v0.8.163">https://github.com/heygen-com/hyperframes/compare/v0.8.162...v0.8.163</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.162]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.162</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.162</guid>
-            <pubDate>Thu, 15 Oct 2026 12:19:26 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.162</h1>
-<p>Released on 2026-10-15.</p>
-<p>Audio analysis uploads sound as an owned asset before requesting results. This matches the analysis service&#39;s asset-reference request format.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Analyze finalized audio assets after direct upload (<a href="https://github.com/heygen-com/hyperframes/commit/34776f3def039a540cdf8c23912fd3757a373008">34776f3de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5647">#5647</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.161...v0.8.162">https://github.com/heygen-com/hyperframes/compare/v0.8.161...v0.8.162</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.162</h1>
-<p>Released on 2026-10-15.</p>
-<p>Audio analysis uploads sound as an owned asset before requesting results. This matches the analysis service&#39;s asset-reference request format.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Analyze finalized audio assets after direct upload (<a href="https://github.com/heygen-com/hyperframes/commit/34776f3def039a540cdf8c23912fd3757a373008">34776f3de</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5647">#5647</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.161...v0.8.162">https://github.com/heygen-com/hyperframes/compare/v0.8.161...v0.8.162</a></p>
 ]]></content:encoded>
         </item>
     </channel>
