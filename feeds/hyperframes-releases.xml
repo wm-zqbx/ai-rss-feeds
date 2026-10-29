@@ -4,11 +4,59 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 29 Oct 2026 10:25:01 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Oct 2026 15:37:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.217]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.217</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.217</guid>
+            <pubDate>Thu, 29 Oct 2026 15:37:48 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.217</h1>
+<p>Released on 2026-10-29.</p>
+<p>The preview no longer hangs when a scene cannot close. Render errors name the kind of missing file, never its path, and a project .env only sets the CLI&#39;s own settings.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> A render that finds a file missing says which kind of file, never its path (<a href="https://github.com/heygen-com/hyperframes/commit/943849025a4d44d740ef94414cc8f422dbad2a52">943849025</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6742">#6742</a>).</li>
+<li><strong>CLI:</strong> A feedback report names why the last check failed (<a href="https://github.com/heygen-com/hyperframes/commit/eab6541f5ba017aa7b8bb53263a40105ace6168e">eab6541f5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6717">#6717</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> A project .env only sets the CLI&#39;s own settings (<a href="https://github.com/heygen-com/hyperframes/commit/838f8782c4a96913d1627cd344be8431e7c44019">838f8782c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6565">#6565</a>).</li>
+<li><strong>Core:</strong> The preview&#39;s scene window settles when a scene can&#39;t unmount instead of hanging the page (<a href="https://github.com/heygen-com/hyperframes/commit/93f3d3dcbbcc1820b7827d2bd688d61eb334c693">93f3d3dcb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6740">#6740</a>).</li>
+<li><strong>CLI:</strong> Allow-occlusion on the covering element silences text_occluded (<a href="https://github.com/heygen-com/hyperframes/commit/1a80b5407d6383be0922245389d93d94a3de86a0">1a80b5407</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6741">#6741</a>).</li>
+<li><strong>Engine:</strong> Long films show progress during the effect check and never wait minutes on it (<a href="https://github.com/heygen-com/hyperframes/commit/e1a8c7f1730149a81d5aa5863b963487a2e3955e">e1a8c7f17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6697">#6697</a>).</li>
+<li><strong>CLI:</strong> A failed render&#39;s code comes only from the producer&#39;s list of safe codes (<a href="https://github.com/heygen-com/hyperframes/commit/0da46832ef9ddaa0e4f6941b02f066ae7c0b53dc">0da46832e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6737">#6737</a>).</li>
+<li><strong>Core:</strong> Telemetry redaction covers folders with spaces in any script (<a href="https://github.com/heygen-com/hyperframes/commit/71f716a91bc625e9243c5f25c194a114bb555668">71f716a91</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6734">#6734</a>).</li>
+<li><strong>CLI:</strong> Snapshot says FFmpeg was stopped when it exits 255 with no output (<a href="https://github.com/heygen-com/hyperframes/commit/94203ad431678f85e20a2de17852f7f9c5e1ba04">94203ad43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6718">#6718</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.216...v0.8.217">https://github.com/heygen-com/hyperframes/compare/v0.8.216...v0.8.217</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.217</h1>
+<p>Released on 2026-10-29.</p>
+<p>The preview no longer hangs when a scene cannot close. Render errors name the kind of missing file, never its path, and a project .env only sets the CLI&#39;s own settings.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> A render that finds a file missing says which kind of file, never its path (<a href="https://github.com/heygen-com/hyperframes/commit/943849025a4d44d740ef94414cc8f422dbad2a52">943849025</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6742">#6742</a>).</li>
+<li><strong>CLI:</strong> A feedback report names why the last check failed (<a href="https://github.com/heygen-com/hyperframes/commit/eab6541f5ba017aa7b8bb53263a40105ace6168e">eab6541f5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6717">#6717</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> A project .env only sets the CLI&#39;s own settings (<a href="https://github.com/heygen-com/hyperframes/commit/838f8782c4a96913d1627cd344be8431e7c44019">838f8782c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6565">#6565</a>).</li>
+<li><strong>Core:</strong> The preview&#39;s scene window settles when a scene can&#39;t unmount instead of hanging the page (<a href="https://github.com/heygen-com/hyperframes/commit/93f3d3dcbbcc1820b7827d2bd688d61eb334c693">93f3d3dcb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6740">#6740</a>).</li>
+<li><strong>CLI:</strong> Allow-occlusion on the covering element silences text_occluded (<a href="https://github.com/heygen-com/hyperframes/commit/1a80b5407d6383be0922245389d93d94a3de86a0">1a80b5407</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6741">#6741</a>).</li>
+<li><strong>Engine:</strong> Long films show progress during the effect check and never wait minutes on it (<a href="https://github.com/heygen-com/hyperframes/commit/e1a8c7f1730149a81d5aa5863b963487a2e3955e">e1a8c7f17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6697">#6697</a>).</li>
+<li><strong>CLI:</strong> A failed render&#39;s code comes only from the producer&#39;s list of safe codes (<a href="https://github.com/heygen-com/hyperframes/commit/0da46832ef9ddaa0e4f6941b02f066ae7c0b53dc">0da46832e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6737">#6737</a>).</li>
+<li><strong>Core:</strong> Telemetry redaction covers folders with spaces in any script (<a href="https://github.com/heygen-com/hyperframes/commit/71f716a91bc625e9243c5f25c194a114bb555668">71f716a91</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6734">#6734</a>).</li>
+<li><strong>CLI:</strong> Snapshot says FFmpeg was stopped when it exits 255 with no output (<a href="https://github.com/heygen-com/hyperframes/commit/94203ad431678f85e20a2de17852f7f9c5e1ba04">94203ad43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6718">#6718</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.216...v0.8.217">https://github.com/heygen-com/hyperframes/compare/v0.8.216...v0.8.217</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.216]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.216</link>
@@ -3181,34 +3229,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.165...v0.8.166">https://github.com/heygen-com/hyperframes/compare/v0.8.165...v0.8.166</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.165]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.165</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.165</guid>
-            <pubDate>Fri, 16 Oct 2026 17:54:25 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.165</h1>
-<p>Released on 2026-10-16.</p>
-<p>Caption lines come back after you drag the playhead backward past them. Exported scenes keep cards that fly in, instead of showing one frame of each.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Exported scenes keep cards that fly in, instead of one frame of each (<a href="https://github.com/heygen-com/hyperframes/commit/fff3636fe727512af54c876982c73050ca2c8fa5">fff3636fe72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5692">#5692</a>).</li>
-<li><strong>Core:</strong> A caption line shows again after the playhead jumps back over it (<a href="https://github.com/heygen-com/hyperframes/commit/4e6fcdb3a9f310a9c483622d6a4ca5354a63fb22">4e6fcdb3a9f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5690">#5690</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.164...v0.8.165">https://github.com/heygen-com/hyperframes/compare/v0.8.164...v0.8.165</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.165</h1>
-<p>Released on 2026-10-16.</p>
-<p>Caption lines come back after you drag the playhead backward past them. Exported scenes keep cards that fly in, instead of showing one frame of each.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Exported scenes keep cards that fly in, instead of one frame of each (<a href="https://github.com/heygen-com/hyperframes/commit/fff3636fe727512af54c876982c73050ca2c8fa5">fff3636fe72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5692">#5692</a>).</li>
-<li><strong>Core:</strong> A caption line shows again after the playhead jumps back over it (<a href="https://github.com/heygen-com/hyperframes/commit/4e6fcdb3a9f310a9c483622d6a4ca5354a63fb22">4e6fcdb3a9f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5690">#5690</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.164...v0.8.165">https://github.com/heygen-com/hyperframes/compare/v0.8.164...v0.8.165</a></p>
 ]]></content:encoded>
         </item>
     </channel>
