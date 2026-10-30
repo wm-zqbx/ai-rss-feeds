@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 29 Oct 2026 15:37:48 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 30 Oct 2026 00:01:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.218]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.218</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.218</guid>
+            <pubDate>Fri, 30 Oct 2026 00:01:18 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.218</h1>
+<p>Released on 2026-10-29.</p>
+<p>The CLI now signs in with its own HyperFrames account link, separate from the HeyGen CLI. Run <code>hyperframes auth login</code> once after upgrading, and cloud work then bills to your HyperFrames plan.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> The CLI signs in with its own HyperFrames OAuth client and keeps its login apart from the HeyGen CLI, so one tool&#39;s sign-in no longer overwrites the other&#39;s. Existing users sign in again once. A <code>HEYGEN_API_KEY</code> still works as before (<a href="https://github.com/heygen-com/hyperframes/commit/3e462f427723e81352fea956b155848428cf1319">3e462f427</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6687">#6687</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.217...v0.8.218">https://github.com/heygen-com/hyperframes/compare/v0.8.217...v0.8.218</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.218</h1>
+<p>Released on 2026-10-29.</p>
+<p>The CLI now signs in with its own HyperFrames account link, separate from the HeyGen CLI. Run <code>hyperframes auth login</code> once after upgrading, and cloud work then bills to your HyperFrames plan.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> The CLI signs in with its own HyperFrames OAuth client and keeps its login apart from the HeyGen CLI, so one tool&#39;s sign-in no longer overwrites the other&#39;s. Existing users sign in again once. A <code>HEYGEN_API_KEY</code> still works as before (<a href="https://github.com/heygen-com/hyperframes/commit/3e462f427723e81352fea956b155848428cf1319">3e462f427</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6687">#6687</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.217...v0.8.218">https://github.com/heygen-com/hyperframes/compare/v0.8.217...v0.8.218</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.217]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.217</link>
@@ -3203,32 +3229,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.166...v0.8.167">https://github.com/heygen-com/hyperframes/compare/v0.8.166...v0.8.167</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.166]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.166</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.166</guid>
-            <pubDate>Fri, 16 Oct 2026 18:43:17 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.166</h1>
-<p>Released on 2026-10-16.</p>
-<p>Scenes no longer reset during playback when the root composition has no animation of its own. Name cards and other scene content now play through.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Scenes stop resetting during playback when the root has no animation of its own (<a href="https://github.com/heygen-com/hyperframes/commit/19a8d44b480d0b602c7fa06abca656cd2b13d803">19a8d44b480</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5693">#5693</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.165...v0.8.166">https://github.com/heygen-com/hyperframes/compare/v0.8.165...v0.8.166</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.166</h1>
-<p>Released on 2026-10-16.</p>
-<p>Scenes no longer reset during playback when the root composition has no animation of its own. Name cards and other scene content now play through.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Scenes stop resetting during playback when the root has no animation of its own (<a href="https://github.com/heygen-com/hyperframes/commit/19a8d44b480d0b602c7fa06abca656cd2b13d803">19a8d44b480</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5693">#5693</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.165...v0.8.166">https://github.com/heygen-com/hyperframes/compare/v0.8.165...v0.8.166</a></p>
 ]]></content:encoded>
         </item>
     </channel>
