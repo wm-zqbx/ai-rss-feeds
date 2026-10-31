@@ -4,11 +4,79 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 31 Oct 2026 02:20:01 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Oct 2026 19:24:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.224]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.224</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.224</guid>
+            <pubDate>Sat, 31 Oct 2026 19:24:09 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.224</h1>
+<p>Released on 2026-10-31.</p>
+<p>Paid HyperFrames plans can render final cuts in the cloud at the composition&#39;s fps and high quality. Safari keeps audio smooth during playback, and Studio downloads exports larger than 2 GiB.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Render final cuts in the cloud on a paid HyperFrames plan (<a href="https://github.com/heygen-com/hyperframes/commit/2b76e9a70a749c445cd137946512b0dda8aa770f">2b76e9a70</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6884">#6884</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills:</strong> Paid-plan cloud final keeps the composition fps and high quality (<a href="https://github.com/heygen-com/hyperframes/commit/6b0fd6d10992ebf5913dcc8418b7b8b58803f035">6b0fd6d10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6886">#6886</a>).</li>
+<li><strong>CLI:</strong> Stopping remove-background on a Mac no longer aborts the process (<a href="https://github.com/heygen-com/hyperframes/commit/ea7d43c616c4cd3bb77f27eaf9f3becd32e41744">ea7d43c61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6848">#6848</a>).</li>
+<li><strong>Core:</strong> A stuck seek in check or snapshot fails named before the protocol timeout (<a href="https://github.com/heygen-com/hyperframes/commit/1e5413f34ce489a1b35eaf46635a630a44cb5804">1e5413f34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6596">#6596</a>).</li>
+<li><strong>Core:</strong> Style a sub-composition root written as #root[data-composition-id] (<a href="https://github.com/heygen-com/hyperframes/commit/5c92fb07761cd0667d22380c2c855b89766f8fa4">5c92fb077</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6843">#6843</a>).</li>
+<li><strong>Studio Server:</strong> Repeated splits stop stacking id CSS rules (<a href="https://github.com/heygen-com/hyperframes/commit/124a00f563944a006dd9ac286ecb91043b0fa0b9">124a00f56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6874">#6874</a>).</li>
+<li><strong>Producer:</strong> Auto renders with color-graded media stay SDR instead of promoting to HDR (<a href="https://github.com/heygen-com/hyperframes/commit/60f711686ccae602caaed24faa3e225be6d96b12">60f711686</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6671">#6671</a>).</li>
+<li><strong>Studio:</strong> Preserve identity for stale metadata completions (<a href="https://github.com/heygen-com/hyperframes/commit/168429d514ccefdfc5658138fb58426cf0e66e01">168429d51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6755">#6755</a>).</li>
+<li><strong>Core:</strong> Safari stops chopping audio by seeking it over and over during playback (<a href="https://github.com/heygen-com/hyperframes/commit/0c16afd949f2511ca17347eaa113640df0bac1e5">0c16afd94</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6854">#6854</a>).</li>
+<li><strong>Studio Server:</strong> Download exports larger than 2 GiB (<a href="https://github.com/heygen-com/hyperframes/commit/164d6c7a36eba26e9126b364beab98437e2eeec7">164d6c7a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6602">#6602</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>List OpenAI and Nate Herk as HyperFrames adopters (<a href="https://github.com/heygen-com/hyperframes/commit/a04b45a6db0d1f724be9cf1985c3b13657195f0d">a04b45a6d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6876">#6876</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Proxy failure wording without added comments or a try/catch (<a href="https://github.com/heygen-com/hyperframes/commit/4d6d38519d06b650a5d4f55c5cc7ba854c0993ad">4d6d38519</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6715">#6715</a>).</li>
+<li><strong>Core:</strong> Split the frozen-picture judgement so it stays under the complexity limit (<a href="https://github.com/heygen-com/hyperframes/commit/2bd8cd95cb43fba47de906530e043900bb283371">2bd8cd95c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6870">#6870</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.223...v0.8.224">https://github.com/heygen-com/hyperframes/compare/v0.8.223...v0.8.224</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.224</h1>
+<p>Released on 2026-10-31.</p>
+<p>Paid HyperFrames plans can render final cuts in the cloud at the composition&#39;s fps and high quality. Safari keeps audio smooth during playback, and Studio downloads exports larger than 2 GiB.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Render final cuts in the cloud on a paid HyperFrames plan (<a href="https://github.com/heygen-com/hyperframes/commit/2b76e9a70a749c445cd137946512b0dda8aa770f">2b76e9a70</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6884">#6884</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Skills:</strong> Paid-plan cloud final keeps the composition fps and high quality (<a href="https://github.com/heygen-com/hyperframes/commit/6b0fd6d10992ebf5913dcc8418b7b8b58803f035">6b0fd6d10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6886">#6886</a>).</li>
+<li><strong>CLI:</strong> Stopping remove-background on a Mac no longer aborts the process (<a href="https://github.com/heygen-com/hyperframes/commit/ea7d43c616c4cd3bb77f27eaf9f3becd32e41744">ea7d43c61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6848">#6848</a>).</li>
+<li><strong>Core:</strong> A stuck seek in check or snapshot fails named before the protocol timeout (<a href="https://github.com/heygen-com/hyperframes/commit/1e5413f34ce489a1b35eaf46635a630a44cb5804">1e5413f34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6596">#6596</a>).</li>
+<li><strong>Core:</strong> Style a sub-composition root written as #root[data-composition-id] (<a href="https://github.com/heygen-com/hyperframes/commit/5c92fb07761cd0667d22380c2c855b89766f8fa4">5c92fb077</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6843">#6843</a>).</li>
+<li><strong>Studio Server:</strong> Repeated splits stop stacking id CSS rules (<a href="https://github.com/heygen-com/hyperframes/commit/124a00f563944a006dd9ac286ecb91043b0fa0b9">124a00f56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6874">#6874</a>).</li>
+<li><strong>Producer:</strong> Auto renders with color-graded media stay SDR instead of promoting to HDR (<a href="https://github.com/heygen-com/hyperframes/commit/60f711686ccae602caaed24faa3e225be6d96b12">60f711686</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6671">#6671</a>).</li>
+<li><strong>Studio:</strong> Preserve identity for stale metadata completions (<a href="https://github.com/heygen-com/hyperframes/commit/168429d514ccefdfc5658138fb58426cf0e66e01">168429d51</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6755">#6755</a>).</li>
+<li><strong>Core:</strong> Safari stops chopping audio by seeking it over and over during playback (<a href="https://github.com/heygen-com/hyperframes/commit/0c16afd949f2511ca17347eaa113640df0bac1e5">0c16afd94</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6854">#6854</a>).</li>
+<li><strong>Studio Server:</strong> Download exports larger than 2 GiB (<a href="https://github.com/heygen-com/hyperframes/commit/164d6c7a36eba26e9126b364beab98437e2eeec7">164d6c7a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6602">#6602</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li>List OpenAI and Nate Herk as HyperFrames adopters (<a href="https://github.com/heygen-com/hyperframes/commit/a04b45a6db0d1f724be9cf1985c3b13657195f0d">a04b45a6d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6876">#6876</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Proxy failure wording without added comments or a try/catch (<a href="https://github.com/heygen-com/hyperframes/commit/4d6d38519d06b650a5d4f55c5cc7ba854c0993ad">4d6d38519</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6715">#6715</a>).</li>
+<li><strong>Core:</strong> Split the frozen-picture judgement so it stays under the complexity limit (<a href="https://github.com/heygen-com/hyperframes/commit/2bd8cd95cb43fba47de906530e043900bb283371">2bd8cd95c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6870">#6870</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.223...v0.8.224">https://github.com/heygen-com/hyperframes/compare/v0.8.223...v0.8.224</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.223]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.223</link>
@@ -3243,38 +3311,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.172...v0.8.173">https://github.com/heygen-com/hyperframes/compare/v0.8.172...v0.8.173</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.172]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.172</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.172</guid>
-            <pubDate>Sun, 18 Oct 2026 16:20:03 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.172</h1>
-<p>Released on 2026-10-18.</p>
-<p>Check and snapshot keep their report when another app has the project open, and capture works inside an agent sandbox. Audio finds the same files as preview, and later scenes no longer leak grain early.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Check and snapshot keep their record while another app has the history open (<a href="https://github.com/heygen-com/hyperframes/commit/01adadb91814a8fdca102c0a008ffac663c43dcd">01adadb9181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5845">#5845</a>).</li>
-<li><strong>CLI:</strong> Audio and timeline find media the way preview and render load it (<a href="https://github.com/heygen-com/hyperframes/commit/ab2e939558ba073ab725530d98f47a791ea6942d">ab2e939558b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5846">#5846</a>).</li>
-<li><strong>Core:</strong> A scene paints no SVG filter grain before its start or after its end (<a href="https://github.com/heygen-com/hyperframes/commit/bb55640f5c6869055d1a41d83809cfef63230030">bb55640f5c6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5828">#5828</a>).</li>
-<li><strong>CLI:</strong> Capture works inside an agent&#39;s macOS sandbox (<a href="https://github.com/heygen-com/hyperframes/commit/dc0e80e73af185cc892ea90d5a9f1412a055e9a1">dc0e80e73af</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5840">#5840</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.171...v0.8.172">https://github.com/heygen-com/hyperframes/compare/v0.8.171...v0.8.172</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.172</h1>
-<p>Released on 2026-10-18.</p>
-<p>Check and snapshot keep their report when another app has the project open, and capture works inside an agent sandbox. Audio finds the same files as preview, and later scenes no longer leak grain early.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Check and snapshot keep their record while another app has the history open (<a href="https://github.com/heygen-com/hyperframes/commit/01adadb91814a8fdca102c0a008ffac663c43dcd">01adadb9181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5845">#5845</a>).</li>
-<li><strong>CLI:</strong> Audio and timeline find media the way preview and render load it (<a href="https://github.com/heygen-com/hyperframes/commit/ab2e939558ba073ab725530d98f47a791ea6942d">ab2e939558b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5846">#5846</a>).</li>
-<li><strong>Core:</strong> A scene paints no SVG filter grain before its start or after its end (<a href="https://github.com/heygen-com/hyperframes/commit/bb55640f5c6869055d1a41d83809cfef63230030">bb55640f5c6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5828">#5828</a>).</li>
-<li><strong>CLI:</strong> Capture works inside an agent&#39;s macOS sandbox (<a href="https://github.com/heygen-com/hyperframes/commit/dc0e80e73af185cc892ea90d5a9f1412a055e9a1">dc0e80e73af</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5840">#5840</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.171...v0.8.172">https://github.com/heygen-com/hyperframes/compare/v0.8.171...v0.8.172</a></p>
 ]]></content:encoded>
         </item>
     </channel>
