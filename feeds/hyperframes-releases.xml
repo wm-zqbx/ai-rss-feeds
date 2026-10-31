@@ -4,11 +4,81 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 30 Oct 2026 18:33:49 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Oct 2026 02:20:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.223]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.223</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.223</guid>
+            <pubDate>Sat, 31 Oct 2026 02:20:01 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.223</h1>
+<p>Released on 2026-10-31.</p>
+<p>Reverse any video now runs on the HyperFrames plan, with clearer credit wording. Preview voice no longer drops out while other tracks play, and Windows renders keep their telemetry.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Re-land reverse any video on the HyperFrames plan, with clearer credit wording (<a href="https://github.com/heygen-com/hyperframes/commit/f2358315e59731833334c5d881a7fb5543c22a97">f2358315e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6833">#6833</a>).</li>
+<li><strong>Core:</strong> Playback health reports how long a video on screen showed no moving picture (<a href="https://github.com/heygen-com/hyperframes/commit/359b6c8a3877039068711915d94323f7e777f5e6">359b6c8a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6856">#6856</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> The podcast-lanes.html page Desktop writes is not a second root composition (<a href="https://github.com/heygen-com/hyperframes/commit/5169422a8a424fadbb97424a95316a63343eb4f2">5169422a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6809">#6809</a>).</li>
+<li><strong>Player:</strong> Preview voice no longer goes silent while other tracks play (<a href="https://github.com/heygen-com/hyperframes/commit/443ded42615f81fd5a4b97d34318676fb76957bd">443ded426</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6859">#6859</a>).</li>
+<li><strong>History:</strong> Reading a project&#39;s history no longer rewrites its record (<a href="https://github.com/heygen-com/hyperframes/commit/e342a9099162b6a5d4ad89d9a986203c2b548091">e342a9099</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6832">#6832</a>).</li>
+<li><strong>Lint:</strong> A timeline registered in a local script file counts as registered (<a href="https://github.com/heygen-com/hyperframes/commit/0708f6ca7dc0718487a2d0a066853b87db92a1aa">0708f6ca7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6829">#6829</a>).</li>
+<li><strong>CLI:</strong> Say stdin was empty when a JSON flag reads - and nothing is piped (<a href="https://github.com/heygen-com/hyperframes/commit/ef9155fee13cf8a65282e1681ac2761edcb1fcc2">ef9155fee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6852">#6852</a>).</li>
+<li><strong>Core:</strong> Same-time sets at 0 land in authored order on the first frame (<a href="https://github.com/heygen-com/hyperframes/commit/aafbd96b77702f295c77de1430dfcb14302e4958">aafbd96b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6851">#6851</a>).</li>
+<li><strong>CLI:</strong> Remove-background gathers each decoded frame in linear time (<a href="https://github.com/heygen-com/hyperframes/commit/80f9350da21b54741d392c684511b6f93a00026c">80f9350da</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6850">#6850</a>).</li>
+<li><strong>CLI:</strong> Exit-time telemetry no longer loses a render&#39;s events on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/6aa9c78bd87d6215ad7c599e4caf44331b39a645">6aa9c78bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6847">#6847</a>).</li>
+<li><strong>CLI:</strong> Read BOM-prefixed JSON files for timeline plans, grades and motion specs (<a href="https://github.com/heygen-com/hyperframes/commit/16e2e4c6b5579a0ccefbfc7bd6991ec23a6f8c75">16e2e4c6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6845">#6845</a>).</li>
+<li><strong>Producer:</strong> HDR renders report their encoder wait in render telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/3d942ee9210a166a53a6497b76aa323acc8e95bc">3d942ee92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6841">#6841</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> A long timeline no longer lays itself out on every render while it settles (<a href="https://github.com/heygen-com/hyperframes/commit/9b0df610cca45bb1bc8bacec78059d3c4443ec09">9b0df610c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6855">#6855</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li>One Docs menu and Catalog in the top bar (<a href="https://github.com/heygen-com/hyperframes/commit/4cee7be834c18b571da1cfcda6e3eaeca7689855">4cee7be83</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6860">#6860</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.222...v0.8.223">https://github.com/heygen-com/hyperframes/compare/v0.8.222...v0.8.223</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.223</h1>
+<p>Released on 2026-10-31.</p>
+<p>Reverse any video now runs on the HyperFrames plan, with clearer credit wording. Preview voice no longer drops out while other tracks play, and Windows renders keep their telemetry.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Skills:</strong> Re-land reverse any video on the HyperFrames plan, with clearer credit wording (<a href="https://github.com/heygen-com/hyperframes/commit/f2358315e59731833334c5d881a7fb5543c22a97">f2358315e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6833">#6833</a>).</li>
+<li><strong>Core:</strong> Playback health reports how long a video on screen showed no moving picture (<a href="https://github.com/heygen-com/hyperframes/commit/359b6c8a3877039068711915d94323f7e777f5e6">359b6c8a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6856">#6856</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Lint:</strong> The podcast-lanes.html page Desktop writes is not a second root composition (<a href="https://github.com/heygen-com/hyperframes/commit/5169422a8a424fadbb97424a95316a63343eb4f2">5169422a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6809">#6809</a>).</li>
+<li><strong>Player:</strong> Preview voice no longer goes silent while other tracks play (<a href="https://github.com/heygen-com/hyperframes/commit/443ded42615f81fd5a4b97d34318676fb76957bd">443ded426</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6859">#6859</a>).</li>
+<li><strong>History:</strong> Reading a project&#39;s history no longer rewrites its record (<a href="https://github.com/heygen-com/hyperframes/commit/e342a9099162b6a5d4ad89d9a986203c2b548091">e342a9099</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6832">#6832</a>).</li>
+<li><strong>Lint:</strong> A timeline registered in a local script file counts as registered (<a href="https://github.com/heygen-com/hyperframes/commit/0708f6ca7dc0718487a2d0a066853b87db92a1aa">0708f6ca7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6829">#6829</a>).</li>
+<li><strong>CLI:</strong> Say stdin was empty when a JSON flag reads - and nothing is piped (<a href="https://github.com/heygen-com/hyperframes/commit/ef9155fee13cf8a65282e1681ac2761edcb1fcc2">ef9155fee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6852">#6852</a>).</li>
+<li><strong>Core:</strong> Same-time sets at 0 land in authored order on the first frame (<a href="https://github.com/heygen-com/hyperframes/commit/aafbd96b77702f295c77de1430dfcb14302e4958">aafbd96b7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6851">#6851</a>).</li>
+<li><strong>CLI:</strong> Remove-background gathers each decoded frame in linear time (<a href="https://github.com/heygen-com/hyperframes/commit/80f9350da21b54741d392c684511b6f93a00026c">80f9350da</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6850">#6850</a>).</li>
+<li><strong>CLI:</strong> Exit-time telemetry no longer loses a render&#39;s events on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/6aa9c78bd87d6215ad7c599e4caf44331b39a645">6aa9c78bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6847">#6847</a>).</li>
+<li><strong>CLI:</strong> Read BOM-prefixed JSON files for timeline plans, grades and motion specs (<a href="https://github.com/heygen-com/hyperframes/commit/16e2e4c6b5579a0ccefbfc7bd6991ec23a6f8c75">16e2e4c6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6845">#6845</a>).</li>
+<li><strong>Producer:</strong> HDR renders report their encoder wait in render telemetry (<a href="https://github.com/heygen-com/hyperframes/commit/3d942ee9210a166a53a6497b76aa323acc8e95bc">3d942ee92</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6841">#6841</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio:</strong> A long timeline no longer lays itself out on every render while it settles (<a href="https://github.com/heygen-com/hyperframes/commit/9b0df610cca45bb1bc8bacec78059d3c4443ec09">9b0df610c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6855">#6855</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li>One Docs menu and Catalog in the top bar (<a href="https://github.com/heygen-com/hyperframes/commit/4cee7be834c18b571da1cfcda6e3eaeca7689855">4cee7be83</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6860">#6860</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.222...v0.8.223">https://github.com/heygen-com/hyperframes/compare/v0.8.222...v0.8.223</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.222]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.222</link>
@@ -3205,46 +3275,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.171...v0.8.172">https://github.com/heygen-com/hyperframes/compare/v0.8.171...v0.8.172</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.171]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.171</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.171</guid>
-            <pubDate>Sun, 18 Oct 2026 13:58:21 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.171</h1>
-<p>Released on 2026-10-18.</p>
-<p>Check no longer hangs inside an agent&#39;s macOS sandbox and finishes on Three.js scenes. Catalog search also stays fast on slow connections.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Check never hangs inside an agent&#39;s macOS sandbox (<a href="https://github.com/heygen-com/hyperframes/commit/834e90a779ee3b558cbcfef277e0ddb0fca02338">834e90a779e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5836">#5836</a>).</li>
-<li><strong>CLI:</strong> Check skips WebGL draws on its box-only seeks so Three.js scenes finish (<a href="https://github.com/heygen-com/hyperframes/commit/e9181d02f5f446999528f6034733f416397cb6b1">e9181d02f5f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5825">#5825</a>).</li>
-<li><strong>Studio Server:</strong> Send Studio&#39;s history edits to the process that owns the project&#39;s history (<a href="https://github.com/heygen-com/hyperframes/commit/cadd7af2b55273b478cad492ced88c4563176d1d">cadd7af2b55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5826">#5826</a>).</li>
-<li><strong>Studio:</strong> Keep a preview reload waiting while a slow project boots (<a href="https://github.com/heygen-com/hyperframes/commit/2b9009ab520a31fa7f23cbad44583733a6602abc">2b9009ab520</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5823">#5823</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Catalog loads registry items a few at a time so a slow link no longer times them out (<a href="https://github.com/heygen-com/hyperframes/commit/95a686c23d794ebd6af9eef713472f1cf3f6821a">95a686c23d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5829">#5829</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.170...v0.8.171">https://github.com/heygen-com/hyperframes/compare/v0.8.170...v0.8.171</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.171</h1>
-<p>Released on 2026-10-18.</p>
-<p>Check no longer hangs inside an agent&#39;s macOS sandbox and finishes on Three.js scenes. Catalog search also stays fast on slow connections.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Check never hangs inside an agent&#39;s macOS sandbox (<a href="https://github.com/heygen-com/hyperframes/commit/834e90a779ee3b558cbcfef277e0ddb0fca02338">834e90a779e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5836">#5836</a>).</li>
-<li><strong>CLI:</strong> Check skips WebGL draws on its box-only seeks so Three.js scenes finish (<a href="https://github.com/heygen-com/hyperframes/commit/e9181d02f5f446999528f6034733f416397cb6b1">e9181d02f5f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5825">#5825</a>).</li>
-<li><strong>Studio Server:</strong> Send Studio&#39;s history edits to the process that owns the project&#39;s history (<a href="https://github.com/heygen-com/hyperframes/commit/cadd7af2b55273b478cad492ced88c4563176d1d">cadd7af2b55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5826">#5826</a>).</li>
-<li><strong>Studio:</strong> Keep a preview reload waiting while a slow project boots (<a href="https://github.com/heygen-com/hyperframes/commit/2b9009ab520a31fa7f23cbad44583733a6602abc">2b9009ab520</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5823">#5823</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Catalog loads registry items a few at a time so a slow link no longer times them out (<a href="https://github.com/heygen-com/hyperframes/commit/95a686c23d794ebd6af9eef713472f1cf3f6821a">95a686c23d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5829">#5829</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.170...v0.8.171">https://github.com/heygen-com/hyperframes/compare/v0.8.170...v0.8.171</a></p>
 ]]></content:encoded>
         </item>
     </channel>
