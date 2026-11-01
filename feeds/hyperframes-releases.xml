@@ -4,11 +4,51 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 01 Nov 2026 18:40:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Nov 2026 20:52:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.229]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.229</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.229</guid>
+            <pubDate>Sun, 01 Nov 2026 20:52:35 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.229</h1>
+<p>Released on 2026-11-01.</p>
+<p>Signing in from the CLI now waits up to 60 minutes, so finishing checkout during sign-in no longer ends on a connection error. Trimming a clip keeps its thumbnail strip in place, and masks hold up better on moving footage.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Keep browser sign-in open through checkout (<a href="https://github.com/heygen-com/hyperframes/commit/34ddced2d0e9350c2b6387b2365257bb7080e832">34ddced2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6879">#6879</a>).</li>
+<li><strong>Studio:</strong> A clip&#39;s thumbnail strip stays put while you trim it (<a href="https://github.com/heygen-com/hyperframes/commit/0ab49311597ce1e01ae2f5e438276c5d313ba448">0ab493115</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6942">#6942</a>).</li>
+<li><strong>CLI:</strong> A stale mask takes its frame&#39;s colours instead of delogo&#39;s streaks (<a href="https://github.com/heygen-com/hyperframes/commit/6b0abb4eb52e9576b0c72b636254c87d0f9ad2a5">6b0abb4eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6950">#6950</a>).</li>
+<li><strong>CLI:</strong> A masked box follows the frame while the camera moves (<a href="https://github.com/heygen-com/hyperframes/commit/7f8ae5b4b650c6b103e4547ddcfab9ed66e20e37">7f8ae5b4b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6948">#6948</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Animated films in reverse-any-video decide code or generation per shot (<a href="https://github.com/heygen-com/hyperframes/commit/0f76a7d01ed260670371e6b36ce3334a43ae1c91">0f76a7d01</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6946">#6946</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229">https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.229</h1>
+<p>Released on 2026-11-01.</p>
+<p>Signing in from the CLI now waits up to 60 minutes, so finishing checkout during sign-in no longer ends on a connection error. Trimming a clip keeps its thumbnail strip in place, and masks hold up better on moving footage.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Keep browser sign-in open through checkout (<a href="https://github.com/heygen-com/hyperframes/commit/34ddced2d0e9350c2b6387b2365257bb7080e832">34ddced2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6879">#6879</a>).</li>
+<li><strong>Studio:</strong> A clip&#39;s thumbnail strip stays put while you trim it (<a href="https://github.com/heygen-com/hyperframes/commit/0ab49311597ce1e01ae2f5e438276c5d313ba448">0ab493115</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6942">#6942</a>).</li>
+<li><strong>CLI:</strong> A stale mask takes its frame&#39;s colours instead of delogo&#39;s streaks (<a href="https://github.com/heygen-com/hyperframes/commit/6b0abb4eb52e9576b0c72b636254c87d0f9ad2a5">6b0abb4eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6950">#6950</a>).</li>
+<li><strong>CLI:</strong> A masked box follows the frame while the camera moves (<a href="https://github.com/heygen-com/hyperframes/commit/7f8ae5b4b650c6b103e4547ddcfab9ed66e20e37">7f8ae5b4b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6948">#6948</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Animated films in reverse-any-video decide code or generation per shot (<a href="https://github.com/heygen-com/hyperframes/commit/0f76a7d01ed260670371e6b36ce3334a43ae1c91">0f76a7d01</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6946">#6946</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229">https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.228]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.228</link>
@@ -3257,48 +3297,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.177...v0.8.178">https://github.com/heygen-com/hyperframes/compare/v0.8.177...v0.8.178</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.177]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.177</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.177</guid>
-            <pubDate>Mon, 19 Oct 2026 18:10:26 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.177</h1>
-<p>Released on 2026-10-19.</p>
-<p>Transcribing French, Spanish and other non-English audio now works, and a failed transcription says why. Check finishes sooner, and catalog search answers without waiting for an install.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Transcribing French, Spanish or any other non-English audio works, and a failed transcription says why instead of failing silently (<a href="https://github.com/heygen-com/hyperframes/commit/9ad12da18a15a3a980163fb0fd05e37a9a42f1db">9ad12da18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5892">#5892</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CLI:</strong> Check finishes sooner: it skips contrast screenshots when the colours can be read from the styles (<a href="https://github.com/heygen-com/hyperframes/commit/7917f7fe058b05f78ffb6d944a315f99afadac1f">7917f7fe0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5871">#5871</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Catalog search answers right away instead of waiting for the on-device runtime to install (<a href="https://github.com/heygen-com/hyperframes/commit/7e3908f21b66e4fbc56e3565f323e6d003543a8a">7e3908f21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5731">#5731</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.176...v0.8.177">https://github.com/heygen-com/hyperframes/compare/v0.8.176...v0.8.177</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.177</h1>
-<p>Released on 2026-10-19.</p>
-<p>Transcribing French, Spanish and other non-English audio now works, and a failed transcription says why. Check finishes sooner, and catalog search answers without waiting for an install.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Transcribing French, Spanish or any other non-English audio works, and a failed transcription says why instead of failing silently (<a href="https://github.com/heygen-com/hyperframes/commit/9ad12da18a15a3a980163fb0fd05e37a9a42f1db">9ad12da18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5892">#5892</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CLI:</strong> Check finishes sooner: it skips contrast screenshots when the colours can be read from the styles (<a href="https://github.com/heygen-com/hyperframes/commit/7917f7fe058b05f78ffb6d944a315f99afadac1f">7917f7fe0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5871">#5871</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Catalog search answers right away instead of waiting for the on-device runtime to install (<a href="https://github.com/heygen-com/hyperframes/commit/7e3908f21b66e4fbc56e3565f323e6d003543a8a">7e3908f21</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5731">#5731</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.176...v0.8.177">https://github.com/heygen-com/hyperframes/compare/v0.8.176...v0.8.177</a></p>
 ]]></content:encoded>
         </item>
     </channel>
