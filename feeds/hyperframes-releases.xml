@@ -4,11 +4,103 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 01 Nov 2026 06:30:44 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Nov 2026 18:40:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.8.228]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.228</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.228</guid>
+            <pubDate>Sun, 01 Nov 2026 18:40:22 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.228</h1>
+<p>Released on 2026-11-01.</p>
+<p>One loud moment no longer turns down a whole export. Only its peaks come down, so quiet passages keep their level. Preview music keeps playing while a video swaps to a new copy, and a render now warns when it does have to lower the whole mix.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> An export over the ceiling limits its peaks and keeps the mix&#39;s level (<a href="https://github.com/heygen-com/hyperframes/commit/d1d631f60a6cc949c572831927c7fe86455b21f8">d1d631f60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6940">#6940</a>).
+A mix far over the ceiling now gets several dB of limiting on those peaks, which can be audible on dense material, and the export can differ from its preview there.</li>
+<li><strong>Core:</strong> Music keeps playing while a preview video swaps to a new copy (<a href="https://github.com/heygen-com/hyperframes/commit/89a595316176b78ec96b94b57eada22fd1458a62">89a595316</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6937">#6937</a>).</li>
+<li><strong>CLI:</strong> A render says when it lowered the whole mix, and how to keep the level (<a href="https://github.com/heygen-com/hyperframes/commit/f9e8cab67d948adbc115d3f3a0b271659e2521da">f9e8cab67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6938">#6938</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Reverse-any-video gets a recipe for animated and painted films (<a href="https://github.com/heygen-com/hyperframes/commit/aa77770ebe03afbdd0316de29178a814967a76f4">aa77770eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6933">#6933</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.227...v0.8.228">https://github.com/heygen-com/hyperframes/compare/v0.8.227...v0.8.228</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.228</h1>
+<p>Released on 2026-11-01.</p>
+<p>One loud moment no longer turns down a whole export. Only its peaks come down, so quiet passages keep their level. Preview music keeps playing while a video swaps to a new copy, and a render now warns when it does have to lower the whole mix.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> An export over the ceiling limits its peaks and keeps the mix&#39;s level (<a href="https://github.com/heygen-com/hyperframes/commit/d1d631f60a6cc949c572831927c7fe86455b21f8">d1d631f60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6940">#6940</a>).
+A mix far over the ceiling now gets several dB of limiting on those peaks, which can be audible on dense material, and the export can differ from its preview there.</li>
+<li><strong>Core:</strong> Music keeps playing while a preview video swaps to a new copy (<a href="https://github.com/heygen-com/hyperframes/commit/89a595316176b78ec96b94b57eada22fd1458a62">89a595316</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6937">#6937</a>).</li>
+<li><strong>CLI:</strong> A render says when it lowered the whole mix, and how to keep the level (<a href="https://github.com/heygen-com/hyperframes/commit/f9e8cab67d948adbc115d3f3a0b271659e2521da">f9e8cab67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6938">#6938</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Reverse-any-video gets a recipe for animated and painted films (<a href="https://github.com/heygen-com/hyperframes/commit/aa77770ebe03afbdd0316de29178a814967a76f4">aa77770eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6933">#6933</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.227...v0.8.228">https://github.com/heygen-com/hyperframes/compare/v0.8.227...v0.8.228</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.8.227]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.227</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.227</guid>
+            <pubDate>Sun, 01 Nov 2026 16:41:08 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.8.227</h1>
+<p>Released on 2026-11-01.</p>
+<p>Apps can upload a project&#39;s heavy media themselves and keep each asset id. Check and snapshot use about half the memory on films cut from many clips. GPU renders work on older NVENC builds.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> The api exports offloadHeavyMedia and every offloaded file reports its asset_id (<a href="https://github.com/heygen-com/hyperframes/commit/ef250cc9d0deaf601315de097b575112ba455242">ef250cc9d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6932">#6932</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> GPU renders use the NVENC preset names the host&#39;s ffmpeg lists (<a href="https://github.com/heygen-com/hyperframes/commit/90f7fe624f7972e1dea939c269bc590a920e2f91">90f7fe624</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6930">#6930</a>).</li>
+<li><strong>Studio:</strong> Opening the thumbnail browser no longer stalls the server to read its version (<a href="https://github.com/heygen-com/hyperframes/commit/a23cc59ee199d217f1a22b4d5cfb1cffa578df76">a23cc59ee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6931">#6931</a>).</li>
+<li><strong>CLI:</strong> The cut detector keeps real cuts in live footage (<a href="https://github.com/heygen-com/hyperframes/commit/69400df27686b4e69f6ad9b5fe3652809222f775">69400df27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6923">#6923</a>).</li>
+<li><strong>CLI:</strong> Check and snapshot free video clips the playhead left, halving memory on cut films (<a href="https://github.com/heygen-com/hyperframes/commit/6b3e7a7a95e11d5d290123ea821b53109d6103c9">6b3e7a7a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6929">#6929</a>).</li>
+<li><strong>CLI:</strong> A shot from --first-frame comes back in that frame&#39;s shape (<a href="https://github.com/heygen-com/hyperframes/commit/439d01784c58911208a2b2d39deb23454ab64260">439d01784</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6924">#6924</a>).</li>
+<li><strong>Core:</strong> A resized preview video keeps its picture while its new copy loads (<a href="https://github.com/heygen-com/hyperframes/commit/af0d68d612ebd9c419f27d9ebc8068512667bae4">af0d68d61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6922">#6922</a>).</li>
+<li><strong>Engine:</strong> A video with no source no longer holds capture for 45 seconds (<a href="https://github.com/heygen-com/hyperframes/commit/9aaa3ae675698fddb7459cca48cabf88a5ec08ec">9aaa3ae67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6926">#6926</a>).</li>
+<li><strong>Engine:</strong> Passthrough keeps frame count and accepts films whose audio outlasts the picture (<a href="https://github.com/heygen-com/hyperframes/commit/58428b44bcc412646086028be816d90f379f4af5">58428b44b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6920">#6920</a>).</li>
+<li><strong>Studio Server:</strong> A copy another process holds without progress ends in a named error (<a href="https://github.com/heygen-com/hyperframes/commit/e5887959bb7c23c45ea56d44d9e6f0929de4eb3d">e5887959b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6918">#6918</a>).</li>
+<li><strong>CLI:</strong> Snapshot warns when self-closed audio or video clips have swallowed the page (<a href="https://github.com/heygen-com/hyperframes/commit/8c22ddba0fda22c3ec6faa83f4686249804d299d">8c22ddba0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6915">#6915</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.226...v0.8.227">https://github.com/heygen-com/hyperframes/compare/v0.8.226...v0.8.227</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.8.227</h1>
+<p>Released on 2026-11-01.</p>
+<p>Apps can upload a project&#39;s heavy media themselves and keep each asset id. Check and snapshot use about half the memory on films cut from many clips. GPU renders work on older NVENC builds.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> The api exports offloadHeavyMedia and every offloaded file reports its asset_id (<a href="https://github.com/heygen-com/hyperframes/commit/ef250cc9d0deaf601315de097b575112ba455242">ef250cc9d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6932">#6932</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> GPU renders use the NVENC preset names the host&#39;s ffmpeg lists (<a href="https://github.com/heygen-com/hyperframes/commit/90f7fe624f7972e1dea939c269bc590a920e2f91">90f7fe624</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6930">#6930</a>).</li>
+<li><strong>Studio:</strong> Opening the thumbnail browser no longer stalls the server to read its version (<a href="https://github.com/heygen-com/hyperframes/commit/a23cc59ee199d217f1a22b4d5cfb1cffa578df76">a23cc59ee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6931">#6931</a>).</li>
+<li><strong>CLI:</strong> The cut detector keeps real cuts in live footage (<a href="https://github.com/heygen-com/hyperframes/commit/69400df27686b4e69f6ad9b5fe3652809222f775">69400df27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6923">#6923</a>).</li>
+<li><strong>CLI:</strong> Check and snapshot free video clips the playhead left, halving memory on cut films (<a href="https://github.com/heygen-com/hyperframes/commit/6b3e7a7a95e11d5d290123ea821b53109d6103c9">6b3e7a7a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6929">#6929</a>).</li>
+<li><strong>CLI:</strong> A shot from --first-frame comes back in that frame&#39;s shape (<a href="https://github.com/heygen-com/hyperframes/commit/439d01784c58911208a2b2d39deb23454ab64260">439d01784</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6924">#6924</a>).</li>
+<li><strong>Core:</strong> A resized preview video keeps its picture while its new copy loads (<a href="https://github.com/heygen-com/hyperframes/commit/af0d68d612ebd9c419f27d9ebc8068512667bae4">af0d68d61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6922">#6922</a>).</li>
+<li><strong>Engine:</strong> A video with no source no longer holds capture for 45 seconds (<a href="https://github.com/heygen-com/hyperframes/commit/9aaa3ae675698fddb7459cca48cabf88a5ec08ec">9aaa3ae67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6926">#6926</a>).</li>
+<li><strong>Engine:</strong> Passthrough keeps frame count and accepts films whose audio outlasts the picture (<a href="https://github.com/heygen-com/hyperframes/commit/58428b44bcc412646086028be816d90f379f4af5">58428b44b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6920">#6920</a>).</li>
+<li><strong>Studio Server:</strong> A copy another process holds without progress ends in a named error (<a href="https://github.com/heygen-com/hyperframes/commit/e5887959bb7c23c45ea56d44d9e6f0929de4eb3d">e5887959b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6918">#6918</a>).</li>
+<li><strong>CLI:</strong> Snapshot warns when self-closed audio or video clips have swallowed the page (<a href="https://github.com/heygen-com/hyperframes/commit/8c22ddba0fda22c3ec6faa83f4686249804d299d">8c22ddba0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6915">#6915</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.226...v0.8.227">https://github.com/heygen-com/hyperframes/compare/v0.8.226...v0.8.227</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.8.226]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.226</link>
@@ -3207,92 +3299,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.176...v0.8.177">https://github.com/heygen-com/hyperframes/compare/v0.8.176...v0.8.177</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.176]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.176</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.176</guid>
-            <pubDate>Mon, 19 Oct 2026 16:35:51 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.176</h1>
-<p>Released on 2026-10-19.</p>
-<p>A snapshot of a project with iPhone footage now finishes instead of hanging on preview copies. Colour-graded cloud renders finish with default settings, and HDR exports show regular footage at normal white.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> A snapshot no longer waits for a preview copy of every iPhone clip, so it finishes instead of hanging. Pass <code>--proxy</code> to get the copies anyway (<a href="https://github.com/heygen-com/hyperframes/commit/2927bf03039c2a80bd93102d18d8bbc4ed96f776">2927bf030</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5755">#5755</a>).</li>
-<li><strong>Producer:</strong> Colour-graded cloud renders split into smaller chunks, so they finish with default settings instead of running past the worker time limit (<a href="https://github.com/heygen-com/hyperframes/commit/6c3cc7cbe91bd194832f6613172b7123db9e5577">6c3cc7cbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5883">#5883</a>).</li>
-<li><strong>Engine:</strong> In HDR (HLG) exports, regular footage sits at normal white instead of full peak brightness (<a href="https://github.com/heygen-com/hyperframes/commit/d796846d83fe6e65efef0e8bc179d2726d506417">d796846d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5749">#5749</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>AWS Lambda:</strong> Handler tests never call real AWS (<a href="https://github.com/heygen-com/hyperframes/commit/c7ad19be17b031b46729e106b1a1558933a2e5e6">c7ad19be1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5884">#5884</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.175...v0.8.176">https://github.com/heygen-com/hyperframes/compare/v0.8.175...v0.8.176</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.176</h1>
-<p>Released on 2026-10-19.</p>
-<p>A snapshot of a project with iPhone footage now finishes instead of hanging on preview copies. Colour-graded cloud renders finish with default settings, and HDR exports show regular footage at normal white.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> A snapshot no longer waits for a preview copy of every iPhone clip, so it finishes instead of hanging. Pass <code>--proxy</code> to get the copies anyway (<a href="https://github.com/heygen-com/hyperframes/commit/2927bf03039c2a80bd93102d18d8bbc4ed96f776">2927bf030</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5755">#5755</a>).</li>
-<li><strong>Producer:</strong> Colour-graded cloud renders split into smaller chunks, so they finish with default settings instead of running past the worker time limit (<a href="https://github.com/heygen-com/hyperframes/commit/6c3cc7cbe91bd194832f6613172b7123db9e5577">6c3cc7cbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5883">#5883</a>).</li>
-<li><strong>Engine:</strong> In HDR (HLG) exports, regular footage sits at normal white instead of full peak brightness (<a href="https://github.com/heygen-com/hyperframes/commit/d796846d83fe6e65efef0e8bc179d2726d506417">d796846d8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5749">#5749</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>AWS Lambda:</strong> Handler tests never call real AWS (<a href="https://github.com/heygen-com/hyperframes/commit/c7ad19be17b031b46729e106b1a1558933a2e5e6">c7ad19be1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5884">#5884</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.175...v0.8.176">https://github.com/heygen-com/hyperframes/compare/v0.8.175...v0.8.176</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.175]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.175</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.175</guid>
-            <pubDate>Mon, 19 Oct 2026 14:58:04 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.175</h1>
-<p>Released on 2026-10-19.</p>
-<p>Long films now play smoothly deep into the timeline, because the preview only does work for what is on screen. Cloud downloads resume after a dropped connection, and check, inspect and renders get going faster.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> The preview keeps playing in time when its tab is hidden (<a href="https://github.com/heygen-com/hyperframes/commit/b168d0b4138cb578c07f21e12441c8302a217308">b168d0b41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5872">#5872</a>).</li>
-<li><strong>CLI:</strong> A cloud render download that loses its connection picks up where it stopped (<a href="https://github.com/heygen-com/hyperframes/commit/cea0bad7931122bd93680006978c0d9007daa3d4">cea0bad79</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5873">#5873</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Core:</strong> Long films keep their frame rate deep into the timeline: playback and jumps do only the work for what is on screen (<a href="https://github.com/heygen-com/hyperframes/commit/959dd3e584cc22ab9004926735ab9c3effc6d0cc">959dd3e58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5754">#5754</a>).</li>
-<li><strong>CLI:</strong> Check and inspect finish faster: they skip paint waits and screenshots nothing reads (<a href="https://github.com/heygen-com/hyperframes/commit/8434945784b5378358a1c661aa080e1894533578">843494578</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5868">#5868</a>).</li>
-<li><strong>Producer:</strong> Renders embed a project&#39;s local fonts as they are, so setup is faster (<a href="https://github.com/heygen-com/hyperframes/commit/2b57809d79176b34ce60f4206361e99fac618ccf">2b57809d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5865">#5865</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Stop the fallow audit hook from piling up base snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/aa63a8c70d8549d55533efdc7ed6d6559331b38c">aa63a8c70</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5882">#5882</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.174...v0.8.175">https://github.com/heygen-com/hyperframes/compare/v0.8.174...v0.8.175</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.175</h1>
-<p>Released on 2026-10-19.</p>
-<p>Long films now play smoothly deep into the timeline, because the preview only does work for what is on screen. Cloud downloads resume after a dropped connection, and check, inspect and renders get going faster.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> The preview keeps playing in time when its tab is hidden (<a href="https://github.com/heygen-com/hyperframes/commit/b168d0b4138cb578c07f21e12441c8302a217308">b168d0b41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5872">#5872</a>).</li>
-<li><strong>CLI:</strong> A cloud render download that loses its connection picks up where it stopped (<a href="https://github.com/heygen-com/hyperframes/commit/cea0bad7931122bd93680006978c0d9007daa3d4">cea0bad79</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5873">#5873</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Core:</strong> Long films keep their frame rate deep into the timeline: playback and jumps do only the work for what is on screen (<a href="https://github.com/heygen-com/hyperframes/commit/959dd3e584cc22ab9004926735ab9c3effc6d0cc">959dd3e58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5754">#5754</a>).</li>
-<li><strong>CLI:</strong> Check and inspect finish faster: they skip paint waits and screenshots nothing reads (<a href="https://github.com/heygen-com/hyperframes/commit/8434945784b5378358a1c661aa080e1894533578">843494578</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5868">#5868</a>).</li>
-<li><strong>Producer:</strong> Renders embed a project&#39;s local fonts as they are, so setup is faster (<a href="https://github.com/heygen-com/hyperframes/commit/2b57809d79176b34ce60f4206361e99fac618ccf">2b57809d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5865">#5865</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Stop the fallow audit hook from piling up base snapshots (<a href="https://github.com/heygen-com/hyperframes/commit/aa63a8c70d8549d55533efdc7ed6d6559331b38c">aa63a8c70</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5882">#5882</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.174...v0.8.175">https://github.com/heygen-com/hyperframes/compare/v0.8.174...v0.8.175</a></p>
 ]]></content:encoded>
         </item>
     </channel>
