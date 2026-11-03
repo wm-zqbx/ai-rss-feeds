@@ -4,11 +4,81 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 02 Nov 2026 20:48:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 05:46:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.7]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.7</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.7</guid>
+            <pubDate>Tue, 03 Nov 2026 05:46:42 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.7</h1>
+<p>Released on 2026-11-03.</p>
+<p>Studio playback no longer freezes WebGL scenes when motion blur is on. Preview playback now lands on the same frame as a scrub or an export when a set cuts into a running tween. Your CLI login now takes priority over an API key left in your shell.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Lint:</strong> <code>overlapping_gsap_tweens</code> now also flags a <code>set</code> that fires while a tween on the same element and property is still running, a pattern that plays differently from how it scrubs and exports (<a href="https://github.com/heygen-com/hyperframes/commit/5e30bbdbe14b8295f8102c6439aa8bfdacc0fd1e">5e30bbdbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7059">#7059</a>).</li>
+<li><strong>Preview:</strong> A video the browser cannot play, such as HEVC without a decoder or ProRes, shows its own frame at the playhead instead of black while its playable copy is made. Copy progress is now reported at Full quality too (<a href="https://github.com/heygen-com/hyperframes/commit/eb3562966fcbac74da75566b660cbb41aa940739">eb3562966</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6589">#6589</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> With motion blur on, a scene that draws to a WebGL canvas no longer freezes during preview playback. Motion blur now falls back for those scenes, as it already did in renders (<a href="https://github.com/heygen-com/hyperframes/commit/112ba53302726f2135dc7b28b03033b5a897ffbd">112ba5330</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7060">#7060</a>).</li>
+<li><strong>Core:</strong> Preview playback now lands on the same frame as a scrub or an export when a <code>set</code> fires inside a running tween on the same property. Before, a word hidden just before its pop-in ended could stay on screen while playing (<a href="https://github.com/heygen-com/hyperframes/commit/0f85af7c7fd90ab755cd6f5c7f879eef7ed2aacc">0f85af7c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7061">#7061</a>).</li>
+<li><strong>CLI:</strong> <code>hyperframes cloud render</code> no longer offers <code>--page-motion-blur</code>, because the hosted render API rejected requests that used it. Turn motion blur on in the composition with <code>data-motion-blur=&quot;on&quot;</code>. Local <code>hyperframes render --page-motion-blur</code> is unchanged (<a href="https://github.com/heygen-com/hyperframes/commit/dffc640e8556b675e7e1d73f482c19ee7e855782">dffc640e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7062">#7062</a>).</li>
+<li><strong>CLI:</strong> A session from <code>hyperframes auth login</code> now takes priority over <code>HEYGEN_API_KEY</code> and <code>HYPERFRAMES_API_KEY</code>, so a key left in your shell no longer replaces the account you signed in with. The key still wins when <code>HEYGEN_API_URL</code> or <code>HEYGEN_API_BASE</code> points at another host, or when the login cannot refresh (<a href="https://github.com/heygen-com/hyperframes/commit/d03bdeae9d992c9bb653bb1e67cf5569d16455f3">d03bdeae9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7051">#7051</a>).</li>
+<li><strong>Studio Server:</strong> Two exports of the same project started within one second now get their own jobs and output files. Before, the second export replaced the first (<a href="https://github.com/heygen-com/hyperframes/commit/92943d99f08394b4a9d3964471ccae1bb86c83de">92943d99f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7053">#7053</a>).</li>
+<li><strong>CLI:</strong> <code>hyperframes snapshot</code> no longer crashes Chrome on a project with many clips cut from one 4K video. Like render, it now stops Chrome from decoding local videos it already replaces with extracted frames (<a href="https://github.com/heygen-com/hyperframes/commit/81b93cf055dee34ec1e47e1e64e0c5bba35aef05">81b93cf05</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6949">#6949</a>).</li>
+<li><strong>CLI:</strong> The <code>latestVersion</code> value in <code>--json</code> output is never older than the CLI you are running, even right after an upgrade (<a href="https://github.com/heygen-com/hyperframes/commit/8a6636efe36c3ec313aeb4a122f875b687ffdc5d">8a6636efe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7049">#7049</a>).</li>
+<li><strong>CLI:</strong> <code>hyperframes auth login --device</code> now works without a terminal, such as in a coding agent&#39;s shell or an SSH command. It still refuses to run in CI (<a href="https://github.com/heygen-com/hyperframes/commit/de2603e637f09fc0490d06bf92151dddc8d0650f">de2603e63</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7045">#7045</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> The reverse skill asks once for a credit top-up that covers the whole run when several steps run out at the same time, and builds its project with <code>init --video</code> (<a href="https://github.com/heygen-com/hyperframes/commit/05ddddbbf08fd358b5879726f935d5414733da3a">05ddddbbf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7048">#7048</a>).</li>
+<li><strong>Changelog:</strong> Added the weekly update for October 26 to November 2, 2026 (<a href="https://github.com/heygen-com/hyperframes/commit/6feb4bec7aa046a8956efd8a718db55423e2e2ca">6feb4bec7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7032">#7032</a>).</li>
+<li><strong>Changelog:</strong> The v0.9.6 release notes now list four changes they had missed (<a href="https://github.com/heygen-com/hyperframes/commit/4ef8c1de5cfc298bdbd385decd3a95b0ef301adc">4ef8c1de5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7040">#7040</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio Server:</strong> Raised the package size budget to fit the new preview features (<a href="https://github.com/heygen-com/hyperframes/commit/b22af8f25ccc155b38b3501ddada92ff9e855503">b22af8f25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7044">#7044</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7">https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.7</h1>
+<p>Released on 2026-11-03.</p>
+<p>Studio playback no longer freezes WebGL scenes when motion blur is on. Preview playback now lands on the same frame as a scrub or an export when a set cuts into a running tween. Your CLI login now takes priority over an API key left in your shell.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Lint:</strong> <code>overlapping_gsap_tweens</code> now also flags a <code>set</code> that fires while a tween on the same element and property is still running, a pattern that plays differently from how it scrubs and exports (<a href="https://github.com/heygen-com/hyperframes/commit/5e30bbdbe14b8295f8102c6439aa8bfdacc0fd1e">5e30bbdbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7059">#7059</a>).</li>
+<li><strong>Preview:</strong> A video the browser cannot play, such as HEVC without a decoder or ProRes, shows its own frame at the playhead instead of black while its playable copy is made. Copy progress is now reported at Full quality too (<a href="https://github.com/heygen-com/hyperframes/commit/eb3562966fcbac74da75566b660cbb41aa940739">eb3562966</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6589">#6589</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> With motion blur on, a scene that draws to a WebGL canvas no longer freezes during preview playback. Motion blur now falls back for those scenes, as it already did in renders (<a href="https://github.com/heygen-com/hyperframes/commit/112ba53302726f2135dc7b28b03033b5a897ffbd">112ba5330</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7060">#7060</a>).</li>
+<li><strong>Core:</strong> Preview playback now lands on the same frame as a scrub or an export when a <code>set</code> fires inside a running tween on the same property. Before, a word hidden just before its pop-in ended could stay on screen while playing (<a href="https://github.com/heygen-com/hyperframes/commit/0f85af7c7fd90ab755cd6f5c7f879eef7ed2aacc">0f85af7c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7061">#7061</a>).</li>
+<li><strong>CLI:</strong> <code>hyperframes cloud render</code> no longer offers <code>--page-motion-blur</code>, because the hosted render API rejected requests that used it. Turn motion blur on in the composition with <code>data-motion-blur=&quot;on&quot;</code>. Local <code>hyperframes render --page-motion-blur</code> is unchanged (<a href="https://github.com/heygen-com/hyperframes/commit/dffc640e8556b675e7e1d73f482c19ee7e855782">dffc640e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7062">#7062</a>).</li>
+<li><strong>CLI:</strong> A session from <code>hyperframes auth login</code> now takes priority over <code>HEYGEN_API_KEY</code> and <code>HYPERFRAMES_API_KEY</code>, so a key left in your shell no longer replaces the account you signed in with. The key still wins when <code>HEYGEN_API_URL</code> or <code>HEYGEN_API_BASE</code> points at another host, or when the login cannot refresh (<a href="https://github.com/heygen-com/hyperframes/commit/d03bdeae9d992c9bb653bb1e67cf5569d16455f3">d03bdeae9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7051">#7051</a>).</li>
+<li><strong>Studio Server:</strong> Two exports of the same project started within one second now get their own jobs and output files. Before, the second export replaced the first (<a href="https://github.com/heygen-com/hyperframes/commit/92943d99f08394b4a9d3964471ccae1bb86c83de">92943d99f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7053">#7053</a>).</li>
+<li><strong>CLI:</strong> <code>hyperframes snapshot</code> no longer crashes Chrome on a project with many clips cut from one 4K video. Like render, it now stops Chrome from decoding local videos it already replaces with extracted frames (<a href="https://github.com/heygen-com/hyperframes/commit/81b93cf055dee34ec1e47e1e64e0c5bba35aef05">81b93cf05</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6949">#6949</a>).</li>
+<li><strong>CLI:</strong> The <code>latestVersion</code> value in <code>--json</code> output is never older than the CLI you are running, even right after an upgrade (<a href="https://github.com/heygen-com/hyperframes/commit/8a6636efe36c3ec313aeb4a122f875b687ffdc5d">8a6636efe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7049">#7049</a>).</li>
+<li><strong>CLI:</strong> <code>hyperframes auth login --device</code> now works without a terminal, such as in a coding agent&#39;s shell or an SSH command. It still refuses to run in CI (<a href="https://github.com/heygen-com/hyperframes/commit/de2603e637f09fc0490d06bf92151dddc8d0650f">de2603e63</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7045">#7045</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> The reverse skill asks once for a credit top-up that covers the whole run when several steps run out at the same time, and builds its project with <code>init --video</code> (<a href="https://github.com/heygen-com/hyperframes/commit/05ddddbbf08fd358b5879726f935d5414733da3a">05ddddbbf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7048">#7048</a>).</li>
+<li><strong>Changelog:</strong> Added the weekly update for October 26 to November 2, 2026 (<a href="https://github.com/heygen-com/hyperframes/commit/6feb4bec7aa046a8956efd8a718db55423e2e2ca">6feb4bec7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7032">#7032</a>).</li>
+<li><strong>Changelog:</strong> The v0.9.6 release notes now list four changes they had missed (<a href="https://github.com/heygen-com/hyperframes/commit/4ef8c1de5cfc298bdbd385decd3a95b0ef301adc">4ef8c1de5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7040">#7040</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio Server:</strong> Raised the package size budget to fit the new preview features (<a href="https://github.com/heygen-com/hyperframes/commit/b22af8f25ccc155b38b3501ddada92ff9e855503">b22af8f25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7044">#7044</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7">https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.6]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.6</link>
@@ -3015,38 +3085,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190">https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.189]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.189</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.189</guid>
-            <pubDate>Fri, 23 Oct 2026 18:56:28 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.189</h1>
-<p>Released on 2026-10-23.</p>
-<p>Renders with many audio clips, opaque ProRes video and different host sizes now behave the same everywhere. Studio history also works on drives without hard links.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> An opaque ProRes clip extracts to jpg frames, only ProRes with alpha stays png (<a href="https://github.com/heygen-com/hyperframes/commit/bd4cae7e3582e2da9eee3903bc0780d9d03c98b2">bd4cae7e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6130">#6130</a>).</li>
-<li><strong>Engine:</strong> Encode with the same x264 and x265 thread count on any host size (<a href="https://github.com/heygen-com/hyperframes/commit/132a504b692bad71d55fa29dc1086f33c3e6aaf3">132a504b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6127">#6127</a>).</li>
-<li><strong>Studio Server:</strong> The history lock works on drives without hard links (<a href="https://github.com/heygen-com/hyperframes/commit/2ed882ccf22fdf070e21442e0437b3ae57253405">2ed882ccf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6125">#6125</a>).</li>
-<li><strong>Engine:</strong> Mix any number of audio clips by summing them in stages (<a href="https://github.com/heygen-com/hyperframes/commit/3cdae3804e5f155903adfce32ddf81db290c04b3">3cdae3804</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6120">#6120</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.188...v0.8.189">https://github.com/heygen-com/hyperframes/compare/v0.8.188...v0.8.189</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.189</h1>
-<p>Released on 2026-10-23.</p>
-<p>Renders with many audio clips, opaque ProRes video and different host sizes now behave the same everywhere. Studio history also works on drives without hard links.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> An opaque ProRes clip extracts to jpg frames, only ProRes with alpha stays png (<a href="https://github.com/heygen-com/hyperframes/commit/bd4cae7e3582e2da9eee3903bc0780d9d03c98b2">bd4cae7e3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6130">#6130</a>).</li>
-<li><strong>Engine:</strong> Encode with the same x264 and x265 thread count on any host size (<a href="https://github.com/heygen-com/hyperframes/commit/132a504b692bad71d55fa29dc1086f33c3e6aaf3">132a504b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6127">#6127</a>).</li>
-<li><strong>Studio Server:</strong> The history lock works on drives without hard links (<a href="https://github.com/heygen-com/hyperframes/commit/2ed882ccf22fdf070e21442e0437b3ae57253405">2ed882ccf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6125">#6125</a>).</li>
-<li><strong>Engine:</strong> Mix any number of audio clips by summing them in stages (<a href="https://github.com/heygen-com/hyperframes/commit/3cdae3804e5f155903adfce32ddf81db290c04b3">3cdae3804</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6120">#6120</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.188...v0.8.189">https://github.com/heygen-com/hyperframes/compare/v0.8.188...v0.8.189</a></p>
 ]]></content:encoded>
         </item>
     </channel>
