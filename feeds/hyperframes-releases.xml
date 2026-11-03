@@ -4,11 +4,51 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 03 Nov 2026 05:46:42 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 09:44:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.8]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.8</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.8</guid>
+            <pubDate>Tue, 03 Nov 2026 09:44:21 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.8</h1>
+<p>Released on 2026-11-03.</p>
+<p>Renders that capture faster with BeginFrame now fall back to screenshot capture when that path fails. A render request can also ask for screenshot capture directly.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio Server:</strong> The preview records the kind and origin of each early error (<a href="https://github.com/heygen-com/hyperframes/commit/b84835c413bb35be442d59b0fa41ff50a8819455">b84835c41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7041">#7041</a>).</li>
+<li><strong>Producer:</strong> A render request can force screenshot capture for that render (<a href="https://github.com/heygen-com/hyperframes/commit/79b6af9b484280706da5d1af8e981305f4e1a13d">79b6af9b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7066">#7066</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> A BeginFrame capture failure re-renders on a screenshot session (<a href="https://github.com/heygen-com/hyperframes/commit/9a2cd9e61b6398122e46ee604d9b032649d12327">9a2cd9e61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7070">#7070</a>).</li>
+<li><strong>Core:</strong> Audio no longer plays fast for a moment after Play (<a href="https://github.com/heygen-com/hyperframes/commit/3eead5432d29735461116fd78045de51bf838357">3eead5432</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7067">#7067</a>).</li>
+<li><strong>CLI:</strong> Reverse on Free runs billing subscribe credited to the run (<a href="https://github.com/heygen-com/hyperframes/commit/3baf81f9a92615507f76fe8de33e489034ee77ec">3baf81f9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7046">#7046</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.7...v0.9.8">https://github.com/heygen-com/hyperframes/compare/v0.9.7...v0.9.8</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.8</h1>
+<p>Released on 2026-11-03.</p>
+<p>Renders that capture faster with BeginFrame now fall back to screenshot capture when that path fails. A render request can also ask for screenshot capture directly.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio Server:</strong> The preview records the kind and origin of each early error (<a href="https://github.com/heygen-com/hyperframes/commit/b84835c413bb35be442d59b0fa41ff50a8819455">b84835c41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7041">#7041</a>).</li>
+<li><strong>Producer:</strong> A render request can force screenshot capture for that render (<a href="https://github.com/heygen-com/hyperframes/commit/79b6af9b484280706da5d1af8e981305f4e1a13d">79b6af9b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7066">#7066</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> A BeginFrame capture failure re-renders on a screenshot session (<a href="https://github.com/heygen-com/hyperframes/commit/9a2cd9e61b6398122e46ee604d9b032649d12327">9a2cd9e61</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7070">#7070</a>).</li>
+<li><strong>Core:</strong> Audio no longer plays fast for a moment after Play (<a href="https://github.com/heygen-com/hyperframes/commit/3eead5432d29735461116fd78045de51bf838357">3eead5432</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7067">#7067</a>).</li>
+<li><strong>CLI:</strong> Reverse on Free runs billing subscribe credited to the run (<a href="https://github.com/heygen-com/hyperframes/commit/3baf81f9a92615507f76fe8de33e489034ee77ec">3baf81f9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7046">#7046</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.7...v0.9.8">https://github.com/heygen-com/hyperframes/compare/v0.9.7...v0.9.8</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.7]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.7</link>
@@ -3027,64 +3067,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.190...v0.8.191">https://github.com/heygen-com/hyperframes/compare/v0.8.190...v0.8.191</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.190]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.190</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.190</guid>
-            <pubDate>Fri, 23 Oct 2026 22:23:40 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.190</h1>
-<p>Released on 2026-10-23.</p>
-<p>Motion blur now picks a cheaper way to draw when it can, and renders use less memory. Studio gains a preview seek bar, and an idle editor stops waking the GPU.</p>
-<h2>Features</h2>
-<ul>
-<li>Automatic tier, 240°/32 defaults, check finding, and Studio stops opting out (<a href="https://github.com/heygen-com/hyperframes/commit/79b57ab12dfdd4e84536af7f227401f6fac24a60">79b57ab12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6108">#6108</a>).</li>
-<li><strong>Core:</strong> Capture blur falls back to per-element filters where capture cannot run (<a href="https://github.com/heygen-com/hyperframes/commit/4ed78133873540ca10366b1230d973dc31ae2ddf">4ed781338</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6107">#6107</a>).</li>
-<li><strong>Studio:</strong> Add a preview seek bar (<a href="https://github.com/heygen-com/hyperframes/commit/2512642d09d3d5a4703fd2e6af71930a52e6c7ca">2512642d0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6103">#6103</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> The BeginFrame start-up check waits for the first frame up to its deadline (<a href="https://github.com/heygen-com/hyperframes/commit/73718a251bbbd4a8a4f649f4fc007e3a726015c5">73718a251</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6149">#6149</a>).</li>
-<li><strong>Engine:</strong> A render no longer decodes the videos it replaces with extracted frames (<a href="https://github.com/heygen-com/hyperframes/commit/01a523bcf8d0cd827359ed35b28d9f0be0ad011e">01a523bcf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6142">#6142</a>).</li>
-<li><strong>CLI:</strong> Render -c takes an absolute entry inside the project, relative to the project (<a href="https://github.com/heygen-com/hyperframes/commit/9fe0511c2e10b3dddafe80393dfb618bd424072d">9fe0511c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6141">#6141</a>).</li>
-<li><strong>Engine:</strong> The video frame cache budget is shared by the capture workers (<a href="https://github.com/heygen-com/hyperframes/commit/f8ae1483c580fd4f5691f83f6c3cf93d20e3227e">f8ae1483c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6135">#6135</a>).</li>
-<li><strong>Studio:</strong> The thumbnail capture page loads media near the playhead like the preview (<a href="https://github.com/heygen-com/hyperframes/commit/28ac4d76b6af9c13c9a877fc2472207cc577a4d3">28ac4d76b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6146">#6146</a>).</li>
-<li><strong>Engine:</strong> A long audio mix prepares its clips a few at a time (<a href="https://github.com/heygen-com/hyperframes/commit/1dc97921cd0713ace6a579e861f0b967210509b8">1dc97921c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6132">#6132</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> An idle editor stops waking the GPU four times a second (<a href="https://github.com/heygen-com/hyperframes/commit/6ad7c82d2175d018a93a85e96883dc31231b9884">6ad7c82d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6109">#6109</a>).</li>
-<li><strong>AWS Lambda:</strong> Warm the audio function while the plan runs (<a href="https://github.com/heygen-com/hyperframes/commit/fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1">fb2f7c1a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6148">#6148</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190">https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.190</h1>
-<p>Released on 2026-10-23.</p>
-<p>Motion blur now picks a cheaper way to draw when it can, and renders use less memory. Studio gains a preview seek bar, and an idle editor stops waking the GPU.</p>
-<h2>Features</h2>
-<ul>
-<li>Automatic tier, 240°/32 defaults, check finding, and Studio stops opting out (<a href="https://github.com/heygen-com/hyperframes/commit/79b57ab12dfdd4e84536af7f227401f6fac24a60">79b57ab12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6108">#6108</a>).</li>
-<li><strong>Core:</strong> Capture blur falls back to per-element filters where capture cannot run (<a href="https://github.com/heygen-com/hyperframes/commit/4ed78133873540ca10366b1230d973dc31ae2ddf">4ed781338</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6107">#6107</a>).</li>
-<li><strong>Studio:</strong> Add a preview seek bar (<a href="https://github.com/heygen-com/hyperframes/commit/2512642d09d3d5a4703fd2e6af71930a52e6c7ca">2512642d0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6103">#6103</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> The BeginFrame start-up check waits for the first frame up to its deadline (<a href="https://github.com/heygen-com/hyperframes/commit/73718a251bbbd4a8a4f649f4fc007e3a726015c5">73718a251</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6149">#6149</a>).</li>
-<li><strong>Engine:</strong> A render no longer decodes the videos it replaces with extracted frames (<a href="https://github.com/heygen-com/hyperframes/commit/01a523bcf8d0cd827359ed35b28d9f0be0ad011e">01a523bcf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6142">#6142</a>).</li>
-<li><strong>CLI:</strong> Render -c takes an absolute entry inside the project, relative to the project (<a href="https://github.com/heygen-com/hyperframes/commit/9fe0511c2e10b3dddafe80393dfb618bd424072d">9fe0511c2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6141">#6141</a>).</li>
-<li><strong>Engine:</strong> The video frame cache budget is shared by the capture workers (<a href="https://github.com/heygen-com/hyperframes/commit/f8ae1483c580fd4f5691f83f6c3cf93d20e3227e">f8ae1483c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6135">#6135</a>).</li>
-<li><strong>Studio:</strong> The thumbnail capture page loads media near the playhead like the preview (<a href="https://github.com/heygen-com/hyperframes/commit/28ac4d76b6af9c13c9a877fc2472207cc577a4d3">28ac4d76b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6146">#6146</a>).</li>
-<li><strong>Engine:</strong> A long audio mix prepares its clips a few at a time (<a href="https://github.com/heygen-com/hyperframes/commit/1dc97921cd0713ace6a579e861f0b967210509b8">1dc97921c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6132">#6132</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> An idle editor stops waking the GPU four times a second (<a href="https://github.com/heygen-com/hyperframes/commit/6ad7c82d2175d018a93a85e96883dc31231b9884">6ad7c82d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6109">#6109</a>).</li>
-<li><strong>AWS Lambda:</strong> Warm the audio function while the plan runs (<a href="https://github.com/heygen-com/hyperframes/commit/fb2f7c1a80eb06fa8d063340f2e6dbbb8dfc6ac1">fb2f7c1a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6148">#6148</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190">https://github.com/heygen-com/hyperframes/compare/v0.8.189...v0.8.190</a></p>
 ]]></content:encoded>
         </item>
     </channel>
