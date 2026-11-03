@@ -4,11 +4,81 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 03 Nov 2026 09:44:21 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2026 16:42:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.9]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.9</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.9</guid>
+            <pubDate>Tue, 03 Nov 2026 16:42:47 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.9</h1>
+<p>Released on 2026-11-03.</p>
+<p>HyperFrames plan members can pull style templates with <code>hyperframes templates pull</code> and make films in them with the style-sampling skill. The CLI now installs skills that match its own release and no longer auto-updates across 0.x minor versions.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> A script-load failure names where the script came from and why it failed (<a href="https://github.com/heygen-com/hyperframes/commit/dec465949b89a97084595ed336708c3e8ad6e3fa">dec465949</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7088">#7088</a>).</li>
+<li><strong>Skills:</strong> Style templates on the HyperFrames plan (<a href="https://github.com/heygen-com/hyperframes/commit/2daedcdafcb6857d04f7c5490d652057656a2129">2daedcdaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6842">#6842</a>).</li>
+<li><strong>CLI:</strong> Diff --offset compares the original at t with yours at t + offset (<a href="https://github.com/heygen-com/hyperframes/commit/3f42dc1c73b0c9915b311e48bd0099b39a0865a9">3f42dc1c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7057">#7057</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> A render that ran over 5 minutes can still be read after it finishes (<a href="https://github.com/heygen-com/hyperframes/commit/fc006f713beb8caf46554da468fa578247b8db08">fc006f713</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7087">#7087</a>).</li>
+<li><strong>CLI:</strong> No auto-update across 0.x minors; install skills at the CLI&#39;s release tag (<a href="https://github.com/heygen-com/hyperframes/commit/b2acef5869bf6375e855ef3795014e6a3aa46bbb">b2acef586</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7013">#7013</a>).</li>
+<li><strong>Core:</strong> Safari audio frozen after its cut is pulled onto the playhead at 0.5 s behind, not 1 s (<a href="https://github.com/heygen-com/hyperframes/commit/47dddedd6cd1dea646c5ae53d40bb5821f45590f">47dddedd6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7082">#7082</a>).</li>
+<li><strong>CLI:</strong> Measure cuts reads a zoom that speeds up as a move, not a cut (<a href="https://github.com/heygen-com/hyperframes/commit/7ae108005a148809ccd9c039616f452838a8f918">7ae108005</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7075">#7075</a>).</li>
+<li><strong>CLI:</strong> Measure picks more than 100 frames on ffmpeg 8 (<a href="https://github.com/heygen-com/hyperframes/commit/e9de593fe972d961869fce7501470e6fb579c985">e9de593fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7071">#7071</a>).</li>
+<li><strong>Core:</strong> Keep overflowing content and SVG clip paths in motion-blurred frames (<a href="https://github.com/heygen-com/hyperframes/commit/d89bf35b1dcd4a1652062148ab1fd4f7ad1897ce">d89bf35b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7080">#7080</a>).</li>
+<li><strong>CLI:</strong> Measure and diff tell an agent what to type after a wrong call (<a href="https://github.com/heygen-com/hyperframes/commit/91e7f4d48f8d1abec5005cae4c2f382995c4d2d1">91e7f4d48</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7072">#7072</a>).</li>
+<li><strong>Studio Server:</strong> A project&#39;s signature no longer freezes the host while it walks the files (<a href="https://github.com/heygen-com/hyperframes/commit/ce9830fece57fec08c7e5fbb7330218b6478571c">ce9830fec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7073">#7073</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio Server:</strong> Preview steps skip the page parse when a tag scan answers (<a href="https://github.com/heygen-com/hyperframes/commit/4ceec0171f593ef0a8c979f3d326c5ffc92bd72b">4ceec0171</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7092">#7092</a>).</li>
+<li><strong>Parsers:</strong> EnsureHfIds skips the parse when every element already has its id (<a href="https://github.com/heygen-com/hyperframes/commit/35753f38211ab4ce1654aec557d2efa1ea470aeb">35753f382</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7069">#7069</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Reverse checks the plan before downloading a linked video (<a href="https://github.com/heygen-com/hyperframes/commit/95a86a19cc6922d85f667c1464ae6eab8d33a763">95a86a19c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7076">#7076</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.8...v0.9.9">https://github.com/heygen-com/hyperframes/compare/v0.9.8...v0.9.9</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.9</h1>
+<p>Released on 2026-11-03.</p>
+<p>HyperFrames plan members can pull style templates with <code>hyperframes templates pull</code> and make films in them with the style-sampling skill. The CLI now installs skills that match its own release and no longer auto-updates across 0.x minor versions.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> A script-load failure names where the script came from and why it failed (<a href="https://github.com/heygen-com/hyperframes/commit/dec465949b89a97084595ed336708c3e8ad6e3fa">dec465949</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7088">#7088</a>).</li>
+<li><strong>Skills:</strong> Style templates on the HyperFrames plan (<a href="https://github.com/heygen-com/hyperframes/commit/2daedcdafcb6857d04f7c5490d652057656a2129">2daedcdaf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6842">#6842</a>).</li>
+<li><strong>CLI:</strong> Diff --offset compares the original at t with yours at t + offset (<a href="https://github.com/heygen-com/hyperframes/commit/3f42dc1c73b0c9915b311e48bd0099b39a0865a9">3f42dc1c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7057">#7057</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> A render that ran over 5 minutes can still be read after it finishes (<a href="https://github.com/heygen-com/hyperframes/commit/fc006f713beb8caf46554da468fa578247b8db08">fc006f713</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7087">#7087</a>).</li>
+<li><strong>CLI:</strong> No auto-update across 0.x minors; install skills at the CLI&#39;s release tag (<a href="https://github.com/heygen-com/hyperframes/commit/b2acef5869bf6375e855ef3795014e6a3aa46bbb">b2acef586</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7013">#7013</a>).</li>
+<li><strong>Core:</strong> Safari audio frozen after its cut is pulled onto the playhead at 0.5 s behind, not 1 s (<a href="https://github.com/heygen-com/hyperframes/commit/47dddedd6cd1dea646c5ae53d40bb5821f45590f">47dddedd6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7082">#7082</a>).</li>
+<li><strong>CLI:</strong> Measure cuts reads a zoom that speeds up as a move, not a cut (<a href="https://github.com/heygen-com/hyperframes/commit/7ae108005a148809ccd9c039616f452838a8f918">7ae108005</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7075">#7075</a>).</li>
+<li><strong>CLI:</strong> Measure picks more than 100 frames on ffmpeg 8 (<a href="https://github.com/heygen-com/hyperframes/commit/e9de593fe972d961869fce7501470e6fb579c985">e9de593fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7071">#7071</a>).</li>
+<li><strong>Core:</strong> Keep overflowing content and SVG clip paths in motion-blurred frames (<a href="https://github.com/heygen-com/hyperframes/commit/d89bf35b1dcd4a1652062148ab1fd4f7ad1897ce">d89bf35b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7080">#7080</a>).</li>
+<li><strong>CLI:</strong> Measure and diff tell an agent what to type after a wrong call (<a href="https://github.com/heygen-com/hyperframes/commit/91e7f4d48f8d1abec5005cae4c2f382995c4d2d1">91e7f4d48</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7072">#7072</a>).</li>
+<li><strong>Studio Server:</strong> A project&#39;s signature no longer freezes the host while it walks the files (<a href="https://github.com/heygen-com/hyperframes/commit/ce9830fece57fec08c7e5fbb7330218b6478571c">ce9830fec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7073">#7073</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Studio Server:</strong> Preview steps skip the page parse when a tag scan answers (<a href="https://github.com/heygen-com/hyperframes/commit/4ceec0171f593ef0a8c979f3d326c5ffc92bd72b">4ceec0171</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7092">#7092</a>).</li>
+<li><strong>Parsers:</strong> EnsureHfIds skips the parse when every element already has its id (<a href="https://github.com/heygen-com/hyperframes/commit/35753f38211ab4ce1654aec557d2efa1ea470aeb">35753f382</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7069">#7069</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Reverse checks the plan before downloading a linked video (<a href="https://github.com/heygen-com/hyperframes/commit/95a86a19cc6922d85f667c1464ae6eab8d33a763">95a86a19c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7076">#7076</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.8...v0.9.9">https://github.com/heygen-com/hyperframes/compare/v0.9.8...v0.9.9</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.8]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.8</link>
