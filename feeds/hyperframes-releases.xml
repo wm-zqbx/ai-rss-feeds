@@ -4,11 +4,127 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 04 Nov 2026 18:50:33 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Nov 2026 02:36:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.15]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.15</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.15</guid>
+            <pubDate>Thu, 05 Nov 2026 02:36:54 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.15</h1>
+<p>Released on 2026-11-05.</p>
+<p>Local renders on FFmpeg 4 no longer turn a finished mix down by several dB when they match its length to the video. Motion blur can now choose when its shutter opens.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> <code>data-motion-blur-phase</code> sets when the motion-blur shutter opens in each frame (<a href="https://github.com/heygen-com/hyperframes/commit/aace91b5ec0d937772f66ab06e63c5755e579646">aace91b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6983">#6983</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Render:</strong> On FFmpeg 4, a mix already under the peak limit is no longer turned down by several dB when its length is matched to the video. Two near-identical mixes no longer land about 4 LU apart (<a href="https://github.com/heygen-com/hyperframes/commit/f6ae9bfb43a4e4bee0d132a5ac2a0b1ce4bf383f">f6ae9bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7199">#7199</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.14...v0.9.15">https://github.com/heygen-com/hyperframes/compare/v0.9.14...v0.9.15</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.15</h1>
+<p>Released on 2026-11-05.</p>
+<p>Local renders on FFmpeg 4 no longer turn a finished mix down by several dB when they match its length to the video. Motion blur can now choose when its shutter opens.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> <code>data-motion-blur-phase</code> sets when the motion-blur shutter opens in each frame (<a href="https://github.com/heygen-com/hyperframes/commit/aace91b5ec0d937772f66ab06e63c5755e579646">aace91b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6983">#6983</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Render:</strong> On FFmpeg 4, a mix already under the peak limit is no longer turned down by several dB when its length is matched to the video. Two near-identical mixes no longer land about 4 LU apart (<a href="https://github.com/heygen-com/hyperframes/commit/f6ae9bfb43a4e4bee0d132a5ac2a0b1ce4bf383f">f6ae9bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7199">#7199</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.14...v0.9.15">https://github.com/heygen-com/hyperframes/compare/v0.9.14...v0.9.15</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.14]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.14</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.14</guid>
+            <pubDate>Thu, 05 Nov 2026 01:33:00 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.14</h1>
+<p>Released on 2026-11-04.</p>
+<p>Cloud renders no longer fail on common font styles, and they now carry the system fonts a project uses. A wedged render stops itself, and <code>check</code> no longer hangs on long videos.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Cloud render carries the system fonts a project uses in its zip (<a href="https://github.com/heygen-com/hyperframes/commit/cba66f20a69c9e929564a756852dac71c4c437de">cba66f20a69c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7165">#7165</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Tell a failed billing checkout apart from a payment not finished in time (<a href="https://github.com/heygen-com/hyperframes/commit/60ca970ed60df041e95f7d9194561e412bbbaf45">60ca970ed60df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7185">#7185</a>).</li>
+<li><strong>Fonts:</strong> Stop failing cloud renders on var() shorthands, font-X-400 names and linked font sheets (<a href="https://github.com/heygen-com/hyperframes/commit/af0c815c72b14bb3d70f6ef762012e87927dff6b">af0c815c72b14</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7166">#7166</a>).</li>
+<li><strong>CLI:</strong> Check copies only the stretch of a video it plays and stops after 2 minutes of copies (<a href="https://github.com/heygen-com/hyperframes/commit/c6f87f59b0c9ab17fc704aa8609cfee5294a3951">c6f87f59b0c9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7182">#7182</a>).</li>
+<li><strong>CLI:</strong> Report why a reverse session could not be recorded (<a href="https://github.com/heygen-com/hyperframes/commit/21e2038595047a1ab2dfb2c79489acbb7c94d519">21e2038595047</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7186">#7186</a>).</li>
+<li><strong>CLI:</strong> Check thins its craft samples when frames are slow, so the pass ends near 90 seconds (<a href="https://github.com/heygen-com/hyperframes/commit/be8122d0c4054c785fddb277b330267555080cd0">be8122d0c4054</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7183">#7183</a>).</li>
+<li><strong>CLI:</strong> A command waiting on the project lock says what it waits for (<a href="https://github.com/heygen-com/hyperframes/commit/00ea86570a8c8dc60c66bb6018b4826844cac6a0">00ea86570a8c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7184">#7184</a>).</li>
+<li><strong>Engine:</strong> A background image that never finishes decoding no longer stalls the frame (<a href="https://github.com/heygen-com/hyperframes/commit/73e65e2c7826ba1e33382f1f09d66f4e115e3aaa">73e65e2c7826b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6972">#6972</a>).</li>
+<li><strong>CLI:</strong> A track with no beats answers an empty result, not an error (<a href="https://github.com/heygen-com/hyperframes/commit/cffd70f2f9b24475de0b772f028361cca7c0d551">cffd70f2f9b24</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7173">#7173</a>).</li>
+<li><strong>Core:</strong> A logo image no longer renders stretched to the frame bottom (<a href="https://github.com/heygen-com/hyperframes/commit/3d78ac0fa6671c31ba69186d084951aeb8dc8e18">3d78ac0fa6671</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7179">#7179</a>).</li>
+<li><strong>CLI:</strong> A wedged render trips its 60 s watchdog, one local render at a time, and fonts the cloud can&#39;t resolve are flagged (<a href="https://github.com/heygen-com/hyperframes/commit/d4e4b07e3cbc101eae5d1a59d858a113ea1cf6f1">d4e4b07e3cbc1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7168">#7168</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Nav:</strong> The docs menu button names the section you are in (<a href="https://github.com/heygen-com/hyperframes/commit/054cf4f119a769615a1c8ab8534a03447f914a01">054cf4f119a76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7133">#7133</a>).</li>
+<li>Drop the hidden add-a-transition button; hand-off now works on windows and linux (<a href="https://github.com/heygen-com/hyperframes/commit/97b805dcbdb119454510ea3b10f8b5fa173b0ab1">97b805dcbdb11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7132">#7132</a>).</li>
+<li>Say HyperFrames is free, and what the Studio app&#39;s Pro plan adds (<a href="https://github.com/heygen-com/hyperframes/commit/c3eb052545668af14ab7578f964c5e7dacfdc6ce">c3eb052545668</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7131">#7131</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> A search box over the cards; it fills the ?q= filter the gallery already reads (<a href="https://github.com/heygen-com/hyperframes/commit/b2b034fcd88f95dc52377279d556a9a8e3434885">b2b034fcd88f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7147">#7147</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The studio-open journey counts the same thumbnails on every runner image (<a href="https://github.com/heygen-com/hyperframes/commit/2f321e0b0bb13eedefe3f8d206df33956347a809">2f321e0b0bb13</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7187">#7187</a>).</li>
+<li><strong>Studio:</strong> The timeline viewport gate runs one pinned Chrome build, not the runner&#39;s (<a href="https://github.com/heygen-com/hyperframes/commit/2679bcdee71aa0b1d706fd845f399fa07fc2c48f">2679bcdee71aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7180">#7180</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.13...v0.9.14">https://github.com/heygen-com/hyperframes/compare/v0.9.13...v0.9.14</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.14</h1>
+<p>Released on 2026-11-04.</p>
+<p>Cloud renders no longer fail on common font styles, and they now carry the system fonts a project uses. A wedged render stops itself, and <code>check</code> no longer hangs on long videos.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Cloud render carries the system fonts a project uses in its zip (<a href="https://github.com/heygen-com/hyperframes/commit/cba66f20a69c9e929564a756852dac71c4c437de">cba66f20a69c9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7165">#7165</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Tell a failed billing checkout apart from a payment not finished in time (<a href="https://github.com/heygen-com/hyperframes/commit/60ca970ed60df041e95f7d9194561e412bbbaf45">60ca970ed60df</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7185">#7185</a>).</li>
+<li><strong>Fonts:</strong> Stop failing cloud renders on var() shorthands, font-X-400 names and linked font sheets (<a href="https://github.com/heygen-com/hyperframes/commit/af0c815c72b14bb3d70f6ef762012e87927dff6b">af0c815c72b14</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7166">#7166</a>).</li>
+<li><strong>CLI:</strong> Check copies only the stretch of a video it plays and stops after 2 minutes of copies (<a href="https://github.com/heygen-com/hyperframes/commit/c6f87f59b0c9ab17fc704aa8609cfee5294a3951">c6f87f59b0c9a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7182">#7182</a>).</li>
+<li><strong>CLI:</strong> Report why a reverse session could not be recorded (<a href="https://github.com/heygen-com/hyperframes/commit/21e2038595047a1ab2dfb2c79489acbb7c94d519">21e2038595047</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7186">#7186</a>).</li>
+<li><strong>CLI:</strong> Check thins its craft samples when frames are slow, so the pass ends near 90 seconds (<a href="https://github.com/heygen-com/hyperframes/commit/be8122d0c4054c785fddb277b330267555080cd0">be8122d0c4054</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7183">#7183</a>).</li>
+<li><strong>CLI:</strong> A command waiting on the project lock says what it waits for (<a href="https://github.com/heygen-com/hyperframes/commit/00ea86570a8c8dc60c66bb6018b4826844cac6a0">00ea86570a8c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7184">#7184</a>).</li>
+<li><strong>Engine:</strong> A background image that never finishes decoding no longer stalls the frame (<a href="https://github.com/heygen-com/hyperframes/commit/73e65e2c7826ba1e33382f1f09d66f4e115e3aaa">73e65e2c7826b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6972">#6972</a>).</li>
+<li><strong>CLI:</strong> A track with no beats answers an empty result, not an error (<a href="https://github.com/heygen-com/hyperframes/commit/cffd70f2f9b24475de0b772f028361cca7c0d551">cffd70f2f9b24</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7173">#7173</a>).</li>
+<li><strong>Core:</strong> A logo image no longer renders stretched to the frame bottom (<a href="https://github.com/heygen-com/hyperframes/commit/3d78ac0fa6671c31ba69186d084951aeb8dc8e18">3d78ac0fa6671</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7179">#7179</a>).</li>
+<li><strong>CLI:</strong> A wedged render trips its 60 s watchdog, one local render at a time, and fonts the cloud can&#39;t resolve are flagged (<a href="https://github.com/heygen-com/hyperframes/commit/d4e4b07e3cbc101eae5d1a59d858a113ea1cf6f1">d4e4b07e3cbc1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7168">#7168</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Nav:</strong> The docs menu button names the section you are in (<a href="https://github.com/heygen-com/hyperframes/commit/054cf4f119a769615a1c8ab8534a03447f914a01">054cf4f119a76</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7133">#7133</a>).</li>
+<li>Drop the hidden add-a-transition button; hand-off now works on windows and linux (<a href="https://github.com/heygen-com/hyperframes/commit/97b805dcbdb119454510ea3b10f8b5fa173b0ab1">97b805dcbdb11</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7132">#7132</a>).</li>
+<li>Say HyperFrames is free, and what the Studio app&#39;s Pro plan adds (<a href="https://github.com/heygen-com/hyperframes/commit/c3eb052545668af14ab7578f964c5e7dacfdc6ce">c3eb052545668</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7131">#7131</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Catalog:</strong> A search box over the cards; it fills the ?q= filter the gallery already reads (<a href="https://github.com/heygen-com/hyperframes/commit/b2b034fcd88f95dc52377279d556a9a8e3434885">b2b034fcd88f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7147">#7147</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The studio-open journey counts the same thumbnails on every runner image (<a href="https://github.com/heygen-com/hyperframes/commit/2f321e0b0bb13eedefe3f8d206df33956347a809">2f321e0b0bb13</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7187">#7187</a>).</li>
+<li><strong>Studio:</strong> The timeline viewport gate runs one pinned Chrome build, not the runner&#39;s (<a href="https://github.com/heygen-com/hyperframes/commit/2679bcdee71aa0b1d706fd845f399fa07fc2c48f">2679bcdee71aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7180">#7180</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.13...v0.9.14">https://github.com/heygen-com/hyperframes/compare/v0.9.13...v0.9.14</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.13]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.13</link>
@@ -2887,72 +3003,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.196...v0.8.197">https://github.com/heygen-com/hyperframes/compare/v0.8.196...v0.8.197</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.196]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.196</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.196</guid>
-            <pubDate>Sun, 25 Oct 2026 07:21:50 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.196</h1>
-<p>Released on 2026-10-25.</p>
-<p>Undoing a rename of a video or audio file works again: the file comes back under its old name. The CLI&#39;s add, check and archive commands get fixes too, and cache-busted images stay visible in bundles.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Undoing a video rename brings the file back under its old name (<a href="https://github.com/heygen-com/hyperframes/commit/7bc363c87c8524e547c5b759d2471d96183b67f3">7bc363c87c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6285">#6285</a>).</li>
-<li><strong>Deps:</strong> Update esbuild for the security advisory (<a href="https://github.com/heygen-com/hyperframes/commit/38afc0b0135f0c0a956d354e8a6f578da7bd8581">38afc0b013</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6277">#6277</a>).</li>
-<li><strong>CLI:</strong> Stop &#39;hyperframes add&#39; hanging when a desktop clipboard is available (<a href="https://github.com/heygen-com/hyperframes/commit/221f3671f28c95ea3c4bf9148faaaa6bc359e73e">221f3671f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6271">#6271</a>).</li>
-<li><strong>Core:</strong> Keep cache-busted images visible in bundles (<a href="https://github.com/heygen-com/hyperframes/commit/32d2d3cba0436ad46fdda3a49da91d8c3a4763e0">32d2d3cba0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6264">#6264</a>).</li>
-<li><strong>CLI:</strong> Include encoded external assets in archives (<a href="https://github.com/heygen-com/hyperframes/commit/c6c8d81ba33cdbfd9697751b3d1c52ab508bca19">c6c8d81ba3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6266">#6266</a>).</li>
-<li><strong>CLI:</strong> Remove stale briefs when re-freezing recipes (<a href="https://github.com/heygen-com/hyperframes/commit/f5e15b2f775588bea09795b4df2babe6a110ed6b">f5e15b2f77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5324">#5324</a>).</li>
-<li><strong>CLI:</strong> Check finishes on long projects with many video clips (<a href="https://github.com/heygen-com/hyperframes/commit/37f5f272908d9bb0e596e902f4a45e81fc7a73b0">37f5f27290</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6270">#6270</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.195...v0.8.196">https://github.com/heygen-com/hyperframes/compare/v0.8.195...v0.8.196</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.196</h1>
-<p>Released on 2026-10-25.</p>
-<p>Undoing a rename of a video or audio file works again: the file comes back under its old name. The CLI&#39;s add, check and archive commands get fixes too, and cache-busted images stay visible in bundles.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Undoing a video rename brings the file back under its old name (<a href="https://github.com/heygen-com/hyperframes/commit/7bc363c87c8524e547c5b759d2471d96183b67f3">7bc363c87c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6285">#6285</a>).</li>
-<li><strong>Deps:</strong> Update esbuild for the security advisory (<a href="https://github.com/heygen-com/hyperframes/commit/38afc0b0135f0c0a956d354e8a6f578da7bd8581">38afc0b013</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6277">#6277</a>).</li>
-<li><strong>CLI:</strong> Stop &#39;hyperframes add&#39; hanging when a desktop clipboard is available (<a href="https://github.com/heygen-com/hyperframes/commit/221f3671f28c95ea3c4bf9148faaaa6bc359e73e">221f3671f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6271">#6271</a>).</li>
-<li><strong>Core:</strong> Keep cache-busted images visible in bundles (<a href="https://github.com/heygen-com/hyperframes/commit/32d2d3cba0436ad46fdda3a49da91d8c3a4763e0">32d2d3cba0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6264">#6264</a>).</li>
-<li><strong>CLI:</strong> Include encoded external assets in archives (<a href="https://github.com/heygen-com/hyperframes/commit/c6c8d81ba33cdbfd9697751b3d1c52ab508bca19">c6c8d81ba3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6266">#6266</a>).</li>
-<li><strong>CLI:</strong> Remove stale briefs when re-freezing recipes (<a href="https://github.com/heygen-com/hyperframes/commit/f5e15b2f775588bea09795b4df2babe6a110ed6b">f5e15b2f77</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5324">#5324</a>).</li>
-<li><strong>CLI:</strong> Check finishes on long projects with many video clips (<a href="https://github.com/heygen-com/hyperframes/commit/37f5f272908d9bb0e596e902f4a45e81fc7a73b0">37f5f27290</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6270">#6270</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.195...v0.8.196">https://github.com/heygen-com/hyperframes/compare/v0.8.195...v0.8.196</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.195]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.195</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.195</guid>
-            <pubDate>Sun, 25 Oct 2026 03:47:31 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.195</h1>
-<p>Released on 2026-10-25.</p>
-<p>Same release as 0.8.194 plus two small fixes: repeated stylesheet imports are kept, and lint allows zoom on scoped descendants.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Allow scoped descendant zoom (<a href="https://github.com/heygen-com/hyperframes/commit/e2129c39150e006e2041b6ea11ac27fad38776b1">e2129c39150e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6254">#6254</a>).</li>
-<li><strong>Core:</strong> Preserve repeated stylesheet imports (<a href="https://github.com/heygen-com/hyperframes/commit/d44f67ac1db6afc71bcb0e98c1cf44059b607743">d44f67ac1db6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6250">#6250</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.194...v0.8.195">https://github.com/heygen-com/hyperframes/compare/v0.8.194...v0.8.195</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.195</h1>
-<p>Released on 2026-10-25.</p>
-<p>Same release as 0.8.194 plus two small fixes: repeated stylesheet imports are kept, and lint allows zoom on scoped descendants.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Lint:</strong> Allow scoped descendant zoom (<a href="https://github.com/heygen-com/hyperframes/commit/e2129c39150e006e2041b6ea11ac27fad38776b1">e2129c39150e0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6254">#6254</a>).</li>
-<li><strong>Core:</strong> Preserve repeated stylesheet imports (<a href="https://github.com/heygen-com/hyperframes/commit/d44f67ac1db6afc71bcb0e98c1cf44059b607743">d44f67ac1db6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6250">#6250</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.194...v0.8.195">https://github.com/heygen-com/hyperframes/compare/v0.8.194...v0.8.195</a></p>
 ]]></content:encoded>
         </item>
     </channel>
