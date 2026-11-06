@@ -4,11 +4,39 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 06 Nov 2026 01:41:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 03:46:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.19]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.19</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.19</guid>
+            <pubDate>Fri, 06 Nov 2026 03:46:37 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.19</h1>
+<p>Released on 2026-11-06.</p>
+<p>A render now matches preview when a <code>set</code> interrupts a running tween, so it no longer comes out blank. <code>cloud render</code> also keeps going when a project uses a font with no file on this computer. It falls back to the next font in the stack, as a local render does, and names the missing font.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> A font missing from this computer no longer stops a cloud render, and is named (<a href="https://github.com/heygen-com/hyperframes/commit/b56e2c03669cc0515209b0f886594b36867eab02">b56e2c036</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7287">#7287</a>).</li>
+<li><strong>Core:</strong> A render lands where preview does when a set interrupts a tween (<a href="https://github.com/heygen-com/hyperframes/commit/6abc62a1796f7ebafd001dd13869a049f1f87dc5">6abc62a17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7283">#7283</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.18...v0.9.19">https://github.com/heygen-com/hyperframes/compare/v0.9.18...v0.9.19</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.19</h1>
+<p>Released on 2026-11-06.</p>
+<p>A render now matches preview when a <code>set</code> interrupts a running tween, so it no longer comes out blank. <code>cloud render</code> also keeps going when a project uses a font with no file on this computer. It falls back to the next font in the stack, as a local render does, and names the missing font.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> A font missing from this computer no longer stops a cloud render, and is named (<a href="https://github.com/heygen-com/hyperframes/commit/b56e2c03669cc0515209b0f886594b36867eab02">b56e2c036</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7287">#7287</a>).</li>
+<li><strong>Core:</strong> A render lands where preview does when a set interrupts a tween (<a href="https://github.com/heygen-com/hyperframes/commit/6abc62a1796f7ebafd001dd13869a049f1f87dc5">6abc62a17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7283">#7283</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.18...v0.9.19">https://github.com/heygen-com/hyperframes/compare/v0.9.18...v0.9.19</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.18]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.18</link>
@@ -3001,52 +3029,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.200...v0.8.201">https://github.com/heygen-com/hyperframes/compare/v0.8.200...v0.8.201</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.200]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.200</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.200</guid>
-            <pubDate>Sun, 25 Oct 2026 21:18:54 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.200</h1>
-<p>Released on 2026-10-25.</p>
-<p>The preview draws only the scenes near the playhead, so long projects scrub faster. Renders size their capture browsers by frame cost and keep fast capture on for more frames.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> The audio peak correction sizes its cut from the PCM it re-encodes (<a href="https://github.com/heygen-com/hyperframes/commit/1a37db4aee9349e6c619313475159e90b49da083">1a37db4aee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6312">#6312</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Core:</strong> The preview mounts and draws only the scenes near the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/70187a13b59118cf056f3bcdcd0c0df8f453a9f8">70187a13b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6189">#6189</a>).</li>
-<li><strong>Engine:</strong> Fast capture stays on for frames a shadow, blur or clip effect does not touch (<a href="https://github.com/heygen-com/hyperframes/commit/c50918277ae69b45677c200e95575faec5fd1519">c50918277a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6318">#6318</a>).</li>
-<li><strong>Producer:</strong> Size a chunk&#39;s capture browsers by its frame cost, not its frame count (<a href="https://github.com/heygen-com/hyperframes/commit/69405a7736830f743dc2a8192c36f26dac99d4ae">69405a7736</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6319">#6319</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Run cli tests in their own job so runtime tests stop timing out (<a href="https://github.com/heygen-com/hyperframes/commit/8214cdcd295de9542a05b8484ccf1b48ed97937b">8214cdcd29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6326">#6326</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200">https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.200</h1>
-<p>Released on 2026-10-25.</p>
-<p>The preview draws only the scenes near the playhead, so long projects scrub faster. Renders size their capture browsers by frame cost and keep fast capture on for more frames.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> The audio peak correction sizes its cut from the PCM it re-encodes (<a href="https://github.com/heygen-com/hyperframes/commit/1a37db4aee9349e6c619313475159e90b49da083">1a37db4aee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6312">#6312</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Core:</strong> The preview mounts and draws only the scenes near the playhead (<a href="https://github.com/heygen-com/hyperframes/commit/70187a13b59118cf056f3bcdcd0c0df8f453a9f8">70187a13b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6189">#6189</a>).</li>
-<li><strong>Engine:</strong> Fast capture stays on for frames a shadow, blur or clip effect does not touch (<a href="https://github.com/heygen-com/hyperframes/commit/c50918277ae69b45677c200e95575faec5fd1519">c50918277a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6318">#6318</a>).</li>
-<li><strong>Producer:</strong> Size a chunk&#39;s capture browsers by its frame cost, not its frame count (<a href="https://github.com/heygen-com/hyperframes/commit/69405a7736830f743dc2a8192c36f26dac99d4ae">69405a7736</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6319">#6319</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Run cli tests in their own job so runtime tests stop timing out (<a href="https://github.com/heygen-com/hyperframes/commit/8214cdcd295de9542a05b8484ccf1b48ed97937b">8214cdcd29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6326">#6326</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200">https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200</a></p>
 ]]></content:encoded>
         </item>
     </channel>
