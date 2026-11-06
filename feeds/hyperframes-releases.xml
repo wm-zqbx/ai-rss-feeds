@@ -4,11 +4,41 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 05 Nov 2026 20:10:34 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Nov 2026 01:41:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.18]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.18</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.18</guid>
+            <pubDate>Fri, 06 Nov 2026 01:41:41 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.18</h1>
+<p>Released on 2026-11-05.</p>
+<p>A render on a busy Windows PC no longer stalls behind its own lint. Under heavy CPU load in our test, the wait before the browser check fell from over 30 seconds to about 3. <code>check</code> also stops piling up GPU memory on graded images, and <code>normalize-audio</code> now reports the level a held clip actually stays at.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> A render&#39;s lint runs at normal priority, so a busy Windows PC no longer stalls it (<a href="https://github.com/heygen-com/hyperframes/commit/72326a3ac7abb650b7bb4bbd33b2b855bc790cac">72326a3ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7268">#7268</a>).</li>
+<li><strong>CLI:</strong> Normalize-audio says where the target stays when a limit holds its gain (<a href="https://github.com/heygen-com/hyperframes/commit/4935d6736b64ed3dd68524c1cb2c7f011171baef">4935d6736</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7267">#7267</a>).</li>
+<li><strong>Core:</strong> Check&#39;s no-draw seeks no longer upload graded images to the GPU (<a href="https://github.com/heygen-com/hyperframes/commit/256b84a41bc32913870953c06e05f4ab25e963f8">256b84a41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7264">#7264</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.17...v0.9.18">https://github.com/heygen-com/hyperframes/compare/v0.9.17...v0.9.18</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.18</h1>
+<p>Released on 2026-11-05.</p>
+<p>A render on a busy Windows PC no longer stalls behind its own lint. Under heavy CPU load in our test, the wait before the browser check fell from over 30 seconds to about 3. <code>check</code> also stops piling up GPU memory on graded images, and <code>normalize-audio</code> now reports the level a held clip actually stays at.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> A render&#39;s lint runs at normal priority, so a busy Windows PC no longer stalls it (<a href="https://github.com/heygen-com/hyperframes/commit/72326a3ac7abb650b7bb4bbd33b2b855bc790cac">72326a3ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7268">#7268</a>).</li>
+<li><strong>CLI:</strong> Normalize-audio says where the target stays when a limit holds its gain (<a href="https://github.com/heygen-com/hyperframes/commit/4935d6736b64ed3dd68524c1cb2c7f011171baef">4935d6736</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7267">#7267</a>).</li>
+<li><strong>Core:</strong> Check&#39;s no-draw seeks no longer upload graded images to the GPU (<a href="https://github.com/heygen-com/hyperframes/commit/256b84a41bc32913870953c06e05f4ab25e963f8">256b84a41</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7264">#7264</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.17...v0.9.18">https://github.com/heygen-com/hyperframes/compare/v0.9.17...v0.9.18</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.17]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.17</link>
@@ -3017,76 +3047,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200">https://github.com/heygen-com/hyperframes/compare/v0.8.199...v0.8.200</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.199]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.199</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.199</guid>
-            <pubDate>Sun, 25 Oct 2026 18:38:10 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.199</h1>
-<p>Released on 2026-10-25.</p>
-<p>Long HDR videos now render without filling the disk, and parallel capture stays on after one failed frame check. Lint warns when a scene&#39;s styles sit outside its template.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> Warn when a scene&#39;s styles sit outside its template (<a href="https://github.com/heygen-com/hyperframes/commit/ad6771c435e6fb57c540f630820d2a1265c0c63d">ad6771c435</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6317">#6317</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> --workers N is a ceiling, drawElement renders keep their single worker (<a href="https://github.com/heygen-com/hyperframes/commit/26e3045e3b2805ae10b3090c3254a04de4f372e3">26e3045e3b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6314">#6314</a>).</li>
-<li><strong>CLI:</strong> A failed frame check no longer switches parallel capture off for good (<a href="https://github.com/heygen-com/hyperframes/commit/d3a7599c60f1fe7f0993ce25c890a232048633e2">d3a7599c60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6313">#6313</a>).</li>
-<li><strong>Producer:</strong> Extract HDR video frames a window at a time to bound scratch disk (<a href="https://github.com/heygen-com/hyperframes/commit/7569ec1be58082980a7493c893bca5b7fdc8ca31">7569ec1be5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6304">#6304</a>).</li>
-<li><strong>Studio:</strong> Scrubbing never auditions a track the music row did not name (<a href="https://github.com/heygen-com/hyperframes/commit/9763b68a33aca8c4cf29a6d3bda7cb887ba86332">9763b68a33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6310">#6310</a>).</li>
-<li><strong>Core:</strong> The decoded-audio cache keys a clip the same way everywhere (<a href="https://github.com/heygen-com/hyperframes/commit/80ba3f59ec601e16f43525310ebf5a2ea450704e">80ba3f59ec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6306">#6306</a>).</li>
-<li><strong>CLI:</strong> A long video copy reports progress, resumes in 15 s pieces and stops only when stalled (<a href="https://github.com/heygen-com/hyperframes/commit/ada9932d4e2f12831f96c08b0acc3fedc3c7cc24">ada9932d4e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6307">#6307</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Core:</strong> Mounting a scene no longer restyles it to look for raster hints (<a href="https://github.com/heygen-com/hyperframes/commit/89af2908080cb7da8013d7133d8bf3cbe86d12e4">89af290808</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6300">#6300</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Say a volume lane multiplies data-volume (<a href="https://github.com/heygen-com/hyperframes/commit/9b80c2d01efa48ae48cd702129def7ec4eb6faf4">9b80c2d01e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6308">#6308</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>CLI:</strong> Check the browser that ran the hanging script, and that every browser it started is gone (<a href="https://github.com/heygen-com/hyperframes/commit/d4812a03937ecab8e572cb909004d84d35260066">d4812a0393</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6320">#6320</a>).</li>
-<li><strong>Engine:</strong> Count what the mixer read from a cloud file, not what the server buffered (<a href="https://github.com/heygen-com/hyperframes/commit/7b76377534a78b3d8d4cfe1614da3cf16280cca7">7b76377534</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6315">#6315</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.198...v0.8.199">https://github.com/heygen-com/hyperframes/compare/v0.8.198...v0.8.199</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.199</h1>
-<p>Released on 2026-10-25.</p>
-<p>Long HDR videos now render without filling the disk, and parallel capture stays on after one failed frame check. Lint warns when a scene&#39;s styles sit outside its template.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> Warn when a scene&#39;s styles sit outside its template (<a href="https://github.com/heygen-com/hyperframes/commit/ad6771c435e6fb57c540f630820d2a1265c0c63d">ad6771c435</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6317">#6317</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> --workers N is a ceiling, drawElement renders keep their single worker (<a href="https://github.com/heygen-com/hyperframes/commit/26e3045e3b2805ae10b3090c3254a04de4f372e3">26e3045e3b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6314">#6314</a>).</li>
-<li><strong>CLI:</strong> A failed frame check no longer switches parallel capture off for good (<a href="https://github.com/heygen-com/hyperframes/commit/d3a7599c60f1fe7f0993ce25c890a232048633e2">d3a7599c60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6313">#6313</a>).</li>
-<li><strong>Producer:</strong> Extract HDR video frames a window at a time to bound scratch disk (<a href="https://github.com/heygen-com/hyperframes/commit/7569ec1be58082980a7493c893bca5b7fdc8ca31">7569ec1be5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6304">#6304</a>).</li>
-<li><strong>Studio:</strong> Scrubbing never auditions a track the music row did not name (<a href="https://github.com/heygen-com/hyperframes/commit/9763b68a33aca8c4cf29a6d3bda7cb887ba86332">9763b68a33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6310">#6310</a>).</li>
-<li><strong>Core:</strong> The decoded-audio cache keys a clip the same way everywhere (<a href="https://github.com/heygen-com/hyperframes/commit/80ba3f59ec601e16f43525310ebf5a2ea450704e">80ba3f59ec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6306">#6306</a>).</li>
-<li><strong>CLI:</strong> A long video copy reports progress, resumes in 15 s pieces and stops only when stalled (<a href="https://github.com/heygen-com/hyperframes/commit/ada9932d4e2f12831f96c08b0acc3fedc3c7cc24">ada9932d4e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6307">#6307</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Core:</strong> Mounting a scene no longer restyles it to look for raster hints (<a href="https://github.com/heygen-com/hyperframes/commit/89af2908080cb7da8013d7133d8bf3cbe86d12e4">89af290808</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6300">#6300</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Say a volume lane multiplies data-volume (<a href="https://github.com/heygen-com/hyperframes/commit/9b80c2d01efa48ae48cd702129def7ec4eb6faf4">9b80c2d01e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6308">#6308</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>CLI:</strong> Check the browser that ran the hanging script, and that every browser it started is gone (<a href="https://github.com/heygen-com/hyperframes/commit/d4812a03937ecab8e572cb909004d84d35260066">d4812a0393</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6320">#6320</a>).</li>
-<li><strong>Engine:</strong> Count what the mixer read from a cloud file, not what the server buffered (<a href="https://github.com/heygen-com/hyperframes/commit/7b76377534a78b3d8d4cfe1614da3cf16280cca7">7b76377534</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6315">#6315</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.198...v0.8.199">https://github.com/heygen-com/hyperframes/compare/v0.8.198...v0.8.199</a></p>
 ]]></content:encoded>
         </item>
     </channel>
