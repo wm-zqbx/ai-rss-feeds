@@ -4,11 +4,103 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 07 Nov 2026 23:18:31 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Nov 2026 07:05:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.23]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.23</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.23</guid>
+            <pubDate>Sun, 08 Nov 2026 07:05:54 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.23</h1>
+<p>Released on 2026-11-08.</p>
+<p>Fade-ins that follow a starting set now end fully visible instead of vanishing when the fade finishes. Failed script reports also name their library, and menu highlights match their panel.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> A failed CDN script&#39;s report names its library and version, never its URL (<a href="https://github.com/heygen-com/hyperframes/commit/adf14d7324109694614955f32ba6cf2b97ad79d2">adf14d732</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7394">#7394</a>).</li>
+<li><strong>Core:</strong> Preview health names the media element that held play (<a href="https://github.com/heygen-com/hyperframes/commit/fd05a3860c66958ba3d509981e890c699ae4aa5e">fd05a3860</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7159">#7159</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> A set written before its tween no longer erases the tween&#39;s end (<a href="https://github.com/heygen-com/hyperframes/commit/75fe18c621be5297d7b09a788fabc75a3cd6c734">75fe18c62</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7397">#7397</a>).</li>
+<li><strong>Studio:</strong> A menu row&#39;s highlight is rounder than its panel (<a href="https://github.com/heygen-com/hyperframes/commit/ab785e9c5c59e9542593e49b93f9547cb2665b44">ab785e9c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7395">#7395</a>).</li>
+<li><strong>Studio:</strong> Bound recovery and verify full-quality playback (<a href="https://github.com/heygen-com/hyperframes/commit/3151fd21330e7e955210bfd3f557bc8d78d243c5">3151fd213</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7393">#7393</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> The decode timeout warning reaches every caller (<a href="https://github.com/heygen-com/hyperframes/commit/0f5914dc445ceed38fdc58eadb617f69632c0a29">0f5914dc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7119">#7119</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.22...v0.9.23">https://github.com/heygen-com/hyperframes/compare/v0.9.22...v0.9.23</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.23</h1>
+<p>Released on 2026-11-08.</p>
+<p>Fade-ins that follow a starting set now end fully visible instead of vanishing when the fade finishes. Failed script reports also name their library, and menu highlights match their panel.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> A failed CDN script&#39;s report names its library and version, never its URL (<a href="https://github.com/heygen-com/hyperframes/commit/adf14d7324109694614955f32ba6cf2b97ad79d2">adf14d732</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7394">#7394</a>).</li>
+<li><strong>Core:</strong> Preview health names the media element that held play (<a href="https://github.com/heygen-com/hyperframes/commit/fd05a3860c66958ba3d509981e890c699ae4aa5e">fd05a3860</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7159">#7159</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> A set written before its tween no longer erases the tween&#39;s end (<a href="https://github.com/heygen-com/hyperframes/commit/75fe18c621be5297d7b09a788fabc75a3cd6c734">75fe18c62</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7397">#7397</a>).</li>
+<li><strong>Studio:</strong> A menu row&#39;s highlight is rounder than its panel (<a href="https://github.com/heygen-com/hyperframes/commit/ab785e9c5c59e9542593e49b93f9547cb2665b44">ab785e9c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7395">#7395</a>).</li>
+<li><strong>Studio:</strong> Bound recovery and verify full-quality playback (<a href="https://github.com/heygen-com/hyperframes/commit/3151fd21330e7e955210bfd3f557bc8d78d243c5">3151fd213</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7393">#7393</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> The decode timeout warning reaches every caller (<a href="https://github.com/heygen-com/hyperframes/commit/0f5914dc445ceed38fdc58eadb617f69632c0a29">0f5914dc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7119">#7119</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.22...v0.9.23">https://github.com/heygen-com/hyperframes/compare/v0.9.22...v0.9.23</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.22]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.22</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.22</guid>
+            <pubDate>Sun, 08 Nov 2026 01:47:29 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.22</h1>
+<p>Released on 2026-11-08.</p>
+<p>Studio previews look sharper: scrubbing shows full-quality decoded frames, and seeking no longer drops to an incomplete picture. Renders also keep page timers on the film&#39;s schedule at any worker count.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Scrub full-quality video with decoded preview frames (<a href="https://github.com/heygen-com/hyperframes/commit/b7157bdabbabb194f60126bca45cad21c263a7dc">b7157bdab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7379">#7379</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Keep page timers on the film&#39;s schedule at every worker count (<a href="https://github.com/heygen-com/hyperframes/commit/fed14b0161baa6edf170ba37e2fb4a0f4656a8f1">fed14b016</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7390">#7390</a>).</li>
+<li><strong>Core:</strong> Retain complete preview pictures during native seeks (<a href="https://github.com/heygen-com/hyperframes/commit/b87a01f6a851b0ca02bfad3acfd0c56398024267">b87a01f6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7378">#7378</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> The injector budget test no longer leaves a no-op injector for later tests (<a href="https://github.com/heygen-com/hyperframes/commit/34118d8f20cf9682f119b157e89b2f3fe42cd4e4">34118d8f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7384">#7384</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.21...v0.9.22">https://github.com/heygen-com/hyperframes/compare/v0.9.21...v0.9.22</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.22</h1>
+<p>Released on 2026-11-08.</p>
+<p>Studio previews look sharper: scrubbing shows full-quality decoded frames, and seeking no longer drops to an incomplete picture. Renders also keep page timers on the film&#39;s schedule at any worker count.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Scrub full-quality video with decoded preview frames (<a href="https://github.com/heygen-com/hyperframes/commit/b7157bdabbabb194f60126bca45cad21c263a7dc">b7157bdab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7379">#7379</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Keep page timers on the film&#39;s schedule at every worker count (<a href="https://github.com/heygen-com/hyperframes/commit/fed14b0161baa6edf170ba37e2fb4a0f4656a8f1">fed14b016</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7390">#7390</a>).</li>
+<li><strong>Core:</strong> Retain complete preview pictures during native seeks (<a href="https://github.com/heygen-com/hyperframes/commit/b87a01f6a851b0ca02bfad3acfd0c56398024267">b87a01f6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7378">#7378</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Producer:</strong> The injector budget test no longer leaves a no-op injector for later tests (<a href="https://github.com/heygen-com/hyperframes/commit/34118d8f20cf9682f119b157e89b2f3fe42cd4e4">34118d8f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7384">#7384</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.21...v0.9.22">https://github.com/heygen-com/hyperframes/compare/v0.9.21...v0.9.22</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.21]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.21</link>
@@ -2943,104 +3035,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.204...v0.8.205">https://github.com/heygen-com/hyperframes/compare/v0.8.204...v0.8.205</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.204]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.204</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.204</guid>
-            <pubDate>Mon, 26 Oct 2026 14:26:38 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.204</h1>
-<p>Released on 2026-10-26.</p>
-<p>Scrubbing a long film in Studio stays smooth, because the layer walk now skips clips the runtime hid. A render whose capture stops advancing also fails within minutes.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> A render whose capture stops advancing fails within minutes (<a href="https://github.com/heygen-com/hyperframes/commit/575f68cf5bc4789e0f2b71c16333f5ef79586156">575f68cf5bc47</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6413">#6413</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> The layer walk skips clips the runtime hid, so scrubbing a long film stays smooth (<a href="https://github.com/heygen-com/hyperframes/commit/dc56b3d20af2dbb550ac749b7618ea976542e257">dc56b3d20af2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6416">#6416</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Studio app light palette, plus movable film rows and stacked remix shelves on Inspiration (<a href="https://github.com/heygen-com/hyperframes/commit/9652a6324ada60b27f91c413155740399a6c2d5d">9652a6324ada6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6414">#6414</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.203...v0.8.204">https://github.com/heygen-com/hyperframes/compare/v0.8.203...v0.8.204</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.204</h1>
-<p>Released on 2026-10-26.</p>
-<p>Scrubbing a long film in Studio stays smooth, because the layer walk now skips clips the runtime hid. A render whose capture stops advancing also fails within minutes.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> A render whose capture stops advancing fails within minutes (<a href="https://github.com/heygen-com/hyperframes/commit/575f68cf5bc4789e0f2b71c16333f5ef79586156">575f68cf5bc47</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6413">#6413</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio:</strong> The layer walk skips clips the runtime hid, so scrubbing a long film stays smooth (<a href="https://github.com/heygen-com/hyperframes/commit/dc56b3d20af2dbb550ac749b7618ea976542e257">dc56b3d20af2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6416">#6416</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li>Studio app light palette, plus movable film rows and stacked remix shelves on Inspiration (<a href="https://github.com/heygen-com/hyperframes/commit/9652a6324ada60b27f91c413155740399a6c2d5d">9652a6324ada6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6414">#6414</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.203...v0.8.204">https://github.com/heygen-com/hyperframes/compare/v0.8.203...v0.8.204</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.203]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.203</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.203</guid>
-            <pubDate>Mon, 26 Oct 2026 11:30:11 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.203</h1>
-<p>Released on 2026-10-26.</p>
-<p>Cloud workers no longer pay extra CPU for overlapped capture. Studio preview copies also show progress, can retry, and remember their quality.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Check-review inspect attaches the inspector&#39;s report to each framed finding (<a href="https://github.com/heygen-com/hyperframes/commit/a39f7b37d9bf1d05492886756ae838109c502815">a39f7b37d9bf1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6409">#6409</a>).</li>
-<li><strong>Studio:</strong> Preview copy progress, retry and a remembered quality (<a href="https://github.com/heygen-com/hyperframes/commit/84fd701daaac9593e6b4a5b94116b6cc039a154a">84fd701daaac9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6366">#6366</a>).</li>
-<li><strong>CLI:</strong> Check-review findingFrames saves one plain frame per finding time (<a href="https://github.com/heygen-com/hyperframes/commit/12ae82aa8ab5cef317dc28a6bfbf6913dc188ca4">12ae82aa8ab5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6401">#6401</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Chunk capture round-robins only for callers that bill wall time (<a href="https://github.com/heygen-com/hyperframes/commit/6a977e8db19aee82bf7bc303f51ec287f1a450f8">6a977e8db19ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6405">#6405</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Examples:</strong> The inspiration page, with films and remixes to start from (<a href="https://github.com/heygen-com/hyperframes/commit/3f1950b806e72fece41552077b491f1c8c6e8b28">3f1950b806e72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6383">#6383</a>).</li>
-<li>An FAQ, a free-agents page, and 30 Days as a numbered list (<a href="https://github.com/heygen-com/hyperframes/commit/a183125e97e176af628ed36826758332ad8e9d6d">a183125e97e17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6382">#6382</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Real-Chrome and CI smoke pages inline GSAP so they wait on no CDN (<a href="https://github.com/heygen-com/hyperframes/commit/1819276fc3047b6fabfe074aa3ec0b75de2a7df6">1819276fc3047</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6406">#6406</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.202...v0.8.203">https://github.com/heygen-com/hyperframes/compare/v0.8.202...v0.8.203</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.203</h1>
-<p>Released on 2026-10-26.</p>
-<p>Cloud workers no longer pay extra CPU for overlapped capture. Studio preview copies also show progress, can retry, and remember their quality.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Check-review inspect attaches the inspector&#39;s report to each framed finding (<a href="https://github.com/heygen-com/hyperframes/commit/a39f7b37d9bf1d05492886756ae838109c502815">a39f7b37d9bf1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6409">#6409</a>).</li>
-<li><strong>Studio:</strong> Preview copy progress, retry and a remembered quality (<a href="https://github.com/heygen-com/hyperframes/commit/84fd701daaac9593e6b4a5b94116b6cc039a154a">84fd701daaac9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6366">#6366</a>).</li>
-<li><strong>CLI:</strong> Check-review findingFrames saves one plain frame per finding time (<a href="https://github.com/heygen-com/hyperframes/commit/12ae82aa8ab5cef317dc28a6bfbf6913dc188ca4">12ae82aa8ab5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6401">#6401</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Chunk capture round-robins only for callers that bill wall time (<a href="https://github.com/heygen-com/hyperframes/commit/6a977e8db19aee82bf7bc303f51ec287f1a450f8">6a977e8db19ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6405">#6405</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Examples:</strong> The inspiration page, with films and remixes to start from (<a href="https://github.com/heygen-com/hyperframes/commit/3f1950b806e72fece41552077b491f1c8c6e8b28">3f1950b806e72</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6383">#6383</a>).</li>
-<li>An FAQ, a free-agents page, and 30 Days as a numbered list (<a href="https://github.com/heygen-com/hyperframes/commit/a183125e97e176af628ed36826758332ad8e9d6d">a183125e97e17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6382">#6382</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Real-Chrome and CI smoke pages inline GSAP so they wait on no CDN (<a href="https://github.com/heygen-com/hyperframes/commit/1819276fc3047b6fabfe074aa3ec0b75de2a7df6">1819276fc3047</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6406">#6406</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.202...v0.8.203">https://github.com/heygen-com/hyperframes/compare/v0.8.202...v0.8.203</a></p>
 ]]></content:encoded>
         </item>
     </channel>
