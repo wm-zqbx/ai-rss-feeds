@@ -4,11 +4,99 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Tue, 10 Nov 2026 02:23:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Nov 2026 12:44:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.30]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.30</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.30</guid>
+            <pubDate>Tue, 10 Nov 2026 12:44:28 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.30</h1>
+<p>Released on 2026-11-10.</p>
+<p>Studio stays responsive on large projects while it keeps history. The preview server now refuses writes from other sites and host names it does not serve, so a tunnel or remote setup may need one setting.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> When <code>hyperframes reverse</code> needs you to sign in, the agent now tells you why in one message with the link (and the device code on a remote terminal). The reverse skill also spots an outdated CLI install and runs the latest release instead (<a href="https://github.com/heygen-com/hyperframes/commit/007664e25a587c35da0ea104d7fc6a8550389446">007664e25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7488">#7488</a>).</li>
+<li><strong>AWS Lambda:</strong> The Lambda handler ZIP installs its runtime from a committed lockfile, with install scripts turned off (<a href="https://github.com/heygen-com/hyperframes/commit/f9255e39a56de17fd86362c4558a918ad2a874ef">f9255e39a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7485">#7485</a>).</li>
+<li><strong>Studio Server:</strong> On large projects, Studio&#39;s history checks no longer hold up the server (<a href="https://github.com/heygen-com/hyperframes/commit/61e720b0e7d6d68172466a3a72ea27d98f2ad58d">61e720b0e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7491">#7491</a>).</li>
+<li><strong>Gcp Cloud Run:</strong> The Cloud Run image pins its base image and checks its browser and bun downloads by checksum (<a href="https://github.com/heygen-com/hyperframes/commit/c6d243a2dee879e5f1fa2aeda544de8ecf91a998">c6d243a2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7487">#7487</a>).</li>
+<li><strong>Studio Server:</strong> The preview server refuses writes from other sites and requests for host names it does not serve. Local use needs no change. If you open <code>hyperframes preview</code> or the Studio dev server through a tunnel, Codespaces or a remote dev host, that setup can now be refused with a 403: name the host in <code>HYPERFRAMES_PREVIEW_ALLOWED_HOSTS</code> (comma separated), for example <code>HYPERFRAMES_PREVIEW_ALLOWED_HOSTS=demo.tunnels.example hyperframes preview</code> (<a href="https://github.com/heygen-com/hyperframes/commit/f318d3d08a7dff5fb48d12e7604c73bf004af204">f318d3d08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7490">#7490</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.29...v0.9.30">https://github.com/heygen-com/hyperframes/compare/v0.9.29...v0.9.30</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.30</h1>
+<p>Released on 2026-11-10.</p>
+<p>Studio stays responsive on large projects while it keeps history. The preview server now refuses writes from other sites and host names it does not serve, so a tunnel or remote setup may need one setting.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> When <code>hyperframes reverse</code> needs you to sign in, the agent now tells you why in one message with the link (and the device code on a remote terminal). The reverse skill also spots an outdated CLI install and runs the latest release instead (<a href="https://github.com/heygen-com/hyperframes/commit/007664e25a587c35da0ea104d7fc6a8550389446">007664e25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7488">#7488</a>).</li>
+<li><strong>AWS Lambda:</strong> The Lambda handler ZIP installs its runtime from a committed lockfile, with install scripts turned off (<a href="https://github.com/heygen-com/hyperframes/commit/f9255e39a56de17fd86362c4558a918ad2a874ef">f9255e39a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7485">#7485</a>).</li>
+<li><strong>Studio Server:</strong> On large projects, Studio&#39;s history checks no longer hold up the server (<a href="https://github.com/heygen-com/hyperframes/commit/61e720b0e7d6d68172466a3a72ea27d98f2ad58d">61e720b0e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7491">#7491</a>).</li>
+<li><strong>Gcp Cloud Run:</strong> The Cloud Run image pins its base image and checks its browser and bun downloads by checksum (<a href="https://github.com/heygen-com/hyperframes/commit/c6d243a2dee879e5f1fa2aeda544de8ecf91a998">c6d243a2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7487">#7487</a>).</li>
+<li><strong>Studio Server:</strong> The preview server refuses writes from other sites and requests for host names it does not serve. Local use needs no change. If you open <code>hyperframes preview</code> or the Studio dev server through a tunnel, Codespaces or a remote dev host, that setup can now be refused with a 403: name the host in <code>HYPERFRAMES_PREVIEW_ALLOWED_HOSTS</code> (comma separated), for example <code>HYPERFRAMES_PREVIEW_ALLOWED_HOSTS=demo.tunnels.example hyperframes preview</code> (<a href="https://github.com/heygen-com/hyperframes/commit/f318d3d08a7dff5fb48d12e7604c73bf004af204">f318d3d08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7490">#7490</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.29...v0.9.30">https://github.com/heygen-com/hyperframes/compare/v0.9.29...v0.9.30</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.29]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.29</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.29</guid>
+            <pubDate>Tue, 10 Nov 2026 09:11:28 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.29</h1>
+<p>Released on 2026-11-10.</p>
+<p>Undo no longer loses work caught in the middle of a save, and the CLI shows the credits an image actually cost. Fewer renders are wrongly refused as too slow, and every frame of a video clip shows its own source frame.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Label GPT image prices as estimates and show the charged credits (<a href="https://github.com/heygen-com/hyperframes/commit/0ba8941235f7bb3b40e10bb79bd27130543718c3">0ba894123</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7351">#7351</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> History waits out a file a save has emptied, and rereads one written mid-copy (<a href="https://github.com/heygen-com/hyperframes/commit/e8416b2a41e537ed2f0c56e66a8ce585d1fb5b01">e8416b2a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7480">#7480</a>).</li>
+<li><strong>Producer:</strong> Refuse a too-slow render only when its typical frame says it cannot finish (<a href="https://github.com/heygen-com/hyperframes/commit/88db83092a635b9e3ef2b7f90e2f50261e8e5cdb">88db83092</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7479">#7479</a>).</li>
+<li><strong>Engine:</strong> A video clip shows a new source frame on every frame it is on screen (<a href="https://github.com/heygen-com/hyperframes/commit/235c80bae0cde99754cab78609cb5d7d210b650e">235c80bae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7471">#7471</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Studio App:</strong> The Reference read is paid by Pro or a saved HeyGen API key (<a href="https://github.com/heygen-com/hyperframes/commit/b12365d67d8436c8537c0d3de7a6717b1519a509">b12365d67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7440">#7440</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Split the frame extractor tests so each file stays under the flake gate budget (<a href="https://github.com/heygen-com/hyperframes/commit/1a758fd60fac90cd3ce370f5af1cb47e4b610128">1a758fd60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7476">#7476</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.28...v0.9.29">https://github.com/heygen-com/hyperframes/compare/v0.9.28...v0.9.29</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.29</h1>
+<p>Released on 2026-11-10.</p>
+<p>Undo no longer loses work caught in the middle of a save, and the CLI shows the credits an image actually cost. Fewer renders are wrongly refused as too slow, and every frame of a video clip shows its own source frame.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Label GPT image prices as estimates and show the charged credits (<a href="https://github.com/heygen-com/hyperframes/commit/0ba8941235f7bb3b40e10bb79bd27130543718c3">0ba894123</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7351">#7351</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> History waits out a file a save has emptied, and rereads one written mid-copy (<a href="https://github.com/heygen-com/hyperframes/commit/e8416b2a41e537ed2f0c56e66a8ce585d1fb5b01">e8416b2a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7480">#7480</a>).</li>
+<li><strong>Producer:</strong> Refuse a too-slow render only when its typical frame says it cannot finish (<a href="https://github.com/heygen-com/hyperframes/commit/88db83092a635b9e3ef2b7f90e2f50261e8e5cdb">88db83092</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7479">#7479</a>).</li>
+<li><strong>Engine:</strong> A video clip shows a new source frame on every frame it is on screen (<a href="https://github.com/heygen-com/hyperframes/commit/235c80bae0cde99754cab78609cb5d7d210b650e">235c80bae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7471">#7471</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Studio App:</strong> The Reference read is paid by Pro or a saved HeyGen API key (<a href="https://github.com/heygen-com/hyperframes/commit/b12365d67d8436c8537c0d3de7a6717b1519a509">b12365d67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7440">#7440</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> Split the frame extractor tests so each file stays under the flake gate budget (<a href="https://github.com/heygen-com/hyperframes/commit/1a758fd60fac90cd3ce370f5af1cb47e4b610128">1a758fd60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7476">#7476</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.28...v0.9.29">https://github.com/heygen-com/hyperframes/compare/v0.9.28...v0.9.29</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.28]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.28</link>
@@ -2587,120 +2675,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.212...v0.8.213">https://github.com/heygen-com/hyperframes/compare/v0.8.212...v0.8.213</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.212]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.212</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.212</guid>
-            <pubDate>Wed, 28 Oct 2026 13:04:51 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.212</h1>
-<p>Released on 2026-10-28.</p>
-<p>A model download that stalls now resumes instead of failing. Failures with --json answer in one shape, and check shows progress as it runs.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Exit 2 for remaining flag validation errors (<a href="https://github.com/heygen-com/hyperframes/commit/2d3033c719bc82ea4a82fe4d7141e0669ab9a14d">2d3033c71</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6639">#6639</a>).</li>
-<li><strong>CLI:</strong> Snapshot warns when a video on screen has no source to read a frame from (<a href="https://github.com/heygen-com/hyperframes/commit/b84762230f03dd182e950df93eb6849b86a12aec">b84762230</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6656">#6656</a>).</li>
-<li><strong>CLI:</strong> Every --json failure answers with one envelope, and --json only where supported (<a href="https://github.com/heygen-com/hyperframes/commit/85efaece7e11a3e420fb4d93b85230781e805942">85efaece7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6622">#6622</a>).</li>
-<li><strong>CLI:</strong> A check page forces a WebGL drawing buffer but keeps no list of 2d canvases (<a href="https://github.com/heygen-com/hyperframes/commit/b6eaed7cae2a92e80955c1b8d40db129cb74230b">b6eaed7ca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6650">#6650</a>).</li>
-<li><strong>Inspector:</strong> Live queries see every composition, wherever the playhead is (<a href="https://github.com/heygen-com/hyperframes/commit/205c1a31d3b4f031e7a10ef6dec8b7581c743d1a">205c1a31d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6651">#6651</a>).</li>
-<li><strong>CLI:</strong> Resume a model download that stalls partway instead of failing (<a href="https://github.com/heygen-com/hyperframes/commit/ecad35a2254c98b84c9410072908c902eb3f7241">ecad35a22</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6649">#6649</a>).</li>
-<li><strong>Studio:</strong> A thumbnail reader forgets a start&#39;s failures after a minute (<a href="https://github.com/heygen-com/hyperframes/commit/a88751d9d68475c84542c2cbc3621742ddfccd76">a88751d9d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6642">#6642</a>).</li>
-<li><strong>Studio Server:</strong> The render route passes a MOV ProRes profile to the render (<a href="https://github.com/heygen-com/hyperframes/commit/5a0179b88eb3da0e10797288b0c3ce2435e33d66">5a0179b88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6644">#6644</a>).</li>
-<li><strong>Engine:</strong> A Windows browser that will not start says where and why (<a href="https://github.com/heygen-com/hyperframes/commit/7758d9b8fd507384573eb56ba84cc62fb20444c6">7758d9b8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6647">#6647</a>).</li>
-<li><strong>CLI:</strong> Add help [cmd], suggest the closest command or flag, and quiet the nags (<a href="https://github.com/heygen-com/hyperframes/commit/e2c91513203ec9be1833840bcfb35183a3dcee8d">e2c915132</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6621">#6621</a>).</li>
-<li><strong>CLI:</strong> Check prints a progress line as each pass after overlap begins (<a href="https://github.com/heygen-com/hyperframes/commit/3d1c0764a018c5c0412c6273a54c87b6ce532ef7">3d1c0764a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6646">#6646</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Wait for the first undo press before the edit that should block the second (<a href="https://github.com/heygen-com/hyperframes/commit/7112e4b6bff935dcdcfc475e20b3719d7585251d">7112e4b6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6652">#6652</a>).</li>
-<li>Keep the bun cache warm and skip binary downloads in preflight (<a href="https://github.com/heygen-com/hyperframes/commit/0e32ee9b56bd0815c0dc23a1c3fbb81aa8c43a87">0e32ee9b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6648">#6648</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.211...v0.8.212">https://github.com/heygen-com/hyperframes/compare/v0.8.211...v0.8.212</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.212</h1>
-<p>Released on 2026-10-28.</p>
-<p>A model download that stalls now resumes instead of failing. Failures with --json answer in one shape, and check shows progress as it runs.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Exit 2 for remaining flag validation errors (<a href="https://github.com/heygen-com/hyperframes/commit/2d3033c719bc82ea4a82fe4d7141e0669ab9a14d">2d3033c71</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6639">#6639</a>).</li>
-<li><strong>CLI:</strong> Snapshot warns when a video on screen has no source to read a frame from (<a href="https://github.com/heygen-com/hyperframes/commit/b84762230f03dd182e950df93eb6849b86a12aec">b84762230</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6656">#6656</a>).</li>
-<li><strong>CLI:</strong> Every --json failure answers with one envelope, and --json only where supported (<a href="https://github.com/heygen-com/hyperframes/commit/85efaece7e11a3e420fb4d93b85230781e805942">85efaece7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6622">#6622</a>).</li>
-<li><strong>CLI:</strong> A check page forces a WebGL drawing buffer but keeps no list of 2d canvases (<a href="https://github.com/heygen-com/hyperframes/commit/b6eaed7cae2a92e80955c1b8d40db129cb74230b">b6eaed7ca</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6650">#6650</a>).</li>
-<li><strong>Inspector:</strong> Live queries see every composition, wherever the playhead is (<a href="https://github.com/heygen-com/hyperframes/commit/205c1a31d3b4f031e7a10ef6dec8b7581c743d1a">205c1a31d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6651">#6651</a>).</li>
-<li><strong>CLI:</strong> Resume a model download that stalls partway instead of failing (<a href="https://github.com/heygen-com/hyperframes/commit/ecad35a2254c98b84c9410072908c902eb3f7241">ecad35a22</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6649">#6649</a>).</li>
-<li><strong>Studio:</strong> A thumbnail reader forgets a start&#39;s failures after a minute (<a href="https://github.com/heygen-com/hyperframes/commit/a88751d9d68475c84542c2cbc3621742ddfccd76">a88751d9d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6642">#6642</a>).</li>
-<li><strong>Studio Server:</strong> The render route passes a MOV ProRes profile to the render (<a href="https://github.com/heygen-com/hyperframes/commit/5a0179b88eb3da0e10797288b0c3ce2435e33d66">5a0179b88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6644">#6644</a>).</li>
-<li><strong>Engine:</strong> A Windows browser that will not start says where and why (<a href="https://github.com/heygen-com/hyperframes/commit/7758d9b8fd507384573eb56ba84cc62fb20444c6">7758d9b8f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6647">#6647</a>).</li>
-<li><strong>CLI:</strong> Add help [cmd], suggest the closest command or flag, and quiet the nags (<a href="https://github.com/heygen-com/hyperframes/commit/e2c91513203ec9be1833840bcfb35183a3dcee8d">e2c915132</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6621">#6621</a>).</li>
-<li><strong>CLI:</strong> Check prints a progress line as each pass after overlap begins (<a href="https://github.com/heygen-com/hyperframes/commit/3d1c0764a018c5c0412c6273a54c87b6ce532ef7">3d1c0764a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6646">#6646</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio:</strong> Wait for the first undo press before the edit that should block the second (<a href="https://github.com/heygen-com/hyperframes/commit/7112e4b6bff935dcdcfc475e20b3719d7585251d">7112e4b6b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6652">#6652</a>).</li>
-<li>Keep the bun cache warm and skip binary downloads in preflight (<a href="https://github.com/heygen-com/hyperframes/commit/0e32ee9b56bd0815c0dc23a1c3fbb81aa8c43a87">0e32ee9b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6648">#6648</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.211...v0.8.212">https://github.com/heygen-com/hyperframes/compare/v0.8.211...v0.8.212</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.211]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.211</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.211</guid>
-            <pubDate>Wed, 28 Oct 2026 10:03:38 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.211</h1>
-<p>Released on 2026-10-28.</p>
-<p>Graded clips now draw on real GPUs instead of showing a blank frame, including clips zoomed far past the screen. New blank projects also start on black, not grey.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Local servers never bind a port Chromium refuses to load from (<a href="https://github.com/heygen-com/hyperframes/commit/bf7ebe961e522533fbbd9b94384198d662935ef5">bf7ebe961</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6620">#6620</a>).</li>
-<li><strong>Dx:</strong> Unblock lint and the Claude pre-commit hook on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/310488b0501e17a6e92db646575cdef54251f880">310488b05</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6619">#6619</a>).</li>
-<li><strong>CLI:</strong> A new blank project starts on a black frame, not grey (<a href="https://github.com/heygen-com/hyperframes/commit/4f0bdfb520a7ccb54ca5a602936a3dd713089151">4f0bdfb52</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6614">#6614</a>).</li>
-<li><strong>Core:</strong> A graded clip&#39;s canvas no longer comes out blank on a real GPU (<a href="https://github.com/heygen-com/hyperframes/commit/9eaf9efb69f37de0d6d98324bda1c65c9a924f2f">9eaf9efb6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6615">#6615</a>).</li>
-<li><strong>Producer:</strong> A path whose name starts with two dots now counts as inside its folder (<a href="https://github.com/heygen-com/hyperframes/commit/c8052fbdae3416f9db93ebd33f873228ce8996b6">c8052fbda</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5834">#5834</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CLI:</strong> Check&#39;s craft pass skips clips the runtime has hidden (<a href="https://github.com/heygen-com/hyperframes/commit/815ff9ec8d755b52c050943765bf15c9c9b1e88e">815ff9ec8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6627">#6627</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Audio:</strong> Say the render sums tracks at unity and limits nothing (<a href="https://github.com/heygen-com/hyperframes/commit/8b1f88b3c06175f43fbdbe1af6e53933847cb195">8b1f88b3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5652">#5652</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Codegen:</strong> Resync cloud client from EF 354b4cf4 (<a href="https://github.com/heygen-com/hyperframes/commit/32e171ca91487c27f8d7c8b1f455b7c844a23e08">32e171ca9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6608">#6608</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.210...v0.8.211">https://github.com/heygen-com/hyperframes/compare/v0.8.210...v0.8.211</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.211</h1>
-<p>Released on 2026-10-28.</p>
-<p>Graded clips now draw on real GPUs instead of showing a blank frame, including clips zoomed far past the screen. New blank projects also start on black, not grey.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Local servers never bind a port Chromium refuses to load from (<a href="https://github.com/heygen-com/hyperframes/commit/bf7ebe961e522533fbbd9b94384198d662935ef5">bf7ebe961</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6620">#6620</a>).</li>
-<li><strong>Dx:</strong> Unblock lint and the Claude pre-commit hook on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/310488b0501e17a6e92db646575cdef54251f880">310488b05</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6619">#6619</a>).</li>
-<li><strong>CLI:</strong> A new blank project starts on a black frame, not grey (<a href="https://github.com/heygen-com/hyperframes/commit/4f0bdfb520a7ccb54ca5a602936a3dd713089151">4f0bdfb52</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6614">#6614</a>).</li>
-<li><strong>Core:</strong> A graded clip&#39;s canvas no longer comes out blank on a real GPU (<a href="https://github.com/heygen-com/hyperframes/commit/9eaf9efb69f37de0d6d98324bda1c65c9a924f2f">9eaf9efb6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6615">#6615</a>).</li>
-<li><strong>Producer:</strong> A path whose name starts with two dots now counts as inside its folder (<a href="https://github.com/heygen-com/hyperframes/commit/c8052fbdae3416f9db93ebd33f873228ce8996b6">c8052fbda</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5834">#5834</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>CLI:</strong> Check&#39;s craft pass skips clips the runtime has hidden (<a href="https://github.com/heygen-com/hyperframes/commit/815ff9ec8d755b52c050943765bf15c9c9b1e88e">815ff9ec8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6627">#6627</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Audio:</strong> Say the render sums tracks at unity and limits nothing (<a href="https://github.com/heygen-com/hyperframes/commit/8b1f88b3c06175f43fbdbe1af6e53933847cb195">8b1f88b3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5652">#5652</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Codegen:</strong> Resync cloud client from EF 354b4cf4 (<a href="https://github.com/heygen-com/hyperframes/commit/32e171ca91487c27f8d7c8b1f455b7c844a23e08">32e171ca9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6608">#6608</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.210...v0.8.211">https://github.com/heygen-com/hyperframes/compare/v0.8.210...v0.8.211</a></p>
 ]]></content:encoded>
         </item>
     </channel>
