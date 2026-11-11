@@ -4,11 +4,73 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 11 Nov 2026 07:00:23 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 11 Nov 2026 17:16:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.34]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.34</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.34</guid>
+            <pubDate>Wed, 11 Nov 2026 17:16:18 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.34</h1>
+<p>Released on 2026-11-11.</p>
+<p>HyperFrames now runs helper programs like FFmpeg only from where they are installed, never from a project folder. Renders can also refuse variables a page does not declare, when that check is turned on.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> With strict variables turned on, a render fails when it is given a variable the page does not declare. It is off by default, so renders are unchanged (<a href="https://github.com/heygen-com/hyperframes/commit/f312fca7e2098524af07055bdf6c20a3706d6f89">f312fca7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7548">#7548</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Load fonts and modules only in the Studio&#39;s own preview frames (<a href="https://github.com/heygen-com/hyperframes/commit/ffb13c3b62a1b8ed98fdcd835f15412d0a7ca7e6">ffb13c3b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7553">#7553</a>).</li>
+<li><strong>Skills:</strong> Plugin launcher and media helpers run the pinned CLI, not a project copy (<a href="https://github.com/heygen-com/hyperframes/commit/a8fe3a5b6844c9f1ae1a4473793eeb11dfcec627">a8fe3a5b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7552">#7552</a>).</li>
+<li><strong>CLI:</strong> Preview uses the bundled Studio unless local Studio mode is opted in (<a href="https://github.com/heygen-com/hyperframes/commit/668983e1a63efb7618049c73cf9dcad2a5977a4e">668983e1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7551">#7551</a>).</li>
+<li><strong>Security:</strong> FFmpeg, FFprobe and other helper programs are taken only from where they are installed or a path you set, never from a project folder (<a href="https://github.com/heygen-com/hyperframes/commit/84799bdc59b18f6a3df6595d8a8d1ec03dfde673">84799bdc5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7524">#7524</a>).</li>
+<li><strong>Core:</strong> Saving a file works on drives that refuse hard links with a permission error (<a href="https://github.com/heygen-com/hyperframes/commit/f36463e292f4487daef522ec9b19c2dacceb6adb">f36463e29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7474">#7474</a>).</li>
+<li><strong>Studio:</strong> Thumbnails are captured in a sealed page, and shader transitions still work where the browser blocks local storage (<a href="https://github.com/heygen-com/hyperframes/commit/80cda85d761128e121a1cef0f1378ad342472411">80cda85d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7528">#7528</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Refuse more coding-agent instruction files in registry installs (<a href="https://github.com/heygen-com/hyperframes/commit/9bab57ab48db70f3aee3376f6bb86af5f7c50583">9bab57ab4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7549">#7549</a>).</li>
+<li><strong>CLI and Studio:</strong> Registry installs and Studio file writes stay inside the project content folders (<a href="https://github.com/heygen-com/hyperframes/commit/b96c82b785ab8fbd9c030c093de9c39e5dc39342">b96c82b78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7523">#7523</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> The URL-read concurrency test passes on machines with 32 or more cores (<a href="https://github.com/heygen-com/hyperframes/commit/3ad7611f9fd36c1cef589c59b116ad7043c3b041">3ad7611f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7544">#7544</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.33...v0.9.34">https://github.com/heygen-com/hyperframes/compare/v0.9.33...v0.9.34</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.34</h1>
+<p>Released on 2026-11-11.</p>
+<p>HyperFrames now runs helper programs like FFmpeg only from where they are installed, never from a project folder. Renders can also refuse variables a page does not declare, when that check is turned on.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Producer:</strong> With strict variables turned on, a render fails when it is given a variable the page does not declare. It is off by default, so renders are unchanged (<a href="https://github.com/heygen-com/hyperframes/commit/f312fca7e2098524af07055bdf6c20a3706d6f89">f312fca7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7548">#7548</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio Server:</strong> Load fonts and modules only in the Studio&#39;s own preview frames (<a href="https://github.com/heygen-com/hyperframes/commit/ffb13c3b62a1b8ed98fdcd835f15412d0a7ca7e6">ffb13c3b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7553">#7553</a>).</li>
+<li><strong>Skills:</strong> Plugin launcher and media helpers run the pinned CLI, not a project copy (<a href="https://github.com/heygen-com/hyperframes/commit/a8fe3a5b6844c9f1ae1a4473793eeb11dfcec627">a8fe3a5b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7552">#7552</a>).</li>
+<li><strong>CLI:</strong> Preview uses the bundled Studio unless local Studio mode is opted in (<a href="https://github.com/heygen-com/hyperframes/commit/668983e1a63efb7618049c73cf9dcad2a5977a4e">668983e1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7551">#7551</a>).</li>
+<li><strong>Security:</strong> FFmpeg, FFprobe and other helper programs are taken only from where they are installed or a path you set, never from a project folder (<a href="https://github.com/heygen-com/hyperframes/commit/84799bdc59b18f6a3df6595d8a8d1ec03dfde673">84799bdc5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7524">#7524</a>).</li>
+<li><strong>Core:</strong> Saving a file works on drives that refuse hard links with a permission error (<a href="https://github.com/heygen-com/hyperframes/commit/f36463e292f4487daef522ec9b19c2dacceb6adb">f36463e29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7474">#7474</a>).</li>
+<li><strong>Studio:</strong> Thumbnails are captured in a sealed page, and shader transitions still work where the browser blocks local storage (<a href="https://github.com/heygen-com/hyperframes/commit/80cda85d761128e121a1cef0f1378ad342472411">80cda85d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7528">#7528</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Refuse more coding-agent instruction files in registry installs (<a href="https://github.com/heygen-com/hyperframes/commit/9bab57ab48db70f3aee3376f6bb86af5f7c50583">9bab57ab4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7549">#7549</a>).</li>
+<li><strong>CLI and Studio:</strong> Registry installs and Studio file writes stay inside the project content folders (<a href="https://github.com/heygen-com/hyperframes/commit/b96c82b785ab8fbd9c030c093de9c39e5dc39342">b96c82b78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7523">#7523</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> The URL-read concurrency test passes on machines with 32 or more cores (<a href="https://github.com/heygen-com/hyperframes/commit/3ad7611f9fd36c1cef589c59b116ad7043c3b041">3ad7611f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7544">#7544</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.33...v0.9.34">https://github.com/heygen-com/hyperframes/compare/v0.9.33...v0.9.34</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.33]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.33</link>
@@ -2549,36 +2611,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.219...v0.8.220">https://github.com/heygen-com/hyperframes/compare/v0.8.219...v0.8.220</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.219]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.219</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.219</guid>
-            <pubDate>Fri, 30 Oct 2026 02:48:55 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.219</h1>
-<p>Released on 2026-10-30.</p>
-<p>On Windows, check, snapshot and render no longer stop with an error about a locked Chrome log file. Render with no output path now saves into the project folder, and normalize-audio no longer makes a quiet clip quieter.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> A locked Chrome debug.log on Windows no longer fails check, snapshot or render (<a href="https://github.com/heygen-com/hyperframes/commit/6874cc289012f31a0c9441d7fff12a277080c077">6874cc289</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6771">#6771</a>).</li>
-<li><strong>CLI:</strong> Normalize-audio never cuts a clip that is quieter than the target (<a href="https://github.com/heygen-com/hyperframes/commit/9c01e2e1213f89451b7f19c4883f60899aa8910d">9c01e2e12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6767">#6767</a>).</li>
-<li><strong>CLI:</strong> Render with no -o writes to the project&#39;s renders folder from any directory (<a href="https://github.com/heygen-com/hyperframes/commit/aa094f385838cbaca4f85036a6cbe5905c88f2ee">aa094f385</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6766">#6766</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.218...v0.8.219">https://github.com/heygen-com/hyperframes/compare/v0.8.218...v0.8.219</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.219</h1>
-<p>Released on 2026-10-30.</p>
-<p>On Windows, check, snapshot and render no longer stop with an error about a locked Chrome log file. Render with no output path now saves into the project folder, and normalize-audio no longer makes a quiet clip quieter.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> A locked Chrome debug.log on Windows no longer fails check, snapshot or render (<a href="https://github.com/heygen-com/hyperframes/commit/6874cc289012f31a0c9441d7fff12a277080c077">6874cc289</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6771">#6771</a>).</li>
-<li><strong>CLI:</strong> Normalize-audio never cuts a clip that is quieter than the target (<a href="https://github.com/heygen-com/hyperframes/commit/9c01e2e1213f89451b7f19c4883f60899aa8910d">9c01e2e12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6767">#6767</a>).</li>
-<li><strong>CLI:</strong> Render with no -o writes to the project&#39;s renders folder from any directory (<a href="https://github.com/heygen-com/hyperframes/commit/aa094f385838cbaca4f85036a6cbe5905c88f2ee">aa094f385</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6766">#6766</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.218...v0.8.219">https://github.com/heygen-com/hyperframes/compare/v0.8.218...v0.8.219</a></p>
 ]]></content:encoded>
         </item>
     </channel>
