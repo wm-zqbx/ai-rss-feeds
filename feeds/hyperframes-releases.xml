@@ -4,11 +4,75 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 12 Nov 2026 13:55:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Nov 2026 22:19:51 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.40]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.40</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.40</guid>
+            <pubDate>Thu, 12 Nov 2026 22:19:51 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.40</h1>
+<p>Released on 2026-11-12.</p>
+<p>A local render now extracts each video at about the size it is shown, so a long export of 4K footage in a 1080p film no longer fills the disk. A frame&#39;s pixels no longer depend on the frames drawn before it, render work is sized to the CPUs the process may use, and check hears a WAV whose header misstates its byte rate.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Runtime element handles for the editing channel (<a href="https://github.com/heygen-com/hyperframes/commit/e1ddb2e162388fcef4b6496ceb81d02fe22fe3d3">e1ddb2e16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7603">#7603</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Check hears a WAV whose header misstates its byte rate, as render plays it (<a href="https://github.com/heygen-com/hyperframes/commit/97df93fb07dc0e1c66aba8eafbb10c2692dbe7db">97df93fb0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7618">#7618</a>).</li>
+<li><strong>Docker:</strong> Node 22.23.5 for the November 2026 security release (<a href="https://github.com/heygen-com/hyperframes/commit/5bf361f5247a677b7360b01a255a7db797296086">5bf361f52</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7611">#7611</a>).</li>
+<li><strong>Engine:</strong> A frame&#39;s pixels no longer depend on the frames drawn before it (<a href="https://github.com/heygen-com/hyperframes/commit/b4fc4736d7934b1d783fe8aefc6799b1828e4e6b">b4fc4736d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7181">#7181</a>).</li>
+<li><strong>CLI:</strong> Add --dir names the exact init command for a missing folder (<a href="https://github.com/heygen-com/hyperframes/commit/bfd3fe644bbbf1df2d059059b7c5b311f6b80601">bfd3fe644</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7615">#7615</a>).</li>
+<li><strong>Producer:</strong> A local render extracts each video at about the size it is shown (<a href="https://github.com/heygen-com/hyperframes/commit/54bcdc616fd59fb324367615684c915480a9c634">54bcdc616</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7609">#7609</a>).</li>
+<li><strong>Engine:</strong> Render work is sized by the CPUs the process may use (<a href="https://github.com/heygen-com/hyperframes/commit/395c845cd3131aaf7bb5a0181818c377a81f4def">395c845cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7612">#7612</a>).</li>
+<li><strong>Engine:</strong> A video shown at exactly half its size is extracted at half size (<a href="https://github.com/heygen-com/hyperframes/commit/cc47f7ea74e530003326655d1ba012e2b9c908d8">cc47f7ea7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7607">#7607</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> &#39;hyperframes registry search&#39; runs catalog (<a href="https://github.com/heygen-com/hyperframes/commit/83b34cbe49d5a44335875c44a2b95cef75211dc4">83b34cbe4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7610">#7610</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Move the Python encoding guard out of the skills root (<a href="https://github.com/heygen-com/hyperframes/commit/33304cff04a601f19128111f77f6538af340f306">33304cff0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7606">#7606</a>).</li>
+<li><strong>Producer:</strong> Pay the first render&#39;s start-up cost before the stall and frame-window tests (<a href="https://github.com/heygen-com/hyperframes/commit/d1a366b42f7e05af82ab38ef637b97673241a943">d1a366b42</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7503">#7503</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.39...v0.9.40">https://github.com/heygen-com/hyperframes/compare/v0.9.39...v0.9.40</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.40</h1>
+<p>Released on 2026-11-12.</p>
+<p>A local render now extracts each video at about the size it is shown, so a long export of 4K footage in a 1080p film no longer fills the disk. A frame&#39;s pixels no longer depend on the frames drawn before it, render work is sized to the CPUs the process may use, and check hears a WAV whose header misstates its byte rate.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Runtime element handles for the editing channel (<a href="https://github.com/heygen-com/hyperframes/commit/e1ddb2e162388fcef4b6496ceb81d02fe22fe3d3">e1ddb2e16</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7603">#7603</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Check hears a WAV whose header misstates its byte rate, as render plays it (<a href="https://github.com/heygen-com/hyperframes/commit/97df93fb07dc0e1c66aba8eafbb10c2692dbe7db">97df93fb0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7618">#7618</a>).</li>
+<li><strong>Docker:</strong> Node 22.23.5 for the November 2026 security release (<a href="https://github.com/heygen-com/hyperframes/commit/5bf361f5247a677b7360b01a255a7db797296086">5bf361f52</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7611">#7611</a>).</li>
+<li><strong>Engine:</strong> A frame&#39;s pixels no longer depend on the frames drawn before it (<a href="https://github.com/heygen-com/hyperframes/commit/b4fc4736d7934b1d783fe8aefc6799b1828e4e6b">b4fc4736d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7181">#7181</a>).</li>
+<li><strong>CLI:</strong> Add --dir names the exact init command for a missing folder (<a href="https://github.com/heygen-com/hyperframes/commit/bfd3fe644bbbf1df2d059059b7c5b311f6b80601">bfd3fe644</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7615">#7615</a>).</li>
+<li><strong>Producer:</strong> A local render extracts each video at about the size it is shown (<a href="https://github.com/heygen-com/hyperframes/commit/54bcdc616fd59fb324367615684c915480a9c634">54bcdc616</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7609">#7609</a>).</li>
+<li><strong>Engine:</strong> Render work is sized by the CPUs the process may use (<a href="https://github.com/heygen-com/hyperframes/commit/395c845cd3131aaf7bb5a0181818c377a81f4def">395c845cd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7612">#7612</a>).</li>
+<li><strong>Engine:</strong> A video shown at exactly half its size is extracted at half size (<a href="https://github.com/heygen-com/hyperframes/commit/cc47f7ea74e530003326655d1ba012e2b9c908d8">cc47f7ea7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7607">#7607</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> &#39;hyperframes registry search&#39; runs catalog (<a href="https://github.com/heygen-com/hyperframes/commit/83b34cbe49d5a44335875c44a2b95cef75211dc4">83b34cbe4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7610">#7610</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Skills:</strong> Move the Python encoding guard out of the skills root (<a href="https://github.com/heygen-com/hyperframes/commit/33304cff04a601f19128111f77f6538af340f306">33304cff0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7606">#7606</a>).</li>
+<li><strong>Producer:</strong> Pay the first render&#39;s start-up cost before the stall and frame-window tests (<a href="https://github.com/heygen-com/hyperframes/commit/d1a366b42f7e05af82ab38ef637b97673241a943">d1a366b42</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7503">#7503</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.39...v0.9.40">https://github.com/heygen-com/hyperframes/compare/v0.9.39...v0.9.40</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.39]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.39</link>
@@ -2451,36 +2515,6 @@ A mix far over the ceiling now gets several dB of limiting on those peaks, which
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.225...v0.8.226">https://github.com/heygen-com/hyperframes/compare/v0.8.225...v0.8.226</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.225]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.225</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.225</guid>
-            <pubDate>Sat, 31 Oct 2026 21:24:31 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.225</h1>
-<p>Released on 2026-10-31.</p>
-<p>Exports no longer drop frames from nested video clips that start on a frame boundary. The CLI fills mask boxes from the picture behind, and billing top-up opens the pricing page.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Nested video clips on a frame boundary export every source frame (<a href="https://github.com/heygen-com/hyperframes/commit/47fe68562f39d91b4d9280dff41ae43d67805fae">47fe68562</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6893">#6893</a>).</li>
-<li><strong>CLI:</strong> Billing top-up opens the pricing page (<a href="https://github.com/heygen-com/hyperframes/commit/4d44c0d0ab459e4defad0954480a0798f353e421">4d44c0d0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6887">#6887</a>).</li>
-<li><strong>CLI:</strong> Fill --mask boxes from the picture behind and crop generated clips to the requested aspect (<a href="https://github.com/heygen-com/hyperframes/commit/919e138fc25c5ae3dc6bc3ca46adc7f6b52cd0c8">919e138fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6892">#6892</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.224...v0.8.225">https://github.com/heygen-com/hyperframes/compare/v0.8.224...v0.8.225</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.225</h1>
-<p>Released on 2026-10-31.</p>
-<p>Exports no longer drop frames from nested video clips that start on a frame boundary. The CLI fills mask boxes from the picture behind, and billing top-up opens the pricing page.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Nested video clips on a frame boundary export every source frame (<a href="https://github.com/heygen-com/hyperframes/commit/47fe68562f39d91b4d9280dff41ae43d67805fae">47fe68562</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6893">#6893</a>).</li>
-<li><strong>CLI:</strong> Billing top-up opens the pricing page (<a href="https://github.com/heygen-com/hyperframes/commit/4d44c0d0ab459e4defad0954480a0798f353e421">4d44c0d0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6887">#6887</a>).</li>
-<li><strong>CLI:</strong> Fill --mask boxes from the picture behind and crop generated clips to the requested aspect (<a href="https://github.com/heygen-com/hyperframes/commit/919e138fc25c5ae3dc6bc3ca46adc7f6b52cd0c8">919e138fc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6892">#6892</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.224...v0.8.225">https://github.com/heygen-com/hyperframes/compare/v0.8.224...v0.8.225</a></p>
 ]]></content:encoded>
         </item>
     </channel>
