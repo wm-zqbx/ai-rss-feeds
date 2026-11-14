@@ -4,11 +4,95 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 13 Nov 2026 23:10:42 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Nov 2026 10:14:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.45]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.45</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.45</guid>
+            <pubDate>Sat, 14 Nov 2026 10:14:46 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.45</h1>
+<p>Released on 2026-11-14.</p>
+<p>A preview of 4K takes uses far less memory at full quality. Each 4K clip now plays a copy at the size the preview shows it, so long edits of 4K footage no longer run out of memory. Exports still use the original files.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> At full quality a 4K clip plays a copy at the size the preview shows it (<a href="https://github.com/heygen-com/hyperframes/commit/2f0ade181585323ebb2b53a2e15d68098655c90e">2f0ade181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7723">#7723</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.44...v0.9.45">https://github.com/heygen-com/hyperframes/compare/v0.9.44...v0.9.45</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.45</h1>
+<p>Released on 2026-11-14.</p>
+<p>A preview of 4K takes uses far less memory at full quality. Each 4K clip now plays a copy at the size the preview shows it, so long edits of 4K footage no longer run out of memory. Exports still use the original files.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> At full quality a 4K clip plays a copy at the size the preview shows it (<a href="https://github.com/heygen-com/hyperframes/commit/2f0ade181585323ebb2b53a2e15d68098655c90e">2f0ade181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7723">#7723</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.44...v0.9.45">https://github.com/heygen-com/hyperframes/compare/v0.9.44...v0.9.45</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.44]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.44</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.44</guid>
+            <pubDate>Sat, 14 Nov 2026 06:50:13 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.44</h1>
+<p>Released on 2026-11-14.</p>
+<p>Check now warns when text leaves the safe areas of a 9:16 social video. Previews free a clip&#39;s decoder once the playhead leaves it, and a cancelled audio fade no longer crashes the page. Set HYPERFRAMES_OWNER to tell which run started a leftover browser.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Name a caller&#39;s owner id on the browsers and warm check it starts (<a href="https://github.com/heygen-com/hyperframes/commit/798c241e4d0cf18fc328d90c41823a766a9d8d8e">798c241e4d0cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7687">#7687</a>).</li>
+<li><strong>CLI:</strong> Check warns when text leaves the 9:16 social safe areas (<a href="https://github.com/heygen-com/hyperframes/commit/45882027bd284a8fbd96ffe854184104304c224f">45882027bd284</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7680">#7680</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Edit clips added to a project outside Studio (<a href="https://github.com/heygen-com/hyperframes/commit/cb072eb047efafe9749ae81613ccbb8036be3e21">cb072eb047efa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7686">#7686</a>).</li>
+<li><strong>Core:</strong> Stop a cancelled audio envelope from crashing the page (<a href="https://github.com/heygen-com/hyperframes/commit/49623307ce86c030f8016c3e21b6aa1120806d5c">49623307ce86c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7682">#7682</a>).</li>
+<li><strong>Core:</strong> Free a preview clip&#39;s decoder when the playhead leaves it (<a href="https://github.com/heygen-com/hyperframes/commit/f7b49f12078e14cdc401808edd4f217df8d24ce4">f7b49f12078e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7679">#7679</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> A reloaded preview video resyncs only itself (<a href="https://github.com/heygen-com/hyperframes/commit/92816ed56bde07affff0f6e0a5bce3dd96a96808">92816ed56bde0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7684">#7684</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Report an invalid catalog --type as a usage error (<a href="https://github.com/heygen-com/hyperframes/commit/affa03b60fb082c93b1efa9341ac85a106dda61e">affa03b60fb08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7678">#7678</a>).</li>
+<li>Publish the hosted HyperFrames MCP to the official MCP registry (<a href="https://github.com/heygen-com/hyperframes/commit/0f6ed7d57bc9c6d449ce89cbfc3a7948a7427157">0f6ed7d57bc9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7676">#7676</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.43...v0.9.44">https://github.com/heygen-com/hyperframes/compare/v0.9.43...v0.9.44</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.44</h1>
+<p>Released on 2026-11-14.</p>
+<p>Check now warns when text leaves the safe areas of a 9:16 social video. Previews free a clip&#39;s decoder once the playhead leaves it, and a cancelled audio fade no longer crashes the page. Set HYPERFRAMES_OWNER to tell which run started a leftover browser.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Name a caller&#39;s owner id on the browsers and warm check it starts (<a href="https://github.com/heygen-com/hyperframes/commit/798c241e4d0cf18fc328d90c41823a766a9d8d8e">798c241e4d0cf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7687">#7687</a>).</li>
+<li><strong>CLI:</strong> Check warns when text leaves the 9:16 social safe areas (<a href="https://github.com/heygen-com/hyperframes/commit/45882027bd284a8fbd96ffe854184104304c224f">45882027bd284</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7680">#7680</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Edit clips added to a project outside Studio (<a href="https://github.com/heygen-com/hyperframes/commit/cb072eb047efafe9749ae81613ccbb8036be3e21">cb072eb047efa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7686">#7686</a>).</li>
+<li><strong>Core:</strong> Stop a cancelled audio envelope from crashing the page (<a href="https://github.com/heygen-com/hyperframes/commit/49623307ce86c030f8016c3e21b6aa1120806d5c">49623307ce86c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7682">#7682</a>).</li>
+<li><strong>Core:</strong> Free a preview clip&#39;s decoder when the playhead leaves it (<a href="https://github.com/heygen-com/hyperframes/commit/f7b49f12078e14cdc401808edd4f217df8d24ce4">f7b49f12078e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7679">#7679</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> A reloaded preview video resyncs only itself (<a href="https://github.com/heygen-com/hyperframes/commit/92816ed56bde07affff0f6e0a5bce3dd96a96808">92816ed56bde0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7684">#7684</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Report an invalid catalog --type as a usage error (<a href="https://github.com/heygen-com/hyperframes/commit/affa03b60fb082c93b1efa9341ac85a106dda61e">affa03b60fb08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7678">#7678</a>).</li>
+<li>Publish the hosted HyperFrames MCP to the official MCP registry (<a href="https://github.com/heygen-com/hyperframes/commit/0f6ed7d57bc9c6d449ce89cbfc3a7948a7427157">0f6ed7d57bc9c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7676">#7676</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.43...v0.9.44">https://github.com/heygen-com/hyperframes/compare/v0.9.43...v0.9.44</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.43]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.43</link>
@@ -2459,92 +2543,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.230...v0.8.231">https://github.com/heygen-com/hyperframes/compare/v0.8.230...v0.8.231</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.230]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.230</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.230</guid>
-            <pubDate>Mon, 02 Nov 2026 00:15:43 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.230</h1>
-<p>Released on 2026-11-01.</p>
-<p>Apps that host Studio can now remap its single-key shortcuts. Media sources given as file: URLs or Git Bash paths now resolve. Cache folders follow HYPERFRAMES_CACHE_DIR, and a preview reload that timed out is tried once more.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Hosts can remap Studio&#39;s single-key shortcuts (<a href="https://github.com/heygen-com/hyperframes/commit/57d23598a7269ac7e4d9c01003eb8c6039ed198b">57d23598a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6957">#6957</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Shader Transitions:</strong> Keep the loading panel out of snapshot and check captures (<a href="https://github.com/heygen-com/hyperframes/commit/13b42bec3c934b012c6873fa0dcbb1e8bd2519ef">13b42bec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6959">#6959</a>).</li>
-<li>Cache paths follow HYPERFRAMES_CACHE_DIR (<a href="https://github.com/heygen-com/hyperframes/commit/de6ec3811ee53711409c504ebf75aa3ab63f17ca">de6ec3811</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6716">#6716</a>).</li>
-<li><strong>Parsers:</strong> Resolve file URLs and Git Bash paths in media sources (<a href="https://github.com/heygen-com/hyperframes/commit/8b029f4fb0ab9aa357759628acd7ba842a7c12bd">8b029f4fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6956">#6956</a>).</li>
-<li><strong>CLI:</strong> Media-treatment says which media the file has when the selector matches none (<a href="https://github.com/heygen-com/hyperframes/commit/465128d00201dc931e2bee0396d07cdbe167ce4e">465128d00</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6958">#6958</a>).</li>
-<li><strong>CLI:</strong> Say a font or image URL is a download, not a page, when capture is given one (<a href="https://github.com/heygen-com/hyperframes/commit/5c5794287bd0dc2c94f238ca89f4752ecaa045a2">5c5794287</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6952">#6952</a>).</li>
-<li><strong>Studio:</strong> A preview reload that timed out is tried once more, so an edit is not left unseen (<a href="https://github.com/heygen-com/hyperframes/commit/7d8cdfbb8b609cbca98f93a60ee1ac8eb06bdf8d">7d8cdfbb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6953">#6953</a>).</li>
-<li><strong>Core:</strong> Accept 65-point .cube LUTs, the size grading apps export (<a href="https://github.com/heygen-com/hyperframes/commit/9284e69fff2af4928d41cc376f36d5cfbd789bfd">9284e69ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6921">#6921</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.229...v0.8.230">https://github.com/heygen-com/hyperframes/compare/v0.8.229...v0.8.230</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.230</h1>
-<p>Released on 2026-11-01.</p>
-<p>Apps that host Studio can now remap its single-key shortcuts. Media sources given as file: URLs or Git Bash paths now resolve. Cache folders follow HYPERFRAMES_CACHE_DIR, and a preview reload that timed out is tried once more.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Hosts can remap Studio&#39;s single-key shortcuts (<a href="https://github.com/heygen-com/hyperframes/commit/57d23598a7269ac7e4d9c01003eb8c6039ed198b">57d23598a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6957">#6957</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Shader Transitions:</strong> Keep the loading panel out of snapshot and check captures (<a href="https://github.com/heygen-com/hyperframes/commit/13b42bec3c934b012c6873fa0dcbb1e8bd2519ef">13b42bec3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6959">#6959</a>).</li>
-<li>Cache paths follow HYPERFRAMES_CACHE_DIR (<a href="https://github.com/heygen-com/hyperframes/commit/de6ec3811ee53711409c504ebf75aa3ab63f17ca">de6ec3811</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6716">#6716</a>).</li>
-<li><strong>Parsers:</strong> Resolve file URLs and Git Bash paths in media sources (<a href="https://github.com/heygen-com/hyperframes/commit/8b029f4fb0ab9aa357759628acd7ba842a7c12bd">8b029f4fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6956">#6956</a>).</li>
-<li><strong>CLI:</strong> Media-treatment says which media the file has when the selector matches none (<a href="https://github.com/heygen-com/hyperframes/commit/465128d00201dc931e2bee0396d07cdbe167ce4e">465128d00</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6958">#6958</a>).</li>
-<li><strong>CLI:</strong> Say a font or image URL is a download, not a page, when capture is given one (<a href="https://github.com/heygen-com/hyperframes/commit/5c5794287bd0dc2c94f238ca89f4752ecaa045a2">5c5794287</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6952">#6952</a>).</li>
-<li><strong>Studio:</strong> A preview reload that timed out is tried once more, so an edit is not left unseen (<a href="https://github.com/heygen-com/hyperframes/commit/7d8cdfbb8b609cbca98f93a60ee1ac8eb06bdf8d">7d8cdfbb8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6953">#6953</a>).</li>
-<li><strong>Core:</strong> Accept 65-point .cube LUTs, the size grading apps export (<a href="https://github.com/heygen-com/hyperframes/commit/9284e69fff2af4928d41cc376f36d5cfbd789bfd">9284e69ff</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6921">#6921</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.229...v0.8.230">https://github.com/heygen-com/hyperframes/compare/v0.8.229...v0.8.230</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.229]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.229</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.229</guid>
-            <pubDate>Sun, 01 Nov 2026 20:52:35 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.229</h1>
-<p>Released on 2026-11-01.</p>
-<p>Signing in from the CLI now waits up to 60 minutes, so finishing checkout during sign-in no longer ends on a connection error. Trimming a clip keeps its thumbnail strip in place, and masks hold up better on moving footage.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Keep browser sign-in open through checkout (<a href="https://github.com/heygen-com/hyperframes/commit/34ddced2d0e9350c2b6387b2365257bb7080e832">34ddced2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6879">#6879</a>).</li>
-<li><strong>Studio:</strong> A clip&#39;s thumbnail strip stays put while you trim it (<a href="https://github.com/heygen-com/hyperframes/commit/0ab49311597ce1e01ae2f5e438276c5d313ba448">0ab493115</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6942">#6942</a>).</li>
-<li><strong>CLI:</strong> A stale mask takes its frame&#39;s colours instead of delogo&#39;s streaks (<a href="https://github.com/heygen-com/hyperframes/commit/6b0abb4eb52e9576b0c72b636254c87d0f9ad2a5">6b0abb4eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6950">#6950</a>).</li>
-<li><strong>CLI:</strong> A masked box follows the frame while the camera moves (<a href="https://github.com/heygen-com/hyperframes/commit/7f8ae5b4b650c6b103e4547ddcfab9ed66e20e37">7f8ae5b4b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6948">#6948</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Animated films in reverse-any-video decide code or generation per shot (<a href="https://github.com/heygen-com/hyperframes/commit/0f76a7d01ed260670371e6b36ce3334a43ae1c91">0f76a7d01</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6946">#6946</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229">https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.229</h1>
-<p>Released on 2026-11-01.</p>
-<p>Signing in from the CLI now waits up to 60 minutes, so finishing checkout during sign-in no longer ends on a connection error. Trimming a clip keeps its thumbnail strip in place, and masks hold up better on moving footage.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Keep browser sign-in open through checkout (<a href="https://github.com/heygen-com/hyperframes/commit/34ddced2d0e9350c2b6387b2365257bb7080e832">34ddced2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6879">#6879</a>).</li>
-<li><strong>Studio:</strong> A clip&#39;s thumbnail strip stays put while you trim it (<a href="https://github.com/heygen-com/hyperframes/commit/0ab49311597ce1e01ae2f5e438276c5d313ba448">0ab493115</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6942">#6942</a>).</li>
-<li><strong>CLI:</strong> A stale mask takes its frame&#39;s colours instead of delogo&#39;s streaks (<a href="https://github.com/heygen-com/hyperframes/commit/6b0abb4eb52e9576b0c72b636254c87d0f9ad2a5">6b0abb4eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6950">#6950</a>).</li>
-<li><strong>CLI:</strong> A masked box follows the frame while the camera moves (<a href="https://github.com/heygen-com/hyperframes/commit/7f8ae5b4b650c6b103e4547ddcfab9ed66e20e37">7f8ae5b4b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6948">#6948</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Animated films in reverse-any-video decide code or generation per shot (<a href="https://github.com/heygen-com/hyperframes/commit/0f76a7d01ed260670371e6b36ce3334a43ae1c91">0f76a7d01</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6946">#6946</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229">https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229</a></p>
 ]]></content:encoded>
         </item>
     </channel>
