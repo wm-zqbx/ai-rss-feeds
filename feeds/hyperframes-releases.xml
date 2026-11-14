@@ -4,11 +4,71 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 14 Nov 2026 14:10:10 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Nov 2026 19:57:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.47]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.47</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.47</guid>
+            <pubDate>Sat, 14 Nov 2026 19:57:34 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.47</h1>
+<p>Released on 2026-11-14.</p>
+<p>A clip whose file name has a space or accent is no longer heard twice in an export. HEVC phone video keeps its shape in Studio, and check, render and downloads work on drives without hard links.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> A folder with index.html is one a step can work on, apart from finding projects (<a href="https://github.com/heygen-com/hyperframes/commit/32f562bbd00de00b0aa68acd5621fd00a7b4e0de">32f562bbd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7734">#7734</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> A render service can hold the render page to the asset download address rules (off by default) (<a href="https://github.com/heygen-com/hyperframes/commit/29533f631fdfd3b5bd733319de49d2a97c1fbf3f">29533f631</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7748">#7748</a>).</li>
+<li><strong>Producer:</strong> A clip whose file name has a space or accent is mixed into the export once (<a href="https://github.com/heygen-com/hyperframes/commit/a3fa250b25c7c42dedaf4b19b5df65d80260cc65">a3fa250b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7747">#7747</a>).</li>
+<li><strong>Studio Server:</strong> Save an edit Windows briefly holds without freezing the app (<a href="https://github.com/heygen-com/hyperframes/commit/a92498b9033a069418940fe54360e172968381e4">a92498b90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7744">#7744</a>).</li>
+<li><strong>CLI:</strong> An unknown flag&#39;s error leaves out hidden rename shims (<a href="https://github.com/heygen-com/hyperframes/commit/cb52dcf646b8c0a413ce80c99fb6719ad452a2c1">cb52dcf64</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7746">#7746</a>).</li>
+<li>Check, render and downloads work on a drive without hard links (<a href="https://github.com/heygen-com/hyperframes/commit/b746a0ee1389895b861b7177e226df3622d09bd4">b746a0ee1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7737">#7737</a>).</li>
+<li><strong>Studio:</strong> HEVC with long-term reference pictures keeps its pixel aspect ratio (<a href="https://github.com/heygen-com/hyperframes/commit/b7238744624b49fc2a54cb7cd5c9c73b6004f92e">b72387446</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7739">#7739</a>).</li>
+<li><strong>CLI:</strong> Check still reports a film&#39;s other GL driver notes (<a href="https://github.com/heygen-com/hyperframes/commit/d26ec25385630f2427079c65bb300f0e12f26661">d26ec2538</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7745">#7745</a>).</li>
+<li><strong>CLI:</strong> An unknown flag lists the command&#39;s real flags (<a href="https://github.com/heygen-com/hyperframes/commit/88beb282f26cd9c8eaa6381e477336e1a3971d65">88beb282f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7740">#7740</a>).</li>
+<li><strong>CLI:</strong> Check no longer reports GPU stalls from its own pixel reads as the film&#39;s warnings (<a href="https://github.com/heygen-com/hyperframes/commit/35d145157b277ff9b6b2178736e6b03406678de9">35d145157</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7736">#7736</a>).</li>
+<li><strong>CLI:</strong> Check times a line held across a split clip as one hold (<a href="https://github.com/heygen-com/hyperframes/commit/c31e7dd08ce2046d304e7ac28639ce3154b97912">c31e7dd08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7733">#7733</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Caption-highlight clears a short word&#39;s highlight when the word ends (<a href="https://github.com/heygen-com/hyperframes/commit/e21e64f6ab51f9024f9c0fe0d1acb39553887c99">e21e64f6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7735">#7735</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.46...v0.9.47">https://github.com/heygen-com/hyperframes/compare/v0.9.46...v0.9.47</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.47</h1>
+<p>Released on 2026-11-14.</p>
+<p>A clip whose file name has a space or accent is no longer heard twice in an export. HEVC phone video keeps its shape in Studio, and check, render and downloads work on drives without hard links.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> A folder with index.html is one a step can work on, apart from finding projects (<a href="https://github.com/heygen-com/hyperframes/commit/32f562bbd00de00b0aa68acd5621fd00a7b4e0de">32f562bbd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7734">#7734</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> A render service can hold the render page to the asset download address rules (off by default) (<a href="https://github.com/heygen-com/hyperframes/commit/29533f631fdfd3b5bd733319de49d2a97c1fbf3f">29533f631</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7748">#7748</a>).</li>
+<li><strong>Producer:</strong> A clip whose file name has a space or accent is mixed into the export once (<a href="https://github.com/heygen-com/hyperframes/commit/a3fa250b25c7c42dedaf4b19b5df65d80260cc65">a3fa250b2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7747">#7747</a>).</li>
+<li><strong>Studio Server:</strong> Save an edit Windows briefly holds without freezing the app (<a href="https://github.com/heygen-com/hyperframes/commit/a92498b9033a069418940fe54360e172968381e4">a92498b90</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7744">#7744</a>).</li>
+<li><strong>CLI:</strong> An unknown flag&#39;s error leaves out hidden rename shims (<a href="https://github.com/heygen-com/hyperframes/commit/cb52dcf646b8c0a413ce80c99fb6719ad452a2c1">cb52dcf64</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7746">#7746</a>).</li>
+<li>Check, render and downloads work on a drive without hard links (<a href="https://github.com/heygen-com/hyperframes/commit/b746a0ee1389895b861b7177e226df3622d09bd4">b746a0ee1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7737">#7737</a>).</li>
+<li><strong>Studio:</strong> HEVC with long-term reference pictures keeps its pixel aspect ratio (<a href="https://github.com/heygen-com/hyperframes/commit/b7238744624b49fc2a54cb7cd5c9c73b6004f92e">b72387446</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7739">#7739</a>).</li>
+<li><strong>CLI:</strong> Check still reports a film&#39;s other GL driver notes (<a href="https://github.com/heygen-com/hyperframes/commit/d26ec25385630f2427079c65bb300f0e12f26661">d26ec2538</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7745">#7745</a>).</li>
+<li><strong>CLI:</strong> An unknown flag lists the command&#39;s real flags (<a href="https://github.com/heygen-com/hyperframes/commit/88beb282f26cd9c8eaa6381e477336e1a3971d65">88beb282f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7740">#7740</a>).</li>
+<li><strong>CLI:</strong> Check no longer reports GPU stalls from its own pixel reads as the film&#39;s warnings (<a href="https://github.com/heygen-com/hyperframes/commit/35d145157b277ff9b6b2178736e6b03406678de9">35d145157</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7736">#7736</a>).</li>
+<li><strong>CLI:</strong> Check times a line held across a split clip as one hold (<a href="https://github.com/heygen-com/hyperframes/commit/c31e7dd08ce2046d304e7ac28639ce3154b97912">c31e7dd08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7733">#7733</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Registry:</strong> Caption-highlight clears a short word&#39;s highlight when the word ends (<a href="https://github.com/heygen-com/hyperframes/commit/e21e64f6ab51f9024f9c0fe0d1acb39553887c99">e21e64f6a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7735">#7735</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.46...v0.9.47">https://github.com/heygen-com/hyperframes/compare/v0.9.46...v0.9.47</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.46]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.46</link>
@@ -2467,64 +2527,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.0...v0.9.1">https://github.com/heygen-com/hyperframes/compare/v0.9.0...v0.9.1</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.0]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.0</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.0</guid>
-            <pubDate>Mon, 02 Nov 2026 05:41:28 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.0</h1>
-<p>Released on 2026-11-02.</p>
-<p>Distributed rendering on AWS Lambda and Google Cloud Run now runs only on Plan v2. This is a breaking release: the Plan v1 transport, the <code>planProtocol</code> option and the Plan v1 event and result types are removed. A preview video that runs short of data now holds instead of looping snippets.</p>
-<h2>Upgrading from 0.8</h2>
-<ul>
-<li><strong>Upgrade the SDK and the deployment together.</strong> Redeploy your Lambda stack or Cloud Run service from 0.9.0 when you move your app to the 0.9.0 SDK.</li>
-<li><strong>Drop <code>planProtocol</code></strong> from <code>renderToLambda</code> and <code>renderToCloudRun</code> calls. Leaving it out, or passing <code>&quot;v2&quot;</code>, works as before. Passing <code>&quot;v1&quot;</code> now throws.</li>
-<li><strong>Old Plan v1 events are rejected.</strong> A handler or service on 0.9.0 answers a v1 payload with <code>PLAN_PROTOCOL_UNSUPPORTED</code> before doing any render work.</li>
-<li><strong>Removed producer exports:</strong> <code>plan</code>, <code>createPlanV2FromV1</code>, <code>publishPlanV2FromV1</code>, <code>readPlanProtocol</code>, <code>readPlanProtocolV1</code>, <code>PLAN_PROTOCOL_V1</code>, <code>CURRENT_PLAN_PROTOCOL</code>, <code>PLAN_SCHEMA_VERSION</code>, <code>PLAN_HASH_SCHEMA</code>, <code>PLAN_ARTIFACT_LAYOUT</code>, <code>DISTRIBUTED_RENDER_CAPABILITIES</code> and <code>getDistributedRenderCapabilities</code>, plus their types. Use <code>planV2</code>, <code>planV2WithPublisher</code> or <code>publishPlanV2FromExecutionPlan</code> instead.</li>
-<li><strong><code>PLAN_TOO_LARGE</code> and <code>PlanTooLargeError</code> are removed</strong> from <code>@hyperframes/producer/distributed</code>. The plan-size cap only applied to Plan v1, and Plan v2 never raises it, so drop any checks for that error.</li>
-<li><strong>Removed adapter types:</strong> <code>LambdaPlanProtocol</code>, <code>PlanV1LambdaResult</code>, <code>CloudRunPlanProtocol</code>, <code>PlanV1ResultBody</code>, and <code>PlanV1Event</code>, <code>RenderChunkV1Event</code> and <code>AssembleV1Event</code> from both adapter packages.</li>
-</ul>
-<h2>Breaking Changes</h2>
-<ul>
-<li><strong>Producer, AWS Lambda, Cloud Run:</strong> Remove the Plan v1 distributed transport (<a href="https://github.com/heygen-com/hyperframes/commit/7f48a6894c42426ae9bc8a913879d4cd0fb72166">7f48a6894</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6970">#6970</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A preview video short of data holds the film instead of looping snippets (<a href="https://github.com/heygen-com/hyperframes/commit/8519f2836358499f36d3ba79ca3c16bc1318a97f">8519f2836</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6974">#6974</a>).</li>
-<li><strong>CLI:</strong> Diff warns when yours runs at another frame rate (<a href="https://github.com/heygen-com/hyperframes/commit/99223d993cf5ddf78f27ab87fc9b7009d79407a3">99223d993</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6976">#6976</a>).</li>
-<li><strong>Core:</strong> A smaller preview copy nobody wants any more no longer swaps in (<a href="https://github.com/heygen-com/hyperframes/commit/6bbda219bb25ab771c1b86df7b7e34c8eb0b9124">6bbda219b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6973">#6973</a>).</li>
-<li><strong>CLI:</strong> Diff stops counting a fast move as an extra cut (<a href="https://github.com/heygen-com/hyperframes/commit/b1316e61d170d29067735150ebb5ab291e0f4171">b1316e61d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6978">#6978</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.231...v0.9.0">https://github.com/heygen-com/hyperframes/compare/v0.8.231...v0.9.0</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.0</h1>
-<p>Released on 2026-11-02.</p>
-<p>Distributed rendering on AWS Lambda and Google Cloud Run now runs only on Plan v2. This is a breaking release: the Plan v1 transport, the <code>planProtocol</code> option and the Plan v1 event and result types are removed. A preview video that runs short of data now holds instead of looping snippets.</p>
-<h2>Upgrading from 0.8</h2>
-<ul>
-<li><strong>Upgrade the SDK and the deployment together.</strong> Redeploy your Lambda stack or Cloud Run service from 0.9.0 when you move your app to the 0.9.0 SDK.</li>
-<li><strong>Drop <code>planProtocol</code></strong> from <code>renderToLambda</code> and <code>renderToCloudRun</code> calls. Leaving it out, or passing <code>&quot;v2&quot;</code>, works as before. Passing <code>&quot;v1&quot;</code> now throws.</li>
-<li><strong>Old Plan v1 events are rejected.</strong> A handler or service on 0.9.0 answers a v1 payload with <code>PLAN_PROTOCOL_UNSUPPORTED</code> before doing any render work.</li>
-<li><strong>Removed producer exports:</strong> <code>plan</code>, <code>createPlanV2FromV1</code>, <code>publishPlanV2FromV1</code>, <code>readPlanProtocol</code>, <code>readPlanProtocolV1</code>, <code>PLAN_PROTOCOL_V1</code>, <code>CURRENT_PLAN_PROTOCOL</code>, <code>PLAN_SCHEMA_VERSION</code>, <code>PLAN_HASH_SCHEMA</code>, <code>PLAN_ARTIFACT_LAYOUT</code>, <code>DISTRIBUTED_RENDER_CAPABILITIES</code> and <code>getDistributedRenderCapabilities</code>, plus their types. Use <code>planV2</code>, <code>planV2WithPublisher</code> or <code>publishPlanV2FromExecutionPlan</code> instead.</li>
-<li><strong><code>PLAN_TOO_LARGE</code> and <code>PlanTooLargeError</code> are removed</strong> from <code>@hyperframes/producer/distributed</code>. The plan-size cap only applied to Plan v1, and Plan v2 never raises it, so drop any checks for that error.</li>
-<li><strong>Removed adapter types:</strong> <code>LambdaPlanProtocol</code>, <code>PlanV1LambdaResult</code>, <code>CloudRunPlanProtocol</code>, <code>PlanV1ResultBody</code>, and <code>PlanV1Event</code>, <code>RenderChunkV1Event</code> and <code>AssembleV1Event</code> from both adapter packages.</li>
-</ul>
-<h2>Breaking Changes</h2>
-<ul>
-<li><strong>Producer, AWS Lambda, Cloud Run:</strong> Remove the Plan v1 distributed transport (<a href="https://github.com/heygen-com/hyperframes/commit/7f48a6894c42426ae9bc8a913879d4cd0fb72166">7f48a6894</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6970">#6970</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A preview video short of data holds the film instead of looping snippets (<a href="https://github.com/heygen-com/hyperframes/commit/8519f2836358499f36d3ba79ca3c16bc1318a97f">8519f2836</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6974">#6974</a>).</li>
-<li><strong>CLI:</strong> Diff warns when yours runs at another frame rate (<a href="https://github.com/heygen-com/hyperframes/commit/99223d993cf5ddf78f27ab87fc9b7009d79407a3">99223d993</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6976">#6976</a>).</li>
-<li><strong>Core:</strong> A smaller preview copy nobody wants any more no longer swaps in (<a href="https://github.com/heygen-com/hyperframes/commit/6bbda219bb25ab771c1b86df7b7e34c8eb0b9124">6bbda219b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6973">#6973</a>).</li>
-<li><strong>CLI:</strong> Diff stops counting a fast move as an extra cut (<a href="https://github.com/heygen-com/hyperframes/commit/b1316e61d170d29067735150ebb5ab291e0f4171">b1316e61d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6978">#6978</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.231...v0.9.0">https://github.com/heygen-com/hyperframes/compare/v0.8.231...v0.9.0</a></p>
 ]]></content:encoded>
         </item>
     </channel>
