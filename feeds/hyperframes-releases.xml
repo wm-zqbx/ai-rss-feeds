@@ -4,11 +4,69 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 13 Nov 2026 18:24:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2026 23:10:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.43]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.43</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.43</guid>
+            <pubDate>Fri, 13 Nov 2026 23:10:42 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.43</h1>
+<p>Released on 2026-11-13.</p>
+<p>Renders on Windows no longer show coloured fringes around text, and previews open no audio device until a clip with sound plays. That second change ends long freezes on Windows. Drag and resize on an opaque preview now start from one read.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Drag and resize on an opaque preview start from one gesture-start read (<a href="https://github.com/heygen-com/hyperframes/commit/6bdf9291647f3739e7d74fc34d304e46ba7141b7">6bdf9291647f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7657">#7657</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Render text without ClearType colour fringes on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/273672ab13112e924cde0438a2c73f94f6d038a3">273672ab13112</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7663">#7663</a>).</li>
+<li><strong>Core:</strong> A looping preview keeps playing when a scene reloads during a hold for data (<a href="https://github.com/heygen-com/hyperframes/commit/b8f630c643b2b24babb7666a2b261265dbfd64fd">b8f630c643b2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7659">#7659</a>).</li>
+<li><strong>Release:</strong> Draft the changelog from a freshly fetched origin/main (<a href="https://github.com/heygen-com/hyperframes/commit/d7202bd42a4d7325c8fed29bf33629673d1a57b8">d7202bd42a4d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7660">#7660</a>).</li>
+<li><strong>Deps:</strong> Refresh vulnerable transitive resolutions in bun.lock (<a href="https://github.com/heygen-com/hyperframes/commit/0c2384db8816fb906f03650448d8645f12dcdf4b">0c2384db8816f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7654">#7654</a>).</li>
+<li><strong>Deps:</strong> Bump tar, hono, @hono/node-server, adm-zip, sharp and postcss-selector-parser (<a href="https://github.com/heygen-com/hyperframes/commit/f01209d4aebf8768aca5cd2d0f8c2130cc51b423">f01209d4aebf8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7656">#7656</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> Open the preview&#39;s audio context when a clip with sound plays (<a href="https://github.com/heygen-com/hyperframes/commit/ccdcf6710c49eb64b5a858ea646d1f6d3a54bec0">ccdcf6710c49e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7658">#7658</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Remove committed TLS private key and generate test certificates (<a href="https://github.com/heygen-com/hyperframes/commit/85503a352b26d3132a50e0da103eb0e546754082">85503a352b26d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7644">#7644</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.42...v0.9.43">https://github.com/heygen-com/hyperframes/compare/v0.9.42...v0.9.43</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.43</h1>
+<p>Released on 2026-11-13.</p>
+<p>Renders on Windows no longer show coloured fringes around text, and previews open no audio device until a clip with sound plays. That second change ends long freezes on Windows. Drag and resize on an opaque preview now start from one read.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Drag and resize on an opaque preview start from one gesture-start read (<a href="https://github.com/heygen-com/hyperframes/commit/6bdf9291647f3739e7d74fc34d304e46ba7141b7">6bdf9291647f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7657">#7657</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Render text without ClearType colour fringes on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/273672ab13112e924cde0438a2c73f94f6d038a3">273672ab13112</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7663">#7663</a>).</li>
+<li><strong>Core:</strong> A looping preview keeps playing when a scene reloads during a hold for data (<a href="https://github.com/heygen-com/hyperframes/commit/b8f630c643b2b24babb7666a2b261265dbfd64fd">b8f630c643b2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7659">#7659</a>).</li>
+<li><strong>Release:</strong> Draft the changelog from a freshly fetched origin/main (<a href="https://github.com/heygen-com/hyperframes/commit/d7202bd42a4d7325c8fed29bf33629673d1a57b8">d7202bd42a4d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7660">#7660</a>).</li>
+<li><strong>Deps:</strong> Refresh vulnerable transitive resolutions in bun.lock (<a href="https://github.com/heygen-com/hyperframes/commit/0c2384db8816fb906f03650448d8645f12dcdf4b">0c2384db8816f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7654">#7654</a>).</li>
+<li><strong>Deps:</strong> Bump tar, hono, @hono/node-server, adm-zip, sharp and postcss-selector-parser (<a href="https://github.com/heygen-com/hyperframes/commit/f01209d4aebf8768aca5cd2d0f8c2130cc51b423">f01209d4aebf8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7656">#7656</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Core:</strong> Open the preview&#39;s audio context when a clip with sound plays (<a href="https://github.com/heygen-com/hyperframes/commit/ccdcf6710c49eb64b5a858ea646d1f6d3a54bec0">ccdcf6710c49e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7658">#7658</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Remove committed TLS private key and generate test certificates (<a href="https://github.com/heygen-com/hyperframes/commit/85503a352b26d3132a50e0da103eb0e546754082">85503a352b26d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7644">#7644</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.42...v0.9.43">https://github.com/heygen-com/hyperframes/compare/v0.9.42...v0.9.43</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.42]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.42</link>
@@ -2487,46 +2545,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229">https://github.com/heygen-com/hyperframes/compare/v0.8.228...v0.8.229</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.8.228]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.228</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.8.228</guid>
-            <pubDate>Sun, 01 Nov 2026 18:40:22 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.8.228</h1>
-<p>Released on 2026-11-01.</p>
-<p>One loud moment no longer turns down a whole export. Only its peaks come down, so quiet passages keep their level. Preview music keeps playing while a video swaps to a new copy, and a render now warns when it does have to lower the whole mix.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> An export over the ceiling limits its peaks and keeps the mix&#39;s level (<a href="https://github.com/heygen-com/hyperframes/commit/d1d631f60a6cc949c572831927c7fe86455b21f8">d1d631f60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6940">#6940</a>).
-A mix far over the ceiling now gets several dB of limiting on those peaks, which can be audible on dense material, and the export can differ from its preview there.</li>
-<li><strong>Core:</strong> Music keeps playing while a preview video swaps to a new copy (<a href="https://github.com/heygen-com/hyperframes/commit/89a595316176b78ec96b94b57eada22fd1458a62">89a595316</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6937">#6937</a>).</li>
-<li><strong>CLI:</strong> A render says when it lowered the whole mix, and how to keep the level (<a href="https://github.com/heygen-com/hyperframes/commit/f9e8cab67d948adbc115d3f3a0b271659e2521da">f9e8cab67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6938">#6938</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Reverse-any-video gets a recipe for animated and painted films (<a href="https://github.com/heygen-com/hyperframes/commit/aa77770ebe03afbdd0316de29178a814967a76f4">aa77770eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6933">#6933</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.227...v0.8.228">https://github.com/heygen-com/hyperframes/compare/v0.8.227...v0.8.228</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.8.228</h1>
-<p>Released on 2026-11-01.</p>
-<p>One loud moment no longer turns down a whole export. Only its peaks come down, so quiet passages keep their level. Preview music keeps playing while a video swaps to a new copy, and a render now warns when it does have to lower the whole mix.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> An export over the ceiling limits its peaks and keeps the mix&#39;s level (<a href="https://github.com/heygen-com/hyperframes/commit/d1d631f60a6cc949c572831927c7fe86455b21f8">d1d631f60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6940">#6940</a>).
-A mix far over the ceiling now gets several dB of limiting on those peaks, which can be audible on dense material, and the export can differ from its preview there.</li>
-<li><strong>Core:</strong> Music keeps playing while a preview video swaps to a new copy (<a href="https://github.com/heygen-com/hyperframes/commit/89a595316176b78ec96b94b57eada22fd1458a62">89a595316</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6937">#6937</a>).</li>
-<li><strong>CLI:</strong> A render says when it lowered the whole mix, and how to keep the level (<a href="https://github.com/heygen-com/hyperframes/commit/f9e8cab67d948adbc115d3f3a0b271659e2521da">f9e8cab67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6938">#6938</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> Reverse-any-video gets a recipe for animated and painted films (<a href="https://github.com/heygen-com/hyperframes/commit/aa77770ebe03afbdd0316de29178a814967a76f4">aa77770eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6933">#6933</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.8.227...v0.8.228">https://github.com/heygen-com/hyperframes/compare/v0.8.227...v0.8.228</a></p>
 ]]></content:encoded>
         </item>
     </channel>
