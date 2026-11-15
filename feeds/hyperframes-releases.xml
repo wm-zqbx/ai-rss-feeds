@@ -4,11 +4,37 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 15 Nov 2026 02:19:45 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Nov 2026 02:49:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.52]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.52</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.52</guid>
+            <pubDate>Sun, 15 Nov 2026 02:49:36 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.52</h1>
+<p>Released on 2026-11-15.</p>
+<p>In Studio menus, the highlighted row now follows the menu&#39;s rounded corner. The shared menu row style is exported so other apps can match it.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Menu row highlight follows the menu&#39;s corner (<a href="https://github.com/heygen-com/hyperframes/commit/b5f5ab36a1f4b626da9de40adf7e40257967997c">b5f5ab36a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7791">#7791</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52">https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.52</h1>
+<p>Released on 2026-11-15.</p>
+<p>In Studio menus, the highlighted row now follows the menu&#39;s rounded corner. The shared menu row style is exported so other apps can match it.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Menu row highlight follows the menu&#39;s corner (<a href="https://github.com/heygen-com/hyperframes/commit/b5f5ab36a1f4b626da9de40adf7e40257967997c">b5f5ab36a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7791">#7791</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52">https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.51]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.51</link>
@@ -2503,56 +2529,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.5...v0.9.6">https://github.com/heygen-com/hyperframes/compare/v0.9.5...v0.9.6</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.5]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.5</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.5</guid>
-            <pubDate>Mon, 02 Nov 2026 16:48:59 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.5</h1>
-<p>Released on 2026-11-02.</p>
-<p>Renders no longer release a scene&#39;s WebGL context early. A render stops when every composition script fails. Catalog says when the registry could not be read, and the producer reports browser-computed backgrounds.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> Report browser-computed reference backgrounds (<a href="https://github.com/heygen-com/hyperframes/commit/346f0e49fa7618526ddcb6c8590bddaa21c5e509">346f0e49fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7007">#7007</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> A render stops when a capture session sees every composition script fail (<a href="https://github.com/heygen-com/hyperframes/commit/070780c695ad8b6ef04a7298c94782d964ec8d94">070780c695</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7009">#7009</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Catalog says the registry could not be read instead of listing nothing (<a href="https://github.com/heygen-com/hyperframes/commit/5a07ea2e5faacbe74143f1fa1f465d6d05ff5589">5a07ea2e5f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7015">#7015</a>).</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li>Stop releasing a WebGL context when its clip&#39;s window has ended (<a href="https://github.com/heygen-com/hyperframes/commit/6fd96ddd041964caa7459aa195259a9b5deea4c4">6fd96ddd04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7020">#7020</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.4...v0.9.5">https://github.com/heygen-com/hyperframes/compare/v0.9.4...v0.9.5</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.5</h1>
-<p>Released on 2026-11-02.</p>
-<p>Renders no longer release a scene&#39;s WebGL context early. A render stops when every composition script fails. Catalog says when the registry could not be read, and the producer reports browser-computed backgrounds.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> Report browser-computed reference backgrounds (<a href="https://github.com/heygen-com/hyperframes/commit/346f0e49fa7618526ddcb6c8590bddaa21c5e509">346f0e49fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7007">#7007</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> A render stops when a capture session sees every composition script fail (<a href="https://github.com/heygen-com/hyperframes/commit/070780c695ad8b6ef04a7298c94782d964ec8d94">070780c695</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7009">#7009</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Catalog says the registry could not be read instead of listing nothing (<a href="https://github.com/heygen-com/hyperframes/commit/5a07ea2e5faacbe74143f1fa1f465d6d05ff5589">5a07ea2e5f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7015">#7015</a>).</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li>Stop releasing a WebGL context when its clip&#39;s window has ended (<a href="https://github.com/heygen-com/hyperframes/commit/6fd96ddd041964caa7459aa195259a9b5deea4c4">6fd96ddd04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7020">#7020</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.4...v0.9.5">https://github.com/heygen-com/hyperframes/compare/v0.9.4...v0.9.5</a></p>
 ]]></content:encoded>
         </item>
     </channel>
