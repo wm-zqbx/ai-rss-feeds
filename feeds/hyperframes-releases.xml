@@ -4,11 +4,123 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 15 Nov 2026 02:49:36 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Nov 2026 16:20:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.53]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.53</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.53</guid>
+            <pubDate>Sun, 15 Nov 2026 16:20:21 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.53</h1>
+<p>Released on 2026-11-15.</p>
+<p>Pages with many Chinese, Japanese or Korean characters now load their fonts in a few small requests, so they render instead of timing out. Cloud render no longer refuses a file that only an unused page names, and uploads now list every file they carry from outside the project.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Uploads list every file they carry from outside the project (<a href="https://github.com/heygen-com/hyperframes/commit/e426ce4eb44517db3f65105f1e05cb7b762cd950">e426ce4eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7831">#7831</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Shader transitions blend in Node when the page cannot composite them (<a href="https://github.com/heygen-com/hyperframes/commit/fb1a383bde6a0716fdc6041bf68b9bc1da9726b5">fb1a383bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7840">#7840</a>).</li>
+<li><strong>CLI:</strong> The upload cut test stops failing on busy Windows runners (<a href="https://github.com/heygen-com/hyperframes/commit/2ea78c0ab462e506cec44d3c969513d8aa244749">2ea78c0ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7843">#7843</a>).</li>
+<li><strong>Engine:</strong> Restricted downloads apply the capture proxy&#39;s address rule (<a href="https://github.com/heygen-com/hyperframes/commit/125a9446be3c0736a190c16cef9003108b0a981c">125a9446b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7839">#7839</a>).</li>
+<li>LAN-host previews and play pages refuse other sites without fetch metadata (<a href="https://github.com/heygen-com/hyperframes/commit/2ceb682f925c867faf16fc68ce7872333286e66c">2ceb682f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7836">#7836</a>).</li>
+<li><strong>CLI:</strong> Benchmark keeps received files&#39; rule; a received .env key never replaces a login (<a href="https://github.com/heygen-com/hyperframes/commit/a7266e4c8385dfbf9d7b7a81813fe984c46f9dad">a7266e4c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7837">#7837</a>).</li>
+<li><strong>CLI:</strong> Cloud render no longer refuses a file only an unused page names (<a href="https://github.com/heygen-com/hyperframes/commit/45cc331e54b28040694a47e540ddc2d100cacdf3">45cc331e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7812">#7812</a>).</li>
+<li><strong>Core:</strong> Pages with many CJK characters fetch fonts in several requests (<a href="https://github.com/heygen-com/hyperframes/commit/6a8f4b5b46762e6b1631e02d6d77b29b950c88ee">6a8f4b5b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7823">#7823</a>).</li>
+<li><strong>CLI:</strong> Hyperframes audio never looks up media on another computer&#39;s share (<a href="https://github.com/heygen-com/hyperframes/commit/eaf33bc658fbd2612753a48574fed6f9e376a511">eaf33bc65</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7826">#7826</a>).</li>
+<li><strong>CLI:</strong> Uploads leave out outside scripts; .ts counts as video only when it is one (<a href="https://github.com/heygen-com/hyperframes/commit/04202e8a4c2e7f334636bf1e3b07dd38c77e5b43">04202e8a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7818">#7818</a>).</li>
+<li><strong>CLI:</strong> Play and present check the Host like preview; local render leaves out outside files for a received composition (<a href="https://github.com/heygen-com/hyperframes/commit/ac02474105bc6d2893a0ef1a79526f2952645aca">ac0247410</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7792">#7792</a>).</li>
+<li>Studio media routes refuse cross-site load, CLI escapes terminal text, batch outputs stay in their folder (<a href="https://github.com/heygen-com/hyperframes/commit/c4d60c347f324eb58dacfccee866a0b9bba7fe61">c4d60c347</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7779">#7779</a>).</li>
+<li><strong>CLI:</strong> Discover mounted scenes inside templates (<a href="https://github.com/heygen-com/hyperframes/commit/a75e61f31c76d79016894e849799bdc456ac0b54">a75e61f31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7822">#7822</a>).</li>
+<li><strong>Studio Server:</strong> History lock records are replaced, never written through links (<a href="https://github.com/heygen-com/hyperframes/commit/0248ea033c74c31527f5657419abf83ec3602091">0248ea033</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7821">#7821</a>).</li>
+<li><strong>Producer:</strong> Keep the render server local unless a token guards it (<a href="https://github.com/heygen-com/hyperframes/commit/f667111d179ec93edb8e8e9b29d846c20d15ed0f">f667111d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7814">#7814</a>).</li>
+<li><strong>Engine,cli:</strong> The playlist folder check reads HLS as ffmpeg does; snapshot runs it too (<a href="https://github.com/heygen-com/hyperframes/commit/797a622be96143439d3fce94da169b9665106293">797a622be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7810">#7810</a>).</li>
+<li><strong>Engine,producer:</strong> Render-network setting reads like a switch; render-service probes stay on checked inputs (<a href="https://github.com/heygen-com/hyperframes/commit/be740d0215f027f6987d69dfa75602279ab5af25">be740d021</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7807">#7807</a>).</li>
+<li><strong>CLI:</strong> Printed Windows commands read folder names literally in every shell (<a href="https://github.com/heygen-com/hyperframes/commit/a07d4cf738c83eb113b4b2a640ca293ba4b0ce92">a07d4cf73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7769">#7769</a>).</li>
+<li><strong>CLI:</strong> Nested received records only add; a received .env never picks the account; font names stay out of agent files (<a href="https://github.com/heygen-com/hyperframes/commit/80b09cc94aad9b85484adbc8617cdc648206d6b3">80b09cc94</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7808">#7808</a>).</li>
+<li>Cloud Run renders reach only public addresses; frame cache folder is private to its user (<a href="https://github.com/heygen-com/hyperframes/commit/55b51470980ce8ef0c5533b26de01c116d4c4987">55b514709</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7777">#7777</a>).</li>
+<li><strong>Deps:</strong> Refresh zod, smol-toml, aws-cdk-lib and related resolutions in bun.lock (<a href="https://github.com/heygen-com/hyperframes/commit/28d4ba50f1263b97bbb3d9ca1655833e0f3dad53">28d4ba50f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7741">#7741</a>).</li>
+<li><strong>Deps:</strong> Bump @mcp-b/global to 6.1.0 to clear @modelcontextprotocol/server advisories (<a href="https://github.com/heygen-com/hyperframes/commit/beeb17e85af0dfa696d9621c634f50250c539b8d">beeb17e85</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7742">#7742</a>).</li>
+<li><strong>Engine:</strong> A failed parallel capture names the worker that failed, not the peers it stopped (<a href="https://github.com/heygen-com/hyperframes/commit/db6b7478a7e66415b8c35da4126dcaee687026de">db6b7478a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7803">#7803</a>).</li>
+<li><strong>Engine:</strong> Render refusals name the address an IPv6-mapped or NAT64 host carries (<a href="https://github.com/heygen-com/hyperframes/commit/04ee926d9740e4112a458c8f7946e7be069caee2">04ee926d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7802">#7802</a>).</li>
+<li><strong>Producer:</strong> Accept browser requests only under loopback, IP or listed host names (<a href="https://github.com/heygen-com/hyperframes/commit/03e6a1a1807d2a98d83b86cc364fcc2fd69d4c40">03e6a1a18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7798">#7798</a>).</li>
+<li><strong>Parsers:</strong> Never look up media on another computer&#39;s share (<a href="https://github.com/heygen-com/hyperframes/commit/2de5c027fa02baed483a7ffc6cc5d9c18f92a79e">2de5c027f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7797">#7797</a>).</li>
+<li><strong>CLI:</strong> Upload archives always leave out env files and private records (<a href="https://github.com/heygen-com/hyperframes/commit/477a3aea139a3fca372562cd0681f297843f0a1b">477a3aea1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7796">#7796</a>).</li>
+<li><strong>Engine:</strong> Bound remote media downloads by size, encoding and throughput (<a href="https://github.com/heygen-com/hyperframes/commit/5111cf3840c37267f954f4e7a4f64a99b1bc0fdc">5111cf384</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7786">#7786</a>).</li>
+<li><strong>CLI:</strong> Start helper programs only from trusted PATH folders on every platform (<a href="https://github.com/heygen-com/hyperframes/commit/83eae240fb5f5747c94b6aabdc5448e59f119a5e">83eae240f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7787">#7787</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Lint:</strong> Scan CSS url references in linear time (<a href="https://github.com/heygen-com/hyperframes/commit/bcf3d177d3476a1696b034544f5cfcf68404663b">bcf3d177d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7829">#7829</a>).</li>
+<li>CSS url, @import, @font-face, style and comment scans run in linear time (<a href="https://github.com/heygen-com/hyperframes/commit/ded5e3eec25cd2da405fb30c2751d6406726607d">ded5e3eec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7809">#7809</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Add lists files from a received config&#39;s registry as received (<a href="https://github.com/heygen-com/hyperframes/commit/6a7b4df7c8bb04944b14820570b2dd7a32e76dc7">6a7b4df7c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7820">#7820</a>).</li>
+<li><strong>Catalog:</strong> Payload check treats the optional caption-overrides.json as absent, not failed (<a href="https://github.com/heygen-com/hyperframes/commit/b7c26ff844ed1d0eea616be3536da1bb0dd404bc">b7c26ff84</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7813">#7813</a>).</li>
+<li><strong>Registry:</strong> Caption keywords, emoji and aftershock work for words outside a-z (<a href="https://github.com/heygen-com/hyperframes/commit/8dbbc1d371ca73341d18eff5aba86737f6355309">8dbbc1d37</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7804">#7804</a>).</li>
+<li><strong>Docs:</strong> Check catalog link values and keep them out of copied commands (<a href="https://github.com/heygen-com/hyperframes/commit/7c7ff6d89e99e81002dc919ae6d7b34193d6d202">7c7ff6d89</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7783">#7783</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.52...v0.9.53">https://github.com/heygen-com/hyperframes/compare/v0.9.52...v0.9.53</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.53</h1>
+<p>Released on 2026-11-15.</p>
+<p>Pages with many Chinese, Japanese or Korean characters now load their fonts in a few small requests, so they render instead of timing out. Cloud render no longer refuses a file that only an unused page names, and uploads now list every file they carry from outside the project.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Uploads list every file they carry from outside the project (<a href="https://github.com/heygen-com/hyperframes/commit/e426ce4eb44517db3f65105f1e05cb7b762cd950">e426ce4eb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7831">#7831</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Shader transitions blend in Node when the page cannot composite them (<a href="https://github.com/heygen-com/hyperframes/commit/fb1a383bde6a0716fdc6041bf68b9bc1da9726b5">fb1a383bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7840">#7840</a>).</li>
+<li><strong>CLI:</strong> The upload cut test stops failing on busy Windows runners (<a href="https://github.com/heygen-com/hyperframes/commit/2ea78c0ab462e506cec44d3c969513d8aa244749">2ea78c0ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7843">#7843</a>).</li>
+<li><strong>Engine:</strong> Restricted downloads apply the capture proxy&#39;s address rule (<a href="https://github.com/heygen-com/hyperframes/commit/125a9446be3c0736a190c16cef9003108b0a981c">125a9446b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7839">#7839</a>).</li>
+<li>LAN-host previews and play pages refuse other sites without fetch metadata (<a href="https://github.com/heygen-com/hyperframes/commit/2ceb682f925c867faf16fc68ce7872333286e66c">2ceb682f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7836">#7836</a>).</li>
+<li><strong>CLI:</strong> Benchmark keeps received files&#39; rule; a received .env key never replaces a login (<a href="https://github.com/heygen-com/hyperframes/commit/a7266e4c8385dfbf9d7b7a81813fe984c46f9dad">a7266e4c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7837">#7837</a>).</li>
+<li><strong>CLI:</strong> Cloud render no longer refuses a file only an unused page names (<a href="https://github.com/heygen-com/hyperframes/commit/45cc331e54b28040694a47e540ddc2d100cacdf3">45cc331e5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7812">#7812</a>).</li>
+<li><strong>Core:</strong> Pages with many CJK characters fetch fonts in several requests (<a href="https://github.com/heygen-com/hyperframes/commit/6a8f4b5b46762e6b1631e02d6d77b29b950c88ee">6a8f4b5b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7823">#7823</a>).</li>
+<li><strong>CLI:</strong> Hyperframes audio never looks up media on another computer&#39;s share (<a href="https://github.com/heygen-com/hyperframes/commit/eaf33bc658fbd2612753a48574fed6f9e376a511">eaf33bc65</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7826">#7826</a>).</li>
+<li><strong>CLI:</strong> Uploads leave out outside scripts; .ts counts as video only when it is one (<a href="https://github.com/heygen-com/hyperframes/commit/04202e8a4c2e7f334636bf1e3b07dd38c77e5b43">04202e8a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7818">#7818</a>).</li>
+<li><strong>CLI:</strong> Play and present check the Host like preview; local render leaves out outside files for a received composition (<a href="https://github.com/heygen-com/hyperframes/commit/ac02474105bc6d2893a0ef1a79526f2952645aca">ac0247410</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7792">#7792</a>).</li>
+<li>Studio media routes refuse cross-site load, CLI escapes terminal text, batch outputs stay in their folder (<a href="https://github.com/heygen-com/hyperframes/commit/c4d60c347f324eb58dacfccee866a0b9bba7fe61">c4d60c347</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7779">#7779</a>).</li>
+<li><strong>CLI:</strong> Discover mounted scenes inside templates (<a href="https://github.com/heygen-com/hyperframes/commit/a75e61f31c76d79016894e849799bdc456ac0b54">a75e61f31</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7822">#7822</a>).</li>
+<li><strong>Studio Server:</strong> History lock records are replaced, never written through links (<a href="https://github.com/heygen-com/hyperframes/commit/0248ea033c74c31527f5657419abf83ec3602091">0248ea033</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7821">#7821</a>).</li>
+<li><strong>Producer:</strong> Keep the render server local unless a token guards it (<a href="https://github.com/heygen-com/hyperframes/commit/f667111d179ec93edb8e8e9b29d846c20d15ed0f">f667111d1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7814">#7814</a>).</li>
+<li><strong>Engine,cli:</strong> The playlist folder check reads HLS as ffmpeg does; snapshot runs it too (<a href="https://github.com/heygen-com/hyperframes/commit/797a622be96143439d3fce94da169b9665106293">797a622be</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7810">#7810</a>).</li>
+<li><strong>Engine,producer:</strong> Render-network setting reads like a switch; render-service probes stay on checked inputs (<a href="https://github.com/heygen-com/hyperframes/commit/be740d0215f027f6987d69dfa75602279ab5af25">be740d021</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7807">#7807</a>).</li>
+<li><strong>CLI:</strong> Printed Windows commands read folder names literally in every shell (<a href="https://github.com/heygen-com/hyperframes/commit/a07d4cf738c83eb113b4b2a640ca293ba4b0ce92">a07d4cf73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7769">#7769</a>).</li>
+<li><strong>CLI:</strong> Nested received records only add; a received .env never picks the account; font names stay out of agent files (<a href="https://github.com/heygen-com/hyperframes/commit/80b09cc94aad9b85484adbc8617cdc648206d6b3">80b09cc94</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7808">#7808</a>).</li>
+<li>Cloud Run renders reach only public addresses; frame cache folder is private to its user (<a href="https://github.com/heygen-com/hyperframes/commit/55b51470980ce8ef0c5533b26de01c116d4c4987">55b514709</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7777">#7777</a>).</li>
+<li><strong>Deps:</strong> Refresh zod, smol-toml, aws-cdk-lib and related resolutions in bun.lock (<a href="https://github.com/heygen-com/hyperframes/commit/28d4ba50f1263b97bbb3d9ca1655833e0f3dad53">28d4ba50f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7741">#7741</a>).</li>
+<li><strong>Deps:</strong> Bump @mcp-b/global to 6.1.0 to clear @modelcontextprotocol/server advisories (<a href="https://github.com/heygen-com/hyperframes/commit/beeb17e85af0dfa696d9621c634f50250c539b8d">beeb17e85</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7742">#7742</a>).</li>
+<li><strong>Engine:</strong> A failed parallel capture names the worker that failed, not the peers it stopped (<a href="https://github.com/heygen-com/hyperframes/commit/db6b7478a7e66415b8c35da4126dcaee687026de">db6b7478a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7803">#7803</a>).</li>
+<li><strong>Engine:</strong> Render refusals name the address an IPv6-mapped or NAT64 host carries (<a href="https://github.com/heygen-com/hyperframes/commit/04ee926d9740e4112a458c8f7946e7be069caee2">04ee926d9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7802">#7802</a>).</li>
+<li><strong>Producer:</strong> Accept browser requests only under loopback, IP or listed host names (<a href="https://github.com/heygen-com/hyperframes/commit/03e6a1a1807d2a98d83b86cc364fcc2fd69d4c40">03e6a1a18</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7798">#7798</a>).</li>
+<li><strong>Parsers:</strong> Never look up media on another computer&#39;s share (<a href="https://github.com/heygen-com/hyperframes/commit/2de5c027fa02baed483a7ffc6cc5d9c18f92a79e">2de5c027f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7797">#7797</a>).</li>
+<li><strong>CLI:</strong> Upload archives always leave out env files and private records (<a href="https://github.com/heygen-com/hyperframes/commit/477a3aea139a3fca372562cd0681f297843f0a1b">477a3aea1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7796">#7796</a>).</li>
+<li><strong>Engine:</strong> Bound remote media downloads by size, encoding and throughput (<a href="https://github.com/heygen-com/hyperframes/commit/5111cf3840c37267f954f4e7a4f64a99b1bc0fdc">5111cf384</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7786">#7786</a>).</li>
+<li><strong>CLI:</strong> Start helper programs only from trusted PATH folders on every platform (<a href="https://github.com/heygen-com/hyperframes/commit/83eae240fb5f5747c94b6aabdc5448e59f119a5e">83eae240f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7787">#7787</a>).</li>
+</ul>
+<h2>Performance</h2>
+<ul>
+<li><strong>Lint:</strong> Scan CSS url references in linear time (<a href="https://github.com/heygen-com/hyperframes/commit/bcf3d177d3476a1696b034544f5cfcf68404663b">bcf3d177d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7829">#7829</a>).</li>
+<li>CSS url, @import, @font-face, style and comment scans run in linear time (<a href="https://github.com/heygen-com/hyperframes/commit/ded5e3eec25cd2da405fb30c2751d6406726607d">ded5e3eec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7809">#7809</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Add lists files from a received config&#39;s registry as received (<a href="https://github.com/heygen-com/hyperframes/commit/6a7b4df7c8bb04944b14820570b2dd7a32e76dc7">6a7b4df7c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7820">#7820</a>).</li>
+<li><strong>Catalog:</strong> Payload check treats the optional caption-overrides.json as absent, not failed (<a href="https://github.com/heygen-com/hyperframes/commit/b7c26ff844ed1d0eea616be3536da1bb0dd404bc">b7c26ff84</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7813">#7813</a>).</li>
+<li><strong>Registry:</strong> Caption keywords, emoji and aftershock work for words outside a-z (<a href="https://github.com/heygen-com/hyperframes/commit/8dbbc1d371ca73341d18eff5aba86737f6355309">8dbbc1d37</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7804">#7804</a>).</li>
+<li><strong>Docs:</strong> Check catalog link values and keep them out of copied commands (<a href="https://github.com/heygen-com/hyperframes/commit/7c7ff6d89e99e81002dc919ae6d7b34193d6d202">7c7ff6d89</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7783">#7783</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.52...v0.9.53">https://github.com/heygen-com/hyperframes/compare/v0.9.52...v0.9.53</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.52]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.52</link>
@@ -2479,56 +2591,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7">https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.6]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.6</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.6</guid>
-            <pubDate>Mon, 02 Nov 2026 20:48:27 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.6</h1>
-<p>Released on 2026-11-02.</p>
-<p>Audio stems can now be read through your HeyGen account, with no Gemini key. The player shows the blurred frame and the mark while assets load. Safari audio is ready at the cut, and the preview recovers its WebGL scenes after a lost context. Reverse start records a run and stops a Free account when the server blocks it.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> <code>hyperframes audio --read</code> describes audio stems through your HeyGen account, with no Gemini key needed (<a href="https://github.com/heygen-com/hyperframes/commit/acd5c30e6060f641941b12607bdb913bbba4eb2d">acd5c30e60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6993">#6993</a>).</li>
-<li><strong>CLI:</strong> <code>reverse start</code> records a reverse run, and cloud render carries its session (<a href="https://github.com/heygen-com/hyperframes/commit/7d3c225207b23aaa4ef3c0babc481a38a301dba5">7d3c225207</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7016">#7016</a>).</li>
-<li><strong>CLI:</strong> <code>reverse start</code> stops a Free account when the server blocks it (<a href="https://github.com/heygen-com/hyperframes/commit/7da583ec6922fd8fd06f7b377bdcf740d96891ed">7da583ec69</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7017">#7017</a>).</li>
-<li><strong>Player:</strong> Loading assets shows the blurred frame and the mark, like Desktop (<a href="https://github.com/heygen-com/hyperframes/commit/e3a7cdd2b87b447175ca4f0cb7f521c4369db7f4">e3a7cdd2b8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6934">#6934</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Safari audio is ready at the cut, and a stuck one resyncs in 1 s (<a href="https://github.com/heygen-com/hyperframes/commit/c25e092114459b413d7f44df5c1ad1a05b6cee80">c25e092114</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7024">#7024</a>).</li>
-<li><strong>Core:</strong> The preview recovers its WebGL scenes and effects after a lost context (<a href="https://github.com/heygen-com/hyperframes/commit/e8ffaa410fa8b3265a178bd7d3384d625ab16324">e8ffaa410f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7028">#7028</a>).</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li><strong>Engine:</strong> Add a chunk-fed encoder and the rule for which films may use it, off by default (<a href="https://github.com/heygen-com/hyperframes/commit/0bcd816d5b79c4b037ab351acec331b0fad7e55f">0bcd816d5b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7029">#7029</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.5...v0.9.6">https://github.com/heygen-com/hyperframes/compare/v0.9.5...v0.9.6</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.6</h1>
-<p>Released on 2026-11-02.</p>
-<p>Audio stems can now be read through your HeyGen account, with no Gemini key. The player shows the blurred frame and the mark while assets load. Safari audio is ready at the cut, and the preview recovers its WebGL scenes after a lost context. Reverse start records a run and stops a Free account when the server blocks it.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> <code>hyperframes audio --read</code> describes audio stems through your HeyGen account, with no Gemini key needed (<a href="https://github.com/heygen-com/hyperframes/commit/acd5c30e6060f641941b12607bdb913bbba4eb2d">acd5c30e60</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6993">#6993</a>).</li>
-<li><strong>CLI:</strong> <code>reverse start</code> records a reverse run, and cloud render carries its session (<a href="https://github.com/heygen-com/hyperframes/commit/7d3c225207b23aaa4ef3c0babc481a38a301dba5">7d3c225207</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7016">#7016</a>).</li>
-<li><strong>CLI:</strong> <code>reverse start</code> stops a Free account when the server blocks it (<a href="https://github.com/heygen-com/hyperframes/commit/7da583ec6922fd8fd06f7b377bdcf740d96891ed">7da583ec69</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7017">#7017</a>).</li>
-<li><strong>Player:</strong> Loading assets shows the blurred frame and the mark, like Desktop (<a href="https://github.com/heygen-com/hyperframes/commit/e3a7cdd2b87b447175ca4f0cb7f521c4369db7f4">e3a7cdd2b8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6934">#6934</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Safari audio is ready at the cut, and a stuck one resyncs in 1 s (<a href="https://github.com/heygen-com/hyperframes/commit/c25e092114459b413d7f44df5c1ad1a05b6cee80">c25e092114</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7024">#7024</a>).</li>
-<li><strong>Core:</strong> The preview recovers its WebGL scenes and effects after a lost context (<a href="https://github.com/heygen-com/hyperframes/commit/e8ffaa410fa8b3265a178bd7d3384d625ab16324">e8ffaa410f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7028">#7028</a>).</li>
-</ul>
-<h2>Other Changes</h2>
-<ul>
-<li><strong>Engine:</strong> Add a chunk-fed encoder and the rule for which films may use it, off by default (<a href="https://github.com/heygen-com/hyperframes/commit/0bcd816d5b79c4b037ab351acec331b0fad7e55f">0bcd816d5b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7029">#7029</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.5...v0.9.6">https://github.com/heygen-com/hyperframes/compare/v0.9.5...v0.9.6</a></p>
 ]]></content:encoded>
         </item>
     </channel>
