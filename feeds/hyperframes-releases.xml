@@ -4,11 +4,71 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sun, 15 Nov 2026 16:20:21 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Nov 2026 19:47:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.54]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.54</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.54</guid>
+            <pubDate>Sun, 15 Nov 2026 19:47:22 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.54</h1>
+<p>Released on 2026-11-15.</p>
+<p>Studio hosts can now run the preview on its own sealed origin with the sandboxOrigin option or VITE_STUDIO_OPAQUE_PREVIEW_ENABLED, off by default. When sealed, the preview&#39;s images, media, fetched files, console errors panel and GSAP keyframe and 3D previews keep working. Render, capture and bundling also leave out the app&#39;s own .hyperframes records.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Hosts can share the preview&#39;s editing-port client (<a href="https://github.com/heygen-com/hyperframes/commit/3a4f57252377051f6602bd0149e84f8ead0845b2">3a4f57252</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7811">#7811</a>).</li>
+<li><strong>Studio:</strong> Hosts can seal the preview frames NLEPreview draws (<a href="https://github.com/heygen-com/hyperframes/commit/a73ecff2bef2168c47625e781bc1de13c7ca23ce">a73ecff2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7817">#7817</a>).</li>
+<li><strong>Studio:</strong> The console errors panel reads a sealed preview over its editing port (<a href="https://github.com/heygen-com/hyperframes/commit/5341d7255c4795a9dda676cb21409a4655b2e429">5341d7255</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7824">#7824</a>).</li>
+<li><strong>Studio Server:</strong> An opaque preview loads its images, media and fetched files (<a href="https://github.com/heygen-com/hyperframes/commit/88ffe087cae5d005fdc3d7b9567283c72a9ba5d7">88ffe087c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7806">#7806</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Check scheme-prefixed media sources against the project folder (<a href="https://github.com/heygen-com/hyperframes/commit/d8e36aa9dc7b4c007cbcb6bc0be0dcb21c1205bc">d8e36aa9d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7851">#7851</a>).</li>
+<li><strong>Docs:</strong> The v0.9.53 notes list the key rules moving into core (<a href="https://github.com/heygen-com/hyperframes/commit/c46143dd7904204c6dc0a2e574607d8dab238496">c46143dd7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7855">#7855</a>).</li>
+<li>Answer only the loopback Host on the render and capture file servers (<a href="https://github.com/heygen-com/hyperframes/commit/f891a305812e9046777e32ff49eef83afe9bf7f5">f891a3058</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7853">#7853</a>).</li>
+<li><strong>Engine:</strong> Remote downloads get an absolute deadline and stop before the disk fills (<a href="https://github.com/heygen-com/hyperframes/commit/e1043659d4490fde8458063a9585c30478464c8d">e1043659d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7827">#7827</a>).</li>
+<li><strong>CLI:</strong> The audio caches never write or read through links in .hyperframes (<a href="https://github.com/heygen-com/hyperframes/commit/9701f0639c3614f4fb33f2a83973adafd179ef08">9701f0639</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7825">#7825</a>).</li>
+<li><strong>Parsers:</strong> Helper programs never come from the project a subfolder sits in (<a href="https://github.com/heygen-com/hyperframes/commit/96cc8cb85242fc72bb2e1371048d733cb4993c68">96cc8cb85</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7845">#7845</a>).</li>
+<li><strong>CLI:</strong> A project .env key is used only when nothing is saved (<a href="https://github.com/heygen-com/hyperframes/commit/de1ce68988a6cce48a73a67a8d2c2b7fb4603bad">de1ce6898</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7848">#7848</a>).</li>
+<li><strong>CLI:</strong> Keep project text and other computers&#39; shares out of render and upload notices (<a href="https://github.com/heygen-com/hyperframes/commit/70d60ce03719030bda362d6c7107a9fa350c6090">70d60ce03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7849">#7849</a>).</li>
+<li><strong>Studio:</strong> GSAP keyframe and 3D previews stop throwing on a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/39dc1e232d242cdecf9ad782483587b288cc1392">39dc1e232</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7833">#7833</a>).</li>
+<li>Snapshot escapes composition text in its output; stills sweep the transcode cache (<a href="https://github.com/heygen-com/hyperframes/commit/a2f926708901f1fc52c18888db103cd768537824">a2f926708</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7832">#7832</a>).</li>
+<li>Render, capture and bundling refuse the app&#39;s .hyperframes records (<a href="https://github.com/heygen-com/hyperframes/commit/962ddb7c543519be17f6085a9c105d29d5886ecc">962ddb7c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7828">#7828</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.53...v0.9.54">https://github.com/heygen-com/hyperframes/compare/v0.9.53...v0.9.54</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.54</h1>
+<p>Released on 2026-11-15.</p>
+<p>Studio hosts can now run the preview on its own sealed origin with the sandboxOrigin option or VITE_STUDIO_OPAQUE_PREVIEW_ENABLED, off by default. When sealed, the preview&#39;s images, media, fetched files, console errors panel and GSAP keyframe and 3D previews keep working. Render, capture and bundling also leave out the app&#39;s own .hyperframes records.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Hosts can share the preview&#39;s editing-port client (<a href="https://github.com/heygen-com/hyperframes/commit/3a4f57252377051f6602bd0149e84f8ead0845b2">3a4f57252</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7811">#7811</a>).</li>
+<li><strong>Studio:</strong> Hosts can seal the preview frames NLEPreview draws (<a href="https://github.com/heygen-com/hyperframes/commit/a73ecff2bef2168c47625e781bc1de13c7ca23ce">a73ecff2b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7817">#7817</a>).</li>
+<li><strong>Studio:</strong> The console errors panel reads a sealed preview over its editing port (<a href="https://github.com/heygen-com/hyperframes/commit/5341d7255c4795a9dda676cb21409a4655b2e429">5341d7255</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7824">#7824</a>).</li>
+<li><strong>Studio Server:</strong> An opaque preview loads its images, media and fetched files (<a href="https://github.com/heygen-com/hyperframes/commit/88ffe087cae5d005fdc3d7b9567283c72a9ba5d7">88ffe087c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7806">#7806</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Producer:</strong> Check scheme-prefixed media sources against the project folder (<a href="https://github.com/heygen-com/hyperframes/commit/d8e36aa9dc7b4c007cbcb6bc0be0dcb21c1205bc">d8e36aa9d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7851">#7851</a>).</li>
+<li><strong>Docs:</strong> The v0.9.53 notes list the key rules moving into core (<a href="https://github.com/heygen-com/hyperframes/commit/c46143dd7904204c6dc0a2e574607d8dab238496">c46143dd7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7855">#7855</a>).</li>
+<li>Answer only the loopback Host on the render and capture file servers (<a href="https://github.com/heygen-com/hyperframes/commit/f891a305812e9046777e32ff49eef83afe9bf7f5">f891a3058</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7853">#7853</a>).</li>
+<li><strong>Engine:</strong> Remote downloads get an absolute deadline and stop before the disk fills (<a href="https://github.com/heygen-com/hyperframes/commit/e1043659d4490fde8458063a9585c30478464c8d">e1043659d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7827">#7827</a>).</li>
+<li><strong>CLI:</strong> The audio caches never write or read through links in .hyperframes (<a href="https://github.com/heygen-com/hyperframes/commit/9701f0639c3614f4fb33f2a83973adafd179ef08">9701f0639</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7825">#7825</a>).</li>
+<li><strong>Parsers:</strong> Helper programs never come from the project a subfolder sits in (<a href="https://github.com/heygen-com/hyperframes/commit/96cc8cb85242fc72bb2e1371048d733cb4993c68">96cc8cb85</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7845">#7845</a>).</li>
+<li><strong>CLI:</strong> A project .env key is used only when nothing is saved (<a href="https://github.com/heygen-com/hyperframes/commit/de1ce68988a6cce48a73a67a8d2c2b7fb4603bad">de1ce6898</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7848">#7848</a>).</li>
+<li><strong>CLI:</strong> Keep project text and other computers&#39; shares out of render and upload notices (<a href="https://github.com/heygen-com/hyperframes/commit/70d60ce03719030bda362d6c7107a9fa350c6090">70d60ce03</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7849">#7849</a>).</li>
+<li><strong>Studio:</strong> GSAP keyframe and 3D previews stop throwing on a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/39dc1e232d242cdecf9ad782483587b288cc1392">39dc1e232</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7833">#7833</a>).</li>
+<li>Snapshot escapes composition text in its output; stills sweep the transcode cache (<a href="https://github.com/heygen-com/hyperframes/commit/a2f926708901f1fc52c18888db103cd768537824">a2f926708</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7832">#7832</a>).</li>
+<li>Render, capture and bundling refuse the app&#39;s .hyperframes records (<a href="https://github.com/heygen-com/hyperframes/commit/962ddb7c543519be17f6085a9c105d29d5886ecc">962ddb7c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7828">#7828</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.53...v0.9.54">https://github.com/heygen-com/hyperframes/compare/v0.9.53...v0.9.54</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.53]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.53</link>
@@ -2521,76 +2581,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.7...v0.9.8">https://github.com/heygen-com/hyperframes/compare/v0.9.7...v0.9.8</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.7]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.7</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.7</guid>
-            <pubDate>Tue, 03 Nov 2026 05:46:42 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.7</h1>
-<p>Released on 2026-11-03.</p>
-<p>Studio playback no longer freezes WebGL scenes when motion blur is on. Preview playback now lands on the same frame as a scrub or an export when a set cuts into a running tween. Your CLI login now takes priority over an API key left in your shell.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> <code>overlapping_gsap_tweens</code> now also flags a <code>set</code> that fires while a tween on the same element and property is still running, a pattern that plays differently from how it scrubs and exports (<a href="https://github.com/heygen-com/hyperframes/commit/5e30bbdbe14b8295f8102c6439aa8bfdacc0fd1e">5e30bbdbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7059">#7059</a>).</li>
-<li><strong>Preview:</strong> A video the browser cannot play, such as HEVC without a decoder or ProRes, shows its own frame at the playhead instead of black while its playable copy is made. Copy progress is now reported at Full quality too (<a href="https://github.com/heygen-com/hyperframes/commit/eb3562966fcbac74da75566b660cbb41aa940739">eb3562966</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6589">#6589</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> With motion blur on, a scene that draws to a WebGL canvas no longer freezes during preview playback. Motion blur now falls back for those scenes, as it already did in renders (<a href="https://github.com/heygen-com/hyperframes/commit/112ba53302726f2135dc7b28b03033b5a897ffbd">112ba5330</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7060">#7060</a>).</li>
-<li><strong>Core:</strong> Preview playback now lands on the same frame as a scrub or an export when a <code>set</code> fires inside a running tween on the same property. Before, a word hidden just before its pop-in ended could stay on screen while playing (<a href="https://github.com/heygen-com/hyperframes/commit/0f85af7c7fd90ab755cd6f5c7f879eef7ed2aacc">0f85af7c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7061">#7061</a>).</li>
-<li><strong>CLI:</strong> <code>hyperframes cloud render</code> no longer offers <code>--page-motion-blur</code>, because the hosted render API rejected requests that used it. Turn motion blur on in the composition with <code>data-motion-blur=&quot;on&quot;</code>. Local <code>hyperframes render --page-motion-blur</code> is unchanged (<a href="https://github.com/heygen-com/hyperframes/commit/dffc640e8556b675e7e1d73f482c19ee7e855782">dffc640e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7062">#7062</a>).</li>
-<li><strong>CLI:</strong> A session from <code>hyperframes auth login</code> now takes priority over <code>HEYGEN_API_KEY</code> and <code>HYPERFRAMES_API_KEY</code>, so a key left in your shell no longer replaces the account you signed in with. The key still wins when <code>HEYGEN_API_URL</code> or <code>HEYGEN_API_BASE</code> points at another host, or when the login cannot refresh (<a href="https://github.com/heygen-com/hyperframes/commit/d03bdeae9d992c9bb653bb1e67cf5569d16455f3">d03bdeae9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7051">#7051</a>).</li>
-<li><strong>Studio Server:</strong> Two exports of the same project started within one second now get their own jobs and output files. Before, the second export replaced the first (<a href="https://github.com/heygen-com/hyperframes/commit/92943d99f08394b4a9d3964471ccae1bb86c83de">92943d99f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7053">#7053</a>).</li>
-<li><strong>CLI:</strong> <code>hyperframes snapshot</code> no longer crashes Chrome on a project with many clips cut from one 4K video. Like render, it now stops Chrome from decoding local videos it already replaces with extracted frames (<a href="https://github.com/heygen-com/hyperframes/commit/81b93cf055dee34ec1e47e1e64e0c5bba35aef05">81b93cf05</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6949">#6949</a>).</li>
-<li><strong>CLI:</strong> The <code>latestVersion</code> value in <code>--json</code> output is never older than the CLI you are running, even right after an upgrade (<a href="https://github.com/heygen-com/hyperframes/commit/8a6636efe36c3ec313aeb4a122f875b687ffdc5d">8a6636efe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7049">#7049</a>).</li>
-<li><strong>CLI:</strong> <code>hyperframes auth login --device</code> now works without a terminal, such as in a coding agent&#39;s shell or an SSH command. It still refuses to run in CI (<a href="https://github.com/heygen-com/hyperframes/commit/de2603e637f09fc0490d06bf92151dddc8d0650f">de2603e63</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7045">#7045</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> The reverse skill asks once for a credit top-up that covers the whole run when several steps run out at the same time, and builds its project with <code>init --video</code> (<a href="https://github.com/heygen-com/hyperframes/commit/05ddddbbf08fd358b5879726f935d5414733da3a">05ddddbbf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7048">#7048</a>).</li>
-<li><strong>Changelog:</strong> Added the weekly update for October 26 to November 2, 2026 (<a href="https://github.com/heygen-com/hyperframes/commit/6feb4bec7aa046a8956efd8a718db55423e2e2ca">6feb4bec7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7032">#7032</a>).</li>
-<li><strong>Changelog:</strong> The v0.9.6 release notes now list four changes they had missed (<a href="https://github.com/heygen-com/hyperframes/commit/4ef8c1de5cfc298bdbd385decd3a95b0ef301adc">4ef8c1de5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7040">#7040</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio Server:</strong> Raised the package size budget to fit the new preview features (<a href="https://github.com/heygen-com/hyperframes/commit/b22af8f25ccc155b38b3501ddada92ff9e855503">b22af8f25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7044">#7044</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7">https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.7</h1>
-<p>Released on 2026-11-03.</p>
-<p>Studio playback no longer freezes WebGL scenes when motion blur is on. Preview playback now lands on the same frame as a scrub or an export when a set cuts into a running tween. Your CLI login now takes priority over an API key left in your shell.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Lint:</strong> <code>overlapping_gsap_tweens</code> now also flags a <code>set</code> that fires while a tween on the same element and property is still running, a pattern that plays differently from how it scrubs and exports (<a href="https://github.com/heygen-com/hyperframes/commit/5e30bbdbe14b8295f8102c6439aa8bfdacc0fd1e">5e30bbdbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7059">#7059</a>).</li>
-<li><strong>Preview:</strong> A video the browser cannot play, such as HEVC without a decoder or ProRes, shows its own frame at the playhead instead of black while its playable copy is made. Copy progress is now reported at Full quality too (<a href="https://github.com/heygen-com/hyperframes/commit/eb3562966fcbac74da75566b660cbb41aa940739">eb3562966</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6589">#6589</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> With motion blur on, a scene that draws to a WebGL canvas no longer freezes during preview playback. Motion blur now falls back for those scenes, as it already did in renders (<a href="https://github.com/heygen-com/hyperframes/commit/112ba53302726f2135dc7b28b03033b5a897ffbd">112ba5330</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7060">#7060</a>).</li>
-<li><strong>Core:</strong> Preview playback now lands on the same frame as a scrub or an export when a <code>set</code> fires inside a running tween on the same property. Before, a word hidden just before its pop-in ended could stay on screen while playing (<a href="https://github.com/heygen-com/hyperframes/commit/0f85af7c7fd90ab755cd6f5c7f879eef7ed2aacc">0f85af7c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7061">#7061</a>).</li>
-<li><strong>CLI:</strong> <code>hyperframes cloud render</code> no longer offers <code>--page-motion-blur</code>, because the hosted render API rejected requests that used it. Turn motion blur on in the composition with <code>data-motion-blur=&quot;on&quot;</code>. Local <code>hyperframes render --page-motion-blur</code> is unchanged (<a href="https://github.com/heygen-com/hyperframes/commit/dffc640e8556b675e7e1d73f482c19ee7e855782">dffc640e8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7062">#7062</a>).</li>
-<li><strong>CLI:</strong> A session from <code>hyperframes auth login</code> now takes priority over <code>HEYGEN_API_KEY</code> and <code>HYPERFRAMES_API_KEY</code>, so a key left in your shell no longer replaces the account you signed in with. The key still wins when <code>HEYGEN_API_URL</code> or <code>HEYGEN_API_BASE</code> points at another host, or when the login cannot refresh (<a href="https://github.com/heygen-com/hyperframes/commit/d03bdeae9d992c9bb653bb1e67cf5569d16455f3">d03bdeae9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7051">#7051</a>).</li>
-<li><strong>Studio Server:</strong> Two exports of the same project started within one second now get their own jobs and output files. Before, the second export replaced the first (<a href="https://github.com/heygen-com/hyperframes/commit/92943d99f08394b4a9d3964471ccae1bb86c83de">92943d99f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7053">#7053</a>).</li>
-<li><strong>CLI:</strong> <code>hyperframes snapshot</code> no longer crashes Chrome on a project with many clips cut from one 4K video. Like render, it now stops Chrome from decoding local videos it already replaces with extracted frames (<a href="https://github.com/heygen-com/hyperframes/commit/81b93cf055dee34ec1e47e1e64e0c5bba35aef05">81b93cf05</a>, <a href="https://github.com/heygen-com/hyperframes/pull/6949">#6949</a>).</li>
-<li><strong>CLI:</strong> The <code>latestVersion</code> value in <code>--json</code> output is never older than the CLI you are running, even right after an upgrade (<a href="https://github.com/heygen-com/hyperframes/commit/8a6636efe36c3ec313aeb4a122f875b687ffdc5d">8a6636efe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7049">#7049</a>).</li>
-<li><strong>CLI:</strong> <code>hyperframes auth login --device</code> now works without a terminal, such as in a coding agent&#39;s shell or an SSH command. It still refuses to run in CI (<a href="https://github.com/heygen-com/hyperframes/commit/de2603e637f09fc0490d06bf92151dddc8d0650f">de2603e63</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7045">#7045</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Skills:</strong> The reverse skill asks once for a credit top-up that covers the whole run when several steps run out at the same time, and builds its project with <code>init --video</code> (<a href="https://github.com/heygen-com/hyperframes/commit/05ddddbbf08fd358b5879726f935d5414733da3a">05ddddbbf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7048">#7048</a>).</li>
-<li><strong>Changelog:</strong> Added the weekly update for October 26 to November 2, 2026 (<a href="https://github.com/heygen-com/hyperframes/commit/6feb4bec7aa046a8956efd8a718db55423e2e2ca">6feb4bec7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7032">#7032</a>).</li>
-<li><strong>Changelog:</strong> The v0.9.6 release notes now list four changes they had missed (<a href="https://github.com/heygen-com/hyperframes/commit/4ef8c1de5cfc298bdbd385decd3a95b0ef301adc">4ef8c1de5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7040">#7040</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Studio Server:</strong> Raised the package size budget to fit the new preview features (<a href="https://github.com/heygen-com/hyperframes/commit/b22af8f25ccc155b38b3501ddada92ff9e855503">b22af8f25</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7044">#7044</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7">https://github.com/heygen-com/hyperframes/compare/v0.9.6...v0.9.7</a></p>
 ]]></content:encoded>
         </item>
     </channel>
