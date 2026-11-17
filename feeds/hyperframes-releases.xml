@@ -4,11 +4,121 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 16 Nov 2026 16:00:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Nov 2026 00:49:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.59]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.59</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.59</guid>
+            <pubDate>Tue, 17 Nov 2026 00:49:19 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.59</h1>
+<p>Released on 2026-11-16.</p>
+<p>The preview player gets a fullscreen button, and a failed render now says why. Renders, Studio and the CLI keep to the project&#39;s own files and to public media hosts.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Diff --hide scores a project&#39;s layer by what it adds (<a href="https://github.com/heygen-com/hyperframes/commit/e6d5c699b18d4f1c6cc9d22227b1f1c3e1fd43f3">e6d5c699b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7972">#7972</a>).</li>
+<li><strong>Player:</strong> Add a fullscreen button to the preview player (<a href="https://github.com/heygen-com/hyperframes/commit/5be6c1580f6e707966818ab15c349ea31814f69e">5be6c1580</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7726">#7726</a>).</li>
+<li><strong>Core:</strong> Describe replies carry the picker&#39;s element label, and studio exports standInHandle (<a href="https://github.com/heygen-com/hyperframes/commit/51ae92510502dae5255f997058e9a5dfa399ad77">51ae92510</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7936">#7936</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>Hidden and credential files stay out of Studio, history and lint (<a href="https://github.com/heygen-com/hyperframes/commit/c68c78445d95914b527490b580a80dd076f78d13">c68c78445</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7979">#7979</a>).</li>
+<li><strong>Core:</strong> A page marked for another site gives that site only playback (<a href="https://github.com/heygen-com/hyperframes/commit/c4d607c7f866c61c1dce18c2edd84e9b4c2c9f34">c4d607c7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7980">#7980</a>).</li>
+<li><strong>Studio Server:</strong> No write route touches files other tools run or trust (<a href="https://github.com/heygen-com/hyperframes/commit/2a28e43685c6aaf53c215a77b123fc4f9ecbaa33">2a28e4368</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7964">#7964</a>).</li>
+<li><strong>CLI:</strong> The skills update check never reads a project&#39;s git config (<a href="https://github.com/heygen-com/hyperframes/commit/e368db138f343e90324801c2c78c6c4baa6420be">e368db138</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7975">#7975</a>).</li>
+<li><strong>Lint:</strong> Run Studio and producer lint off the host&#39;s own thread (<a href="https://github.com/heygen-com/hyperframes/commit/778a005641db50f2f37ef8d40cf813c58a30cee4">778a00564</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7974">#7974</a>).</li>
+<li><strong>Producer:</strong> Probe sub-composition media defaults (<a href="https://github.com/heygen-com/hyperframes/commit/95e4e7f880f5005211412e926b307f4a53f47246">95e4e7f88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7550">#7550</a>).</li>
+<li><strong>CLI:</strong> Validate and keyframes print project text with control characters as visible escapes (<a href="https://github.com/heygen-com/hyperframes/commit/ce8d55d302c3d9949d839cff7043feaf5fd56020">ce8d55d30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7958">#7958</a>).</li>
+<li><strong>Check:</strong> A media source that failed to load is not reported as a timeout (<a href="https://github.com/heygen-com/hyperframes/commit/5e0c3db12897039f197bc0e4e8ca183f5e4a20e8">5e0c3db12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7954">#7954</a>).</li>
+<li><strong>CLI:</strong> Help shows each option&#39;s default once (<a href="https://github.com/heygen-com/hyperframes/commit/d7f8d77fb4a7b0c7096a069649e864ba133e4976">d7f8d77fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7953">#7953</a>).</li>
+<li><strong>CLI:</strong> Render --json gives each missing tool, a held slot and an old Node its own code (<a href="https://github.com/heygen-com/hyperframes/commit/47d007e5b04c13d54d5617c2f02d06d91ffaf6fb">47d007e5b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7842">#7842</a>).</li>
+<li><strong>Sdk Playground:</strong> The Vite config loads on Node 22 before 22.18 (<a href="https://github.com/heygen-com/hyperframes/commit/c7876f333073160fd73f0ed9931994d553dc53f6">c7876f333</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7805">#7805</a>).</li>
+<li><strong>Check:</strong> Mark a contrast finding by its severity and quote its text (<a href="https://github.com/heygen-com/hyperframes/commit/ec5a4e2a103e28f5b3391de70b9eed8be33083f0">ec5a4e2a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7752">#7752</a>).</li>
+<li><strong>Player:</strong> The fix for the preview freezing when many clips share one long recording is pulled from this release, because it stopped an app embedding the preview from showing an edit (<a href="https://github.com/heygen-com/hyperframes/commit/42508c1ef1f013ac4a23c58160f2aabac20d879a">42508c1ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7795">#7795</a>; reverted by <a href="https://github.com/heygen-com/hyperframes/commit/33e1a36a3973dd587a2921575b0d399fb066d740">33e1a36a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7978">#7978</a>).</li>
+<li>Snapshot skips private files, no text-art demuxers, escaped warning text (<a href="https://github.com/heygen-com/hyperframes/commit/8959deb00f2c41f42bf0351a52982a9fd8d23b01">8959deb00</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7943">#7943</a>).</li>
+<li><strong>CLI:</strong> Capture names its local page server&#39;s port in the bypass entry (<a href="https://github.com/heygen-com/hyperframes/commit/a9b0371c83656e7c911c041c9bb827c83af068c8">a9b0371c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7965">#7965</a>).</li>
+<li><strong>CLI:</strong> A render that fails says why, even on a crash or a silent exit (<a href="https://github.com/heygen-com/hyperframes/commit/2623ded13684de4af7de4595cad1063eecb0a0a1">2623ded13</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7957">#7957</a>).</li>
+<li><strong>Studio:</strong> A long audio file from outside the project is never decoded for its waveform (<a href="https://github.com/heygen-com/hyperframes/commit/c77cd301c8ab8e5fbd5ffe887bdd36064f4f2fdf">c77cd301c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7961">#7961</a>).</li>
+<li><strong>Publish:</strong> Upload only what npm reads as checked; tags publish only main, next or alpha commits (<a href="https://github.com/heygen-com/hyperframes/commit/5f46379775c35432bc4c2c115b2f341169ab96bc">5f4637977</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7959">#7959</a>).</li>
+<li><strong>Engine:</strong> Media URL reads reach only public hosts under a restricted page network (<a href="https://github.com/heygen-com/hyperframes/commit/994fbbde2a4ae879b747b687e3a7de13bdd437a5">994fbbde2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7946">#7946</a>).</li>
+<li><strong>Cli,engine:</strong> Pin the page server&#39;s direct host to an explicit port and the Studio&#39;s own origin (<a href="https://github.com/heygen-com/hyperframes/commit/dbc9c18262fd9c773491990d04f2aef6b32cea1d">dbc9c1826</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7945">#7945</a>).</li>
+<li><strong>Producer:</strong> A render waiting on a long audio mix says it is processing audio (<a href="https://github.com/heygen-com/hyperframes/commit/df698a0290c71f3a2936f3591a8bdf14a56a7163">df698a029</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7952">#7952</a>).</li>
+<li><strong>Core:</strong> A capture page loads a clip with no set length only when it is due (<a href="https://github.com/heygen-com/hyperframes/commit/9e50487720346ef15a27294b9e969e3d7d09f2cd">9e5048772</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7938">#7938</a>).</li>
+<li><strong>Studio:</strong> Beat analysis never picks a recording longer than a song (<a href="https://github.com/heygen-com/hyperframes/commit/87955b890e92ec94bbf77f82b6fc567d16127e5e">87955b890</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7944">#7944</a>).</li>
+<li><strong>CLI:</strong> Own render-slot lock dir; refuse cache files other accounts can write (<a href="https://github.com/heygen-com/hyperframes/commit/071a2da0b5b1f3d278650fb432da79b32726990d">071a2da0b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7951">#7951</a>).</li>
+<li><strong>CLI:</strong> Never write project records through symlinks under .hyperframes (<a href="https://github.com/heygen-com/hyperframes/commit/061ff5bbb04f71432f0d97277f4140dc85b5d738">061ff5bbb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7950">#7950</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-11-09-2026-11-16 (<a href="https://github.com/heygen-com/hyperframes/commit/af873924dbc8c3a5ac17cd2175214ee64adb90e1">af873924d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7969">#7969</a>).</li>
+<li><strong>Publish:</strong> Say publishing waits for no approval and only admins push prerelease tags (<a href="https://github.com/heygen-com/hyperframes/commit/a707e473796f442d56bd5b3920a9c0bea159f585">a707e4737</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7960">#7960</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Escape control characters in project, page and registry text (<a href="https://github.com/heygen-com/hyperframes/commit/6f88be3941aba5dde89a4fca1f05afd32336f645">6f88be394</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7913">#7913</a>).</li>
+<li><strong>Mcp:</strong> Run the MCP registry publish in the mcp-registry environment (<a href="https://github.com/heygen-com/hyperframes/commit/45ff3526c08ec35ed3d1b694cc7c6b8dabe7a4e7">45ff3526c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7966">#7966</a>).</li>
+<li><strong>Ci:</strong> A catalog publish run that main overtook ends clean instead of failing (<a href="https://github.com/heygen-com/hyperframes/commit/77e675574f5651e2c49ddde186033e58a9d9b72e">77e675574</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7816">#7816</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.58...v0.9.59">https://github.com/heygen-com/hyperframes/compare/v0.9.58...v0.9.59</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.59</h1>
+<p>Released on 2026-11-16.</p>
+<p>The preview player gets a fullscreen button, and a failed render now says why. Renders, Studio and the CLI keep to the project&#39;s own files and to public media hosts.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> Diff --hide scores a project&#39;s layer by what it adds (<a href="https://github.com/heygen-com/hyperframes/commit/e6d5c699b18d4f1c6cc9d22227b1f1c3e1fd43f3">e6d5c699b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7972">#7972</a>).</li>
+<li><strong>Player:</strong> Add a fullscreen button to the preview player (<a href="https://github.com/heygen-com/hyperframes/commit/5be6c1580f6e707966818ab15c349ea31814f69e">5be6c1580</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7726">#7726</a>).</li>
+<li><strong>Core:</strong> Describe replies carry the picker&#39;s element label, and studio exports standInHandle (<a href="https://github.com/heygen-com/hyperframes/commit/51ae92510502dae5255f997058e9a5dfa399ad77">51ae92510</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7936">#7936</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li>Hidden and credential files stay out of Studio, history and lint (<a href="https://github.com/heygen-com/hyperframes/commit/c68c78445d95914b527490b580a80dd076f78d13">c68c78445</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7979">#7979</a>).</li>
+<li><strong>Core:</strong> A page marked for another site gives that site only playback (<a href="https://github.com/heygen-com/hyperframes/commit/c4d607c7f866c61c1dce18c2edd84e9b4c2c9f34">c4d607c7f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7980">#7980</a>).</li>
+<li><strong>Studio Server:</strong> No write route touches files other tools run or trust (<a href="https://github.com/heygen-com/hyperframes/commit/2a28e43685c6aaf53c215a77b123fc4f9ecbaa33">2a28e4368</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7964">#7964</a>).</li>
+<li><strong>CLI:</strong> The skills update check never reads a project&#39;s git config (<a href="https://github.com/heygen-com/hyperframes/commit/e368db138f343e90324801c2c78c6c4baa6420be">e368db138</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7975">#7975</a>).</li>
+<li><strong>Lint:</strong> Run Studio and producer lint off the host&#39;s own thread (<a href="https://github.com/heygen-com/hyperframes/commit/778a005641db50f2f37ef8d40cf813c58a30cee4">778a00564</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7974">#7974</a>).</li>
+<li><strong>Producer:</strong> Probe sub-composition media defaults (<a href="https://github.com/heygen-com/hyperframes/commit/95e4e7f880f5005211412e926b307f4a53f47246">95e4e7f88</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7550">#7550</a>).</li>
+<li><strong>CLI:</strong> Validate and keyframes print project text with control characters as visible escapes (<a href="https://github.com/heygen-com/hyperframes/commit/ce8d55d302c3d9949d839cff7043feaf5fd56020">ce8d55d30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7958">#7958</a>).</li>
+<li><strong>Check:</strong> A media source that failed to load is not reported as a timeout (<a href="https://github.com/heygen-com/hyperframes/commit/5e0c3db12897039f197bc0e4e8ca183f5e4a20e8">5e0c3db12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7954">#7954</a>).</li>
+<li><strong>CLI:</strong> Help shows each option&#39;s default once (<a href="https://github.com/heygen-com/hyperframes/commit/d7f8d77fb4a7b0c7096a069649e864ba133e4976">d7f8d77fb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7953">#7953</a>).</li>
+<li><strong>CLI:</strong> Render --json gives each missing tool, a held slot and an old Node its own code (<a href="https://github.com/heygen-com/hyperframes/commit/47d007e5b04c13d54d5617c2f02d06d91ffaf6fb">47d007e5b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7842">#7842</a>).</li>
+<li><strong>Sdk Playground:</strong> The Vite config loads on Node 22 before 22.18 (<a href="https://github.com/heygen-com/hyperframes/commit/c7876f333073160fd73f0ed9931994d553dc53f6">c7876f333</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7805">#7805</a>).</li>
+<li><strong>Check:</strong> Mark a contrast finding by its severity and quote its text (<a href="https://github.com/heygen-com/hyperframes/commit/ec5a4e2a103e28f5b3391de70b9eed8be33083f0">ec5a4e2a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7752">#7752</a>).</li>
+<li><strong>Player:</strong> The fix for the preview freezing when many clips share one long recording is pulled from this release, because it stopped an app embedding the preview from showing an edit (<a href="https://github.com/heygen-com/hyperframes/commit/42508c1ef1f013ac4a23c58160f2aabac20d879a">42508c1ef</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7795">#7795</a>; reverted by <a href="https://github.com/heygen-com/hyperframes/commit/33e1a36a3973dd587a2921575b0d399fb066d740">33e1a36a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7978">#7978</a>).</li>
+<li>Snapshot skips private files, no text-art demuxers, escaped warning text (<a href="https://github.com/heygen-com/hyperframes/commit/8959deb00f2c41f42bf0351a52982a9fd8d23b01">8959deb00</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7943">#7943</a>).</li>
+<li><strong>CLI:</strong> Capture names its local page server&#39;s port in the bypass entry (<a href="https://github.com/heygen-com/hyperframes/commit/a9b0371c83656e7c911c041c9bb827c83af068c8">a9b0371c8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7965">#7965</a>).</li>
+<li><strong>CLI:</strong> A render that fails says why, even on a crash or a silent exit (<a href="https://github.com/heygen-com/hyperframes/commit/2623ded13684de4af7de4595cad1063eecb0a0a1">2623ded13</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7957">#7957</a>).</li>
+<li><strong>Studio:</strong> A long audio file from outside the project is never decoded for its waveform (<a href="https://github.com/heygen-com/hyperframes/commit/c77cd301c8ab8e5fbd5ffe887bdd36064f4f2fdf">c77cd301c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7961">#7961</a>).</li>
+<li><strong>Publish:</strong> Upload only what npm reads as checked; tags publish only main, next or alpha commits (<a href="https://github.com/heygen-com/hyperframes/commit/5f46379775c35432bc4c2c115b2f341169ab96bc">5f4637977</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7959">#7959</a>).</li>
+<li><strong>Engine:</strong> Media URL reads reach only public hosts under a restricted page network (<a href="https://github.com/heygen-com/hyperframes/commit/994fbbde2a4ae879b747b687e3a7de13bdd437a5">994fbbde2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7946">#7946</a>).</li>
+<li><strong>Cli,engine:</strong> Pin the page server&#39;s direct host to an explicit port and the Studio&#39;s own origin (<a href="https://github.com/heygen-com/hyperframes/commit/dbc9c18262fd9c773491990d04f2aef6b32cea1d">dbc9c1826</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7945">#7945</a>).</li>
+<li><strong>Producer:</strong> A render waiting on a long audio mix says it is processing audio (<a href="https://github.com/heygen-com/hyperframes/commit/df698a0290c71f3a2936f3591a8bdf14a56a7163">df698a029</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7952">#7952</a>).</li>
+<li><strong>Core:</strong> A capture page loads a clip with no set length only when it is due (<a href="https://github.com/heygen-com/hyperframes/commit/9e50487720346ef15a27294b9e969e3d7d09f2cd">9e5048772</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7938">#7938</a>).</li>
+<li><strong>Studio:</strong> Beat analysis never picks a recording longer than a song (<a href="https://github.com/heygen-com/hyperframes/commit/87955b890e92ec94bbf77f82b6fc567d16127e5e">87955b890</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7944">#7944</a>).</li>
+<li><strong>CLI:</strong> Own render-slot lock dir; refuse cache files other accounts can write (<a href="https://github.com/heygen-com/hyperframes/commit/071a2da0b5b1f3d278650fb432da79b32726990d">071a2da0b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7951">#7951</a>).</li>
+<li><strong>CLI:</strong> Never write project records through symlinks under .hyperframes (<a href="https://github.com/heygen-com/hyperframes/commit/061ff5bbb04f71432f0d97277f4140dc85b5d738">061ff5bbb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7950">#7950</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-11-09-2026-11-16 (<a href="https://github.com/heygen-com/hyperframes/commit/af873924dbc8c3a5ac17cd2175214ee64adb90e1">af873924d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7969">#7969</a>).</li>
+<li><strong>Publish:</strong> Say publishing waits for no approval and only admins push prerelease tags (<a href="https://github.com/heygen-com/hyperframes/commit/a707e473796f442d56bd5b3920a9c0bea159f585">a707e4737</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7960">#7960</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Escape control characters in project, page and registry text (<a href="https://github.com/heygen-com/hyperframes/commit/6f88be3941aba5dde89a4fca1f05afd32336f645">6f88be394</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7913">#7913</a>).</li>
+<li><strong>Mcp:</strong> Run the MCP registry publish in the mcp-registry environment (<a href="https://github.com/heygen-com/hyperframes/commit/45ff3526c08ec35ed3d1b694cc7c6b8dabe7a4e7">45ff3526c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7966">#7966</a>).</li>
+<li><strong>Ci:</strong> A catalog publish run that main overtook ends clean instead of failing (<a href="https://github.com/heygen-com/hyperframes/commit/77e675574f5651e2c49ddde186033e58a9d9b72e">77e675574</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7816">#7816</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.58...v0.9.59">https://github.com/heygen-com/hyperframes/compare/v0.9.58...v0.9.59</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.58]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.58</link>
@@ -2599,44 +2709,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.11...v0.9.12">https://github.com/heygen-com/hyperframes/compare/v0.9.11...v0.9.12</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.11]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.11</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.11</guid>
-            <pubDate>Wed, 04 Nov 2026 10:48:08 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.11</h1>
-<p>Released on 2026-11-04.</p>
-<p>A spending limit you set now holds on every paid media call, and the voice list comes from your HyperFrames account. Agents also learn when the CLI or skills are out of date, and <code>hyperframes update --check</code> reports it.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Surface outdated CLI and skills to agents; add hyperframes update --check (<a href="https://github.com/heygen-com/hyperframes/commit/7cb6018c6be55979a997b277a59331d330fc1aa6">7cb6018c6be55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7094">#7094</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> A credit limit the person names holds on every paid media call (<a href="https://github.com/heygen-com/hyperframes/commit/76da5f6932600f4ffd5a3773b40b03c116b0ee42">76da5f6932600</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7145">#7145</a>).</li>
-<li><strong>Core:</strong> A host inside a scene keeps its own timeline when its file shares a composition id (<a href="https://github.com/heygen-com/hyperframes/commit/7e717189c5f89e1bf36a267ecd734eaa608f012c">7e717189c5f89</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7143">#7143</a>).</li>
-<li><strong>CLI:</strong> The voice a film uses is listed from the HyperFrames account, never the heygen sign-in (<a href="https://github.com/heygen-com/hyperframes/commit/19be35a463a4b446ff5e60bf81d8d0da7aebe3b7">19be35a463a4b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7144">#7144</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.10...v0.9.11">https://github.com/heygen-com/hyperframes/compare/v0.9.10...v0.9.11</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.11</h1>
-<p>Released on 2026-11-04.</p>
-<p>A spending limit you set now holds on every paid media call, and the voice list comes from your HyperFrames account. Agents also learn when the CLI or skills are out of date, and <code>hyperframes update --check</code> reports it.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Surface outdated CLI and skills to agents; add hyperframes update --check (<a href="https://github.com/heygen-com/hyperframes/commit/7cb6018c6be55979a997b277a59331d330fc1aa6">7cb6018c6be55</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7094">#7094</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> A credit limit the person names holds on every paid media call (<a href="https://github.com/heygen-com/hyperframes/commit/76da5f6932600f4ffd5a3773b40b03c116b0ee42">76da5f6932600</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7145">#7145</a>).</li>
-<li><strong>Core:</strong> A host inside a scene keeps its own timeline when its file shares a composition id (<a href="https://github.com/heygen-com/hyperframes/commit/7e717189c5f89e1bf36a267ecd734eaa608f012c">7e717189c5f89</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7143">#7143</a>).</li>
-<li><strong>CLI:</strong> The voice a film uses is listed from the HyperFrames account, never the heygen sign-in (<a href="https://github.com/heygen-com/hyperframes/commit/19be35a463a4b446ff5e60bf81d8d0da7aebe3b7">19be35a463a4b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7144">#7144</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.10...v0.9.11">https://github.com/heygen-com/hyperframes/compare/v0.9.10...v0.9.11</a></p>
 ]]></content:encoded>
         </item>
     </channel>
