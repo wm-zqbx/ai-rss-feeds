@@ -4,11 +4,45 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 18 Nov 2026 21:26:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Nov 2026 22:58:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.69]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.69</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.69</guid>
+            <pubDate>Wed, 18 Nov 2026 22:58:25 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.69</h1>
+<p>Released on 2026-11-18.</p>
+<p>Image captioning in <code>capture</code> can now use a short-lived Vertex access token instead of a service-account key file. In Studio, a script edit in a sealed preview re-runs in place, without reloading the page.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Capture:</strong> Accept a short-lived Vertex access token for image captioning (<a href="https://github.com/heygen-com/hyperframes/commit/e0470b0add0569e158b0b07109155a9c760a72e3">e0470b0add</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8215">#8215</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A script edit re-runs in place in a sealed preview, without a reload (<a href="https://github.com/heygen-com/hyperframes/commit/b8bb8b38039aabb11837151790031d43be46d801">b8bb8b3803</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8158">#8158</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.68...v0.9.69">https://github.com/heygen-com/hyperframes/compare/v0.9.68...v0.9.69</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.69</h1>
+<p>Released on 2026-11-18.</p>
+<p>Image captioning in <code>capture</code> can now use a short-lived Vertex access token instead of a service-account key file. In Studio, a script edit in a sealed preview re-runs in place, without reloading the page.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Capture:</strong> Accept a short-lived Vertex access token for image captioning (<a href="https://github.com/heygen-com/hyperframes/commit/e0470b0add0569e158b0b07109155a9c760a72e3">e0470b0add</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8215">#8215</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A script edit re-runs in place in a sealed preview, without a reload (<a href="https://github.com/heygen-com/hyperframes/commit/b8bb8b38039aabb11837151790031d43be46d801">b8bb8b3803</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8158">#8158</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.68...v0.9.69">https://github.com/heygen-com/hyperframes/compare/v0.9.68...v0.9.69</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.68]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.68</link>
@@ -2657,86 +2691,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.21...v0.9.22">https://github.com/heygen-com/hyperframes/compare/v0.9.21...v0.9.22</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.21]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.21</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.21</guid>
-            <pubDate>Sat, 07 Nov 2026 23:18:31 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.21</h1>
-<p>Released on 2026-11-07.</p>
-<p>Cloud exports take big files and files given by full path, HDR clips keep their brightness, and Safari&#39;s picture meets the cut again.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Cloud uploads send a big file in parts, so a cut connection resends one part (<a href="https://github.com/heygen-com/hyperframes/commit/3d7f12acd761c55a6f25ae0634346aa9ee1b3e6e">3d7f12acd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7375">#7375</a>).</li>
-<li><strong>Media Use:</strong> The voice credits line names the real source, your recording or any vendor (<a href="https://github.com/heygen-com/hyperframes/commit/f5bde9533f66e80bebc2aea906ec0d6b5ecb6793">f5bde9533</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7380">#7380</a>).</li>
-<li><strong>Media Use:</strong> Your own voice recording is a voice line, and speed applies to it (<a href="https://github.com/heygen-com/hyperframes/commit/14e598e5a17cbf541c2201f5c84dbbde3c25ce1c">14e598e5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7377">#7377</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Safari video picture lands on the cut again, undoing the hidden pre-roll (<a href="https://github.com/heygen-com/hyperframes/commit/841e90ffe201823bb011ad568efe474787674b16">841e90ffe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7383">#7383</a>).</li>
-<li><strong>CLI:</strong> A media file referenced by its filesystem path goes into the cloud archive (<a href="https://github.com/heygen-com/hyperframes/commit/e0c11bf09aa457523a54e975d5b57b7ad119548d">e0c11bf09</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7381">#7381</a>).</li>
-<li><strong>Check:</strong> Lint and check skip compositions the project never mounts (<a href="https://github.com/heygen-com/hyperframes/commit/7b79ab42905a730dd5d0aeb01b8b2dadecc7433e">7b79ab429</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7369">#7369</a>).</li>
-<li><strong>Engine:</strong> Hlg footage with a large header sei also tone-maps at hlg&#39;s white (<a href="https://github.com/heygen-com/hyperframes/commit/b559a98d37f4044d6d24a43ae660c5c6092c8fc4">b559a98d3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7349">#7349</a>).</li>
-<li><strong>CLI:</strong> A re-encode of a media file over the cap is limited to fit it (<a href="https://github.com/heygen-com/hyperframes/commit/57a75337b7481f636f75971115b457275b4b8eb1">57a75337b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7376">#7376</a>).</li>
-<li><strong>Core:</strong> A film moves on past a video the browser never starts loading (<a href="https://github.com/heygen-com/hyperframes/commit/a595755a35f4d7ad49b83a47f4e39445562bf3d9">a595755a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7368">#7368</a>).</li>
-<li><strong>Producer:</strong> Page timers during a render run on film time (<a href="https://github.com/heygen-com/hyperframes/commit/59c2065d636700b629b8f6add9132cb7008d98c8">59c2065d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7362">#7362</a>).</li>
-<li><strong>CLI:</strong> Transcribe names why whisper is missing and the one line that fixes it (<a href="https://github.com/heygen-com/hyperframes/commit/9efbbdf5ae69047e39a2770e95d0771ca12356ed">9efbbdf5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7366">#7366</a>).</li>
-<li><strong>Check:</strong> Masked or clipped-away text no longer counts as overlapping (<a href="https://github.com/heygen-com/hyperframes/commit/a3b8f521d9114286fa410a49bfd07ccf7d541689">a3b8f521d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7364">#7364</a>).</li>
-<li><strong>Check:</strong> The overlap finding names the decorative mark, data-layout-ignore (<a href="https://github.com/heygen-com/hyperframes/commit/330be7cd2da8c984d17a604fd934c400d04a9f0b">330be7cd2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7365">#7365</a>).</li>
-<li><strong>CLI:</strong> Open stops the project&#39;s background preview first (<a href="https://github.com/heygen-com/hyperframes/commit/896a77c3076e5a6360cc3557cac576625786906f">896a77c30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7297">#7297</a>).</li>
-<li><strong>CLI:</strong> Stop waiting for the cloud&#39;s file check when the caller aborts (<a href="https://github.com/heygen-com/hyperframes/commit/336abaa80f405717b82111656f204d48bbde53b9">336abaa80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7361">#7361</a>).</li>
-<li><strong>Check:</strong> A Chrome that never becomes ready ends the check with a named error (<a href="https://github.com/heygen-com/hyperframes/commit/e827de256f162be009423e8e0a0f335a071c230f">e827de256</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7360">#7360</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Producer:</strong> Size a long video&#39;s chunks in one plan, no re-plan (<a href="https://github.com/heygen-com/hyperframes/commit/c27475b9728de320839284ef4ecce15f9b799ccc">c27475b97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7382">#7382</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>CLI:</strong> The cloud upload&#39;s PUT and retry code moves to its own file (<a href="https://github.com/heygen-com/hyperframes/commit/b418bb24fc14e9f1d8e46dee057b8b9f6cabc943">b418bb24f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7374">#7374</a>).</li>
-<li><strong>Player:</strong> A Safari perf run that fails says which wait timed out and why (<a href="https://github.com/heygen-com/hyperframes/commit/7b1d9ccebf9c7e2c2bd22b7e9d9487ce975d6425">7b1d9cceb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7347">#7347</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.20...v0.9.21">https://github.com/heygen-com/hyperframes/compare/v0.9.20...v0.9.21</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.21</h1>
-<p>Released on 2026-11-07.</p>
-<p>Cloud exports take big files and files given by full path, HDR clips keep their brightness, and Safari&#39;s picture meets the cut again.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Cloud uploads send a big file in parts, so a cut connection resends one part (<a href="https://github.com/heygen-com/hyperframes/commit/3d7f12acd761c55a6f25ae0634346aa9ee1b3e6e">3d7f12acd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7375">#7375</a>).</li>
-<li><strong>Media Use:</strong> The voice credits line names the real source, your recording or any vendor (<a href="https://github.com/heygen-com/hyperframes/commit/f5bde9533f66e80bebc2aea906ec0d6b5ecb6793">f5bde9533</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7380">#7380</a>).</li>
-<li><strong>Media Use:</strong> Your own voice recording is a voice line, and speed applies to it (<a href="https://github.com/heygen-com/hyperframes/commit/14e598e5a17cbf541c2201f5c84dbbde3c25ce1c">14e598e5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7377">#7377</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> Safari video picture lands on the cut again, undoing the hidden pre-roll (<a href="https://github.com/heygen-com/hyperframes/commit/841e90ffe201823bb011ad568efe474787674b16">841e90ffe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7383">#7383</a>).</li>
-<li><strong>CLI:</strong> A media file referenced by its filesystem path goes into the cloud archive (<a href="https://github.com/heygen-com/hyperframes/commit/e0c11bf09aa457523a54e975d5b57b7ad119548d">e0c11bf09</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7381">#7381</a>).</li>
-<li><strong>Check:</strong> Lint and check skip compositions the project never mounts (<a href="https://github.com/heygen-com/hyperframes/commit/7b79ab42905a730dd5d0aeb01b8b2dadecc7433e">7b79ab429</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7369">#7369</a>).</li>
-<li><strong>Engine:</strong> Hlg footage with a large header sei also tone-maps at hlg&#39;s white (<a href="https://github.com/heygen-com/hyperframes/commit/b559a98d37f4044d6d24a43ae660c5c6092c8fc4">b559a98d3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7349">#7349</a>).</li>
-<li><strong>CLI:</strong> A re-encode of a media file over the cap is limited to fit it (<a href="https://github.com/heygen-com/hyperframes/commit/57a75337b7481f636f75971115b457275b4b8eb1">57a75337b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7376">#7376</a>).</li>
-<li><strong>Core:</strong> A film moves on past a video the browser never starts loading (<a href="https://github.com/heygen-com/hyperframes/commit/a595755a35f4d7ad49b83a47f4e39445562bf3d9">a595755a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7368">#7368</a>).</li>
-<li><strong>Producer:</strong> Page timers during a render run on film time (<a href="https://github.com/heygen-com/hyperframes/commit/59c2065d636700b629b8f6add9132cb7008d98c8">59c2065d6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7362">#7362</a>).</li>
-<li><strong>CLI:</strong> Transcribe names why whisper is missing and the one line that fixes it (<a href="https://github.com/heygen-com/hyperframes/commit/9efbbdf5ae69047e39a2770e95d0771ca12356ed">9efbbdf5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7366">#7366</a>).</li>
-<li><strong>Check:</strong> Masked or clipped-away text no longer counts as overlapping (<a href="https://github.com/heygen-com/hyperframes/commit/a3b8f521d9114286fa410a49bfd07ccf7d541689">a3b8f521d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7364">#7364</a>).</li>
-<li><strong>Check:</strong> The overlap finding names the decorative mark, data-layout-ignore (<a href="https://github.com/heygen-com/hyperframes/commit/330be7cd2da8c984d17a604fd934c400d04a9f0b">330be7cd2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7365">#7365</a>).</li>
-<li><strong>CLI:</strong> Open stops the project&#39;s background preview first (<a href="https://github.com/heygen-com/hyperframes/commit/896a77c3076e5a6360cc3557cac576625786906f">896a77c30</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7297">#7297</a>).</li>
-<li><strong>CLI:</strong> Stop waiting for the cloud&#39;s file check when the caller aborts (<a href="https://github.com/heygen-com/hyperframes/commit/336abaa80f405717b82111656f204d48bbde53b9">336abaa80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7361">#7361</a>).</li>
-<li><strong>Check:</strong> A Chrome that never becomes ready ends the check with a named error (<a href="https://github.com/heygen-com/hyperframes/commit/e827de256f162be009423e8e0a0f335a071c230f">e827de256</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7360">#7360</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Producer:</strong> Size a long video&#39;s chunks in one plan, no re-plan (<a href="https://github.com/heygen-com/hyperframes/commit/c27475b9728de320839284ef4ecce15f9b799ccc">c27475b97</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7382">#7382</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>CLI:</strong> The cloud upload&#39;s PUT and retry code moves to its own file (<a href="https://github.com/heygen-com/hyperframes/commit/b418bb24fc14e9f1d8e46dee057b8b9f6cabc943">b418bb24f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7374">#7374</a>).</li>
-<li><strong>Player:</strong> A Safari perf run that fails says which wait timed out and why (<a href="https://github.com/heygen-com/hyperframes/commit/7b1d9ccebf9c7e2c2bd22b7e9d9487ce975d6425">7b1d9cceb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7347">#7347</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.20...v0.9.21">https://github.com/heygen-com/hyperframes/compare/v0.9.20...v0.9.21</a></p>
 ]]></content:encoded>
         </item>
     </channel>
