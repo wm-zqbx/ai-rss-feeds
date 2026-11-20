@@ -4,11 +4,55 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 19 Nov 2026 22:48:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Nov 2026 04:01:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.72]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.72</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.72</guid>
+            <pubDate>Fri, 20 Nov 2026 04:01:26 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.72</h1>
+<p>Released on 2026-11-20.</p>
+<p>Renders limited by a CPU quota, such as a Kubernetes CPU limit, get their workers back, so long renders run at full speed again. Sealed previews restack layers from the layers panel and the timeline, and their videos keep colour grading and audio effects.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Renders under a CPU quota get their workers back (<a href="https://github.com/heygen-com/hyperframes/commit/db5950c0049cd38b4fa73712121556c763621211">db5950c00</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8262">#8262</a>).</li>
+<li><strong>Studio:</strong> Dragging a layer in a sealed preview&#39;s layers panel restacks it (<a href="https://github.com/heygen-com/hyperframes/commit/9c3bfe150eada7728d1d99f4b957aeba863cb081">9c3bfe150</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8209">#8209</a>).</li>
+<li><strong>Core:</strong> A sealed preview&#39;s own videos load with CORS, so colour grading and audio effects work (<a href="https://github.com/heygen-com/hyperframes/commit/7b3eda1908e4c69d2bbbbb59cffaa3acdd740ac1">7b3eda190</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8189">#8189</a>).</li>
+<li><strong>CLI:</strong> Describe the sign-in return test in plain words (<a href="https://github.com/heygen-com/hyperframes/commit/c28cda322b5046f11215344b4ad8db8eae132391">c28cda322</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8259">#8259</a>).</li>
+<li><strong>Media Use:</strong> Escape audio engine summary and broken audio_meta.json errors (<a href="https://github.com/heygen-com/hyperframes/commit/4a11e46c708c552a4419be96f4d544b80112a706">4a11e46c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8258">#8258</a>).</li>
+<li><strong>Studio:</strong> Save the stacking reorder of a timeline drag in a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/9dd8be3ac41af6b1958c76cabdbbd5ef53f6869c">9dd8be3ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8167">#8167</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Give the 9:16 safe band that <code>check</code> enforces (<a href="https://github.com/heygen-com/hyperframes/commit/bcb2dd031c1dc922807760a4f9eb5f627432003f">bcb2dd031</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8261">#8261</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.71...v0.9.72">https://github.com/heygen-com/hyperframes/compare/v0.9.71...v0.9.72</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.72</h1>
+<p>Released on 2026-11-20.</p>
+<p>Renders limited by a CPU quota, such as a Kubernetes CPU limit, get their workers back, so long renders run at full speed again. Sealed previews restack layers from the layers panel and the timeline, and their videos keep colour grading and audio effects.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Renders under a CPU quota get their workers back (<a href="https://github.com/heygen-com/hyperframes/commit/db5950c0049cd38b4fa73712121556c763621211">db5950c00</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8262">#8262</a>).</li>
+<li><strong>Studio:</strong> Dragging a layer in a sealed preview&#39;s layers panel restacks it (<a href="https://github.com/heygen-com/hyperframes/commit/9c3bfe150eada7728d1d99f4b957aeba863cb081">9c3bfe150</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8209">#8209</a>).</li>
+<li><strong>Core:</strong> A sealed preview&#39;s own videos load with CORS, so colour grading and audio effects work (<a href="https://github.com/heygen-com/hyperframes/commit/7b3eda1908e4c69d2bbbbb59cffaa3acdd740ac1">7b3eda190</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8189">#8189</a>).</li>
+<li><strong>CLI:</strong> Describe the sign-in return test in plain words (<a href="https://github.com/heygen-com/hyperframes/commit/c28cda322b5046f11215344b4ad8db8eae132391">c28cda322</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8259">#8259</a>).</li>
+<li><strong>Media Use:</strong> Escape audio engine summary and broken audio_meta.json errors (<a href="https://github.com/heygen-com/hyperframes/commit/4a11e46c708c552a4419be96f4d544b80112a706">4a11e46c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8258">#8258</a>).</li>
+<li><strong>Studio:</strong> Save the stacking reorder of a timeline drag in a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/9dd8be3ac41af6b1958c76cabdbbd5ef53f6869c">9dd8be3ac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8167">#8167</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Skills:</strong> Give the 9:16 safe band that <code>check</code> enforces (<a href="https://github.com/heygen-com/hyperframes/commit/bcb2dd031c1dc922807760a4f9eb5f627432003f">bcb2dd031</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8261">#8261</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.71...v0.9.72">https://github.com/heygen-com/hyperframes/compare/v0.9.71...v0.9.72</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.71]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.71</link>
@@ -2685,52 +2729,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.25...v0.9.26">https://github.com/heygen-com/hyperframes/compare/v0.9.25...v0.9.26</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.25]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.25</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.25</guid>
-            <pubDate>Sun, 08 Nov 2026 20:25:21 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.25</h1>
-<p>Released on 2026-11-08.</p>
-<p>Re-rendering a film with the same settings now gives the same result, because every render seeds its random values. A muted video&#39;s picture also no longer waits on its own audio track at a cut, and <code>check</code> replays an unchanged project&#39;s last pass.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Check replays an unchanged project&#39;s last pass and takes --no-craft (<a href="https://github.com/heygen-com/hyperframes/commit/070b964d7b8cd844a893f0abbe8e0b7f1ac6d879">070b964d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7398">#7398</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A muted video&#39;s picture no longer waits on its own audio track at a cut (<a href="https://github.com/heygen-com/hyperframes/commit/fa2e63515f3a4b80c7f0399c4f393a9a4c6f6d3f">fa2e63515</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7412">#7412</a>).</li>
-<li><strong>Producer:</strong> Seed random values in every render so re-renders give the same film (<a href="https://github.com/heygen-com/hyperframes/commit/eb16510a10fbc30f230ae2b7d6e5a7ac50e31eeb">eb16510a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7410">#7410</a>).</li>
-<li><strong>Core:</strong> Capture pages load only the clips on screen (<a href="https://github.com/heygen-com/hyperframes/commit/12906e0bfba41b72d9aad83d6a98c0c8943e5682">12906e0bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7402">#7402</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Install ffmpeg through the GitHub API asset route with a cache (<a href="https://github.com/heygen-com/hyperframes/commit/074de9dd1e7196c1e1f56b6c8704f4bebac41983">074de9dd1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7401">#7401</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.23...v0.9.25">https://github.com/heygen-com/hyperframes/compare/v0.9.23...v0.9.25</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.25</h1>
-<p>Released on 2026-11-08.</p>
-<p>Re-rendering a film with the same settings now gives the same result, because every render seeds its random values. A muted video&#39;s picture also no longer waits on its own audio track at a cut, and <code>check</code> replays an unchanged project&#39;s last pass.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> Check replays an unchanged project&#39;s last pass and takes --no-craft (<a href="https://github.com/heygen-com/hyperframes/commit/070b964d7b8cd844a893f0abbe8e0b7f1ac6d879">070b964d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7398">#7398</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A muted video&#39;s picture no longer waits on its own audio track at a cut (<a href="https://github.com/heygen-com/hyperframes/commit/fa2e63515f3a4b80c7f0399c4f393a9a4c6f6d3f">fa2e63515</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7412">#7412</a>).</li>
-<li><strong>Producer:</strong> Seed random values in every render so re-renders give the same film (<a href="https://github.com/heygen-com/hyperframes/commit/eb16510a10fbc30f230ae2b7d6e5a7ac50e31eeb">eb16510a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7410">#7410</a>).</li>
-<li><strong>Core:</strong> Capture pages load only the clips on screen (<a href="https://github.com/heygen-com/hyperframes/commit/12906e0bfba41b72d9aad83d6a98c0c8943e5682">12906e0bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7402">#7402</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li>Install ffmpeg through the GitHub API asset route with a cache (<a href="https://github.com/heygen-com/hyperframes/commit/074de9dd1e7196c1e1f56b6c8704f4bebac41983">074de9dd1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7401">#7401</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.23...v0.9.25">https://github.com/heygen-com/hyperframes/compare/v0.9.23...v0.9.25</a></p>
 ]]></content:encoded>
         </item>
     </channel>
