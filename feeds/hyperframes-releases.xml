@@ -4,11 +4,83 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 19 Nov 2026 07:37:15 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Nov 2026 22:48:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.71]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.71</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.71</guid>
+            <pubDate>Thu, 19 Nov 2026 22:48:02 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.71</h1>
+<p>Released on 2026-11-19.</p>
+<p>Cancelling a render now stops its compile, and files a compile downloads have a size cap and one shared deadline. Renders read frames from MP4s whose seek index leaves out the first keyframe, and SVG-heavy compositions stay within the compile size limit.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Extract frames from MP4s whose seek index leaves out the first keyframe (<a href="https://github.com/heygen-com/hyperframes/commit/9813a6cbef97fffda70f5a147b87747f7e35a77b">9813a6cbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8252">#8252</a>).</li>
+<li><strong>Media Use:</strong> Duck, cut, transcribe, dither and audio scripts print control characters as escapes (<a href="https://github.com/heygen-com/hyperframes/commit/98f548447e44307d4c240cf100bfb15a5e362b2f">98f548447</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8235">#8235</a>).</li>
+<li><strong>Core:</strong> Attribute-value escapes write &#39;&lt;&#39; so style text can&#39;t end early (<a href="https://github.com/heygen-com/hyperframes/commit/9e783536701da7f837c6902c737ddf25ab90994b">9e7835367</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8250">#8250</a>).</li>
+<li><strong>Media Use:</strong> Provider error lines print control characters as escapes (<a href="https://github.com/heygen-com/hyperframes/commit/77134c92735f0101a78d8ff54e5eacef00a3d862">77134c927</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8249">#8249</a>).</li>
+<li><strong>Core:</strong> Keep SVG selector alias growth within the compile budget (<a href="https://github.com/heygen-com/hyperframes/commit/6bd0b5d870ef197b1ff6d3d50d17944444c31a8f">6bd0b5d87</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8238">#8238</a>).</li>
+<li><strong>Lint:</strong> Read a media window&#39;s start through the parser (<a href="https://github.com/heygen-com/hyperframes/commit/a7d7a607543bccc3508e62fbd262bb9b6b30b8de">a7d7a6075</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8133">#8133</a>).</li>
+<li><strong>Producer:</strong> Cancelling a render stops its compile (<a href="https://github.com/heygen-com/hyperframes/commit/765883195eb0a40c1062715879270e55f9074a67">765883195</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8242">#8242</a>).</li>
+<li><strong>Producer:</strong> Cap compile-time remote downloads, give them one deadline and stop them on cancel (<a href="https://github.com/heygen-com/hyperframes/commit/77ea9d80cfc8b347ccca966487a8ff902ce28320">77ea9d80c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8195">#8195</a>).</li>
+<li><strong>Core:</strong> Stop crashing on SVG elements named template (<a href="https://github.com/heygen-com/hyperframes/commit/d106f9c8c7eacce9ae30275f9e78d715dd269e10">d106f9c8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8241">#8241</a>).</li>
+<li><strong>Core:</strong> Read selector aliases only from what the compiler wrote (<a href="https://github.com/heygen-com/hyperframes/commit/def770ed9886171789f420d9cd3fcd79eaace91b">def770ed9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8240">#8240</a>).</li>
+<li><strong>Core:</strong> Page runtimes carry no wide characters, so pages stay one byte a char (<a href="https://github.com/heygen-com/hyperframes/commit/01a5e948beb984e0ea19f8939d4a5ae2b242f117">01a5e948b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8239">#8239</a>).</li>
+<li><strong>Media Use:</strong> Re-freezing a recipe archives only under an integer version (<a href="https://github.com/heygen-com/hyperframes/commit/e383abf475b6ebd5072d6aa1cb380bc7d984c629">e383abf47</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8201">#8201</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Adopters:</strong> Add ViralMint (<a href="https://github.com/heygen-com/hyperframes/commit/78d8ad037183275a5678cd808f3056b696bda4e6">78d8ad037</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7738">#7738</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Report an empty catalog --type= as a usage error (<a href="https://github.com/heygen-com/hyperframes/commit/c2911adc8d441b1c54f79237f753f1a9e5fa8dca">c2911adc8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8130">#8130</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The phone-clip offload tests pass when run together (<a href="https://github.com/heygen-com/hyperframes/commit/3f3a6205a76c1a95c9b15ace08272d741b1698c3">3f3a6205a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8071">#8071</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.70...v0.9.71">https://github.com/heygen-com/hyperframes/compare/v0.9.70...v0.9.71</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.71</h1>
+<p>Released on 2026-11-19.</p>
+<p>Cancelling a render now stops its compile, and files a compile downloads have a size cap and one shared deadline. Renders read frames from MP4s whose seek index leaves out the first keyframe, and SVG-heavy compositions stay within the compile size limit.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> Extract frames from MP4s whose seek index leaves out the first keyframe (<a href="https://github.com/heygen-com/hyperframes/commit/9813a6cbef97fffda70f5a147b87747f7e35a77b">9813a6cbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8252">#8252</a>).</li>
+<li><strong>Media Use:</strong> Duck, cut, transcribe, dither and audio scripts print control characters as escapes (<a href="https://github.com/heygen-com/hyperframes/commit/98f548447e44307d4c240cf100bfb15a5e362b2f">98f548447</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8235">#8235</a>).</li>
+<li><strong>Core:</strong> Attribute-value escapes write &#39;&lt;&#39; so style text can&#39;t end early (<a href="https://github.com/heygen-com/hyperframes/commit/9e783536701da7f837c6902c737ddf25ab90994b">9e7835367</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8250">#8250</a>).</li>
+<li><strong>Media Use:</strong> Provider error lines print control characters as escapes (<a href="https://github.com/heygen-com/hyperframes/commit/77134c92735f0101a78d8ff54e5eacef00a3d862">77134c927</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8249">#8249</a>).</li>
+<li><strong>Core:</strong> Keep SVG selector alias growth within the compile budget (<a href="https://github.com/heygen-com/hyperframes/commit/6bd0b5d870ef197b1ff6d3d50d17944444c31a8f">6bd0b5d87</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8238">#8238</a>).</li>
+<li><strong>Lint:</strong> Read a media window&#39;s start through the parser (<a href="https://github.com/heygen-com/hyperframes/commit/a7d7a607543bccc3508e62fbd262bb9b6b30b8de">a7d7a6075</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8133">#8133</a>).</li>
+<li><strong>Producer:</strong> Cancelling a render stops its compile (<a href="https://github.com/heygen-com/hyperframes/commit/765883195eb0a40c1062715879270e55f9074a67">765883195</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8242">#8242</a>).</li>
+<li><strong>Producer:</strong> Cap compile-time remote downloads, give them one deadline and stop them on cancel (<a href="https://github.com/heygen-com/hyperframes/commit/77ea9d80cfc8b347ccca966487a8ff902ce28320">77ea9d80c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8195">#8195</a>).</li>
+<li><strong>Core:</strong> Stop crashing on SVG elements named template (<a href="https://github.com/heygen-com/hyperframes/commit/d106f9c8c7eacce9ae30275f9e78d715dd269e10">d106f9c8c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8241">#8241</a>).</li>
+<li><strong>Core:</strong> Read selector aliases only from what the compiler wrote (<a href="https://github.com/heygen-com/hyperframes/commit/def770ed9886171789f420d9cd3fcd79eaace91b">def770ed9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8240">#8240</a>).</li>
+<li><strong>Core:</strong> Page runtimes carry no wide characters, so pages stay one byte a char (<a href="https://github.com/heygen-com/hyperframes/commit/01a5e948beb984e0ea19f8939d4a5ae2b242f117">01a5e948b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8239">#8239</a>).</li>
+<li><strong>Media Use:</strong> Re-freezing a recipe archives only under an integer version (<a href="https://github.com/heygen-com/hyperframes/commit/e383abf475b6ebd5072d6aa1cb380bc7d984c629">e383abf47</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8201">#8201</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Adopters:</strong> Add ViralMint (<a href="https://github.com/heygen-com/hyperframes/commit/78d8ad037183275a5678cd808f3056b696bda4e6">78d8ad037</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7738">#7738</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> Report an empty catalog --type= as a usage error (<a href="https://github.com/heygen-com/hyperframes/commit/c2911adc8d441b1c54f79237f753f1a9e5fa8dca">c2911adc8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8130">#8130</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The phone-clip offload tests pass when run together (<a href="https://github.com/heygen-com/hyperframes/commit/3f3a6205a76c1a95c9b15ace08272d741b1698c3">3f3a6205a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8071">#8071</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.70...v0.9.71">https://github.com/heygen-com/hyperframes/compare/v0.9.70...v0.9.71</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.70]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.70</link>
@@ -2659,54 +2731,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.23...v0.9.25">https://github.com/heygen-com/hyperframes/compare/v0.9.23...v0.9.25</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.23]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.23</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.23</guid>
-            <pubDate>Sun, 08 Nov 2026 07:05:54 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.23</h1>
-<p>Released on 2026-11-08.</p>
-<p>Fade-ins that follow a starting set now end fully visible instead of vanishing when the fade finishes. Failed script reports also name their library, and menu highlights match their panel.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> A failed CDN script&#39;s report names its library and version, never its URL (<a href="https://github.com/heygen-com/hyperframes/commit/adf14d7324109694614955f32ba6cf2b97ad79d2">adf14d732</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7394">#7394</a>).</li>
-<li><strong>Core:</strong> Preview health names the media element that held play (<a href="https://github.com/heygen-com/hyperframes/commit/fd05a3860c66958ba3d509981e890c699ae4aa5e">fd05a3860</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7159">#7159</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A set written before its tween no longer erases the tween&#39;s end (<a href="https://github.com/heygen-com/hyperframes/commit/75fe18c621be5297d7b09a788fabc75a3cd6c734">75fe18c62</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7397">#7397</a>).</li>
-<li><strong>Studio:</strong> A menu row&#39;s highlight is rounder than its panel (<a href="https://github.com/heygen-com/hyperframes/commit/ab785e9c5c59e9542593e49b93f9547cb2665b44">ab785e9c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7395">#7395</a>).</li>
-<li><strong>Studio:</strong> Bound recovery and verify full-quality playback (<a href="https://github.com/heygen-com/hyperframes/commit/3151fd21330e7e955210bfd3f557bc8d78d243c5">3151fd213</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7393">#7393</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> The decode timeout warning reaches every caller (<a href="https://github.com/heygen-com/hyperframes/commit/0f5914dc445ceed38fdc58eadb617f69632c0a29">0f5914dc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7119">#7119</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.22...v0.9.23">https://github.com/heygen-com/hyperframes/compare/v0.9.22...v0.9.23</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.23</h1>
-<p>Released on 2026-11-08.</p>
-<p>Fade-ins that follow a starting set now end fully visible instead of vanishing when the fade finishes. Failed script reports also name their library, and menu highlights match their panel.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> A failed CDN script&#39;s report names its library and version, never its URL (<a href="https://github.com/heygen-com/hyperframes/commit/adf14d7324109694614955f32ba6cf2b97ad79d2">adf14d732</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7394">#7394</a>).</li>
-<li><strong>Core:</strong> Preview health names the media element that held play (<a href="https://github.com/heygen-com/hyperframes/commit/fd05a3860c66958ba3d509981e890c699ae4aa5e">fd05a3860</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7159">#7159</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> A set written before its tween no longer erases the tween&#39;s end (<a href="https://github.com/heygen-com/hyperframes/commit/75fe18c621be5297d7b09a788fabc75a3cd6c734">75fe18c62</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7397">#7397</a>).</li>
-<li><strong>Studio:</strong> A menu row&#39;s highlight is rounder than its panel (<a href="https://github.com/heygen-com/hyperframes/commit/ab785e9c5c59e9542593e49b93f9547cb2665b44">ab785e9c5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7395">#7395</a>).</li>
-<li><strong>Studio:</strong> Bound recovery and verify full-quality playback (<a href="https://github.com/heygen-com/hyperframes/commit/3151fd21330e7e955210bfd3f557bc8d78d243c5">3151fd213</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7393">#7393</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> The decode timeout warning reaches every caller (<a href="https://github.com/heygen-com/hyperframes/commit/0f5914dc445ceed38fdc58eadb617f69632c0a29">0f5914dc4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7119">#7119</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.22...v0.9.23">https://github.com/heygen-com/hyperframes/compare/v0.9.22...v0.9.23</a></p>
 ]]></content:encoded>
         </item>
     </channel>
