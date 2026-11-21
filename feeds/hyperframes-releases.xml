@@ -4,11 +4,155 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 21 Nov 2026 09:01:33 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Nov 2026 22:37:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.79]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.79</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.79</guid>
+            <pubDate>Sat, 21 Nov 2026 22:37:11 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.79</h1>
+<p>Released on 2026-11-21.</p>
+<p>Trimming a main-track clip with Ripple on now closes the gap. Media files that sit outside a project are no longer reused, credited or written through a linked folder.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> A transcript cut named inside the project is never written through a linked folder (<a href="https://github.com/heygen-com/hyperframes/commit/4e873f5a1ded50197845836aa95056dfd8356914">4e873f5a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8398">#8398</a>).</li>
+<li><strong>Studio:</strong> Trimming a main-track clip with Ripple on closes the gap (<a href="https://github.com/heygen-com/hyperframes/commit/8222489f0617aa724212f3fa04da2554805a24f6">8222489f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8394">#8394</a>).</li>
+<li><strong>Media Use:</strong> A manifest record whose path leaves the project is not reused or credited (<a href="https://github.com/heygen-com/hyperframes/commit/e3a0797a3308b3345cb891cab38b06b51fbf2f14">e3a0797a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8396">#8396</a>).</li>
+<li><strong>Studio Server:</strong> A preview asset whose read cannot be recorded answers not found (<a href="https://github.com/heygen-com/hyperframes/commit/22b394c663ff1cd1bfe8b92209cc1a202cbcc465">22b394c66</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8385">#8385</a>).</li>
+<li><strong>Ci:</strong> Release checks refuse a patch release that carries a breaking change (<a href="https://github.com/heygen-com/hyperframes/commit/e87babf26142d62e1b9d69dbfd3ee6236f3a9cfa">e87babf26</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8392">#8392</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.78...v0.9.79">https://github.com/heygen-com/hyperframes/compare/v0.9.78...v0.9.79</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.79</h1>
+<p>Released on 2026-11-21.</p>
+<p>Trimming a main-track clip with Ripple on now closes the gap. Media files that sit outside a project are no longer reused, credited or written through a linked folder.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Media Use:</strong> A transcript cut named inside the project is never written through a linked folder (<a href="https://github.com/heygen-com/hyperframes/commit/4e873f5a1ded50197845836aa95056dfd8356914">4e873f5a1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8398">#8398</a>).</li>
+<li><strong>Studio:</strong> Trimming a main-track clip with Ripple on closes the gap (<a href="https://github.com/heygen-com/hyperframes/commit/8222489f0617aa724212f3fa04da2554805a24f6">8222489f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8394">#8394</a>).</li>
+<li><strong>Media Use:</strong> A manifest record whose path leaves the project is not reused or credited (<a href="https://github.com/heygen-com/hyperframes/commit/e3a0797a3308b3345cb891cab38b06b51fbf2f14">e3a0797a3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8396">#8396</a>).</li>
+<li><strong>Studio Server:</strong> A preview asset whose read cannot be recorded answers not found (<a href="https://github.com/heygen-com/hyperframes/commit/22b394c663ff1cd1bfe8b92209cc1a202cbcc465">22b394c66</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8385">#8385</a>).</li>
+<li><strong>Ci:</strong> Release checks refuse a patch release that carries a breaking change (<a href="https://github.com/heygen-com/hyperframes/commit/e87babf26142d62e1b9d69dbfd3ee6236f3a9cfa">e87babf26</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8392">#8392</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.78...v0.9.79">https://github.com/heygen-com/hyperframes/compare/v0.9.78...v0.9.79</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.78]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.78</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.78</guid>
+            <pubDate>Sat, 21 Nov 2026 20:28:21 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.78</h1>
+<p>Released on 2026-11-21.</p>
+<p>Undo after an agent step now brings back the files it changed. A catalog gap report on Windows never puts a query your shell would run into a command, and renders sharing one capture proxy keep their connections.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> A late image&#39;s load time is logged when it arrives (<a href="https://github.com/heygen-com/hyperframes/commit/e65b11e5c2be2c73d3ab0ea5628c51ec13f68a21">e65b11e5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8372">#8372</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Show control characters as text in notices that repeat a failure reason (<a href="https://github.com/heygen-com/hyperframes/commit/c75860ddf3bf54fb0bd8c21df3ae95efe188f68c">c75860ddf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8387">#8387</a>).</li>
+<li><strong>Core:</strong> A Windows rename onto a folder that exists fails at once instead of waiting 1.3 s (<a href="https://github.com/heygen-com/hyperframes/commit/7cb548e45b846683d74dac3c2108fedceb5d146a">7cb548e45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8389">#8389</a>).</li>
+<li><strong>Core:</strong> Show text direction marks and typed text as visible text in printed lines (<a href="https://github.com/heygen-com/hyperframes/commit/f01d1f32b093b41adf4233fa1b4ff3a8ff5886cb">f01d1f32b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8384">#8384</a>).</li>
+<li><strong>Studio Server:</strong> History keeps undo steps in order when file times and its clock disagree (<a href="https://github.com/heygen-com/hyperframes/commit/63e700de1ecad6716911251a0b1459c5bec2d35d">63e700de1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8383">#8383</a>).</li>
+<li><strong>Core:</strong> A long text&#39;s name is cut at a word, not inside one (<a href="https://github.com/heygen-com/hyperframes/commit/19587337f61db60da1d7ed6c54d95b021195ac1b">19587337f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8388">#8388</a>).</li>
+<li><strong>CLI:</strong> Check reports its own deadlines as check_deadline (<a href="https://github.com/heygen-com/hyperframes/commit/d78e9a5f33fcbc549dd6d78ce4dec9e5be6c4114">d78e9a5f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8378">#8378</a>).</li>
+<li><strong>CLI:</strong> Windows kills end only the process the CLI started, never a reused pid (<a href="https://github.com/heygen-com/hyperframes/commit/93f2fcca49071184da4d0cc3c8fa095b7d817644">93f2fcca4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8382">#8382</a>).</li>
+<li><strong>Player:</strong> Stop the preview reloading itself after a quick seek, and stalling at cuts on a slower connection (<a href="https://github.com/heygen-com/hyperframes/commit/120689e3c7d13ab8efa9cad5416d162b4723d931">120689e3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8339">#8339</a>).</li>
+<li><strong>CLI:</strong> Print check and validate setup commands on their own lines (<a href="https://github.com/heygen-com/hyperframes/commit/88f7d4052dd30ae3e29e1889d68f2231da3d4983">88f7d4052</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8381">#8381</a>).</li>
+<li><strong>Studio Server:</strong> The preview file check resolves links on volumes that refuse native realpath (<a href="https://github.com/heygen-com/hyperframes/commit/40cc86252d80ebc0daaf3db373b13d339f8c13f8">40cc86252</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8377">#8377</a>).</li>
+<li><strong>CLI:</strong> Print capture setup commands on their own lines (<a href="https://github.com/heygen-com/hyperframes/commit/281f1a2a48137925d114dbd8b55e03d152bdf83d">281f1a2a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8374">#8374</a>).</li>
+<li><strong>Studio Server:</strong> An agent step waits for history&#39;s first copies, so undo brings old files back (<a href="https://github.com/heygen-com/hyperframes/commit/fbbf5ee67e86e41e10536e5088baaf886330a60c">fbbf5ee67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8375">#8375</a>).</li>
+<li><strong>Studio Server:</strong> History refusals carry a closed reason, so callers tell them from failures (<a href="https://github.com/heygen-com/hyperframes/commit/d5881e8aa67f796f851ae15a75702294ef53cc9f">d5881e8aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8376">#8376</a>).</li>
+<li><strong>Studio Server:</strong> A timed-out history save says it may still land, so callers don&#39;t retry blindly (<a href="https://github.com/heygen-com/hyperframes/commit/6b74cfa9f5bbf01ebb0fe30420c0dab6c71f4f84">6b74cfa9f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8300">#8300</a>).</li>
+<li><strong>CLI:</strong> Read --json before the command name the same as after it (<a href="https://github.com/heygen-com/hyperframes/commit/9a618b798fcb6bb262d3709bc1de6edf2fff974b">9a618b798</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8365">#8365</a>).</li>
+<li><strong>CLI:</strong> Show control characters as text in capture, figma, usage and notice lines (<a href="https://github.com/heygen-com/hyperframes/commit/7fcc4909b442ba79918ae69d8a67416820d730f9">7fcc4909b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8366">#8366</a>).</li>
+<li><strong>Studio:</strong> Adding or removing a text field keeps the spaces between words (<a href="https://github.com/heygen-com/hyperframes/commit/e8f52dc866221ff8ffad06ce4c198d0d969aaa05">e8f52dc86</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8369">#8369</a>).</li>
+<li><strong>CLI:</strong> A received-files write waits out a held lock instead of failing on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/f74e1545c06e32b5f0c0722b4a46b7e628d04a31">f74e1545c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8367">#8367</a>).</li>
+<li><strong>CLI:</strong> A stop reads the process tree from /proc on Linux, so load cannot hide a child (<a href="https://github.com/heygen-com/hyperframes/commit/a2df08e49ebb2b2d285c0e8a7c173f953b032a9d">a2df08e49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8363">#8363</a>).</li>
+<li><strong>Engine:</strong> A capture proxy shared by many browsers no longer drops tunnels at 128 (<a href="https://github.com/heygen-com/hyperframes/commit/5e16c18b1d239f7e1225f59be5c44614a6d9d784">5e16c18b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8362">#8362</a>).</li>
+<li><strong>CLI:</strong> Show control characters as text in init, skills and render printed lines (<a href="https://github.com/heygen-com/hyperframes/commit/8bc73a0bd34313790bdbf6be43cf67f311800711">8bc73a0bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8352">#8352</a>).</li>
+<li><strong>CLI:</strong> Show control characters as text in more commands&#39; printed lines (<a href="https://github.com/heygen-com/hyperframes/commit/7a1163fc98149719c636a170aad6c99e2d68a291">7a1163fc9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8353">#8353</a>).</li>
+<li><strong>Studio Server:</strong> A preview file request no longer waits on a silent drive on the event loop (<a href="https://github.com/heygen-com/hyperframes/commit/7cb605c787f4e85f66a2a46df60f8fdbe13faad6">7cb605c78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8254">#8254</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> A catalog gap report hands back a line only when every shell reads the query as text (<a href="https://github.com/heygen-com/hyperframes/commit/4145572625110706fdbc269adaca70ee5de531e8">414557262</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8373">#8373</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The probe-cache snapshot test asks 16 times of an 8 s clip, not 40 of 20 s (<a href="https://github.com/heygen-com/hyperframes/commit/c7a6c9315bf1237bce715471cde268b32a21bb0b">c7a6c9315</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8390">#8390</a>).</li>
+<li><strong>Lint:</strong> Linear scans are held to characters read and one coarse time bound (<a href="https://github.com/heygen-com/hyperframes/commit/e0d84403096c7b4d77c55448087251e9ffd3f44a">e0d844030</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8386">#8386</a>).</li>
+<li><strong>Studio:</strong> The marquee-past-the-cap check waits as long as the frame takes to answer (<a href="https://github.com/heygen-com/hyperframes/commit/b0d9f3615984e6e88c2d6b4dae862fbde2004da1">b0d9f3615</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7757">#7757</a>).</li>
+<li><strong>Studio Server:</strong> A held-file edit is checked for blocking waits, not wall-clock gaps (<a href="https://github.com/heygen-com/hyperframes/commit/29a5003eebdd1a1a01e4d1a4e3f375da93b078ab">29a5003ee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8236">#8236</a>).</li>
+<li><strong>Studio Server:</strong> A held save proves it never sleeps the thread, not a 100 ms stall bound (<a href="https://github.com/heygen-com/hyperframes/commit/ba81f67930cce689b1444c03dc3a4c0dbf13e97b">ba81f6793</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8359">#8359</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li><strong>CLI:</strong> The proxy fix and its Node.js 22.19 floor came out again before this release; they ship in v0.10.0 (<a href="https://github.com/heygen-com/hyperframes/commit/29603197498c32d37f76a5de07498fc555fa515b">296031974</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8311">#8311</a>, <a href="https://github.com/heygen-com/hyperframes/commit/66156bf35ebecfe0075d3d01405773ab2792a6f0">66156bf35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8391">#8391</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.77...v0.9.78">https://github.com/heygen-com/hyperframes/compare/v0.9.77...v0.9.78</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.78</h1>
+<p>Released on 2026-11-21.</p>
+<p>Undo after an agent step now brings back the files it changed. A catalog gap report on Windows never puts a query your shell would run into a command, and renders sharing one capture proxy keep their connections.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Engine:</strong> A late image&#39;s load time is logged when it arrives (<a href="https://github.com/heygen-com/hyperframes/commit/e65b11e5c2be2c73d3ab0ea5628c51ec13f68a21">e65b11e5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8372">#8372</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Show control characters as text in notices that repeat a failure reason (<a href="https://github.com/heygen-com/hyperframes/commit/c75860ddf3bf54fb0bd8c21df3ae95efe188f68c">c75860ddf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8387">#8387</a>).</li>
+<li><strong>Core:</strong> A Windows rename onto a folder that exists fails at once instead of waiting 1.3 s (<a href="https://github.com/heygen-com/hyperframes/commit/7cb548e45b846683d74dac3c2108fedceb5d146a">7cb548e45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8389">#8389</a>).</li>
+<li><strong>Core:</strong> Show text direction marks and typed text as visible text in printed lines (<a href="https://github.com/heygen-com/hyperframes/commit/f01d1f32b093b41adf4233fa1b4ff3a8ff5886cb">f01d1f32b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8384">#8384</a>).</li>
+<li><strong>Studio Server:</strong> History keeps undo steps in order when file times and its clock disagree (<a href="https://github.com/heygen-com/hyperframes/commit/63e700de1ecad6716911251a0b1459c5bec2d35d">63e700de1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8383">#8383</a>).</li>
+<li><strong>Core:</strong> A long text&#39;s name is cut at a word, not inside one (<a href="https://github.com/heygen-com/hyperframes/commit/19587337f61db60da1d7ed6c54d95b021195ac1b">19587337f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8388">#8388</a>).</li>
+<li><strong>CLI:</strong> Check reports its own deadlines as check_deadline (<a href="https://github.com/heygen-com/hyperframes/commit/d78e9a5f33fcbc549dd6d78ce4dec9e5be6c4114">d78e9a5f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8378">#8378</a>).</li>
+<li><strong>CLI:</strong> Windows kills end only the process the CLI started, never a reused pid (<a href="https://github.com/heygen-com/hyperframes/commit/93f2fcca49071184da4d0cc3c8fa095b7d817644">93f2fcca4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8382">#8382</a>).</li>
+<li><strong>Player:</strong> Stop the preview reloading itself after a quick seek, and stalling at cuts on a slower connection (<a href="https://github.com/heygen-com/hyperframes/commit/120689e3c7d13ab8efa9cad5416d162b4723d931">120689e3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8339">#8339</a>).</li>
+<li><strong>CLI:</strong> Print check and validate setup commands on their own lines (<a href="https://github.com/heygen-com/hyperframes/commit/88f7d4052dd30ae3e29e1889d68f2231da3d4983">88f7d4052</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8381">#8381</a>).</li>
+<li><strong>Studio Server:</strong> The preview file check resolves links on volumes that refuse native realpath (<a href="https://github.com/heygen-com/hyperframes/commit/40cc86252d80ebc0daaf3db373b13d339f8c13f8">40cc86252</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8377">#8377</a>).</li>
+<li><strong>CLI:</strong> Print capture setup commands on their own lines (<a href="https://github.com/heygen-com/hyperframes/commit/281f1a2a48137925d114dbd8b55e03d152bdf83d">281f1a2a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8374">#8374</a>).</li>
+<li><strong>Studio Server:</strong> An agent step waits for history&#39;s first copies, so undo brings old files back (<a href="https://github.com/heygen-com/hyperframes/commit/fbbf5ee67e86e41e10536e5088baaf886330a60c">fbbf5ee67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8375">#8375</a>).</li>
+<li><strong>Studio Server:</strong> History refusals carry a closed reason, so callers tell them from failures (<a href="https://github.com/heygen-com/hyperframes/commit/d5881e8aa67f796f851ae15a75702294ef53cc9f">d5881e8aa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8376">#8376</a>).</li>
+<li><strong>Studio Server:</strong> A timed-out history save says it may still land, so callers don&#39;t retry blindly (<a href="https://github.com/heygen-com/hyperframes/commit/6b74cfa9f5bbf01ebb0fe30420c0dab6c71f4f84">6b74cfa9f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8300">#8300</a>).</li>
+<li><strong>CLI:</strong> Read --json before the command name the same as after it (<a href="https://github.com/heygen-com/hyperframes/commit/9a618b798fcb6bb262d3709bc1de6edf2fff974b">9a618b798</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8365">#8365</a>).</li>
+<li><strong>CLI:</strong> Show control characters as text in capture, figma, usage and notice lines (<a href="https://github.com/heygen-com/hyperframes/commit/7fcc4909b442ba79918ae69d8a67416820d730f9">7fcc4909b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8366">#8366</a>).</li>
+<li><strong>Studio:</strong> Adding or removing a text field keeps the spaces between words (<a href="https://github.com/heygen-com/hyperframes/commit/e8f52dc866221ff8ffad06ce4c198d0d969aaa05">e8f52dc86</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8369">#8369</a>).</li>
+<li><strong>CLI:</strong> A received-files write waits out a held lock instead of failing on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/f74e1545c06e32b5f0c0722b4a46b7e628d04a31">f74e1545c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8367">#8367</a>).</li>
+<li><strong>CLI:</strong> A stop reads the process tree from /proc on Linux, so load cannot hide a child (<a href="https://github.com/heygen-com/hyperframes/commit/a2df08e49ebb2b2d285c0e8a7c173f953b032a9d">a2df08e49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8363">#8363</a>).</li>
+<li><strong>Engine:</strong> A capture proxy shared by many browsers no longer drops tunnels at 128 (<a href="https://github.com/heygen-com/hyperframes/commit/5e16c18b1d239f7e1225f59be5c44614a6d9d784">5e16c18b1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8362">#8362</a>).</li>
+<li><strong>CLI:</strong> Show control characters as text in init, skills and render printed lines (<a href="https://github.com/heygen-com/hyperframes/commit/8bc73a0bd34313790bdbf6be43cf67f311800711">8bc73a0bd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8352">#8352</a>).</li>
+<li><strong>CLI:</strong> Show control characters as text in more commands&#39; printed lines (<a href="https://github.com/heygen-com/hyperframes/commit/7a1163fc98149719c636a170aad6c99e2d68a291">7a1163fc9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8353">#8353</a>).</li>
+<li><strong>Studio Server:</strong> A preview file request no longer waits on a silent drive on the event loop (<a href="https://github.com/heygen-com/hyperframes/commit/7cb605c787f4e85f66a2a46df60f8fdbe13faad6">7cb605c78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8254">#8254</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>CLI:</strong> A catalog gap report hands back a line only when every shell reads the query as text (<a href="https://github.com/heygen-com/hyperframes/commit/4145572625110706fdbc269adaca70ee5de531e8">414557262</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8373">#8373</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The probe-cache snapshot test asks 16 times of an 8 s clip, not 40 of 20 s (<a href="https://github.com/heygen-com/hyperframes/commit/c7a6c9315bf1237bce715471cde268b32a21bb0b">c7a6c9315</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8390">#8390</a>).</li>
+<li><strong>Lint:</strong> Linear scans are held to characters read and one coarse time bound (<a href="https://github.com/heygen-com/hyperframes/commit/e0d84403096c7b4d77c55448087251e9ffd3f44a">e0d844030</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8386">#8386</a>).</li>
+<li><strong>Studio:</strong> The marquee-past-the-cap check waits as long as the frame takes to answer (<a href="https://github.com/heygen-com/hyperframes/commit/b0d9f3615984e6e88c2d6b4dae862fbde2004da1">b0d9f3615</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7757">#7757</a>).</li>
+<li><strong>Studio Server:</strong> A held-file edit is checked for blocking waits, not wall-clock gaps (<a href="https://github.com/heygen-com/hyperframes/commit/29a5003eebdd1a1a01e4d1a4e3f375da93b078ab">29a5003ee</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8236">#8236</a>).</li>
+<li><strong>Studio Server:</strong> A held save proves it never sleeps the thread, not a 100 ms stall bound (<a href="https://github.com/heygen-com/hyperframes/commit/ba81f67930cce689b1444c03dc3a4c0dbf13e97b">ba81f6793</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8359">#8359</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li><strong>CLI:</strong> The proxy fix and its Node.js 22.19 floor came out again before this release; they ship in v0.10.0 (<a href="https://github.com/heygen-com/hyperframes/commit/29603197498c32d37f76a5de07498fc555fa515b">296031974</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8311">#8311</a>, <a href="https://github.com/heygen-com/hyperframes/commit/66156bf35ebecfe0075d3d01405773ab2792a6f0">66156bf35</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8391">#8391</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.77...v0.9.78">https://github.com/heygen-com/hyperframes/compare/v0.9.77...v0.9.78</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.77]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.77</link>
