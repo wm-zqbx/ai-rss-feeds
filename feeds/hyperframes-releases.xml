@@ -4,11 +4,119 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 20 Nov 2026 04:01:26 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Nov 2026 23:15:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.73]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.73</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.73</guid>
+            <pubDate>Fri, 20 Nov 2026 23:15:35 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.73</h1>
+<p>Released on 2026-11-20.</p>
+<p>Preview copies of long clips with sound finish again, so their footage no longer shows black. Saving history on a drive that stops answering no longer freezes the app, and sealed films show when their timeline arrives late.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Paste refuses an element with an event handler or a script link (<a href="https://github.com/heygen-com/hyperframes/commit/7b2c6dc1ad7aaf49d72d023d0e6b0d3f537143a9">7b2c6dc1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8298">#8298</a>).</li>
+<li><strong>Studio:</strong> The first edit of a film without ids no longer reloads the preview (<a href="https://github.com/heygen-com/hyperframes/commit/99fcdfb5c1de5d17bd1e848e9ae5d7b4450ff7c8">99fcdfb5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8274">#8274</a>).</li>
+<li><strong>Producer:</strong> Reserve each font&#39;s inline size before reading it (<a href="https://github.com/heygen-com/hyperframes/commit/8ad346357590d215cb426815969b6d058ea1c9e9">8ad346357</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8302">#8302</a>).</li>
+<li><strong>Producer:</strong> Refuse a render whose mounts copy more than 100,000 elements (<a href="https://github.com/heygen-com/hyperframes/commit/31959db985269172f521997528a97d2a9e9c61cf">31959db98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8295">#8295</a>).</li>
+<li><strong>Studio:</strong> A timing drag moves the animation in place in a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/6cf81c66891785b56a3c88bf1033729c9dd4c5bc">6cf81c668</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8163">#8163</a>).</li>
+<li><strong>Media Use:</strong> Never write recipe files through links (<a href="https://github.com/heygen-com/hyperframes/commit/be3d218074ef051a30e41524a5fcdcd9dfc20637">be3d21807</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8257">#8257</a>).</li>
+<li><strong>Studio:</strong> A host can own the live preview&#39;s load deadline, so a slow sealed film isn&#39;t an error (<a href="https://github.com/heygen-com/hyperframes/commit/44d805c444304fb9b4e8d4f4ff8b12fcbdb32f0c">44d805c44</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8206">#8206</a>).</li>
+<li><strong>Producer:</strong> Download at most 1,000 remote assets per compile, 8 at a time (<a href="https://github.com/heygen-com/hyperframes/commit/c50ec09d28e2b1b0680d25ebab7302b07bf148b3">c50ec09d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8290">#8290</a>).</li>
+<li><strong>Producer:</strong> Pass the render&#39;s cancel to the compile&#39;s media, image and font downloads (<a href="https://github.com/heygen-com/hyperframes/commit/edd1c90a4ea05afac4bb6bf7e60604bae616f557">edd1c90a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8289">#8289</a>).</li>
+<li><strong>Share:</strong> A first share only lands on a review it created (<a href="https://github.com/heygen-com/hyperframes/commit/1d5403525d8e463be3c002edcd96931fa7f7d281">1d5403525</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8282">#8282</a>).</li>
+<li><strong>Core:</strong> Stop audio automation from crashing the preview renderer (<a href="https://github.com/heygen-com/hyperframes/commit/e3896cf08e1f084d953ae1bc480713173b5e4bc4">e3896cf08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8299">#8299</a>).</li>
+<li><strong>Producer:</strong> A remote font embeds in the page instead of warning it is missing (<a href="https://github.com/heygen-com/hyperframes/commit/2f23fbd3649c4adc5e29fb82c0ceadfd0b3587f0">2f23fbd36</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8297">#8297</a>).</li>
+<li><strong>Studio Server:</strong> Saving history on a drive that stops answering no longer freezes the app (<a href="https://github.com/heygen-com/hyperframes/commit/88c22a77f4cd7c3daa0ebbb6023181e9c8a897da">88c22a77f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8294">#8294</a>).</li>
+<li><strong>Player:</strong> A sealed film shows when its timeline arrives after the 8 s check (<a href="https://github.com/heygen-com/hyperframes/commit/58de4c783d488e564a6c1a2d3e0e493629023066">58de4c783</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8293">#8293</a>).</li>
+<li><strong>Studio:</strong> A sealed audio group&#39;s undo reads the frame&#39;s reply only in its shape (<a href="https://github.com/heygen-com/hyperframes/commit/3c735ad01cc930fab0ce4b36c559cde10e36e70c">3c735ad01</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8291">#8291</a>).</li>
+<li><strong>CLI:</strong> Preview answers unknown paths with an inert refusal, not the Studio shell (<a href="https://github.com/heygen-com/hyperframes/commit/4e3c9604572a4d5d5abdc1578964766828f04e76">4e3c96045</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8161">#8161</a>).</li>
+<li><strong>Studio:</strong> A sealed resize of a layer whose GSAP keyframes animate its width saves (<a href="https://github.com/heygen-com/hyperframes/commit/9b7be276a90d997954ad4b70f5aeae8322aea7d6">9b7be276a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8288">#8288</a>).</li>
+<li><strong>Studio:</strong> A sealed move, resize or turn takes GSAP&#39;s route when GSAP animates the layer (<a href="https://github.com/heygen-com/hyperframes/commit/468ab907ee9836e076abdd7d0e0611c475dc1271">468ab907e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8286">#8286</a>).</li>
+<li><strong>Studio:</strong> A sealed resize, move or turn typed or made by the agent shows in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/89edb0af0059fc599ec7b17c1078ab49a46d9da2">89edb0af0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8283">#8283</a>).</li>
+<li><strong>Studio:</strong> Agent tools see the film in a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/c34df57abdb02b07916aa2a26c5c1be8dcd2ac64">c34df57ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8281">#8281</a>).</li>
+<li><strong>Studio:</strong> A sealed crop lands where it was dragged (<a href="https://github.com/heygen-com/hyperframes/commit/a755e3f58588024cdbc3f698e3d7673a4760dbc2">a755e3f58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8279">#8279</a>).</li>
+<li><strong>Core:</strong> A sub-composition&#39;s script re-run keeps the preview at its playhead (<a href="https://github.com/heygen-com/hyperframes/commit/33272097272eeda1b082879a2d79f38a9e47526b">332720972</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8276">#8276</a>).</li>
+<li><strong>Core:</strong> A redo in a sealed preview puts Studio&#39;s edit marks back in place (<a href="https://github.com/heygen-com/hyperframes/commit/95a8a91b5ea28ec21ac638aa69cd43b3a8c46cea">95a8a91b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8264">#8264</a>).</li>
+<li><strong>Core:</strong> Split a rule&#39;s selector list once when rewriting svg id references (<a href="https://github.com/heygen-com/hyperframes/commit/fbbbfe0587bb27f6738b7a697c11914caaa9a39c">fbbbfe058</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8275">#8275</a>).</li>
+<li><strong>Studio Server:</strong> Preview copies of long clips with sound finish again (<a href="https://github.com/heygen-com/hyperframes/commit/07928702f8b3e3f59c75594e759df84443896890">07928702f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8253">#8253</a>).</li>
+<li><strong>Media Use:</strong> Remove only the temp folders media-use made, and never fail on cleanup (<a href="https://github.com/heygen-com/hyperframes/commit/e16c681dc07d360a9cf42e2ab77d827196a29883">e16c681dc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8267">#8267</a>).</li>
+<li><strong>Core:</strong> Check svg id scopes against excluded roots in one ancestor walk (<a href="https://github.com/heygen-com/hyperframes/commit/026bff07d60edecbbc33045490511d1d948e6950">026bff07d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8273">#8273</a>).</li>
+<li><strong>Share:</strong> Ask before sharing from Studio and bind each action to the confirmed review (<a href="https://github.com/heygen-com/hyperframes/commit/2c3427089cb0afd262c77f1d07617daa10b57662">2c3427089</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8268">#8268</a>).</li>
+<li><strong>Studio:</strong> A video with no size of its own keeps its file&#39;s size while a lighter copy plays (<a href="https://github.com/heygen-com/hyperframes/commit/ce0932e047dbea6de40a68d16db9d2fa6cd6b66c">ce0932e04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8233">#8233</a>).</li>
+<li><strong>Studio:</strong> A sealed preview turns a rotated element live and saves the turn on its own route (<a href="https://github.com/heygen-com/hyperframes/commit/fdc7d676c49bfc6e084e46f8ae0e08aa3e019cb5">fdc7d676c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8271">#8271</a>).</li>
+<li><strong>Studio:</strong> A sealed undo or redo of a keyframe edit re-runs in place instead of reloading (<a href="https://github.com/heygen-com/hyperframes/commit/4fd96e3533365e89ca1700cf9d1ab5501ea93a08">4fd96e353</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8272">#8272</a>).</li>
+<li><strong>Studio:</strong> A sealed preview&#39;s timeline names each file by its project path (<a href="https://github.com/heygen-com/hyperframes/commit/a8884522f439ffea720890125a4d235e3bb434f3">a8884522f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8213">#8213</a>).</li>
+<li><strong>Studio:</strong> A sealed preview&#39;s failed reload says only what the preview reported (<a href="https://github.com/heygen-com/hyperframes/commit/f13969f13fd7748160d250d6dff769029dcbbacc">f13969f13</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8194">#8194</a>).</li>
+<li><strong>Engine:</strong> Bound the seek-index rebuild&#39;s temp copy (<a href="https://github.com/heygen-com/hyperframes/commit/fab75fb9160d8bdf88c62d1713a0ccedd855364d">fab75fb91</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8269">#8269</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Render:</strong> Name the 100,000-element limit beside the mount limits (<a href="https://github.com/heygen-com/hyperframes/commit/d6411daacfd7c1a7702522b7992b87039e18ac59">d6411daac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8309">#8309</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> A test chrome launch that fails with a non-error names what it holds (<a href="https://github.com/heygen-com/hyperframes/commit/0ecb6671f14caf0036754d1f2db280db624dc058">0ecb6671f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8305">#8305</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.72...v0.9.73">https://github.com/heygen-com/hyperframes/compare/v0.9.72...v0.9.73</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.73</h1>
+<p>Released on 2026-11-20.</p>
+<p>Preview copies of long clips with sound finish again, so their footage no longer shows black. Saving history on a drive that stops answering no longer freezes the app, and sealed films show when their timeline arrives late.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Paste refuses an element with an event handler or a script link (<a href="https://github.com/heygen-com/hyperframes/commit/7b2c6dc1ad7aaf49d72d023d0e6b0d3f537143a9">7b2c6dc1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8298">#8298</a>).</li>
+<li><strong>Studio:</strong> The first edit of a film without ids no longer reloads the preview (<a href="https://github.com/heygen-com/hyperframes/commit/99fcdfb5c1de5d17bd1e848e9ae5d7b4450ff7c8">99fcdfb5c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8274">#8274</a>).</li>
+<li><strong>Producer:</strong> Reserve each font&#39;s inline size before reading it (<a href="https://github.com/heygen-com/hyperframes/commit/8ad346357590d215cb426815969b6d058ea1c9e9">8ad346357</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8302">#8302</a>).</li>
+<li><strong>Producer:</strong> Refuse a render whose mounts copy more than 100,000 elements (<a href="https://github.com/heygen-com/hyperframes/commit/31959db985269172f521997528a97d2a9e9c61cf">31959db98</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8295">#8295</a>).</li>
+<li><strong>Studio:</strong> A timing drag moves the animation in place in a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/6cf81c66891785b56a3c88bf1033729c9dd4c5bc">6cf81c668</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8163">#8163</a>).</li>
+<li><strong>Media Use:</strong> Never write recipe files through links (<a href="https://github.com/heygen-com/hyperframes/commit/be3d218074ef051a30e41524a5fcdcd9dfc20637">be3d21807</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8257">#8257</a>).</li>
+<li><strong>Studio:</strong> A host can own the live preview&#39;s load deadline, so a slow sealed film isn&#39;t an error (<a href="https://github.com/heygen-com/hyperframes/commit/44d805c444304fb9b4e8d4f4ff8b12fcbdb32f0c">44d805c44</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8206">#8206</a>).</li>
+<li><strong>Producer:</strong> Download at most 1,000 remote assets per compile, 8 at a time (<a href="https://github.com/heygen-com/hyperframes/commit/c50ec09d28e2b1b0680d25ebab7302b07bf148b3">c50ec09d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8290">#8290</a>).</li>
+<li><strong>Producer:</strong> Pass the render&#39;s cancel to the compile&#39;s media, image and font downloads (<a href="https://github.com/heygen-com/hyperframes/commit/edd1c90a4ea05afac4bb6bf7e60604bae616f557">edd1c90a4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8289">#8289</a>).</li>
+<li><strong>Share:</strong> A first share only lands on a review it created (<a href="https://github.com/heygen-com/hyperframes/commit/1d5403525d8e463be3c002edcd96931fa7f7d281">1d5403525</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8282">#8282</a>).</li>
+<li><strong>Core:</strong> Stop audio automation from crashing the preview renderer (<a href="https://github.com/heygen-com/hyperframes/commit/e3896cf08e1f084d953ae1bc480713173b5e4bc4">e3896cf08</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8299">#8299</a>).</li>
+<li><strong>Producer:</strong> A remote font embeds in the page instead of warning it is missing (<a href="https://github.com/heygen-com/hyperframes/commit/2f23fbd3649c4adc5e29fb82c0ceadfd0b3587f0">2f23fbd36</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8297">#8297</a>).</li>
+<li><strong>Studio Server:</strong> Saving history on a drive that stops answering no longer freezes the app (<a href="https://github.com/heygen-com/hyperframes/commit/88c22a77f4cd7c3daa0ebbb6023181e9c8a897da">88c22a77f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8294">#8294</a>).</li>
+<li><strong>Player:</strong> A sealed film shows when its timeline arrives after the 8 s check (<a href="https://github.com/heygen-com/hyperframes/commit/58de4c783d488e564a6c1a2d3e0e493629023066">58de4c783</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8293">#8293</a>).</li>
+<li><strong>Studio:</strong> A sealed audio group&#39;s undo reads the frame&#39;s reply only in its shape (<a href="https://github.com/heygen-com/hyperframes/commit/3c735ad01cc930fab0ce4b36c559cde10e36e70c">3c735ad01</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8291">#8291</a>).</li>
+<li><strong>CLI:</strong> Preview answers unknown paths with an inert refusal, not the Studio shell (<a href="https://github.com/heygen-com/hyperframes/commit/4e3c9604572a4d5d5abdc1578964766828f04e76">4e3c96045</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8161">#8161</a>).</li>
+<li><strong>Studio:</strong> A sealed resize of a layer whose GSAP keyframes animate its width saves (<a href="https://github.com/heygen-com/hyperframes/commit/9b7be276a90d997954ad4b70f5aeae8322aea7d6">9b7be276a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8288">#8288</a>).</li>
+<li><strong>Studio:</strong> A sealed move, resize or turn takes GSAP&#39;s route when GSAP animates the layer (<a href="https://github.com/heygen-com/hyperframes/commit/468ab907ee9836e076abdd7d0e0611c475dc1271">468ab907e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8286">#8286</a>).</li>
+<li><strong>Studio:</strong> A sealed resize, move or turn typed or made by the agent shows in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/89edb0af0059fc599ec7b17c1078ab49a46d9da2">89edb0af0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8283">#8283</a>).</li>
+<li><strong>Studio:</strong> Agent tools see the film in a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/c34df57abdb02b07916aa2a26c5c1be8dcd2ac64">c34df57ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8281">#8281</a>).</li>
+<li><strong>Studio:</strong> A sealed crop lands where it was dragged (<a href="https://github.com/heygen-com/hyperframes/commit/a755e3f58588024cdbc3f698e3d7673a4760dbc2">a755e3f58</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8279">#8279</a>).</li>
+<li><strong>Core:</strong> A sub-composition&#39;s script re-run keeps the preview at its playhead (<a href="https://github.com/heygen-com/hyperframes/commit/33272097272eeda1b082879a2d79f38a9e47526b">332720972</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8276">#8276</a>).</li>
+<li><strong>Core:</strong> A redo in a sealed preview puts Studio&#39;s edit marks back in place (<a href="https://github.com/heygen-com/hyperframes/commit/95a8a91b5ea28ec21ac638aa69cd43b3a8c46cea">95a8a91b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8264">#8264</a>).</li>
+<li><strong>Core:</strong> Split a rule&#39;s selector list once when rewriting svg id references (<a href="https://github.com/heygen-com/hyperframes/commit/fbbbfe0587bb27f6738b7a697c11914caaa9a39c">fbbbfe058</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8275">#8275</a>).</li>
+<li><strong>Studio Server:</strong> Preview copies of long clips with sound finish again (<a href="https://github.com/heygen-com/hyperframes/commit/07928702f8b3e3f59c75594e759df84443896890">07928702f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8253">#8253</a>).</li>
+<li><strong>Media Use:</strong> Remove only the temp folders media-use made, and never fail on cleanup (<a href="https://github.com/heygen-com/hyperframes/commit/e16c681dc07d360a9cf42e2ab77d827196a29883">e16c681dc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8267">#8267</a>).</li>
+<li><strong>Core:</strong> Check svg id scopes against excluded roots in one ancestor walk (<a href="https://github.com/heygen-com/hyperframes/commit/026bff07d60edecbbc33045490511d1d948e6950">026bff07d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8273">#8273</a>).</li>
+<li><strong>Share:</strong> Ask before sharing from Studio and bind each action to the confirmed review (<a href="https://github.com/heygen-com/hyperframes/commit/2c3427089cb0afd262c77f1d07617daa10b57662">2c3427089</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8268">#8268</a>).</li>
+<li><strong>Studio:</strong> A video with no size of its own keeps its file&#39;s size while a lighter copy plays (<a href="https://github.com/heygen-com/hyperframes/commit/ce0932e047dbea6de40a68d16db9d2fa6cd6b66c">ce0932e04</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8233">#8233</a>).</li>
+<li><strong>Studio:</strong> A sealed preview turns a rotated element live and saves the turn on its own route (<a href="https://github.com/heygen-com/hyperframes/commit/fdc7d676c49bfc6e084e46f8ae0e08aa3e019cb5">fdc7d676c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8271">#8271</a>).</li>
+<li><strong>Studio:</strong> A sealed undo or redo of a keyframe edit re-runs in place instead of reloading (<a href="https://github.com/heygen-com/hyperframes/commit/4fd96e3533365e89ca1700cf9d1ab5501ea93a08">4fd96e353</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8272">#8272</a>).</li>
+<li><strong>Studio:</strong> A sealed preview&#39;s timeline names each file by its project path (<a href="https://github.com/heygen-com/hyperframes/commit/a8884522f439ffea720890125a4d235e3bb434f3">a8884522f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8213">#8213</a>).</li>
+<li><strong>Studio:</strong> A sealed preview&#39;s failed reload says only what the preview reported (<a href="https://github.com/heygen-com/hyperframes/commit/f13969f13fd7748160d250d6dff769029dcbbacc">f13969f13</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8194">#8194</a>).</li>
+<li><strong>Engine:</strong> Bound the seek-index rebuild&#39;s temp copy (<a href="https://github.com/heygen-com/hyperframes/commit/fab75fb9160d8bdf88c62d1713a0ccedd855364d">fab75fb91</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8269">#8269</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Render:</strong> Name the 100,000-element limit beside the mount limits (<a href="https://github.com/heygen-com/hyperframes/commit/d6411daacfd7c1a7702522b7992b87039e18ac59">d6411daac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8309">#8309</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> A test chrome launch that fails with a non-error names what it holds (<a href="https://github.com/heygen-com/hyperframes/commit/0ecb6671f14caf0036754d1f2db280db624dc058">0ecb6671f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8305">#8305</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.72...v0.9.73">https://github.com/heygen-com/hyperframes/compare/v0.9.72...v0.9.73</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.72]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.72</link>
@@ -2695,40 +2803,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.26...v0.9.27">https://github.com/heygen-com/hyperframes/compare/v0.9.26...v0.9.27</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.26]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.26</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.26</guid>
-            <pubDate>Mon, 09 Nov 2026 00:05:05 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.26</h1>
-<p>Released on 2026-11-08.</p>
-<p>Cloud renders now find media whose file names have accents, even when macOS stores the name differently from the page. A large project&#39;s first history copy is also much faster.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Cloud render finds media whose file name is stored in another Unicode form than the page&#39;s (<a href="https://github.com/heygen-com/hyperframes/commit/91ad7fb6ee3fb4d0098385abdea64a1d5acd0dfd">91ad7fb6e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7419">#7419</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio Server:</strong> A large project&#39;s first history copy takes a fraction of the time (<a href="https://github.com/heygen-com/hyperframes/commit/2927fe615581f03258205a876fada7d6f3111dc8">2927fe615</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7415">#7415</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.25...v0.9.26">https://github.com/heygen-com/hyperframes/compare/v0.9.25...v0.9.26</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.26</h1>
-<p>Released on 2026-11-08.</p>
-<p>Cloud renders now find media whose file names have accents, even when macOS stores the name differently from the page. A large project&#39;s first history copy is also much faster.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>CLI:</strong> Cloud render finds media whose file name is stored in another Unicode form than the page&#39;s (<a href="https://github.com/heygen-com/hyperframes/commit/91ad7fb6ee3fb4d0098385abdea64a1d5acd0dfd">91ad7fb6e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7419">#7419</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Studio Server:</strong> A large project&#39;s first history copy takes a fraction of the time (<a href="https://github.com/heygen-com/hyperframes/commit/2927fe615581f03258205a876fada7d6f3111dc8">2927fe615</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7415">#7415</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.25...v0.9.26">https://github.com/heygen-com/hyperframes/compare/v0.9.25...v0.9.26</a></p>
 ]]></content:encoded>
         </item>
     </channel>
