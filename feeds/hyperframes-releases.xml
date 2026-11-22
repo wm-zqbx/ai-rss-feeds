@@ -4,11 +4,81 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Sat, 21 Nov 2026 22:37:11 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 22 Nov 2026 02:16:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.80]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.80</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.80</guid>
+            <pubDate>Sun, 22 Nov 2026 02:16:32 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.80</h1>
+<p>Released on 2026-11-22.</p>
+<p>Dropping a clip onto main-track clips can now insert it there. Studio previews match the export more closely, and a drive that stops answering no longer stalls a project.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Dropping a clip onto main-track clips can insert it there (<a href="https://github.com/heygen-com/hyperframes/commit/08bd7fc126b1ae158bc9503672acbd88099c9cab">08bd7fc12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8397">#8397</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> An asset download fails once when the egress proxy drops its tunnel (<a href="https://github.com/heygen-com/hyperframes/commit/da1476e48d701d89187f8236ca9f4fc6b9e12158">da1476e48</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8417">#8417</a>).</li>
+<li><strong>Studio:</strong> An insert on drop never lets linked partners overlap or start before 0 (<a href="https://github.com/heygen-com/hyperframes/commit/8929d116499e10f06622c701ef54d31637c3aef5">8929d1164</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8416">#8416</a>).</li>
+<li><strong>Studio:</strong> A refused delete no longer brings back another delete still saving (<a href="https://github.com/heygen-com/hyperframes/commit/c1f4a193a9e3e72776a1433ba72298f5d38237d4">c1f4a193a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8413">#8413</a>).</li>
+<li><strong>Engine:</strong> A capture proxy request whose name will not resolve is reported as failed (<a href="https://github.com/heygen-com/hyperframes/commit/75c83d87723595b07a058c504efefca1c6be0170">75c83d877</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8409">#8409</a>).</li>
+<li><strong>Studio:</strong> A sealed undo of a GSAP-animated layer&#39;s style shows in place (<a href="https://github.com/heygen-com/hyperframes/commit/c3a67399039ce87adaf2e78d4f7acf6e9a46f20a">c3a673990</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8320">#8320</a>).</li>
+<li><strong>Media Use:</strong> A project manifest&#39;s provider claim never writes a sound credit (<a href="https://github.com/heygen-com/hyperframes/commit/ec1839e4a17925d9c04dce5bfd5153b4f3ca8a27">ec1839e4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8410">#8410</a>).</li>
+<li><strong>Studio Server:</strong> A file the drive never answers no longer holds a project&#39;s first history copy (<a href="https://github.com/heygen-com/hyperframes/commit/267ffc46c990e18246f964e8f96bd50a10784707">267ffc46c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8187">#8187</a>).</li>
+<li><strong>Studio:</strong> Fx badges in a sealed preview show the clip&#39;s look, crop and duck (<a href="https://github.com/heygen-com/hyperframes/commit/8a69ea039594d2eb353b7be40ba5b430c854faec">8a69ea039</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8411">#8411</a>).</li>
+<li><strong>Studio:</strong> A paused untagged video shows the colours the export renders (<a href="https://github.com/heygen-com/hyperframes/commit/71907274a7aa0710717db15bec4ec1ab7b7fe8ee">71907274a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8405">#8405</a>).</li>
+<li><strong>CLI:</strong> Show copy file names in check progress lines as visible text (<a href="https://github.com/heygen-com/hyperframes/commit/4a5a5eb27e643a2b9daf3cceab95607c32558324">4a5a5eb27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8407">#8407</a>).</li>
+<li><strong>Studio:</strong> A delete and its ripple shift save as one edit (<a href="https://github.com/heygen-com/hyperframes/commit/7ec38388bf9066bdf33d87ac4cd15c63c96068d5">7ec38388b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8404">#8404</a>).</li>
+<li><strong>Studio:</strong> The poster rendered for the next open no longer delays a clip&#39;s picture (<a href="https://github.com/heygen-com/hyperframes/commit/da46c89e2a0b8d3427cf291b0ee1531d695e74c8">da46c89e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8400">#8400</a>).</li>
+<li><strong>Studio Server:</strong> A file the drive never answers no longer holds a project&#39;s first copy (<a href="https://github.com/heygen-com/hyperframes/commit/71dc6f2fe1fdbd797ea72c35a420f649ba88a905">71dc6f2fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8403">#8403</a>).</li>
+<li><strong>CLI:</strong> The compile cache lives only in the private HyperFrames cache folder (<a href="https://github.com/heygen-com/hyperframes/commit/8127bb8856d51df14764224c234427d66bbe0642">8127bb885</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8401">#8401</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> The frame-tag checks get the time a real encode needs (<a href="https://github.com/heygen-com/hyperframes/commit/2b4706f193c6d42a9bfa630d8f0e009aaa3c4b1d">2b4706f19</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8415">#8415</a>).</li>
+<li><strong>Studio Server:</strong> The Windows workflow fails when the link tests cannot run (<a href="https://github.com/heygen-com/hyperframes/commit/b008e37b46148b4baebe6e11d72a6b9801a289ea">b008e37b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8395">#8395</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.79...v0.9.80">https://github.com/heygen-com/hyperframes/compare/v0.9.79...v0.9.80</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.80</h1>
+<p>Released on 2026-11-22.</p>
+<p>Dropping a clip onto main-track clips can now insert it there. Studio previews match the export more closely, and a drive that stops answering no longer stalls a project.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Dropping a clip onto main-track clips can insert it there (<a href="https://github.com/heygen-com/hyperframes/commit/08bd7fc126b1ae158bc9503672acbd88099c9cab">08bd7fc12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8397">#8397</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Engine:</strong> An asset download fails once when the egress proxy drops its tunnel (<a href="https://github.com/heygen-com/hyperframes/commit/da1476e48d701d89187f8236ca9f4fc6b9e12158">da1476e48</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8417">#8417</a>).</li>
+<li><strong>Studio:</strong> An insert on drop never lets linked partners overlap or start before 0 (<a href="https://github.com/heygen-com/hyperframes/commit/8929d116499e10f06622c701ef54d31637c3aef5">8929d1164</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8416">#8416</a>).</li>
+<li><strong>Studio:</strong> A refused delete no longer brings back another delete still saving (<a href="https://github.com/heygen-com/hyperframes/commit/c1f4a193a9e3e72776a1433ba72298f5d38237d4">c1f4a193a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8413">#8413</a>).</li>
+<li><strong>Engine:</strong> A capture proxy request whose name will not resolve is reported as failed (<a href="https://github.com/heygen-com/hyperframes/commit/75c83d87723595b07a058c504efefca1c6be0170">75c83d877</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8409">#8409</a>).</li>
+<li><strong>Studio:</strong> A sealed undo of a GSAP-animated layer&#39;s style shows in place (<a href="https://github.com/heygen-com/hyperframes/commit/c3a67399039ce87adaf2e78d4f7acf6e9a46f20a">c3a673990</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8320">#8320</a>).</li>
+<li><strong>Media Use:</strong> A project manifest&#39;s provider claim never writes a sound credit (<a href="https://github.com/heygen-com/hyperframes/commit/ec1839e4a17925d9c04dce5bfd5153b4f3ca8a27">ec1839e4a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8410">#8410</a>).</li>
+<li><strong>Studio Server:</strong> A file the drive never answers no longer holds a project&#39;s first history copy (<a href="https://github.com/heygen-com/hyperframes/commit/267ffc46c990e18246f964e8f96bd50a10784707">267ffc46c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8187">#8187</a>).</li>
+<li><strong>Studio:</strong> Fx badges in a sealed preview show the clip&#39;s look, crop and duck (<a href="https://github.com/heygen-com/hyperframes/commit/8a69ea039594d2eb353b7be40ba5b430c854faec">8a69ea039</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8411">#8411</a>).</li>
+<li><strong>Studio:</strong> A paused untagged video shows the colours the export renders (<a href="https://github.com/heygen-com/hyperframes/commit/71907274a7aa0710717db15bec4ec1ab7b7fe8ee">71907274a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8405">#8405</a>).</li>
+<li><strong>CLI:</strong> Show copy file names in check progress lines as visible text (<a href="https://github.com/heygen-com/hyperframes/commit/4a5a5eb27e643a2b9daf3cceab95607c32558324">4a5a5eb27</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8407">#8407</a>).</li>
+<li><strong>Studio:</strong> A delete and its ripple shift save as one edit (<a href="https://github.com/heygen-com/hyperframes/commit/7ec38388bf9066bdf33d87ac4cd15c63c96068d5">7ec38388b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8404">#8404</a>).</li>
+<li><strong>Studio:</strong> The poster rendered for the next open no longer delays a clip&#39;s picture (<a href="https://github.com/heygen-com/hyperframes/commit/da46c89e2a0b8d3427cf291b0ee1531d695e74c8">da46c89e2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8400">#8400</a>).</li>
+<li><strong>Studio Server:</strong> A file the drive never answers no longer holds a project&#39;s first copy (<a href="https://github.com/heygen-com/hyperframes/commit/71dc6f2fe1fdbd797ea72c35a420f649ba88a905">71dc6f2fe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8403">#8403</a>).</li>
+<li><strong>CLI:</strong> The compile cache lives only in the private HyperFrames cache folder (<a href="https://github.com/heygen-com/hyperframes/commit/8127bb8856d51df14764224c234427d66bbe0642">8127bb885</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8401">#8401</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Engine:</strong> The frame-tag checks get the time a real encode needs (<a href="https://github.com/heygen-com/hyperframes/commit/2b4706f193c6d42a9bfa630d8f0e009aaa3c4b1d">2b4706f19</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8415">#8415</a>).</li>
+<li><strong>Studio Server:</strong> The Windows workflow fails when the link tests cannot run (<a href="https://github.com/heygen-com/hyperframes/commit/b008e37b46148b4baebe6e11d72a6b9801a289ea">b008e37b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8395">#8395</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.79...v0.9.80">https://github.com/heygen-com/hyperframes/compare/v0.9.79...v0.9.80</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.79]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.79</link>
@@ -2971,52 +3041,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.28...v0.9.29">https://github.com/heygen-com/hyperframes/compare/v0.9.28...v0.9.29</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.28]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.28</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.28</guid>
-            <pubDate>Tue, 10 Nov 2026 02:23:20 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.28</h1>
-<p>Released on 2026-11-10.</p>
-<p>A piped render now reports how its motion blur went. Short clips from Apple-encoded videos keep their last frame.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> A piped render&#39;s <code>@hf-result</code> line now carries the motion blur outcome (tier, movers, failed frames), so a host app can report it (<a href="https://github.com/heygen-com/hyperframes/commit/651de1d948b0f619001e3705cba98fa415baf0dd">651de1d94</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7468">#7468</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Short clips from Apple-encoded videos keep their last frame (<a href="https://github.com/heygen-com/hyperframes/commit/4d0fa2baa85d821a8b13c04225138480e02ebe1d">4d0fa2baa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7469">#7469</a>).</li>
-<li><strong>Share:</strong> Preserve re-invites and validate workspace responses (<a href="https://github.com/heygen-com/hyperframes/commit/58e9cae7520c057914249fc60477421727b4386f">58e9cae75</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7470">#7470</a>).</li>
-<li><strong>Player:</strong> Unload the video when its src is cleared (<a href="https://github.com/heygen-com/hyperframes/commit/e5e79e59ea63f92696fda39e18b89467d554d0d4">e5e79e59e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7466">#7466</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Studio App:</strong> Cloud exports come with the plan, not only an API key (<a href="https://github.com/heygen-com/hyperframes/commit/756bd6b174dea149b08011012c1e530017d08299">756bd6b17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7441">#7441</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.27...v0.9.28">https://github.com/heygen-com/hyperframes/compare/v0.9.27...v0.9.28</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.28</h1>
-<p>Released on 2026-11-10.</p>
-<p>A piped render now reports how its motion blur went. Short clips from Apple-encoded videos keep their last frame.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>CLI:</strong> A piped render&#39;s <code>@hf-result</code> line now carries the motion blur outcome (tier, movers, failed frames), so a host app can report it (<a href="https://github.com/heygen-com/hyperframes/commit/651de1d948b0f619001e3705cba98fa415baf0dd">651de1d94</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7468">#7468</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Short clips from Apple-encoded videos keep their last frame (<a href="https://github.com/heygen-com/hyperframes/commit/4d0fa2baa85d821a8b13c04225138480e02ebe1d">4d0fa2baa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7469">#7469</a>).</li>
-<li><strong>Share:</strong> Preserve re-invites and validate workspace responses (<a href="https://github.com/heygen-com/hyperframes/commit/58e9cae7520c057914249fc60477421727b4386f">58e9cae75</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7470">#7470</a>).</li>
-<li><strong>Player:</strong> Unload the video when its src is cleared (<a href="https://github.com/heygen-com/hyperframes/commit/e5e79e59ea63f92696fda39e18b89467d554d0d4">e5e79e59e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7466">#7466</a>).</li>
-</ul>
-<h2>Docs &amp; Examples</h2>
-<ul>
-<li><strong>Studio App:</strong> Cloud exports come with the plan, not only an API key (<a href="https://github.com/heygen-com/hyperframes/commit/756bd6b174dea149b08011012c1e530017d08299">756bd6b17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7441">#7441</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.27...v0.9.28">https://github.com/heygen-com/hyperframes/compare/v0.9.27...v0.9.28</a></p>
 ]]></content:encoded>
         </item>
     </channel>
