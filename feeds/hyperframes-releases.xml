@@ -4,11 +4,83 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Mon, 23 Nov 2026 09:47:32 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Nov 2026 15:36:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.86]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.86</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.86</guid>
+            <pubDate>Mon, 23 Nov 2026 15:36:04 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.86</h1>
+<p>Released on 2026-11-23.</p>
+<p>A save during an import keeps its own undo step, and full-size stills count their real memory, so the cache frees them. Text on a sealed preview can now be edited in place, and sealed recordings move the layer live.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Edit text in place on a sealed preview&#39;s canvas (<a href="https://github.com/heygen-com/hyperframes/commit/8d2783561f4eb3038a2b6305cc9f160651834a12">8d2783561</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8183">#8183</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A sealed gesture recording moves the layer live in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/c0753d2ad6beb46ab097b9a598d9408f8070c113">c0753d2ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8592">#8592</a>).</li>
+<li><strong>Lint:</strong> Read each linked file once and stop at one page&#39;s size limit (<a href="https://github.com/heygen-com/hyperframes/commit/70d547cace34c0107c4519f6e8d3df82cae828ac">70d547cac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8579">#8579</a>).</li>
+<li><strong>Studio:</strong> A cancelled media read is not retried or logged as a failed fetch (<a href="https://github.com/heygen-com/hyperframes/commit/112e52c3c5bfd6e41f7616e7ddd0616684bcc146">112e52c3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8589">#8589</a>).</li>
+<li><strong>Studio Server:</strong> A save asked to be recorded keeps its own undo step beside an import (<a href="https://github.com/heygen-com/hyperframes/commit/5409387218cc0e695552f8a5dccac93484dc32c0">540938721</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8585">#8585</a>).</li>
+<li><strong>Studio:</strong> Keep a sealed drag&#39;s waiting outline until the frame draws its replay (<a href="https://github.com/heygen-com/hyperframes/commit/2cc423b3c63d682915ac7533da24afdd6af279d2">2cc423b3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8588">#8588</a>).</li>
+<li><strong>Studio:</strong> A sealed gesture recording keeps the layer&#39;s offset and the film&#39;s scale (<a href="https://github.com/heygen-com/hyperframes/commit/40ce145f27afc70f38e50199ba07cc298dfa4baa">40ce145f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8568">#8568</a>).</li>
+<li><strong>CLI:</strong> A cloud upload leaves out a file it cannot read instead of failing (<a href="https://github.com/heygen-com/hyperframes/commit/76a6bacdf748605bfe8cd36bf6eafaa3c09d92f8">76a6bacdf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8575">#8575</a>).</li>
+<li><strong>Studio:</strong> Full-size composition stills count their real memory, so the cache lets them go (<a href="https://github.com/heygen-com/hyperframes/commit/e238ab7fa9bcf8f274027c209e06f0630bc112fd">e238ab7fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8576">#8576</a>).</li>
+<li><strong>Core:</strong> Count copied stylesheets and scene scripts toward a bundle&#39;s size limit (<a href="https://github.com/heygen-com/hyperframes/commit/96abfaf0d01e67ed94f0149a99d8795b67fa79e0">96abfaf0d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8573">#8573</a>).</li>
+<li><strong>Studio:</strong> A delete&#39;s toast names the undo key, as the ripple toast does (<a href="https://github.com/heygen-com/hyperframes/commit/871333e80215dc460fe46d6f01083d85c2e0da3b">871333e80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8571">#8571</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Describe the team descriptor in prose, not as a citation (<a href="https://github.com/heygen-com/hyperframes/commit/c451acae33789969c2f0e19774ea9df07a7100bc">c451acae3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8525">#8525</a>).</li>
+<li><strong>AWS Lambda:</strong> Build the audio sidecar test&#39;s large video in well under a second (<a href="https://github.com/heygen-com/hyperframes/commit/646157c34728327cd8640e659b60bc70d04abd55">646157c34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8586">#8586</a>).</li>
+<li><strong>Studio:</strong> Measure a sealed press by the element until the pointer moves (<a href="https://github.com/heygen-com/hyperframes/commit/2ce48f150236ea635a510e6d783460122367c086">2ce48f150</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8582">#8582</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li>Revert &quot;test(studio): measure a sealed press by the element until the pointer moves (#8582)&quot; (<a href="https://github.com/heygen-com/hyperframes/commit/ceaba36390d54e4459153b58f875bcb5a555955b">ceaba3639</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8591">#8591</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.85...v0.9.86">https://github.com/heygen-com/hyperframes/compare/v0.9.85...v0.9.86</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.86</h1>
+<p>Released on 2026-11-23.</p>
+<p>A save during an import keeps its own undo step, and full-size stills count their real memory, so the cache frees them. Text on a sealed preview can now be edited in place, and sealed recordings move the layer live.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Edit text in place on a sealed preview&#39;s canvas (<a href="https://github.com/heygen-com/hyperframes/commit/8d2783561f4eb3038a2b6305cc9f160651834a12">8d2783561</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8183">#8183</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A sealed gesture recording moves the layer live in the preview (<a href="https://github.com/heygen-com/hyperframes/commit/c0753d2ad6beb46ab097b9a598d9408f8070c113">c0753d2ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8592">#8592</a>).</li>
+<li><strong>Lint:</strong> Read each linked file once and stop at one page&#39;s size limit (<a href="https://github.com/heygen-com/hyperframes/commit/70d547cace34c0107c4519f6e8d3df82cae828ac">70d547cac</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8579">#8579</a>).</li>
+<li><strong>Studio:</strong> A cancelled media read is not retried or logged as a failed fetch (<a href="https://github.com/heygen-com/hyperframes/commit/112e52c3c5bfd6e41f7616e7ddd0616684bcc146">112e52c3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8589">#8589</a>).</li>
+<li><strong>Studio Server:</strong> A save asked to be recorded keeps its own undo step beside an import (<a href="https://github.com/heygen-com/hyperframes/commit/5409387218cc0e695552f8a5dccac93484dc32c0">540938721</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8585">#8585</a>).</li>
+<li><strong>Studio:</strong> Keep a sealed drag&#39;s waiting outline until the frame draws its replay (<a href="https://github.com/heygen-com/hyperframes/commit/2cc423b3c63d682915ac7533da24afdd6af279d2">2cc423b3c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8588">#8588</a>).</li>
+<li><strong>Studio:</strong> A sealed gesture recording keeps the layer&#39;s offset and the film&#39;s scale (<a href="https://github.com/heygen-com/hyperframes/commit/40ce145f27afc70f38e50199ba07cc298dfa4baa">40ce145f2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8568">#8568</a>).</li>
+<li><strong>CLI:</strong> A cloud upload leaves out a file it cannot read instead of failing (<a href="https://github.com/heygen-com/hyperframes/commit/76a6bacdf748605bfe8cd36bf6eafaa3c09d92f8">76a6bacdf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8575">#8575</a>).</li>
+<li><strong>Studio:</strong> Full-size composition stills count their real memory, so the cache lets them go (<a href="https://github.com/heygen-com/hyperframes/commit/e238ab7fa9bcf8f274027c209e06f0630bc112fd">e238ab7fa</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8576">#8576</a>).</li>
+<li><strong>Core:</strong> Count copied stylesheets and scene scripts toward a bundle&#39;s size limit (<a href="https://github.com/heygen-com/hyperframes/commit/96abfaf0d01e67ed94f0149a99d8795b67fa79e0">96abfaf0d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8573">#8573</a>).</li>
+<li><strong>Studio:</strong> A delete&#39;s toast names the undo key, as the ripple toast does (<a href="https://github.com/heygen-com/hyperframes/commit/871333e80215dc460fe46d6f01083d85c2e0da3b">871333e80</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8571">#8571</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> Describe the team descriptor in prose, not as a citation (<a href="https://github.com/heygen-com/hyperframes/commit/c451acae33789969c2f0e19774ea9df07a7100bc">c451acae3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8525">#8525</a>).</li>
+<li><strong>AWS Lambda:</strong> Build the audio sidecar test&#39;s large video in well under a second (<a href="https://github.com/heygen-com/hyperframes/commit/646157c34728327cd8640e659b60bc70d04abd55">646157c34</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8586">#8586</a>).</li>
+<li><strong>Studio:</strong> Measure a sealed press by the element until the pointer moves (<a href="https://github.com/heygen-com/hyperframes/commit/2ce48f150236ea635a510e6d783460122367c086">2ce48f150</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8582">#8582</a>).</li>
+</ul>
+<h2>Other Changes</h2>
+<ul>
+<li>Revert &quot;test(studio): measure a sealed press by the element until the pointer moves (#8582)&quot; (<a href="https://github.com/heygen-com/hyperframes/commit/ceaba36390d54e4459153b58f875bcb5a555955b">ceaba3639</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8591">#8591</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.85...v0.9.86">https://github.com/heygen-com/hyperframes/compare/v0.9.85...v0.9.86</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.85]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.85</link>
@@ -3087,68 +3159,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.34...v0.9.35">https://github.com/heygen-com/hyperframes/compare/v0.9.34...v0.9.35</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.34]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.34</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.34</guid>
-            <pubDate>Wed, 11 Nov 2026 17:16:18 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.34</h1>
-<p>Released on 2026-11-11.</p>
-<p>HyperFrames now runs helper programs like FFmpeg only from where they are installed, never from a project folder. Renders can also refuse variables a page does not declare, when that check is turned on.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> With strict variables turned on, a render fails when it is given a variable the page does not declare. It is off by default, so renders are unchanged (<a href="https://github.com/heygen-com/hyperframes/commit/f312fca7e2098524af07055bdf6c20a3706d6f89">f312fca7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7548">#7548</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Load fonts and modules only in the Studio&#39;s own preview frames (<a href="https://github.com/heygen-com/hyperframes/commit/ffb13c3b62a1b8ed98fdcd835f15412d0a7ca7e6">ffb13c3b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7553">#7553</a>).</li>
-<li><strong>Skills:</strong> Plugin launcher and media helpers run the pinned CLI, not a project copy (<a href="https://github.com/heygen-com/hyperframes/commit/a8fe3a5b6844c9f1ae1a4473793eeb11dfcec627">a8fe3a5b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7552">#7552</a>).</li>
-<li><strong>CLI:</strong> Preview uses the bundled Studio unless local Studio mode is opted in (<a href="https://github.com/heygen-com/hyperframes/commit/668983e1a63efb7618049c73cf9dcad2a5977a4e">668983e1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7551">#7551</a>).</li>
-<li><strong>Security:</strong> FFmpeg, FFprobe and other helper programs are taken only from where they are installed or a path you set, never from a project folder (<a href="https://github.com/heygen-com/hyperframes/commit/84799bdc59b18f6a3df6595d8a8d1ec03dfde673">84799bdc5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7524">#7524</a>).</li>
-<li><strong>Core:</strong> Saving a file works on drives that refuse hard links with a permission error (<a href="https://github.com/heygen-com/hyperframes/commit/f36463e292f4487daef522ec9b19c2dacceb6adb">f36463e29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7474">#7474</a>).</li>
-<li><strong>Studio:</strong> Thumbnails are captured in a sealed page, and shader transitions still work where the browser blocks local storage (<a href="https://github.com/heygen-com/hyperframes/commit/80cda85d761128e121a1cef0f1378ad342472411">80cda85d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7528">#7528</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Refuse more coding-agent instruction files in registry installs (<a href="https://github.com/heygen-com/hyperframes/commit/9bab57ab48db70f3aee3376f6bb86af5f7c50583">9bab57ab4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7549">#7549</a>).</li>
-<li><strong>CLI and Studio:</strong> Registry installs and Studio file writes stay inside the project content folders (<a href="https://github.com/heygen-com/hyperframes/commit/b96c82b785ab8fbd9c030c093de9c39e5dc39342">b96c82b78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7523">#7523</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> The URL-read concurrency test passes on machines with 32 or more cores (<a href="https://github.com/heygen-com/hyperframes/commit/3ad7611f9fd36c1cef589c59b116ad7043c3b041">3ad7611f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7544">#7544</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.33...v0.9.34">https://github.com/heygen-com/hyperframes/compare/v0.9.33...v0.9.34</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.34</h1>
-<p>Released on 2026-11-11.</p>
-<p>HyperFrames now runs helper programs like FFmpeg only from where they are installed, never from a project folder. Renders can also refuse variables a page does not declare, when that check is turned on.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Producer:</strong> With strict variables turned on, a render fails when it is given a variable the page does not declare. It is off by default, so renders are unchanged (<a href="https://github.com/heygen-com/hyperframes/commit/f312fca7e2098524af07055bdf6c20a3706d6f89">f312fca7e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7548">#7548</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio Server:</strong> Load fonts and modules only in the Studio&#39;s own preview frames (<a href="https://github.com/heygen-com/hyperframes/commit/ffb13c3b62a1b8ed98fdcd835f15412d0a7ca7e6">ffb13c3b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7553">#7553</a>).</li>
-<li><strong>Skills:</strong> Plugin launcher and media helpers run the pinned CLI, not a project copy (<a href="https://github.com/heygen-com/hyperframes/commit/a8fe3a5b6844c9f1ae1a4473793eeb11dfcec627">a8fe3a5b6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7552">#7552</a>).</li>
-<li><strong>CLI:</strong> Preview uses the bundled Studio unless local Studio mode is opted in (<a href="https://github.com/heygen-com/hyperframes/commit/668983e1a63efb7618049c73cf9dcad2a5977a4e">668983e1a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7551">#7551</a>).</li>
-<li><strong>Security:</strong> FFmpeg, FFprobe and other helper programs are taken only from where they are installed or a path you set, never from a project folder (<a href="https://github.com/heygen-com/hyperframes/commit/84799bdc59b18f6a3df6595d8a8d1ec03dfde673">84799bdc5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7524">#7524</a>).</li>
-<li><strong>Core:</strong> Saving a file works on drives that refuse hard links with a permission error (<a href="https://github.com/heygen-com/hyperframes/commit/f36463e292f4487daef522ec9b19c2dacceb6adb">f36463e29</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7474">#7474</a>).</li>
-<li><strong>Studio:</strong> Thumbnails are captured in a sealed page, and shader transitions still work where the browser blocks local storage (<a href="https://github.com/heygen-com/hyperframes/commit/80cda85d761128e121a1cef0f1378ad342472411">80cda85d7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7528">#7528</a>).</li>
-</ul>
-<h2>Catalog</h2>
-<ul>
-<li><strong>CLI:</strong> Refuse more coding-agent instruction files in registry installs (<a href="https://github.com/heygen-com/hyperframes/commit/9bab57ab48db70f3aee3376f6bb86af5f7c50583">9bab57ab4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7549">#7549</a>).</li>
-<li><strong>CLI and Studio:</strong> Registry installs and Studio file writes stay inside the project content folders (<a href="https://github.com/heygen-com/hyperframes/commit/b96c82b785ab8fbd9c030c093de9c39e5dc39342">b96c82b78</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7523">#7523</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Engine:</strong> The URL-read concurrency test passes on machines with 32 or more cores (<a href="https://github.com/heygen-com/hyperframes/commit/3ad7611f9fd36c1cef589c59b116ad7043c3b041">3ad7611f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7544">#7544</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.33...v0.9.34">https://github.com/heygen-com/hyperframes/compare/v0.9.33...v0.9.34</a></p>
 ]]></content:encoded>
         </item>
     </channel>
