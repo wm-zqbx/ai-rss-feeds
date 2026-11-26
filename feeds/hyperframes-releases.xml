@@ -4,11 +4,65 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 26 Nov 2026 13:07:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Nov 2026 19:41:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.100]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.100</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.100</guid>
+            <pubDate>Thu, 26 Nov 2026 19:41:21 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.100</h1>
+<p>Released on 2026-11-26.</p>
+<p>Sealed group moves, resizes and rotations now update the preview right away, and selection outlines and handles stay lined up while dragging. Studio also stays responsive on oversized preview replies and logs whether a failed preview reload came from the project or Studio.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export shownPreviewFrame so hosts read the promoted preview frame (<a href="https://github.com/heygen-com/hyperframes/commit/3152860f0810dde65f38750b26bd3e4fe737b60d">3152860f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8917">#8917</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A failed preview reload logs whether the project or our code threw (<a href="https://github.com/heygen-com/hyperframes/commit/94336f7bf1cec9d07e66fecfad20737fddc34d50">94336f7bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8920">#8920</a>).</li>
+<li><strong>Studio:</strong> Sealed group moves, resizes and rotations reach the preview as early as single moves (<a href="https://github.com/heygen-com/hyperframes/commit/b080e0864ef2148e36af60b116ea8ea3093fec40">b080e0864</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8912">#8912</a>).</li>
+<li><strong>Studio:</strong> Stay responsive when a preview frame answers with an oversized list (<a href="https://github.com/heygen-com/hyperframes/commit/5d9076febb898ff7b532383dc6fd5a4ebd078147">5d9076feb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8900">#8900</a>).</li>
+<li><strong>Studio:</strong> A turned or small selection&#39;s outline moves with the layer while dragging (<a href="https://github.com/heygen-com/hyperframes/commit/399fc76671f1f8170edb62327811ec22f24f6f0f">399fc7667</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8921">#8921</a>).</li>
+<li><strong>Studio:</strong> A sealed resize stops asking the frame for an uncropped layer&#39;s size every step (<a href="https://github.com/heygen-com/hyperframes/commit/c29ebb00952ac25bcd16afdaa02faa0cddfb5f99">c29ebb009</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8895">#8895</a>).</li>
+<li><strong>Studio:</strong> The selection handles move with the box and the layer while dragging (<a href="https://github.com/heygen-com/hyperframes/commit/fe711f7b43e4763d4cff8517c6aedf7d33529d30">fe711f7b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8909">#8909</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The edit accuracy bench measures a sealed preview in its own process (<a href="https://github.com/heygen-com/hyperframes/commit/7c217d9fdf3e32c628953f7325ddd90e0ff94392">7c217d9fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8918">#8918</a>).</li>
+<li><strong>Studio:</strong> The moved-project history test no longer fails at random on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/36325eb49b2ff99d46c951b9ee06ca75b4f37841">36325eb49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8916">#8916</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.99...v0.9.100">https://github.com/heygen-com/hyperframes/compare/v0.9.99...v0.9.100</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.100</h1>
+<p>Released on 2026-11-26.</p>
+<p>Sealed group moves, resizes and rotations now update the preview right away, and selection outlines and handles stay lined up while dragging. Studio also stays responsive on oversized preview replies and logs whether a failed preview reload came from the project or Studio.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Export shownPreviewFrame so hosts read the promoted preview frame (<a href="https://github.com/heygen-com/hyperframes/commit/3152860f0810dde65f38750b26bd3e4fe737b60d">3152860f0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8917">#8917</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> A failed preview reload logs whether the project or our code threw (<a href="https://github.com/heygen-com/hyperframes/commit/94336f7bf1cec9d07e66fecfad20737fddc34d50">94336f7bf</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8920">#8920</a>).</li>
+<li><strong>Studio:</strong> Sealed group moves, resizes and rotations reach the preview as early as single moves (<a href="https://github.com/heygen-com/hyperframes/commit/b080e0864ef2148e36af60b116ea8ea3093fec40">b080e0864</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8912">#8912</a>).</li>
+<li><strong>Studio:</strong> Stay responsive when a preview frame answers with an oversized list (<a href="https://github.com/heygen-com/hyperframes/commit/5d9076febb898ff7b532383dc6fd5a4ebd078147">5d9076feb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8900">#8900</a>).</li>
+<li><strong>Studio:</strong> A turned or small selection&#39;s outline moves with the layer while dragging (<a href="https://github.com/heygen-com/hyperframes/commit/399fc76671f1f8170edb62327811ec22f24f6f0f">399fc7667</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8921">#8921</a>).</li>
+<li><strong>Studio:</strong> A sealed resize stops asking the frame for an uncropped layer&#39;s size every step (<a href="https://github.com/heygen-com/hyperframes/commit/c29ebb00952ac25bcd16afdaa02faa0cddfb5f99">c29ebb009</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8895">#8895</a>).</li>
+<li><strong>Studio:</strong> The selection handles move with the box and the layer while dragging (<a href="https://github.com/heygen-com/hyperframes/commit/fe711f7b43e4763d4cff8517c6aedf7d33529d30">fe711f7b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8909">#8909</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The edit accuracy bench measures a sealed preview in its own process (<a href="https://github.com/heygen-com/hyperframes/commit/7c217d9fdf3e32c628953f7325ddd90e0ff94392">7c217d9fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8918">#8918</a>).</li>
+<li><strong>Studio:</strong> The moved-project history test no longer fails at random on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/36325eb49b2ff99d46c951b9ee06ca75b4f37841">36325eb49</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8916">#8916</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.99...v0.9.100">https://github.com/heygen-com/hyperframes/compare/v0.9.99...v0.9.100</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.99]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.99</link>
@@ -3447,54 +3501,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.48...v0.9.49">https://github.com/heygen-com/hyperframes/compare/v0.9.48...v0.9.49</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.48]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.48</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.48</guid>
-            <pubDate>Sat, 14 Nov 2026 22:15:06 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.48</h1>
-<p>Released on 2026-11-14.</p>
-<p>Press ? in Studio to see every keyboard shortcut. A render service that limits the render page&#39;s network now applies the same limit to the whole render browser.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Press ? to open the keyboard shortcuts panel (<a href="https://github.com/heygen-com/hyperframes/commit/a03e85f43a7d2febaf801c5b96277671bd48f70d">a03e85f43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7478">#7478</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Renders reach only public addresses from every part of the browser (<a href="https://github.com/heygen-com/hyperframes/commit/a6ff3922b4313c492c1af07603b1d02f74bb6f11">a6ff3922b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7758">#7758</a>).</li>
-<li><strong>Studio:</strong> A refused edit names the file and why, on every edit path (<a href="https://github.com/heygen-com/hyperframes/commit/f7f2c535be31b6806dd4747fd5b52c3eb3d60379">f7f2c535b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7749">#7749</a>).</li>
-<li><strong>Engine:</strong> Look a host up again after a failed lookup instead of refusing it for the whole page (<a href="https://github.com/heygen-com/hyperframes/commit/b100cf461509d1773662fd9bcd90347675401bb5">b100cf461</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7751">#7751</a>).</li>
-<li><strong>Scripts:</strong> The comment check names a git too old for check-attr --source (<a href="https://github.com/heygen-com/hyperframes/commit/8e0f196a8b151f02adbf2f2a96e13f9d6b9f2908">8e0f196a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7750">#7750</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Producer:</strong> Make path contracts portable on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/aeaf9463ea29b667d1d1995461b82d4ae4f6fe6f">aeaf9463e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5032">#5032</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.47...v0.9.48">https://github.com/heygen-com/hyperframes/compare/v0.9.47...v0.9.48</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.48</h1>
-<p>Released on 2026-11-14.</p>
-<p>Press ? in Studio to see every keyboard shortcut. A render service that limits the render page&#39;s network now applies the same limit to the whole render browser.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Studio:</strong> Press ? to open the keyboard shortcuts panel (<a href="https://github.com/heygen-com/hyperframes/commit/a03e85f43a7d2febaf801c5b96277671bd48f70d">a03e85f43</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7478">#7478</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Renders reach only public addresses from every part of the browser (<a href="https://github.com/heygen-com/hyperframes/commit/a6ff3922b4313c492c1af07603b1d02f74bb6f11">a6ff3922b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7758">#7758</a>).</li>
-<li><strong>Studio:</strong> A refused edit names the file and why, on every edit path (<a href="https://github.com/heygen-com/hyperframes/commit/f7f2c535be31b6806dd4747fd5b52c3eb3d60379">f7f2c535b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7749">#7749</a>).</li>
-<li><strong>Engine:</strong> Look a host up again after a failed lookup instead of refusing it for the whole page (<a href="https://github.com/heygen-com/hyperframes/commit/b100cf461509d1773662fd9bcd90347675401bb5">b100cf461</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7751">#7751</a>).</li>
-<li><strong>Scripts:</strong> The comment check names a git too old for check-attr --source (<a href="https://github.com/heygen-com/hyperframes/commit/8e0f196a8b151f02adbf2f2a96e13f9d6b9f2908">8e0f196a8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7750">#7750</a>).</li>
-</ul>
-<h2>Internal</h2>
-<ul>
-<li><strong>Producer:</strong> Make path contracts portable on Windows (<a href="https://github.com/heygen-com/hyperframes/commit/aeaf9463ea29b667d1d1995461b82d4ae4f6fe6f">aeaf9463e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/5032">#5032</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.47...v0.9.48">https://github.com/heygen-com/hyperframes/compare/v0.9.47...v0.9.48</a></p>
 ]]></content:encoded>
         </item>
     </channel>
