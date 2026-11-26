@@ -4,11 +4,111 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Wed, 25 Nov 2026 18:50:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Nov 2026 04:08:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.97]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.97</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.97</guid>
+            <pubDate>Thu, 26 Nov 2026 04:08:38 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.97</h1>
+<p>Released on 2026-11-26.</p>
+<p>A sealed film&#39;s clip keeps its own effects and automation, and sealed previews show the text caret at screen size. Transcript-cut reads its parts back in the format it wrote, and a project&#39;s history does its folder work off Studio&#39;s main thread.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> A start and end render that part of the film in any format, frame rate or HDR (<a href="https://github.com/heygen-com/hyperframes/commit/31dc4b80f0eb5baa83292d780ea2d682e3eb698e">31dc4b80f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8878">#8878</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Keep the skills check&#39;s answer when its temp folder is still busy (<a href="https://github.com/heygen-com/hyperframes/commit/ef916399c2a8572ea5670f032dbf76d37b34780c">ef916399c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8884">#8884</a>).</li>
+<li><strong>Studio:</strong> A sealed drag&#39;s outline follows the pointer without stepping back (<a href="https://github.com/heygen-com/hyperframes/commit/1e7d00496692d4c264ffeb59e85175752f39ea2d">1e7d00496</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8883">#8883</a>).</li>
+<li><strong>Media Use:</strong> Transcript-cut reads its parts back only as the container it wrote them in (<a href="https://github.com/heygen-com/hyperframes/commit/3429fc368be7fcaa2001364b1109b66b625dd05a">3429fc368</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8876">#8876</a>).</li>
+<li><strong>Media Use:</strong> Carve prints composition text with control characters escaped (<a href="https://github.com/heygen-com/hyperframes/commit/55338342c4af98ba34550c6f8585935d95e8ef82">55338342c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8881">#8881</a>).</li>
+<li><strong>Core:</strong> A destroyed audio transport makes no request and reports no load failure (<a href="https://github.com/heygen-com/hyperframes/commit/92d5b4b2f12ad0b411ff4f353a88052495b30b7f">92d5b4b2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8875">#8875</a>).</li>
+<li><strong>Core:</strong> Sealed previews read films that animate attributes or carry thousands of tweens (<a href="https://github.com/heygen-com/hyperframes/commit/423bcb3ad7a110c3374ed98255d35df7a4427dbf">423bcb3ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8874">#8874</a>).</li>
+<li><strong>Player:</strong> A sealed film&#39;s clip keeps its own effects chain and automation (<a href="https://github.com/heygen-com/hyperframes/commit/9a49afdd8ede9f6c23362b40ed7ca53422ddfbd1">9a49afdd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8756">#8756</a>).</li>
+<li><strong>Share:</strong> Sync referenced project files separately from Studio sharing (<a href="https://github.com/heygen-com/hyperframes/commit/306ce775846063aa29678dd0ea7772cadb317356">306ce7758</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8221">#8221</a>).</li>
+<li><strong>Studio Server:</strong> A project&#39;s history checks its folder off the main thread (<a href="https://github.com/heygen-com/hyperframes/commit/0ce7904f19ae1097e01d50e58af08be87f876a11">0ce7904f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8865">#8865</a>).</li>
+<li><strong>Studio Server:</strong> The async stamp pass lists and checks a project only through fs/promises (<a href="https://github.com/heygen-com/hyperframes/commit/67b6ce3c06e20a6aedfa0d81da40a41fc8151ad6">67b6ce3c0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8863">#8863</a>).</li>
+<li><strong>Studio Server:</strong> A history writes one baseline per run of adopted files, not one per file (<a href="https://github.com/heygen-com/hyperframes/commit/c60c435c75193ffec7be6d6cf002263dc6437c71">c60c435c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8868">#8868</a>).</li>
+<li><strong>Engine:</strong> A script reloaded under a new query counts once toward the served-script cap (<a href="https://github.com/heygen-com/hyperframes/commit/30ab4f7b4cc438c223f431f49ab3af0639ca178c">30ab4f7b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8862">#8862</a>).</li>
+<li><strong>Skills:</strong> Media scripts read each input as one local media file (<a href="https://github.com/heygen-com/hyperframes/commit/1061adc2af77d86322f720188804458680476dd4">1061adc2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8765">#8765</a>).</li>
+<li><strong>Studio:</strong> A sealed preview shows its text caret at screen size (<a href="https://github.com/heygen-com/hyperframes/commit/0744e896457d279ff727dd468254a64446fadcfa">0744e8964</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8857">#8857</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-11-16-2026-11-23 (<a href="https://github.com/heygen-com/hyperframes/commit/0b5d553bc678b899e3381c4fd1c3f46d673e0902">0b5d553bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8609">#8609</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Ci:</strong> The catalog publish PR is opened by the CI sync app, not the Actions token (<a href="https://github.com/heygen-com/hyperframes/commit/c23495d10914ef97da9f5fbec8233e91010bdc98">c23495d10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8873">#8873</a>).</li>
+<li><strong>Ci:</strong> Remove the unused workflow that retired the old registry listing (<a href="https://github.com/heygen-com/hyperframes/commit/b92ad7f5ab16636333664a9262a61df29e30a42c">b92ad7f5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8864">#8864</a>).</li>
+<li><strong>Docs:</strong> The catalog&#39;s svg import measures a geometry-only copy of the file (<a href="https://github.com/heygen-com/hyperframes/commit/c7cb3eefd482dbdb971f24af4e4e659c2d540835">c7cb3eefd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8768">#8768</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Codegen:</strong> Resync cloud client from EF 5baf9bd5 (<a href="https://github.com/heygen-com/hyperframes/commit/850fb09c798493c2ce38acb5db053a64477b6b8f">850fb09c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8882">#8882</a>).</li>
+<li><strong>CLI:</strong> The unknown-command text test starts the CLI one at a time (<a href="https://github.com/heygen-com/hyperframes/commit/41393f5d2ed2c5f9ee91cebecf48d183eb1922e2">41393f5d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8872">#8872</a>).</li>
+<li><strong>Producer:</strong> The HEIF prep test makes its folders in Node, so it runs on plain Windows (<a href="https://github.com/heygen-com/hyperframes/commit/868d1d3aeacd75bfdc179f12de7e908ffe39a46d">868d1d3ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8871">#8871</a>).</li>
+<li><strong>CLI:</strong> The skills git-folder test starts git once per case for its fixtures (<a href="https://github.com/heygen-com/hyperframes/commit/b8198243db1671050917e71d0722b00387d8caac">b8198243d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8870">#8870</a>).</li>
+<li><strong>CLI:</strong> The skill query jq checks start jq once per test, not once per line (<a href="https://github.com/heygen-com/hyperframes/commit/5b0a7337f643e9defe534dc6e4790793e9a77a4e">5b0a7337f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8869">#8869</a>).</li>
+<li><strong>Engine:</strong> The video layer test makes its frames folder in Node, so it runs on plain Windows (<a href="https://github.com/heygen-com/hyperframes/commit/7820644e1822f8efcc88a7f81e46e74be85dc0d9">7820644e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8867">#8867</a>).</li>
+<li><strong>Studio Server:</strong> The proxy failure tests wait for the answer, not a fixed 30 ms (<a href="https://github.com/heygen-com/hyperframes/commit/f2d1785637f976a5b90c03f7e792ffdd2420bc56">f2d178563</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8866">#8866</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.96...v0.9.97">https://github.com/heygen-com/hyperframes/compare/v0.9.96...v0.9.97</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.97</h1>
+<p>Released on 2026-11-26.</p>
+<p>A sealed film&#39;s clip keeps its own effects and automation, and sealed previews show the text caret at screen size. Transcript-cut reads its parts back in the format it wrote, and a project&#39;s history does its folder work off Studio&#39;s main thread.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>CLI:</strong> A start and end render that part of the film in any format, frame rate or HDR (<a href="https://github.com/heygen-com/hyperframes/commit/31dc4b80f0eb5baa83292d780ea2d682e3eb698e">31dc4b80f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8878">#8878</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Keep the skills check&#39;s answer when its temp folder is still busy (<a href="https://github.com/heygen-com/hyperframes/commit/ef916399c2a8572ea5670f032dbf76d37b34780c">ef916399c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8884">#8884</a>).</li>
+<li><strong>Studio:</strong> A sealed drag&#39;s outline follows the pointer without stepping back (<a href="https://github.com/heygen-com/hyperframes/commit/1e7d00496692d4c264ffeb59e85175752f39ea2d">1e7d00496</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8883">#8883</a>).</li>
+<li><strong>Media Use:</strong> Transcript-cut reads its parts back only as the container it wrote them in (<a href="https://github.com/heygen-com/hyperframes/commit/3429fc368be7fcaa2001364b1109b66b625dd05a">3429fc368</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8876">#8876</a>).</li>
+<li><strong>Media Use:</strong> Carve prints composition text with control characters escaped (<a href="https://github.com/heygen-com/hyperframes/commit/55338342c4af98ba34550c6f8585935d95e8ef82">55338342c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8881">#8881</a>).</li>
+<li><strong>Core:</strong> A destroyed audio transport makes no request and reports no load failure (<a href="https://github.com/heygen-com/hyperframes/commit/92d5b4b2f12ad0b411ff4f353a88052495b30b7f">92d5b4b2f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8875">#8875</a>).</li>
+<li><strong>Core:</strong> Sealed previews read films that animate attributes or carry thousands of tweens (<a href="https://github.com/heygen-com/hyperframes/commit/423bcb3ad7a110c3374ed98255d35df7a4427dbf">423bcb3ad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8874">#8874</a>).</li>
+<li><strong>Player:</strong> A sealed film&#39;s clip keeps its own effects chain and automation (<a href="https://github.com/heygen-com/hyperframes/commit/9a49afdd8ede9f6c23362b40ed7ca53422ddfbd1">9a49afdd8</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8756">#8756</a>).</li>
+<li><strong>Share:</strong> Sync referenced project files separately from Studio sharing (<a href="https://github.com/heygen-com/hyperframes/commit/306ce775846063aa29678dd0ea7772cadb317356">306ce7758</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8221">#8221</a>).</li>
+<li><strong>Studio Server:</strong> A project&#39;s history checks its folder off the main thread (<a href="https://github.com/heygen-com/hyperframes/commit/0ce7904f19ae1097e01d50e58af08be87f876a11">0ce7904f1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8865">#8865</a>).</li>
+<li><strong>Studio Server:</strong> The async stamp pass lists and checks a project only through fs/promises (<a href="https://github.com/heygen-com/hyperframes/commit/67b6ce3c06e20a6aedfa0d81da40a41fc8151ad6">67b6ce3c0</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8863">#8863</a>).</li>
+<li><strong>Studio Server:</strong> A history writes one baseline per run of adopted files, not one per file (<a href="https://github.com/heygen-com/hyperframes/commit/c60c435c75193ffec7be6d6cf002263dc6437c71">c60c435c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8868">#8868</a>).</li>
+<li><strong>Engine:</strong> A script reloaded under a new query counts once toward the served-script cap (<a href="https://github.com/heygen-com/hyperframes/commit/30ab4f7b4cc438c223f431f49ab3af0639ca178c">30ab4f7b4</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8862">#8862</a>).</li>
+<li><strong>Skills:</strong> Media scripts read each input as one local media file (<a href="https://github.com/heygen-com/hyperframes/commit/1061adc2af77d86322f720188804458680476dd4">1061adc2a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8765">#8765</a>).</li>
+<li><strong>Studio:</strong> A sealed preview shows its text caret at screen size (<a href="https://github.com/heygen-com/hyperframes/commit/0744e896457d279ff727dd468254a64446fadcfa">0744e8964</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8857">#8857</a>).</li>
+</ul>
+<h2>Docs &amp; Examples</h2>
+<ul>
+<li><strong>Changelog:</strong> Weekly digest 2026-11-16-2026-11-23 (<a href="https://github.com/heygen-com/hyperframes/commit/0b5d553bc678b899e3381c4fd1c3f46d673e0902">0b5d553bc</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8609">#8609</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li><strong>Ci:</strong> The catalog publish PR is opened by the CI sync app, not the Actions token (<a href="https://github.com/heygen-com/hyperframes/commit/c23495d10914ef97da9f5fbec8233e91010bdc98">c23495d10</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8873">#8873</a>).</li>
+<li><strong>Ci:</strong> Remove the unused workflow that retired the old registry listing (<a href="https://github.com/heygen-com/hyperframes/commit/b92ad7f5ab16636333664a9262a61df29e30a42c">b92ad7f5a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8864">#8864</a>).</li>
+<li><strong>Docs:</strong> The catalog&#39;s svg import measures a geometry-only copy of the file (<a href="https://github.com/heygen-com/hyperframes/commit/c7cb3eefd482dbdb971f24af4e4e659c2d540835">c7cb3eefd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8768">#8768</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Codegen:</strong> Resync cloud client from EF 5baf9bd5 (<a href="https://github.com/heygen-com/hyperframes/commit/850fb09c798493c2ce38acb5db053a64477b6b8f">850fb09c7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8882">#8882</a>).</li>
+<li><strong>CLI:</strong> The unknown-command text test starts the CLI one at a time (<a href="https://github.com/heygen-com/hyperframes/commit/41393f5d2ed2c5f9ee91cebecf48d183eb1922e2">41393f5d2</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8872">#8872</a>).</li>
+<li><strong>Producer:</strong> The HEIF prep test makes its folders in Node, so it runs on plain Windows (<a href="https://github.com/heygen-com/hyperframes/commit/868d1d3aeacd75bfdc179f12de7e908ffe39a46d">868d1d3ae</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8871">#8871</a>).</li>
+<li><strong>CLI:</strong> The skills git-folder test starts git once per case for its fixtures (<a href="https://github.com/heygen-com/hyperframes/commit/b8198243db1671050917e71d0722b00387d8caac">b8198243d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8870">#8870</a>).</li>
+<li><strong>CLI:</strong> The skill query jq checks start jq once per test, not once per line (<a href="https://github.com/heygen-com/hyperframes/commit/5b0a7337f643e9defe534dc6e4790793e9a77a4e">5b0a7337f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8869">#8869</a>).</li>
+<li><strong>Engine:</strong> The video layer test makes its frames folder in Node, so it runs on plain Windows (<a href="https://github.com/heygen-com/hyperframes/commit/7820644e1822f8efcc88a7f81e46e74be85dc0d9">7820644e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8867">#8867</a>).</li>
+<li><strong>Studio Server:</strong> The proxy failure tests wait for the answer, not a fixed 30 ms (<a href="https://github.com/heygen-com/hyperframes/commit/f2d1785637f976a5b90c03f7e792ffdd2420bc56">f2d178563</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8866">#8866</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.96...v0.9.97">https://github.com/heygen-com/hyperframes/compare/v0.9.96...v0.9.97</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.96]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.96</link>
@@ -3373,32 +3473,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.45...v0.9.46">https://github.com/heygen-com/hyperframes/compare/v0.9.45...v0.9.46</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.45]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.45</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.45</guid>
-            <pubDate>Sat, 14 Nov 2026 10:14:46 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.45</h1>
-<p>Released on 2026-11-14.</p>
-<p>A preview of 4K takes uses far less memory at full quality. Each 4K clip now plays a copy at the size the preview shows it, so long edits of 4K footage no longer run out of memory. Exports still use the original files.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> At full quality a 4K clip plays a copy at the size the preview shows it (<a href="https://github.com/heygen-com/hyperframes/commit/2f0ade181585323ebb2b53a2e15d68098655c90e">2f0ade181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7723">#7723</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.44...v0.9.45">https://github.com/heygen-com/hyperframes/compare/v0.9.44...v0.9.45</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.45</h1>
-<p>Released on 2026-11-14.</p>
-<p>A preview of 4K takes uses far less memory at full quality. Each 4K clip now plays a copy at the size the preview shows it, so long edits of 4K footage no longer run out of memory. Exports still use the original files.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Core:</strong> At full quality a 4K clip plays a copy at the size the preview shows it (<a href="https://github.com/heygen-com/hyperframes/commit/2f0ade181585323ebb2b53a2e15d68098655c90e">2f0ade181</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7723">#7723</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.44...v0.9.45">https://github.com/heygen-com/hyperframes/compare/v0.9.44...v0.9.45</a></p>
 ]]></content:encoded>
         </item>
     </channel>
