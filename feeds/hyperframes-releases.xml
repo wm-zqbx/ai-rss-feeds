@@ -4,11 +4,101 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Thu, 26 Nov 2026 19:41:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Nov 2026 01:25:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.102]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.102</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.102</guid>
+            <pubDate>Fri, 27 Nov 2026 01:25:43 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.102</h1>
+<p>Released on 2026-11-27.</p>
+<p>Studio stays responsive when a preview asks for paused frames or the disk holding a history lock stops answering. The CLI reports EPIPE crashes from browser pipes, and core starts safely when the page has no body yet.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Report non-stdio EPIPE crashes and guard launched browser pipes (<a href="https://github.com/heygen-com/hyperframes/commit/bd477dc45215c70d98879bb5f3cb9f170184e7e9">bd477dc45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8949">#8949</a>).</li>
+<li><strong>Studio Server:</strong> A history lock on a disk that stops answering no longer freezes the app (<a href="https://github.com/heygen-com/hyperframes/commit/281db3bd6dfd0cb914f44c3bcfd6f752c86d9c4f">281db3bd6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8948">#8948</a>).</li>
+<li><strong>Core:</strong> Guard runtime init and paused video observer when document.body is null (<a href="https://github.com/heygen-com/hyperframes/commit/0c3bd551e2cd8dd2d1dcb5540c8240e1120a7d48">0c3bd551e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8936">#8936</a>).</li>
+<li><strong>Studio:</strong> Keep the editor responsive when a preview asks for paused frames (<a href="https://github.com/heygen-com/hyperframes/commit/5d0d9945d5c44182d8bd04ae1bebbaa257f1cc09">5d0d9945d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8943">#8943</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.101...v0.9.102">https://github.com/heygen-com/hyperframes/compare/v0.9.101...v0.9.102</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.102</h1>
+<p>Released on 2026-11-27.</p>
+<p>Studio stays responsive when a preview asks for paused frames or the disk holding a history lock stops answering. The CLI reports EPIPE crashes from browser pipes, and core starts safely when the page has no body yet.</p>
+<h2>Fixes</h2>
+<ul>
+<li><strong>CLI:</strong> Report non-stdio EPIPE crashes and guard launched browser pipes (<a href="https://github.com/heygen-com/hyperframes/commit/bd477dc45215c70d98879bb5f3cb9f170184e7e9">bd477dc45</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8949">#8949</a>).</li>
+<li><strong>Studio Server:</strong> A history lock on a disk that stops answering no longer freezes the app (<a href="https://github.com/heygen-com/hyperframes/commit/281db3bd6dfd0cb914f44c3bcfd6f752c86d9c4f">281db3bd6</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8948">#8948</a>).</li>
+<li><strong>Core:</strong> Guard runtime init and paused video observer when document.body is null (<a href="https://github.com/heygen-com/hyperframes/commit/0c3bd551e2cd8dd2d1dcb5540c8240e1120a7d48">0c3bd551e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8936">#8936</a>).</li>
+<li><strong>Studio:</strong> Keep the editor responsive when a preview asks for paused frames (<a href="https://github.com/heygen-com/hyperframes/commit/5d0d9945d5c44182d8bd04ae1bebbaa257f1cc09">5d0d9945d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8943">#8943</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.101...v0.9.102">https://github.com/heygen-com/hyperframes/compare/v0.9.101...v0.9.102</a></p>
+]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[v0.9.101]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.101</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.101</guid>
+            <pubDate>Thu, 26 Nov 2026 23:57:44 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.101</h1>
+<p>Released on 2026-11-26.</p>
+<p>Studio&#39;s crop frame, rotate handle and group outlines now move with the selection, and hosts can measure the preview stage. Renders read the right CPU quota and probe inline audio correctly.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Measure preview stage layout and styles over the editing port (<a href="https://github.com/heygen-com/hyperframes/commit/f00e93479546eca4c7d841859174fe32d53b2564">f00e93479</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8937">#8937</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Move crop frame and rotate handle with the selection box (<a href="https://github.com/heygen-com/hyperframes/commit/fcaf8ca87aab4b4ff5ad3d609ebcd92ee896ac3c">fcaf8ca87</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8931">#8931</a>).</li>
+<li><strong>Producer:</strong> Materialize runtime blob and inline data audio during probe (<a href="https://github.com/heygen-com/hyperframes/commit/c7b6c71f9c2bd1fffd8e514a079e19e0dc77fb23">c7b6c71f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8932">#8932</a>).</li>
+<li><strong>Studio:</strong> Sealed nudge starts from read-ahead without waiting on overlay rect (<a href="https://github.com/heygen-com/hyperframes/commit/8e380494bd729895bd0003f4a2b6c1572567f998">8e380494b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8926">#8926</a>).</li>
+<li><strong>CLI:</strong> Project links are read, not followed, before a LUT path is judged inside the project (<a href="https://github.com/heygen-com/hyperframes/commit/707fe93ab81302bec4a63901a61664b491c5d168">707fe93ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8783">#8783</a>).</li>
+<li><strong>Engine:</strong> The CPU quota is read from the process&#39;s own cgroup, as Node counts it (<a href="https://github.com/heygen-com/hyperframes/commit/14d8a2d0cf6e39cdb1c7265a6640413d99106f38">14d8a2d0c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8266">#8266</a>).</li>
+<li><strong>Engine:</strong> Wait briefly for Chrome&#39;s exit status before reporting a lost render page (<a href="https://github.com/heygen-com/hyperframes/commit/190cd296d5214dce7419400d470aa854925bfeb5">190cd296d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8928">#8928</a>).</li>
+<li><strong>Studio:</strong> A dragged group&#39;s outline moves with its layers (<a href="https://github.com/heygen-com/hyperframes/commit/ef7b0e51739f9aad9d0f7b87eb06e93b2881c667">ef7b0e517</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8919">#8919</a>).</li>
+<li><strong>CLI:</strong> Cloud render checks archive size before uploading media (<a href="https://github.com/heygen-com/hyperframes/commit/b2a52ce288b390744b476ec234430c8a791f4191">b2a52ce28</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8924">#8924</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The edit bench records a sealed drag&#39;s raw pointer steps (<a href="https://github.com/heygen-com/hyperframes/commit/9738af6b5cd4c45d080285b46d007875f478bf12">9738af6b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8930">#8930</a>).</li>
+<li>Installs run only the install scripts of packages the repo lists (<a href="https://github.com/heygen-com/hyperframes/commit/c69f79ac34d8ed110f7c80a666d99311d10ca2de">c69f79ac3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8927">#8927</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.100...v0.9.101">https://github.com/heygen-com/hyperframes/compare/v0.9.100...v0.9.101</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.101</h1>
+<p>Released on 2026-11-26.</p>
+<p>Studio&#39;s crop frame, rotate handle and group outlines now move with the selection, and hosts can measure the preview stage. Renders read the right CPU quota and probe inline audio correctly.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> Measure preview stage layout and styles over the editing port (<a href="https://github.com/heygen-com/hyperframes/commit/f00e93479546eca4c7d841859174fe32d53b2564">f00e93479</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8937">#8937</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Studio:</strong> Move crop frame and rotate handle with the selection box (<a href="https://github.com/heygen-com/hyperframes/commit/fcaf8ca87aab4b4ff5ad3d609ebcd92ee896ac3c">fcaf8ca87</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8931">#8931</a>).</li>
+<li><strong>Producer:</strong> Materialize runtime blob and inline data audio during probe (<a href="https://github.com/heygen-com/hyperframes/commit/c7b6c71f9c2bd1fffd8e514a079e19e0dc77fb23">c7b6c71f9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8932">#8932</a>).</li>
+<li><strong>Studio:</strong> Sealed nudge starts from read-ahead without waiting on overlay rect (<a href="https://github.com/heygen-com/hyperframes/commit/8e380494bd729895bd0003f4a2b6c1572567f998">8e380494b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8926">#8926</a>).</li>
+<li><strong>CLI:</strong> Project links are read, not followed, before a LUT path is judged inside the project (<a href="https://github.com/heygen-com/hyperframes/commit/707fe93ab81302bec4a63901a61664b491c5d168">707fe93ab</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8783">#8783</a>).</li>
+<li><strong>Engine:</strong> The CPU quota is read from the process&#39;s own cgroup, as Node counts it (<a href="https://github.com/heygen-com/hyperframes/commit/14d8a2d0cf6e39cdb1c7265a6640413d99106f38">14d8a2d0c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8266">#8266</a>).</li>
+<li><strong>Engine:</strong> Wait briefly for Chrome&#39;s exit status before reporting a lost render page (<a href="https://github.com/heygen-com/hyperframes/commit/190cd296d5214dce7419400d470aa854925bfeb5">190cd296d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8928">#8928</a>).</li>
+<li><strong>Studio:</strong> A dragged group&#39;s outline moves with its layers (<a href="https://github.com/heygen-com/hyperframes/commit/ef7b0e51739f9aad9d0f7b87eb06e93b2881c667">ef7b0e517</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8919">#8919</a>).</li>
+<li><strong>CLI:</strong> Cloud render checks archive size before uploading media (<a href="https://github.com/heygen-com/hyperframes/commit/b2a52ce288b390744b476ec234430c8a791f4191">b2a52ce28</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8924">#8924</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> The edit bench records a sealed drag&#39;s raw pointer steps (<a href="https://github.com/heygen-com/hyperframes/commit/9738af6b5cd4c45d080285b46d007875f478bf12">9738af6b5</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8930">#8930</a>).</li>
+<li>Installs run only the install scripts of packages the repo lists (<a href="https://github.com/heygen-com/hyperframes/commit/c69f79ac34d8ed110f7c80a666d99311d10ca2de">c69f79ac3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8927">#8927</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.100...v0.9.101">https://github.com/heygen-com/hyperframes/compare/v0.9.100...v0.9.101</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.100]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.100</link>
@@ -3425,82 +3515,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.50...v0.9.51">https://github.com/heygen-com/hyperframes/compare/v0.9.50...v0.9.51</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.50]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.50</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.50</guid>
-            <pubDate>Sun, 15 Nov 2026 01:04:11 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.50</h1>
-<p>Released on 2026-11-15.</p>
-<p>Renders now read only the media and files that belong to them, including every playlist a playlist names. Lambda renders reach only public addresses by default, like the other cloud render paths, and lint rules check large files faster.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>AWS Lambda:</strong> Lambda renders reach only public addresses unless the function opts out (<a href="https://github.com/heygen-com/hyperframes/commit/e8a59bf1774f9880109bb7a426c55825725feb74">e8a59bf17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7780">#7780</a>).</li>
-<li><strong>Engine:</strong> Media playlists are checked through every list they name (<a href="https://github.com/heygen-com/hyperframes/commit/f4b6aad33251715e803e3bb84c24a0b446a5e956">f4b6aad33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7778">#7778</a>).</li>
-<li><strong>Engine:</strong> Refuse media playlists that name files outside their folder (<a href="https://github.com/heygen-com/hyperframes/commit/06cf9646463596167a5b7e41f33fa1acdc5ced0f">06cf96464</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7768">#7768</a>).</li>
-<li>Render file servers refuse env and Git files; shown-box sampling stays within the render (<a href="https://github.com/heygen-com/hyperframes/commit/603395c89a680403f370be816331f1507dc9bd5c">603395c89</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7765">#7765</a>).</li>
-<li><strong>Producer:</strong> Render-service media probes stay on public HTTPS (<a href="https://github.com/heygen-com/hyperframes/commit/0e767d620f630c4993e9b12364ae6d1e11f24421">0e767d620</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7764">#7764</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Lint:</strong> Rules scan script, style and comment blocks in linear time (<a href="https://github.com/heygen-com/hyperframes/commit/12832e3a98138b45b94a376f9f324cb44667c5ba">12832e3a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7770">#7770</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.49...v0.9.50">https://github.com/heygen-com/hyperframes/compare/v0.9.49...v0.9.50</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.50</h1>
-<p>Released on 2026-11-15.</p>
-<p>Renders now read only the media and files that belong to them, including every playlist a playlist names. Lambda renders reach only public addresses by default, like the other cloud render paths, and lint rules check large files faster.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>AWS Lambda:</strong> Lambda renders reach only public addresses unless the function opts out (<a href="https://github.com/heygen-com/hyperframes/commit/e8a59bf1774f9880109bb7a426c55825725feb74">e8a59bf17</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7780">#7780</a>).</li>
-<li><strong>Engine:</strong> Media playlists are checked through every list they name (<a href="https://github.com/heygen-com/hyperframes/commit/f4b6aad33251715e803e3bb84c24a0b446a5e956">f4b6aad33</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7778">#7778</a>).</li>
-<li><strong>Engine:</strong> Refuse media playlists that name files outside their folder (<a href="https://github.com/heygen-com/hyperframes/commit/06cf9646463596167a5b7e41f33fa1acdc5ced0f">06cf96464</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7768">#7768</a>).</li>
-<li>Render file servers refuse env and Git files; shown-box sampling stays within the render (<a href="https://github.com/heygen-com/hyperframes/commit/603395c89a680403f370be816331f1507dc9bd5c">603395c89</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7765">#7765</a>).</li>
-<li><strong>Producer:</strong> Render-service media probes stay on public HTTPS (<a href="https://github.com/heygen-com/hyperframes/commit/0e767d620f630c4993e9b12364ae6d1e11f24421">0e767d620</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7764">#7764</a>).</li>
-</ul>
-<h2>Performance</h2>
-<ul>
-<li><strong>Lint:</strong> Rules scan script, style and comment blocks in linear time (<a href="https://github.com/heygen-com/hyperframes/commit/12832e3a98138b45b94a376f9f324cb44667c5ba">12832e3a9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7770">#7770</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.49...v0.9.50">https://github.com/heygen-com/hyperframes/compare/v0.9.49...v0.9.50</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.49]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.49</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.49</guid>
-            <pubDate>Sat, 14 Nov 2026 23:26:17 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.49</h1>
-<p>Released on 2026-11-14.</p>
-<p>Compiling a render now downloads composition scripts through the same downloader as other assets. Renders also log what kind of address the network limit refused.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> Renders log the class of every address the proxy refuses (<a href="https://github.com/heygen-com/hyperframes/commit/89bca002ef7720e94a71ef57e2a8d1624b3cb424">89bca002e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7762">#7762</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Compile downloads composition scripts through the shared asset downloader (<a href="https://github.com/heygen-com/hyperframes/commit/cd55f059c36340fd99b9f6001480ba3521c6904d">cd55f059c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7763">#7763</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.48...v0.9.49">https://github.com/heygen-com/hyperframes/compare/v0.9.48...v0.9.49</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.49</h1>
-<p>Released on 2026-11-14.</p>
-<p>Compiling a render now downloads composition scripts through the same downloader as other assets. Renders also log what kind of address the network limit refused.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> Renders log the class of every address the proxy refuses (<a href="https://github.com/heygen-com/hyperframes/commit/89bca002ef7720e94a71ef57e2a8d1624b3cb424">89bca002e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7762">#7762</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Producer:</strong> Compile downloads composition scripts through the shared asset downloader (<a href="https://github.com/heygen-com/hyperframes/commit/cd55f059c36340fd99b9f6001480ba3521c6904d">cd55f059c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7763">#7763</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.48...v0.9.49">https://github.com/heygen-com/hyperframes/compare/v0.9.48...v0.9.49</a></p>
 ]]></content:encoded>
         </item>
     </channel>
