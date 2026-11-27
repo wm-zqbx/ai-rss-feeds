@@ -4,11 +4,83 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 27 Nov 2026 01:25:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Nov 2026 16:29:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.103]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.103</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.103</guid>
+            <pubDate>Fri, 27 Nov 2026 16:29:58 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.103</h1>
+<p>Released on 2026-11-27.</p>
+<p>Sealed previews can now hold stage acts, show removed elements as ghosts, and run Delete and arrow nudges in the frame. Cloud renders find files with percent-escaped names, and Windows renders no longer stall on long paths or a hung taskkill.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Let a host take presses in a sealed film during a text edit (<a href="https://github.com/heygen-com/hyperframes/commit/831e2ff1215a4e8aba571300743fdba82bcfd883">831e2ff12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8968">#8968</a>).</li>
+<li><strong>Core:</strong> Stand a removed element back as a ghost in a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/ad49fd5b933299b0fb76ac80e895869bd41dd920">ad49fd5b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8956">#8956</a>).</li>
+<li><strong>Runtime:</strong> Expose frame-presented request and preview health metrics (<a href="https://github.com/heygen-com/hyperframes/commit/2192cf60cad23812fe288273f0858da1e9feca95">2192cf60c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8933">#8933</a>).</li>
+<li><strong>Core:</strong> Tell the host where a press lands during a sealed text edit (<a href="https://github.com/heygen-com/hyperframes/commit/8a6e87fbe86fa9289bb7c1bb9ec4595e2d72ab24">8a6e87fbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8957">#8957</a>).</li>
+<li><strong>Studio:</strong> Handle canvas Delete and arrow-key nudge in opaque preview runtime (<a href="https://github.com/heygen-com/hyperframes/commit/0c6f11a56857f44dca010fa9e5ec2bb68a963ea9">0c6f11a56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8935">#8935</a>).</li>
+<li><strong>Core:</strong> Sealed previews can run Delete and arrow nudges in-frame once Studio arms them (<a href="https://github.com/heygen-com/hyperframes/commit/79a4ee066afe05c567a95abf59173725576f24a4">79a4ee066</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8946">#8946</a>).</li>
+<li><strong>Lint:</strong> Warn when a 3D-transformed element is far larger than the stage (<a href="https://github.com/heygen-com/hyperframes/commit/fa9f170f325c0633a8d58ef812cd1310d22e5dcb">fa9f170f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8945">#8945</a>).</li>
+<li><strong>Core:</strong> Hold and draw stage acts inside a sealed preview over the editing port (<a href="https://github.com/heygen-com/hyperframes/commit/223a9cf67497f4b9d728719d6c1f53199d5174c6">223a9cf67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8950">#8950</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Never read an element id as a stage index path (<a href="https://github.com/heygen-com/hyperframes/commit/abe6c94ec5dac82ec303bf31f02f8d5643397693">abe6c94ec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8954">#8954</a>).</li>
+<li><strong>CLI:</strong> A Windows browser close no longer freezes the CLI when taskkill hangs (<a href="https://github.com/heygen-com/hyperframes/commit/ff28ab33d5e64417fa07a5e3483eb0f21b13c2fa">ff28ab33d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8965">#8965</a>).</li>
+<li><strong>Producer:</strong> Preserve absent methods on early-stub timeline proxies (<a href="https://github.com/heygen-com/hyperframes/commit/82a208fcb8b87e7ef6f5de677085889353f2cbb4">82a208fcb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8947">#8947</a>).</li>
+<li><strong>Core:</strong> A held stage act still hears frame keys while sealed canvas keys are armed (<a href="https://github.com/heygen-com/hyperframes/commit/8fe81cb7baa8b4e7667048983d9745c7a4017552">8fe81cb7b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8959">#8959</a>).</li>
+<li><strong>CLI:</strong> Cloud render finds files whose names the page writes with a percent escape (<a href="https://github.com/heygen-com/hyperframes/commit/3c85fbcde6eff6218fff2542ddd7473e75eea617">3c85fbcde</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8960">#8960</a>).</li>
+<li><strong>Lint:</strong> The 3D layer size warning skips keyframe steps (<a href="https://github.com/heygen-com/hyperframes/commit/afa27ba73510efb2a8bf246914c5ac123ac01d38">afa27ba73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8958">#8958</a>).</li>
+<li><strong>Render:</strong> Handle missing temp dir and long Windows paths in render staging (<a href="https://github.com/heygen-com/hyperframes/commit/4fca68b23561e3f1271b876ed4715dce9c7cf208">4fca68b23</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8955">#8955</a>).</li>
+<li><strong>Studio Server:</strong> Reopening a history no longer reads its records on the caller&#39;s thread (<a href="https://github.com/heygen-com/hyperframes/commit/d8a2f500906709ede002a60b1a0128b07a4db0ce">d8a2f5009</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8952">#8952</a>).</li>
+<li><strong>Share:</strong> Keep source sync destinations in local configuration (<a href="https://github.com/heygen-com/hyperframes/commit/113b4d875d8fe05e711be928cdc7deaa0eff04a7">113b4d875</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8942">#8942</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> A failed copy test waits for each copy&#39;s read, not 10 ms (<a href="https://github.com/heygen-com/hyperframes/commit/8cb53b8fd57d8eedd33d3d5dcb2ca5c0ed6ac5ae">8cb53b8fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8964">#8964</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.102...v0.9.103">https://github.com/heygen-com/hyperframes/compare/v0.9.102...v0.9.103</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.103</h1>
+<p>Released on 2026-11-27.</p>
+<p>Sealed previews can now hold stage acts, show removed elements as ghosts, and run Delete and arrow nudges in the frame. Cloud renders find files with percent-escaped names, and Windows renders no longer stall on long paths or a hung taskkill.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Studio:</strong> Let a host take presses in a sealed film during a text edit (<a href="https://github.com/heygen-com/hyperframes/commit/831e2ff1215a4e8aba571300743fdba82bcfd883">831e2ff12</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8968">#8968</a>).</li>
+<li><strong>Core:</strong> Stand a removed element back as a ghost in a sealed preview (<a href="https://github.com/heygen-com/hyperframes/commit/ad49fd5b933299b0fb76ac80e895869bd41dd920">ad49fd5b9</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8956">#8956</a>).</li>
+<li><strong>Runtime:</strong> Expose frame-presented request and preview health metrics (<a href="https://github.com/heygen-com/hyperframes/commit/2192cf60cad23812fe288273f0858da1e9feca95">2192cf60c</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8933">#8933</a>).</li>
+<li><strong>Core:</strong> Tell the host where a press lands during a sealed text edit (<a href="https://github.com/heygen-com/hyperframes/commit/8a6e87fbe86fa9289bb7c1bb9ec4595e2d72ab24">8a6e87fbe</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8957">#8957</a>).</li>
+<li><strong>Studio:</strong> Handle canvas Delete and arrow-key nudge in opaque preview runtime (<a href="https://github.com/heygen-com/hyperframes/commit/0c6f11a56857f44dca010fa9e5ec2bb68a963ea9">0c6f11a56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8935">#8935</a>).</li>
+<li><strong>Core:</strong> Sealed previews can run Delete and arrow nudges in-frame once Studio arms them (<a href="https://github.com/heygen-com/hyperframes/commit/79a4ee066afe05c567a95abf59173725576f24a4">79a4ee066</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8946">#8946</a>).</li>
+<li><strong>Lint:</strong> Warn when a 3D-transformed element is far larger than the stage (<a href="https://github.com/heygen-com/hyperframes/commit/fa9f170f325c0633a8d58ef812cd1310d22e5dcb">fa9f170f3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8945">#8945</a>).</li>
+<li><strong>Core:</strong> Hold and draw stage acts inside a sealed preview over the editing port (<a href="https://github.com/heygen-com/hyperframes/commit/223a9cf67497f4b9d728719d6c1f53199d5174c6">223a9cf67</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8950">#8950</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Core:</strong> Never read an element id as a stage index path (<a href="https://github.com/heygen-com/hyperframes/commit/abe6c94ec5dac82ec303bf31f02f8d5643397693">abe6c94ec</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8954">#8954</a>).</li>
+<li><strong>CLI:</strong> A Windows browser close no longer freezes the CLI when taskkill hangs (<a href="https://github.com/heygen-com/hyperframes/commit/ff28ab33d5e64417fa07a5e3483eb0f21b13c2fa">ff28ab33d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8965">#8965</a>).</li>
+<li><strong>Producer:</strong> Preserve absent methods on early-stub timeline proxies (<a href="https://github.com/heygen-com/hyperframes/commit/82a208fcb8b87e7ef6f5de677085889353f2cbb4">82a208fcb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8947">#8947</a>).</li>
+<li><strong>Core:</strong> A held stage act still hears frame keys while sealed canvas keys are armed (<a href="https://github.com/heygen-com/hyperframes/commit/8fe81cb7baa8b4e7667048983d9745c7a4017552">8fe81cb7b</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8959">#8959</a>).</li>
+<li><strong>CLI:</strong> Cloud render finds files whose names the page writes with a percent escape (<a href="https://github.com/heygen-com/hyperframes/commit/3c85fbcde6eff6218fff2542ddd7473e75eea617">3c85fbcde</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8960">#8960</a>).</li>
+<li><strong>Lint:</strong> The 3D layer size warning skips keyframe steps (<a href="https://github.com/heygen-com/hyperframes/commit/afa27ba73510efb2a8bf246914c5ac123ac01d38">afa27ba73</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8958">#8958</a>).</li>
+<li><strong>Render:</strong> Handle missing temp dir and long Windows paths in render staging (<a href="https://github.com/heygen-com/hyperframes/commit/4fca68b23561e3f1271b876ed4715dce9c7cf208">4fca68b23</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8955">#8955</a>).</li>
+<li><strong>Studio Server:</strong> Reopening a history no longer reads its records on the caller&#39;s thread (<a href="https://github.com/heygen-com/hyperframes/commit/d8a2f500906709ede002a60b1a0128b07a4db0ce">d8a2f5009</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8952">#8952</a>).</li>
+<li><strong>Share:</strong> Keep source sync destinations in local configuration (<a href="https://github.com/heygen-com/hyperframes/commit/113b4d875d8fe05e711be928cdc7deaa0eff04a7">113b4d875</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8942">#8942</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>Studio:</strong> A failed copy test waits for each copy&#39;s read, not 10 ms (<a href="https://github.com/heygen-com/hyperframes/commit/8cb53b8fd57d8eedd33d3d5dcb2ca5c0ed6ac5ae">8cb53b8fd</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8964">#8964</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.102...v0.9.103">https://github.com/heygen-com/hyperframes/compare/v0.9.102...v0.9.103</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.102]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.102</link>
@@ -3469,52 +3541,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52">https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.51]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.51</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.51</guid>
-            <pubDate>Sun, 15 Nov 2026 02:19:45 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.51</h1>
-<p>Released on 2026-11-15.</p>
-<p>Render services can name extra networks their renders must treat as non-public, and mapped or NAT64 addresses are judged by the IPv4 address they carry. Website capture keeps Chrome&#39;s sandbox where the host supports it, and helper programs start only from trusted folders.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> Operators can add networks the render must treat as non-public (<a href="https://github.com/heygen-com/hyperframes/commit/b54f2079ed715e69b10c6be54909030f64827a7a">b54f2079e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7790">#7790</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Judge mapped and NAT64 addresses by the IPv4 they carry; producer exports the rule (<a href="https://github.com/heygen-com/hyperframes/commit/54e4a2be3e7a9fcf69b8b215ce0563f3900d2dd0">54e4a2be3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7789">#7789</a>).</li>
-<li>Docs image upload publishes only regular files, and CI rejects new symlinks (<a href="https://github.com/heygen-com/hyperframes/commit/9320c44e130ab2fbd073599f576d0f42aa7e346d">9320c44e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7776">#7776</a>).</li>
-<li><strong>CLI and Studio server:</strong> Received-file guard covers subfolders and spellings; playlists named as media never reach ffmpeg (<a href="https://github.com/heygen-com/hyperframes/commit/870b1fa4dc35436df9a3c1a3c902549e66565add">870b1fa4d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7771">#7771</a>).</li>
-<li><strong>CLI:</strong> Keep Chrome&#39;s sandbox on for website capture where the host supports it (<a href="https://github.com/heygen-com/hyperframes/commit/27b195febcdfebe742b8eaaba51dcfadc27c5c45">27b195feb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7774">#7774</a>).</li>
-<li><strong>CLI:</strong> Keep captured page text out of generated agent instruction files (<a href="https://github.com/heygen-com/hyperframes/commit/e4e93d6ed9dfcd7e0e8a36fdd06ade64e196b729">e4e93d6ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7772">#7772</a>).</li>
-<li><strong>Engine:</strong> Start nvidia-smi, vm_stat, ps and tasklist from trusted folders only (<a href="https://github.com/heygen-com/hyperframes/commit/e3ff9c803cd3bccdf39cf84f5bc36e52a61e1345">e3ff9c803</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7788">#7788</a>).</li>
-<li><strong>Producer:</strong> Every video&#39;s size samples share one grid (<a href="https://github.com/heygen-com/hyperframes/commit/1d83e2520a27a445c8278237417cd90f0e002aea">1d83e2520</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7782">#7782</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.50...v0.9.51">https://github.com/heygen-com/hyperframes/compare/v0.9.50...v0.9.51</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.51</h1>
-<p>Released on 2026-11-15.</p>
-<p>Render services can name extra networks their renders must treat as non-public, and mapped or NAT64 addresses are judged by the IPv4 address they carry. Website capture keeps Chrome&#39;s sandbox where the host supports it, and helper programs start only from trusted folders.</p>
-<h2>Features</h2>
-<ul>
-<li><strong>Engine:</strong> Operators can add networks the render must treat as non-public (<a href="https://github.com/heygen-com/hyperframes/commit/b54f2079ed715e69b10c6be54909030f64827a7a">b54f2079e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7790">#7790</a>).</li>
-</ul>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Engine:</strong> Judge mapped and NAT64 addresses by the IPv4 they carry; producer exports the rule (<a href="https://github.com/heygen-com/hyperframes/commit/54e4a2be3e7a9fcf69b8b215ce0563f3900d2dd0">54e4a2be3</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7789">#7789</a>).</li>
-<li>Docs image upload publishes only regular files, and CI rejects new symlinks (<a href="https://github.com/heygen-com/hyperframes/commit/9320c44e130ab2fbd073599f576d0f42aa7e346d">9320c44e1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7776">#7776</a>).</li>
-<li><strong>CLI and Studio server:</strong> Received-file guard covers subfolders and spellings; playlists named as media never reach ffmpeg (<a href="https://github.com/heygen-com/hyperframes/commit/870b1fa4dc35436df9a3c1a3c902549e66565add">870b1fa4d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7771">#7771</a>).</li>
-<li><strong>CLI:</strong> Keep Chrome&#39;s sandbox on for website capture where the host supports it (<a href="https://github.com/heygen-com/hyperframes/commit/27b195febcdfebe742b8eaaba51dcfadc27c5c45">27b195feb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7774">#7774</a>).</li>
-<li><strong>CLI:</strong> Keep captured page text out of generated agent instruction files (<a href="https://github.com/heygen-com/hyperframes/commit/e4e93d6ed9dfcd7e0e8a36fdd06ade64e196b729">e4e93d6ed</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7772">#7772</a>).</li>
-<li><strong>Engine:</strong> Start nvidia-smi, vm_stat, ps and tasklist from trusted folders only (<a href="https://github.com/heygen-com/hyperframes/commit/e3ff9c803cd3bccdf39cf84f5bc36e52a61e1345">e3ff9c803</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7788">#7788</a>).</li>
-<li><strong>Producer:</strong> Every video&#39;s size samples share one grid (<a href="https://github.com/heygen-com/hyperframes/commit/1d83e2520a27a445c8278237417cd90f0e002aea">1d83e2520</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7782">#7782</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.50...v0.9.51">https://github.com/heygen-com/hyperframes/compare/v0.9.50...v0.9.51</a></p>
 ]]></content:encoded>
         </item>
     </channel>
