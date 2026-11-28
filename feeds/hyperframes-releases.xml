@@ -4,11 +4,79 @@
         <title>hyperframes Releases</title>
         <link>https://github.com/heygen-com/hyperframes/releases</link>
         <description>GitHub releases for heygen-com/hyperframes</description>
-        <lastBuildDate>Fri, 27 Nov 2026 16:29:58 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Nov 2026 18:46:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>ai-rss-feeds (https://github.com/wm-zqbx/ai-rss-feeds)</generator>
         <language>en</language>
         <atom:link href="https://raw.githubusercontent.com/wm-zqbx/ai-rss-feeds/main/feeds/hyperframes-releases.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[v0.9.104]]></title>
+            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.104</link>
+            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.104</guid>
+            <pubDate>Fri, 27 Nov 2026 18:46:30 GMT</pubDate>
+            <description><![CDATA[<h1>HyperFrames v0.9.104</h1>
+<p>Released on 2026-11-27.</p>
+<p>A sealed canvas drag keeps its drop again, sealed previews load as fast as open ones, and Studio&#39;s server stops blocking on waveform reads. Timeline clips load media only from their own project, and a busy preview reload retries after the server&#39;s wait.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> A frame-presented wait can be asked to run longer, up to 15 s (<a href="https://github.com/heygen-com/hyperframes/commit/4c92e37a708662240c1a96d53d0565332a1aea8d">4c92e37a7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8976">#8976</a>).</li>
+<li><strong>Parsers:</strong> Export the size the renderer compiles a composition at (<a href="https://github.com/heygen-com/hyperframes/commit/a7cca1a2e47e7275de366623508e1cb075fa717f">a7cca1a2e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8974">#8974</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Share:</strong> Wait for the host&#39;s export lookup, so a host can read its disk off its main thread (<a href="https://github.com/heygen-com/hyperframes/commit/cfaefdc56dc93d74aeedc537123097f2ab74470b">cfaefdc56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8984">#8984</a>).</li>
+<li><strong>CLI:</strong> Billing add-credits offers a free account no add-on checkout the server refuses (<a href="https://github.com/heygen-com/hyperframes/commit/dfe324acb96c32697a9124d4bcce2b921630ce1e">dfe324acb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8983">#8983</a>).</li>
+<li><strong>Studio:</strong> A preview reload the server answered busy asks again after its Retry-After (<a href="https://github.com/heygen-com/hyperframes/commit/bdcc53b4d51ca4ee2dd94e0d8675f6d7afcae777">bdcc53b4d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8982">#8982</a>).</li>
+<li><strong>Studio Server:</strong> Cached waveform and preview reads never hold the server&#39;s thread (<a href="https://github.com/heygen-com/hyperframes/commit/32ec0b9835fddf4a58ac3d754cf27284dd784374">32ec0b983</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8971">#8971</a>).</li>
+<li><strong>Studio:</strong> A sealed canvas drag keeps its drop when the keyboard moves into the frame (<a href="https://github.com/heygen-com/hyperframes/commit/b4f47cec1f0fc6ac1dff91de597423b7edc460c5">b4f47cec1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8978">#8978</a>).</li>
+<li><strong>Core:</strong> The preview runtime&#39;s editing port ignores later changes to MessagePort and window.parent (<a href="https://github.com/heygen-com/hyperframes/commit/23f665d0a2dd62dbd00a8e8eb51cd7d8e74a8279">23f665d0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8963">#8963</a>).</li>
+<li><strong>Studio:</strong> Sealed previews start loading as fast as open ones (<a href="https://github.com/heygen-com/hyperframes/commit/407c0efb7dd82dfff8e5ad7dcf1404fa643ff9fb">407c0efb7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8972">#8972</a>).</li>
+<li><strong>Studio:</strong> A timeline clip loads media only from its own project&#39;s files (<a href="https://github.com/heygen-com/hyperframes/commit/413d37badb84f29db4a463800753c3d703c9eb21">413d37bad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8970">#8970</a>).</li>
+<li><strong>Parsers:</strong> Css parsing ignores source-map comments in the stylesheet (<a href="https://github.com/heygen-com/hyperframes/commit/626644b2da0ed86fe542264f3757e994ddf0fb11">626644b2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8969">#8969</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li>Redirect renamed catalog items and moved guides to their current pages (<a href="https://github.com/heygen-com/hyperframes/commit/1cb750bbae3ab2aaecc19f300d8cc2a55adab08b">1cb750bba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8975">#8975</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The skills git-folder test runs git without the lookup&#39;s 4 s cut-off (<a href="https://github.com/heygen-com/hyperframes/commit/32274984f8e189ae471f1c962650ed910fb29933">32274984f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8966">#8966</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.103...v0.9.104">https://github.com/heygen-com/hyperframes/compare/v0.9.103...v0.9.104</a></p>
+]]></description>
+            <content:encoded><![CDATA[<h1>HyperFrames v0.9.104</h1>
+<p>Released on 2026-11-27.</p>
+<p>A sealed canvas drag keeps its drop again, sealed previews load as fast as open ones, and Studio&#39;s server stops blocking on waveform reads. Timeline clips load media only from their own project, and a busy preview reload retries after the server&#39;s wait.</p>
+<h2>Features</h2>
+<ul>
+<li><strong>Core:</strong> A frame-presented wait can be asked to run longer, up to 15 s (<a href="https://github.com/heygen-com/hyperframes/commit/4c92e37a708662240c1a96d53d0565332a1aea8d">4c92e37a7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8976">#8976</a>).</li>
+<li><strong>Parsers:</strong> Export the size the renderer compiles a composition at (<a href="https://github.com/heygen-com/hyperframes/commit/a7cca1a2e47e7275de366623508e1cb075fa717f">a7cca1a2e</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8974">#8974</a>).</li>
+</ul>
+<h2>Fixes</h2>
+<ul>
+<li><strong>Share:</strong> Wait for the host&#39;s export lookup, so a host can read its disk off its main thread (<a href="https://github.com/heygen-com/hyperframes/commit/cfaefdc56dc93d74aeedc537123097f2ab74470b">cfaefdc56</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8984">#8984</a>).</li>
+<li><strong>CLI:</strong> Billing add-credits offers a free account no add-on checkout the server refuses (<a href="https://github.com/heygen-com/hyperframes/commit/dfe324acb96c32697a9124d4bcce2b921630ce1e">dfe324acb</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8983">#8983</a>).</li>
+<li><strong>Studio:</strong> A preview reload the server answered busy asks again after its Retry-After (<a href="https://github.com/heygen-com/hyperframes/commit/bdcc53b4d51ca4ee2dd94e0d8675f6d7afcae777">bdcc53b4d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8982">#8982</a>).</li>
+<li><strong>Studio Server:</strong> Cached waveform and preview reads never hold the server&#39;s thread (<a href="https://github.com/heygen-com/hyperframes/commit/32ec0b9835fddf4a58ac3d754cf27284dd784374">32ec0b983</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8971">#8971</a>).</li>
+<li><strong>Studio:</strong> A sealed canvas drag keeps its drop when the keyboard moves into the frame (<a href="https://github.com/heygen-com/hyperframes/commit/b4f47cec1f0fc6ac1dff91de597423b7edc460c5">b4f47cec1</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8978">#8978</a>).</li>
+<li><strong>Core:</strong> The preview runtime&#39;s editing port ignores later changes to MessagePort and window.parent (<a href="https://github.com/heygen-com/hyperframes/commit/23f665d0a2dd62dbd00a8e8eb51cd7d8e74a8279">23f665d0a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8963">#8963</a>).</li>
+<li><strong>Studio:</strong> Sealed previews start loading as fast as open ones (<a href="https://github.com/heygen-com/hyperframes/commit/407c0efb7dd82dfff8e5ad7dcf1404fa643ff9fb">407c0efb7</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8972">#8972</a>).</li>
+<li><strong>Studio:</strong> A timeline clip loads media only from its own project&#39;s files (<a href="https://github.com/heygen-com/hyperframes/commit/413d37badb84f29db4a463800753c3d703c9eb21">413d37bad</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8970">#8970</a>).</li>
+<li><strong>Parsers:</strong> Css parsing ignores source-map comments in the stylesheet (<a href="https://github.com/heygen-com/hyperframes/commit/626644b2da0ed86fe542264f3757e994ddf0fb11">626644b2d</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8969">#8969</a>).</li>
+</ul>
+<h2>Catalog</h2>
+<ul>
+<li>Redirect renamed catalog items and moved guides to their current pages (<a href="https://github.com/heygen-com/hyperframes/commit/1cb750bbae3ab2aaecc19f300d8cc2a55adab08b">1cb750bba</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8975">#8975</a>).</li>
+</ul>
+<h2>Internal</h2>
+<ul>
+<li><strong>CLI:</strong> The skills git-folder test runs git without the lookup&#39;s 4 s cut-off (<a href="https://github.com/heygen-com/hyperframes/commit/32274984f8e189ae471f1c962650ed910fb29933">32274984f</a>, <a href="https://github.com/heygen-com/hyperframes/pull/8966">#8966</a>).</li>
+</ul>
+<h2>Full changelog</h2>
+<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.103...v0.9.104">https://github.com/heygen-com/hyperframes/compare/v0.9.103...v0.9.104</a></p>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[v0.9.103]]></title>
             <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.103</link>
@@ -3515,32 +3583,6 @@
 </ul>
 <h2>Full changelog</h2>
 <p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.52...v0.9.53">https://github.com/heygen-com/hyperframes/compare/v0.9.52...v0.9.53</a></p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[v0.9.52]]></title>
-            <link>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.52</link>
-            <guid>https://github.com/heygen-com/hyperframes/releases/tag/v0.9.52</guid>
-            <pubDate>Sun, 15 Nov 2026 02:49:36 GMT</pubDate>
-            <description><![CDATA[<h1>HyperFrames v0.9.52</h1>
-<p>Released on 2026-11-15.</p>
-<p>In Studio menus, the highlighted row now follows the menu&#39;s rounded corner. The shared menu row style is exported so other apps can match it.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Menu row highlight follows the menu&#39;s corner (<a href="https://github.com/heygen-com/hyperframes/commit/b5f5ab36a1f4b626da9de40adf7e40257967997c">b5f5ab36a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7791">#7791</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52">https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52</a></p>
-]]></description>
-            <content:encoded><![CDATA[<h1>HyperFrames v0.9.52</h1>
-<p>Released on 2026-11-15.</p>
-<p>In Studio menus, the highlighted row now follows the menu&#39;s rounded corner. The shared menu row style is exported so other apps can match it.</p>
-<h2>Fixes</h2>
-<ul>
-<li><strong>Studio:</strong> Menu row highlight follows the menu&#39;s corner (<a href="https://github.com/heygen-com/hyperframes/commit/b5f5ab36a1f4b626da9de40adf7e40257967997c">b5f5ab36a</a>, <a href="https://github.com/heygen-com/hyperframes/pull/7791">#7791</a>).</li>
-</ul>
-<h2>Full changelog</h2>
-<p><a href="https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52">https://github.com/heygen-com/hyperframes/compare/v0.9.51...v0.9.52</a></p>
 ]]></content:encoded>
         </item>
     </channel>
